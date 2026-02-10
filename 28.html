@@ -632,7 +632,7 @@
         <header>
             <div class="brand">
                 <h1>LJ University</h1>
-                <p id="headerSubtitle">Advanced Academic Performance Dashboard • SY4 Sem-III</p>
+                <p id="headerSubtitle">Advanced Academic Performance Dashboard • SY4 Sem-IV</p>
             </div>
             <div class="actions">
                 <!-- Theme Toggle -->
@@ -732,11 +732,11 @@
                             <th onclick="sortTable('enrollment')">Enrollment</th>
                             <th onclick="sortTable('name')">Student Name</th>
                             <th>Mentor</th>
-                            <th onclick="sortTable('ps')">PS</th>
-                            <th onclick="sortTable('fsd')">FSD-I</th>
-                            <th onclick="sortTable('fcsp')">FCSP-I</th>
-                            <th onclick="sortTable('de')">DE</th>
-                            <th onclick="sortTable('etc')">ETC</th>
+                            <th onclick="sortTable('dm')">DM</th>
+                            <th onclick="sortTable('coa')">COA</th>
+                            <th onclick="sortTable('fsd2')">FSD-II</th>
+                            <th onclick="sortTable('python2')">Python-II</th>
+                            <th onclick="sortTable('toc')">TOC</th>
                             <th onclick="sortTable('total')">Total</th>
                         </tr>
                     </thead>
@@ -775,9 +775,13 @@
 
         // 1. Calculate Global Ranks first
         const rawData = data.map(s => {
-            // Include ETC in total calculation (use 0 if not available)
-            s.etc = s.etc || 0;
-            s.total = s.ps + s.fsd + s.fcsp + s.de + s.etc;
+            // New Subjects for Sem-IV
+            s.dm = s.dm || 0;
+            s.coa = s.coa || 0;
+            s.fsd2 = s.fsd2 || 0;
+            s.python2 = s.python2 || 0;
+            s.toc = s.toc || 0;
+            s.total = s.dm + s.coa + s.fsd2 + s.python2 + s.toc;
             if (!s.dept) s.dept = 'SY4';
             return s;
         }).sort((a, b) => b.total - a.total);
@@ -843,7 +847,7 @@
 
             // Update Header Text
             const subtitle = document.getElementById('headerSubtitle');
-            if (subtitle) subtitle.innerText = `Advanced Academic Performance Dashboard • ${dept} Sem-III`;
+            if (subtitle) subtitle.innerText = `Advanced Academic Performance Dashboard • ${dept} Sem-IV`;
 
             filterData();
         }
@@ -1002,11 +1006,11 @@
                         s.name}
                     </td>
                     <td>${s.mentor}</td>
-                    <td>${s.ps}</td>
-                    <td>${s.fsd}</td>
-                    <td>${s.fcsp}</td>
-                    <td>${s.de}</td>
-                    <td>${s.etc || 0}</td>
+                    <td>${s.dm}</td>
+                    <td>${s.coa}</td>
+                    <td>${s.fsd2}</td>
+                    <td>${s.python2}</td>
+                    <td>${s.toc}</td>
                     <td><span class="cell-total">${s.total.toFixed(2)}</span></td>
                 `;
                 tbody.appendChild(tr);
@@ -1036,16 +1040,16 @@
 
             if (gradeChart) gradeChart.destroy();
 
-            const subjects = ['PS', 'FSD', 'FCSP', 'DE', 'ETC'];
+            const subjects = ['dm', 'coa', 'fsd2', 'python2', 'toc'];
             const avgs = subjects.map(sub => {
-                const sum = filteredData.reduce((acc, s) => acc + (s[sub.toLowerCase()] || 0), 0);
+                const sum = filteredData.reduce((acc, s) => acc + (s[sub] || 0), 0);
                 return (sum / filteredData.length).toFixed(1);
             });
 
             gradeChart = new Chart(ctx, {
                 type: 'bar',
                 data: {
-                    labels: ['Prob. & Stats', 'Full Stack Dev', 'FCSP / Python', 'Digital Elec.', 'ETC'],
+                    labels: ['Discrete Math', 'COA', 'FSD-II', 'Python-II', 'TOC'],
                     datasets: [{
                         label: 'Avg Score',
                         data: avgs,
@@ -1091,10 +1095,10 @@
         }
 
         function exportCSV() {
-            let csv = 'Rank,Roll No,DEPT,Division,Branch,Enrollment,Name,Mentor,PS,FSD,FCSP,DE,Total\n';
+            let csv = 'Rank,Roll No,DEPT,Division,Branch,Enrollment,Name,Mentor,DM,COA,FSD-II,Python-II,TOC,Total\n';
             filteredData.forEach(s => {
                 const { roll, div } = getStudentModeData(s);
-                csv += `${s.rank},${roll},${s.dept || 'SY4'},${div},${s.branch},${s.enrollment},"${s.name}",${s.mentor},${s.ps},${s.fsd},${s.fcsp},${s.de},${s.total}\n`;
+                csv += `${s.rank},${roll},${s.dept || 'SY4'},${div},${s.branch},${s.enrollment},"${s.name}",${s.mentor},${s.dm},${s.coa},${s.fsd2},${s.python2},${s.toc},${s.total}\n`;
             });
             const blob = new Blob([csv], { type: 'text/csv' });
             const Link = document.createElement('a');
