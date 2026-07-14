@@ -738,6 +738,7 @@
                             <th onclick="sortTable('python2')">Python-II</th>
                             <th onclick="sortTable('toc')">TOC</th>
                             <th onclick="sortTable('total')">Total</th>
+                            <th onclick="sortTable('sem3spi')" style="color:var(--accent);">SEM-III SPI <i class="ri-arrow-up-down-line"></i></th>
                             <th class="th-sem-hist" onclick="sortTable('sem1')" style="color:#22d3ee;display:none">Sem I SPI <i class="ri-arrow-up-down-line"></i></th>
                             <th class="th-sem-hist" onclick="sortTable('sem2')" style="color:#22d3ee;display:none">Sem II SPI <i class="ri-arrow-up-down-line"></i></th>
                             <th class="th-sem-hist" onclick="sortTable('sem3marks')" style="color:#f472b6;display:none">Sem III /10 <i class="ri-arrow-up-down-line"></i></th>
@@ -885,12 +886,12 @@
             /* ═══ ROW BUILDER (string concat = fastest) ═══ */
             function buildRowHTML(s) {
                 const rank    = currentDept === 'Overall' ? s.globalRank : s.deptRank;
-                const roll    = currentMode === 'new' ? rank : s.roll;
+                const roll    = s.roll;
                 const div     = s.div;
 
                 let cls = '';
                 if (rank <= 3 && currentMode === 'new') cls = 'top-rank';
-                const isHL = s.dept === 'SY4' && [37, 52, 62, 131, 97].includes(s.roll);
+                const isHL = s.dept === 'SY4' && [35, 31, 63, 86, 72].includes(s.roll);
                 if (isHL) cls += ' highlight-row';
 
                 const dot  = isHL ? '<span class="hl-dot"></span>' : '';
@@ -924,6 +925,7 @@
 <td>${s.python2}</td>
 <td>${s.toc}</td>
 <td><span class="cell-total">${s.total.toFixed(2)}</span></td>
+<td style="color:var(--accent);font-weight:600">${s.sem3spi != null ? s.sem3spi.toFixed(2) : '--'}</td>
 ${semCells}
 </tr>`;
             }
@@ -1061,9 +1063,9 @@ ${semCells}
                         va = currentDept === 'Overall' ? a.globalRank : a.deptRank;
                         vb = currentDept === 'Overall' ? b.globalRank : b.deptRank;
                     } else if (key === 'roll') {
-                        va = currentMode === 'new' ? (currentDept === 'Overall' ? a.globalRank : a.deptRank) : a.roll;
-                        vb = currentMode === 'new' ? (currentDept === 'Overall' ? b.globalRank : b.deptRank) : b.roll;
-                    } else if (['sem1','sem2','sem3marks','sem3spi2','totalSum'].includes(key)) {
+                        va = a.roll;
+                        vb = b.roll;
+                    } else if (['sem1','sem2','sem3marks','sem3spi2','totalSum','sem3spi'].includes(key)) {
                         va = a[key] ?? -1; vb = b[key] ?? -1;
                     } else {
                         va = a[key]; vb = b[key];
@@ -1078,13 +1080,13 @@ ${semCells}
             /* ═══ EXPORT ═══ */
             window.exportCSV = function () {
                 const showSemCols = (currentDept === 'SY1' || currentDept === 'SY2' || currentDept === 'SY4' || currentDept === 'Overall');
-                let csv = 'Rank,Roll No,DEPT,Division,Branch,Enrollment,Name,Mentor,DM,COA,FSD-II,Python-II,TOC,Total';
+                let csv = 'Rank,Roll No,DEPT,Division,Branch,Enrollment,Name,Mentor,DM,COA,FSD-II,Python-II,TOC,Total,SEM-III SPI';
                 if (showSemCols) csv += ',Sem I SPI,Sem II SPI,Sem III /10,SPI\u00d72 /20,Total /40';
                 csv += '\n';
                 filteredData.forEach(s => {
                     const rk  = currentDept === 'Overall' ? s.globalRank : s.deptRank;
-                    const rol = currentMode === 'new' ? rk : s.roll;
-                    let row   = `${rk},${rol},${s.dept},${s.div},${s.branch},${s.enrollment},"${s.name}",${s.mentor},${s.dm},${s.coa},${s.fsd2},${s.python2},${s.toc},${s.total}`;
+                    const rol = s.roll;
+                    let row   = `${rk},${rol},${s.dept},${s.div},${s.branch},${s.enrollment},"${s.name}",${s.mentor},${s.dm},${s.coa},${s.fsd2},${s.python2},${s.toc},${s.total},${s.sem3spi??''}`;
                     if (showSemCols) {
                         const hasSem = s.dept === 'SY1' || s.dept === 'SY2' || s.dept === 'SY4';
                         row += hasSem ? `,${s.sem1??''},${s.sem2??''},${s.sem3marks??''},${s.sem3spi2??''},${s.totalSum??''}` : ',,,,,';
