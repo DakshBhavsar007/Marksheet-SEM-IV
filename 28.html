@@ -1372,7 +1372,7 @@
         </div>
     </div>
 
-    <script src="new_datamarksheet.js?v=12"></script>
+    <script src="new_datamarksheet.js?v=13"></script>
     <script>
         (function () {
             'use strict';
@@ -1683,9 +1683,8 @@ ${semCells}
                 document.getElementById('stat-count').innerText  = n;
                 document.getElementById('stat-avg').innerText    = (sum / n).toFixed(1);
                 
-                // Format Topper name in Stat Card to be compact
-                const tName = topper.name.split(' ').slice(0, 2).join(' ');
-                document.getElementById('stat-topper').innerText = `${tName} (${topper.total.toFixed(1)})`;
+                // Set Topper Score only in Stat Card
+                document.getElementById('stat-topper').innerText = topper.total.toFixed(1);
 
                 // Calculate subject toppers
                 const subjects = [
