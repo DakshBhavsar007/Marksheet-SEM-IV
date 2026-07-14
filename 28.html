@@ -1001,7 +1001,7 @@
         </div>
     </div>
 
-    <script src="new_datamarksheet.js?v=4"></script>
+    <script src="new_datamarksheet.js?v=5"></script>
     <script>
         (function () {
             'use strict';
@@ -1429,6 +1429,35 @@ ${semCells}
                 if (!ls || Date.now()-ls > 3600000) { silentCloudSync(); localStorage.setItem('last_silent_sync',Date.now()); }
             });
 
+            /* ═══ SPI CALCULATOR (UNIVERSITY SCHEME) ═══ */
+            function calculateSem4SPI(s) {
+                function getGP(marks) {
+                    const m = Math.round(marks);
+                    if (m >= 95) return 10;
+                    if (m >= 90) return 9.5;
+                    if (m >= 85) return 9;
+                    if (m >= 80) return 8.5;
+                    if (m >= 75) return 8;
+                    if (m >= 70) return 7.5;
+                    if (m >= 65) return 7;
+                    if (m >= 60) return 6.5;
+                    if (m >= 55) return 6;
+                    if (m >= 50) return 5.5;
+                    if (m >= 45) return 5;
+                    if (m >= 40) return 4.5;
+                    if (m >= 35) return 4;
+                    return 0;
+                }
+                const g_dm = getGP(s.dm) * 4;
+                const g_fsd2 = getGP(s.fsd2) * 6;
+                const g_coa = getGP(s.coa) * 5;
+                const g_toc = getGP(s.toc) * 5;
+                const g_python2 = getGP(s.python2) * 5;
+                
+                const totalG = Math.ceil(g_dm + g_fsd2 + g_coa + g_toc + g_python2);
+                return totalG / 25.0;
+            }
+
             /* ═══ MODAL ACTIONS ═══ */
             window.showStudentModal = function (enrollment) {
                 const s = allData.find(x => x.enrollment === enrollment);
@@ -1448,8 +1477,8 @@ ${semCells}
                 document.getElementById('modalSem2').innerText = s.sem2 != null ? s.sem2.toFixed(2) : '--';
                 document.getElementById('modalSem3').innerText = s.sem3spi != null ? s.sem3spi.toFixed(2) : '--';
                 
-                // Estimate Sem-IV SPI: total/50
-                const estSem4 = s.total / 50.0;
+                // Estimate Sem-IV SPI using the university credit-grade mapping
+                const estSem4 = calculateSem4SPI(s);
                 document.getElementById('modalSem4').innerText = estSem4.toFixed(2);
                 
                 // Build subject bars
