@@ -637,6 +637,7 @@
         .badge-blue { background: rgba(0, 206, 201, 0.12); color: #00cec9; border: 1px solid rgba(0, 206, 201, 0.2); }
         .badge-yellow { background: rgba(253, 203, 110, 0.12); color: #f1c40f; border: 1px solid rgba(253, 203, 110, 0.2); }
         .badge-red { background: rgba(232, 67, 147, 0.12); color: #e84393; border: 1px solid rgba(232, 67, 147, 0.2); }
+        .badge-topper { background: rgba(255, 215, 0, 0.18); color: #ffd700; border: 1px solid rgba(255, 215, 0, 0.4); font-weight: 700; box-shadow: 0 0 10px rgba(255, 215, 0, 0.15); }
 
         /* Modal Styles */
         .modal-overlay {
@@ -1154,7 +1155,7 @@
         </div>
     </div>
 
-    <script src="new_datamarksheet.js?v=7"></script>
+    <script src="new_datamarksheet.js?v=8"></script>
     <script>
         (function () {
             'use strict';
@@ -1193,6 +1194,15 @@
             const depts = [...new Set(rawData.map(s => s.dept))];
             const dc = {}; depts.forEach(d => dc[d] = 1);
             const allData = rawData.map(s => { s.deptRank = dc[s.dept]++; return s; });
+
+            // Calculate global subject toppers thresholds
+            window.maxMarks = {
+                dm: Math.max(...allData.map(s => s.dm)),
+                coa: Math.max(...allData.map(s => s.coa)),
+                fsd2: Math.max(...allData.map(s => s.fsd2)),
+                python2: Math.max(...allData.map(s => s.python2)),
+                toc: Math.max(...allData.map(s => s.toc))
+            };
 
             /* ═══ TAB INDICATOR ═══ */
             function setIndicator(el, id) {
@@ -1283,13 +1293,18 @@
             }
 
             /* ═══ BADGE BUILDER ═══ */
-            function getMarkBadgeHTML(val) {
+            function getMarkBadgeHTML(val, subKey) {
                 let colorClass = '';
-                if (val >= 90) colorClass = 'badge-green';
+                const isTopper = window.maxMarks && val === window.maxMarks[subKey] && val > 0;
+                
+                if (isTopper) colorClass = 'badge-topper';
+                else if (val >= 90) colorClass = 'badge-green';
                 else if (val >= 75) colorClass = 'badge-blue';
                 else if (val >= 40) colorClass = 'badge-yellow';
                 else colorClass = 'badge-red';
-                return `<span class="mark-badge ${colorClass}">${val}</span>`;
+                
+                const suffix = isTopper ? ' 👑' : '';
+                return `<span class="mark-badge ${colorClass}">${val}${suffix}</span>`;
             }
 
             /* ═══ ROW BUILDER (string concat = fastest) ═══ */
@@ -1328,11 +1343,11 @@
 <td style="font-family:monospace;color:var(--text-muted)">${s.enrollment}</td>
 <td style="font-weight:500">${name}</td>
 <td>${s.mentor}</td>
-<td>${getMarkBadgeHTML(s.dm)}</td>
-<td>${getMarkBadgeHTML(s.coa)}</td>
-<td>${getMarkBadgeHTML(s.fsd2)}</td>
-<td>${getMarkBadgeHTML(s.python2)}</td>
-<td>${getMarkBadgeHTML(s.toc)}</td>
+<td>${getMarkBadgeHTML(s.dm, 'dm')}</td>
+<td>${getMarkBadgeHTML(s.coa, 'coa')}</td>
+<td>${getMarkBadgeHTML(s.fsd2, 'fsd2')}</td>
+<td>${getMarkBadgeHTML(s.python2, 'python2')}</td>
+<td>${getMarkBadgeHTML(s.toc, 'toc')}</td>
 <td><span class="cell-total">${s.total.toFixed(2)}</span></td>
 <td style="color:var(--accent);font-weight:600">${s.sem3spi != null ? s.sem3spi.toFixed(2) : '--'}</td>
 ${semCells}
