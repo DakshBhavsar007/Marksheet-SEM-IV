@@ -1154,7 +1154,7 @@
         </div>
     </div>
 
-    <script src="new_datamarksheet.js?v=6"></script>
+    <script src="new_datamarksheet.js?v=7"></script>
     <script>
         (function () {
             'use strict';
@@ -1241,8 +1241,15 @@
             function updateDivisions(dept) {
                 const sel = document.getElementById('divFilter');
                 sel.innerHTML = '<option value="">All Divisions</option>';
-                const map = { SY4: ['D',9], SY1: ['A',9], SY2: ['B',8], SY3: ['C',9] };
-                if (map[dept]) {
+                const map = { SY1: ['A',9], SY2: ['B',8], SY3: ['C',9], SY4: ['D',9] };
+                if (dept === 'Overall') {
+                    for (const [dep, info] of Object.entries(map)) {
+                        const [pfx, n] = info;
+                        for (let i = 1; i <= n; i++) {
+                            sel.add(new Option(`${dep} - ${pfx}${i}`, pfx + i));
+                        }
+                    }
+                } else if (map[dept]) {
                     const [pfx, n] = map[dept];
                     for (let i = 1; i <= n; i++) sel.add(new Option(pfx + i, pfx + i));
                 }
