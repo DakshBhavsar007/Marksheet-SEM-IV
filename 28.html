@@ -622,6 +622,182 @@
                 transform: translateY(-3px) rotate(20deg);
             }
         }
+
+        /* Badge Styles */
+        .mark-badge {
+            display: inline-block;
+            padding: 4px 8px;
+            border-radius: 6px;
+            font-weight: 600;
+            font-size: 0.85rem;
+            min-width: 45px;
+            text-align: center;
+        }
+        .badge-green { background: rgba(0, 184, 148, 0.12); color: #2ecc71; border: 1px solid rgba(0, 184, 148, 0.2); }
+        .badge-blue { background: rgba(0, 206, 201, 0.12); color: #00cec9; border: 1px solid rgba(0, 206, 201, 0.2); }
+        .badge-yellow { background: rgba(253, 203, 110, 0.12); color: #f1c40f; border: 1px solid rgba(253, 203, 110, 0.2); }
+        .badge-red { background: rgba(232, 67, 147, 0.12); color: #e84393; border: 1px solid rgba(232, 67, 147, 0.2); }
+
+        /* Modal Styles */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            width: 100%;
+            height: 100%;
+            background: rgba(10, 12, 18, 0.7);
+            backdrop-filter: blur(8px);
+            z-index: 1000;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s var(--ease);
+        }
+        .modal-overlay.show {
+            opacity: 1;
+            pointer-events: auto;
+        }
+        .modal-card {
+            width: 90%;
+            max-width: 800px;
+            padding: 30px;
+            position: relative;
+            transform: scale(0.9);
+            transition: transform 0.3s var(--ease);
+            border: 1px solid rgba(255, 255, 255, 0.12);
+        }
+        .modal-overlay.show .modal-card {
+            transform: scale(1);
+        }
+        .modal-close {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            background: none;
+            border: none;
+            color: var(--text-muted);
+            font-size: 1.5rem;
+            cursor: pointer;
+            transition: color 0.2s;
+        }
+        .modal-close:hover {
+            color: var(--text-main);
+        }
+        .modal-header {
+            margin-bottom: 25px;
+            border-bottom: 1px solid var(--border-glass);
+            padding-bottom: 15px;
+        }
+        .modal-header h2 {
+            font-size: 1.8rem;
+            font-weight: 700;
+            background: linear-gradient(135deg, var(--text-main) 0%, var(--primary) 100%);
+            -webkit-background-clip: text;
+            background-clip: text;
+            -webkit-text-fill-color: transparent;
+        }
+        .modal-header p {
+            color: var(--text-muted);
+            font-size: 0.95rem;
+            margin-top: 5px;
+        }
+        .modal-body-grid {
+            display: grid;
+            grid-template-columns: 1fr 2fr;
+            gap: 30px;
+        }
+        .modal-profile-column {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            border-right: 1px solid var(--border-glass);
+            padding-right: 20px;
+        }
+        .avatar-circle {
+            width: 90px;
+            height: 90px;
+            border-radius: 50%;
+            background: var(--bg-glass-hover);
+            border: 2px solid var(--border-glass);
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 3rem;
+            color: var(--primary);
+            margin-bottom: 20px;
+            box-shadow: 0 4px 20px var(--primary-glow);
+        }
+        .profile-detail-item {
+            width: 100%;
+            margin-bottom: 15px;
+            display: flex;
+            flex-direction: column;
+        }
+        .detail-label {
+            font-size: 0.75rem;
+            color: var(--text-muted);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .detail-value {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-top: 2px;
+        }
+        .modal-perf-column h3 {
+            font-size: 1.1rem;
+            font-weight: 600;
+            margin-bottom: 15px;
+            color: var(--text-main);
+        }
+        .subject-row {
+            margin-bottom: 12px;
+        }
+        .subject-labels {
+            display: flex;
+            justify-content: space-between;
+            font-size: 0.85rem;
+            margin-bottom: 4px;
+        }
+        .subject-progress-bg {
+            width: 100%;
+            height: 8px;
+            background: var(--bg-glass-hover);
+            border-radius: 4px;
+            overflow: hidden;
+        }
+        .subject-progress-bar {
+            height: 100%;
+            border-radius: 4px;
+            transition: width 0.5s ease-out;
+        }
+        .spi-timeline {
+            display: flex;
+            justify-content: space-between;
+            background: var(--bg-glass-hover);
+            padding: 15px;
+            border-radius: 12px;
+            border: 1px solid var(--border-glass);
+        }
+        .spi-node {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+        }
+        .spi-sem {
+            font-size: 0.8rem;
+            color: var(--text-muted);
+        }
+        .spi-val {
+            font-size: 1.1rem;
+            font-weight: 700;
+            margin-top: 4px;
+        }
+        .spi-node.accent .spi-val {
+            color: var(--accent);
+        }
     </style>
 </head>
 
@@ -760,6 +936,69 @@
         <div style="text-align:right;margin-top:8px;font-size:0.75rem;color:var(--text-muted)">
             <span id="badgeCount">0</span> students shown
         </div>
+
+        <!-- Student Detail Modal -->
+        <div id="studentModal" class="modal-overlay hidden" onclick="closeModal()">
+            <div class="glass-panel modal-card" onclick="event.stopPropagation()">
+                <button class="modal-close" onclick="closeModal()"><i class="ri-close-line"></i></button>
+                <div class="modal-header">
+                    <h2 id="modalName">Student Name</h2>
+                    <p id="modalInfo">Branch • Div • Roll No</p>
+                </div>
+                <div class="modal-body-grid">
+                    <!-- Profile Column -->
+                    <div class="modal-profile-column">
+                        <div class="avatar-circle">
+                            <i class="ri-user-3-line"></i>
+                        </div>
+                        <div class="profile-detail-item">
+                            <span class="detail-label">Enrollment</span>
+                            <span class="detail-value" id="modalEnroll">--</span>
+                        </div>
+                        <div class="profile-detail-item">
+                            <span class="detail-label">Mentor</span>
+                            <span class="detail-value" id="modalMentor">--</span>
+                        </div>
+                        <div class="profile-detail-item">
+                            <span class="detail-label">Total Score</span>
+                            <span class="detail-value" id="modalTotal" style="color:var(--accent);">--</span>
+                        </div>
+                        <div class="profile-detail-item">
+                            <span class="detail-label">Class Rank</span>
+                            <span class="detail-value" id="modalRank" style="color:var(--primary);">--</span>
+                        </div>
+                    </div>
+                    
+                    <!-- Performance Column -->
+                    <div class="modal-perf-column">
+                        <h3>Subject Performance</h3>
+                        <div class="subject-bars" id="modalSubjectBars">
+                            <!-- Dynamically filled -->
+                        </div>
+                        
+                        <h3 style="margin-top: 25px;">Semester SPI Progress</h3>
+                        <div class="spi-timeline">
+                            <div class="spi-node">
+                                <span class="spi-sem">Sem I</span>
+                                <span class="spi-val" id="modalSem1">--</span>
+                            </div>
+                            <div class="spi-node">
+                                <span class="spi-sem">Sem II</span>
+                                <span class="spi-val" id="modalSem2">--</span>
+                            </div>
+                            <div class="spi-node">
+                                <span class="spi-sem">Sem III</span>
+                                <span class="spi-val" id="modalSem3">--</span>
+                            </div>
+                            <div class="spi-node accent">
+                                <span class="spi-sem">Sem IV (Est)</span>
+                                <span class="spi-val" id="modalSem4">--</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </div>
 
     <script src="new_datamarksheet.js?v=4"></script>
@@ -883,6 +1122,16 @@
                 }
             }
 
+            /* ═══ BADGE BUILDER ═══ */
+            function getMarkBadgeHTML(val) {
+                let colorClass = '';
+                if (val >= 90) colorClass = 'badge-green';
+                else if (val >= 75) colorClass = 'badge-blue';
+                else if (val >= 40) colorClass = 'badge-yellow';
+                else colorClass = 'badge-red';
+                return `<span class="mark-badge ${colorClass}">${val}</span>`;
+            }
+
             /* ═══ ROW BUILDER (string concat = fastest) ═══ */
             function buildRowHTML(s) {
                 const rank    = currentDept === 'Overall' ? s.globalRank : s.deptRank;
@@ -910,7 +1159,7 @@
                        <td style="color:#fbbf24;font-weight:700;background:rgba(251,191,36,0.07)">${s.totalSum}</td>`
                     : '<td></td><td></td><td></td><td></td><td></td>';
 
-                return `<tr class="${cls}">
+                return `<tr class="${cls}" onclick="showStudentModal('${s.enrollment}')" style="cursor:pointer">
 <td class="cell-rank">${dot}#${rank}</td>
 <td style="font-weight:600">${roll}</td>
 <td>${s.dept}</td>
@@ -919,11 +1168,11 @@
 <td style="font-family:monospace;color:var(--text-muted)">${s.enrollment}</td>
 <td style="font-weight:500">${name}</td>
 <td>${s.mentor}</td>
-<td>${s.dm}</td>
-<td>${s.coa}</td>
-<td>${s.fsd2}</td>
-<td>${s.python2}</td>
-<td>${s.toc}</td>
+<td>${getMarkBadgeHTML(s.dm)}</td>
+<td>${getMarkBadgeHTML(s.coa)}</td>
+<td>${getMarkBadgeHTML(s.fsd2)}</td>
+<td>${getMarkBadgeHTML(s.python2)}</td>
+<td>${getMarkBadgeHTML(s.toc)}</td>
 <td><span class="cell-total">${s.total.toFixed(2)}</span></td>
 <td style="color:var(--accent);font-weight:600">${s.sem3spi != null ? s.sem3spi.toFixed(2) : '--'}</td>
 ${semCells}
@@ -1179,6 +1428,66 @@ ${semCells}
                 const ls = localStorage.getItem('last_silent_sync');
                 if (!ls || Date.now()-ls > 3600000) { silentCloudSync(); localStorage.setItem('last_silent_sync',Date.now()); }
             });
+
+            /* ═══ MODAL ACTIONS ═══ */
+            window.showStudentModal = function (enrollment) {
+                const s = allData.find(x => x.enrollment === enrollment);
+                if (!s) return;
+                
+                document.getElementById('modalName').innerText = s.name;
+                document.getElementById('modalInfo').innerText = `${s.branch} • Div ${s.div} • Roll No ${s.roll}`;
+                document.getElementById('modalEnroll').innerText = s.enrollment;
+                document.getElementById('modalMentor').innerText = s.mentor;
+                document.getElementById('modalTotal').innerText = `${s.total.toFixed(2)} / 500`;
+                
+                const rank = currentDept === 'Overall' ? s.globalRank : s.deptRank;
+                document.getElementById('modalRank').innerText = `#${rank}`;
+                
+                // Set SPI Values
+                document.getElementById('modalSem1').innerText = s.sem1 != null ? s.sem1.toFixed(2) : '--';
+                document.getElementById('modalSem2').innerText = s.sem2 != null ? s.sem2.toFixed(2) : '--';
+                document.getElementById('modalSem3').innerText = s.sem3spi != null ? s.sem3spi.toFixed(2) : '--';
+                
+                // Estimate Sem-IV SPI: total/50
+                const estSem4 = s.total / 50.0;
+                document.getElementById('modalSem4').innerText = estSem4.toFixed(2);
+                
+                // Build subject bars
+                const subs = [
+                    { name: 'Discrete Math', val: s.dm, color: '#6c5ce7' },
+                    { name: 'COA', val: s.coa, color: '#00cec9' },
+                    { name: 'FSD-II', val: s.fsd2, color: '#e84393' },
+                    { name: 'Python-II', val: s.python2, color: '#fdcb6e' },
+                    { name: 'TOC', val: s.toc, color: '#2ed573' }
+                ];
+                
+                let barsHTML = '';
+                subs.forEach(sub => {
+                    const pct = Math.min((sub.val / 100) * 100, 100);
+                    barsHTML += `
+                        <div class="subject-row">
+                            <div class="subject-labels">
+                                <span>${sub.name}</span>
+                                <span style="font-weight:600; color:${sub.color}">${sub.val.toFixed(1)} / 100</span>
+                            </div>
+                            <div class="subject-progress-bg">
+                                <div class="subject-progress-bar" style="width: ${pct}%; background-color: ${sub.color}"></div>
+                            </div>
+                        </div>
+                    `;
+                });
+                document.getElementById('modalSubjectBars').innerHTML = barsHTML;
+                
+                const modal = document.getElementById('studentModal');
+                modal.classList.remove('hidden');
+                setTimeout(() => modal.classList.add('show'), 10);
+            };
+            
+            window.closeModal = function () {
+                const modal = document.getElementById('studentModal');
+                modal.classList.remove('show');
+                setTimeout(() => modal.classList.add('hidden'), 300);
+            };
 
             /* ═══ INIT ═══ */
             window.onload = () => {
