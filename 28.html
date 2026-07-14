@@ -798,6 +798,96 @@
         .spi-node.accent .spi-val {
             color: var(--accent);
         }
+
+        /* Toppers Styles */
+        .toppers-bar {
+            padding: 15px 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            background: var(--bg-glass);
+            backdrop-filter: blur(10px);
+            border-radius: 16px;
+        }
+        .toppers-title {
+            display: flex;
+            align-items: center;
+            gap: 8px;
+            font-size: 0.95rem;
+            font-weight: 600;
+            color: var(--text-main);
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+        .toppers-grid {
+            display: grid;
+            grid-template-columns: repeat(5, 1fr);
+            gap: 15px;
+        }
+        @media (max-width: 1024px) {
+            .toppers-grid {
+                grid-template-columns: repeat(3, 1fr);
+            }
+        }
+        @media (max-width: 768px) {
+            .toppers-grid {
+                grid-template-columns: 1fr 1fr;
+            }
+        }
+        @media (max-width: 480px) {
+            .toppers-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        .topper-mini-card {
+            background: rgba(255, 255, 255, 0.03);
+            border: 1px solid rgba(255, 255, 255, 0.05);
+            border-radius: 10px;
+            padding: 10px 12px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            gap: 10px;
+            transition: all 0.2s var(--ease);
+        }
+        .topper-mini-card:hover {
+            transform: translateY(-2px);
+            background: rgba(255, 255, 255, 0.06);
+            border-color: rgba(255, 255, 255, 0.1);
+            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+        }
+        .topper-badge {
+            font-size: 0.75rem;
+            font-weight: 700;
+            padding: 4px 6px;
+            border-radius: 6px;
+            text-align: center;
+            min-width: 65px;
+        }
+        .topper-info {
+            display: flex;
+            flex-direction: column;
+            flex-grow: 1;
+            min-width: 0;
+        }
+        .topper-name {
+            font-size: 0.85rem;
+            font-weight: 600;
+            color: var(--text-main);
+            white-space: nowrap;
+            overflow: hidden;
+            text-overflow: ellipsis;
+        }
+        .topper-meta {
+            font-size: 0.7rem;
+            color: var(--text-muted);
+        }
+        .topper-score {
+            font-size: 1rem;
+            font-weight: 700;
+            color: var(--success);
+        }
     </style>
 </head>
 
@@ -858,6 +948,61 @@
                     <i class="ri-trophy-line stat-icon"></i>
                     <span class="stat-label">Pass Rate</span>
                     <span class="stat-value">100%</span>
+                </div>
+            </div>
+        </div>
+
+        <!-- SUBJECT TOPPERS -->
+        <div class="glass-panel toppers-bar" style="margin-bottom: 25px;">
+            <div class="toppers-title">
+                <i class="ri-trophy-line" style="color: var(--accent); font-size: 1.2rem;"></i>
+                <span>Subject Wise Toppers</span>
+            </div>
+            <div class="toppers-grid">
+                <!-- Card 1: DM -->
+                <div class="topper-mini-card">
+                    <div class="topper-badge" style="background:rgba(108,92,231,0.12); color:#6c5ce7; border: 1px solid rgba(108,92,231,0.2)">DM</div>
+                    <div class="topper-info">
+                        <span class="topper-name" id="topper-dm-name">Loading...</span>
+                        <span class="topper-meta" id="topper-dm-meta">Roll -- • Div --</span>
+                    </div>
+                    <span class="topper-score" id="topper-dm-score">--</span>
+                </div>
+                <!-- Card 2: COA -->
+                <div class="topper-mini-card">
+                    <div class="topper-badge" style="background:rgba(0,206,201,0.12); color:#00cec9; border: 1px solid rgba(0,206,201,0.2)">COA</div>
+                    <div class="topper-info">
+                        <span class="topper-name" id="topper-coa-name">Loading...</span>
+                        <span class="topper-meta" id="topper-coa-meta">Roll -- • Div --</span>
+                    </div>
+                    <span class="topper-score" id="topper-coa-score">--</span>
+                </div>
+                <!-- Card 3: FSD -->
+                <div class="topper-mini-card">
+                    <div class="topper-badge" style="background:rgba(232,67,147,0.12); color:#e84393; border: 1px solid rgba(232,67,147,0.2)">FSD-II</div>
+                    <div class="topper-info">
+                        <span class="topper-name" id="topper-fsd-name">Loading...</span>
+                        <span class="topper-meta" id="topper-fsd-meta">Roll -- • Div --</span>
+                    </div>
+                    <span class="topper-score" id="topper-fsd-score">--</span>
+                </div>
+                <!-- Card 4: PYTHON -->
+                <div class="topper-mini-card">
+                    <div class="topper-badge" style="background:rgba(253,203,110,0.12); color:#fdcb6e; border: 1px solid rgba(253,203,110,0.2)">Python-II</div>
+                    <div class="topper-info">
+                        <span class="topper-name" id="topper-python-name">Loading...</span>
+                        <span class="topper-meta" id="topper-python-meta">Roll -- • Div --</span>
+                    </div>
+                    <span class="topper-score" id="topper-python-score">--</span>
+                </div>
+                <!-- Card 5: TOC -->
+                <div class="topper-mini-card">
+                    <div class="topper-badge" style="background:rgba(46,213,115,0.12); color:#2ed573; border: 1px solid rgba(46,213,115,0.2)">TOC</div>
+                    <div class="topper-info">
+                        <span class="topper-name" id="topper-toc-name">Loading...</span>
+                        <span class="topper-meta" id="topper-toc-meta">Roll -- • Div --</span>
+                    </div>
+                    <span class="topper-score" id="topper-toc-score">--</span>
                 </div>
             </div>
         </div>
@@ -967,6 +1112,14 @@
                             <span class="detail-label">Class Rank</span>
                             <span class="detail-value" id="modalRank" style="color:var(--primary);">--</span>
                         </div>
+                        <div class="profile-detail-item">
+                            <span class="detail-label">Peer Comparison</span>
+                            <span class="detail-value" id="modalDivComp">--</span>
+                        </div>
+                        <div class="profile-detail-item">
+                            <span class="detail-label">SPI Trajectory</span>
+                            <span class="detail-value" id="modalSpiTrajectory">--</span>
+                        </div>
                     </div>
                     
                     <!-- Performance Column -->
@@ -1001,7 +1154,7 @@
         </div>
     </div>
 
-    <script src="new_datamarksheet.js?v=5"></script>
+    <script src="new_datamarksheet.js?v=6"></script>
     <script>
         (function () {
             'use strict';
@@ -1252,7 +1405,32 @@ ${semCells}
                 const topper = filteredData.reduce((p, c) => p.total > c.total ? p : c);
                 document.getElementById('stat-count').innerText  = n;
                 document.getElementById('stat-avg').innerText    = (sum / n).toFixed(1);
-                document.getElementById('stat-topper').innerText = topper.total.toFixed(2);
+                
+                // Format Topper name in Stat Card to be compact
+                const tName = topper.name.split(' ').slice(0, 2).join(' ');
+                document.getElementById('stat-topper').innerText = `${tName} (${topper.total.toFixed(1)})`;
+
+                // Calculate subject toppers
+                const subjects = [
+                    { key: 'dm', nameId: 'topper-dm-name', metaId: 'topper-dm-meta', scoreId: 'topper-dm-score' },
+                    { key: 'coa', nameId: 'topper-coa-name', metaId: 'topper-coa-meta', scoreId: 'topper-coa-score' },
+                    { key: 'fsd2', nameId: 'topper-fsd-name', metaId: 'topper-fsd-meta', scoreId: 'topper-fsd-score' },
+                    { key: 'python2', nameId: 'topper-python-name', metaId: 'topper-python-meta', scoreId: 'topper-python-score' },
+                    { key: 'toc', nameId: 'topper-toc-name', metaId: 'topper-toc-meta', scoreId: 'topper-toc-score' }
+                ];
+                
+                subjects.forEach(sub => {
+                    const topStudent = filteredData.reduce((p, c) => (p[sub.key] || 0) > (c[sub.key] || 0) ? p : c);
+                    const sScore = topStudent[sub.key] || 0;
+                    
+                    // Format Name to FirstName LastName (compact)
+                    const parts = topStudent.name.split(' ');
+                    const formatName = parts.length >= 2 ? `${parts[0]} ${parts[1]}` : topStudent.name;
+                    
+                    document.getElementById(sub.nameId).innerText = formatName;
+                    document.getElementById(sub.metaId).innerText = `Roll ${topStudent.roll} • Div ${topStudent.div}`;
+                    document.getElementById(sub.scoreId).innerText = sScore.toFixed(1);
+                });
             }
 
             /* ═══ CHART (throttled RAF) ═══ */
@@ -1458,6 +1636,25 @@ ${semCells}
                 return totalG / 25.0;
             }
 
+            /* ═══ LETTER GRADES ═══ */
+            function getLetterGrade(marks) {
+                const m = Math.round(marks);
+                if (m >= 95) return 'O+++';
+                if (m >= 90) return 'O++';
+                if (m >= 85) return 'O+';
+                if (m >= 80) return 'O';
+                if (m >= 75) return 'A++';
+                if (m >= 70) return 'A+';
+                if (m >= 65) return 'A';
+                if (m >= 60) return 'B++';
+                if (m >= 55) return 'B+';
+                if (m >= 50) return 'B';
+                if (m >= 45) return 'C';
+                if (m >= 40) return 'D';
+                if (m >= 35) return 'E';
+                return 'F';
+            }
+
             /* ═══ MODAL ACTIONS ═══ */
             window.showStudentModal = function (enrollment) {
                 const s = allData.find(x => x.enrollment === enrollment);
@@ -1471,6 +1668,14 @@ ${semCells}
                 
                 const rank = currentDept === 'Overall' ? s.globalRank : s.deptRank;
                 document.getElementById('modalRank').innerText = `#${rank}`;
+
+                // Calculate division average and peer comparison
+                const divStudents = allData.filter(x => x.div === s.div && x.dept === s.dept);
+                const divAvg = divStudents.reduce((a, c) => a + c.total, 0) / (divStudents.length || 1);
+                const diff = s.total - divAvg;
+                const diffStr = diff >= 0 ? `+${diff.toFixed(1)}` : `${diff.toFixed(1)}`;
+                document.getElementById('modalDivComp').innerText = `${divAvg.toFixed(1)} (${diffStr})`;
+                document.getElementById('modalDivComp').style.color = diff >= 0 ? '#2ecc71' : '#e84393';
                 
                 // Set SPI Values
                 document.getElementById('modalSem1').innerText = s.sem1 != null ? s.sem1.toFixed(2) : '--';
@@ -1480,6 +1685,17 @@ ${semCells}
                 // Estimate Sem-IV SPI using the university credit-grade mapping
                 const estSem4 = calculateSem4SPI(s);
                 document.getElementById('modalSem4').innerText = estSem4.toFixed(2);
+
+                // Set SPI trajectory comparison
+                if (s.sem3spi != null) {
+                    const traj = estSem4 - s.sem3spi;
+                    const trajStr = traj >= 0 ? `📈 +${traj.toFixed(2)}` : `📉 ${traj.toFixed(2)}`;
+                    document.getElementById('modalSpiTrajectory').innerText = trajStr;
+                    document.getElementById('modalSpiTrajectory').style.color = traj >= 0 ? '#2ecc71' : '#e84393';
+                } else {
+                    document.getElementById('modalSpiTrajectory').innerText = '--';
+                    document.getElementById('modalSpiTrajectory').style.color = 'var(--text-muted)';
+                }
                 
                 // Build subject bars
                 const subs = [
@@ -1493,10 +1709,11 @@ ${semCells}
                 let barsHTML = '';
                 subs.forEach(sub => {
                     const pct = Math.min((sub.val / 100) * 100, 100);
+                    const grade = getLetterGrade(sub.val);
                     barsHTML += `
                         <div class="subject-row">
                             <div class="subject-labels">
-                                <span>${sub.name}</span>
+                                <span>${sub.name} <strong style="color:${sub.color}; font-size:0.75rem; margin-left:6px;">[Grade: ${grade}]</strong></span>
                                 <span style="font-weight:600; color:${sub.color}">${sub.val.toFixed(1)} / 100</span>
                             </div>
                             <div class="subject-progress-bg">
