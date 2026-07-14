@@ -1372,7 +1372,7 @@
         </div>
     </div>
 
-    <script src="new_datamarksheet.js?v=13"></script>
+    <script src="new_datamarksheet.js?v=14"></script>
     <script>
         (function () {
             'use strict';
@@ -1671,16 +1671,33 @@ ${semCells}
 
             /* ═══ STATS ═══ */
             function updateStats() {
-                if (!filteredData.length) {
-                    document.getElementById('stat-count').innerText = '--';
+                const sy4Pool = filteredData.filter(s => s.dept === 'SY4');
+                
+                document.getElementById('stat-count').innerText = filteredData.length;
+                
+                if (!sy4Pool.length) {
                     document.getElementById('stat-avg').innerText   = '--';
                     document.getElementById('stat-topper').innerText = '--';
+                    
+                    // Reset toppers text
+                    const topperIds = [
+                        'topper-dm-name', 'topper-dm-meta', 'topper-dm-score',
+                        'topper-coa-name', 'topper-coa-meta', 'topper-coa-score',
+                        'topper-fsd-name', 'topper-fsd-meta', 'topper-fsd-score',
+                        'topper-python-name', 'topper-python-meta', 'topper-python-score',
+                        'topper-toc-name', 'topper-toc-meta', 'topper-toc-score'
+                    ];
+                    topperIds.forEach(id => {
+                        const el = document.getElementById(id);
+                        if (el) el.innerText = '--';
+                    });
+                    document.getElementById('divStandingsList').innerHTML = '<div style="text-align:center;padding:10px;color:var(--text-muted)">No Sem-IV data</div>';
                     return;
                 }
-                const n      = filteredData.length;
-                const sum    = filteredData.reduce((a, c) => a + c.total, 0);
-                const topper = filteredData.reduce((p, c) => p.total > c.total ? p : c);
-                document.getElementById('stat-count').innerText  = n;
+                
+                const n      = sy4Pool.length;
+                const sum    = sy4Pool.reduce((a, c) => a + c.total, 0);
+                const topper = sy4Pool.reduce((p, c) => p.total > c.total ? p : c);
                 document.getElementById('stat-avg').innerText    = (sum / n).toFixed(1);
                 
                 // Set Topper Score only in Stat Card
@@ -1696,7 +1713,7 @@ ${semCells}
                 ];
                 
                 subjects.forEach(sub => {
-                    const topStudent = filteredData.reduce((p, c) => (p[sub.key] || 0) > (c[sub.key] || 0) ? p : c);
+                    const topStudent = sy4Pool.reduce((p, c) => (p[sub.key] || 0) > (c[sub.key] || 0) ? p : c);
                     const sScore = topStudent[sub.key] || 0;
                     
                     // Format Name to FirstName LastName (compact)
@@ -1710,7 +1727,7 @@ ${semCells}
 
                 // Calculate division standings
                 const divMap = {};
-                filteredData.forEach(s => {
+                sy4Pool.forEach(s => {
                     const key = `${s.dept}-${s.div}`;
                     if (!divMap[key]) divMap[key] = { count: 0, sum: 0 };
                     divMap[key].count++;
@@ -1753,9 +1770,10 @@ ${semCells}
                 const tick  = dark ? '#888' : '#666';
                 if (gradeChart) gradeChart.destroy();
 
+                const sy4Pool = filteredData.filter(s => s.dept === 'SY4');
                 const subs = ['dm','coa','fsd2','python2','toc'];
-                const n    = filteredData.length || 1;
-                const avgs = subs.map(k => (filteredData.reduce((a, s) => a + (s[k] || 0), 0) / n).toFixed(1));
+                const n    = sy4Pool.length || 1;
+                const avgs = subs.map(k => (sy4Pool.reduce((a, s) => a + (s[k] || 0), 0) / n).toFixed(1));
 
                 gradeChart = new Chart(ctx, {
                     type: 'bar',
