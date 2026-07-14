@@ -889,6 +889,100 @@
             font-weight: 700;
             color: var(--success);
         }
+
+        /* Search match text highlight */
+        .search-match {
+            background: rgba(251, 191, 36, 0.3);
+            color: #ffd700;
+            padding: 0 2px;
+            border-radius: 2px;
+        }
+
+        /* Backlog tag in table */
+        .backlog-tag {
+            background: rgba(232, 67, 147, 0.15);
+            color: #e84393;
+            border: 1px solid rgba(232, 67, 147, 0.3);
+            padding: 2px 6px;
+            border-radius: 4px;
+            font-size: 0.75rem;
+            font-weight: 700;
+            margin-left: 6px;
+            display: inline-block;
+        }
+
+        /* Modal alert banner */
+        .alert-banner {
+            background: rgba(232, 67, 147, 0.12);
+            border: 1px solid rgba(232, 67, 147, 0.3);
+            color: #e84393;
+            padding: 10px 15px;
+            border-radius: 8px;
+            margin-bottom: 15px;
+            font-weight: 600;
+            font-size: 0.9rem;
+            display: flex;
+            align-items: center;
+            gap: 8px;
+        }
+
+        /* Grid secondary split */
+        .dashboard-secondary-grid {
+            display: grid;
+            grid-template-columns: 3.2fr 1.8fr;
+            gap: 20px;
+            margin-bottom: 25px;
+        }
+        @media (max-width: 1024px) {
+            .dashboard-secondary-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+        .div-standings-bar {
+            padding: 15px 20px;
+            display: flex;
+            flex-direction: column;
+            gap: 12px;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            background: var(--bg-glass);
+            backdrop-filter: blur(10px);
+            border-radius: 16px;
+        }
+        .standings-list {
+            display: flex;
+            flex-direction: column;
+            gap: 8px;
+        }
+        .standing-row {
+            background: rgba(255, 255, 255, 0.02);
+            border: 1px solid rgba(255, 255, 255, 0.04);
+            border-radius: 8px;
+            padding: 8px 12px;
+            display: flex;
+            align-items: center;
+            justify-content: space-between;
+            font-size: 0.85rem;
+            transition: all 0.2s var(--ease);
+        }
+        .standing-row:hover {
+            background: rgba(255, 255, 255, 0.05);
+            border-color: rgba(255, 255, 255, 0.08);
+        }
+        .standing-rank {
+            font-weight: 700;
+            color: var(--text-muted);
+            min-width: 20px;
+        }
+        .standing-name {
+            font-weight: 600;
+            color: var(--text-main);
+            flex-grow: 1;
+            margin-left: 8px;
+        }
+        .standing-avg {
+            font-weight: 700;
+            color: var(--accent);
+        }
     </style>
 </head>
 
@@ -953,57 +1047,71 @@
             </div>
         </div>
 
-        <!-- SUBJECT TOPPERS -->
-        <div class="glass-panel toppers-bar" style="margin-bottom: 25px;">
-            <div class="toppers-title">
-                <i class="ri-trophy-line" style="color: var(--accent); font-size: 1.2rem;"></i>
-                <span>Subject Wise Toppers</span>
+        <!-- TOPPERS & DIVISION STANDINGS LEADERBOARD -->
+        <div class="dashboard-secondary-grid">
+            <!-- Left: Subject Toppers -->
+            <div class="glass-panel toppers-bar">
+                <div class="toppers-title">
+                    <i class="ri-trophy-line" style="color: var(--accent); font-size: 1.2rem;"></i>
+                    <span>Subject Wise Toppers</span>
+                </div>
+                <div class="toppers-grid">
+                    <!-- Card 1: DM -->
+                    <div class="topper-mini-card">
+                        <div class="topper-badge" style="background:rgba(108,92,231,0.12); color:#6c5ce7; border: 1px solid rgba(108,92,231,0.2)">DM</div>
+                        <div class="topper-info">
+                            <span class="topper-name" id="topper-dm-name">Loading...</span>
+                            <span class="topper-meta" id="topper-dm-meta">Roll -- • Div --</span>
+                        </div>
+                        <span class="topper-score" id="topper-dm-score">--</span>
+                    </div>
+                    <!-- Card 2: COA -->
+                    <div class="topper-mini-card">
+                        <div class="topper-badge" style="background:rgba(0,206,201,0.12); color:#00cec9; border: 1px solid rgba(0,206,201,0.2)">COA</div>
+                        <div class="topper-info">
+                            <span class="topper-name" id="topper-coa-name">Loading...</span>
+                            <span class="topper-meta" id="topper-coa-meta">Roll -- • Div --</span>
+                        </div>
+                        <span class="topper-score" id="topper-coa-score">--</span>
+                    </div>
+                    <!-- Card 3: FSD -->
+                    <div class="topper-mini-card">
+                        <div class="topper-badge" style="background:rgba(232,67,147,0.12); color:#e84393; border: 1px solid rgba(232,67,147,0.2)">FSD-II</div>
+                        <div class="topper-info">
+                            <span class="topper-name" id="topper-fsd-name">Loading...</span>
+                            <span class="topper-meta" id="topper-fsd-meta">Roll -- • Div --</span>
+                        </div>
+                        <span class="topper-score" id="topper-fsd-score">--</span>
+                    </div>
+                    <!-- Card 4: PYTHON -->
+                    <div class="topper-mini-card">
+                        <div class="topper-badge" style="background:rgba(253,203,110,0.12); color:#fdcb6e; border: 1px solid rgba(253,203,110,0.2)">Python-II</div>
+                        <div class="topper-info">
+                            <span class="topper-name" id="topper-python-name">Loading...</span>
+                            <span class="topper-meta" id="topper-python-meta">Roll -- • Div --</span>
+                        </div>
+                        <span class="topper-score" id="topper-python-score">--</span>
+                    </div>
+                    <!-- Card 5: TOC -->
+                    <div class="topper-mini-card">
+                        <div class="topper-badge" style="background:rgba(46,213,115,0.12); color:#2ed573; border: 1px solid rgba(46,213,115,0.2)">TOC</div>
+                        <div class="topper-info">
+                            <span class="topper-name" id="topper-toc-name">Loading...</span>
+                            <span class="topper-meta" id="topper-toc-meta">Roll -- • Div --</span>
+                        </div>
+                        <span class="topper-score" id="topper-toc-score">--</span>
+                    </div>
+                </div>
             </div>
-            <div class="toppers-grid">
-                <!-- Card 1: DM -->
-                <div class="topper-mini-card">
-                    <div class="topper-badge" style="background:rgba(108,92,231,0.12); color:#6c5ce7; border: 1px solid rgba(108,92,231,0.2)">DM</div>
-                    <div class="topper-info">
-                        <span class="topper-name" id="topper-dm-name">Loading...</span>
-                        <span class="topper-meta" id="topper-dm-meta">Roll -- • Div --</span>
-                    </div>
-                    <span class="topper-score" id="topper-dm-score">--</span>
+            
+            <!-- Right: Division Standings -->
+            <div class="glass-panel div-standings-bar">
+                <div class="toppers-title">
+                    <i class="ri-bar-chart-line" style="color: var(--primary); font-size: 1.2rem;"></i>
+                    <span>Division Rankings</span>
                 </div>
-                <!-- Card 2: COA -->
-                <div class="topper-mini-card">
-                    <div class="topper-badge" style="background:rgba(0,206,201,0.12); color:#00cec9; border: 1px solid rgba(0,206,201,0.2)">COA</div>
-                    <div class="topper-info">
-                        <span class="topper-name" id="topper-coa-name">Loading...</span>
-                        <span class="topper-meta" id="topper-coa-meta">Roll -- • Div --</span>
-                    </div>
-                    <span class="topper-score" id="topper-coa-score">--</span>
-                </div>
-                <!-- Card 3: FSD -->
-                <div class="topper-mini-card">
-                    <div class="topper-badge" style="background:rgba(232,67,147,0.12); color:#e84393; border: 1px solid rgba(232,67,147,0.2)">FSD-II</div>
-                    <div class="topper-info">
-                        <span class="topper-name" id="topper-fsd-name">Loading...</span>
-                        <span class="topper-meta" id="topper-fsd-meta">Roll -- • Div --</span>
-                    </div>
-                    <span class="topper-score" id="topper-fsd-score">--</span>
-                </div>
-                <!-- Card 4: PYTHON -->
-                <div class="topper-mini-card">
-                    <div class="topper-badge" style="background:rgba(253,203,110,0.12); color:#fdcb6e; border: 1px solid rgba(253,203,110,0.2)">Python-II</div>
-                    <div class="topper-info">
-                        <span class="topper-name" id="topper-python-name">Loading...</span>
-                        <span class="topper-meta" id="topper-python-meta">Roll -- • Div --</span>
-                    </div>
-                    <span class="topper-score" id="topper-python-score">--</span>
-                </div>
-                <!-- Card 5: TOC -->
-                <div class="topper-mini-card">
-                    <div class="topper-badge" style="background:rgba(46,213,115,0.12); color:#2ed573; border: 1px solid rgba(46,213,115,0.2)">TOC</div>
-                    <div class="topper-info">
-                        <span class="topper-name" id="topper-toc-name">Loading...</span>
-                        <span class="topper-meta" id="topper-toc-meta">Roll -- • Div --</span>
-                    </div>
-                    <span class="topper-score" id="topper-toc-score">--</span>
+                <div class="standings-list" id="divStandingsList">
+                    <!-- Dynamically populated -->
                 </div>
             </div>
         </div>
@@ -1091,6 +1199,7 @@
                     <h2 id="modalName">Student Name</h2>
                     <p id="modalInfo">Branch • Div • Roll No</p>
                 </div>
+                <div id="modalAlertBanner" class="alert-banner hidden"></div>
                 <div class="modal-body-grid">
                     <!-- Profile Column -->
                     <div class="modal-profile-column">
@@ -1155,7 +1264,7 @@
         </div>
     </div>
 
-    <script src="new_datamarksheet.js?v=8"></script>
+    <script src="new_datamarksheet.js?v=10"></script>
     <script>
         (function () {
             'use strict';
@@ -1176,6 +1285,7 @@
             let BATCH = 60, renderedCount = 0;
             let debounceId = null, chartRafId = null;
             let sortDir = 'desc', lastSortKey = '';
+            let currentSearchQuery = ''; // Store search query globally for highlights
 
             /* ═══ PREPROCESS DATA (one-time) ═══ */
             const rawData = data.map(s => {
@@ -1186,6 +1296,16 @@
                 s.toc     = s.toc     || 0;
                 s.total   = s.dm + s.coa + s.fsd2 + s.python2 + s.toc;
                 if (!s.dept) s.dept = 'SY4';
+                
+                // Calculate backlogs (< 40 marks is backlog)
+                let backlogs = 0;
+                if (s.dm < 40) backlogs++;
+                if (s.coa < 40) backlogs++;
+                if (s.fsd2 < 40) backlogs++;
+                if (s.python2 < 40) backlogs++;
+                if (s.toc < 40) backlogs++;
+                s.backlogs = backlogs;
+                
                 return s;
             }).sort((a, b) => b.total - a.total);
 
@@ -1267,6 +1387,7 @@
 
             function filterData() {
                 const search  = document.getElementById('searchInput').value.toLowerCase().trim();
+                currentSearchQuery = search; // Store search query for highlights
                 const branch  = document.getElementById('branchFilter').value;
                 const divSel  = document.getElementById('divFilter').value;
 
@@ -1278,7 +1399,8 @@
                         const isNum = /^\d+$/.test(search);
                         ms = (isNum && search.length < 5 && s.roll == search)
                             || s.name.toLowerCase().includes(search)
-                            || s.enrollment.includes(search);
+                            || s.enrollment.includes(search)
+                            || s.mentor.toLowerCase().includes(search);
                     }
                     const mb = !branch  || s.branch === branch;
                     const md = !divSel  || s.div === divSel;
@@ -1307,6 +1429,20 @@
                 return `<span class="mark-badge ${colorClass}">${val}${suffix}</span>`;
             }
 
+            /* ═══ TEXT HIGHLIGHTER ═══ */
+            function highlightText(text, search) {
+                if (!search) return text;
+                // If it contains signature wrapper, highlight inside it safely
+                if (text.includes('sig-wrapper')) {
+                    const innerText = 'Daksh Bhavsar';
+                    const escaped = search.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+                    const highlightedInner = innerText.replace(new RegExp(escaped, 'gi'), match => `<mark class="search-match">${match}</mark>`);
+                    return `<span class="sig-wrapper"><span class="sig-crown">👑</span><span class="sig-text">${highlightedInner}</span></span>`;
+                }
+                const escaped = search.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
+                return text.replace(new RegExp(escaped, 'gi'), match => `<mark class="search-match">${match}</mark>`);
+            }
+
             /* ═══ ROW BUILDER (string concat = fastest) ═══ */
             function buildRowHTML(s) {
                 const rank    = currentDept === 'Overall' ? s.globalRank : s.deptRank;
@@ -1319,9 +1455,20 @@
                 if (isHL) cls += ' highlight-row';
 
                 const dot  = isHL ? '<span class="hl-dot"></span>' : '';
-                const name = s.name.includes('BHAVSAR DAKSH')
+                
+                // Set name and append backlog tag if backlogs > 0
+                let name = s.name.includes('BHAVSAR DAKSH')
                     ? '<span class="sig-wrapper"><span class="sig-crown">👑</span><span class="sig-text">Daksh Bhavsar</span></span>'
                     : s.name;
+                    
+                if (s.backlogs > 0) {
+                    name += ` <span class="backlog-tag">${s.backlogs} BK</span>`;
+                }
+
+                // Apply text highlights based on currentSearchQuery
+                const highlightedName = highlightText(name, currentSearchQuery);
+                const highlightedEnroll = highlightText(s.enrollment, currentSearchQuery);
+                const highlightedMentor = highlightText(s.mentor, currentSearchQuery);
 
                 const showSem = (s.sem1 != null) && (currentDept === s.dept || currentDept === 'Overall')
                                 && (s.dept === 'SY1' || s.dept === 'SY2' || s.dept === 'SY4');
@@ -1340,9 +1487,9 @@
 <td>${s.dept}</td>
 <td><span style="background:var(--bg-glass-hover);padding:2px 8px;border-radius:4px;font-size:0.85rem">${div}</span></td>
 <td>${s.branch}</td>
-<td style="font-family:monospace;color:var(--text-muted)">${s.enrollment}</td>
-<td style="font-weight:500">${name}</td>
-<td>${s.mentor}</td>
+<td style="font-family:monospace;color:var(--text-muted)">${highlightedEnroll}</td>
+<td style="font-weight:500">${highlightedName}</td>
+<td>${highlightedMentor}</td>
 <td>${getMarkBadgeHTML(s.dm, 'dm')}</td>
 <td>${getMarkBadgeHTML(s.coa, 'coa')}</td>
 <td>${getMarkBadgeHTML(s.fsd2, 'fsd2')}</td>
@@ -1453,6 +1600,36 @@ ${semCells}
                     document.getElementById(sub.metaId).innerText = `Roll ${topStudent.roll} • Div ${topStudent.div}`;
                     document.getElementById(sub.scoreId).innerText = sScore.toFixed(1);
                 });
+
+                // Calculate division standings
+                const divMap = {};
+                filteredData.forEach(s => {
+                    const key = `${s.dept}-${s.div}`;
+                    if (!divMap[key]) divMap[key] = { count: 0, sum: 0 };
+                    divMap[key].count++;
+                    divMap[key].sum += s.total;
+                });
+                
+                const standings = Object.entries(divMap).map(([key, data]) => {
+                    return { key, avg: data.sum / data.count, count: data.count };
+                }).sort((a, b) => b.avg - a.avg);
+                
+                let standingsHTML = '';
+                standings.slice(0, 4).forEach((st, idx) => {
+                    let medal = `#${idx + 1}`;
+                    if (idx === 0) medal = '🥇';
+                    else if (idx === 1) medal = '🥈';
+                    else if (idx === 2) medal = '🥉';
+                    
+                    standingsHTML += `
+                        <div class="standing-row">
+                            <span class="standing-rank">${medal}</span>
+                            <span class="standing-name">${st.key} <small style="color:var(--text-muted); font-size:0.7rem; font-weight:400;">(${st.count} std)</small></span>
+                            <span class="standing-avg">${st.avg.toFixed(1)}</span>
+                        </div>
+                    `;
+                });
+                document.getElementById('divStandingsList').innerHTML = standingsHTML || '<div style="text-align:center;padding:10px;color:var(--text-muted)">No data</div>';
             }
 
             /* ═══ CHART (throttled RAF) ═══ */
@@ -1690,6 +1867,15 @@ ${semCells}
                 
                 const rank = currentDept === 'Overall' ? s.globalRank : s.deptRank;
                 document.getElementById('modalRank').innerText = `#${rank}`;
+
+                // Set backlog warning banner
+                const banner = document.getElementById('modalAlertBanner');
+                if (s.backlogs > 0) {
+                    banner.innerText = `⚠️ Warning: Student has ${s.backlogs} active backlog(s) in Sem-IV!`;
+                    banner.classList.remove('hidden');
+                } else {
+                    banner.classList.add('hidden');
+                }
 
                 // Calculate division average and peer comparison
                 const divStudents = allData.filter(x => x.div === s.div && x.dept === s.dept);
