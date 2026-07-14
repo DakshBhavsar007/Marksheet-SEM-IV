@@ -34,7 +34,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 21.0,
     "python23": 18.0,
-    "sem3spi": 8.5
+    "sem3spi": 8.5,
+    "dm4": 41.0
   },
   {
     "roll": 199,
@@ -71,7 +72,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 11.0,
     "python23": 11.0,
-    "sem3spi": 6.88
+    "sem3spi": 6.88,
+    "dm4": 35.0
   },
   {
     "roll": 91,
@@ -108,7 +110,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 18.0,
     "python23": 17.0,
-    "sem3spi": 8.67
+    "sem3spi": 8.67,
+    "dm4": 35.5
   },
   {
     "roll": 68,
@@ -145,7 +148,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 25.0,
     "python23": 24.0,
-    "sem3spi": 8.83
+    "sem3spi": 8.83,
+    "dm4": 41.0
   },
   {
     "roll": 136,
@@ -182,7 +186,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 21.5,
     "python23": 18.5,
-    "sem3spi": 8.17
+    "sem3spi": 8.17,
+    "dm4": 37.5
   },
   {
     "roll": 276,
@@ -219,7 +224,8 @@ const data = [
     "toc3": 8.0,
     "fsd23": 7.0,
     "python23": 7.0,
-    "sem3spi": 5.38
+    "sem3spi": 5.38,
+    "dm4": 41.0
   },
   {
     "roll": 274,
@@ -256,7 +262,8 @@ const data = [
     "toc3": 6.0,
     "fsd23": 10.5,
     "python23": 10.0,
-    "sem3spi": 5.58
+    "sem3spi": 5.58,
+    "dm4": 27.5
   },
   {
     "roll": 190,
@@ -293,7 +300,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 11.5,
     "python23": 17.0,
-    "sem3spi": 6.83
+    "sem3spi": 6.83,
+    "dm4": 35.5
   },
   {
     "roll": 56,
@@ -330,7 +338,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 19.5,
     "python23": 18.0,
-    "sem3spi": 8.29
+    "sem3spi": 8.29,
+    "dm4": 39.5
   },
   {
     "roll": 168,
@@ -367,7 +376,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 18.5,
     "python23": 13.5,
-    "sem3spi": 7.17
+    "sem3spi": 7.17,
+    "dm4": 26.5
   },
   {
     "roll": 277,
@@ -404,7 +414,8 @@ const data = [
     "toc3": 12.5,
     "fsd23": 8.5,
     "python23": 10.5,
-    "sem3spi": 4.92
+    "sem3spi": 4.92,
+    "dm4": 35.5
   },
   {
     "roll": 178,
@@ -441,7 +452,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 17.5,
     "python23": 13.0,
-    "sem3spi": 7.46
+    "sem3spi": 7.46,
+    "dm4": 31.0
   },
   {
     "roll": 258,
@@ -478,7 +490,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 18.0,
     "python23": 14.5,
-    "sem3spi": 6.21
+    "sem3spi": 6.21,
+    "dm4": 35.0
   },
   {
     "roll": 31,
@@ -515,7 +528,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 21.5,
     "python23": 19.0,
-    "sem3spi": 9.38
+    "sem3spi": 9.38,
+    "dm4": 39.0
   },
   {
     "roll": 206,
@@ -552,7 +566,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 16.0,
     "python23": 15.0,
-    "sem3spi": 6.67
+    "sem3spi": 6.67,
+    "dm4": 40.0
   },
   {
     "roll": 248,
@@ -589,7 +604,8 @@ const data = [
     "toc3": 9.0,
     "fsd23": 13.5,
     "python23": 13.5,
-    "sem3spi": 5.88
+    "sem3spi": 5.88,
+    "dm4": 30.0
   },
   {
     "roll": 231,
@@ -626,7 +642,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 14.5,
     "python23": 12.5,
-    "sem3spi": 6.04
+    "sem3spi": 6.04,
+    "dm4": 28.5
   },
   {
     "roll": 99,
@@ -663,7 +680,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 22.5,
     "python23": 13.5,
-    "sem3spi": 8.25
+    "sem3spi": 8.25,
+    "dm4": 39.5
   },
   {
     "roll": 270,
@@ -700,7 +718,8 @@ const data = [
     "toc3": 9.0,
     "fsd23": 11.0,
     "python23": 12.0,
-    "sem3spi": 5.67
+    "sem3spi": 5.67,
+    "dm4": 24.0
   },
   {
     "roll": 211,
@@ -737,7 +756,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 20.5,
     "python23": 17.0,
-    "sem3spi": 6.46
+    "sem3spi": 6.46,
+    "dm4": 37.0
   },
   {
     "roll": 285,
@@ -773,7 +793,8 @@ const data = [
     "coa3": 8.0,
     "toc3": 1.0,
     "fsd23": 8.0,
-    "python23": 2.0
+    "python23": 2.0,
+    "dm4": 0.0
   },
   {
     "roll": 121,
@@ -810,7 +831,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 25.0,
     "python23": 16.5,
-    "sem3spi": 7.96
+    "sem3spi": 7.96,
+    "dm4": 35.5
   },
   {
     "roll": 160,
@@ -847,7 +869,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 23.0,
     "python23": 17.0,
-    "sem3spi": 7.75
+    "sem3spi": 7.75,
+    "dm4": 35.0
   },
   {
     "roll": 238,
@@ -884,7 +907,8 @@ const data = [
     "toc3": 9.0,
     "fsd23": 9.0,
     "python23": 11.0,
-    "sem3spi": 5.63
+    "sem3spi": 5.63,
+    "dm4": 33.5
   },
   {
     "roll": 58,
@@ -921,7 +945,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 23.5,
     "python23": 21.5,
-    "sem3spi": 8.92
+    "sem3spi": 8.92,
+    "dm4": 42.5
   },
   {
     "roll": 100,
@@ -958,7 +983,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 14.5,
     "python23": 15.0,
-    "sem3spi": 8.21
+    "sem3spi": 8.21,
+    "dm4": 36.5
   },
   {
     "roll": 278,
@@ -995,7 +1021,8 @@ const data = [
     "toc3": 10.5,
     "fsd23": 13.0,
     "python23": 15.0,
-    "sem3spi": 5.13
+    "sem3spi": 5.13,
+    "dm4": 28.5
   },
   {
     "roll": 197,
@@ -1032,7 +1059,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 12.0,
     "python23": 19.0,
-    "sem3spi": 6.5
+    "sem3spi": 6.5,
+    "dm4": 40.0
   },
   {
     "roll": 113,
@@ -1069,7 +1097,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 15.0,
     "python23": 9.5,
-    "sem3spi": 8.04
+    "sem3spi": 8.04,
+    "dm4": 37.0
   },
   {
     "roll": 167,
@@ -1106,7 +1135,8 @@ const data = [
     "toc3": 20.5,
     "fsd23": 17.5,
     "python23": 15.5,
-    "sem3spi": 6.96
+    "sem3spi": 6.96,
+    "dm4": 31.5
   },
   {
     "roll": 127,
@@ -1143,7 +1173,8 @@ const data = [
     "toc3": 0.0,
     "fsd23": 0.0,
     "python23": 15.0,
-    "sem3spi": 7.58
+    "sem3spi": 7.58,
+    "dm4": 38.5
   },
   {
     "roll": 185,
@@ -1180,7 +1211,8 @@ const data = [
     "toc3": 12.5,
     "fsd23": 13.5,
     "python23": 17.5,
-    "sem3spi": 6.83
+    "sem3spi": 6.83,
+    "dm4": 39.0
   },
   {
     "roll": 75,
@@ -1217,7 +1249,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 17.5,
     "python23": 21.0,
-    "sem3spi": 7.92
+    "sem3spi": 7.92,
+    "dm4": 32.5
   },
   {
     "roll": 134,
@@ -1254,7 +1287,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 11.0,
     "python23": 15.0,
-    "sem3spi": 7.71
+    "sem3spi": 7.71,
+    "dm4": 12.5
   },
   {
     "roll": 23,
@@ -1291,7 +1325,8 @@ const data = [
     "toc3": 23.0,
     "fsd23": 22.5,
     "python23": 24.0,
-    "sem3spi": 9.54
+    "sem3spi": 9.54,
+    "dm4": 46.0
   },
   {
     "roll": 42,
@@ -1328,7 +1363,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 24.0,
     "python23": 25.0,
-    "sem3spi": 8.92
+    "sem3spi": 8.92,
+    "dm4": 37.0
   },
   {
     "roll": 88,
@@ -1365,7 +1401,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 23.0,
     "python23": 16.5,
-    "sem3spi": 8.71
+    "sem3spi": 8.71,
+    "dm4": 37.0
   },
   {
     "roll": 81,
@@ -1402,7 +1439,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 24.0,
     "python23": 19.5,
-    "sem3spi": 8.79
+    "sem3spi": 8.79,
+    "dm4": 47.0
   },
   {
     "roll": 123,
@@ -1439,7 +1477,8 @@ const data = [
     "toc3": 23.0,
     "fsd23": 18.5,
     "python23": 19.0,
-    "sem3spi": 8.21
+    "sem3spi": 8.21,
+    "dm4": 41.5
   },
   {
     "roll": 245,
@@ -1476,7 +1515,8 @@ const data = [
     "toc3": 11.5,
     "fsd23": 11.5,
     "python23": 13.0,
-    "sem3spi": 6.13
+    "sem3spi": 6.13,
+    "dm4": 29.5
   },
   {
     "roll": 286,
@@ -1512,7 +1552,8 @@ const data = [
     "coa3": 3.0,
     "toc3": 4.0,
     "fsd23": 2.0,
-    "python23": 4.0
+    "python23": 4.0,
+    "dm4": 5.0
   },
   {
     "roll": 240,
@@ -1549,7 +1590,8 @@ const data = [
     "toc3": 11.0,
     "fsd23": 11.5,
     "python23": 10.5,
-    "sem3spi": 5.96
+    "sem3spi": 5.96,
+    "dm4": 34.0
   },
   {
     "roll": 220,
@@ -1586,7 +1628,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 13.0,
     "python23": 19.5,
-    "sem3spi": 5.88
+    "sem3spi": 5.88,
+    "dm4": 32.0
   },
   {
     "roll": 7,
@@ -1623,7 +1666,8 @@ const data = [
     "toc3": 23.5,
     "fsd23": 22.0,
     "python23": 25.0,
-    "sem3spi": 9.46
+    "sem3spi": 9.46,
+    "dm4": 43.5
   },
   {
     "roll": 60,
@@ -1660,7 +1704,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 18.5,
     "python23": 18.5,
-    "sem3spi": 8.75
+    "sem3spi": 8.75,
+    "dm4": 37.5
   },
   {
     "roll": 132,
@@ -1697,7 +1742,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 13.5,
     "python23": 15.5,
-    "sem3spi": 7.67
+    "sem3spi": 7.67,
+    "dm4": 39.0
   },
   {
     "roll": 214,
@@ -1734,7 +1780,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 14.0,
     "python23": 13.5,
-    "sem3spi": 6.29
+    "sem3spi": 6.29,
+    "dm4": 33.0
   },
   {
     "roll": 95,
@@ -1771,7 +1818,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 18.5,
     "python23": 19.0,
-    "sem3spi": 8.71
+    "sem3spi": 8.71,
+    "dm4": 42.5
   },
   {
     "roll": 51,
@@ -1808,7 +1856,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 22.5,
     "python23": 24.5,
-    "sem3spi": 8.75
+    "sem3spi": 8.75,
+    "dm4": 43.5
   },
   {
     "roll": 124,
@@ -1845,7 +1894,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 9.5,
     "python23": 12.5,
-    "sem3spi": 7.58
+    "sem3spi": 7.58,
+    "dm4": 39.0
   },
   {
     "roll": 151,
@@ -1882,7 +1932,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 17.5,
     "python23": 18.0,
-    "sem3spi": 7.33
+    "sem3spi": 7.33,
+    "dm4": 37.5
   },
   {
     "roll": 92,
@@ -1919,7 +1970,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 12.0,
     "python23": 20.5,
-    "sem3spi": 8.63
+    "sem3spi": 8.63,
+    "dm4": 14.0
   },
   {
     "roll": 263,
@@ -1956,7 +2008,8 @@ const data = [
     "toc3": 6.0,
     "fsd23": 5.5,
     "python23": 1.0,
-    "sem3spi": 6.0
+    "sem3spi": 6.0,
+    "dm4": 20.0
   },
   {
     "roll": 194,
@@ -1993,7 +2046,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 14.5,
     "python23": 12.5,
-    "sem3spi": 7.13
+    "sem3spi": 7.13,
+    "dm4": 33.5
   },
   {
     "roll": 183,
@@ -2030,7 +2084,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 14.5,
     "python23": 17.5,
-    "sem3spi": 6.96
+    "sem3spi": 6.96,
+    "dm4": 30.0
   },
   {
     "roll": 260,
@@ -2067,7 +2122,8 @@ const data = [
     "toc3": 6.5,
     "fsd23": 15.5,
     "python23": 13.5,
-    "sem3spi": 5.5
+    "sem3spi": 5.5,
+    "dm4": 32.5
   },
   {
     "roll": 150,
@@ -2104,7 +2160,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 21.0,
     "python23": 16.0,
-    "sem3spi": 7.63
+    "sem3spi": 7.63,
+    "dm4": 46.0
   },
   {
     "roll": 207,
@@ -2141,7 +2198,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 18.0,
     "python23": 16.5,
-    "sem3spi": 6.83
+    "sem3spi": 6.83,
+    "dm4": 33.5
   },
   {
     "roll": 105,
@@ -2178,7 +2236,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 19.0,
     "python23": 16.0,
-    "sem3spi": 8.17
+    "sem3spi": 8.17,
+    "dm4": 35.0
   },
   {
     "roll": 198,
@@ -2215,7 +2274,8 @@ const data = [
     "toc3": 10.5,
     "fsd23": 10.5,
     "python23": 10.0,
-    "sem3spi": 6.58
+    "sem3spi": 6.58,
+    "dm4": 18.0
   },
   {
     "roll": 114,
@@ -2252,7 +2312,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 14.5,
     "python23": 20.5,
-    "sem3spi": 8.13
+    "sem3spi": 8.13,
+    "dm4": 35.5
   },
   {
     "roll": 71,
@@ -2289,7 +2350,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 19.5,
     "python23": 16.5,
-    "sem3spi": 8.58
+    "sem3spi": 8.58,
+    "dm4": 40.0
   },
   {
     "roll": 67,
@@ -2326,7 +2388,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 23.0,
     "python23": 18.5,
-    "sem3spi": 8.67
+    "sem3spi": 8.67,
+    "dm4": 38.0
   },
   {
     "roll": 174,
@@ -2363,7 +2426,8 @@ const data = [
     "toc3": 12.0,
     "fsd23": 12.5,
     "python23": 12.5,
-    "sem3spi": 7.13
+    "sem3spi": 7.13,
+    "dm4": 27.5
   },
   {
     "roll": 179,
@@ -2400,7 +2464,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 17.5,
     "python23": 18.0,
-    "sem3spi": 7.17
+    "sem3spi": 7.17,
+    "dm4": 43.0
   },
   {
     "roll": 153,
@@ -2437,7 +2502,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 12.5,
     "python23": 18.5,
-    "sem3spi": 7.5
+    "sem3spi": 7.5,
+    "dm4": 36.5
   },
   {
     "roll": 120,
@@ -2474,7 +2540,8 @@ const data = [
     "toc3": 6.0,
     "fsd23": 15.5,
     "python23": 10.0,
-    "sem3spi": 7.38
+    "sem3spi": 7.38,
+    "dm4": 37.0
   },
   {
     "roll": 128,
@@ -2511,7 +2578,8 @@ const data = [
     "toc3": 21.5,
     "fsd23": 18.0,
     "python23": 19.5,
-    "sem3spi": 7.67
+    "sem3spi": 7.67,
+    "dm4": 35.5
   },
   {
     "roll": 59,
@@ -2548,7 +2616,8 @@ const data = [
     "toc3": 9.0,
     "fsd23": 22.0,
     "python23": 13.0,
-    "sem3spi": 8.71
+    "sem3spi": 8.71,
+    "dm4": 29.0
   },
   {
     "roll": 189,
@@ -2585,7 +2654,8 @@ const data = [
     "toc3": 12.0,
     "fsd23": 13.0,
     "python23": 15.0,
-    "sem3spi": 6.96
+    "sem3spi": 6.96,
+    "dm4": 29.0
   },
   {
     "roll": 256,
@@ -2622,7 +2692,8 @@ const data = [
     "toc3": 10.0,
     "fsd23": 13.5,
     "python23": 14.0,
-    "sem3spi": 6.04
+    "sem3spi": 6.04,
+    "dm4": 31.0
   },
   {
     "roll": 1,
@@ -2659,7 +2730,8 @@ const data = [
     "toc3": 24.0,
     "fsd23": 25.0,
     "python23": 24.0,
-    "sem3spi": 10.0
+    "sem3spi": 10.0,
+    "dm4": 47.5
   },
   {
     "roll": 44,
@@ -2696,7 +2768,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 21.0,
     "python23": 17.5,
-    "sem3spi": 8.79
+    "sem3spi": 8.79,
+    "dm4": 30.0
   },
   {
     "roll": 87,
@@ -2733,7 +2806,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 22.0,
     "python23": 18.5,
-    "sem3spi": 8.92
+    "sem3spi": 8.92,
+    "dm4": 34.0
   },
   {
     "roll": 219,
@@ -2770,7 +2844,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 10.0,
     "python23": 14.0,
-    "sem3spi": 7.38
+    "sem3spi": 7.38,
+    "dm4": 32.5
   },
   {
     "roll": 141,
@@ -2807,7 +2882,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 21.0,
     "python23": 8.0,
-    "sem3spi": 6.83
+    "sem3spi": 6.83,
+    "dm4": 39.0
   },
   {
     "roll": 148,
@@ -2844,7 +2920,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 10.0,
     "python23": 20.5,
-    "sem3spi": 7.58
+    "sem3spi": 7.58,
+    "dm4": 40.0
   },
   {
     "roll": 146,
@@ -2881,7 +2958,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 19.0,
     "python23": 16.0,
-    "sem3spi": 7.17
+    "sem3spi": 7.17,
+    "dm4": 27.5
   },
   {
     "roll": 232,
@@ -2918,7 +2996,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 11.5,
     "python23": 12.0,
-    "sem3spi": 6.38
+    "sem3spi": 6.38,
+    "dm4": 34.0
   },
   {
     "roll": 110,
@@ -2955,7 +3034,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 23.5,
     "python23": 14.5,
-    "sem3spi": 7.92
+    "sem3spi": 7.92,
+    "dm4": 36.0
   },
   {
     "roll": 218,
@@ -2992,7 +3072,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 16.0,
     "python23": 18.0,
-    "sem3spi": 6.71
+    "sem3spi": 6.71,
+    "dm4": 32.5
   },
   {
     "roll": 204,
@@ -3029,7 +3110,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 13.5,
     "python23": 10.0,
-    "sem3spi": 6.42
+    "sem3spi": 6.42,
+    "dm4": 34.0
   },
   {
     "roll": 122,
@@ -3066,7 +3148,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 19.5,
     "python23": 19.5,
-    "sem3spi": 8.04
+    "sem3spi": 8.04,
+    "dm4": 36.5
   },
   {
     "roll": 279,
@@ -3103,7 +3186,8 @@ const data = [
     "toc3": 5.5,
     "fsd23": 7.5,
     "python23": 7.5,
-    "sem3spi": 6.0
+    "sem3spi": 6.0,
+    "dm4": 30.0
   },
   {
     "roll": 85,
@@ -3140,7 +3224,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 21.0,
     "python23": 17.5,
-    "sem3spi": 8.46
+    "sem3spi": 8.46,
+    "dm4": 40.0
   },
   {
     "roll": 11,
@@ -3177,7 +3262,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 23.0,
     "python23": 23.0,
-    "sem3spi": 9.25
+    "sem3spi": 9.25,
+    "dm4": 41.0
   },
   {
     "roll": 72,
@@ -3214,7 +3300,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 21.5,
     "python23": 20.5,
-    "sem3spi": 8.88
+    "sem3spi": 8.88,
+    "dm4": 24.5
   },
   {
     "roll": 154,
@@ -3251,7 +3338,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 15.0,
     "python23": 12.5,
-    "sem3spi": 7.58
+    "sem3spi": 7.58,
+    "dm4": 30.5
   },
   {
     "roll": 79,
@@ -3288,7 +3376,8 @@ const data = [
     "toc3": 21.5,
     "fsd23": 21.0,
     "python23": 19.0,
-    "sem3spi": 8.5
+    "sem3spi": 8.5,
+    "dm4": 35.0
   },
   {
     "roll": 143,
@@ -3325,7 +3414,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 19.5,
     "python23": 17.0,
-    "sem3spi": 7.79
+    "sem3spi": 7.79,
+    "dm4": 40.0
   },
   {
     "roll": 196,
@@ -3362,7 +3452,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 15.0,
     "python23": 11.5,
-    "sem3spi": 6.38
+    "sem3spi": 6.38,
+    "dm4": 26.0
   },
   {
     "roll": 175,
@@ -3399,7 +3490,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 18.0,
     "python23": 18.5,
-    "sem3spi": 6.71
+    "sem3spi": 6.71,
+    "dm4": 37.0
   },
   {
     "roll": 171,
@@ -3436,7 +3528,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 19.5,
     "python23": 12.0,
-    "sem3spi": 7.25
+    "sem3spi": 7.25,
+    "dm4": 31.0
   },
   {
     "roll": 259,
@@ -3473,7 +3566,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 11.5,
     "python23": 13.0,
-    "sem3spi": 5.75
+    "sem3spi": 5.75,
+    "dm4": 23.0
   },
   {
     "roll": 166,
@@ -3510,7 +3604,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 19.5,
     "python23": 12.5,
-    "sem3spi": 6.96
+    "sem3spi": 6.96,
+    "dm4": 36.0
   },
   {
     "roll": 76,
@@ -3547,7 +3642,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 10.5,
     "python23": 11.0,
-    "sem3spi": 8.29
+    "sem3spi": 8.29,
+    "dm4": 30.5
   },
   {
     "roll": 45,
@@ -3584,7 +3680,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 23.5,
     "python23": 22.0,
-    "sem3spi": 9.0
+    "sem3spi": 9.0,
+    "dm4": 32.5
   },
   {
     "roll": 233,
@@ -3621,7 +3718,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 12.5,
     "python23": 14.0,
-    "sem3spi": 6.0
+    "sem3spi": 6.0,
+    "dm4": 34.5
   },
   {
     "roll": 215,
@@ -3658,7 +3756,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 11.5,
     "python23": 18.0,
-    "sem3spi": 7.08
+    "sem3spi": 7.08,
+    "dm4": 35.5
   },
   {
     "roll": 264,
@@ -3695,7 +3794,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 17.0,
     "python23": 10.0,
-    "sem3spi": 6.29
+    "sem3spi": 6.29,
+    "dm4": 30.0
   },
   {
     "roll": 246,
@@ -3732,7 +3832,8 @@ const data = [
     "toc3": 7.0,
     "fsd23": 11.5,
     "python23": 13.0,
-    "sem3spi": 5.58
+    "sem3spi": 5.58,
+    "dm4": 24.0
   },
   {
     "roll": 139,
@@ -3769,7 +3870,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 20.5,
     "python23": 20.5,
-    "sem3spi": 7.63
+    "sem3spi": 7.63,
+    "dm4": 37.5
   },
   {
     "roll": 84,
@@ -3806,7 +3908,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 23.0,
     "python23": 20.0,
-    "sem3spi": 9.13
+    "sem3spi": 9.13,
+    "dm4": 43.0
   },
   {
     "roll": 130,
@@ -3843,7 +3946,8 @@ const data = [
     "toc3": 20.5,
     "fsd23": 21.5,
     "python23": 12.5,
-    "sem3spi": 8.17
+    "sem3spi": 8.17,
+    "dm4": 43.0
   },
   {
     "roll": 284,
@@ -3880,7 +3984,8 @@ const data = [
     "toc3": 9.0,
     "fsd23": 1.0,
     "python23": 2.0,
-    "sem3spi": 4.63
+    "sem3spi": 4.63,
+    "dm4": 18.5
   },
   {
     "roll": 235,
@@ -3917,7 +4022,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 21.0,
     "python23": 11.0,
-    "sem3spi": 6.46
+    "sem3spi": 6.46,
+    "dm4": 38.5
   },
   {
     "roll": 187,
@@ -3954,7 +4060,8 @@ const data = [
     "toc3": 13.0,
     "fsd23": 19.5,
     "python23": 18.0,
-    "sem3spi": 6.58
+    "sem3spi": 6.58,
+    "dm4": 41.0
   },
   {
     "roll": 176,
@@ -3991,7 +4098,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 15.0,
     "python23": 13.0,
-    "sem3spi": 7.5
+    "sem3spi": 7.5,
+    "dm4": 42.0
   },
   {
     "roll": 203,
@@ -4028,7 +4136,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 14.0,
     "python23": 10.5,
-    "sem3spi": 6.63
+    "sem3spi": 6.63,
+    "dm4": 30.0
   },
   {
     "roll": 55,
@@ -4065,7 +4174,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 22.5,
     "python23": 18.0,
-    "sem3spi": 8.54
+    "sem3spi": 8.54,
+    "dm4": 41.5
   },
   {
     "roll": 107,
@@ -4102,7 +4212,8 @@ const data = [
     "toc3": 12.0,
     "fsd23": 21.0,
     "python23": 21.0,
-    "sem3spi": 8.46
+    "sem3spi": 8.46,
+    "dm4": 35.0
   },
   {
     "roll": 254,
@@ -4139,7 +4250,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 19.5,
     "python23": 17.0,
-    "sem3spi": 6.33
+    "sem3spi": 6.33,
+    "dm4": 25.5
   },
   {
     "roll": 201,
@@ -4176,7 +4288,8 @@ const data = [
     "toc3": 10.5,
     "fsd23": 20.5,
     "python23": 19.0,
-    "sem3spi": 6.17
+    "sem3spi": 6.17,
+    "dm4": 37.0
   },
   {
     "roll": 222,
@@ -4213,7 +4326,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 13.0,
     "python23": 13.0,
-    "sem3spi": 6.54
+    "sem3spi": 6.54,
+    "dm4": 35.0
   },
   {
     "roll": 62,
@@ -4250,7 +4364,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 22.5,
     "python23": 19.5,
-    "sem3spi": 8.08
+    "sem3spi": 8.08,
+    "dm4": 33.5
   },
   {
     "roll": 46,
@@ -4287,7 +4402,8 @@ const data = [
     "toc3": 20.5,
     "fsd23": 23.0,
     "python23": 20.5,
-    "sem3spi": 8.5
+    "sem3spi": 8.5,
+    "dm4": 42.0
   },
   {
     "roll": 172,
@@ -4324,7 +4440,8 @@ const data = [
     "toc3": 8.0,
     "fsd23": 18.0,
     "python23": 19.0,
-    "sem3spi": 6.88
+    "sem3spi": 6.88,
+    "dm4": 31.0
   },
   {
     "roll": 93,
@@ -4361,7 +4478,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 20.5,
     "python23": 17.0,
-    "sem3spi": 8.5
+    "sem3spi": 8.5,
+    "dm4": 44.0
   },
   {
     "roll": 73,
@@ -4398,7 +4516,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 22.0,
     "python23": 17.5,
-    "sem3spi": 8.58
+    "sem3spi": 8.58,
+    "dm4": 43.5
   },
   {
     "roll": 21,
@@ -4435,7 +4554,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 23.5,
     "python23": 23.0,
-    "sem3spi": 9.33
+    "sem3spi": 9.33,
+    "dm4": 36.5
   },
   {
     "roll": 86,
@@ -4472,7 +4592,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 22.5,
     "python23": 22.5,
-    "sem3spi": 9.0
+    "sem3spi": 9.0,
+    "dm4": 40.0
   },
   {
     "roll": 177,
@@ -4509,7 +4630,8 @@ const data = [
     "toc3": 9.0,
     "fsd23": 11.5,
     "python23": 12.0,
-    "sem3spi": 6.79
+    "sem3spi": 6.79,
+    "dm4": 19.0
   },
   {
     "roll": 227,
@@ -4546,7 +4668,8 @@ const data = [
     "toc3": 11.5,
     "fsd23": 17.0,
     "python23": 11.0,
-    "sem3spi": 6.29
+    "sem3spi": 6.29,
+    "dm4": 21.0
   },
   {
     "roll": 228,
@@ -4583,7 +4706,8 @@ const data = [
     "toc3": 6.5,
     "fsd23": 13.5,
     "python23": 11.5,
-    "sem3spi": 6.29
+    "sem3spi": 6.29,
+    "dm4": 25.5
   },
   {
     "roll": 64,
@@ -4620,7 +4744,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 22.5,
     "python23": 16.0,
-    "sem3spi": 8.5
+    "sem3spi": 8.5,
+    "dm4": 39.0
   },
   {
     "roll": 40,
@@ -4657,7 +4782,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 23.0,
     "python23": 21.0,
-    "sem3spi": 8.54
+    "sem3spi": 8.54,
+    "dm4": 42.5
   },
   {
     "roll": 202,
@@ -4694,7 +4820,8 @@ const data = [
     "toc3": 11.5,
     "fsd23": 19.0,
     "python23": 10.5,
-    "sem3spi": 6.79
+    "sem3spi": 6.79,
+    "dm4": 37.5
   },
   {
     "roll": 80,
@@ -4731,7 +4858,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 23.0,
     "python23": 16.5,
-    "sem3spi": 8.75
+    "sem3spi": 8.75,
+    "dm4": 44.0
   },
   {
     "roll": 156,
@@ -4768,7 +4896,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 18.5,
     "python23": 17.0,
-    "sem3spi": 7.54
+    "sem3spi": 7.54,
+    "dm4": 35.0
   },
   {
     "roll": 36,
@@ -4805,7 +4934,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 17.0,
     "python23": 19.0,
-    "sem3spi": 8.96
+    "sem3spi": 8.96,
+    "dm4": 40.5
   },
   {
     "roll": 165,
@@ -4842,7 +4972,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 12.5,
     "python23": 16.5,
-    "sem3spi": 7.29
+    "sem3spi": 7.29,
+    "dm4": 40.5
   },
   {
     "roll": 48,
@@ -4879,7 +5010,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 19.0,
     "python23": 14.5,
-    "sem3spi": 8.83
+    "sem3spi": 8.83,
+    "dm4": 41.0
   },
   {
     "roll": 33,
@@ -4916,7 +5048,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 24.0,
     "python23": 20.5,
-    "sem3spi": 8.37
+    "sem3spi": 8.37,
+    "dm4": 44.5
   },
   {
     "roll": 53,
@@ -4953,7 +5086,8 @@ const data = [
     "toc3": 12.0,
     "fsd23": 19.5,
     "python23": 16.5,
-    "sem3spi": 7.89
+    "sem3spi": 7.89,
+    "dm4": 34.0
   },
   {
     "roll": 144,
@@ -4990,7 +5124,8 @@ const data = [
     "toc3": 12.5,
     "fsd23": 9.0,
     "python23": 16.0,
-    "sem3spi": 7.96
+    "sem3spi": 7.96,
+    "dm4": 33.0
   },
   {
     "roll": 188,
@@ -5027,7 +5162,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 21.5,
     "python23": 14.5,
-    "sem3spi": 7.08
+    "sem3spi": 7.08,
+    "dm4": 30.0
   },
   {
     "roll": 22,
@@ -5064,7 +5200,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 25.0,
     "python23": 23.0,
-    "sem3spi": 9.25
+    "sem3spi": 9.25,
+    "dm4": 47.5
   },
   {
     "roll": 257,
@@ -5101,7 +5238,8 @@ const data = [
     "toc3": 7.5,
     "fsd23": 12.5,
     "python23": 7.5,
-    "sem3spi": 5.54
+    "sem3spi": 5.54,
+    "dm4": 30.5
   },
   {
     "roll": 19,
@@ -5138,7 +5276,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 22.0,
     "python23": 21.0,
-    "sem3spi": 8.88
+    "sem3spi": 8.88,
+    "dm4": 37.5
   },
   {
     "roll": 66,
@@ -5175,7 +5314,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 19.5,
     "python23": 15.5,
-    "sem3spi": 8.79
+    "sem3spi": 8.79,
+    "dm4": 41.0
   },
   {
     "roll": 147,
@@ -5212,7 +5352,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 19.5,
     "python23": 18.0,
-    "sem3spi": 7.79
+    "sem3spi": 7.79,
+    "dm4": 36.5
   },
   {
     "roll": 200,
@@ -5249,7 +5390,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 16.0,
     "python23": 8.5,
-    "sem3spi": 7.29
+    "sem3spi": 7.29,
+    "dm4": 32.0
   },
   {
     "roll": 103,
@@ -5286,7 +5428,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 21.5,
     "python23": 17.0,
-    "sem3spi": 8.38
+    "sem3spi": 8.38,
+    "dm4": 37.0
   },
   {
     "roll": 116,
@@ -5323,7 +5466,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 23.0,
     "python23": 16.5,
-    "sem3spi": 8.33
+    "sem3spi": 8.33,
+    "dm4": 30.0
   },
   {
     "roll": 97,
@@ -5360,7 +5504,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 24.0,
     "python23": 24.0,
-    "sem3spi": 8.54
+    "sem3spi": 8.54,
+    "dm4": 43.0
   },
   {
     "roll": 208,
@@ -5397,7 +5542,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 11.0,
     "python23": 13.0,
-    "sem3spi": 6.83
+    "sem3spi": 6.83,
+    "dm4": 37.0
   },
   {
     "roll": 212,
@@ -5434,7 +5580,8 @@ const data = [
     "toc3": 8.5,
     "fsd23": 8.5,
     "python23": 11.0,
-    "sem3spi": 6.0
+    "sem3spi": 6.0,
+    "dm4": 33.0
   },
   {
     "roll": 184,
@@ -5471,7 +5618,8 @@ const data = [
     "toc3": 9.0,
     "fsd23": 19.5,
     "python23": 13.0,
-    "sem3spi": 6.29
+    "sem3spi": 6.29,
+    "dm4": 33.0
   },
   {
     "roll": 112,
@@ -5507,7 +5655,8 @@ const data = [
     "coa3": 14.0,
     "toc3": 15.0,
     "fsd23": 15.0,
-    "python23": 14.5
+    "python23": 14.5,
+    "dm4": 34.0
   },
   {
     "roll": 43,
@@ -5544,7 +5693,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 20.5,
     "python23": 19.5,
-    "sem3spi": 8.67
+    "sem3spi": 8.67,
+    "dm4": 37.5
   },
   {
     "roll": 8,
@@ -5581,7 +5731,8 @@ const data = [
     "toc3": 25.0,
     "fsd23": 24.5,
     "python23": 22.0,
-    "sem3spi": 7.73
+    "sem3spi": 7.73,
+    "dm4": 43.5
   },
   {
     "roll": 192,
@@ -5618,7 +5769,8 @@ const data = [
     "toc3": 10.0,
     "fsd23": 13.5,
     "python23": 18.0,
-    "sem3spi": 6.92
+    "sem3spi": 6.92,
+    "dm4": 29.0
   },
   {
     "roll": 209,
@@ -5655,7 +5807,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 13.5,
     "python23": 13.5,
-    "sem3spi": 6.33
+    "sem3spi": 6.33,
+    "dm4": 20.0
   },
   {
     "roll": 133,
@@ -5692,7 +5845,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 20.5,
     "python23": 15.0,
-    "sem3spi": 7.67
+    "sem3spi": 7.67,
+    "dm4": 41.5
   },
   {
     "roll": 82,
@@ -5729,7 +5883,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 23.5,
     "python23": 14.5,
-    "sem3spi": 8.79
+    "sem3spi": 8.79,
+    "dm4": 33.5
   },
   {
     "roll": 119,
@@ -5766,7 +5921,8 @@ const data = [
     "toc3": 7.5,
     "fsd23": 10.5,
     "python23": 13.0,
-    "sem3spi": 7.13
+    "sem3spi": 7.13,
+    "dm4": 34.0
   },
   {
     "roll": 101,
@@ -5803,7 +5959,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 9.5,
     "python23": 15.5,
-    "sem3spi": 8.38
+    "sem3spi": 8.38,
+    "dm4": 37.0
   },
   {
     "roll": 217,
@@ -5840,7 +5997,8 @@ const data = [
     "toc3": 9.5,
     "fsd23": 22.0,
     "python23": 12.5,
-    "sem3spi": 6.67
+    "sem3spi": 6.67,
+    "dm4": 29.5
   },
   {
     "roll": 221,
@@ -5877,7 +6035,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 14.0,
     "python23": 11.0,
-    "sem3spi": 6.46
+    "sem3spi": 6.46,
+    "dm4": 36.5
   },
   {
     "roll": 14,
@@ -5914,7 +6073,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 24.5,
     "python23": 23.0,
-    "sem3spi": 9.08
+    "sem3spi": 9.08,
+    "dm4": 47.0
   },
   {
     "roll": 77,
@@ -5951,7 +6111,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 21.0,
     "python23": 17.0,
-    "sem3spi": 8.38
+    "sem3spi": 8.38,
+    "dm4": 42.0
   },
   {
     "roll": 117,
@@ -5988,7 +6149,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 22.0,
     "python23": 14.5,
-    "sem3spi": 8.25
+    "sem3spi": 8.25,
+    "dm4": 41.5
   },
   {
     "roll": 210,
@@ -6025,7 +6187,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 23.0,
     "python23": 19.0,
-    "sem3spi": 6.92
+    "sem3spi": 6.92,
+    "dm4": 29.0
   },
   {
     "roll": 142,
@@ -6062,7 +6225,8 @@ const data = [
     "toc3": 20.5,
     "fsd23": 21.5,
     "python23": 16.0,
-    "sem3spi": 7.04
+    "sem3spi": 7.04,
+    "dm4": 41.0
   },
   {
     "roll": 6,
@@ -6099,7 +6263,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 24.0,
     "python23": 19.0,
-    "sem3spi": 9.5
+    "sem3spi": 9.5,
+    "dm4": 38.5
   },
   {
     "roll": 173,
@@ -6136,7 +6301,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 17.0,
     "python23": 16.0,
-    "sem3spi": 7.25
+    "sem3spi": 7.25,
+    "dm4": 33.5
   },
   {
     "roll": 145,
@@ -6173,7 +6339,8 @@ const data = [
     "toc3": 10.0,
     "fsd23": 19.5,
     "python23": 15.5,
-    "sem3spi": 7.13
+    "sem3spi": 7.13,
+    "dm4": 27.0
   },
   {
     "roll": 267,
@@ -6210,7 +6377,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 14.0,
     "python23": 9.0,
-    "sem3spi": 6.0
+    "sem3spi": 6.0,
+    "dm4": 14.0
   },
   {
     "roll": 249,
@@ -6247,7 +6415,8 @@ const data = [
     "toc3": 9.5,
     "fsd23": 15.0,
     "python23": 10.0,
-    "sem3spi": 5.33
+    "sem3spi": 5.33,
+    "dm4": 23.5
   },
   {
     "roll": 223,
@@ -6284,7 +6453,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 19.0,
     "python23": 14.0,
-    "sem3spi": 6.25
+    "sem3spi": 6.25,
+    "dm4": 33.0
   },
   {
     "roll": 262,
@@ -6321,7 +6491,8 @@ const data = [
     "toc3": 11.0,
     "fsd23": 14.0,
     "python23": 6.0,
-    "sem3spi": 4.7
+    "sem3spi": 4.7,
+    "dm4": 27.5
   },
   {
     "roll": 182,
@@ -6358,7 +6529,8 @@ const data = [
     "toc3": 10.0,
     "fsd23": 12.5,
     "python23": 19.0,
-    "sem3spi": 6.58
+    "sem3spi": 6.58,
+    "dm4": 29.0
   },
   {
     "roll": 268,
@@ -6395,7 +6567,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 18.0,
     "python23": 14.0,
-    "sem3spi": 6.5
+    "sem3spi": 6.5,
+    "dm4": 32.0
   },
   {
     "roll": 272,
@@ -6432,7 +6605,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 18.0,
     "python23": 16.5,
-    "sem3spi": 6.71
+    "sem3spi": 6.71,
+    "dm4": 27.5
   },
   {
     "roll": 271,
@@ -6469,7 +6643,8 @@ const data = [
     "toc3": 11.5,
     "fsd23": 19.5,
     "python23": 12.0,
-    "sem3spi": 6.58
+    "sem3spi": 6.58,
+    "dm4": 33.5
   },
   {
     "roll": 281,
@@ -6506,7 +6681,8 @@ const data = [
     "toc3": 7.5,
     "fsd23": 21.0,
     "python23": 13.0,
-    "sem3spi": 6.04
+    "sem3spi": 6.04,
+    "dm4": 19.5
   },
   {
     "roll": 265,
@@ -6542,7 +6718,8 @@ const data = [
     "coa3": 16.5,
     "toc3": 13.0,
     "fsd23": 19.0,
-    "python23": 16.5
+    "python23": 16.5,
+    "dm4": 33.5
   },
   {
     "roll": 261,
@@ -6579,7 +6756,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 20.0,
     "python23": 14.0,
-    "sem3spi": 6.71
+    "sem3spi": 6.71,
+    "dm4": 33.5
   },
   {
     "roll": 243,
@@ -6616,7 +6794,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 21.0,
     "python23": 11.5,
-    "sem3spi": 7.08
+    "sem3spi": 7.08,
+    "dm4": 31.0
   },
   {
     "roll": 152,
@@ -6652,7 +6831,8 @@ const data = [
     "coa3": 22.5,
     "toc3": 18.0,
     "fsd23": 20.0,
-    "python23": 16.0
+    "python23": 16.0,
+    "dm4": 37.0
   },
   {
     "roll": 250,
@@ -6689,7 +6869,8 @@ const data = [
     "toc3": 11.5,
     "fsd23": 15.0,
     "python23": 13.5,
-    "sem3spi": 6.96
+    "sem3spi": 6.96,
+    "dm4": 27.0
   },
   {
     "roll": 275,
@@ -6726,7 +6907,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 13.0,
     "python23": 9.0,
-    "sem3spi": 6.17
+    "sem3spi": 6.17,
+    "dm4": 36.5
   },
   {
     "roll": 287,
@@ -6762,7 +6944,8 @@ const data = [
     "coa3": 4.0,
     "toc3": 0.0,
     "fsd23": 3.0,
-    "python23": 5.0
+    "python23": 5.0,
+    "dm4": 2.5
   },
   {
     "roll": 242,
@@ -6799,7 +6982,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 16.0,
     "python23": 11.0,
-    "sem3spi": 6.86
+    "sem3spi": 6.86,
+    "dm4": 32.5
   },
   {
     "roll": 237,
@@ -6836,7 +7020,8 @@ const data = [
     "toc3": 12.5,
     "fsd23": 19.0,
     "python23": 12.0,
-    "sem3spi": 7.08
+    "sem3spi": 7.08,
+    "dm4": 32.5
   },
   {
     "roll": 140,
@@ -6873,7 +7058,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 20.0,
     "python23": 15.0,
-    "sem3spi": 8.13
+    "sem3spi": 8.13,
+    "dm4": 32.0
   },
   {
     "roll": 195,
@@ -6910,7 +7096,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 20.0,
     "python23": 14.0,
-    "sem3spi": 7.46
+    "sem3spi": 7.46,
+    "dm4": 33.0
   },
   {
     "roll": 247,
@@ -6947,7 +7134,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 15.0,
     "python23": 11.5,
-    "sem3spi": 6.83
+    "sem3spi": 6.83,
+    "dm4": 31.5
   },
   {
     "roll": 266,
@@ -6983,7 +7171,8 @@ const data = [
     "coa3": 17.5,
     "toc3": 17.0,
     "fsd23": 0.0,
-    "python23": 0.0
+    "python23": 0.0,
+    "dm4": 27.0
   },
   {
     "roll": 224,
@@ -7020,7 +7209,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 19.0,
     "python23": 18.0,
-    "sem3spi": 7.71
+    "sem3spi": 7.71,
+    "dm4": 24.0
   },
   {
     "roll": 236,
@@ -7056,7 +7246,8 @@ const data = [
     "coa3": 21.5,
     "toc3": 15.5,
     "fsd23": 14.0,
-    "python23": 16.0
+    "python23": 16.0,
+    "dm4": 35.0
   },
   {
     "roll": 111,
@@ -7092,7 +7283,8 @@ const data = [
     "coa3": 24.0,
     "toc3": 20.5,
     "fsd23": 22.0,
-    "python23": 23.5
+    "python23": 23.5,
+    "dm4": 38.5
   },
   {
     "roll": 4,
@@ -7129,7 +7321,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 22.5,
     "python23": 25.0,
-    "sem3spi": 9.92
+    "sem3spi": 9.92,
+    "dm4": 43.0
   },
   {
     "roll": 255,
@@ -7166,7 +7359,8 @@ const data = [
     "toc3": 7.0,
     "fsd23": 7.0,
     "python23": 9.5,
-    "sem3spi": 6.08
+    "sem3spi": 6.08,
+    "dm4": 31.5
   },
   {
     "roll": 49,
@@ -7203,7 +7397,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 22.5,
     "python23": 19.5,
-    "sem3spi": 9.21
+    "sem3spi": 9.21,
+    "dm4": 42.0
   },
   {
     "roll": 229,
@@ -7240,7 +7435,8 @@ const data = [
     "toc3": 7.0,
     "fsd23": 11.5,
     "python23": 14.0,
-    "sem3spi": 6.58
+    "sem3spi": 6.58,
+    "dm4": 33.5
   },
   {
     "roll": 37,
@@ -7277,7 +7473,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 24.0,
     "python23": 18.5,
-    "sem3spi": 8.96
+    "sem3spi": 8.96,
+    "dm4": 34.5
   },
   {
     "roll": 70,
@@ -7299,7 +7496,8 @@ const data = [
     "python2": 0,
     "toc": 0,
     "total": 0.0,
-    "sem3spi": 7.44
+    "sem3spi": 7.44,
+    "dm4": 0.0
   },
   {
     "roll": 35,
@@ -7336,7 +7534,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 25.0,
     "python23": 22.5,
-    "sem3spi": 9.21
+    "sem3spi": 9.21,
+    "dm4": 40.5
   },
   {
     "roll": 225,
@@ -7373,7 +7572,8 @@ const data = [
     "toc3": 7.5,
     "fsd23": 13.5,
     "python23": 11.0,
-    "sem3spi": 5.33144
+    "sem3spi": 5.33144,
+    "dm4": 24.5
   },
   {
     "roll": 30,
@@ -7410,7 +7610,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 21.5,
     "python23": 19.5,
-    "sem3spi": 8.96
+    "sem3spi": 8.96,
+    "dm4": 38.5
   },
   {
     "roll": 129,
@@ -7447,7 +7648,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 22.0,
     "python23": 16.5,
-    "sem3spi": 7.79
+    "sem3spi": 7.79,
+    "dm4": 40.0
   },
   {
     "roll": 12,
@@ -7484,7 +7686,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 25.0,
     "python23": 24.5,
-    "sem3spi": 9.42
+    "sem3spi": 9.42,
+    "dm4": 46.5
   },
   {
     "roll": 98,
@@ -7521,7 +7724,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 23.0,
     "python23": 19.5,
-    "sem3spi": 8.17
+    "sem3spi": 8.17,
+    "dm4": 34.0
   },
   {
     "roll": 191,
@@ -7558,7 +7762,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 19.5,
     "python23": 14.0,
-    "sem3spi": 6.71
+    "sem3spi": 6.71,
+    "dm4": 37.0
   },
   {
     "roll": 38,
@@ -7595,7 +7800,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 25.0,
     "python23": 24.5,
-    "sem3spi": 9.38
+    "sem3spi": 9.38,
+    "dm4": 40.0
   },
   {
     "roll": 74,
@@ -7632,7 +7838,8 @@ const data = [
     "toc3": 12.0,
     "fsd23": 23.5,
     "python23": 18.0,
-    "sem3spi": 8.58
+    "sem3spi": 8.58,
+    "dm4": 29.5
   },
   {
     "roll": 50,
@@ -7669,7 +7876,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 22.0,
     "python23": 25.0,
-    "sem3spi": 8.29
+    "sem3spi": 8.29,
+    "dm4": 38.0
   },
   {
     "roll": 57,
@@ -7706,7 +7914,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 23.0,
     "python23": 19.0,
-    "sem3spi": 9.13
+    "sem3spi": 9.13,
+    "dm4": 36.5
   },
   {
     "roll": 241,
@@ -7743,7 +7952,8 @@ const data = [
     "toc3": 8.0,
     "fsd23": 18.0,
     "python23": 14.0,
-    "sem3spi": 5.88
+    "sem3spi": 5.88,
+    "dm4": 24.0
   },
   {
     "roll": 28,
@@ -7780,7 +7990,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 24.0,
     "python23": 20.0,
-    "sem3spi": 8.67
+    "sem3spi": 8.67,
+    "dm4": 45.5
   },
   {
     "roll": 89,
@@ -7817,7 +8028,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 20.5,
     "python23": 12.0,
-    "sem3spi": 8.54
+    "sem3spi": 8.54,
+    "dm4": 38.5
   },
   {
     "roll": 24,
@@ -7854,7 +8066,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 23.5,
     "python23": 20.5,
-    "sem3spi": 9.17
+    "sem3spi": 9.17,
+    "dm4": 36.0
   },
   {
     "roll": 213,
@@ -7891,7 +8104,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 11.0,
     "python23": 15.5,
-    "sem3spi": 6.21
+    "sem3spi": 6.21,
+    "dm4": 18.5
   },
   {
     "roll": 34,
@@ -7928,7 +8142,8 @@ const data = [
     "toc3": 20.5,
     "fsd23": 20.5,
     "python23": 22.5,
-    "sem3spi": 9.17
+    "sem3spi": 9.17,
+    "dm4": 40.0
   },
   {
     "roll": 61,
@@ -7965,7 +8180,8 @@ const data = [
     "toc3": 11.0,
     "fsd23": 24.0,
     "python23": 19.0,
-    "sem3spi": 8.38
+    "sem3spi": 8.38,
+    "dm4": 43.0
   },
   {
     "roll": 149,
@@ -8002,7 +8218,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 23.0,
     "python23": 15.0,
-    "sem3spi": 7.83
+    "sem3spi": 7.83,
+    "dm4": 37.5
   },
   {
     "roll": 231,
@@ -8024,7 +8241,8 @@ const data = [
     "python2": 0,
     "toc": 0,
     "total": 0.0,
-    "sem3spi": 4.96
+    "sem3spi": 4.96,
+    "dm4": 0.0
   },
   {
     "roll": 15,
@@ -8061,7 +8279,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 22.0,
     "python23": 25.0,
-    "sem3spi": 8.96
+    "sem3spi": 8.96,
+    "dm4": 41.0
   },
   {
     "roll": 47,
@@ -8098,7 +8317,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 23.0,
     "python23": 25.0,
-    "sem3spi": 8.75
+    "sem3spi": 8.75,
+    "dm4": 41.0
   },
   {
     "roll": 10,
@@ -8135,7 +8355,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 24.0,
     "python23": 25.0,
-    "sem3spi": 9.33
+    "sem3spi": 9.33,
+    "dm4": 44.0
   },
   {
     "roll": 2,
@@ -8172,7 +8393,8 @@ const data = [
     "toc3": 24.0,
     "fsd23": 24.0,
     "python23": 25.0,
-    "sem3spi": 9.88
+    "sem3spi": 9.88,
+    "dm4": 49.0
   },
   {
     "roll": 239,
@@ -8209,7 +8431,8 @@ const data = [
     "toc3": 7.5,
     "fsd23": 8.0,
     "python23": 7.0,
-    "sem3spi": 4.89
+    "sem3spi": 4.89,
+    "dm4": 31.5
   },
   {
     "roll": 126,
@@ -8246,7 +8469,8 @@ const data = [
     "toc3": 13.0,
     "fsd23": 17.0,
     "python23": 14.0,
-    "sem3spi": 7.75
+    "sem3spi": 7.75,
+    "dm4": 33.0
   },
   {
     "roll": 158,
@@ -8283,7 +8507,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 23.0,
     "python23": 15.0,
-    "sem3spi": 7.38
+    "sem3spi": 7.38,
+    "dm4": 31.0
   },
   {
     "roll": 108,
@@ -8320,7 +8545,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 15.0,
     "python23": 17.0,
-    "sem3spi": 8.0
+    "sem3spi": 8.0,
+    "dm4": 35.5
   },
   {
     "roll": 137,
@@ -8357,7 +8583,8 @@ const data = [
     "toc3": 9.5,
     "fsd23": 19.0,
     "python23": 12.5,
-    "sem3spi": 7.08
+    "sem3spi": 7.08,
+    "dm4": 33.0
   },
   {
     "roll": 216,
@@ -8394,7 +8621,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 18.0,
     "python23": 19.5,
-    "sem3spi": 7.21
+    "sem3spi": 7.21,
+    "dm4": 34.5
   },
   {
     "roll": 29,
@@ -8431,7 +8659,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 24.0,
     "python23": 23.0,
-    "sem3spi": 9.04
+    "sem3spi": 9.04,
+    "dm4": 42.0
   },
   {
     "roll": 118,
@@ -8468,7 +8697,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 24.0,
     "python23": 21.5,
-    "sem3spi": 8.04
+    "sem3spi": 8.04,
+    "dm4": 36.0
   },
   {
     "roll": 155,
@@ -8505,7 +8735,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 22.0,
     "python23": 17.5,
-    "sem3spi": 7.67
+    "sem3spi": 7.67,
+    "dm4": 42.0
   },
   {
     "roll": 65,
@@ -8542,7 +8773,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 25.0,
     "python23": 21.0,
-    "sem3spi": 8.33
+    "sem3spi": 8.33,
+    "dm4": 42.5
   },
   {
     "roll": 186,
@@ -8579,7 +8811,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 16.0,
     "python23": 15.0,
-    "sem3spi": 6.67
+    "sem3spi": 6.67,
+    "dm4": 33.0
   },
   {
     "roll": 83,
@@ -8616,7 +8849,8 @@ const data = [
     "toc3": 21.5,
     "fsd23": 12.0,
     "python23": 16.0,
-    "sem3spi": 7.92
+    "sem3spi": 7.92,
+    "dm4": 37.5
   },
   {
     "roll": 115,
@@ -8653,7 +8887,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 24.0,
     "python23": 19.0,
-    "sem3spi": 7.92
+    "sem3spi": 7.92,
+    "dm4": 38.5
   },
   {
     "roll": 17,
@@ -8690,7 +8925,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 25.0,
     "python23": 24.0,
-    "sem3spi": 9.46
+    "sem3spi": 9.46,
+    "dm4": 42.5
   },
   {
     "roll": 181,
@@ -8727,7 +8963,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 11.0,
     "python23": 12.0,
-    "sem3spi": 6.92
+    "sem3spi": 6.92,
+    "dm4": 35.0
   },
   {
     "roll": 41,
@@ -8764,7 +9001,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 25.0,
     "python23": 19.5,
-    "sem3spi": 8.96
+    "sem3spi": 8.96,
+    "dm4": 39.0
   },
   {
     "roll": 18,
@@ -8801,7 +9039,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 23.0,
     "python23": 20.0,
-    "sem3spi": 9.38
+    "sem3spi": 9.38,
+    "dm4": 41.5
   },
   {
     "roll": 253,
@@ -8838,7 +9077,8 @@ const data = [
     "toc3": 8.0,
     "fsd23": 16.0,
     "python23": 9.5,
-    "sem3spi": 4.89
+    "sem3spi": 4.89,
+    "dm4": 10.0
   },
   {
     "roll": 9,
@@ -8875,7 +9115,8 @@ const data = [
     "toc3": 20.5,
     "fsd23": 23.0,
     "python23": 19.5,
-    "sem3spi": 9.38
+    "sem3spi": 9.38,
+    "dm4": 42.0
   },
   {
     "roll": 180,
@@ -8912,7 +9153,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 9.0,
     "python23": 13.5,
-    "sem3spi": 6.83
+    "sem3spi": 6.83,
+    "dm4": 36.5
   },
   {
     "roll": 54,
@@ -8949,7 +9191,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 23.5,
     "python23": 17.0,
-    "sem3spi": 8.42
+    "sem3spi": 8.42,
+    "dm4": 36.0
   },
   {
     "roll": 63,
@@ -8986,7 +9229,8 @@ const data = [
     "toc3": 11.0,
     "fsd23": 22.0,
     "python23": 17.0,
-    "sem3spi": 7.96
+    "sem3spi": 7.96,
+    "dm4": 27.0
   },
   {
     "roll": 70,
@@ -9023,7 +9267,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 20.0,
     "python23": 22.0,
-    "sem3spi": 8.88
+    "sem3spi": 8.88,
+    "dm4": 29.5
   },
   {
     "roll": 159,
@@ -9060,7 +9305,8 @@ const data = [
     "toc3": 22.5,
     "fsd23": 23.0,
     "python23": 14.0,
-    "sem3spi": 7.08
+    "sem3spi": 7.08,
+    "dm4": 34.0
   },
   {
     "roll": 193,
@@ -9097,7 +9343,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 11.0,
     "python23": 8.5,
-    "sem3spi": 6.58
+    "sem3spi": 6.58,
+    "dm4": 37.0
   },
   {
     "roll": 269,
@@ -9134,7 +9381,8 @@ const data = [
     "toc3": 13.0,
     "fsd23": 10.5,
     "python23": 8.5,
-    "sem3spi": 4.96
+    "sem3spi": 4.96,
+    "dm4": 32.0
   },
   {
     "roll": 234,
@@ -9171,7 +9419,8 @@ const data = [
     "toc3": 4.0,
     "fsd23": 6.0,
     "python23": 7.0,
-    "sem3spi": 6.0
+    "sem3spi": 6.0,
+    "dm4": 31.5
   },
   {
     "roll": 94,
@@ -9208,7 +9457,8 @@ const data = [
     "toc3": 25.0,
     "fsd23": 24.0,
     "python23": 13.0,
-    "sem3spi": 8.38
+    "sem3spi": 8.38,
+    "dm4": 41.0
   },
   {
     "roll": 226,
@@ -9245,7 +9495,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 14.0,
     "python23": 8.0,
-    "sem3spi": 6.25
+    "sem3spi": 6.25,
+    "dm4": 28.5
   },
   {
     "roll": 138,
@@ -9282,7 +9533,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 15.0,
     "python23": 14.0,
-    "sem3spi": 7.38
+    "sem3spi": 7.38,
+    "dm4": 20.5
   },
   {
     "roll": 252,
@@ -9319,7 +9571,8 @@ const data = [
     "toc3": 4.0,
     "fsd23": 12.0,
     "python23": 6.0,
-    "sem3spi": 5.71
+    "sem3spi": 5.71,
+    "dm4": 3.5
   },
   {
     "roll": 25,
@@ -9356,7 +9609,8 @@ const data = [
     "toc3": 23.5,
     "fsd23": 22.0,
     "python23": 21.0,
-    "sem3spi": 9.21
+    "sem3spi": 9.21,
+    "dm4": 34.0
   },
   {
     "roll": 69,
@@ -9393,7 +9647,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 20.0,
     "python23": 14.0,
-    "sem3spi": 8.63
+    "sem3spi": 8.63,
+    "dm4": 41.0
   },
   {
     "roll": 52,
@@ -9430,7 +9685,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 20.0,
     "python23": 12.0,
-    "sem3spi": 8.08
+    "sem3spi": 8.08,
+    "dm4": 31.5
   },
   {
     "roll": 169,
@@ -9467,7 +9723,8 @@ const data = [
     "toc3": 12.0,
     "fsd23": 20.0,
     "python23": 9.0,
-    "sem3spi": 7.33
+    "sem3spi": 7.33,
+    "dm4": 0.0
   },
   {
     "roll": 39,
@@ -9504,7 +9761,8 @@ const data = [
     "toc3": 12.5,
     "fsd23": 19.0,
     "python23": 14.0,
-    "sem3spi": 9.13
+    "sem3spi": 9.13,
+    "dm4": 40.0
   },
   {
     "roll": 205,
@@ -9541,7 +9799,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 14.0,
     "python23": 10.5,
-    "sem3spi": 6.88
+    "sem3spi": 6.88,
+    "dm4": 34.5
   },
   {
     "roll": 106,
@@ -9578,7 +9837,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 18.0,
     "python23": 13.5,
-    "sem3spi": 8.29
+    "sem3spi": 8.29,
+    "dm4": 33.5
   },
   {
     "roll": 282,
@@ -9615,7 +9875,8 @@ const data = [
     "toc3": 3.0,
     "fsd23": 6.0,
     "python23": 5.0,
-    "sem3spi": 4.89
+    "sem3spi": 4.89,
+    "dm4": 4.5
   },
   {
     "roll": 135,
@@ -9652,7 +9913,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 23.0,
     "python23": 18.5,
-    "sem3spi": 7.92
+    "sem3spi": 7.92,
+    "dm4": 40.5
   },
   {
     "roll": 90,
@@ -9689,7 +9951,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 22.0,
     "python23": 13.0,
-    "sem3spi": 8.21
+    "sem3spi": 8.21,
+    "dm4": 22.0
   },
   {
     "roll": 96,
@@ -9726,7 +9989,8 @@ const data = [
     "toc3": 12.0,
     "fsd23": 18.0,
     "python23": 18.5,
-    "sem3spi": 8.08
+    "sem3spi": 8.08,
+    "dm4": 34.5
   },
   {
     "roll": 164,
@@ -9763,7 +10027,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 19.0,
     "python23": 12.5,
-    "sem3spi": 7.58
+    "sem3spi": 7.58,
+    "dm4": 37.0
   },
   {
     "roll": 78,
@@ -9800,7 +10065,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 20.0,
     "python23": 16.0,
-    "sem3spi": 8.58
+    "sem3spi": 8.58,
+    "dm4": 37.5
   },
   {
     "roll": 283,
@@ -9837,7 +10103,8 @@ const data = [
     "toc3": 0.0,
     "fsd23": 0.0,
     "python23": 0.0,
-    "sem3spi": 6.93
+    "sem3spi": 6.93,
+    "dm4": 0.0
   },
   {
     "roll": 157,
@@ -9874,7 +10141,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 12.5,
     "python23": 13.0,
-    "sem3spi": 6.63
+    "sem3spi": 6.63,
+    "dm4": 36.0
   },
   {
     "roll": 104,
@@ -9911,7 +10179,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 16.5,
     "python23": 15.0,
-    "sem3spi": 7.96
+    "sem3spi": 7.96,
+    "dm4": 30.5
   },
   {
     "roll": 16,
@@ -9948,7 +10217,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 23.0,
     "python23": 19.5,
-    "sem3spi": 9.33
+    "sem3spi": 9.33,
+    "dm4": 46.0
   },
   {
     "roll": 230,
@@ -9985,7 +10255,8 @@ const data = [
     "toc3": 9.0,
     "fsd23": 10.0,
     "python23": 4.5,
-    "sem3spi": 6.21
+    "sem3spi": 6.21,
+    "dm4": 24.5
   },
   {
     "roll": 273,
@@ -10022,7 +10293,8 @@ const data = [
     "toc3": 4.5,
     "fsd23": 8.0,
     "python23": 7.0,
-    "sem3spi": 6.0
+    "sem3spi": 6.0,
+    "dm4": 32.0
   },
   {
     "roll": 280,
@@ -10058,7 +10330,8 @@ const data = [
     "coa3": 5.0,
     "toc3": 4.0,
     "fsd23": 4.0,
-    "python23": 10.5
+    "python23": 10.5,
+    "dm4": 24.0
   },
   {
     "roll": 20,
@@ -10095,7 +10368,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 24.0,
     "python23": 21.0,
-    "sem3spi": 9.17
+    "sem3spi": 9.17,
+    "dm4": 48.0
   },
   {
     "roll": 27,
@@ -10132,7 +10406,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 23.0,
     "python23": 24.0,
-    "sem3spi": 9.42
+    "sem3spi": 9.42,
+    "dm4": 44.5
   },
   {
     "roll": 109,
@@ -10169,7 +10444,8 @@ const data = [
     "toc3": 20.5,
     "fsd23": 23.0,
     "python23": 16.0,
-    "sem3spi": 8.5
+    "sem3spi": 8.5,
+    "dm4": 37.0
   },
   {
     "roll": 5,
@@ -10206,7 +10482,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 23.5,
     "python23": 23.0,
-    "sem3spi": 9.13
+    "sem3spi": 9.13,
+    "dm4": 44.5
   },
   {
     "roll": 13,
@@ -10243,7 +10520,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 25.0,
     "python23": 23.5,
-    "sem3spi": 9.92
+    "sem3spi": 9.92,
+    "dm4": 46.0
   },
   {
     "roll": 244,
@@ -10280,7 +10558,8 @@ const data = [
     "toc3": 0.0,
     "fsd23": 0.0,
     "python23": 0.0,
-    "sem3spi": 5.58
+    "sem3spi": 5.58,
+    "dm4": 35.5
   },
   {
     "roll": 131,
@@ -10317,7 +10596,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 21.0,
     "python23": 15.0,
-    "sem3spi": 7.38
+    "sem3spi": 7.38,
+    "dm4": 37.5
   },
   {
     "roll": 162,
@@ -10354,7 +10634,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 14.0,
     "python23": 12.0,
-    "sem3spi": 7.29
+    "sem3spi": 7.29,
+    "dm4": 44.0
   },
   {
     "roll": 125,
@@ -10391,7 +10672,8 @@ const data = [
     "toc3": 12.0,
     "fsd23": 24.0,
     "python23": 20.5,
-    "sem3spi": 7.89
+    "sem3spi": 7.89,
+    "dm4": 42.0
   },
   {
     "roll": 161,
@@ -10428,7 +10710,8 @@ const data = [
     "toc3": 10.5,
     "fsd23": 20.5,
     "python23": 5.5,
-    "sem3spi": 7.21
+    "sem3spi": 7.21,
+    "dm4": 36.0
   },
   {
     "roll": 251,
@@ -10465,7 +10748,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 18.0,
     "python23": 9.0,
-    "sem3spi": 5.92
+    "sem3spi": 5.92,
+    "dm4": 32.5
   },
   {
     "roll": 170,
@@ -10502,7 +10786,8 @@ const data = [
     "toc3": 13.0,
     "fsd23": 20.0,
     "python23": 12.5,
-    "sem3spi": 7.46
+    "sem3spi": 7.46,
+    "dm4": 46.0
   },
   {
     "roll": 3,
@@ -10539,7 +10824,8 @@ const data = [
     "toc3": 24.0,
     "fsd23": 25.0,
     "python23": 25.0,
-    "sem3spi": 9.83
+    "sem3spi": 9.83,
+    "dm4": 48.0
   },
   {
     "roll": 32,
@@ -10576,7 +10862,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 24.5,
     "python23": 24.0,
-    "sem3spi": 8.96
+    "sem3spi": 8.96,
+    "dm4": 46.0
   },
   {
     "roll": 26,
@@ -10613,7 +10900,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 11.0,
     "python23": 16.0,
-    "sem3spi": 8.54
+    "sem3spi": 8.54,
+    "dm4": 40.5
   },
   {
     "roll": 163,
@@ -10650,7 +10938,8 @@ const data = [
     "toc3": 11.5,
     "fsd23": 23.0,
     "python23": 11.0,
-    "sem3spi": 7.04
+    "sem3spi": 7.04,
+    "dm4": 44.0
   },
   {
     "roll": 2,
@@ -10686,7 +10975,8 @@ const data = [
     "toc3": 23.5,
     "fsd23": 25.0,
     "python23": 25.0,
-    "sem3spi": 9.96
+    "sem3spi": 9.96,
+    "dm4": 34.5
   },
   {
     "roll": 47,
@@ -10722,7 +11012,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 22.0,
     "python23": 20.0,
-    "sem3spi": 9.58
+    "sem3spi": 9.58,
+    "dm4": 31.0
   },
   {
     "roll": 210,
@@ -10758,7 +11049,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 21.5,
     "python23": 14.0,
-    "sem3spi": 7.75
+    "sem3spi": 7.75,
+    "dm4": 36.5
   },
   {
     "roll": 286,
@@ -10794,7 +11086,8 @@ const data = [
     "toc3": 0.0,
     "fsd23": 0.0,
     "python23": 0.0,
-    "sem3spi": 6.0
+    "sem3spi": 6.0,
+    "dm4": 20.5
   },
   {
     "roll": 27,
@@ -10830,7 +11123,8 @@ const data = [
     "toc3": 22.5,
     "fsd23": 25.0,
     "python23": 23.0,
-    "sem3spi": 9.58
+    "sem3spi": 9.58,
+    "dm4": 41.5
   },
   {
     "roll": 150,
@@ -10866,7 +11160,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 19.5,
     "python23": 12.0,
-    "sem3spi": 8.04
+    "sem3spi": 8.04,
+    "dm4": 36.0
   },
   {
     "roll": 69,
@@ -10902,7 +11197,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 22.0,
     "python23": 15.5,
-    "sem3spi": 9.0
+    "sem3spi": 9.0,
+    "dm4": 38.5
   },
   {
     "roll": 237,
@@ -10938,7 +11234,8 @@ const data = [
     "toc3": 8.0,
     "fsd23": 18.0,
     "python23": 7.0,
-    "sem3spi": 6.58
+    "sem3spi": 6.58,
+    "dm4": 24.0
   },
   {
     "roll": 229,
@@ -10974,7 +11271,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 19.0,
     "python23": 15.0,
-    "sem3spi": 7.21
+    "sem3spi": 7.21,
+    "dm4": 35.5
   },
   {
     "roll": 191,
@@ -11010,7 +11308,8 @@ const data = [
     "toc3": 23.5,
     "fsd23": 25.0,
     "python23": 18.5,
-    "sem3spi": 8.38
+    "sem3spi": 8.38,
+    "dm4": 29.0
   },
   {
     "roll": 172,
@@ -11046,7 +11345,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 22.0,
     "python23": 13.5,
-    "sem3spi": 8.0
+    "sem3spi": 8.0,
+    "dm4": 39.0
   },
   {
     "roll": 127,
@@ -11082,7 +11382,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 24.0,
     "python23": 18.0,
-    "sem3spi": 8.75
+    "sem3spi": 8.75,
+    "dm4": 41.0
   },
   {
     "roll": 4,
@@ -11118,7 +11419,8 @@ const data = [
     "toc3": 21.5,
     "fsd23": 24.0,
     "python23": 23.0,
-    "sem3spi": 9.83
+    "sem3spi": 9.83,
+    "dm4": 33.5
   },
   {
     "roll": 254,
@@ -11154,7 +11456,8 @@ const data = [
     "toc3": 1.0,
     "fsd23": 2.0,
     "python23": 3.0,
-    "sem3spi": 6.52
+    "sem3spi": 6.52,
+    "dm4": 1.5
   },
   {
     "roll": 76,
@@ -11190,7 +11493,8 @@ const data = [
     "toc3": 21.5,
     "fsd23": 24.0,
     "python23": 23.0,
-    "sem3spi": 9.08
+    "sem3spi": 9.08,
+    "dm4": 46.5
   },
   {
     "roll": 86,
@@ -11226,7 +11530,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 22.0,
     "python23": 21.5,
-    "sem3spi": 9.17
+    "sem3spi": 9.17,
+    "dm4": 40.5
   },
   {
     "roll": 116,
@@ -11262,7 +11567,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 20.5,
     "python23": 21.5,
-    "sem3spi": 8.13
+    "sem3spi": 8.13,
+    "dm4": 42.5
   },
   {
     "roll": 208,
@@ -11298,7 +11604,8 @@ const data = [
     "toc3": 0.0,
     "fsd23": 20.0,
     "python23": 10.0,
-    "sem3spi": 6.17
+    "sem3spi": 6.17,
+    "dm4": 33.0
   },
   {
     "roll": 188,
@@ -11334,7 +11641,8 @@ const data = [
     "toc3": 9.0,
     "fsd23": 18.5,
     "python23": 11.5,
-    "sem3spi": 7.21
+    "sem3spi": 7.21,
+    "dm4": 13.0
   },
   {
     "roll": 46,
@@ -11370,7 +11678,8 @@ const data = [
     "toc3": 21.5,
     "fsd23": 25.0,
     "python23": 16.5,
-    "sem3spi": 8.63
+    "sem3spi": 8.63,
+    "dm4": 44.0
   },
   {
     "roll": 284,
@@ -11406,7 +11715,8 @@ const data = [
     "toc3": 9.0,
     "fsd23": 20.0,
     "python23": 11.0,
-    "sem3spi": 5.42
+    "sem3spi": 5.42,
+    "dm4": 25.5
   },
   {
     "roll": 43,
@@ -11442,7 +11752,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 25.0,
     "python23": 21.0,
-    "sem3spi": 9.42
+    "sem3spi": 9.42,
+    "dm4": 36.5
   },
   {
     "roll": 155,
@@ -11478,7 +11789,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 19.0,
     "python23": 9.5,
-    "sem3spi": 7.29
+    "sem3spi": 7.29,
+    "dm4": 38.0
   },
   {
     "roll": 264,
@@ -11514,7 +11826,8 @@ const data = [
     "toc3": 13.0,
     "fsd23": 17.0,
     "python23": 13.0,
-    "sem3spi": 6.58
+    "sem3spi": 6.58,
+    "dm4": 32.0
   },
   {
     "roll": 81,
@@ -11550,7 +11863,8 @@ const data = [
     "toc3": 20.5,
     "fsd23": 25.0,
     "python23": 21.5,
-    "sem3spi": 9.13
+    "sem3spi": 9.13,
+    "dm4": 48.0
   },
   {
     "roll": 91,
@@ -11586,7 +11900,8 @@ const data = [
     "toc3": 20.5,
     "fsd23": 21.0,
     "python23": 10.5,
-    "sem3spi": 9.46
+    "sem3spi": 9.46,
+    "dm4": 46.0
   },
   {
     "roll": 275,
@@ -11622,7 +11937,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 20.0,
     "python23": 9.5,
-    "sem3spi": 5.46
+    "sem3spi": 5.46,
+    "dm4": 33.0
   },
   {
     "roll": 263,
@@ -11658,7 +11974,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 23.0,
     "python23": 15.0,
-    "sem3spi": 6.33171
+    "sem3spi": 6.33171,
+    "dm4": 37.5
   },
   {
     "roll": 102,
@@ -11694,7 +12011,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 21.5,
     "python23": 17.0,
-    "sem3spi": 8.46
+    "sem3spi": 8.46,
+    "dm4": 29.5
   },
   {
     "roll": 207,
@@ -11730,7 +12048,8 @@ const data = [
     "toc3": 20.5,
     "fsd23": 24.0,
     "python23": 14.5,
-    "sem3spi": 7.58
+    "sem3spi": 7.58,
+    "dm4": 40.5
   },
   {
     "roll": 32,
@@ -11766,7 +12085,8 @@ const data = [
     "toc3": 21.5,
     "fsd23": 24.5,
     "python23": 19.5,
-    "sem3spi": 9.58
+    "sem3spi": 9.58,
+    "dm4": 41.5
   },
   {
     "roll": 70,
@@ -11802,7 +12122,8 @@ const data = [
     "toc3": 21.5,
     "fsd23": 24.5,
     "python23": 19.5,
-    "sem3spi": 8.79
+    "sem3spi": 8.79,
+    "dm4": 38.0
   },
   {
     "roll": 206,
@@ -11838,7 +12159,8 @@ const data = [
     "toc3": 23.0,
     "fsd23": 21.0,
     "python23": 17.5,
-    "sem3spi": 7.63
+    "sem3spi": 7.63,
+    "dm4": 37.0
   },
   {
     "roll": 28,
@@ -11874,7 +12196,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 23.0,
     "python23": 23.0,
-    "sem3spi": 9.42
+    "sem3spi": 9.42,
+    "dm4": 47.0
   },
   {
     "roll": 16,
@@ -11910,7 +12233,8 @@ const data = [
     "toc3": 24.0,
     "fsd23": 24.5,
     "python23": 24.5,
-    "sem3spi": 9.79
+    "sem3spi": 9.79,
+    "dm4": 47.5
   },
   {
     "roll": 24,
@@ -11946,7 +12270,8 @@ const data = [
     "toc3": 20.5,
     "fsd23": 25.0,
     "python23": 20.0,
-    "sem3spi": 9.71
+    "sem3spi": 9.71,
+    "dm4": 32.0
   },
   {
     "roll": 22,
@@ -11982,7 +12307,8 @@ const data = [
     "toc3": 23.0,
     "fsd23": 24.0,
     "python23": 22.5,
-    "sem3spi": 9.58
+    "sem3spi": 9.58,
+    "dm4": 43.0
   },
   {
     "roll": 105,
@@ -12018,7 +12344,8 @@ const data = [
     "toc3": 20.5,
     "fsd23": 23.0,
     "python23": 20.0,
-    "sem3spi": 8.5
+    "sem3spi": 8.5,
+    "dm4": 42.5
   },
   {
     "roll": 110,
@@ -12054,7 +12381,8 @@ const data = [
     "toc3": 22.5,
     "fsd23": 24.0,
     "python23": 21.5,
-    "sem3spi": 8.83
+    "sem3spi": 8.83,
+    "dm4": 35.5
   },
   {
     "roll": 245,
@@ -12090,7 +12418,8 @@ const data = [
     "toc3": 13.0,
     "fsd23": 21.0,
     "python23": 16.5,
-    "sem3spi": 6.54
+    "sem3spi": 6.54,
+    "dm4": 31.0
   },
   {
     "roll": 162,
@@ -12126,7 +12455,8 @@ const data = [
     "toc3": 22.5,
     "fsd23": 24.0,
     "python23": 19.0,
-    "sem3spi": 8.75
+    "sem3spi": 8.75,
+    "dm4": 41.5
   },
   {
     "roll": 213,
@@ -12162,7 +12492,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 20.0,
     "python23": 14.5,
-    "sem3spi": 7.58
+    "sem3spi": 7.58,
+    "dm4": 36.5
   },
   {
     "roll": 197,
@@ -12198,7 +12529,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 22.0,
     "python23": 15.5,
-    "sem3spi": 8.17
+    "sem3spi": 8.17,
+    "dm4": 38.5
   },
   {
     "roll": 163,
@@ -12234,7 +12566,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 24.0,
     "python23": 10.5,
-    "sem3spi": 8.17
+    "sem3spi": 8.17,
+    "dm4": 33.5
   },
   {
     "roll": 195,
@@ -12270,7 +12603,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 23.0,
     "python23": 14.5,
-    "sem3spi": 7.92
+    "sem3spi": 7.92,
+    "dm4": 34.0
   },
   {
     "roll": 8,
@@ -12306,7 +12640,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 25.0,
     "python23": 22.0,
-    "sem3spi": 9.75
+    "sem3spi": 9.75,
+    "dm4": 42.0
   },
   {
     "roll": 140,
@@ -12342,7 +12677,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 18.0,
     "python23": 15.0,
-    "sem3spi": 7.83
+    "sem3spi": 7.83,
+    "dm4": 32.5
   },
   {
     "roll": 104,
@@ -12378,7 +12714,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 24.0,
     "python23": 15.5,
-    "sem3spi": 8.63
+    "sem3spi": 8.63,
+    "dm4": 44.5
   },
   {
     "roll": 270,
@@ -12414,7 +12751,8 @@ const data = [
     "toc3": 6.0,
     "fsd23": 22.0,
     "python23": 12.0,
-    "sem3spi": 5.17
+    "sem3spi": 5.17,
+    "dm4": 27.0
   },
   {
     "roll": 225,
@@ -12450,7 +12788,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 23.0,
     "python23": 14.5,
-    "sem3spi": 6.96
+    "sem3spi": 6.96,
+    "dm4": 32.5
   },
   {
     "roll": 95,
@@ -12486,7 +12825,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 22.0,
     "python23": 14.0,
-    "sem3spi": 8.67
+    "sem3spi": 8.67,
+    "dm4": 36.0
   },
   {
     "roll": 41,
@@ -12522,7 +12862,8 @@ const data = [
     "toc3": 20.5,
     "fsd23": 22.5,
     "python23": 13.0,
-    "sem3spi": 9.42
+    "sem3spi": 9.42,
+    "dm4": 43.0
   },
   {
     "roll": 250,
@@ -12558,7 +12899,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 21.0,
     "python23": 14.0,
-    "sem3spi": 6.5
+    "sem3spi": 6.5,
+    "dm4": 38.5
   },
   {
     "roll": 164,
@@ -12594,7 +12936,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 21.0,
     "python23": 16.5,
-    "sem3spi": 7.92
+    "sem3spi": 7.92,
+    "dm4": 40.5
   },
   {
     "roll": 101,
@@ -12630,7 +12973,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 24.0,
     "python23": 18.0,
-    "sem3spi": 8.25
+    "sem3spi": 8.25,
+    "dm4": 43.0
   },
   {
     "roll": 205,
@@ -12666,7 +13010,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 22.0,
     "python23": 13.0,
-    "sem3spi": 7.67
+    "sem3spi": 7.67,
+    "dm4": 39.5
   },
   {
     "roll": 266,
@@ -12702,7 +13047,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 14.0,
     "python23": 21.0,
-    "sem3spi": 5.46
+    "sem3spi": 5.46,
+    "dm4": 31.5
   },
   {
     "roll": 269,
@@ -12738,7 +13084,8 @@ const data = [
     "toc3": 10.5,
     "fsd23": 9.0,
     "python23": 9.5,
-    "sem3spi": 5.63
+    "sem3spi": 5.63,
+    "dm4": 2.5
   },
   {
     "roll": 65,
@@ -12774,7 +13121,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 25.0,
     "python23": 18.0,
-    "sem3spi": 9.21
+    "sem3spi": 9.21,
+    "dm4": 33.5
   },
   {
     "roll": 185,
@@ -12810,7 +13158,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 13.0,
     "python23": 13.5,
-    "sem3spi": 7.67
+    "sem3spi": 7.67,
+    "dm4": 36.0
   },
   {
     "roll": 161,
@@ -12846,7 +13195,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 18.5,
     "python23": 14.0,
-    "sem3spi": 8.29
+    "sem3spi": 8.29,
+    "dm4": 39.5
   },
   {
     "roll": 167,
@@ -12882,7 +13232,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 23.0,
     "python23": 21.5,
-    "sem3spi": 8.38
+    "sem3spi": 8.38,
+    "dm4": 22.5
   },
   {
     "roll": 83,
@@ -12918,7 +13269,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 23.0,
     "python23": 18.5,
-    "sem3spi": 9.0
+    "sem3spi": 9.0,
+    "dm4": 34.0
   },
   {
     "roll": 79,
@@ -12954,7 +13306,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 25.0,
     "python23": 25.0,
-    "sem3spi": 8.92
+    "sem3spi": 8.92,
+    "dm4": 44.5
   },
   {
     "roll": 68,
@@ -12990,7 +13343,8 @@ const data = [
     "toc3": 22.5,
     "fsd23": 25.0,
     "python23": 15.5,
-    "sem3spi": 8.71
+    "sem3spi": 8.71,
+    "dm4": 48.0
   },
   {
     "roll": 239,
@@ -13026,7 +13380,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 18.0,
     "python23": 5.0,
-    "sem3spi": 6.75
+    "sem3spi": 6.75,
+    "dm4": 35.5
   },
   {
     "roll": 129,
@@ -13062,7 +13417,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 23.0,
     "python23": 21.0,
-    "sem3spi": 8.46
+    "sem3spi": 8.46,
+    "dm4": 36.5
   },
   {
     "roll": 60,
@@ -13098,7 +13454,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 24.5,
     "python23": 20.5,
-    "sem3spi": 8.96
+    "sem3spi": 8.96,
+    "dm4": 42.5
   },
   {
     "roll": 73,
@@ -13134,7 +13491,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 19.5,
     "python23": 22.0,
-    "sem3spi": 9.04
+    "sem3spi": 9.04,
+    "dm4": 44.0
   },
   {
     "roll": 49,
@@ -13170,7 +13528,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 22.5,
     "python23": 14.0,
-    "sem3spi": 9.04
+    "sem3spi": 9.04,
+    "dm4": 39.0
   },
   {
     "roll": 255,
@@ -13206,7 +13565,8 @@ const data = [
     "toc3": 10.0,
     "fsd23": 18.0,
     "python23": 13.5,
-    "sem3spi": 5.15
+    "sem3spi": 5.15,
+    "dm4": 31.5
   },
   {
     "roll": 232,
@@ -13242,7 +13602,8 @@ const data = [
     "toc3": 10.0,
     "fsd23": 9.0,
     "python23": 3.0,
-    "sem3spi": 6.88
+    "sem3spi": 6.88,
+    "dm4": 29.5
   },
   {
     "roll": 290,
@@ -13277,7 +13638,8 @@ const data = [
     "coa3": 13.0,
     "toc3": 13.5,
     "fsd23": 14.0,
-    "python23": 9.0
+    "python23": 9.0,
+    "dm4": 16.5
   },
   {
     "roll": 216,
@@ -13313,7 +13675,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 21.5,
     "python23": 14.0,
-    "sem3spi": 7.17
+    "sem3spi": 7.17,
+    "dm4": 34.0
   },
   {
     "roll": 55,
@@ -13349,7 +13712,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 25.0,
     "python23": 18.5,
-    "sem3spi": 9.38
+    "sem3spi": 9.38,
+    "dm4": 42.0
   },
   {
     "roll": 124,
@@ -13385,7 +13749,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 23.0,
     "python23": 16.5,
-    "sem3spi": 8.46
+    "sem3spi": 8.46,
+    "dm4": 39.0
   },
   {
     "roll": 11,
@@ -13421,7 +13786,8 @@ const data = [
     "toc3": 12.5,
     "fsd23": 21.0,
     "python23": 25.0,
-    "sem3spi": 9.88
+    "sem3spi": 9.88,
+    "dm4": 39.5
   },
   {
     "roll": 193,
@@ -13457,7 +13823,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 23.0,
     "python23": 14.0,
-    "sem3spi": 8.29
+    "sem3spi": 8.29,
+    "dm4": 34.0
   },
   {
     "roll": 211,
@@ -13493,7 +13860,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 19.0,
     "python23": 11.0,
-    "sem3spi": 7.75
+    "sem3spi": 7.75,
+    "dm4": 34.0
   },
   {
     "roll": 252,
@@ -13529,7 +13897,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 18.0,
     "python23": 13.0,
-    "sem3spi": 5.92
+    "sem3spi": 5.92,
+    "dm4": 20.0
   },
   {
     "roll": 14,
@@ -13565,7 +13934,8 @@ const data = [
     "toc3": 23.0,
     "fsd23": 25.0,
     "python23": 16.5,
-    "sem3spi": 9.71
+    "sem3spi": 9.71,
+    "dm4": 48.5
   },
   {
     "roll": 3,
@@ -13601,7 +13971,8 @@ const data = [
     "toc3": 21.5,
     "fsd23": 24.0,
     "python23": 22.5,
-    "sem3spi": 9.88
+    "sem3spi": 9.88,
+    "dm4": 49.5
   },
   {
     "roll": 130,
@@ -13637,7 +14008,8 @@ const data = [
     "toc3": 20.5,
     "fsd23": 24.5,
     "python23": 13.5,
-    "sem3spi": 8.46
+    "sem3spi": 8.46,
+    "dm4": 24.5
   },
   {
     "roll": 89,
@@ -13673,7 +14045,8 @@ const data = [
     "toc3": 21.5,
     "fsd23": 22.0,
     "python23": 11.5,
-    "sem3spi": 8.79
+    "sem3spi": 8.79,
+    "dm4": 38.0
   },
   {
     "roll": 34,
@@ -13709,7 +14082,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 25.0,
     "python23": 24.0,
-    "sem3spi": 9.5
+    "sem3spi": 9.5,
+    "dm4": 49.5
   },
   {
     "roll": 13,
@@ -13745,7 +14119,8 @@ const data = [
     "toc3": 23.0,
     "fsd23": 25.0,
     "python23": 24.0,
-    "sem3spi": 9.83
+    "sem3spi": 9.83,
+    "dm4": 45.0
   },
   {
     "roll": 99,
@@ -13781,7 +14156,8 @@ const data = [
     "toc3": 21.5,
     "fsd23": 23.0,
     "python23": 23.0,
-    "sem3spi": 8.54
+    "sem3spi": 8.54,
+    "dm4": 39.0
   },
   {
     "roll": 243,
@@ -13817,7 +14193,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 17.0,
     "python23": 10.5,
-    "sem3spi": 6.25
+    "sem3spi": 6.25,
+    "dm4": 35.0
   },
   {
     "roll": 67,
@@ -13853,7 +14230,8 @@ const data = [
     "toc3": 21.5,
     "fsd23": 23.0,
     "python23": 22.5,
-    "sem3spi": 9.25
+    "sem3spi": 9.25,
+    "dm4": 39.5
   },
   {
     "roll": 149,
@@ -13889,7 +14267,8 @@ const data = [
     "toc3": 22.5,
     "fsd23": 22.5,
     "python23": 11.5,
-    "sem3spi": 8.04
+    "sem3spi": 8.04,
+    "dm4": 40.0
   },
   {
     "roll": 45,
@@ -13925,7 +14304,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 23.0,
     "python23": 16.5,
-    "sem3spi": 8.92
+    "sem3spi": 8.92,
+    "dm4": 47.5
   },
   {
     "roll": 144,
@@ -13961,7 +14341,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 25.0,
     "python23": 19.5,
-    "sem3spi": 8.58
+    "sem3spi": 8.58,
+    "dm4": 36.0
   },
   {
     "roll": 131,
@@ -13997,7 +14378,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 24.0,
     "python23": 15.0,
-    "sem3spi": 8.04
+    "sem3spi": 8.04,
+    "dm4": 37.0
   },
   {
     "roll": 33,
@@ -14033,7 +14415,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 25.0,
     "python23": 23.0,
-    "sem3spi": 9.83
+    "sem3spi": 9.83,
+    "dm4": 38.5
   },
   {
     "roll": 132,
@@ -14069,7 +14452,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 18.5,
     "python23": 13.0,
-    "sem3spi": 7.46
+    "sem3spi": 7.46,
+    "dm4": 40.0
   },
   {
     "roll": 77,
@@ -14105,7 +14489,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 23.5,
     "python23": 23.0,
-    "sem3spi": 9.04
+    "sem3spi": 9.04,
+    "dm4": 38.0
   },
   {
     "roll": 121,
@@ -14141,7 +14526,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 19.5,
     "python23": 13.5,
-    "sem3spi": 8.58
+    "sem3spi": 8.58,
+    "dm4": 33.5
   },
   {
     "roll": 202,
@@ -14177,7 +14563,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 19.0,
     "python23": 17.5,
-    "sem3spi": 7.67
+    "sem3spi": 7.67,
+    "dm4": 34.5
   },
   {
     "roll": 119,
@@ -14213,7 +14600,8 @@ const data = [
     "toc3": 22.5,
     "fsd23": 19.0,
     "python23": 14.0,
-    "sem3spi": 8.33
+    "sem3spi": 8.33,
+    "dm4": 39.0
   },
   {
     "roll": 276,
@@ -14249,7 +14637,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 13.5,
     "python23": 16.0,
-    "sem3spi": 5.83
+    "sem3spi": 5.83,
+    "dm4": 33.0
   },
   {
     "roll": 285,
@@ -14285,7 +14674,8 @@ const data = [
     "toc3": 12.0,
     "fsd23": 3.0,
     "python23": 5.0,
-    "sem3spi": 6.0
+    "sem3spi": 6.0,
+    "dm4": 7.0
   },
   {
     "roll": 5,
@@ -14321,7 +14711,8 @@ const data = [
     "toc3": 23.0,
     "fsd23": 20.5,
     "python23": 23.5,
-    "sem3spi": 9.58
+    "sem3spi": 9.58,
+    "dm4": 46.0
   },
   {
     "roll": 126,
@@ -14357,7 +14748,8 @@ const data = [
     "toc3": 21.5,
     "fsd23": 16.5,
     "python23": 14.5,
-    "sem3spi": 8.92
+    "sem3spi": 8.92,
+    "dm4": 45.0
   },
   {
     "roll": 200,
@@ -14393,7 +14785,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 21.5,
     "python23": 15.5,
-    "sem3spi": 7.17
+    "sem3spi": 7.17,
+    "dm4": 37.5
   },
   {
     "roll": 227,
@@ -14429,7 +14822,8 @@ const data = [
     "toc3": 13.0,
     "fsd23": 12.0,
     "python23": 17.5,
-    "sem3spi": 7.04
+    "sem3spi": 7.04,
+    "dm4": 45.5
   },
   {
     "roll": 29,
@@ -14465,7 +14859,8 @@ const data = [
     "toc3": 21.5,
     "fsd23": 23.0,
     "python23": 25.0,
-    "sem3spi": 8.88
+    "sem3spi": 8.88,
+    "dm4": 36.5
   },
   {
     "roll": 174,
@@ -14501,7 +14896,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 15.0,
     "python23": 12.0,
-    "sem3spi": 8.04
+    "sem3spi": 8.04,
+    "dm4": 36.5
   },
   {
     "roll": 115,
@@ -14537,7 +14933,8 @@ const data = [
     "toc3": 22.5,
     "fsd23": 22.5,
     "python23": 22.5,
-    "sem3spi": 8.75
+    "sem3spi": 8.75,
+    "dm4": 40.0
   },
   {
     "roll": 189,
@@ -14573,7 +14970,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 14.5,
     "python23": 20.5,
-    "sem3spi": 7.33
+    "sem3spi": 7.33,
+    "dm4": 28.5
   },
   {
     "roll": 17,
@@ -14609,7 +15007,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 24.0,
     "python23": 23.0,
-    "sem3spi": 9.75
+    "sem3spi": 9.75,
+    "dm4": 39.0
   },
   {
     "roll": 20,
@@ -14645,7 +15044,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 22.0,
     "python23": 24.0,
-    "sem3spi": 9.75
+    "sem3spi": 9.75,
+    "dm4": 49.5
   },
   {
     "roll": 40,
@@ -14681,7 +15081,8 @@ const data = [
     "toc3": 23.5,
     "fsd23": 24.0,
     "python23": 20.0,
-    "sem3spi": 9.71
+    "sem3spi": 9.71,
+    "dm4": 45.5
   },
   {
     "roll": 138,
@@ -14717,7 +15118,8 @@ const data = [
     "toc3": 21.5,
     "fsd23": 21.5,
     "python23": 17.0,
-    "sem3spi": 8.58
+    "sem3spi": 8.58,
+    "dm4": 40.5
   },
   {
     "roll": 158,
@@ -14753,7 +15155,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 21.5,
     "python23": 17.0,
-    "sem3spi": 8.33
+    "sem3spi": 8.33,
+    "dm4": 41.5
   },
   {
     "roll": 74,
@@ -14789,7 +15192,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 20.5,
     "python23": 15.0,
-    "sem3spi": 9.04
+    "sem3spi": 9.04,
+    "dm4": 38.0
   },
   {
     "roll": 106,
@@ -14825,7 +15229,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 20.0,
     "python23": 19.0,
-    "sem3spi": 8.46
+    "sem3spi": 8.46,
+    "dm4": 35.5
   },
   {
     "roll": 39,
@@ -14861,7 +15266,8 @@ const data = [
     "toc3": 23.5,
     "fsd23": 22.5,
     "python23": 22.5,
-    "sem3spi": 9.46
+    "sem3spi": 9.46,
+    "dm4": 44.5
   },
   {
     "roll": 113,
@@ -14897,7 +15303,8 @@ const data = [
     "toc3": 23.5,
     "fsd23": 21.5,
     "python23": 13.0,
-    "sem3spi": 8.0
+    "sem3spi": 8.0,
+    "dm4": 37.0
   },
   {
     "roll": 98,
@@ -14933,7 +15340,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 20.5,
     "python23": 22.0,
-    "sem3spi": 8.54
+    "sem3spi": 8.54,
+    "dm4": 42.0
   },
   {
     "roll": 44,
@@ -14969,7 +15377,8 @@ const data = [
     "toc3": 22.5,
     "fsd23": 22.0,
     "python23": 19.0,
-    "sem3spi": 9.29
+    "sem3spi": 9.29,
+    "dm4": 46.0
   },
   {
     "roll": 159,
@@ -15005,7 +15414,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 18.0,
     "python23": 14.0,
-    "sem3spi": 7.83
+    "sem3spi": 7.83,
+    "dm4": 35.5
   },
   {
     "roll": 38,
@@ -15041,7 +15451,8 @@ const data = [
     "toc3": 20.5,
     "fsd23": 22.5,
     "python23": 23.0,
-    "sem3spi": 9.46
+    "sem3spi": 9.46,
+    "dm4": 40.0
   },
   {
     "roll": 248,
@@ -15077,7 +15488,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 11.5,
     "python23": 6.0,
-    "sem3spi": 6.46
+    "sem3spi": 6.46,
+    "dm4": 27.0
   },
   {
     "roll": 37,
@@ -15113,7 +15525,8 @@ const data = [
     "toc3": 21.5,
     "fsd23": 23.5,
     "python23": 20.0,
-    "sem3spi": 9.63
+    "sem3spi": 9.63,
+    "dm4": 49.0
   },
   {
     "roll": 117,
@@ -15149,7 +15562,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 24.5,
     "python23": 18.0,
-    "sem3spi": 8.58
+    "sem3spi": 8.58,
+    "dm4": 32.5
   },
   {
     "roll": 25,
@@ -15185,7 +15599,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 24.5,
     "python23": 24.0,
-    "sem3spi": 9.38
+    "sem3spi": 9.38,
+    "dm4": 45.0
   },
   {
     "roll": 56,
@@ -15221,7 +15636,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 23.5,
     "python23": 18.0,
-    "sem3spi": 8.92
+    "sem3spi": 8.92,
+    "dm4": 41.5
   },
   {
     "roll": 71,
@@ -15257,7 +15673,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 20.0,
     "python23": 14.0,
-    "sem3spi": 8.96
+    "sem3spi": 8.96,
+    "dm4": 39.5
   },
   {
     "roll": 108,
@@ -15293,7 +15710,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 23.5,
     "python23": 16.0,
-    "sem3spi": 8.42
+    "sem3spi": 8.42,
+    "dm4": 39.0
   },
   {
     "roll": 133,
@@ -15329,7 +15747,8 @@ const data = [
     "toc3": 9.5,
     "fsd23": 10.0,
     "python23": 12.5,
-    "sem3spi": 8.13
+    "sem3spi": 8.13,
+    "dm4": 29.5
   },
   {
     "roll": 169,
@@ -15365,7 +15784,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 21.0,
     "python23": 16.0,
-    "sem3spi": 8.38
+    "sem3spi": 8.38,
+    "dm4": 47.0
   },
   {
     "roll": 50,
@@ -15401,7 +15821,8 @@ const data = [
     "toc3": 22.5,
     "fsd23": 23.0,
     "python23": 24.0,
-    "sem3spi": 9.46
+    "sem3spi": 9.46,
+    "dm4": 36.5
   },
   {
     "roll": 80,
@@ -15437,7 +15858,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 24.5,
     "python23": 17.0,
-    "sem3spi": 9.13
+    "sem3spi": 9.13,
+    "dm4": 40.0
   },
   {
     "roll": 90,
@@ -15473,7 +15895,8 @@ const data = [
     "toc3": 11.5,
     "fsd23": 25.0,
     "python23": 24.0,
-    "sem3spi": 8.29
+    "sem3spi": 8.29,
+    "dm4": 35.5
   },
   {
     "roll": 217,
@@ -15509,7 +15932,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 13.5,
     "python23": 12.0,
-    "sem3spi": 6.92
+    "sem3spi": 6.92,
+    "dm4": 38.0
   },
   {
     "roll": 97,
@@ -15545,7 +15969,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 19.5,
     "python23": 20.0,
-    "sem3spi": 9.17
+    "sem3spi": 9.17,
+    "dm4": 25.0
   },
   {
     "roll": 203,
@@ -15581,7 +16006,8 @@ const data = [
     "toc3": 10.5,
     "fsd23": 22.5,
     "python23": 14.0,
-    "sem3spi": 7.08
+    "sem3spi": 7.08,
+    "dm4": 30.0
   },
   {
     "roll": 233,
@@ -15617,7 +16043,8 @@ const data = [
     "toc3": 9.5,
     "fsd23": 16.0,
     "python23": 19.0,
-    "sem3spi": 7.54
+    "sem3spi": 7.54,
+    "dm4": 34.5
   },
   {
     "roll": 142,
@@ -15653,7 +16080,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 24.0,
     "python23": 19.0,
-    "sem3spi": 8.46
+    "sem3spi": 8.46,
+    "dm4": 42.5
   },
   {
     "roll": 114,
@@ -15689,7 +16117,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 21.5,
     "python23": 17.0,
-    "sem3spi": 8.38
+    "sem3spi": 8.38,
+    "dm4": 40.5
   },
   {
     "roll": 212,
@@ -15725,7 +16154,8 @@ const data = [
     "toc3": 12.0,
     "fsd23": 18.5,
     "python23": 15.0,
-    "sem3spi": 7.71
+    "sem3spi": 7.71,
+    "dm4": 35.0
   },
   {
     "roll": 175,
@@ -15761,7 +16191,8 @@ const data = [
     "toc3": 8.0,
     "fsd23": 20.0,
     "python23": 14.0,
-    "sem3spi": 7.54
+    "sem3spi": 7.54,
+    "dm4": 36.0
   },
   {
     "roll": 182,
@@ -15797,7 +16228,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 18.5,
     "python23": 13.0,
-    "sem3spi": 7.33
+    "sem3spi": 7.33,
+    "dm4": 33.0
   },
   {
     "roll": 261,
@@ -15833,7 +16265,8 @@ const data = [
     "toc3": 11.5,
     "fsd23": 18.0,
     "python23": 8.0,
-    "sem3spi": 6.63
+    "sem3spi": 6.63,
+    "dm4": 24.0
   },
   {
     "roll": 6,
@@ -15869,7 +16302,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 22.5,
     "python23": 24.5,
-    "sem3spi": 9.88
+    "sem3spi": 9.88,
+    "dm4": 46.5
   },
   {
     "roll": 165,
@@ -15905,7 +16339,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 14.5,
     "python23": 8.0,
-    "sem3spi": 7.92
+    "sem3spi": 7.92,
+    "dm4": 35.0
   },
   {
     "roll": 52,
@@ -15941,7 +16376,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 24.5,
     "python23": 22.0,
-    "sem3spi": 9.29
+    "sem3spi": 9.29,
+    "dm4": 45.5
   },
   {
     "roll": 61,
@@ -15977,7 +16413,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 23.5,
     "python23": 21.0,
-    "sem3spi": 9.08
+    "sem3spi": 9.08,
+    "dm4": 46.5
   },
   {
     "roll": 63,
@@ -16013,7 +16450,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 22.5,
     "python23": 20.0,
-    "sem3spi": 8.96
+    "sem3spi": 8.96,
+    "dm4": 36.0
   },
   {
     "roll": 181,
@@ -16049,7 +16487,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 19.5,
     "python23": 11.0,
-    "sem3spi": 7.25
+    "sem3spi": 7.25,
+    "dm4": 32.0
   },
   {
     "roll": 53,
@@ -16085,7 +16524,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 25.0,
     "python23": 21.0,
-    "sem3spi": 9.5
+    "sem3spi": 9.5,
+    "dm4": 41.0
   },
   {
     "roll": 82,
@@ -16121,7 +16561,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 22.5,
     "python23": 23.0,
-    "sem3spi": 8.96
+    "sem3spi": 8.96,
+    "dm4": 44.5
   },
   {
     "roll": 120,
@@ -16157,7 +16598,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 15.5,
     "python23": 21.0,
-    "sem3spi": 8.04
+    "sem3spi": 8.04,
+    "dm4": 37.5
   },
   {
     "roll": 109,
@@ -16193,7 +16635,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 22.5,
     "python23": 17.0,
-    "sem3spi": 8.71
+    "sem3spi": 8.71,
+    "dm4": 37.0
   },
   {
     "roll": 177,
@@ -16229,7 +16672,8 @@ const data = [
     "toc3": 9.5,
     "fsd23": 15.0,
     "python23": 12.0,
-    "sem3spi": 7.92
+    "sem3spi": 7.92,
+    "dm4": 43.0
   },
   {
     "roll": 15,
@@ -16265,7 +16709,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 25.0,
     "python23": 24.0,
-    "sem3spi": 9.83
+    "sem3spi": 9.83,
+    "dm4": 41.5
   },
   {
     "roll": 96,
@@ -16301,7 +16746,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 21.0,
     "python23": 21.0,
-    "sem3spi": 8.75
+    "sem3spi": 8.75,
+    "dm4": 44.0
   },
   {
     "roll": 268,
@@ -16337,7 +16783,8 @@ const data = [
     "toc3": 6.5,
     "fsd23": 16.5,
     "python23": 11.0,
-    "sem3spi": 6.13
+    "sem3spi": 6.13,
+    "dm4": 32.0
   },
   {
     "roll": 145,
@@ -16373,7 +16820,8 @@ const data = [
     "toc3": 11.0,
     "fsd23": 19.5,
     "python23": 13.0,
-    "sem3spi": 7.92
+    "sem3spi": 7.92,
+    "dm4": 42.0
   },
   {
     "roll": 57,
@@ -16409,7 +16857,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 22.5,
     "python23": 17.0,
-    "sem3spi": 8.79
+    "sem3spi": 8.79,
+    "dm4": 44.5
   },
   {
     "roll": 64,
@@ -16445,7 +16894,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 19.5,
     "python23": 15.0,
-    "sem3spi": 9.0
+    "sem3spi": 9.0,
+    "dm4": 44.0
   },
   {
     "roll": 75,
@@ -16481,7 +16931,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 22.0,
     "python23": 21.0,
-    "sem3spi": 8.83
+    "sem3spi": 8.83,
+    "dm4": 39.5
   },
   {
     "roll": 9,
@@ -16517,7 +16968,8 @@ const data = [
     "toc3": 21.5,
     "fsd23": 24.5,
     "python23": 24.0,
-    "sem3spi": 10.0
+    "sem3spi": 10.0,
+    "dm4": 45.0
   },
   {
     "roll": 92,
@@ -16553,7 +17005,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 22.5,
     "python23": 18.0,
-    "sem3spi": 8.75
+    "sem3spi": 8.75,
+    "dm4": 38.0
   },
   {
     "roll": 125,
@@ -16589,7 +17042,8 @@ const data = [
     "toc3": 9.0,
     "fsd23": 14.5,
     "python23": 16.0,
-    "sem3spi": 8.63
+    "sem3spi": 8.63,
+    "dm4": 32.0
   },
   {
     "roll": 184,
@@ -16625,7 +17079,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 20.5,
     "python23": 15.0,
-    "sem3spi": 8.17
+    "sem3spi": 8.17,
+    "dm4": 34.5
   },
   {
     "roll": 223,
@@ -16661,7 +17116,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 12.0,
     "python23": 10.0,
-    "sem3spi": 6.92
+    "sem3spi": 6.92,
+    "dm4": 40.5
   },
   {
     "roll": 42,
@@ -16697,7 +17153,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 22.5,
     "python23": 22.0,
-    "sem3spi": 9.29
+    "sem3spi": 9.29,
+    "dm4": 44.0
   },
   {
     "roll": 151,
@@ -16733,7 +17190,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 15.5,
     "python23": 18.0,
-    "sem3spi": 8.5
+    "sem3spi": 8.5,
+    "dm4": 42.5
   },
   {
     "roll": 12,
@@ -16769,7 +17227,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 24.0,
     "python23": 24.0,
-    "sem3spi": 9.83
+    "sem3spi": 9.83,
+    "dm4": 45.5
   },
   {
     "roll": 7,
@@ -16805,7 +17264,8 @@ const data = [
     "toc3": 20.5,
     "fsd23": 25.0,
     "python23": 25.0,
-    "sem3spi": 9.92
+    "sem3spi": 9.92,
+    "dm4": 40.0
   },
   {
     "roll": 51,
@@ -16841,7 +17301,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 22.5,
     "python23": 14.5,
-    "sem3spi": 9.17
+    "sem3spi": 9.17,
+    "dm4": 41.0
   },
   {
     "roll": 21,
@@ -16877,7 +17338,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 24.0,
     "python23": 23.0,
-    "sem3spi": 9.38
+    "sem3spi": 9.38,
+    "dm4": 41.0
   },
   {
     "roll": 78,
@@ -16913,7 +17375,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 23.0,
     "python23": 19.0,
-    "sem3spi": 8.88
+    "sem3spi": 8.88,
+    "dm4": 43.0
   },
   {
     "roll": 246,
@@ -16949,7 +17412,8 @@ const data = [
     "toc3": 10.5,
     "fsd23": 12.0,
     "python23": 10.0,
-    "sem3spi": 6.25
+    "sem3spi": 6.25,
+    "dm4": 37.0
   },
   {
     "roll": 168,
@@ -16985,7 +17449,8 @@ const data = [
     "toc3": 12.0,
     "fsd23": 11.5,
     "python23": 18.0,
-    "sem3spi": 8.38
+    "sem3spi": 8.38,
+    "dm4": 37.0
   },
   {
     "roll": 1,
@@ -17021,7 +17486,8 @@ const data = [
     "toc3": 23.0,
     "fsd23": 25.0,
     "python23": 25.0,
-    "sem3spi": 9.96
+    "sem3spi": 9.96,
+    "dm4": 48.5
   },
   {
     "roll": 190,
@@ -17057,7 +17523,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 19.5,
     "python23": 12.0,
-    "sem3spi": 8.04
+    "sem3spi": 8.04,
+    "dm4": 34.5
   },
   {
     "roll": 247,
@@ -17093,7 +17560,8 @@ const data = [
     "toc3": 12.5,
     "fsd23": 5.0,
     "python23": 7.5,
-    "sem3spi": 6.25
+    "sem3spi": 6.25,
+    "dm4": 36.5
   },
   {
     "roll": 84,
@@ -17129,7 +17597,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 16.5,
     "python23": 19.0,
-    "sem3spi": 8.83
+    "sem3spi": 8.83,
+    "dm4": 33.0
   },
   {
     "roll": 100,
@@ -17165,7 +17634,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 21.5,
     "python23": 14.0,
-    "sem3spi": 8.54
+    "sem3spi": 8.54,
+    "dm4": 47.0
   },
   {
     "roll": 218,
@@ -17201,7 +17671,8 @@ const data = [
     "toc3": 12.0,
     "fsd23": 15.0,
     "python23": 13.0,
-    "sem3spi": 7.46
+    "sem3spi": 7.46,
+    "dm4": 36.5
   },
   {
     "roll": 244,
@@ -17237,7 +17708,8 @@ const data = [
     "toc3": 12.5,
     "fsd23": 16.0,
     "python23": 8.0,
-    "sem3spi": 6.46
+    "sem3spi": 6.46,
+    "dm4": 32.0
   },
   {
     "roll": 257,
@@ -17273,7 +17745,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 14.5,
     "python23": 9.0,
-    "sem3spi": 5.92
+    "sem3spi": 5.92,
+    "dm4": 35.5
   },
   {
     "roll": 48,
@@ -17309,7 +17782,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 22.0,
     "python23": 18.5,
-    "sem3spi": 9.21
+    "sem3spi": 9.21,
+    "dm4": 40.5
   },
   {
     "roll": 154,
@@ -17345,7 +17819,8 @@ const data = [
     "toc3": 0.0,
     "fsd23": 0.0,
     "python23": 0.0,
-    "sem3spi": 8.17
+    "sem3spi": 8.17,
+    "dm4": 0.0
   },
   {
     "roll": 215,
@@ -17381,7 +17856,8 @@ const data = [
     "toc3": 12.0,
     "fsd23": 14.0,
     "python23": 12.0,
-    "sem3spi": 7.54
+    "sem3spi": 7.54,
+    "dm4": 34.0
   },
   {
     "roll": 35,
@@ -17417,7 +17893,8 @@ const data = [
     "toc3": 21.5,
     "fsd23": 25.0,
     "python23": 23.5,
-    "sem3spi": 9.54
+    "sem3spi": 9.54,
+    "dm4": 46.0
   },
   {
     "roll": 209,
@@ -17453,7 +17930,8 @@ const data = [
     "toc3": 11.0,
     "fsd23": 16.5,
     "python23": 12.0,
-    "sem3spi": 7.17
+    "sem3spi": 7.17,
+    "dm4": 28.5
   },
   {
     "roll": 30,
@@ -17489,7 +17967,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 23.0,
     "python23": 21.0,
-    "sem3spi": 9.5
+    "sem3spi": 9.5,
+    "dm4": 43.0
   },
   {
     "roll": 72,
@@ -17525,7 +18004,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 23.0,
     "python23": 13.0,
-    "sem3spi": 9.0
+    "sem3spi": 9.0,
+    "dm4": 44.0
   },
   {
     "roll": 107,
@@ -17561,7 +18041,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 22.5,
     "python23": 16.0,
-    "sem3spi": 8.25
+    "sem3spi": 8.25,
+    "dm4": 37.5
   },
   {
     "roll": 147,
@@ -17597,7 +18078,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 21.0,
     "python23": 16.0,
-    "sem3spi": 7.96
+    "sem3spi": 7.96,
+    "dm4": 38.0
   },
   {
     "roll": 258,
@@ -17633,7 +18115,8 @@ const data = [
     "toc3": 10.0,
     "fsd23": 16.5,
     "python23": 10.0,
-    "sem3spi": 6.38
+    "sem3spi": 6.38,
+    "dm4": 32.5
   },
   {
     "roll": 54,
@@ -17669,7 +18152,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 19.5,
     "python23": 18.0,
-    "sem3spi": 8.75
+    "sem3spi": 8.75,
+    "dm4": 46.0
   },
   {
     "roll": 194,
@@ -17705,7 +18189,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 15.5,
     "python23": 10.0,
-    "sem3spi": 7.63
+    "sem3spi": 7.63,
+    "dm4": 28.5
   },
   {
     "roll": 135,
@@ -17741,7 +18226,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 17.5,
     "python23": 18.0,
-    "sem3spi": 8.25
+    "sem3spi": 8.25,
+    "dm4": 32.0
   },
   {
     "roll": 62,
@@ -17777,7 +18263,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 24.5,
     "python23": 17.0,
-    "sem3spi": 8.79
+    "sem3spi": 8.79,
+    "dm4": 30.5
   },
   {
     "roll": 224,
@@ -17813,7 +18300,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 18.5,
     "python23": 14.0,
-    "sem3spi": 7.33
+    "sem3spi": 7.33,
+    "dm4": 38.0
   },
   {
     "roll": 10,
@@ -17849,7 +18337,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 25.0,
     "python23": 23.0,
-    "sem3spi": 9.71
+    "sem3spi": 9.71,
+    "dm4": 47.5
   },
   {
     "roll": 180,
@@ -17885,7 +18374,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 20.0,
     "python23": 15.0,
-    "sem3spi": 8.04
+    "sem3spi": 8.04,
+    "dm4": 36.5
   },
   {
     "roll": 85,
@@ -17921,7 +18411,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 21.0,
     "python23": 18.0,
-    "sem3spi": 8.33
+    "sem3spi": 8.33,
+    "dm4": 40.0
   },
   {
     "roll": 123,
@@ -17957,7 +18448,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 20.0,
     "python23": 21.5,
-    "sem3spi": 9.42
+    "sem3spi": 9.42,
+    "dm4": 38.0
   },
   {
     "roll": 282,
@@ -17993,7 +18485,8 @@ const data = [
     "toc3": 11.5,
     "fsd23": 10.5,
     "python23": 12.0,
-    "sem3spi": 6.96
+    "sem3spi": 6.96,
+    "dm4": 29.0
   },
   {
     "roll": 274,
@@ -18029,7 +18522,8 @@ const data = [
     "toc3": 0.0,
     "fsd23": 0.0,
     "python23": 0.0,
-    "sem3spi": 6.79
+    "sem3spi": 6.79,
+    "dm4": 0.0
   },
   {
     "roll": 160,
@@ -18065,7 +18559,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 21.5,
     "python23": 15.0,
-    "sem3spi": 8.67
+    "sem3spi": 8.67,
+    "dm4": 37.5
   },
   {
     "roll": 198,
@@ -18101,7 +18596,8 @@ const data = [
     "toc3": 12.5,
     "fsd23": 18.0,
     "python23": 18.0,
-    "sem3spi": 7.79
+    "sem3spi": 7.79,
+    "dm4": 26.5
   },
   {
     "roll": 277,
@@ -18137,7 +18633,8 @@ const data = [
     "toc3": 8.0,
     "fsd23": 22.5,
     "python23": 14.0,
-    "sem3spi": 6.58
+    "sem3spi": 6.58,
+    "dm4": 30.0
   },
   {
     "roll": 262,
@@ -18173,7 +18670,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 14.5,
     "python23": 16.0,
-    "sem3spi": 7.29
+    "sem3spi": 7.29,
+    "dm4": 30.5
   },
   {
     "roll": 192,
@@ -18209,7 +18707,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 22.0,
     "python23": 16.0,
-    "sem3spi": 8.0
+    "sem3spi": 8.0,
+    "dm4": 33.0
   },
   {
     "roll": 287,
@@ -18244,7 +18743,8 @@ const data = [
     "coa3": 13.5,
     "toc3": 11.0,
     "fsd23": 14.0,
-    "python23": 17.0
+    "python23": 17.0,
+    "dm4": 25.0
   },
   {
     "roll": 278,
@@ -18280,7 +18780,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 12.5,
     "python23": 9.0,
-    "sem3spi": 6.88
+    "sem3spi": 6.88,
+    "dm4": 16.0
   },
   {
     "roll": 136,
@@ -18316,7 +18817,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 20.0,
     "python23": 17.0,
-    "sem3spi": 8.67
+    "sem3spi": 8.67,
+    "dm4": 34.5
   },
   {
     "roll": 196,
@@ -18352,7 +18854,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 19.0,
     "python23": 18.0,
-    "sem3spi": 8.58
+    "sem3spi": 8.58,
+    "dm4": 37.5
   },
   {
     "roll": 235,
@@ -18388,7 +18891,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 12.5,
     "python23": 17.0,
-    "sem3spi": 7.92
+    "sem3spi": 7.92,
+    "dm4": 32.5
   },
   {
     "roll": 153,
@@ -18424,7 +18928,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 18.5,
     "python23": 17.5,
-    "sem3spi": 8.79
+    "sem3spi": 8.79,
+    "dm4": 40.5
   },
   {
     "roll": 221,
@@ -18460,7 +18965,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 8.0,
     "python23": 14.0,
-    "sem3spi": 7.92
+    "sem3spi": 7.92,
+    "dm4": 36.5
   },
   {
     "roll": 171,
@@ -18496,7 +19002,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 22.0,
     "python23": 16.0,
-    "sem3spi": 9.0
+    "sem3spi": 9.0,
+    "dm4": 43.5
   },
   {
     "roll": 141,
@@ -18532,7 +19039,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 23.5,
     "python23": 20.0,
-    "sem3spi": 8.92
+    "sem3spi": 8.92,
+    "dm4": 39.0
   },
   {
     "roll": 173,
@@ -18568,7 +19076,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 19.5,
     "python23": 13.0,
-    "sem3spi": 8.79
+    "sem3spi": 8.79,
+    "dm4": 39.5
   },
   {
     "roll": 236,
@@ -18604,7 +19113,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 13.0,
     "python23": 17.0,
-    "sem3spi": 7.88
+    "sem3spi": 7.88,
+    "dm4": 34.5
   },
   {
     "roll": 231,
@@ -18640,7 +19150,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 15.5,
     "python23": 12.0,
-    "sem3spi": 7.54
+    "sem3spi": 7.54,
+    "dm4": 40.5
   },
   {
     "roll": 273,
@@ -18676,7 +19187,8 @@ const data = [
     "toc3": 12.0,
     "fsd23": 12.5,
     "python23": 10.0,
-    "sem3spi": 6.17
+    "sem3spi": 6.17,
+    "dm4": 20.5
   },
   {
     "roll": 226,
@@ -18712,7 +19224,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 12.5,
     "python23": 12.0,
-    "sem3spi": 7.83
+    "sem3spi": 7.83,
+    "dm4": 20.0
   },
   {
     "roll": 111,
@@ -18748,7 +19261,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 23.0,
     "python23": 18.0,
-    "sem3spi": 9.21
+    "sem3spi": 9.21,
+    "dm4": 41.5
   },
   {
     "roll": 186,
@@ -18784,7 +19298,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 22.0,
     "python23": 14.0,
-    "sem3spi": 8.42
+    "sem3spi": 8.42,
+    "dm4": 37.0
   },
   {
     "roll": 267,
@@ -18820,7 +19335,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 20.0,
     "python23": 15.0,
-    "sem3spi": 7.17
+    "sem3spi": 7.17,
+    "dm4": 33.0
   },
   {
     "roll": 183,
@@ -18855,7 +19371,8 @@ const data = [
     "coa3": 17.5,
     "toc3": 9.0,
     "fsd23": 9.5,
-    "python23": 13.0
+    "python23": 13.0,
+    "dm4": 36.0
   },
   {
     "roll": 178,
@@ -18891,7 +19408,8 @@ const data = [
     "toc3": 12.5,
     "fsd23": 20.0,
     "python23": 17.0,
-    "sem3spi": 8.17
+    "sem3spi": 8.17,
+    "dm4": 35.0
   },
   {
     "roll": 112,
@@ -18927,7 +19445,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 21.5,
     "python23": 16.0,
-    "sem3spi": 8.13
+    "sem3spi": 8.13,
+    "dm4": 36.5
   },
   {
     "roll": 238,
@@ -18963,7 +19482,8 @@ const data = [
     "toc3": 9.0,
     "fsd23": 17.5,
     "python23": 12.5,
-    "sem3spi": 6.88
+    "sem3spi": 6.88,
+    "dm4": 35.5
   },
   {
     "roll": 281,
@@ -18999,7 +19519,8 @@ const data = [
     "toc3": 0.0,
     "fsd23": 0.0,
     "python23": 0.0,
-    "sem3spi": 5.26
+    "sem3spi": 5.26,
+    "dm4": 12.0
   },
   {
     "roll": 176,
@@ -19035,7 +19556,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 19.5,
     "python23": 15.0,
-    "sem3spi": 8.21
+    "sem3spi": 8.21,
+    "dm4": 39.5
   },
   {
     "roll": 128,
@@ -19071,7 +19593,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 22.0,
     "python23": 16.5,
-    "sem3spi": 8.42
+    "sem3spi": 8.42,
+    "dm4": 37.0
   },
   {
     "roll": 249,
@@ -19107,7 +19630,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 19.5,
     "python23": 17.0,
-    "sem3spi": 6.71
+    "sem3spi": 6.71,
+    "dm4": 34.0
   },
   {
     "roll": 148,
@@ -19143,7 +19667,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 15.0,
     "python23": 18.5,
-    "sem3spi": 8.63
+    "sem3spi": 8.63,
+    "dm4": 38.5
   },
   {
     "roll": 279,
@@ -19179,7 +19704,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 9.0,
     "python23": 13.0,
-    "sem3spi": 5.29
+    "sem3spi": 5.29,
+    "dm4": 19.5
   },
   {
     "roll": 219,
@@ -19215,7 +19741,8 @@ const data = [
     "toc3": 9.5,
     "fsd23": 9.5,
     "python23": 14.5,
-    "sem3spi": 6.92
+    "sem3spi": 6.92,
+    "dm4": 16.0
   },
   {
     "roll": 271,
@@ -19251,7 +19778,8 @@ const data = [
     "toc3": 8.5,
     "fsd23": 9.5,
     "python23": 6.0,
-    "sem3spi": 6.63
+    "sem3spi": 6.63,
+    "dm4": 38.5
   },
   {
     "roll": 220,
@@ -19287,7 +19815,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 16.5,
     "python23": 9.5,
-    "sem3spi": 7.71
+    "sem3spi": 7.71,
+    "dm4": 31.0
   },
   {
     "roll": 253,
@@ -19323,7 +19852,8 @@ const data = [
     "toc3": 10.5,
     "fsd23": 6.0,
     "python23": 9.0,
-    "sem3spi": 6.46
+    "sem3spi": 6.46,
+    "dm4": 32.0
   },
   {
     "roll": 265,
@@ -19359,7 +19889,8 @@ const data = [
     "toc3": 11.0,
     "fsd23": 16.0,
     "python23": 7.0,
-    "sem3spi": 4.37
+    "sem3spi": 4.37,
+    "dm4": 38.0
   },
   {
     "roll": 241,
@@ -19395,7 +19926,8 @@ const data = [
     "toc3": 0.0,
     "fsd23": 11.0,
     "python23": 11.5,
-    "sem3spi": 5.96
+    "sem3spi": 5.96,
+    "dm4": 0.0
   },
   {
     "roll": 204,
@@ -19431,7 +19963,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 16.5,
     "python23": 14.0,
-    "sem3spi": 7.54
+    "sem3spi": 7.54,
+    "dm4": 29.5
   },
   {
     "roll": 157,
@@ -19467,7 +20000,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 23.0,
     "python23": 17.5,
-    "sem3spi": 7.63
+    "sem3spi": 7.63,
+    "dm4": 40.0
   },
   {
     "roll": 19,
@@ -19503,7 +20037,8 @@ const data = [
     "toc3": 22.5,
     "fsd23": 25.0,
     "python23": 24.0,
-    "sem3spi": 9.75
+    "sem3spi": 9.75,
+    "dm4": 46.5
   },
   {
     "roll": 31,
@@ -19539,7 +20074,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 22.5,
     "python23": 20.5,
-    "sem3spi": 9.38
+    "sem3spi": 9.38,
+    "dm4": 42.5
   },
   {
     "roll": 59,
@@ -19575,7 +20111,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 23.0,
     "python23": 22.0,
-    "sem3spi": 9.46
+    "sem3spi": 9.46,
+    "dm4": 45.0
   },
   {
     "roll": 201,
@@ -19611,7 +20148,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 16.0,
     "python23": 16.5,
-    "sem3spi": 7.75
+    "sem3spi": 7.75,
+    "dm4": 29.0
   },
   {
     "roll": 94,
@@ -19647,7 +20185,8 @@ const data = [
     "toc3": 13.0,
     "fsd23": 20.5,
     "python23": 19.0,
-    "sem3spi": 8.17
+    "sem3spi": 8.17,
+    "dm4": 39.0
   },
   {
     "roll": 156,
@@ -19683,7 +20222,8 @@ const data = [
     "toc3": 12.5,
     "fsd23": 23.0,
     "python23": 20.0,
-    "sem3spi": 7.96
+    "sem3spi": 7.96,
+    "dm4": 41.0
   },
   {
     "roll": 234,
@@ -19719,7 +20259,8 @@ const data = [
     "toc3": 8.0,
     "fsd23": 7.0,
     "python23": 11.0,
-    "sem3spi": 6.17
+    "sem3spi": 6.17,
+    "dm4": 18.0
   },
   {
     "roll": 242,
@@ -19755,7 +20296,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 10.0,
     "python23": 13.5,
-    "sem3spi": 6.96
+    "sem3spi": 6.96,
+    "dm4": 32.5
   },
   {
     "roll": 214,
@@ -19791,7 +20333,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 11.0,
     "python23": 10.0,
-    "sem3spi": 7.58
+    "sem3spi": 7.58,
+    "dm4": 35.0
   },
   {
     "roll": 288,
@@ -19827,7 +20370,8 @@ const data = [
     "toc3": 0.0,
     "fsd23": 0.0,
     "python23": 0.0,
-    "sem3spi": 6.0
+    "sem3spi": 6.0,
+    "dm4": 0.0
   },
   {
     "roll": 88,
@@ -19863,7 +20407,8 @@ const data = [
     "toc3": 23.0,
     "fsd23": 21.5,
     "python23": 24.0,
-    "sem3spi": 8.92
+    "sem3spi": 8.92,
+    "dm4": 43.0
   },
   {
     "roll": 280,
@@ -19899,7 +20444,8 @@ const data = [
     "toc3": 0.0,
     "fsd23": 3.0,
     "python23": 4.0,
-    "sem3spi": 4.89
+    "sem3spi": 4.89,
+    "dm4": 3.0
   },
   {
     "roll": 139,
@@ -19935,7 +20481,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 21.0,
     "python23": 17.5,
-    "sem3spi": 7.83
+    "sem3spi": 7.83,
+    "dm4": 35.0
   },
   {
     "roll": 228,
@@ -19971,7 +20518,8 @@ const data = [
     "toc3": 7.5,
     "fsd23": 13.0,
     "python23": 14.0,
-    "sem3spi": 6.46
+    "sem3spi": 6.46,
+    "dm4": 32.5
   },
   {
     "roll": 230,
@@ -20007,7 +20555,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 11.0,
     "python23": 11.5,
-    "sem3spi": 7.08
+    "sem3spi": 7.08,
+    "dm4": 38.0
   },
   {
     "roll": 26,
@@ -20043,7 +20592,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 25.0,
     "python23": 24.0,
-    "sem3spi": 9.75
+    "sem3spi": 9.75,
+    "dm4": 48.0
   },
   {
     "roll": 259,
@@ -20079,7 +20629,8 @@ const data = [
     "toc3": 11.5,
     "fsd23": 12.0,
     "python23": 11.0,
-    "sem3spi": 6.54
+    "sem3spi": 6.54,
+    "dm4": 21.5
   },
   {
     "roll": 260,
@@ -20115,7 +20666,8 @@ const data = [
     "toc3": 13.0,
     "fsd23": 15.0,
     "python23": 6.0,
-    "sem3spi": 6.38
+    "sem3spi": 6.38,
+    "dm4": 19.0
   },
   {
     "roll": 36,
@@ -20151,7 +20703,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 23.5,
     "python23": 18.0,
-    "sem3spi": 9.58
+    "sem3spi": 9.58,
+    "dm4": 42.5
   },
   {
     "roll": 166,
@@ -20187,7 +20740,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 21.0,
     "python23": 16.5,
-    "sem3spi": 8.29
+    "sem3spi": 8.29,
+    "dm4": 44.0
   },
   {
     "roll": 289,
@@ -20223,7 +20777,8 @@ const data = [
     "toc3": 0.0,
     "fsd23": 0.0,
     "python23": 0.0,
-    "sem3spi": 6.0
+    "sem3spi": 6.0,
+    "dm4": 0.0
   },
   {
     "roll": 256,
@@ -20259,7 +20814,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 14.5,
     "python23": 14.0,
-    "sem3spi": 6.38
+    "sem3spi": 6.38,
+    "dm4": 30.5
   },
   {
     "roll": 118,
@@ -20295,7 +20851,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 14.0,
     "python23": 17.5,
-    "sem3spi": 8.17
+    "sem3spi": 8.17,
+    "dm4": 39.0
   },
   {
     "roll": 272,
@@ -20331,7 +20888,8 @@ const data = [
     "toc3": 10.0,
     "fsd23": 11.5,
     "python23": 12.0,
-    "sem3spi": 5.54
+    "sem3spi": 5.54,
+    "dm4": 24.5
   },
   {
     "roll": 170,
@@ -20367,7 +20925,8 @@ const data = [
     "toc3": 12.5,
     "fsd23": 11.0,
     "python23": 17.5,
-    "sem3spi": 7.54
+    "sem3spi": 7.54,
+    "dm4": 36.0
   },
   {
     "roll": 87,
@@ -20403,7 +20962,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 22.0,
     "python23": 18.0,
-    "sem3spi": 8.83
+    "sem3spi": 8.83,
+    "dm4": 35.5
   },
   {
     "roll": 103,
@@ -20439,7 +20999,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 23.0,
     "python23": 14.5,
-    "sem3spi": 8.42
+    "sem3spi": 8.42,
+    "dm4": 47.5
   },
   {
     "roll": 199,
@@ -20475,7 +21036,8 @@ const data = [
     "toc3": 12.0,
     "fsd23": 17.0,
     "python23": 9.0,
-    "sem3spi": 6.5
+    "sem3spi": 6.5,
+    "dm4": 31.0
   },
   {
     "roll": 134,
@@ -20511,7 +21073,8 @@ const data = [
     "toc3": 13.0,
     "fsd23": 19.0,
     "python23": 17.0,
-    "sem3spi": 8.25
+    "sem3spi": 8.25,
+    "dm4": 35.5
   },
   {
     "roll": 137,
@@ -20547,7 +21110,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 17.0,
     "python23": 10.0,
-    "sem3spi": 8.79
+    "sem3spi": 8.79,
+    "dm4": 37.0
   },
   {
     "roll": 143,
@@ -20583,7 +21147,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 18.0,
     "python23": 16.0,
-    "sem3spi": 8.58
+    "sem3spi": 8.58,
+    "dm4": 39.0
   },
   {
     "roll": 222,
@@ -20619,7 +21184,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 12.5,
     "python23": 18.0,
-    "sem3spi": 7.08
+    "sem3spi": 7.08,
+    "dm4": 34.0
   },
   {
     "roll": 122,
@@ -20655,7 +21221,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 20.5,
     "python23": 20.0,
-    "sem3spi": 8.71
+    "sem3spi": 8.71,
+    "dm4": 30.5
   },
   {
     "roll": 152,
@@ -20691,7 +21258,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 20.0,
     "python23": 18.5,
-    "sem3spi": 8.58
+    "sem3spi": 8.58,
+    "dm4": 39.0
   },
   {
     "roll": 251,
@@ -20727,7 +21295,8 @@ const data = [
     "toc3": 6.0,
     "fsd23": 14.0,
     "python23": 8.0,
-    "sem3spi": 6.63
+    "sem3spi": 6.63,
+    "dm4": 19.0
   },
   {
     "roll": 179,
@@ -20763,7 +21332,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 16.5,
     "python23": 13.0,
-    "sem3spi": 7.88
+    "sem3spi": 7.88,
+    "dm4": 32.5
   },
   {
     "roll": 240,
@@ -20799,7 +21369,8 @@ const data = [
     "toc3": 10.0,
     "fsd23": 11.0,
     "python23": 14.0,
-    "sem3spi": 6.75
+    "sem3spi": 6.75,
+    "dm4": 31.0
   },
   {
     "roll": 18,
@@ -20835,7 +21406,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 24.0,
     "python23": 23.0,
-    "sem3spi": 9.88
+    "sem3spi": 9.88,
+    "dm4": 44.0
   },
   {
     "roll": 187,
@@ -20871,7 +21443,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 21.5,
     "python23": 15.0,
-    "sem3spi": 7.29
+    "sem3spi": 7.29,
+    "dm4": 39.0
   },
   {
     "roll": 93,
@@ -20907,7 +21480,8 @@ const data = [
     "toc3": 20.5,
     "fsd23": 22.5,
     "python23": 17.5,
-    "sem3spi": 8.46
+    "sem3spi": 8.46,
+    "dm4": 44.5
   },
   {
     "roll": 146,
@@ -20943,7 +21517,8 @@ const data = [
     "toc3": 11.5,
     "fsd23": 11.5,
     "python23": 13.0,
-    "sem3spi": 8.21
+    "sem3spi": 8.21,
+    "dm4": 34.0
   },
   {
     "roll": 58,
@@ -20979,7 +21554,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 20.0,
     "python23": 14.5,
-    "sem3spi": 9.29
+    "sem3spi": 9.29,
+    "dm4": 34.5
   },
   {
     "roll": 23,
@@ -21015,7 +21591,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 25.0,
     "python23": 22.0,
-    "sem3spi": 9.5
+    "sem3spi": 9.5,
+    "dm4": 47.5
   },
   {
     "roll": 66,
@@ -21051,7 +21628,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 21.5,
     "python23": 16.0,
-    "sem3spi": 8.88
+    "sem3spi": 8.88,
+    "dm4": 42.5
   },
   {
     "roll": 1,
@@ -21082,7 +21660,8 @@ const data = [
     "toc3": 22.5,
     "fsd23": 25.0,
     "python23": 25.0,
-    "sem3spi": 9.83
+    "sem3spi": 9.83,
+    "dm4": 48.0
   },
   {
     "roll": 2,
@@ -21113,7 +21692,8 @@ const data = [
     "toc3": 20.5,
     "fsd23": 22.5,
     "python23": 24.0,
-    "sem3spi": 9.75
+    "sem3spi": 9.75,
+    "dm4": 43.5
   },
   {
     "roll": 4,
@@ -21144,7 +21724,8 @@ const data = [
     "toc3": 21.5,
     "fsd23": 25.0,
     "python23": 19.5,
-    "sem3spi": 9.5
+    "sem3spi": 9.5,
+    "dm4": 44.5
   },
   {
     "roll": 3,
@@ -21175,7 +21756,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 24.0,
     "python23": 21.0,
-    "sem3spi": 9.63
+    "sem3spi": 9.63,
+    "dm4": 39.5
   },
   {
     "roll": 14,
@@ -21206,7 +21788,8 @@ const data = [
     "toc3": 12.5,
     "fsd23": 23.5,
     "python23": 15.0,
-    "sem3spi": 9.33
+    "sem3spi": 9.33,
+    "dm4": 35.0
   },
   {
     "roll": 5,
@@ -21237,7 +21820,8 @@ const data = [
     "toc3": 21.5,
     "fsd23": 24.0,
     "python23": 20.5,
-    "sem3spi": 9.29
+    "sem3spi": 9.29,
+    "dm4": 47.5
   },
   {
     "roll": 7,
@@ -21268,7 +21852,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 23.0,
     "python23": 22.0,
-    "sem3spi": 9.46
+    "sem3spi": 9.46,
+    "dm4": 45.0
   },
   {
     "roll": 9,
@@ -21299,7 +21884,8 @@ const data = [
     "toc3": 23.0,
     "fsd23": 25.0,
     "python23": 25.0,
-    "sem3spi": 9.79
+    "sem3spi": 9.79,
+    "dm4": 43.5
   },
   {
     "roll": 6,
@@ -21330,7 +21916,8 @@ const data = [
     "toc3": 21.5,
     "fsd23": 25.0,
     "python23": 20.5,
-    "sem3spi": 9.67
+    "sem3spi": 9.67,
+    "dm4": 42.5
   },
   {
     "roll": 8,
@@ -21361,7 +21948,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 22.5,
     "python23": 20.0,
-    "sem3spi": 9.83
+    "sem3spi": 9.83,
+    "dm4": 49.0
   },
   {
     "roll": 17,
@@ -21392,7 +21980,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 19.5,
     "python23": 14.0,
-    "sem3spi": 9.13
+    "sem3spi": 9.13,
+    "dm4": 39.0
   },
   {
     "roll": 11,
@@ -21423,7 +22012,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 24.0,
     "python23": 24.0,
-    "sem3spi": 9.38
+    "sem3spi": 9.38,
+    "dm4": 41.0
   },
   {
     "roll": 56,
@@ -21454,7 +22044,8 @@ const data = [
     "toc3": 9.0,
     "fsd23": 23.0,
     "python23": 11.0,
-    "sem3spi": 8.5
+    "sem3spi": 8.5,
+    "dm4": 37.0
   },
   {
     "roll": 10,
@@ -21485,7 +22076,8 @@ const data = [
     "toc3": 22.5,
     "fsd23": 24.0,
     "python23": 21.0,
-    "sem3spi": 9.13
+    "sem3spi": 9.13,
+    "dm4": 48.5
   },
   {
     "roll": 19,
@@ -21516,7 +22108,8 @@ const data = [
     "toc3": 21.5,
     "fsd23": 25.0,
     "python23": 16.5,
-    "sem3spi": 9.13
+    "sem3spi": 9.13,
+    "dm4": 38.0
   },
   {
     "roll": 12,
@@ -21547,7 +22140,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 25.0,
     "python23": 24.0,
-    "sem3spi": 9.58
+    "sem3spi": 9.58,
+    "dm4": 41.0
   },
   {
     "roll": 13,
@@ -21578,7 +22172,8 @@ const data = [
     "toc3": 23.0,
     "fsd23": 25.0,
     "python23": 15.5,
-    "sem3spi": 9.63
+    "sem3spi": 9.63,
+    "dm4": 42.0
   },
   {
     "roll": 30,
@@ -21609,7 +22204,8 @@ const data = [
     "toc3": 21.5,
     "fsd23": 19.0,
     "python23": 17.0,
-    "sem3spi": 9.21
+    "sem3spi": 9.21,
+    "dm4": 40.0
   },
   {
     "roll": 44,
@@ -21640,7 +22236,8 @@ const data = [
     "toc3": 10.5,
     "fsd23": 17.5,
     "python23": 25.0,
-    "sem3spi": 8.88
+    "sem3spi": 8.88,
+    "dm4": 39.0
   },
   {
     "roll": 33,
@@ -21671,7 +22268,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 22.0,
     "python23": 10.5,
-    "sem3spi": 8.96
+    "sem3spi": 8.96,
+    "dm4": 47.0
   },
   {
     "roll": 38,
@@ -21702,7 +22300,8 @@ const data = [
     "toc3": 20.5,
     "fsd23": 21.5,
     "python23": 13.5,
-    "sem3spi": 8.79
+    "sem3spi": 8.79,
+    "dm4": 42.5
   },
   {
     "roll": 35,
@@ -21733,7 +22332,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 23.0,
     "python23": 20.0,
-    "sem3spi": 9.04
+    "sem3spi": 9.04,
+    "dm4": 44.5
   },
   {
     "roll": 43,
@@ -21764,7 +22364,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 25.0,
     "python23": 16.5,
-    "sem3spi": 8.83
+    "sem3spi": 8.83,
+    "dm4": 23.5
   },
   {
     "roll": 24,
@@ -21795,7 +22396,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 21.5,
     "python23": 15.0,
-    "sem3spi": 9.25
+    "sem3spi": 9.25,
+    "dm4": 34.0
   },
   {
     "roll": 15,
@@ -21826,7 +22428,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 24.0,
     "python23": 18.5,
-    "sem3spi": 9.38
+    "sem3spi": 9.38,
+    "dm4": 32.5
   },
   {
     "roll": 36,
@@ -21857,7 +22460,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 24.0,
     "python23": 16.5,
-    "sem3spi": 9.08
+    "sem3spi": 9.08,
+    "dm4": 36.0
   },
   {
     "roll": 16,
@@ -21888,7 +22492,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 21.0,
     "python23": 22.0,
-    "sem3spi": 9.33
+    "sem3spi": 9.33,
+    "dm4": 49.0
   },
   {
     "roll": 37,
@@ -21919,7 +22524,8 @@ const data = [
     "toc3": 7.5,
     "fsd23": 23.0,
     "python23": 20.0,
-    "sem3spi": 8.75
+    "sem3spi": 8.75,
+    "dm4": 35.0
   },
   {
     "roll": 48,
@@ -21950,7 +22556,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 19.5,
     "python23": 17.5,
-    "sem3spi": 8.63
+    "sem3spi": 8.63,
+    "dm4": 39.0
   },
   {
     "roll": 27,
@@ -21981,7 +22588,8 @@ const data = [
     "toc3": 21.5,
     "fsd23": 23.0,
     "python23": 17.5,
-    "sem3spi": 9.13
+    "sem3spi": 9.13,
+    "dm4": 39.5
   },
   {
     "roll": 53,
@@ -22012,7 +22620,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 22.0,
     "python23": 18.0,
-    "sem3spi": 8.71
+    "sem3spi": 8.71,
+    "dm4": 36.0
   },
   {
     "roll": 66,
@@ -22043,7 +22652,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 22.5,
     "python23": 17.0,
-    "sem3spi": 8.25
+    "sem3spi": 8.25,
+    "dm4": 41.0
   },
   {
     "roll": 29,
@@ -22074,7 +22684,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 22.0,
     "python23": 19.0,
-    "sem3spi": 9.0
+    "sem3spi": 9.0,
+    "dm4": 44.0
   },
   {
     "roll": 20,
@@ -22105,7 +22716,8 @@ const data = [
     "toc3": 12.0,
     "fsd23": 22.0,
     "python23": 24.0,
-    "sem3spi": 9.25
+    "sem3spi": 9.25,
+    "dm4": 35.0
   },
   {
     "roll": 21,
@@ -22136,7 +22748,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 22.5,
     "python23": 18.5,
-    "sem3spi": 9.38
+    "sem3spi": 9.38,
+    "dm4": 38.0
   },
   {
     "roll": 54,
@@ -22167,7 +22780,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 20.0,
     "python23": 21.0,
-    "sem3spi": 9.17
+    "sem3spi": 9.17,
+    "dm4": 28.5
   },
   {
     "roll": 62,
@@ -22198,7 +22812,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 9.0,
     "python23": 13.5,
-    "sem3spi": 8.42
+    "sem3spi": 8.42,
+    "dm4": 37.5
   },
   {
     "roll": 64,
@@ -22229,7 +22844,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 19.0,
     "python23": 24.0,
-    "sem3spi": 8.38
+    "sem3spi": 8.38,
+    "dm4": 37.5
   },
   {
     "roll": 42,
@@ -22260,7 +22876,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 22.0,
     "python23": 20.0,
-    "sem3spi": 9.13
+    "sem3spi": 9.13,
+    "dm4": 39.0
   },
   {
     "roll": 31,
@@ -22291,7 +22908,8 @@ const data = [
     "toc3": 23.5,
     "fsd23": 23.0,
     "python23": 21.0,
-    "sem3spi": 9.38
+    "sem3spi": 9.38,
+    "dm4": 41.0
   },
   {
     "roll": 51,
@@ -22322,7 +22940,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 16.5,
     "python23": 15.0,
-    "sem3spi": 8.92
+    "sem3spi": 8.92,
+    "dm4": 33.5
   },
   {
     "roll": 41,
@@ -22353,7 +22972,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 14.0,
     "python23": 14.0,
-    "sem3spi": 9.08
+    "sem3spi": 9.08,
+    "dm4": 41.5
   },
   {
     "roll": 52,
@@ -22384,7 +23004,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 16.0,
     "python23": 17.0,
-    "sem3spi": 9.0
+    "sem3spi": 9.0,
+    "dm4": 39.0
   },
   {
     "roll": 23,
@@ -22415,7 +23036,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 22.5,
     "python23": 18.0,
-    "sem3spi": 9.29
+    "sem3spi": 9.29,
+    "dm4": 44.0
   },
   {
     "roll": 39,
@@ -22446,7 +23068,8 @@ const data = [
     "toc3": 20.5,
     "fsd23": 24.0,
     "python23": 18.5,
-    "sem3spi": 9.25
+    "sem3spi": 9.25,
+    "dm4": 45.5
   },
   {
     "roll": 32,
@@ -22477,7 +23100,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 25.0,
     "python23": 19.5,
-    "sem3spi": 9.25
+    "sem3spi": 9.25,
+    "dm4": 44.0
   },
   {
     "roll": 26,
@@ -22508,7 +23132,8 @@ const data = [
     "toc3": 12.0,
     "fsd23": 25.0,
     "python23": 18.0,
-    "sem3spi": 8.22
+    "sem3spi": 8.22,
+    "dm4": 44.5
   },
   {
     "roll": 47,
@@ -22539,7 +23164,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 24.0,
     "python23": 25.0,
-    "sem3spi": 9.04
+    "sem3spi": 9.04,
+    "dm4": 34.5
   },
   {
     "roll": 28,
@@ -22570,7 +23196,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 24.5,
     "python23": 19.0,
-    "sem3spi": 9.04
+    "sem3spi": 9.04,
+    "dm4": 43.0
   },
   {
     "roll": 57,
@@ -22601,7 +23228,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 20.0,
     "python23": 18.0,
-    "sem3spi": 8.88
+    "sem3spi": 8.88,
+    "dm4": 32.0
   },
   {
     "roll": 34,
@@ -22632,7 +23260,8 @@ const data = [
     "toc3": 21.5,
     "fsd23": 20.0,
     "python23": 16.0,
-    "sem3spi": 9.42
+    "sem3spi": 9.42,
+    "dm4": 44.5
   },
   {
     "roll": 50,
@@ -22663,7 +23292,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 24.0,
     "python23": 17.5,
-    "sem3spi": 9.17
+    "sem3spi": 9.17,
+    "dm4": 40.5
   },
   {
     "roll": 60,
@@ -22694,7 +23324,8 @@ const data = [
     "toc3": 12.5,
     "fsd23": 24.0,
     "python23": 17.0,
-    "sem3spi": 8.96
+    "sem3spi": 8.96,
+    "dm4": 34.5
   },
   {
     "roll": 90,
@@ -22725,7 +23356,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 17.0,
     "python23": 16.5,
-    "sem3spi": 8.71
+    "sem3spi": 8.71,
+    "dm4": 37.0
   },
   {
     "roll": 61,
@@ -22756,7 +23388,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 24.0,
     "python23": 22.0,
-    "sem3spi": 9.04
+    "sem3spi": 9.04,
+    "dm4": 43.5
   },
   {
     "roll": 45,
@@ -22787,7 +23420,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 23.0,
     "python23": 25.0,
-    "sem3spi": 9.13
+    "sem3spi": 9.13,
+    "dm4": 43.0
   },
   {
     "roll": 76,
@@ -22818,7 +23452,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 19.5,
     "python23": 15.5,
-    "sem3spi": 8.79
+    "sem3spi": 8.79,
+    "dm4": 41.5
   },
   {
     "roll": 58,
@@ -22849,7 +23484,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 22.5,
     "python23": 18.5,
-    "sem3spi": 9.25
+    "sem3spi": 9.25,
+    "dm4": 45.0
   },
   {
     "roll": 79,
@@ -22880,7 +23516,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 23.0,
     "python23": 14.0,
-    "sem3spi": 8.5
+    "sem3spi": 8.5,
+    "dm4": 36.0
   },
   {
     "roll": 84,
@@ -22911,7 +23548,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 17.0,
     "python23": 14.0,
-    "sem3spi": 8.08
+    "sem3spi": 8.08,
+    "dm4": 38.5
   },
   {
     "roll": 68,
@@ -22942,7 +23580,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 20.0,
     "python23": 17.0,
-    "sem3spi": 9.04
+    "sem3spi": 9.04,
+    "dm4": 44.0
   },
   {
     "roll": 59,
@@ -22973,7 +23612,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 22.0,
     "python23": 13.5,
-    "sem3spi": 8.79
+    "sem3spi": 8.79,
+    "dm4": 42.5
   },
   {
     "roll": 55,
@@ -23004,7 +23644,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 19.5,
     "python23": 20.0,
-    "sem3spi": 9.08
+    "sem3spi": 9.08,
+    "dm4": 43.0
   },
   {
     "roll": 83,
@@ -23035,7 +23676,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 20.0,
     "python23": 17.5,
-    "sem3spi": 8.38
+    "sem3spi": 8.38,
+    "dm4": 38.5
   },
   {
     "roll": 85,
@@ -23066,7 +23708,8 @@ const data = [
     "toc3": 9.0,
     "fsd23": 20.0,
     "python23": 12.0,
-    "sem3spi": 7.67
+    "sem3spi": 7.67,
+    "dm4": 28.5
   },
   {
     "roll": 70,
@@ -23097,7 +23740,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 14.0,
     "python23": 16.0,
-    "sem3spi": 8.46
+    "sem3spi": 8.46,
+    "dm4": 41.0
   },
   {
     "roll": 80,
@@ -23128,7 +23772,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 23.0,
     "python23": 15.0,
-    "sem3spi": 8.13
+    "sem3spi": 8.13,
+    "dm4": 35.5
   },
   {
     "roll": 77,
@@ -23159,7 +23804,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 24.0,
     "python23": 12.0,
-    "sem3spi": 8.5
+    "sem3spi": 8.5,
+    "dm4": 38.5
   },
   {
     "roll": 40,
@@ -23190,7 +23836,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 24.0,
     "python23": 19.0,
-    "sem3spi": 9.17
+    "sem3spi": 9.17,
+    "dm4": 39.5
   },
   {
     "roll": 46,
@@ -23221,7 +23868,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 23.0,
     "python23": 17.0,
-    "sem3spi": 9.33
+    "sem3spi": 9.33,
+    "dm4": 39.5
   },
   {
     "roll": 88,
@@ -23252,7 +23900,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 19.5,
     "python23": 13.5,
-    "sem3spi": 8.5
+    "sem3spi": 8.5,
+    "dm4": 41.0
   },
   {
     "roll": 71,
@@ -23283,7 +23932,8 @@ const data = [
     "toc3": 13.0,
     "fsd23": 20.5,
     "python23": 16.0,
-    "sem3spi": 8.42
+    "sem3spi": 8.42,
+    "dm4": 37.5
   },
   {
     "roll": 78,
@@ -23314,7 +23964,8 @@ const data = [
     "toc3": 12.0,
     "fsd23": 14.5,
     "python23": 14.0,
-    "sem3spi": 8.54
+    "sem3spi": 8.54,
+    "dm4": 40.0
   },
   {
     "roll": 49,
@@ -23345,7 +23996,8 @@ const data = [
     "toc3": 20.5,
     "fsd23": 9.0,
     "python23": 15.5,
-    "sem3spi": 9.04
+    "sem3spi": 9.04,
+    "dm4": 40.5
   },
   {
     "roll": 99,
@@ -23376,7 +24028,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 21.0,
     "python23": 13.0,
-    "sem3spi": 8.29
+    "sem3spi": 8.29,
+    "dm4": 34.0
   },
   {
     "roll": 89,
@@ -23407,7 +24060,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 25.0,
     "python23": 11.5,
-    "sem3spi": 8.42
+    "sem3spi": 8.42,
+    "dm4": 37.0
   },
   {
     "roll": 91,
@@ -23438,7 +24092,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 24.0,
     "python23": 15.0,
-    "sem3spi": 7.92
+    "sem3spi": 7.92,
+    "dm4": 39.0
   },
   {
     "roll": 67,
@@ -23469,7 +24124,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 21.0,
     "python23": 18.0,
-    "sem3spi": 8.83
+    "sem3spi": 8.83,
+    "dm4": 43.0
   },
   {
     "roll": 82,
@@ -23500,7 +24156,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 23.0,
     "python23": 13.5,
-    "sem3spi": 8.33
+    "sem3spi": 8.33,
+    "dm4": 38.5
   },
   {
     "roll": 74,
@@ -23531,7 +24188,8 @@ const data = [
     "toc3": 20.5,
     "fsd23": 12.5,
     "python23": 16.5,
-    "sem3spi": 8.42
+    "sem3spi": 8.42,
+    "dm4": 35.5
   },
   {
     "roll": 73,
@@ -23562,7 +24220,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 14.0,
     "python23": 12.0,
-    "sem3spi": 8.54
+    "sem3spi": 8.54,
+    "dm4": 41.0
   },
   {
     "roll": 92,
@@ -23593,7 +24252,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 21.0,
     "python23": 16.5,
-    "sem3spi": 8.38
+    "sem3spi": 8.38,
+    "dm4": 45.5
   },
   {
     "roll": 98,
@@ -23624,7 +24284,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 21.0,
     "python23": 13.5,
-    "sem3spi": 8.54
+    "sem3spi": 8.54,
+    "dm4": 35.5
   },
   {
     "roll": 103,
@@ -23655,7 +24316,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 17.5,
     "python23": 18.0,
-    "sem3spi": 8.5
+    "sem3spi": 8.5,
+    "dm4": 35.0
   },
   {
     "roll": 127,
@@ -23686,7 +24348,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 22.0,
     "python23": 15.5,
-    "sem3spi": 7.83
+    "sem3spi": 7.83,
+    "dm4": 38.5
   },
   {
     "roll": 95,
@@ -23717,7 +24380,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 20.5,
     "python23": 24.0,
-    "sem3spi": 8.38
+    "sem3spi": 8.38,
+    "dm4": 33.5
   },
   {
     "roll": 93,
@@ -23748,7 +24412,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 22.0,
     "python23": 13.0,
-    "sem3spi": 8.04
+    "sem3spi": 8.04,
+    "dm4": 30.5
   },
   {
     "roll": 114,
@@ -23779,7 +24444,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 9.0,
     "python23": 10.5,
-    "sem3spi": 7.67
+    "sem3spi": 7.67,
+    "dm4": 34.5
   },
   {
     "roll": 122,
@@ -23810,7 +24476,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 22.0,
     "python23": 13.5,
-    "sem3spi": 7.79
+    "sem3spi": 7.79,
+    "dm4": 22.0
   },
   {
     "roll": 104,
@@ -23841,7 +24508,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 23.0,
     "python23": 15.0,
-    "sem3spi": 8.29
+    "sem3spi": 8.29,
+    "dm4": 37.0
   },
   {
     "roll": 144,
@@ -23872,7 +24540,8 @@ const data = [
     "toc3": 0.0,
     "fsd23": 16.0,
     "python23": 13.0,
-    "sem3spi": 7.79
+    "sem3spi": 7.79,
+    "dm4": 41.0
   },
   {
     "roll": 112,
@@ -23903,7 +24572,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 17.0,
     "python23": 15.5,
-    "sem3spi": 7.92
+    "sem3spi": 7.92,
+    "dm4": 39.5
   },
   {
     "roll": 96,
@@ -23934,7 +24604,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 23.0,
     "python23": 17.5,
-    "sem3spi": 8.54
+    "sem3spi": 8.54,
+    "dm4": 40.0
   },
   {
     "roll": 135,
@@ -23965,7 +24636,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 23.0,
     "python23": 15.0,
-    "sem3spi": 8.13
+    "sem3spi": 8.13,
+    "dm4": 36.0
   },
   {
     "roll": 108,
@@ -23996,7 +24668,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 12.0,
     "python23": 19.0,
-    "sem3spi": 7.92
+    "sem3spi": 7.92,
+    "dm4": 36.0
   },
   {
     "roll": 72,
@@ -24027,7 +24700,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 20.0,
     "python23": 22.5,
-    "sem3spi": 9.08
+    "sem3spi": 9.08,
+    "dm4": 23.5
   },
   {
     "roll": 149,
@@ -24058,7 +24732,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 14.0,
     "python23": 16.5,
-    "sem3spi": 7.58
+    "sem3spi": 7.58,
+    "dm4": 32.5
   },
   {
     "roll": 121,
@@ -24089,7 +24764,8 @@ const data = [
     "toc3": 12.0,
     "fsd23": 17.5,
     "python23": 19.5,
-    "sem3spi": 8.25
+    "sem3spi": 8.25,
+    "dm4": 40.5
   },
   {
     "roll": 100,
@@ -24120,7 +24796,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 25.0,
     "python23": 12.0,
-    "sem3spi": 8.42
+    "sem3spi": 8.42,
+    "dm4": 37.0
   },
   {
     "roll": 129,
@@ -24151,7 +24828,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 17.0,
     "python23": 13.5,
-    "sem3spi": 8.21
+    "sem3spi": 8.21,
+    "dm4": 38.0
   },
   {
     "roll": 105,
@@ -24182,7 +24860,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 22.5,
     "python23": 17.0,
-    "sem3spi": 8.58
+    "sem3spi": 8.58,
+    "dm4": 39.0
   },
   {
     "roll": 128,
@@ -24213,7 +24892,8 @@ const data = [
     "toc3": 3.0,
     "fsd23": 12.0,
     "python23": 17.0,
-    "sem3spi": 7.17
+    "sem3spi": 7.17,
+    "dm4": 25.0
   },
   {
     "roll": 111,
@@ -24244,7 +24924,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 21.0,
     "python23": 18.0,
-    "sem3spi": 8.0
+    "sem3spi": 8.0,
+    "dm4": 38.5
   },
   {
     "roll": 94,
@@ -24275,7 +24956,8 @@ const data = [
     "toc3": 9.0,
     "fsd23": 9.0,
     "python23": 10.0,
-    "sem3spi": 8.21
+    "sem3spi": 8.21,
+    "dm4": 34.5
   },
   {
     "roll": 131,
@@ -24306,7 +24988,8 @@ const data = [
     "toc3": 13.0,
     "fsd23": 16.0,
     "python23": 12.5,
-    "sem3spi": 7.71
+    "sem3spi": 7.71,
+    "dm4": 29.0
   },
   {
     "roll": 118,
@@ -24337,7 +25020,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 17.0,
     "python23": 17.0,
-    "sem3spi": 8.04
+    "sem3spi": 8.04,
+    "dm4": 39.5
   },
   {
     "roll": 109,
@@ -24368,7 +25052,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 19.0,
     "python23": 18.5,
-    "sem3spi": 8.5
+    "sem3spi": 8.5,
+    "dm4": 41.0
   },
   {
     "roll": 115,
@@ -24399,7 +25084,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 17.0,
     "python23": 12.5,
-    "sem3spi": 8.17
+    "sem3spi": 8.17,
+    "dm4": 38.0
   },
   {
     "roll": 166,
@@ -24430,7 +25116,8 @@ const data = [
     "toc3": 6.5,
     "fsd23": 9.0,
     "python23": 10.0,
-    "sem3spi": 6.79
+    "sem3spi": 6.79,
+    "dm4": 35.0
   },
   {
     "roll": 134,
@@ -24461,7 +25148,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 13.0,
     "python23": 16.0,
-    "sem3spi": 7.5
+    "sem3spi": 7.5,
+    "dm4": 38.0
   },
   {
     "roll": 140,
@@ -24492,7 +25180,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 20.0,
     "python23": 16.0,
-    "sem3spi": 7.25
+    "sem3spi": 7.25,
+    "dm4": 30.5
   },
   {
     "roll": 107,
@@ -24523,7 +25212,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 25.0,
     "python23": 19.0,
-    "sem3spi": 8.42
+    "sem3spi": 8.42,
+    "dm4": 38.0
   },
   {
     "roll": 154,
@@ -24554,7 +25244,8 @@ const data = [
     "toc3": 9.0,
     "fsd23": 12.5,
     "python23": 13.0,
-    "sem3spi": 7.46
+    "sem3spi": 7.46,
+    "dm4": 29.0
   },
   {
     "roll": 153,
@@ -24585,7 +25276,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 13.0,
     "python23": 16.5,
-    "sem3spi": 7.67
+    "sem3spi": 7.67,
+    "dm4": 41.5
   },
   {
     "roll": 124,
@@ -24616,7 +25308,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 14.0,
     "python23": 14.0,
-    "sem3spi": 8.33
+    "sem3spi": 8.33,
+    "dm4": 43.0
   },
   {
     "roll": 142,
@@ -24647,7 +25340,8 @@ const data = [
     "toc3": 21.5,
     "fsd23": 24.0,
     "python23": 13.5,
-    "sem3spi": 7.17
+    "sem3spi": 7.17,
+    "dm4": 36.0
   },
   {
     "roll": 138,
@@ -24678,7 +25372,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 20.0,
     "python23": 15.0,
-    "sem3spi": 8.13
+    "sem3spi": 8.13,
+    "dm4": 40.5
   },
   {
     "roll": 126,
@@ -24709,7 +25404,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 16.0,
     "python23": 9.5,
-    "sem3spi": 7.71
+    "sem3spi": 7.71,
+    "dm4": 30.5
   },
   {
     "roll": 159,
@@ -24740,7 +25436,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 19.0,
     "python23": 15.5,
-    "sem3spi": 7.21
+    "sem3spi": 7.21,
+    "dm4": 40.5
   },
   {
     "roll": 133,
@@ -24771,7 +25468,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 14.0,
     "python23": 10.0,
-    "sem3spi": 7.5
+    "sem3spi": 7.5,
+    "dm4": 38.5
   },
   {
     "roll": 146,
@@ -24802,7 +25500,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 18.5,
     "python23": 13.5,
-    "sem3spi": 7.54
+    "sem3spi": 7.54,
+    "dm4": 35.5
   },
   {
     "roll": 139,
@@ -24833,7 +25532,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 15.5,
     "python23": 11.0,
-    "sem3spi": 7.58
+    "sem3spi": 7.58,
+    "dm4": 35.0
   },
   {
     "roll": 145,
@@ -24864,7 +25564,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 21.0,
     "python23": 16.0,
-    "sem3spi": 7.42
+    "sem3spi": 7.42,
+    "dm4": 43.0
   },
   {
     "roll": 163,
@@ -24895,7 +25596,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 18.0,
     "python23": 12.5,
-    "sem3spi": 7.38
+    "sem3spi": 7.38,
+    "dm4": 0.0
   },
   {
     "roll": 120,
@@ -24926,7 +25628,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 19.5,
     "python23": 19.0,
-    "sem3spi": 8.08
+    "sem3spi": 8.08,
+    "dm4": 31.0
   },
   {
     "roll": 195,
@@ -24957,7 +25660,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 9.0,
     "python23": 16.0,
-    "sem3spi": 6.54
+    "sem3spi": 6.54,
+    "dm4": 23.0
   },
   {
     "roll": 136,
@@ -24988,7 +25692,8 @@ const data = [
     "toc3": 10.5,
     "fsd23": 19.0,
     "python23": 17.0,
-    "sem3spi": 7.75
+    "sem3spi": 7.75,
+    "dm4": 42.0
   },
   {
     "roll": 157,
@@ -25019,7 +25724,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 20.0,
     "python23": 11.0,
-    "sem3spi": 7.71
+    "sem3spi": 7.71,
+    "dm4": 32.0
   },
   {
     "roll": 152,
@@ -25050,7 +25756,8 @@ const data = [
     "toc3": 13.0,
     "fsd23": 15.0,
     "python23": 19.5,
-    "sem3spi": 6.96
+    "sem3spi": 6.96,
+    "dm4": 29.5
   },
   {
     "roll": 102,
@@ -25081,7 +25788,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 21.0,
     "python23": 11.0,
-    "sem3spi": 8.5
+    "sem3spi": 8.5,
+    "dm4": 33.5
   },
   {
     "roll": 123,
@@ -25112,7 +25820,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 22.0,
     "python23": 14.5,
-    "sem3spi": 8.13
+    "sem3spi": 8.13,
+    "dm4": 38.5
   },
   {
     "roll": 130,
@@ -25143,7 +25852,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 22.0,
     "python23": 11.0,
-    "sem3spi": 7.96
+    "sem3spi": 7.96,
+    "dm4": 33.0
   },
   {
     "roll": 180,
@@ -25174,7 +25884,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 16.0,
     "python23": 14.0,
-    "sem3spi": 7.54
+    "sem3spi": 7.54,
+    "dm4": 26.5
   },
   {
     "roll": 194,
@@ -25205,7 +25916,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 20.0,
     "python23": 10.5,
-    "sem3spi": 7.21
+    "sem3spi": 7.21,
+    "dm4": 46.5
   },
   {
     "roll": 171,
@@ -25236,7 +25948,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 13.0,
     "python23": 12.5,
-    "sem3spi": 6.96
+    "sem3spi": 6.96,
+    "dm4": 36.0
   },
   {
     "roll": 170,
@@ -25267,7 +25980,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 17.0,
     "python23": 15.0,
-    "sem3spi": 7.17
+    "sem3spi": 7.17,
+    "dm4": 39.5
   },
   {
     "roll": 165,
@@ -25298,7 +26012,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 23.0,
     "python23": 17.0,
-    "sem3spi": 7.08
+    "sem3spi": 7.08,
+    "dm4": 34.5
   },
   {
     "roll": 202,
@@ -25329,7 +26044,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 12.0,
     "python23": 12.5,
-    "sem3spi": 6.42
+    "sem3spi": 6.42,
+    "dm4": 33.5
   },
   {
     "roll": 176,
@@ -25360,7 +26076,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 15.5,
     "python23": 15.5,
-    "sem3spi": 6.92
+    "sem3spi": 6.92,
+    "dm4": 45.0
   },
   {
     "roll": 162,
@@ -25391,7 +26108,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 18.0,
     "python23": 12.0,
-    "sem3spi": 7.08
+    "sem3spi": 7.08,
+    "dm4": 38.0
   },
   {
     "roll": 197,
@@ -25422,7 +26140,8 @@ const data = [
     "toc3": 7.0,
     "fsd23": 22.0,
     "python23": 12.5,
-    "sem3spi": 7.04
+    "sem3spi": 7.04,
+    "dm4": 40.0
   },
   {
     "roll": 143,
@@ -25453,7 +26172,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 25.0,
     "python23": 11.5,
-    "sem3spi": 7.63
+    "sem3spi": 7.63,
+    "dm4": 33.0
   },
   {
     "roll": 169,
@@ -25484,7 +26204,8 @@ const data = [
     "toc3": 9.5,
     "fsd23": 18.0,
     "python23": 13.0,
-    "sem3spi": 7.21
+    "sem3spi": 7.21,
+    "dm4": 27.5
   },
   {
     "roll": 181,
@@ -25515,7 +26236,8 @@ const data = [
     "toc3": 8.0,
     "fsd23": 16.5,
     "python23": 11.5,
-    "sem3spi": 7.63
+    "sem3spi": 7.63,
+    "dm4": 36.0
   },
   {
     "roll": 160,
@@ -25546,7 +26268,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 24.0,
     "python23": 15.5,
-    "sem3spi": 7.25
+    "sem3spi": 7.25,
+    "dm4": 33.0
   },
   {
     "roll": 110,
@@ -25577,7 +26300,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 23.5,
     "python23": 0.0,
-    "sem3spi": 8.46
+    "sem3spi": 8.46,
+    "dm4": 35.0
   },
   {
     "roll": 86,
@@ -25608,7 +26332,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 17.0,
     "python23": 12.0,
-    "sem3spi": 8.67
+    "sem3spi": 8.67,
+    "dm4": 30.0
   },
   {
     "roll": 158,
@@ -25639,7 +26364,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 18.0,
     "python23": 14.5,
-    "sem3spi": 6.83
+    "sem3spi": 6.83,
+    "dm4": 42.5
   },
   {
     "roll": 192,
@@ -25670,7 +26396,8 @@ const data = [
     "toc3": 5.0,
     "fsd23": 7.0,
     "python23": 10.5,
-    "sem3spi": 5.93
+    "sem3spi": 5.93,
+    "dm4": 2.0
   },
   {
     "roll": 125,
@@ -25701,7 +26428,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 23.0,
     "python23": 12.5,
-    "sem3spi": 8.08
+    "sem3spi": 8.08,
+    "dm4": 32.0
   },
   {
     "roll": 137,
@@ -25732,7 +26460,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 22.0,
     "python23": 16.0,
-    "sem3spi": 8.08
+    "sem3spi": 8.08,
+    "dm4": 34.5
   },
   {
     "roll": 164,
@@ -25763,7 +26492,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 20.0,
     "python23": 9.5,
-    "sem3spi": 7.58
+    "sem3spi": 7.58,
+    "dm4": 35.5
   },
   {
     "roll": 229,
@@ -25794,7 +26524,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 17.0,
     "python23": 10.0,
-    "sem3spi": 6.04
+    "sem3spi": 6.04,
+    "dm4": 26.5
   },
   {
     "roll": 190,
@@ -25825,7 +26556,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 12.5,
     "python23": 13.0,
-    "sem3spi": 6.63
+    "sem3spi": 6.63,
+    "dm4": 38.0
   },
   {
     "roll": 182,
@@ -25856,7 +26588,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 20.0,
     "python23": 17.0,
-    "sem3spi": 7.5
+    "sem3spi": 7.5,
+    "dm4": 35.0
   },
   {
     "roll": 185,
@@ -25887,7 +26620,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 21.0,
     "python23": 14.0,
-    "sem3spi": 7.17
+    "sem3spi": 7.17,
+    "dm4": 30.5
   },
   {
     "roll": 205,
@@ -25918,7 +26652,8 @@ const data = [
     "toc3": 5.5,
     "fsd23": 14.0,
     "python23": 9.0,
-    "sem3spi": 6.33
+    "sem3spi": 6.33,
+    "dm4": 30.0
   },
   {
     "roll": 174,
@@ -25949,7 +26684,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 18.0,
     "python23": 13.0,
-    "sem3spi": 7.13
+    "sem3spi": 7.13,
+    "dm4": 44.0
   },
   {
     "roll": 191,
@@ -25980,7 +26716,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 20.0,
     "python23": 15.5,
-    "sem3spi": 7.33
+    "sem3spi": 7.33,
+    "dm4": 23.0
   },
   {
     "roll": 179,
@@ -26011,7 +26748,8 @@ const data = [
     "toc3": 8.0,
     "fsd23": 15.0,
     "python23": 6.5,
-    "sem3spi": 7.17
+    "sem3spi": 7.17,
+    "dm4": 37.0
   },
   {
     "roll": 208,
@@ -26042,7 +26780,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 16.0,
     "python23": 13.5,
-    "sem3spi": 7.08
+    "sem3spi": 7.08,
+    "dm4": 40.5
   },
   {
     "roll": 193,
@@ -26073,7 +26812,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 18.0,
     "python23": 12.5,
-    "sem3spi": 7.04
+    "sem3spi": 7.04,
+    "dm4": 29.5
   },
   {
     "roll": 204,
@@ -26104,7 +26844,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 16.0,
     "python23": 16.0,
-    "sem3spi": 6.92
+    "sem3spi": 6.92,
+    "dm4": 22.5
   },
   {
     "roll": 198,
@@ -26135,7 +26876,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 20.0,
     "python23": 15.0,
-    "sem3spi": 7.08
+    "sem3spi": 7.08,
+    "dm4": 37.0
   },
   {
     "roll": 210,
@@ -26166,7 +26908,8 @@ const data = [
     "toc3": 9.0,
     "fsd23": 20.0,
     "python23": 12.0,
-    "sem3spi": 6.08
+    "sem3spi": 6.08,
+    "dm4": 32.0
   },
   {
     "roll": 156,
@@ -26197,7 +26940,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 23.0,
     "python23": 18.5,
-    "sem3spi": 7.63
+    "sem3spi": 7.63,
+    "dm4": 38.5
   },
   {
     "roll": 172,
@@ -26228,7 +26972,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 24.0,
     "python23": 13.5,
-    "sem3spi": 5.78
+    "sem3spi": 5.78,
+    "dm4": 44.0
   },
   {
     "roll": 218,
@@ -26259,7 +27004,8 @@ const data = [
     "toc3": 10.0,
     "fsd23": 21.0,
     "python23": 10.5,
-    "sem3spi": 6.54
+    "sem3spi": 6.54,
+    "dm4": 40.0
   },
   {
     "roll": 196,
@@ -26290,7 +27036,8 @@ const data = [
     "toc3": 11.0,
     "fsd23": 20.0,
     "python23": 17.5,
-    "sem3spi": 7.25
+    "sem3spi": 7.25,
+    "dm4": 35.5
   },
   {
     "roll": 227,
@@ -26321,7 +27068,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 10.0,
     "python23": 9.0,
-    "sem3spi": 6.71
+    "sem3spi": 6.71,
+    "dm4": 29.5
   },
   {
     "roll": 173,
@@ -26352,7 +27100,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 13.0,
     "python23": 9.5,
-    "sem3spi": 7.04
+    "sem3spi": 7.04,
+    "dm4": 38.5
   },
   {
     "roll": 178,
@@ -26383,7 +27132,8 @@ const data = [
     "toc3": 7.5,
     "fsd23": 19.0,
     "python23": 13.0,
-    "sem3spi": 7.04
+    "sem3spi": 7.04,
+    "dm4": 37.0
   },
   {
     "roll": 200,
@@ -26414,7 +27164,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 8.0,
     "python23": 8.0,
-    "sem3spi": 6.67
+    "sem3spi": 6.67,
+    "dm4": 37.0
   },
   {
     "roll": 232,
@@ -26445,7 +27196,8 @@ const data = [
     "toc3": 3.0,
     "fsd23": 14.0,
     "python23": 17.0,
-    "sem3spi": 6.54
+    "sem3spi": 6.54,
+    "dm4": 33.5
   },
   {
     "roll": 207,
@@ -26476,7 +27228,8 @@ const data = [
     "toc3": 12.0,
     "fsd23": 16.0,
     "python23": 16.0,
-    "sem3spi": 6.5
+    "sem3spi": 6.5,
+    "dm4": 35.0
   },
   {
     "roll": 214,
@@ -26507,7 +27260,8 @@ const data = [
     "toc3": 10.5,
     "fsd23": 19.0,
     "python23": 10.5,
-    "sem3spi": 6.46
+    "sem3spi": 6.46,
+    "dm4": 35.0
   },
   {
     "roll": 201,
@@ -26538,7 +27292,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 23.0,
     "python23": 15.0,
-    "sem3spi": 6.83
+    "sem3spi": 6.83,
+    "dm4": 42.5
   },
   {
     "roll": 213,
@@ -26569,7 +27324,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 16.0,
     "python23": 10.0,
-    "sem3spi": 6.71
+    "sem3spi": 6.71,
+    "dm4": 27.0
   },
   {
     "roll": 217,
@@ -26600,7 +27356,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 21.0,
     "python23": 13.0,
-    "sem3spi": 6.63
+    "sem3spi": 6.63,
+    "dm4": 22.5
   },
   {
     "roll": 233,
@@ -26631,7 +27388,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 16.0,
     "python23": 12.0,
-    "sem3spi": 5.88
+    "sem3spi": 5.88,
+    "dm4": 35.5
   },
   {
     "roll": 225,
@@ -26662,7 +27420,8 @@ const data = [
     "toc3": 13.0,
     "fsd23": 12.0,
     "python23": 10.0,
-    "sem3spi": 6.29
+    "sem3spi": 6.29,
+    "dm4": 29.5
   },
   {
     "roll": 231,
@@ -26693,7 +27452,8 @@ const data = [
     "toc3": 12.5,
     "fsd23": 14.0,
     "python23": 10.0,
-    "sem3spi": 5.3
+    "sem3spi": 5.3,
+    "dm4": 35.5
   },
   {
     "roll": 211,
@@ -26724,7 +27484,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 16.0,
     "python23": 13.5,
-    "sem3spi": 6.92
+    "sem3spi": 6.92,
+    "dm4": 32.0
   },
   {
     "roll": 248,
@@ -26755,7 +27516,8 @@ const data = [
     "toc3": 11.5,
     "fsd23": 11.5,
     "python23": 11.0,
-    "sem3spi": 6.08
+    "sem3spi": 6.08,
+    "dm4": 36.5
   },
   {
     "roll": 238,
@@ -26786,7 +27548,8 @@ const data = [
     "toc3": 11.0,
     "fsd23": 9.0,
     "python23": 5.0,
-    "sem3spi": 5.96
+    "sem3spi": 5.96,
+    "dm4": 37.5
   },
   {
     "roll": 203,
@@ -26817,7 +27580,8 @@ const data = [
     "toc3": 6.5,
     "fsd23": 22.0,
     "python23": 16.5,
-    "sem3spi": 7.42
+    "sem3spi": 7.42,
+    "dm4": 26.0
   },
   {
     "roll": 219,
@@ -26848,7 +27612,8 @@ const data = [
     "toc3": 13.0,
     "fsd23": 11.0,
     "python23": 11.0,
-    "sem3spi": 6.5
+    "sem3spi": 6.5,
+    "dm4": 24.5
   },
   {
     "roll": 220,
@@ -26879,7 +27644,8 @@ const data = [
     "toc3": 7.0,
     "fsd23": 10.0,
     "python23": 3.0,
-    "sem3spi": 6.0
+    "sem3spi": 6.0,
+    "dm4": 25.5
   },
   {
     "roll": 226,
@@ -26910,7 +27676,8 @@ const data = [
     "toc3": 12.5,
     "fsd23": 13.0,
     "python23": 15.5,
-    "sem3spi": 6.08
+    "sem3spi": 6.08,
+    "dm4": 32.5
   },
   {
     "roll": 189,
@@ -26941,7 +27708,8 @@ const data = [
     "toc3": 10.0,
     "fsd23": 11.5,
     "python23": 11.5,
-    "sem3spi": 7.33
+    "sem3spi": 7.33,
+    "dm4": 26.0
   },
   {
     "roll": 246,
@@ -26972,7 +27740,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 14.0,
     "python23": 15.0,
-    "sem3spi": 6.33
+    "sem3spi": 6.33,
+    "dm4": 35.5
   },
   {
     "roll": 228,
@@ -27003,7 +27772,8 @@ const data = [
     "toc3": 12.5,
     "fsd23": 13.0,
     "python23": 15.0,
-    "sem3spi": 6.21
+    "sem3spi": 6.21,
+    "dm4": 36.0
   },
   {
     "roll": 255,
@@ -27034,7 +27804,8 @@ const data = [
     "toc3": 12.0,
     "fsd23": 17.0,
     "python23": 10.0,
-    "sem3spi": 4.7
+    "sem3spi": 4.7,
+    "dm4": 32.0
   },
   {
     "roll": 250,
@@ -27065,7 +27836,8 @@ const data = [
     "toc3": 10.5,
     "fsd23": 17.0,
     "python23": 10.0,
-    "sem3spi": 5.96
+    "sem3spi": 5.96,
+    "dm4": 40.5
   },
   {
     "roll": 63,
@@ -27096,7 +27868,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 20.0,
     "python23": 15.5,
-    "sem3spi": 8.58
+    "sem3spi": 8.58,
+    "dm4": 38.0
   },
   {
     "roll": 22,
@@ -27127,7 +27900,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 24.0,
     "python23": 25.0,
-    "sem3spi": 9.25
+    "sem3spi": 9.25,
+    "dm4": 41.5
   },
   {
     "roll": 75,
@@ -27158,7 +27932,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 19.0,
     "python23": 14.0,
-    "sem3spi": 8.42
+    "sem3spi": 8.42,
+    "dm4": 37.5
   },
   {
     "roll": 69,
@@ -27189,7 +27964,8 @@ const data = [
     "toc3": 13.0,
     "fsd23": 19.5,
     "python23": 16.5,
-    "sem3spi": 9.13
+    "sem3spi": 9.13,
+    "dm4": 32.5
   },
   {
     "roll": 97,
@@ -27220,7 +27996,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 22.0,
     "python23": 16.0,
-    "sem3spi": 8.0
+    "sem3spi": 8.0,
+    "dm4": 40.0
   },
   {
     "roll": 25,
@@ -27251,7 +28028,8 @@ const data = [
     "toc3": 21.5,
     "fsd23": 25.0,
     "python23": 0.0,
-    "sem3spi": 9.54
+    "sem3spi": 9.54,
+    "dm4": 43.0
   },
   {
     "roll": 81,
@@ -27282,7 +28060,8 @@ const data = [
     "toc3": 11.0,
     "fsd23": 24.0,
     "python23": 14.0,
-    "sem3spi": 8.46
+    "sem3spi": 8.46,
+    "dm4": 30.5
   },
   {
     "roll": 113,
@@ -27313,7 +28092,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 19.0,
     "python23": 12.5,
-    "sem3spi": 7.63
+    "sem3spi": 7.63,
+    "dm4": 38.0
   },
   {
     "roll": 87,
@@ -27344,7 +28124,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 16.0,
     "python23": 13.0,
-    "sem3spi": 7.88
+    "sem3spi": 7.88,
+    "dm4": 23.5
   },
   {
     "roll": 141,
@@ -27375,7 +28156,8 @@ const data = [
     "toc3": 20.5,
     "fsd23": 24.0,
     "python23": 13.5,
-    "sem3spi": 7.83
+    "sem3spi": 7.83,
+    "dm4": 41.5
   },
   {
     "roll": 150,
@@ -27406,7 +28188,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 21.0,
     "python23": 18.0,
-    "sem3spi": 7.63
+    "sem3spi": 7.63,
+    "dm4": 37.5
   },
   {
     "roll": 119,
@@ -27437,7 +28220,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 24.0,
     "python23": 18.0,
-    "sem3spi": 8.29
+    "sem3spi": 8.29,
+    "dm4": 45.0
   },
   {
     "roll": 175,
@@ -27468,7 +28252,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 17.0,
     "python23": 11.5,
-    "sem3spi": 6.71
+    "sem3spi": 6.71,
+    "dm4": 17.5
   },
   {
     "roll": 188,
@@ -27499,7 +28284,8 @@ const data = [
     "toc3": 13.0,
     "fsd23": 19.0,
     "python23": 10.0,
-    "sem3spi": 6.83
+    "sem3spi": 6.83,
+    "dm4": 34.0
   },
   {
     "roll": 216,
@@ -27530,7 +28316,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 14.0,
     "python23": 14.0,
-    "sem3spi": 6.5
+    "sem3spi": 6.5,
+    "dm4": 41.5
   },
   {
     "roll": 132,
@@ -27561,7 +28348,8 @@ const data = [
     "toc3": 20.5,
     "fsd23": 20.0,
     "python23": 17.0,
-    "sem3spi": 7.92
+    "sem3spi": 7.92,
+    "dm4": 41.0
   },
   {
     "roll": 151,
@@ -27592,7 +28380,8 @@ const data = [
     "toc3": 10.5,
     "fsd23": 18.5,
     "python23": 18.5,
-    "sem3spi": 7.25
+    "sem3spi": 7.25,
+    "dm4": 27.0
   },
   {
     "roll": 183,
@@ -27623,7 +28412,8 @@ const data = [
     "toc3": 12.0,
     "fsd23": 16.0,
     "python23": 10.0,
-    "sem3spi": 6.92
+    "sem3spi": 6.92,
+    "dm4": 34.0
   },
   {
     "roll": 239,
@@ -27654,7 +28444,8 @@ const data = [
     "toc3": 12.0,
     "fsd23": 22.0,
     "python23": 17.5,
-    "sem3spi": 6.58
+    "sem3spi": 6.58,
+    "dm4": 31.0
   },
   {
     "roll": 209,
@@ -27685,7 +28476,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 9.5,
     "python23": 13.5,
-    "sem3spi": 6.96
+    "sem3spi": 6.96,
+    "dm4": 44.0
   },
   {
     "roll": 223,
@@ -27716,7 +28508,8 @@ const data = [
     "toc3": 21.5,
     "fsd23": 14.0,
     "python23": 13.5,
-    "sem3spi": 6.92
+    "sem3spi": 6.92,
+    "dm4": 39.0
   },
   {
     "roll": 253,
@@ -27747,7 +28540,8 @@ const data = [
     "toc3": 8.5,
     "fsd23": 6.0,
     "python23": 9.0,
-    "sem3spi": 5.96
+    "sem3spi": 5.96,
+    "dm4": 5.5
   },
   {
     "roll": 217,
@@ -27769,7 +28563,8 @@ const data = [
     "python2": 0,
     "toc": 0,
     "total": 0.0,
-    "sem3spi": 4.37
+    "sem3spi": 4.37,
+    "dm4": 0.0
   },
   {
     "roll": 261,
@@ -27800,7 +28595,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 5.0,
     "python23": 10.0,
-    "sem3spi": 6.13
+    "sem3spi": 6.13,
+    "dm4": 15.5
   },
   {
     "roll": 276,
@@ -27830,7 +28626,8 @@ const data = [
     "coa3": 4.0,
     "toc3": 1.0,
     "fsd23": 6.0,
-    "python23": 9.0
+    "python23": 9.0,
+    "dm4": 0.0
   },
   {
     "roll": 277,
@@ -27860,7 +28657,8 @@ const data = [
     "coa3": 1.0,
     "toc3": 1.0,
     "fsd23": 0.0,
-    "python23": 2.0
+    "python23": 2.0,
+    "dm4": 2.5
   },
   {
     "roll": 237,
@@ -27891,7 +28689,8 @@ const data = [
     "toc3": 12.5,
     "fsd23": 3.0,
     "python23": 8.0,
-    "sem3spi": 5.52
+    "sem3spi": 5.52,
+    "dm4": 22.5
   },
   {
     "roll": 247,
@@ -27922,7 +28721,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 18.0,
     "python23": 9.0,
-    "sem3spi": 6.04
+    "sem3spi": 6.04,
+    "dm4": 28.0
   },
   {
     "roll": 249,
@@ -27953,7 +28753,8 @@ const data = [
     "toc3": 12.5,
     "fsd23": 9.0,
     "python23": 10.0,
-    "sem3spi": 5.04
+    "sem3spi": 5.04,
+    "dm4": 27.0
   },
   {
     "roll": 240,
@@ -27984,7 +28785,8 @@ const data = [
     "toc3": 10.0,
     "fsd23": 20.0,
     "python23": 17.5,
-    "sem3spi": 5.11
+    "sem3spi": 5.11,
+    "dm4": 23.5
   },
   {
     "roll": 230,
@@ -28014,7 +28816,8 @@ const data = [
     "coa3": 11.5,
     "toc3": 17.5,
     "fsd23": 10.5,
-    "python23": 14.5
+    "python23": 14.5,
+    "dm4": 38.0
   },
   {
     "roll": 257,
@@ -28045,7 +28848,8 @@ const data = [
     "toc3": 5.0,
     "fsd23": 11.0,
     "python23": 11.0,
-    "sem3spi": 5.33
+    "sem3spi": 5.33,
+    "dm4": 32.0
   },
   {
     "roll": 243,
@@ -28076,7 +28880,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 12.0,
     "python23": 4.5,
-    "sem3spi": 5.67
+    "sem3spi": 5.67,
+    "dm4": 32.0
   },
   {
     "roll": 212,
@@ -28107,7 +28912,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 15.0,
     "python23": 13.5,
-    "sem3spi": 6.54
+    "sem3spi": 6.54,
+    "dm4": 32.5
   },
   {
     "roll": 258,
@@ -28138,7 +28944,8 @@ const data = [
     "toc3": 4.0,
     "fsd23": 10.5,
     "python23": 9.0,
-    "sem3spi": 5.96
+    "sem3spi": 5.96,
+    "dm4": 16.0
   },
   {
     "roll": 224,
@@ -28169,7 +28976,8 @@ const data = [
     "toc3": 7.5,
     "fsd23": 15.0,
     "python23": 18.5,
-    "sem3spi": 6.0
+    "sem3spi": 6.0,
+    "dm4": 21.5
   },
   {
     "roll": 222,
@@ -28200,7 +29008,8 @@ const data = [
     "toc3": 8.5,
     "fsd23": 11.0,
     "python23": 12.0,
-    "sem3spi": 6.54
+    "sem3spi": 6.54,
+    "dm4": 29.5
   },
   {
     "roll": 252,
@@ -28231,7 +29040,8 @@ const data = [
     "toc3": 8.0,
     "fsd23": 14.0,
     "python23": 10.0,
-    "sem3spi": 5.96
+    "sem3spi": 5.96,
+    "dm4": 28.5
   },
   {
     "roll": 259,
@@ -28262,7 +29072,8 @@ const data = [
     "toc3": 12.0,
     "fsd23": 20.0,
     "python23": 11.5,
-    "sem3spi": 5.25
+    "sem3spi": 5.25,
+    "dm4": 32.0
   },
   {
     "roll": 267,
@@ -28293,7 +29104,8 @@ const data = [
     "toc3": 9.0,
     "fsd23": 14.0,
     "python23": 8.0,
-    "sem3spi": 9.25
+    "sem3spi": 9.25,
+    "dm4": 27.5
   },
   {
     "roll": 262,
@@ -28324,7 +29136,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 21.0,
     "python23": 11.0,
-    "sem3spi": 5.46
+    "sem3spi": 5.46,
+    "dm4": 28.5
   },
   {
     "roll": 266,
@@ -28355,7 +29168,8 @@ const data = [
     "toc3": 5.0,
     "fsd23": 9.0,
     "python23": 10.0,
-    "sem3spi": 4.59
+    "sem3spi": 4.59,
+    "dm4": 15.5
   },
   {
     "roll": 273,
@@ -28386,7 +29200,8 @@ const data = [
     "toc3": 9.0,
     "fsd23": 6.0,
     "python23": 8.5,
-    "sem3spi": 4.26115
+    "sem3spi": 4.26115,
+    "dm4": 22.5
   },
   {
     "roll": 271,
@@ -28417,7 +29232,8 @@ const data = [
     "toc3": 7.0,
     "fsd23": 8.0,
     "python23": 6.0,
-    "sem3spi": 4.33117
+    "sem3spi": 4.33117,
+    "dm4": 14.5
   },
   {
     "roll": 274,
@@ -28447,7 +29263,8 @@ const data = [
     "coa3": 16.0,
     "toc3": 6.0,
     "fsd23": 19.0,
-    "python23": 8.5
+    "python23": 8.5,
+    "dm4": 28.5
   },
   {
     "roll": 265,
@@ -28478,7 +29295,8 @@ const data = [
     "toc3": 9.5,
     "fsd23": 15.0,
     "python23": 12.0,
-    "sem3spi": 5.71
+    "sem3spi": 5.71,
+    "dm4": 31.0
   },
   {
     "roll": 270,
@@ -28509,7 +29327,8 @@ const data = [
     "toc3": 11.0,
     "fsd23": 11.0,
     "python23": 8.0,
-    "sem3spi": 4.88
+    "sem3spi": 4.88,
+    "dm4": 30.5
   },
   {
     "roll": 275,
@@ -28539,7 +29358,8 @@ const data = [
     "coa3": 11.0,
     "toc3": 3.0,
     "fsd23": 8.0,
-    "python23": 6.0
+    "python23": 6.0,
+    "dm4": 3.0
   },
   {
     "roll": 243,
@@ -28560,7 +29380,8 @@ const data = [
     "fsd2": 0,
     "python2": 0,
     "toc": 0,
-    "total": 0.0
+    "total": 0.0,
+    "dm4": 0.0
   },
   {
     "roll": 256,
@@ -28591,7 +29412,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 19.5,
     "python23": 13.5,
-    "sem3spi": 6.42
+    "sem3spi": 6.42,
+    "dm4": 29.5
   },
   {
     "roll": 245,
@@ -28622,7 +29444,8 @@ const data = [
     "toc3": 9.5,
     "fsd23": 16.0,
     "python23": 16.0,
-    "sem3spi": 6.67
+    "sem3spi": 6.67,
+    "dm4": 34.0
   },
   {
     "roll": 278,
@@ -28651,7 +29474,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 23.0,
     "python23": 10.0,
-    "sem3spi": 6.2
+    "sem3spi": 6.2,
+    "dm4": 38.0
   },
   {
     "roll": 279,
@@ -28680,7 +29504,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 14.0,
     "python23": 15.0,
-    "sem3spi": 6.8
+    "sem3spi": 6.8,
+    "dm4": 31.5
   },
   {
     "roll": 280,
@@ -28709,7 +29534,8 @@ const data = [
     "toc3": 7.0,
     "fsd23": 13.5,
     "python23": 10.0,
-    "sem3spi": 6.28
+    "sem3spi": 6.28,
+    "dm4": 26.5
   },
   {
     "roll": 281,
@@ -28738,7 +29564,8 @@ const data = [
     "toc3": 11.5,
     "fsd23": 13.5,
     "python23": 12.0,
-    "sem3spi": 5.72
+    "sem3spi": 5.72,
+    "dm4": 31.5
   },
   {
     "roll": 282,
@@ -28767,7 +29594,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 23.5,
     "python23": 17.0,
-    "sem3spi": 7.36
+    "sem3spi": 7.36,
+    "dm4": 38.5
   },
   {
     "roll": 283,
@@ -28796,7 +29624,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 13.0,
     "python23": 14.0,
-    "sem3spi": 6.28
+    "sem3spi": 6.28,
+    "dm4": 35.0
   },
   {
     "roll": 65,
@@ -28827,7 +29656,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 22.5,
     "python23": 25.0,
-    "sem3spi": 9.46
+    "sem3spi": 9.46,
+    "dm4": 35.5
   },
   {
     "roll": 101,
@@ -28858,7 +29688,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 21.0,
     "python23": 16.0,
-    "sem3spi": 8.79
+    "sem3spi": 8.79,
+    "dm4": 44.5
   },
   {
     "roll": 106,
@@ -28889,7 +29720,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 21.0,
     "python23": 22.0,
-    "sem3spi": 8.83
+    "sem3spi": 8.83,
+    "dm4": 35.5
   },
   {
     "roll": 264,
@@ -28920,7 +29752,8 @@ const data = [
     "toc3": 10.0,
     "fsd23": 12.0,
     "python23": 12.0,
-    "sem3spi": 6.67
+    "sem3spi": 6.67,
+    "dm4": 30.5
   },
   {
     "roll": 147,
@@ -28951,7 +29784,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 18.0,
     "python23": 12.5,
-    "sem3spi": 8.5
+    "sem3spi": 8.5,
+    "dm4": 41.5
   },
   {
     "roll": 155,
@@ -28982,7 +29816,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 14.0,
     "python23": 16.0,
-    "sem3spi": 8.46
+    "sem3spi": 8.46,
+    "dm4": 40.0
   },
   {
     "roll": 117,
@@ -29013,7 +29848,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 19.5,
     "python23": 18.0,
-    "sem3spi": 8.63
+    "sem3spi": 8.63,
+    "dm4": 44.5
   },
   {
     "roll": 199,
@@ -29044,7 +29880,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 13.0,
     "python23": 11.0,
-    "sem3spi": 8.0
+    "sem3spi": 8.0,
+    "dm4": 40.0
   },
   {
     "roll": 187,
@@ -29075,7 +29912,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 19.0,
     "python23": 14.0,
-    "sem3spi": 8.38
+    "sem3spi": 8.38,
+    "dm4": 40.0
   },
   {
     "roll": 236,
@@ -29106,7 +29944,8 @@ const data = [
     "toc3": 7.0,
     "fsd23": 23.0,
     "python23": 23.0,
-    "sem3spi": 7.46
+    "sem3spi": 7.46,
+    "dm4": 23.0
   },
   {
     "roll": 186,
@@ -29137,7 +29976,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 18.5,
     "python23": 13.0,
-    "sem3spi": 8.46
+    "sem3spi": 8.46,
+    "dm4": 38.5
   },
   {
     "roll": 116,
@@ -29168,7 +30008,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 21.5,
     "python23": 13.0,
-    "sem3spi": 8.79
+    "sem3spi": 8.79,
+    "dm4": 38.5
   },
   {
     "roll": 184,
@@ -29199,7 +30040,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 13.5,
     "python23": 12.5,
-    "sem3spi": 8.33
+    "sem3spi": 8.33,
+    "dm4": 39.0
   },
   {
     "roll": 18,
@@ -29230,7 +30072,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 23.5,
     "python23": 22.0,
-    "sem3spi": 9.88
+    "sem3spi": 9.88,
+    "dm4": 34.0
   },
   {
     "roll": 244,
@@ -29261,7 +30104,8 @@ const data = [
     "toc3": 10.5,
     "fsd23": 17.0,
     "python23": 15.0,
-    "sem3spi": 7.75
+    "sem3spi": 7.75,
+    "dm4": 39.5
   },
   {
     "roll": 206,
@@ -29292,7 +30136,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 23.5,
     "python23": 15.5,
-    "sem3spi": 8.13
+    "sem3spi": 8.13,
+    "dm4": 33.5
   },
   {
     "roll": 241,
@@ -29323,7 +30168,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 16.0,
     "python23": 15.0,
-    "sem3spi": 7.25
+    "sem3spi": 7.25,
+    "dm4": 24.5
   },
   {
     "roll": 161,
@@ -29354,7 +30200,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 21.0,
     "python23": 14.5,
-    "sem3spi": 8.46
+    "sem3spi": 8.46,
+    "dm4": 46.5
   },
   {
     "roll": 269,
@@ -29385,7 +30232,8 @@ const data = [
     "toc3": 2.0,
     "fsd23": 8.0,
     "python23": 10.0,
-    "sem3spi": 6.88
+    "sem3spi": 6.88,
+    "dm4": 32.0
   },
   {
     "roll": 242,
@@ -29416,7 +30264,8 @@ const data = [
     "toc3": 13.0,
     "fsd23": 16.5,
     "python23": 17.0,
-    "sem3spi": 7.5
+    "sem3spi": 7.5,
+    "dm4": 29.0
   },
   {
     "roll": 251,
@@ -29447,7 +30296,8 @@ const data = [
     "toc3": 10.0,
     "fsd23": 9.0,
     "python23": 7.5,
-    "sem3spi": 6.88
+    "sem3spi": 6.88,
+    "dm4": 29.0
   },
   {
     "roll": 167,
@@ -29478,7 +30328,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 15.5,
     "python23": 21.0,
-    "sem3spi": 8.17
+    "sem3spi": 8.17,
+    "dm4": 42.0
   },
   {
     "roll": 235,
@@ -29509,7 +30360,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 23.5,
     "python23": 19.5,
-    "sem3spi": 7.46
+    "sem3spi": 7.46,
+    "dm4": 29.5
   },
   {
     "roll": 254,
@@ -29540,7 +30392,8 @@ const data = [
     "toc3": 10.5,
     "fsd23": 18.5,
     "python23": 13.0,
-    "sem3spi": 6.33
+    "sem3spi": 6.33,
+    "dm4": 28.5
   },
   {
     "roll": 221,
@@ -29571,7 +30424,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 21.0,
     "python23": 16.0,
-    "sem3spi": 8.04
+    "sem3spi": 8.04,
+    "dm4": 37.5
   },
   {
     "roll": 177,
@@ -29602,7 +30456,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 19.5,
     "python23": 15.5,
-    "sem3spi": 8.42
+    "sem3spi": 8.42,
+    "dm4": 33.5
   },
   {
     "roll": 148,
@@ -29633,7 +30488,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 21.0,
     "python23": 15.0,
-    "sem3spi": 8.75
+    "sem3spi": 8.75,
+    "dm4": 42.5
   },
   {
     "roll": 272,
@@ -29664,7 +30520,8 @@ const data = [
     "toc3": 8.0,
     "fsd23": 9.5,
     "python23": 7.0,
-    "sem3spi": 5.92
+    "sem3spi": 5.92,
+    "dm4": 33.5
   },
   {
     "roll": 234,
@@ -29695,7 +30552,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 19.5,
     "python23": 15.5,
-    "sem3spi": 7.63
+    "sem3spi": 7.63,
+    "dm4": 35.5
   },
   {
     "roll": 260,
@@ -29726,7 +30584,8 @@ const data = [
     "toc3": 9.5,
     "fsd23": 18.5,
     "python23": 7.5,
-    "sem3spi": 6.79
+    "sem3spi": 6.79,
+    "dm4": 31.5
   },
   {
     "roll": 33,
@@ -29747,7 +30606,8 @@ const data = [
     "fsd2": 0,
     "python2": 0,
     "toc": 0,
-    "total": 0.0
+    "total": 0.0,
+    "dm4": 0.0
   },
   {
     "roll": 215,
@@ -29778,7 +30638,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 14.0,
     "python23": 10.0,
-    "sem3spi": 7.75
+    "sem3spi": 7.75,
+    "dm4": 40.0
   },
   {
     "roll": 168,
@@ -29809,7 +30670,8 @@ const data = [
     "toc3": 13.0,
     "fsd23": 22.0,
     "python23": 20.5,
-    "sem3spi": 8.33
+    "sem3spi": 8.33,
+    "dm4": 37.0
   },
   {
     "roll": 263,
@@ -29840,7 +30702,8 @@ const data = [
     "toc3": 13.0,
     "fsd23": 9.0,
     "python23": 10.5,
-    "sem3spi": 6.63
+    "sem3spi": 6.63,
+    "dm4": 32.0
   },
   {
     "roll": 268,
@@ -29871,7 +30734,8 @@ const data = [
     "toc3": 10.0,
     "fsd23": 15.0,
     "python23": 10.0,
-    "sem3spi": 6.5
+    "sem3spi": 6.5,
+    "dm4": 34.0
   },
   {
     "roll": 101,
@@ -29907,7 +30771,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 17.5,
     "python23": 16.0,
-    "sem3spi": 8.83
+    "sem3spi": 8.83,
+    "dm4": 41.0
   },
   {
     "roll": 176,
@@ -29943,7 +30808,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 14.0,
     "python23": 19.0,
-    "sem3spi": 7.0
+    "sem3spi": 7.0,
+    "dm4": 36.5
   },
   {
     "roll": 145,
@@ -29979,7 +30845,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 16.0,
     "python23": 15.5,
-    "sem3spi": 7.5
+    "sem3spi": 7.5,
+    "dm4": 38.5
   },
   {
     "roll": 45,
@@ -30015,7 +30882,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 23.0,
     "python23": 20.5,
-    "sem3spi": 9.42
+    "sem3spi": 9.42,
+    "dm4": 42.0
   },
   {
     "roll": 97,
@@ -30051,7 +30919,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 18.5,
     "python23": 21.5,
-    "sem3spi": 8.42
+    "sem3spi": 8.42,
+    "dm4": 40.0
   },
   {
     "roll": 127,
@@ -30087,7 +30956,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 22.0,
     "python23": 13.5,
-    "sem3spi": 8.17
+    "sem3spi": 8.17,
+    "dm4": 37.0
   },
   {
     "roll": 159,
@@ -30123,7 +30993,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 16.5,
     "python23": 12.0,
-    "sem3spi": 7.75
+    "sem3spi": 7.75,
+    "dm4": 40.5
   },
   {
     "roll": 170,
@@ -30159,7 +31030,8 @@ const data = [
     "toc3": 5.0,
     "fsd23": 12.5,
     "python23": 12.5,
-    "sem3spi": 7.29
+    "sem3spi": 7.29,
+    "dm4": 35.0
   },
   {
     "roll": 80,
@@ -30195,7 +31067,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 24.0,
     "python23": 18.0,
-    "sem3spi": 8.75
+    "sem3spi": 8.75,
+    "dm4": 38.0
   },
   {
     "roll": 133,
@@ -30231,7 +31104,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 19.5,
     "python23": 14.5,
-    "sem3spi": 8.25
+    "sem3spi": 8.25,
+    "dm4": 41.0
   },
   {
     "roll": 242,
@@ -30267,7 +31141,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 12.0,
     "python23": 14.5,
-    "sem3spi": 6.79
+    "sem3spi": 6.79,
+    "dm4": 35.5
   },
   {
     "roll": 230,
@@ -30303,7 +31178,8 @@ const data = [
     "toc3": 11.5,
     "fsd23": 11.0,
     "python23": 11.5,
-    "sem3spi": 6.5
+    "sem3spi": 6.5,
+    "dm4": 33.0
   },
   {
     "roll": 257,
@@ -30339,7 +31215,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 11.0,
     "python23": 10.5,
-    "sem3spi": 5.79
+    "sem3spi": 5.79,
+    "dm4": 35.0
   },
   {
     "roll": 129,
@@ -30375,7 +31252,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 13.5,
     "python23": 16.5,
-    "sem3spi": 8.04
+    "sem3spi": 8.04,
+    "dm4": 42.5
   },
   {
     "roll": 119,
@@ -30411,7 +31289,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 18.0,
     "python23": 16.0,
-    "sem3spi": 8.46
+    "sem3spi": 8.46,
+    "dm4": 40.5
   },
   {
     "roll": 262,
@@ -30447,7 +31326,8 @@ const data = [
     "toc3": 4.5,
     "fsd23": 10.0,
     "python23": 10.5,
-    "sem3spi": 6.08
+    "sem3spi": 6.08,
+    "dm4": 28.0
   },
   {
     "roll": 195,
@@ -30483,7 +31363,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 14.5,
     "python23": 17.0,
-    "sem3spi": 7.63
+    "sem3spi": 7.63,
+    "dm4": 38.5
   },
   {
     "roll": 123,
@@ -30519,7 +31400,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 19.0,
     "python23": 16.0,
-    "sem3spi": 8.21
+    "sem3spi": 8.21,
+    "dm4": 37.5
   },
   {
     "roll": 134,
@@ -30555,7 +31437,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 21.5,
     "python23": 16.0,
-    "sem3spi": 7.96
+    "sem3spi": 7.96,
+    "dm4": 39.5
   },
   {
     "roll": 226,
@@ -30591,7 +31474,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 0.0,
     "python23": 0.0,
-    "sem3spi": 6.83
+    "sem3spi": 6.83,
+    "dm4": 37.0
   },
   {
     "roll": 73,
@@ -30627,7 +31511,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 19.0,
     "python23": 17.5,
-    "sem3spi": 8.67
+    "sem3spi": 8.67,
+    "dm4": 34.0
   },
   {
     "roll": 152,
@@ -30663,7 +31548,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 18.0,
     "python23": 10.0,
-    "sem3spi": 7.79
+    "sem3spi": 7.79,
+    "dm4": 38.5
   },
   {
     "roll": 87,
@@ -30699,7 +31585,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 18.5,
     "python23": 13.0,
-    "sem3spi": 8.96
+    "sem3spi": 8.96,
+    "dm4": 41.5
   },
   {
     "roll": 17,
@@ -30735,7 +31622,8 @@ const data = [
     "toc3": 23.0,
     "fsd23": 24.0,
     "python23": 24.0,
-    "sem3spi": 9.63
+    "sem3spi": 9.63,
+    "dm4": 41.5
   },
   {
     "roll": 173,
@@ -30771,7 +31659,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 20.5,
     "python23": 14.5,
-    "sem3spi": 7.75
+    "sem3spi": 7.75,
+    "dm4": 35.0
   },
   {
     "roll": 44,
@@ -30807,7 +31696,8 @@ const data = [
     "toc3": 20.5,
     "fsd23": 16.0,
     "python23": 20.5,
-    "sem3spi": 9.04
+    "sem3spi": 9.04,
+    "dm4": 34.5
   },
   {
     "roll": 164,
@@ -30843,7 +31733,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 20.5,
     "python23": 14.5,
-    "sem3spi": 7.79
+    "sem3spi": 7.79,
+    "dm4": 32.5
   },
   {
     "roll": 256,
@@ -30879,7 +31770,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 4.5,
     "python23": 9.0,
-    "sem3spi": 6.13
+    "sem3spi": 6.13,
+    "dm4": 23.0
   },
   {
     "roll": 151,
@@ -30915,7 +31807,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 17.5,
     "python23": 12.5,
-    "sem3spi": 8.29
+    "sem3spi": 8.29,
+    "dm4": 43.5
   },
   {
     "roll": 178,
@@ -30951,7 +31844,8 @@ const data = [
     "toc3": 9.0,
     "fsd23": 11.0,
     "python23": 15.5,
-    "sem3spi": 7.83
+    "sem3spi": 7.83,
+    "dm4": 32.5
   },
   {
     "roll": 67,
@@ -30987,7 +31881,8 @@ const data = [
     "toc3": 22.5,
     "fsd23": 22.0,
     "python23": 20.5,
-    "sem3spi": 9.08
+    "sem3spi": 9.08,
+    "dm4": 44.5
   },
   {
     "roll": 122,
@@ -31023,7 +31918,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 22.0,
     "python23": 14.0,
-    "sem3spi": 8.17
+    "sem3spi": 8.17,
+    "dm4": 37.0
   },
   {
     "roll": 261,
@@ -31059,7 +31955,8 @@ const data = [
     "toc3": 11.0,
     "fsd23": 7.5,
     "python23": 11.0,
-    "sem3spi": 6.58
+    "sem3spi": 6.58,
+    "dm4": 28.5
   },
   {
     "roll": 216,
@@ -31095,7 +31992,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 11.0,
     "python23": 6.5,
-    "sem3spi": 6.71
+    "sem3spi": 6.71,
+    "dm4": 20.5
   },
   {
     "roll": 94,
@@ -31131,7 +32029,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 18.0,
     "python23": 15.5,
-    "sem3spi": 8.5
+    "sem3spi": 8.5,
+    "dm4": 39.5
   },
   {
     "roll": 120,
@@ -31167,7 +32066,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 21.5,
     "python23": 19.0,
-    "sem3spi": 8.54
+    "sem3spi": 8.54,
+    "dm4": 37.0
   },
   {
     "roll": 144,
@@ -31203,7 +32103,8 @@ const data = [
     "toc3": 24.0,
     "fsd23": 24.0,
     "python23": 20.0,
-    "sem3spi": 8.33
+    "sem3spi": 8.33,
+    "dm4": 38.5
   },
   {
     "roll": 217,
@@ -31239,7 +32140,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 11.0,
     "python23": 13.0,
-    "sem3spi": 6.26
+    "sem3spi": 6.26,
+    "dm4": 37.5
   },
   {
     "roll": 197,
@@ -31275,7 +32177,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 14.0,
     "python23": 15.5,
-    "sem3spi": 7.67
+    "sem3spi": 7.67,
+    "dm4": 38.0
   },
   {
     "roll": 142,
@@ -31311,7 +32214,8 @@ const data = [
     "toc3": 21.5,
     "fsd23": 11.0,
     "python23": 17.0,
-    "sem3spi": 8.29
+    "sem3spi": 8.29,
+    "dm4": 34.0
   },
   {
     "roll": 222,
@@ -31347,7 +32251,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 18.0,
     "python23": 23.0,
-    "sem3spi": 6.63
+    "sem3spi": 6.63,
+    "dm4": 39.5
   },
   {
     "roll": 58,
@@ -31383,7 +32288,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 19.5,
     "python23": 21.5,
-    "sem3spi": 8.92
+    "sem3spi": 8.92,
+    "dm4": 38.0
   },
   {
     "roll": 126,
@@ -31419,7 +32325,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 15.0,
     "python23": 13.5,
-    "sem3spi": 7.96
+    "sem3spi": 7.96,
+    "dm4": 38.5
   },
   {
     "roll": 90,
@@ -31455,7 +32362,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 18.0,
     "python23": 13.0,
-    "sem3spi": 8.92
+    "sem3spi": 8.92,
+    "dm4": 39.5
   },
   {
     "roll": 70,
@@ -31491,7 +32399,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 15.0,
     "python23": 17.5,
-    "sem3spi": 9.21
+    "sem3spi": 9.21,
+    "dm4": 37.5
   },
   {
     "roll": 181,
@@ -31527,7 +32436,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 18.0,
     "python23": 20.5,
-    "sem3spi": 7.92
+    "sem3spi": 7.92,
+    "dm4": 38.0
   },
   {
     "roll": 161,
@@ -31563,7 +32473,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 9.0,
     "python23": 15.5,
-    "sem3spi": 7.54
+    "sem3spi": 7.54,
+    "dm4": 32.0
   },
   {
     "roll": 75,
@@ -31599,7 +32510,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 24.0,
     "python23": 24.0,
-    "sem3spi": 8.75
+    "sem3spi": 8.75,
+    "dm4": 37.5
   },
   {
     "roll": 49,
@@ -31635,7 +32547,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 19.0,
     "python23": 14.0,
-    "sem3spi": 8.33
+    "sem3spi": 8.33,
+    "dm4": 40.0
   },
   {
     "roll": 22,
@@ -31671,7 +32584,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 17.5,
     "python23": 21.0,
-    "sem3spi": 9.29
+    "sem3spi": 9.29,
+    "dm4": 42.0
   },
   {
     "roll": 62,
@@ -31707,7 +32621,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 21.0,
     "python23": 16.5,
-    "sem3spi": 8.88
+    "sem3spi": 8.88,
+    "dm4": 39.0
   },
   {
     "roll": 268,
@@ -31743,7 +32658,8 @@ const data = [
     "toc3": 5.5,
     "fsd23": 9.0,
     "python23": 12.0,
-    "sem3spi": 5.71
+    "sem3spi": 5.71,
+    "dm4": 27.5
   },
   {
     "roll": 100,
@@ -31779,7 +32695,8 @@ const data = [
     "toc3": 10.0,
     "fsd23": 15.0,
     "python23": 15.5,
-    "sem3spi": 8.58
+    "sem3spi": 8.58,
+    "dm4": 39.0
   },
   {
     "roll": 211,
@@ -31815,7 +32732,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 19.5,
     "python23": 14.0,
-    "sem3spi": 7.54
+    "sem3spi": 7.54,
+    "dm4": 36.5
   },
   {
     "roll": 42,
@@ -31851,7 +32769,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 23.0,
     "python23": 22.0,
-    "sem3spi": 7.96
+    "sem3spi": 7.96,
+    "dm4": 37.0
   },
   {
     "roll": 57,
@@ -31887,7 +32806,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 19.0,
     "python23": 22.5,
-    "sem3spi": 8.92
+    "sem3spi": 8.92,
+    "dm4": 42.0
   },
   {
     "roll": 6,
@@ -31923,7 +32843,8 @@ const data = [
     "toc3": 21.5,
     "fsd23": 22.0,
     "python23": 23.0,
-    "sem3spi": 10.0
+    "sem3spi": 10.0,
+    "dm4": 48.5
   },
   {
     "roll": 114,
@@ -31959,7 +32880,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 15.0,
     "python23": 13.5,
-    "sem3spi": 8.25
+    "sem3spi": 8.25,
+    "dm4": 34.0
   },
   {
     "roll": 31,
@@ -31995,7 +32917,8 @@ const data = [
     "toc3": 21.5,
     "fsd23": 13.5,
     "python23": 23.5,
-    "sem3spi": 9.29
+    "sem3spi": 9.29,
+    "dm4": 45.0
   },
   {
     "roll": 55,
@@ -32031,7 +32954,8 @@ const data = [
     "toc3": 23.0,
     "fsd23": 15.5,
     "python23": 13.0,
-    "sem3spi": 9.25
+    "sem3spi": 9.25,
+    "dm4": 44.0
   },
   {
     "roll": 153,
@@ -32067,7 +32991,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 20.0,
     "python23": 13.0,
-    "sem3spi": 8.54
+    "sem3spi": 8.54,
+    "dm4": 42.0
   },
   {
     "roll": 43,
@@ -32103,7 +33028,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 24.5,
     "python23": 21.5,
-    "sem3spi": 9.21
+    "sem3spi": 9.21,
+    "dm4": 41.0
   },
   {
     "roll": 200,
@@ -32139,7 +33065,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 13.0,
     "python23": 15.5,
-    "sem3spi": 7.42
+    "sem3spi": 7.42,
+    "dm4": 29.5
   },
   {
     "roll": 9,
@@ -32175,7 +33102,8 @@ const data = [
     "toc3": 20.5,
     "fsd23": 25.0,
     "python23": 24.0,
-    "sem3spi": 9.79
+    "sem3spi": 9.79,
+    "dm4": 35.0
   },
   {
     "roll": 30,
@@ -32211,7 +33139,8 @@ const data = [
     "toc3": 22.5,
     "fsd23": 24.0,
     "python23": 23.0,
-    "sem3spi": 9.58
+    "sem3spi": 9.58,
+    "dm4": 48.5
   },
   {
     "roll": 130,
@@ -32247,7 +33176,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 23.0,
     "python23": 16.5,
-    "sem3spi": 8.21
+    "sem3spi": 8.21,
+    "dm4": 43.0
   },
   {
     "roll": 219,
@@ -32283,7 +33213,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 6.0,
     "python23": 13.0,
-    "sem3spi": 7.42
+    "sem3spi": 7.42,
+    "dm4": 24.0
   },
   {
     "roll": 5,
@@ -32319,7 +33250,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 22.0,
     "python23": 25.0,
-    "sem3spi": 9.88
+    "sem3spi": 9.88,
+    "dm4": 44.0
   },
   {
     "roll": 109,
@@ -32355,7 +33287,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 17.0,
     "python23": 12.0,
-    "sem3spi": 8.46
+    "sem3spi": 8.46,
+    "dm4": 41.0
   },
   {
     "roll": 38,
@@ -32391,7 +33324,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 14.0,
     "python23": 15.5,
-    "sem3spi": 9.25
+    "sem3spi": 9.25,
+    "dm4": 39.5
   },
   {
     "roll": 158,
@@ -32427,7 +33361,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 21.0,
     "python23": 17.0,
-    "sem3spi": 8.63
+    "sem3spi": 8.63,
+    "dm4": 39.0
   },
   {
     "roll": 25,
@@ -32463,7 +33398,8 @@ const data = [
     "toc3": 24.0,
     "fsd23": 23.0,
     "python23": 25.0,
-    "sem3spi": 9.67
+    "sem3spi": 9.67,
+    "dm4": 37.5
   },
   {
     "roll": 11,
@@ -32499,7 +33435,8 @@ const data = [
     "toc3": 23.0,
     "fsd23": 24.0,
     "python23": 22.5,
-    "sem3spi": 9.92
+    "sem3spi": 9.92,
+    "dm4": 48.5
   },
   {
     "roll": 56,
@@ -32535,7 +33472,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 24.0,
     "python23": 17.0,
-    "sem3spi": 9.38
+    "sem3spi": 9.38,
+    "dm4": 39.5
   },
   {
     "roll": 92,
@@ -32571,7 +33509,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 13.0,
     "python23": 11.5,
-    "sem3spi": 7.71
+    "sem3spi": 7.71,
+    "dm4": 38.0
   },
   {
     "roll": 69,
@@ -32607,7 +33546,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 24.5,
     "python23": 19.0,
-    "sem3spi": 8.63
+    "sem3spi": 8.63,
+    "dm4": 44.0
   },
   {
     "roll": 37,
@@ -32643,7 +33583,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 17.0,
     "python23": 16.0,
-    "sem3spi": 9.38
+    "sem3spi": 9.38,
+    "dm4": 47.0
   },
   {
     "roll": 277,
@@ -32679,7 +33620,8 @@ const data = [
     "toc3": 11.0,
     "fsd23": 7.5,
     "python23": 9.0,
-    "sem3spi": 5.92
+    "sem3spi": 5.92,
+    "dm4": 17.5
   },
   {
     "roll": 168,
@@ -32715,7 +33657,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 16.5,
     "python23": 13.5,
-    "sem3spi": 7.38
+    "sem3spi": 7.38,
+    "dm4": 33.5
   },
   {
     "roll": 235,
@@ -32751,7 +33694,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 13.0,
     "python23": 9.0,
-    "sem3spi": 6.75
+    "sem3spi": 6.75,
+    "dm4": 25.5
   },
   {
     "roll": 141,
@@ -32787,7 +33731,8 @@ const data = [
     "toc3": 13.0,
     "fsd23": 11.0,
     "python23": 18.0,
-    "sem3spi": 7.88
+    "sem3spi": 7.88,
+    "dm4": 40.0
   },
   {
     "roll": 66,
@@ -32823,7 +33768,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 24.0,
     "python23": 14.0,
-    "sem3spi": 8.71
+    "sem3spi": 8.71,
+    "dm4": 45.0
   },
   {
     "roll": 116,
@@ -32859,7 +33805,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 22.0,
     "python23": 17.5,
-    "sem3spi": 8.46
+    "sem3spi": 8.46,
+    "dm4": 37.0
   },
   {
     "roll": 210,
@@ -32895,7 +33842,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 14.0,
     "python23": 15.5,
-    "sem3spi": 7.04
+    "sem3spi": 7.04,
+    "dm4": 20.5
   },
   {
     "roll": 32,
@@ -32931,7 +33879,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 23.5,
     "python23": 18.5,
-    "sem3spi": 9.58
+    "sem3spi": 9.58,
+    "dm4": 41.5
   },
   {
     "roll": 52,
@@ -32967,7 +33916,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 23.5,
     "python23": 18.0,
-    "sem3spi": 9.0
+    "sem3spi": 9.0,
+    "dm4": 39.5
   },
   {
     "roll": 212,
@@ -33003,7 +33953,8 @@ const data = [
     "toc3": 11.0,
     "fsd23": 12.5,
     "python23": 16.0,
-    "sem3spi": 7.5
+    "sem3spi": 7.5,
+    "dm4": 38.0
   },
   {
     "roll": 131,
@@ -33039,7 +33990,8 @@ const data = [
     "toc3": 23.0,
     "fsd23": 22.0,
     "python23": 14.0,
-    "sem3spi": 8.38
+    "sem3spi": 8.38,
+    "dm4": 44.5
   },
   {
     "roll": 207,
@@ -33075,7 +34027,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 12.0,
     "python23": 18.0,
-    "sem3spi": 7.29
+    "sem3spi": 7.29,
+    "dm4": 30.5
   },
   {
     "roll": 117,
@@ -33111,7 +34064,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 19.5,
     "python23": 12.5,
-    "sem3spi": 8.38
+    "sem3spi": 8.38,
+    "dm4": 28.5
   },
   {
     "roll": 27,
@@ -33147,7 +34101,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 21.5,
     "python23": 19.0,
-    "sem3spi": 9.54
+    "sem3spi": 9.54,
+    "dm4": 47.0
   },
   {
     "roll": 107,
@@ -33183,7 +34138,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 20.5,
     "python23": 19.5,
-    "sem3spi": 8.67
+    "sem3spi": 8.67,
+    "dm4": 31.0
   },
   {
     "roll": 104,
@@ -33219,7 +34175,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 9.0,
     "python23": 20.5,
-    "sem3spi": 8.75
+    "sem3spi": 8.75,
+    "dm4": 35.5
   },
   {
     "roll": 180,
@@ -33255,7 +34212,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 23.0,
     "python23": 21.5,
-    "sem3spi": 7.46
+    "sem3spi": 7.46,
+    "dm4": 34.0
   },
   {
     "roll": 135,
@@ -33291,7 +34249,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 12.5,
     "python23": 11.5,
-    "sem3spi": 7.71
+    "sem3spi": 7.71,
+    "dm4": 34.5
   },
   {
     "roll": 218,
@@ -33327,7 +34286,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 9.5,
     "python23": 12.5,
-    "sem3spi": 7.71
+    "sem3spi": 7.71,
+    "dm4": 20.0
   },
   {
     "roll": 84,
@@ -33363,7 +34323,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 23.5,
     "python23": 18.5,
-    "sem3spi": 8.79
+    "sem3spi": 8.79,
+    "dm4": 43.5
   },
   {
     "roll": 14,
@@ -33399,7 +34360,8 @@ const data = [
     "toc3": 23.0,
     "fsd23": 22.0,
     "python23": 23.0,
-    "sem3spi": 9.5
+    "sem3spi": 9.5,
+    "dm4": 40.0
   },
   {
     "roll": 78,
@@ -33435,7 +34397,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 24.0,
     "python23": 18.5,
-    "sem3spi": 9.21
+    "sem3spi": 9.21,
+    "dm4": 43.0
   },
   {
     "roll": 18,
@@ -33471,7 +34434,8 @@ const data = [
     "toc3": 23.0,
     "fsd23": 25.0,
     "python23": 24.0,
-    "sem3spi": 9.46
+    "sem3spi": 9.46,
+    "dm4": 44.0
   },
   {
     "roll": 95,
@@ -33507,7 +34471,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 16.0,
     "python23": 12.0,
-    "sem3spi": 8.25
+    "sem3spi": 8.25,
+    "dm4": 38.5
   },
   {
     "roll": 63,
@@ -33543,7 +34508,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 20.0,
     "python23": 22.0,
-    "sem3spi": 8.63
+    "sem3spi": 8.63,
+    "dm4": 41.0
   },
   {
     "roll": 93,
@@ -33579,7 +34545,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 9.0,
     "python23": 17.5,
-    "sem3spi": 8.38
+    "sem3spi": 8.38,
+    "dm4": 38.5
   },
   {
     "roll": 305,
@@ -33614,7 +34581,8 @@ const data = [
     "coa3": 2.0,
     "toc3": 2.0,
     "fsd23": 0.0,
-    "python23": 0.0
+    "python23": 0.0,
+    "dm4": 0.0
   },
   {
     "roll": 143,
@@ -33650,7 +34618,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 13.5,
     "python23": 14.0,
-    "sem3spi": 7.83
+    "sem3spi": 7.83,
+    "dm4": 26.5
   },
   {
     "roll": 72,
@@ -33686,7 +34655,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 22.5,
     "python23": 23.0,
-    "sem3spi": 8.63
+    "sem3spi": 8.63,
+    "dm4": 35.5
   },
   {
     "roll": 265,
@@ -33722,7 +34692,8 @@ const data = [
     "toc3": 6.0,
     "fsd23": 14.0,
     "python23": 9.0,
-    "sem3spi": 6.13
+    "sem3spi": 6.13,
+    "dm4": 24.0
   },
   {
     "roll": 263,
@@ -33758,7 +34729,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 9.0,
     "python23": 12.5,
-    "sem3spi": 5.92
+    "sem3spi": 5.92,
+    "dm4": 32.0
   },
   {
     "roll": 201,
@@ -33794,7 +34766,8 @@ const data = [
     "toc3": 0.0,
     "fsd23": 0.0,
     "python23": 0.0,
-    "sem3spi": 6.63
+    "sem3spi": 6.63,
+    "dm4": 0.0
   },
   {
     "roll": 276,
@@ -33830,7 +34803,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 23.0,
     "python23": 10.5,
-    "sem3spi": 6.25
+    "sem3spi": 6.25,
+    "dm4": 24.0
   },
   {
     "roll": 21,
@@ -33866,7 +34840,8 @@ const data = [
     "toc3": 24.0,
     "fsd23": 23.5,
     "python23": 23.0,
-    "sem3spi": 9.75
+    "sem3spi": 9.75,
+    "dm4": 46.0
   },
   {
     "roll": 59,
@@ -33902,7 +34877,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 23.0,
     "python23": 20.5,
-    "sem3spi": 9.04
+    "sem3spi": 9.04,
+    "dm4": 45.5
   },
   {
     "roll": 106,
@@ -33938,7 +34914,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 23.0,
     "python23": 13.5,
-    "sem3spi": 8.79
+    "sem3spi": 8.79,
+    "dm4": 45.0
   },
   {
     "roll": 7,
@@ -33974,7 +34951,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 24.5,
     "python23": 20.5,
-    "sem3spi": 9.96
+    "sem3spi": 9.96,
+    "dm4": 25.5
   },
   {
     "roll": 236,
@@ -34010,7 +34988,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 10.5,
     "python23": 10.5,
-    "sem3spi": 6.5
+    "sem3spi": 6.5,
+    "dm4": 27.5
   },
   {
     "roll": 96,
@@ -34046,7 +35025,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 15.0,
     "python23": 13.0,
-    "sem3spi": 8.5
+    "sem3spi": 8.5,
+    "dm4": 39.0
   },
   {
     "roll": 118,
@@ -34082,7 +35062,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 22.5,
     "python23": 18.0,
-    "sem3spi": 8.21
+    "sem3spi": 8.21,
+    "dm4": 40.0
   },
   {
     "roll": 47,
@@ -34118,7 +35099,8 @@ const data = [
     "toc3": 23.0,
     "fsd23": 20.5,
     "python23": 22.0,
-    "sem3spi": 8.88
+    "sem3spi": 8.88,
+    "dm4": 38.0
   },
   {
     "roll": 124,
@@ -34154,7 +35136,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 19.5,
     "python23": 13.0,
-    "sem3spi": 8.75
+    "sem3spi": 8.75,
+    "dm4": 38.5
   },
   {
     "roll": 26,
@@ -34190,7 +35173,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 22.5,
     "python23": 15.0,
-    "sem3spi": 9.58
+    "sem3spi": 9.58,
+    "dm4": 37.5
   },
   {
     "roll": 79,
@@ -34226,7 +35210,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 20.5,
     "python23": 17.0,
-    "sem3spi": 8.67
+    "sem3spi": 8.67,
+    "dm4": 39.0
   },
   {
     "roll": 15,
@@ -34262,7 +35247,8 @@ const data = [
     "toc3": 23.0,
     "fsd23": 23.0,
     "python23": 18.0,
-    "sem3spi": 9.75
+    "sem3spi": 9.75,
+    "dm4": 47.0
   },
   {
     "roll": 50,
@@ -34298,7 +35284,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 23.5,
     "python23": 21.0,
-    "sem3spi": 9.21
+    "sem3spi": 9.21,
+    "dm4": 39.5
   },
   {
     "roll": 225,
@@ -34334,7 +35321,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 16.5,
     "python23": 15.0,
-    "sem3spi": 6.88
+    "sem3spi": 6.88,
+    "dm4": 36.0
   },
   {
     "roll": 269,
@@ -34370,7 +35358,8 @@ const data = [
     "toc3": 10.0,
     "fsd23": 6.5,
     "python23": 12.0,
-    "sem3spi": 5.83
+    "sem3spi": 5.83,
+    "dm4": 27.5
   },
   {
     "roll": 140,
@@ -34406,7 +35395,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 17.5,
     "python23": 14.0,
-    "sem3spi": 8.04
+    "sem3spi": 8.04,
+    "dm4": 38.5
   },
   {
     "roll": 264,
@@ -34442,7 +35432,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 17.0,
     "python23": 8.0,
-    "sem3spi": 6.58
+    "sem3spi": 6.58,
+    "dm4": 38.5
   },
   {
     "roll": 162,
@@ -34478,7 +35469,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 20.5,
     "python23": 12.0,
-    "sem3spi": 8.38
+    "sem3spi": 8.38,
+    "dm4": 31.5
   },
   {
     "roll": 3,
@@ -34514,7 +35506,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 20.5,
     "python23": 25.0,
-    "sem3spi": 10.0
+    "sem3spi": 10.0,
+    "dm4": 50.0
   },
   {
     "roll": 239,
@@ -34550,7 +35543,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 16.5,
     "python23": 9.0,
-    "sem3spi": 6.46
+    "sem3spi": 6.46,
+    "dm4": 26.5
   },
   {
     "roll": 132,
@@ -34586,7 +35580,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 19.0,
     "python23": 13.0,
-    "sem3spi": 7.88
+    "sem3spi": 7.88,
+    "dm4": 33.5
   },
   {
     "roll": 167,
@@ -34622,7 +35617,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 15.5,
     "python23": 10.0,
-    "sem3spi": 7.71
+    "sem3spi": 7.71,
+    "dm4": 36.5
   },
   {
     "roll": 2,
@@ -34658,7 +35654,8 @@ const data = [
     "toc3": 23.0,
     "fsd23": 24.0,
     "python23": 24.0,
-    "sem3spi": 9.75
+    "sem3spi": 9.75,
+    "dm4": 48.5
   },
   {
     "roll": 39,
@@ -34694,7 +35691,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 23.0,
     "python23": 18.5,
-    "sem3spi": 9.33
+    "sem3spi": 9.33,
+    "dm4": 41.5
   },
   {
     "roll": 81,
@@ -34730,7 +35728,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 18.0,
     "python23": 17.0,
-    "sem3spi": 8.88
+    "sem3spi": 8.88,
+    "dm4": 41.0
   },
   {
     "roll": 88,
@@ -34766,7 +35765,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 18.0,
     "python23": 15.0,
-    "sem3spi": 8.58
+    "sem3spi": 8.58,
+    "dm4": 37.0
   },
   {
     "roll": 115,
@@ -34802,7 +35802,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 17.5,
     "python23": 15.0,
-    "sem3spi": 8.33
+    "sem3spi": 8.33,
+    "dm4": 42.5
   },
   {
     "roll": 174,
@@ -34838,7 +35839,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 13.5,
     "python23": 13.0,
-    "sem3spi": 7.92
+    "sem3spi": 7.92,
+    "dm4": 32.0
   },
   {
     "roll": 1,
@@ -34874,7 +35876,8 @@ const data = [
     "toc3": 25.0,
     "fsd23": 25.0,
     "python23": 25.0,
-    "sem3spi": 10.0
+    "sem3spi": 10.0,
+    "dm4": 50.0
   },
   {
     "roll": 196,
@@ -34910,7 +35913,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 15.0,
     "python23": 18.5,
-    "sem3spi": 7.21
+    "sem3spi": 7.21,
+    "dm4": 40.0
   },
   {
     "roll": 53,
@@ -34946,7 +35950,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 17.0,
     "python23": 18.0,
-    "sem3spi": 9.04
+    "sem3spi": 9.04,
+    "dm4": 46.0
   },
   {
     "roll": 28,
@@ -34982,7 +35987,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 21.0,
     "python23": 23.5,
-    "sem3spi": 9.58
+    "sem3spi": 9.58,
+    "dm4": 40.0
   },
   {
     "roll": 19,
@@ -35018,7 +36024,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 22.5,
     "python23": 21.0,
-    "sem3spi": 9.58
+    "sem3spi": 9.58,
+    "dm4": 37.5
   },
   {
     "roll": 48,
@@ -35054,7 +36061,8 @@ const data = [
     "toc3": 24.0,
     "fsd23": 23.5,
     "python23": 18.5,
-    "sem3spi": 9.08
+    "sem3spi": 9.08,
+    "dm4": 44.5
   },
   {
     "roll": 228,
@@ -35090,7 +36098,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 15.0,
     "python23": 14.0,
-    "sem3spi": 7.08
+    "sem3spi": 7.08,
+    "dm4": 33.5
   },
   {
     "roll": 213,
@@ -35126,7 +36135,8 @@ const data = [
     "toc3": 8.0,
     "fsd23": 11.5,
     "python23": 6.0,
-    "sem3spi": 7.08
+    "sem3spi": 7.08,
+    "dm4": 28.0
   },
   {
     "roll": 103,
@@ -35162,7 +36172,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 19.5,
     "python23": 16.0,
-    "sem3spi": 8.58
+    "sem3spi": 8.58,
+    "dm4": 32.0
   },
   {
     "roll": 209,
@@ -35198,7 +36209,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 19.0,
     "python23": 16.0,
-    "sem3spi": 7.29
+    "sem3spi": 7.29,
+    "dm4": 34.5
   },
   {
     "roll": 16,
@@ -35234,7 +36246,8 @@ const data = [
     "toc3": 23.0,
     "fsd23": 24.0,
     "python23": 24.5,
-    "sem3spi": 9.54
+    "sem3spi": 9.54,
+    "dm4": 50.0
   },
   {
     "roll": 191,
@@ -35270,7 +36283,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 16.5,
     "python23": 16.0,
-    "sem3spi": 7.67
+    "sem3spi": 7.67,
+    "dm4": 38.5
   },
   {
     "roll": 177,
@@ -35306,7 +36320,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 21.5,
     "python23": 16.0,
-    "sem3spi": 7.79
+    "sem3spi": 7.79,
+    "dm4": 41.0
   },
   {
     "roll": 71,
@@ -35342,7 +36357,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 16.5,
     "python23": 22.0,
-    "sem3spi": 8.42
+    "sem3spi": 8.42,
+    "dm4": 39.5
   },
   {
     "roll": 46,
@@ -35378,7 +36394,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 18.0,
     "python23": 15.0,
-    "sem3spi": 9.42
+    "sem3spi": 9.42,
+    "dm4": 37.5
   },
   {
     "roll": 291,
@@ -35414,7 +36431,8 @@ const data = [
     "toc3": 0.0,
     "fsd23": 0.0,
     "python23": 2.0,
-    "sem3spi": 5.19
+    "sem3spi": 5.19,
+    "dm4": 0.0
   },
   {
     "roll": 182,
@@ -35450,7 +36468,8 @@ const data = [
     "toc3": 10.0,
     "fsd23": 18.0,
     "python23": 17.0,
-    "sem3spi": 8.04
+    "sem3spi": 8.04,
+    "dm4": 40.0
   },
   {
     "roll": 51,
@@ -35486,7 +36505,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 22.5,
     "python23": 25.0,
-    "sem3spi": 9.29
+    "sem3spi": 9.29,
+    "dm4": 46.0
   },
   {
     "roll": 204,
@@ -35522,7 +36542,8 @@ const data = [
     "toc3": 9.0,
     "fsd23": 16.0,
     "python23": 17.0,
-    "sem3spi": 7.5
+    "sem3spi": 7.5,
+    "dm4": 28.0
   },
   {
     "roll": 241,
@@ -35558,7 +36579,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 15.0,
     "python23": 14.0,
-    "sem3spi": 5.75
+    "sem3spi": 5.75,
+    "dm4": 34.5
   },
   {
     "roll": 83,
@@ -35594,7 +36616,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 21.5,
     "python23": 19.0,
-    "sem3spi": 8.83
+    "sem3spi": 8.83,
+    "dm4": 42.5
   },
   {
     "roll": 33,
@@ -35630,7 +36653,8 @@ const data = [
     "toc3": 24.0,
     "fsd23": 23.5,
     "python23": 24.0,
-    "sem3spi": 9.29
+    "sem3spi": 9.29,
+    "dm4": 39.0
   },
   {
     "roll": 136,
@@ -35666,7 +36690,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 24.0,
     "python23": 21.0,
-    "sem3spi": 7.96
+    "sem3spi": 7.96,
+    "dm4": 45.0
   },
   {
     "roll": 183,
@@ -35702,7 +36727,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 24.0,
     "python23": 18.0,
-    "sem3spi": 7.21
+    "sem3spi": 7.21,
+    "dm4": 38.0
   },
   {
     "roll": 128,
@@ -35738,7 +36764,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 23.0,
     "python23": 18.0,
-    "sem3spi": 7.96
+    "sem3spi": 7.96,
+    "dm4": 35.5
   },
   {
     "roll": 82,
@@ -35774,7 +36801,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 21.5,
     "python23": 21.0,
-    "sem3spi": 8.46
+    "sem3spi": 8.46,
+    "dm4": 39.0
   },
   {
     "roll": 160,
@@ -35810,7 +36838,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 14.5,
     "python23": 14.0,
-    "sem3spi": 7.79
+    "sem3spi": 7.79,
+    "dm4": 40.5
   },
   {
     "roll": 60,
@@ -35846,7 +36875,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 22.5,
     "python23": 25.0,
-    "sem3spi": 8.42
+    "sem3spi": 8.42,
+    "dm4": 43.0
   },
   {
     "roll": 284,
@@ -35882,7 +36912,8 @@ const data = [
     "toc3": 0.0,
     "fsd23": 0.0,
     "python23": 0.0,
-    "sem3spi": 5.29
+    "sem3spi": 5.29,
+    "dm4": 25.5
   },
   {
     "roll": 271,
@@ -35918,7 +36949,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 20.5,
     "python23": 17.0,
-    "sem3spi": 6.42
+    "sem3spi": 6.42,
+    "dm4": 27.0
   },
   {
     "roll": 36,
@@ -35954,7 +36986,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 25.0,
     "python23": 24.0,
-    "sem3spi": 9.21
+    "sem3spi": 9.21,
+    "dm4": 46.0
   },
   {
     "roll": 188,
@@ -35990,7 +37023,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 17.0,
     "python23": 14.0,
-    "sem3spi": 7.42
+    "sem3spi": 7.42,
+    "dm4": 37.0
   },
   {
     "roll": 155,
@@ -36026,7 +37060,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 21.0,
     "python23": 15.0,
-    "sem3spi": 7.92
+    "sem3spi": 7.92,
+    "dm4": 41.0
   },
   {
     "roll": 288,
@@ -36062,7 +37097,8 @@ const data = [
     "toc3": 13.0,
     "fsd23": 11.0,
     "python23": 10.0,
-    "sem3spi": 5.58
+    "sem3spi": 5.58,
+    "dm4": 30.0
   },
   {
     "roll": 157,
@@ -36098,7 +37134,8 @@ const data = [
     "toc3": 22.5,
     "fsd23": 19.0,
     "python23": 17.0,
-    "sem3spi": 8.21
+    "sem3spi": 8.21,
+    "dm4": 35.0
   },
   {
     "roll": 146,
@@ -36134,7 +37171,8 @@ const data = [
     "toc3": 23.0,
     "fsd23": 19.0,
     "python23": 18.5,
-    "sem3spi": 8.21
+    "sem3spi": 8.21,
+    "dm4": 40.5
   },
   {
     "roll": 281,
@@ -36170,7 +37208,8 @@ const data = [
     "toc3": 12.0,
     "fsd23": 15.0,
     "python23": 12.0,
-    "sem3spi": 5.63
+    "sem3spi": 5.63,
+    "dm4": 34.5
   },
   {
     "roll": 165,
@@ -36206,7 +37245,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 19.0,
     "python23": 10.0,
-    "sem3spi": 7.71
+    "sem3spi": 7.71,
+    "dm4": 37.0
   },
   {
     "roll": 150,
@@ -36242,7 +37282,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 21.5,
     "python23": 10.0,
-    "sem3spi": 8.33
+    "sem3spi": 8.33,
+    "dm4": 37.0
   },
   {
     "roll": 8,
@@ -36278,7 +37319,8 @@ const data = [
     "toc3": 23.0,
     "fsd23": 24.5,
     "python23": 23.0,
-    "sem3spi": 9.92
+    "sem3spi": 9.92,
+    "dm4": 46.0
   },
   {
     "roll": 23,
@@ -36314,7 +37356,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 24.5,
     "python23": 21.0,
-    "sem3spi": 9.58
+    "sem3spi": 9.58,
+    "dm4": 39.0
   },
   {
     "roll": 76,
@@ -36350,7 +37393,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 20.0,
     "python23": 18.0,
-    "sem3spi": 8.88
+    "sem3spi": 8.88,
+    "dm4": 45.0
   },
   {
     "roll": 266,
@@ -36386,7 +37430,8 @@ const data = [
     "toc3": 8.0,
     "fsd23": 10.5,
     "python23": 9.0,
-    "sem3spi": 4.67
+    "sem3spi": 4.67,
+    "dm4": 18.5
   },
   {
     "roll": 91,
@@ -36422,7 +37467,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 22.0,
     "python23": 17.0,
-    "sem3spi": 8.46
+    "sem3spi": 8.46,
+    "dm4": 41.0
   },
   {
     "roll": 220,
@@ -36458,7 +37504,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 21.0,
     "python23": 16.0,
-    "sem3spi": 7.25
+    "sem3spi": 7.25,
+    "dm4": 23.0
   },
   {
     "roll": 20,
@@ -36494,7 +37541,8 @@ const data = [
     "toc3": 24.0,
     "fsd23": 23.5,
     "python23": 23.0,
-    "sem3spi": 9.29
+    "sem3spi": 9.29,
+    "dm4": 46.0
   },
   {
     "roll": 111,
@@ -36530,7 +37578,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 21.0,
     "python23": 14.0,
-    "sem3spi": 8.46
+    "sem3spi": 8.46,
+    "dm4": 39.0
   },
   {
     "roll": 74,
@@ -36566,7 +37615,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 24.0,
     "python23": 17.0,
-    "sem3spi": 8.83
+    "sem3spi": 8.83,
+    "dm4": 37.0
   },
   {
     "roll": 253,
@@ -36602,7 +37652,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 14.0,
     "python23": 17.0,
-    "sem3spi": 6.21
+    "sem3spi": 6.21,
+    "dm4": 28.0
   },
   {
     "roll": 41,
@@ -36638,7 +37689,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 17.0,
     "python23": 19.0,
-    "sem3spi": 9.46
+    "sem3spi": 9.46,
+    "dm4": 46.5
   },
   {
     "roll": 65,
@@ -36674,7 +37726,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 20.5,
     "python23": 19.0,
-    "sem3spi": 9.04
+    "sem3spi": 9.04,
+    "dm4": 42.0
   },
   {
     "roll": 86,
@@ -36710,7 +37763,8 @@ const data = [
     "toc3": 12.0,
     "fsd23": 22.0,
     "python23": 18.0,
-    "sem3spi": 8.79
+    "sem3spi": 8.79,
+    "dm4": 27.5
   },
   {
     "roll": 208,
@@ -36746,7 +37800,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 20.5,
     "python23": 15.0,
-    "sem3spi": 7.46
+    "sem3spi": 7.46,
+    "dm4": 38.0
   },
   {
     "roll": 154,
@@ -36782,7 +37837,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 17.0,
     "python23": 12.0,
-    "sem3spi": 7.58
+    "sem3spi": 7.58,
+    "dm4": 39.5
   },
   {
     "roll": 64,
@@ -36818,7 +37874,8 @@ const data = [
     "toc3": 23.0,
     "fsd23": 21.0,
     "python23": 16.0,
-    "sem3spi": 8.96
+    "sem3spi": 8.96,
+    "dm4": 43.0
   },
   {
     "roll": 13,
@@ -36854,7 +37911,8 @@ const data = [
     "toc3": 23.0,
     "fsd23": 22.5,
     "python23": 22.0,
-    "sem3spi": 9.71
+    "sem3spi": 9.71,
+    "dm4": 43.0
   },
   {
     "roll": 254,
@@ -36890,7 +37948,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 11.0,
     "python23": 8.0,
-    "sem3spi": 6.54
+    "sem3spi": 6.54,
+    "dm4": 35.5
   },
   {
     "roll": 184,
@@ -36926,7 +37985,8 @@ const data = [
     "toc3": 13.0,
     "fsd23": 20.0,
     "python23": 16.0,
-    "sem3spi": 7.71
+    "sem3spi": 7.71,
+    "dm4": 36.5
   },
   {
     "roll": 12,
@@ -36962,7 +38022,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 21.0,
     "python23": 20.0,
-    "sem3spi": 9.83
+    "sem3spi": 9.83,
+    "dm4": 43.5
   },
   {
     "roll": 169,
@@ -36998,7 +38059,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 19.0,
     "python23": 11.0,
-    "sem3spi": 7.79
+    "sem3spi": 7.79,
+    "dm4": 29.5
   },
   {
     "roll": 215,
@@ -37034,7 +38096,8 @@ const data = [
     "toc3": 22.0,
     "fsd23": 15.0,
     "python23": 13.0,
-    "sem3spi": 7.0
+    "sem3spi": 7.0,
+    "dm4": 29.0
   },
   {
     "roll": 137,
@@ -37070,7 +38133,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 19.5,
     "python23": 10.5,
-    "sem3spi": 8.29
+    "sem3spi": 8.29,
+    "dm4": 41.5
   },
   {
     "roll": 229,
@@ -37106,7 +38170,8 @@ const data = [
     "toc3": 12.5,
     "fsd23": 17.0,
     "python23": 7.0,
-    "sem3spi": 6.42
+    "sem3spi": 6.42,
+    "dm4": 32.0
   },
   {
     "roll": 227,
@@ -37142,7 +38207,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 9.0,
     "python23": 9.0,
-    "sem3spi": 7.13
+    "sem3spi": 7.13,
+    "dm4": 25.5
   },
   {
     "roll": 54,
@@ -37178,7 +38244,8 @@ const data = [
     "toc3": 0.0,
     "fsd23": 0.0,
     "python23": 0.0,
-    "sem3spi": 8.96
+    "sem3spi": 8.96,
+    "dm4": 44.0
   },
   {
     "roll": 240,
@@ -37214,7 +38281,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 13.0,
     "python23": 10.5,
-    "sem3spi": 6.63
+    "sem3spi": 6.63,
+    "dm4": 33.5
   },
   {
     "roll": 238,
@@ -37250,7 +38318,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 21.0,
     "python23": 12.0,
-    "sem3spi": 6.88
+    "sem3spi": 6.88,
+    "dm4": 43.5
   },
   {
     "roll": 105,
@@ -37286,7 +38355,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 24.0,
     "python23": 15.5,
-    "sem3spi": 8.83
+    "sem3spi": 8.83,
+    "dm4": 45.0
   },
   {
     "roll": 68,
@@ -37322,7 +38392,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 16.0,
     "python23": 10.5,
-    "sem3spi": 8.29
+    "sem3spi": 8.29,
+    "dm4": 38.0
   },
   {
     "roll": 259,
@@ -37358,7 +38429,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 17.5,
     "python23": 9.5,
-    "sem3spi": 6.08
+    "sem3spi": 6.08,
+    "dm4": 38.5
   },
   {
     "roll": 113,
@@ -37394,7 +38466,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 17.0,
     "python23": 14.5,
-    "sem3spi": 7.96
+    "sem3spi": 7.96,
+    "dm4": 44.5
   },
   {
     "roll": 192,
@@ -37430,7 +38503,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 14.0,
     "python23": 18.0,
-    "sem3spi": 7.96
+    "sem3spi": 7.96,
+    "dm4": 43.0
   },
   {
     "roll": 24,
@@ -37466,7 +38540,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 22.5,
     "python23": 25.0,
-    "sem3spi": 9.21
+    "sem3spi": 9.21,
+    "dm4": 40.5
   },
   {
     "roll": 299,
@@ -37502,7 +38577,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 20.0,
     "python23": 11.5,
-    "sem3spi": 5.33
+    "sem3spi": 5.33,
+    "dm4": 37.5
   },
   {
     "roll": 10,
@@ -37538,7 +38614,8 @@ const data = [
     "toc3": 22.5,
     "fsd23": 24.5,
     "python23": 24.5,
-    "sem3spi": 9.71
+    "sem3spi": 9.71,
+    "dm4": 45.5
   },
   {
     "roll": 34,
@@ -37574,7 +38651,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 23.5,
     "python23": 23.0,
-    "sem3spi": 9.38
+    "sem3spi": 9.38,
+    "dm4": 43.5
   },
   {
     "roll": 4,
@@ -37610,7 +38688,8 @@ const data = [
     "toc3": 24.0,
     "fsd23": 22.0,
     "python23": 25.0,
-    "sem3spi": 9.88
+    "sem3spi": 9.88,
+    "dm4": 43.0
   },
   {
     "roll": 108,
@@ -37646,7 +38725,8 @@ const data = [
     "toc3": 21.5,
     "fsd23": 22.5,
     "python23": 17.0,
-    "sem3spi": 8.17
+    "sem3spi": 8.17,
+    "dm4": 47.5
   },
   {
     "roll": 185,
@@ -37682,7 +38762,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 20.5,
     "python23": 13.0,
-    "sem3spi": 7.46
+    "sem3spi": 7.46,
+    "dm4": 40.0
   },
   {
     "roll": 187,
@@ -37718,7 +38799,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 16.0,
     "python23": 15.5,
-    "sem3spi": 8.04
+    "sem3spi": 8.04,
+    "dm4": 34.5
   },
   {
     "roll": 252,
@@ -37754,7 +38836,8 @@ const data = [
     "toc3": 0.0,
     "fsd23": 0.0,
     "python23": 0.0,
-    "sem3spi": 6.67
+    "sem3spi": 6.67,
+    "dm4": 0.0
   },
   {
     "roll": 202,
@@ -37790,7 +38873,8 @@ const data = [
     "toc3": 13.0,
     "fsd23": 21.5,
     "python23": 16.0,
-    "sem3spi": 7.25
+    "sem3spi": 7.25,
+    "dm4": 37.5
   },
   {
     "roll": 193,
@@ -37826,7 +38910,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 14.0,
     "python23": 14.5,
-    "sem3spi": 8.25
+    "sem3spi": 8.25,
+    "dm4": 25.5
   },
   {
     "roll": 149,
@@ -37862,7 +38947,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 16.0,
     "python23": 11.0,
-    "sem3spi": 8.13
+    "sem3spi": 8.13,
+    "dm4": 32.0
   },
   {
     "roll": 138,
@@ -37898,7 +38984,8 @@ const data = [
     "toc3": 10.5,
     "fsd23": 10.0,
     "python23": 15.0,
-    "sem3spi": 8.21
+    "sem3spi": 8.21,
+    "dm4": 41.0
   },
   {
     "roll": 35,
@@ -37934,7 +39021,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 22.0,
     "python23": 14.0,
-    "sem3spi": 9.46
+    "sem3spi": 9.46,
+    "dm4": 43.0
   },
   {
     "roll": 221,
@@ -37970,7 +39058,8 @@ const data = [
     "toc3": 22.5,
     "fsd23": 8.5,
     "python23": 11.5,
-    "sem3spi": 7.0
+    "sem3spi": 7.0,
+    "dm4": 34.5
   },
   {
     "roll": 40,
@@ -38006,7 +39095,8 @@ const data = [
     "toc3": 23.0,
     "fsd23": 23.5,
     "python23": 22.5,
-    "sem3spi": 9.13
+    "sem3spi": 9.13,
+    "dm4": 42.0
   },
   {
     "roll": 300,
@@ -38042,7 +39132,8 @@ const data = [
     "toc3": 12.5,
     "fsd23": 5.0,
     "python23": 8.0,
-    "sem3spi": 7.55
+    "sem3spi": 7.55,
+    "dm4": 18.0
   },
   {
     "roll": 29,
@@ -38078,7 +39169,8 @@ const data = [
     "toc3": 0.0,
     "fsd23": 0.0,
     "python23": 0.0,
-    "sem3spi": 9.29
+    "sem3spi": 9.29,
+    "dm4": 31.5
   },
   {
     "roll": 61,
@@ -38114,7 +39206,8 @@ const data = [
     "toc3": 20.5,
     "fsd23": 23.0,
     "python23": 20.5,
-    "sem3spi": 9.33
+    "sem3spi": 9.33,
+    "dm4": 43.0
   },
   {
     "roll": 212,
@@ -38145,7 +39238,8 @@ const data = [
     "toc2": 0.0,
     "fsd22": 0.0,
     "python22": 0.0,
-    "sem3spi": 6.19
+    "sem3spi": 6.19,
+    "dm4": 0.0
   },
   {
     "roll": 112,
@@ -38181,7 +39275,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 14.5,
     "python23": 8.5,
-    "sem3spi": 8.0
+    "sem3spi": 8.0,
+    "dm4": 31.5
   },
   {
     "roll": 194,
@@ -38217,7 +39312,8 @@ const data = [
     "toc3": 9.0,
     "fsd23": 12.5,
     "python23": 12.0,
-    "sem3spi": 7.0
+    "sem3spi": 7.0,
+    "dm4": 33.0
   },
   {
     "roll": 250,
@@ -38253,7 +39349,8 @@ const data = [
     "toc3": 10.0,
     "fsd23": 9.0,
     "python23": 12.0,
-    "sem3spi": 6.71
+    "sem3spi": 6.71,
+    "dm4": 29.0
   },
   {
     "roll": 171,
@@ -38289,7 +39386,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 18.0,
     "python23": 9.0,
-    "sem3spi": 7.83
+    "sem3spi": 7.83,
+    "dm4": 23.0
   },
   {
     "roll": 102,
@@ -38325,7 +39423,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 22.5,
     "python23": 15.0,
-    "sem3spi": 8.71
+    "sem3spi": 8.71,
+    "dm4": 36.5
   },
   {
     "roll": 156,
@@ -38361,7 +39460,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 15.5,
     "python23": 10.5,
-    "sem3spi": 7.5
+    "sem3spi": 7.5,
+    "dm4": 30.0
   },
   {
     "roll": 163,
@@ -38397,7 +39497,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 19.5,
     "python23": 15.0,
-    "sem3spi": 7.83
+    "sem3spi": 7.83,
+    "dm4": 43.0
   },
   {
     "roll": 179,
@@ -38433,7 +39534,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 23.0,
     "python23": 20.0,
-    "sem3spi": 8.33
+    "sem3spi": 8.33,
+    "dm4": 31.5
   },
   {
     "roll": 260,
@@ -38469,7 +39571,8 @@ const data = [
     "toc3": 12.0,
     "fsd23": 11.0,
     "python23": 9.0,
-    "sem3spi": 6.46
+    "sem3spi": 6.46,
+    "dm4": 24.5
   },
   {
     "roll": 186,
@@ -38505,7 +39608,8 @@ const data = [
     "toc3": 18.5,
     "fsd23": 18.5,
     "python23": 14.0,
-    "sem3spi": 7.96
+    "sem3spi": 7.96,
+    "dm4": 37.0
   },
   {
     "roll": 139,
@@ -38541,7 +39645,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 22.5,
     "python23": 21.5,
-    "sem3spi": 8.25
+    "sem3spi": 8.25,
+    "dm4": 39.0
   },
   {
     "roll": 77,
@@ -38577,7 +39682,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 18.0,
     "python23": 14.0,
-    "sem3spi": 9.04
+    "sem3spi": 9.04,
+    "dm4": 43.5
   },
   {
     "roll": 89,
@@ -38613,7 +39719,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 15.5,
     "python23": 12.0,
-    "sem3spi": 8.5
+    "sem3spi": 8.5,
+    "dm4": 38.0
   },
   {
     "roll": 85,
@@ -38649,7 +39756,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 23.5,
     "python23": 14.5,
-    "sem3spi": 8.71
+    "sem3spi": 8.71,
+    "dm4": 40.0
   },
   {
     "roll": 223,
@@ -38685,7 +39793,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 17.5,
     "python23": 12.0,
-    "sem3spi": 7.67
+    "sem3spi": 7.67,
+    "dm4": 40.0
   },
   {
     "roll": 98,
@@ -38721,7 +39830,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 20.0,
     "python23": 17.0,
-    "sem3spi": 9.42
+    "sem3spi": 9.42,
+    "dm4": 33.0
   },
   {
     "roll": 190,
@@ -38757,7 +39867,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 25.0,
     "python23": 20.0,
-    "sem3spi": 8.58
+    "sem3spi": 8.58,
+    "dm4": 37.0
   },
   {
     "roll": 199,
@@ -38793,7 +39904,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 24.5,
     "python23": 18.0,
-    "sem3spi": 8.42
+    "sem3spi": 8.42,
+    "dm4": 45.0
   },
   {
     "roll": 292,
@@ -38829,7 +39941,8 @@ const data = [
     "toc3": 11.0,
     "fsd23": 12.0,
     "python23": 8.0,
-    "sem3spi": 7.08
+    "sem3spi": 7.08,
+    "dm4": 32.0
   },
   {
     "roll": 247,
@@ -38865,7 +39978,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 22.5,
     "python23": 16.0,
-    "sem3spi": 8.0
+    "sem3spi": 8.0,
+    "dm4": 36.0
   },
   {
     "roll": 274,
@@ -38901,7 +40015,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 22.5,
     "python23": 10.0,
-    "sem3spi": 7.67
+    "sem3spi": 7.67,
+    "dm4": 32.5
   },
   {
     "roll": 272,
@@ -38937,7 +40052,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 18.5,
     "python23": 17.0,
-    "sem3spi": 7.54
+    "sem3spi": 7.54,
+    "dm4": 29.5
   },
   {
     "roll": 232,
@@ -38973,7 +40089,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 24.0,
     "python23": 15.0,
-    "sem3spi": 8.04
+    "sem3spi": 8.04,
+    "dm4": 37.0
   },
   {
     "roll": 249,
@@ -39009,7 +40126,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 17.0,
     "python23": 17.0,
-    "sem3spi": 8.08
+    "sem3spi": 8.08,
+    "dm4": 24.5
   },
   {
     "roll": 280,
@@ -39045,7 +40163,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 15.5,
     "python23": 16.0,
-    "sem3spi": 7.79
+    "sem3spi": 7.79,
+    "dm4": 39.5
   },
   {
     "roll": 290,
@@ -39081,7 +40200,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 11.5,
     "python23": 13.0,
-    "sem3spi": 7.04
+    "sem3spi": 7.04,
+    "dm4": 29.5
   },
   {
     "roll": 110,
@@ -39117,7 +40237,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 25.0,
     "python23": 21.5,
-    "sem3spi": 9.46
+    "sem3spi": 9.46,
+    "dm4": 39.0
   },
   {
     "roll": 255,
@@ -39153,7 +40274,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 17.5,
     "python23": 12.0,
-    "sem3spi": 8.0
+    "sem3spi": 8.0,
+    "dm4": 40.5
   },
   {
     "roll": 243,
@@ -39189,7 +40311,8 @@ const data = [
     "toc3": 9.0,
     "fsd23": 19.0,
     "python23": 15.0,
-    "sem3spi": 7.75
+    "sem3spi": 7.75,
+    "dm4": 25.0
   },
   {
     "roll": 214,
@@ -39225,7 +40348,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 22.0,
     "python23": 21.0,
-    "sem3spi": 8.04
+    "sem3spi": 8.04,
+    "dm4": 39.0
   },
   {
     "roll": 273,
@@ -39261,7 +40385,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 16.5,
     "python23": 14.0,
-    "sem3spi": 7.67
+    "sem3spi": 7.67,
+    "dm4": 32.5
   },
   {
     "roll": 99,
@@ -39297,7 +40422,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 22.5,
     "python23": 22.5,
-    "sem3spi": 9.58
+    "sem3spi": 9.58,
+    "dm4": 45.0
   },
   {
     "roll": 231,
@@ -39333,7 +40459,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 20.5,
     "python23": 18.0,
-    "sem3spi": 7.75
+    "sem3spi": 7.75,
+    "dm4": 33.5
   },
   {
     "roll": 248,
@@ -39369,7 +40496,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 13.0,
     "python23": 20.0,
-    "sem3spi": 7.88
+    "sem3spi": 7.88,
+    "dm4": 29.5
   },
   {
     "roll": 224,
@@ -39405,7 +40533,8 @@ const data = [
     "toc3": 21.0,
     "fsd23": 22.5,
     "python23": 18.0,
-    "sem3spi": 8.13
+    "sem3spi": 8.13,
+    "dm4": 34.5
   },
   {
     "roll": 198,
@@ -39441,7 +40570,8 @@ const data = [
     "toc3": 16.5,
     "fsd23": 21.5,
     "python23": 19.0,
-    "sem3spi": 8.88
+    "sem3spi": 8.88,
+    "dm4": 39.5
   },
   {
     "roll": 267,
@@ -39477,7 +40607,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 11.0,
     "python23": 13.0,
-    "sem3spi": 7.33
+    "sem3spi": 7.33,
+    "dm4": 34.5
   },
   {
     "roll": 166,
@@ -39513,7 +40644,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 23.0,
     "python23": 10.0,
-    "sem3spi": 8.67
+    "sem3spi": 8.67,
+    "dm4": 33.5
   },
   {
     "roll": 148,
@@ -39549,7 +40681,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 19.0,
     "python23": 18.0,
-    "sem3spi": 8.71
+    "sem3spi": 8.71,
+    "dm4": 36.0
   },
   {
     "roll": 244,
@@ -39585,7 +40718,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 20.0,
     "python23": 14.0,
-    "sem3spi": 7.79
+    "sem3spi": 7.79,
+    "dm4": 37.5
   },
   {
     "roll": 283,
@@ -39621,7 +40755,8 @@ const data = [
     "toc3": 12.5,
     "fsd23": 18.5,
     "python23": 13.0,
-    "sem3spi": 7.08
+    "sem3spi": 7.08,
+    "dm4": 35.0
   },
   {
     "roll": 297,
@@ -39657,7 +40792,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 23.0,
     "python23": 10.0,
-    "sem3spi": 6.54
+    "sem3spi": 6.54,
+    "dm4": 36.0
   },
   {
     "roll": 147,
@@ -39693,7 +40829,8 @@ const data = [
     "toc3": 20.5,
     "fsd23": 23.5,
     "python23": 18.0,
-    "sem3spi": 9.33
+    "sem3spi": 9.33,
+    "dm4": 36.0
   },
   {
     "roll": 233,
@@ -39729,7 +40866,8 @@ const data = [
     "toc3": 13.0,
     "fsd23": 20.5,
     "python23": 17.0,
-    "sem3spi": 8.33
+    "sem3spi": 8.33,
+    "dm4": 41.0
   },
   {
     "roll": 287,
@@ -39765,7 +40903,8 @@ const data = [
     "toc3": 10.0,
     "fsd23": 13.5,
     "python23": 11.5,
-    "sem3spi": 7.21
+    "sem3spi": 7.21,
+    "dm4": 13.5
   },
   {
     "roll": 285,
@@ -39801,7 +40940,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 14.0,
     "python23": 11.5,
-    "sem3spi": 7.17
+    "sem3spi": 7.17,
+    "dm4": 29.0
   },
   {
     "roll": 279,
@@ -39837,7 +40977,8 @@ const data = [
     "toc3": 14.0,
     "fsd23": 20.5,
     "python23": 14.5,
-    "sem3spi": 7.13
+    "sem3spi": 7.13,
+    "dm4": 30.0
   },
   {
     "roll": 246,
@@ -39873,7 +41014,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 21.0,
     "python23": 12.0,
-    "sem3spi": 7.67
+    "sem3spi": 7.67,
+    "dm4": 38.0
   },
   {
     "roll": 275,
@@ -39909,7 +41051,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 12.0,
     "python23": 12.0,
-    "sem3spi": 7.04
+    "sem3spi": 7.04,
+    "dm4": 32.0
   },
   {
     "roll": 298,
@@ -39945,7 +41088,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 16.0,
     "python23": 7.0,
-    "sem3spi": 6.08
+    "sem3spi": 6.08,
+    "dm4": 37.0
   },
   {
     "roll": 302,
@@ -39980,7 +41124,8 @@ const data = [
     "coa3": 14.5,
     "toc3": 4.0,
     "fsd23": 7.0,
-    "python23": 7.0
+    "python23": 7.0,
+    "dm4": 14.0
   },
   {
     "roll": 251,
@@ -40016,7 +41161,8 @@ const data = [
     "toc3": 20.5,
     "fsd23": 20.0,
     "python23": 15.0,
-    "sem3spi": 7.71
+    "sem3spi": 7.71,
+    "dm4": 32.0
   },
   {
     "roll": 258,
@@ -40052,7 +41198,8 @@ const data = [
     "toc3": 19.0,
     "fsd23": 14.5,
     "python23": 10.0,
-    "sem3spi": 7.46
+    "sem3spi": 7.46,
+    "dm4": 31.5
   },
   {
     "roll": 304,
@@ -40088,7 +41235,8 @@ const data = [
     "toc3": 0.0,
     "fsd23": 0.0,
     "python23": 0.0,
-    "sem3spi": 7.81
+    "sem3spi": 7.81,
+    "dm4": 0.0
   },
   {
     "roll": 26,
@@ -40119,7 +41267,8 @@ const data = [
     "toc2": 0.0,
     "fsd22": 0.0,
     "python22": 0.0,
-    "sem3spi": 6.72
+    "sem3spi": 6.72,
+    "dm4": 0.0
   },
   {
     "roll": 125,
@@ -40155,7 +41304,8 @@ const data = [
     "toc3": 23.0,
     "fsd23": 22.5,
     "python23": 13.5,
-    "sem3spi": 9.25
+    "sem3spi": 9.25,
+    "dm4": 43.0
   },
   {
     "roll": 289,
@@ -40191,7 +41341,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 17.0,
     "python23": 16.5,
-    "sem3spi": 6.79
+    "sem3spi": 6.79,
+    "dm4": 41.0
   },
   {
     "roll": 203,
@@ -40227,7 +41378,8 @@ const data = [
     "toc3": 19.5,
     "fsd23": 19.0,
     "python23": 17.5,
-    "sem3spi": 8.33
+    "sem3spi": 8.33,
+    "dm4": 35.0
   },
   {
     "roll": 20,
@@ -40248,7 +41400,8 @@ const data = [
     "fsd2": 0,
     "python2": 0,
     "toc": 0,
-    "total": 0.0
+    "total": 0.0,
+    "dm4": 0.0
   },
   {
     "roll": 206,
@@ -40284,7 +41437,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 22.5,
     "python23": 17.5,
-    "sem3spi": 8.46
+    "sem3spi": 8.46,
+    "dm4": 39.0
   },
   {
     "roll": 189,
@@ -40320,7 +41474,8 @@ const data = [
     "toc3": 14.5,
     "fsd23": 19.0,
     "python23": 14.0,
-    "sem3spi": 8.46
+    "sem3spi": 8.46,
+    "dm4": 41.5
   },
   {
     "roll": 237,
@@ -40356,7 +41511,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 15.0,
     "python23": 13.0,
-    "sem3spi": 7.67
+    "sem3spi": 7.67,
+    "dm4": 36.0
   },
   {
     "roll": 293,
@@ -40392,7 +41548,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 16.0,
     "python23": 14.0,
-    "sem3spi": 6.67
+    "sem3spi": 6.67,
+    "dm4": 38.0
   },
   {
     "roll": 234,
@@ -40428,7 +41585,8 @@ const data = [
     "toc3": 20.5,
     "fsd23": 13.0,
     "python23": 8.0,
-    "sem3spi": 7.5
+    "sem3spi": 7.5,
+    "dm4": 34.0
   },
   {
     "roll": 270,
@@ -40464,7 +41622,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 19.0,
     "python23": 11.0,
-    "sem3spi": 7.38
+    "sem3spi": 7.38,
+    "dm4": 34.5
   },
   {
     "roll": 301,
@@ -40499,7 +41658,8 @@ const data = [
     "coa3": 12.0,
     "toc3": 3.5,
     "fsd23": 10.0,
-    "python23": 10.0
+    "python23": 10.0,
+    "dm4": 22.5
   },
   {
     "roll": 286,
@@ -40535,7 +41695,8 @@ const data = [
     "toc3": 16.0,
     "fsd23": 16.5,
     "python23": 13.0,
-    "sem3spi": 6.75
+    "sem3spi": 6.75,
+    "dm4": 28.5
   },
   {
     "roll": 175,
@@ -40571,7 +41732,8 @@ const data = [
     "toc3": 22.5,
     "fsd23": 23.5,
     "python23": 19.5,
-    "sem3spi": 8.75
+    "sem3spi": 8.75,
+    "dm4": 39.5
   },
   {
     "roll": 205,
@@ -40607,7 +41769,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 19.0,
     "python23": 21.0,
-    "sem3spi": 8.54
+    "sem3spi": 8.54,
+    "dm4": 38.0
   },
   {
     "roll": 296,
@@ -40643,7 +41806,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 13.5,
     "python23": 9.0,
-    "sem3spi": 6.54
+    "sem3spi": 6.54,
+    "dm4": 38.5
   },
   {
     "roll": 295,
@@ -40678,7 +41842,8 @@ const data = [
     "coa3": 17.5,
     "toc3": 10.5,
     "fsd23": 15.5,
-    "python23": 16.5
+    "python23": 16.5,
+    "dm4": 28.0
   },
   {
     "roll": 282,
@@ -40714,7 +41879,8 @@ const data = [
     "toc3": 13.0,
     "fsd23": 15.0,
     "python23": 9.0,
-    "sem3spi": 7.08
+    "sem3spi": 7.08,
+    "dm4": 29.0
   },
   {
     "roll": 278,
@@ -40750,7 +41916,8 @@ const data = [
     "toc3": 20.0,
     "fsd23": 16.5,
     "python23": 14.5,
-    "sem3spi": 6.83
+    "sem3spi": 6.83,
+    "dm4": 36.0
   },
   {
     "roll": 294,
@@ -40786,7 +41953,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 13.5,
     "python23": 8.0,
-    "sem3spi": 6.75
+    "sem3spi": 6.75,
+    "dm4": 36.5
   },
   {
     "roll": 121,
@@ -40822,6 +41990,7 @@ const data = [
     "toc3": 21.0,
     "fsd23": 22.5,
     "python23": 17.0,
-    "sem3spi": 8.92
+    "sem3spi": 8.92,
+    "dm4": 34.5
   }
 ];

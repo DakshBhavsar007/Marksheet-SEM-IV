@@ -922,6 +922,19 @@
             color: var(--text-main);
         }
 
+        /* Equal grid container for split matrix views */
+        .dashboard-equal-grid {
+            display: grid;
+            grid-template-columns: 1fr 1fr;
+            gap: 20px;
+            margin-bottom: 25px;
+        }
+        @media (max-width: 1024px) {
+            .dashboard-equal-grid {
+                grid-template-columns: 1fr;
+            }
+        }
+
         /* Search match text highlight */
         .search-match {
             background: rgba(251, 191, 36, 0.3);
@@ -1148,29 +1161,66 @@
             </div>
         </div>
 
-        <!-- CLASS COMPARISON MATRIX -->
-        <div class="glass-panel comparison-matrix-bar" style="margin-bottom: 25px;">
-            <div class="toppers-title" style="margin-bottom: 12px;">
-                <i class="ri-grid-line" style="color: var(--accent); font-size: 1.2rem;"></i>
-                <span>Division Wise Subject Averages Comparison Matrix</span>
+        <!-- MATRIXES GRID -->
+        <div class="dashboard-equal-grid">
+            <!-- Left: Class Comparison Matrix -->
+            <div class="glass-panel comparison-matrix-bar">
+                <div class="toppers-title" style="margin-bottom: 12px;">
+                    <i class="ri-grid-line" style="color: var(--accent); font-size: 1.2rem;"></i>
+                    <span>Division Wise Subject Averages Comparison Matrix</span>
+                </div>
+                <div style="overflow-x: auto;">
+                    <table class="matrix-table">
+                        <thead>
+                            <tr>
+                                <th style="text-align: left;">Division</th>
+                                <th>DM Avg</th>
+                                <th>COA Avg</th>
+                                <th>FSD-II Avg</th>
+                                <th>Python-II Avg</th>
+                                <th>TOC Avg</th>
+                                <th>Overall Avg</th>
+                            </tr>
+                        </thead>
+                        <tbody id="matrixTableBody">
+                            <!-- Dynamically filled -->
+                        </tbody>
+                    </table>
+                </div>
             </div>
-            <div style="overflow-x: auto;">
-                <table class="matrix-table">
-                    <thead>
-                        <tr>
-                            <th style="text-align: left;">Division</th>
-                            <th>DM Avg</th>
-                            <th>COA Avg</th>
-                            <th>FSD-II Avg</th>
-                            <th>Python-II Avg</th>
-                            <th>TOC Avg</th>
-                            <th>Overall Avg</th>
-                        </tr>
-                    </thead>
-                    <tbody id="matrixTableBody">
-                        <!-- Dynamically filled -->
-                    </tbody>
-                </table>
+            
+            <!-- Right: Exam Wise Performance Matrix -->
+            <div class="glass-panel comparison-matrix-bar">
+                <div class="toppers-title" style="margin-bottom: 12px; display: flex; justify-content: space-between; align-items: center; width: 100%;">
+                    <div style="display: flex; align-items: center; gap: 8px;">
+                        <i class="ri-calendar-todo-line" style="color: var(--accent); font-size: 1.2rem;"></i>
+                        <span>Exam Wise Division Performance</span>
+                    </div>
+                    <select class="control-input" id="examMatrixSubject" onchange="updateExamMatrix()" style="width: 130px; padding: 4px 8px; font-size: 0.8rem; margin: 0; background: var(--bg-glass-hover); border: 1px solid rgba(255,255,255,0.1);">
+                        <option value="dm">Discrete Math</option>
+                        <option value="coa">COA</option>
+                        <option value="fsd2">FSD-II</option>
+                        <option value="python2">Python-II</option>
+                        <option value="toc">TOC</option>
+                    </select>
+                </div>
+                <div style="overflow-x: auto;">
+                    <table class="matrix-table">
+                        <thead>
+                            <tr>
+                                <th style="text-align: left;">Division</th>
+                                <th>T1 Avg</th>
+                                <th>T2 Avg</th>
+                                <th>T3 Avg</th>
+                                <th id="examMatrixT4Header">T4 Avg</th>
+                                <th>Total Avg</th>
+                            </tr>
+                        </thead>
+                        <tbody id="examMatrixTableBody">
+                            <!-- Dynamically filled -->
+                        </tbody>
+                    </table>
+                </div>
             </div>
         </div>
 
@@ -1322,7 +1372,7 @@
         </div>
     </div>
 
-    <script src="new_datamarksheet.js?v=11"></script>
+    <script src="new_datamarksheet.js?v=12"></script>
     <script>
         (function () {
             'use strict';
@@ -1790,6 +1840,7 @@ ${semCells}
                 updateStats();
                 scheduleChartUpdate();
                 updateComparisonMatrix();
+                updateExamMatrix();
             }
 
             /* ═══ DIVISION WISE SUBJECT AVERAGES MATRIX ═══ */
@@ -1851,6 +1902,101 @@ ${semCells}
                     `;
                 });
                 tbody.innerHTML = html || '<tr><td colspan="7" style="text-align:center; color:var(--text-muted);">No data available</td></tr>';
+            }
+
+            /* ═══ EXAM WISE SUBJECT PERFORMANCE MATRIX ═══ */
+            window.updateExamMatrix = function() {
+                const subKey = document.getElementById('examMatrixSubject').value;
+                const tbody = document.getElementById('examMatrixTableBody');
+                if (!tbody) return;
+                
+                const pool = currentDept !== 'Overall' ? allData.filter(s => s.dept === currentDept) : allData;
+                
+                const divMap = {};
+                pool.forEach(s => {
+                    const key = `${s.dept}-${s.div}`;
+                    if (!divMap[key]) {
+                        divMap[key] = {
+                            count: 0,
+                            t1Sum: 0,
+                            t2Sum: 0,
+                            t3Sum: 0,
+                            t4Sum: 0,
+                            totalSum: 0
+                        };
+                    }
+                    
+                    let t1 = 0, t2 = 0, t3 = 0, t4 = 0, total = 0;
+                    if (subKey === 'dm') {
+                        t2 = s.dm2 || 0;
+                        t3 = s.dm3 || 0;
+                        t4 = s.dm4 || 0;
+                        total = s.dm || 0;
+                        t1 = total - t2 - t3 - (t4 / 2.0);
+                    } else if (subKey === 'coa') {
+                        t2 = s.coa2 || 0;
+                        t3 = s.coa3 || 0;
+                        total = s.coa || 0;
+                        t1 = total - t2 - t3;
+                    } else if (subKey === 'fsd2') {
+                        t2 = s.fsd22 || 0;
+                        t3 = s.fsd23 || 0;
+                        total = s.fsd2 || 0;
+                        t1 = total - t2 - t3;
+                    } else if (subKey === 'python2') {
+                        t2 = s.python22 || 0;
+                        t3 = s.python23 || 0;
+                        total = s.python2 || 0;
+                        t1 = total - t2 - t3;
+                    } else if (subKey === 'toc') {
+                        t2 = s.toc2 || 0;
+                        t3 = s.toc3 || 0;
+                        total = s.toc || 0;
+                        t1 = total - t2 - t3;
+                    }
+                    
+                    divMap[key].count++;
+                    divMap[key].t1Sum += Math.max(0, t1);
+                    divMap[key].t2Sum += t2;
+                    divMap[key].t3Sum += t3;
+                    divMap[key].t4Sum += t4;
+                    divMap[key].totalSum += total;
+                });
+                
+                // Hide or show T4 column header and cells
+                const t4Header = document.getElementById('examMatrixT4Header');
+                if (t4Header) {
+                    t4Header.style.display = subKey === 'dm' ? '' : 'none';
+                }
+                
+                const rows = Object.entries(divMap).map(([key, data]) => {
+                    const c = data.count || 1;
+                    return {
+                        key,
+                        t1Avg: data.t1Sum / c,
+                        t2Avg: data.t2Sum / c,
+                        t3Avg: data.t3Sum / c,
+                        t4Avg: data.t4Sum / c,
+                        totalAvg: data.totalSum / c,
+                        count: data.count
+                    };
+                }).sort((a, b) => b.totalAvg - a.totalAvg);
+                
+                let html = '';
+                rows.forEach(r => {
+                    const t4Cell = subKey === 'dm' ? `<td>${r.t4Avg.toFixed(1)}</td>` : '';
+                    html += `
+                        <tr>
+                            <td style="font-weight:600; text-align: left; color:var(--text-main);">${r.key} <small style="color:var(--text-muted); font-weight:400;">(${r.count} std)</small></td>
+                            <td>${r.t1Avg.toFixed(1)}</td>
+                            <td>${r.t2Avg.toFixed(1)}</td>
+                            <td>${r.t3Avg.toFixed(1)}</td>
+                            ${t4Cell}
+                            <td style="font-weight:700; color:var(--accent);">${r.totalAvg.toFixed(1)}</td>
+                        </tr>
+                    `;
+                });
+                tbody.innerHTML = html || '<tr><td colspan="6" style="text-align:center; color:var(--text-muted);">No data available</td></tr>';
             }
 
             /* ═══ EVENTS ═══ */
