@@ -890,6 +890,38 @@
             color: var(--success);
         }
 
+        /* Division Comparison Matrix styles */
+        .comparison-matrix-bar {
+            padding: 15px 20px;
+            display: flex;
+            flex-direction: column;
+            border: 1px solid rgba(255, 255, 255, 0.08);
+            background: var(--bg-glass);
+            backdrop-filter: blur(10px);
+            border-radius: 16px;
+        }
+        .matrix-table {
+            width: 100%;
+            border-collapse: collapse;
+            font-size: 0.82rem;
+            color: var(--text-muted);
+            margin-top: 10px;
+        }
+        .matrix-table th, .matrix-table td {
+            padding: 8px 12px;
+            text-align: center;
+            border-bottom: 1px solid var(--border-glass);
+        }
+        .matrix-table th {
+            font-weight: 600;
+            color: var(--text-main);
+            background: rgba(255, 255, 255, 0.02);
+        }
+        .matrix-table tr:hover td {
+            background: rgba(255, 255, 255, 0.02);
+            color: var(--text-main);
+        }
+
         /* Search match text highlight */
         .search-match {
             background: rgba(251, 191, 36, 0.3);
@@ -1116,6 +1148,32 @@
             </div>
         </div>
 
+        <!-- CLASS COMPARISON MATRIX -->
+        <div class="glass-panel comparison-matrix-bar" style="margin-bottom: 25px;">
+            <div class="toppers-title" style="margin-bottom: 12px;">
+                <i class="ri-grid-line" style="color: var(--accent); font-size: 1.2rem;"></i>
+                <span>Division Wise Subject Averages Comparison Matrix</span>
+            </div>
+            <div style="overflow-x: auto;">
+                <table class="matrix-table">
+                    <thead>
+                        <tr>
+                            <th style="text-align: left;">Division</th>
+                            <th>DM Avg</th>
+                            <th>COA Avg</th>
+                            <th>FSD-II Avg</th>
+                            <th>Python-II Avg</th>
+                            <th>TOC Avg</th>
+                            <th>Overall Avg</th>
+                        </tr>
+                    </thead>
+                    <tbody id="matrixTableBody">
+                        <!-- Dynamically filled -->
+                    </tbody>
+                </table>
+            </div>
+        </div>
+
         <!-- CONTROLS -->
         <div class="glass-panel controls-bar">
             <div class="view-tabs">
@@ -1264,7 +1322,7 @@
         </div>
     </div>
 
-    <script src="new_datamarksheet.js?v=10"></script>
+    <script src="new_datamarksheet.js?v=11"></script>
     <script>
         (function () {
             'use strict';
@@ -1731,6 +1789,68 @@ ${semCells}
                 renderTable();
                 updateStats();
                 scheduleChartUpdate();
+                updateComparisonMatrix();
+            }
+
+            /* ═══ DIVISION WISE SUBJECT AVERAGES MATRIX ═══ */
+            function updateComparisonMatrix() {
+                const tbody = document.getElementById('matrixTableBody');
+                if (!tbody) return;
+                
+                const divMap = {};
+                const pool = currentDept !== 'Overall' ? allData.filter(s => s.dept === currentDept) : allData;
+                
+                pool.forEach(s => {
+                    const key = `${s.dept}-${s.div}`;
+                    if (!divMap[key]) {
+                        divMap[key] = {
+                            count: 0,
+                            dmSum: 0,
+                            coaSum: 0,
+                            fsdSum: 0,
+                            pySum: 0,
+                            tocSum: 0,
+                            totalSum: 0
+                        };
+                    }
+                    divMap[key].count++;
+                    divMap[key].dmSum += s.dm;
+                    divMap[key].coaSum += s.coa;
+                    divMap[key].fsdSum += s.fsd2;
+                    divMap[key].pySum += s.python2;
+                    divMap[key].tocSum += s.toc;
+                    divMap[key].totalSum += s.total;
+                });
+                
+                const rows = Object.entries(divMap).map(([key, data]) => {
+                    const c = data.count || 1;
+                    return {
+                        key,
+                        dmAvg: data.dmSum / c,
+                        coaAvg: data.coaSum / c,
+                        fsdAvg: data.fsdSum / c,
+                        pyAvg: data.pySum / c,
+                        tocAvg: data.tocSum / c,
+                        totalAvg: data.totalSum / c,
+                        count: data.count
+                    };
+                }).sort((a, b) => b.totalAvg - a.totalAvg);
+                
+                let html = '';
+                rows.forEach(r => {
+                    html += `
+                        <tr>
+                            <td style="font-weight:600; text-align: left; color:var(--text-main);">${r.key} <small style="color:var(--text-muted); font-weight:400;">(${r.count} std)</small></td>
+                            <td>${r.dmAvg.toFixed(1)}</td>
+                            <td>${r.coaAvg.toFixed(1)}</td>
+                            <td>${r.fsdAvg.toFixed(1)}</td>
+                            <td>${r.pyAvg.toFixed(1)}</td>
+                            <td>${r.tocAvg.toFixed(1)}</td>
+                            <td style="font-weight:700; color:var(--accent);">${r.totalAvg.toFixed(1)}</td>
+                        </tr>
+                    `;
+                });
+                tbody.innerHTML = html || '<tr><td colspan="7" style="text-align:center; color:var(--text-muted);">No data available</td></tr>';
             }
 
             /* ═══ EVENTS ═══ */
