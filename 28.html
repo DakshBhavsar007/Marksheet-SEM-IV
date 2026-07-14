@@ -1372,7 +1372,7 @@
         </div>
     </div>
 
-    <script src="new_datamarksheet.js?v=14"></script>
+    <script src="new_datamarksheet.js?v=15"></script>
     <script>
         (function () {
             'use strict';
@@ -1867,8 +1867,9 @@ ${semCells}
                 
                 const divMap = {};
                 const pool = currentDept !== 'Overall' ? allData.filter(s => s.dept === currentDept) : allData;
+                const sy4Pool = pool.filter(s => s.dept === 'SY4');
                 
-                pool.forEach(s => {
+                sy4Pool.forEach(s => {
                     const key = `${s.dept}-${s.div}`;
                     if (!divMap[key]) {
                         divMap[key] = {
@@ -1918,7 +1919,7 @@ ${semCells}
                         </tr>
                     `;
                 });
-                tbody.innerHTML = html || '<tr><td colspan="7" style="text-align:center; color:var(--text-muted);">No data available</td></tr>';
+                tbody.innerHTML = html || '<tr><td colspan="7" style="text-align:center; color:var(--text-muted);">No Sem-IV data available</td></tr>';
             }
 
             /* ═══ EXAM WISE SUBJECT PERFORMANCE MATRIX ═══ */
@@ -1928,9 +1929,10 @@ ${semCells}
                 if (!tbody) return;
                 
                 const pool = currentDept !== 'Overall' ? allData.filter(s => s.dept === currentDept) : allData;
+                const sy4Pool = pool.filter(s => s.dept === 'SY4');
                 
                 const divMap = {};
-                pool.forEach(s => {
+                sy4Pool.forEach(s => {
                     const key = `${s.dept}-${s.div}`;
                     if (!divMap[key]) {
                         divMap[key] = {
@@ -2013,7 +2015,7 @@ ${semCells}
                         </tr>
                     `;
                 });
-                tbody.innerHTML = html || '<tr><td colspan="6" style="text-align:center; color:var(--text-muted);">No data available</td></tr>';
+                tbody.innerHTML = html || '<tr><td colspan="6" style="text-align:center; color:var(--text-muted);">No Sem-IV data available</td></tr>';
             }
 
             /* ═══ EVENTS ═══ */
