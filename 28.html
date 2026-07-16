@@ -1372,7 +1372,7 @@
         </div>
     </div>
 
-    <script src="new_datamarksheet.js?v=16"></script>
+    <script src="new_datamarksheet.js?v=17"></script>
     <script>
         (function () {
             'use strict';
@@ -1405,13 +1405,13 @@
                 s.total   = s.dm + s.coa + s.fsd2 + s.python2 + s.toc;
                 if (!s.dept) s.dept = 'SY4';
                 
-                // Calculate backlogs (< 40 marks is backlog)
+                // Calculate backlogs (< 35 marks is backlog)
                 let backlogs = 0;
-                if (s.dm < 40) backlogs++;
-                if (s.coa < 40) backlogs++;
-                if (s.fsd2 < 40) backlogs++;
-                if (s.python2 < 40) backlogs++;
-                if (s.toc < 40) backlogs++;
+                if (s.dm < 35) backlogs++;
+                if (s.coa < 35) backlogs++;
+                if (s.fsd2 < 35) backlogs++;
+                if (s.python2 < 35) backlogs++;
+                if (s.toc < 35) backlogs++;
                 s.backlogs = backlogs;
                 
                 return s;
@@ -1530,7 +1530,7 @@
                 if (isTopper) colorClass = 'badge-topper';
                 else if (val >= 90) colorClass = 'badge-green';
                 else if (val >= 75) colorClass = 'badge-blue';
-                else if (val >= 40) colorClass = 'badge-yellow';
+                else if (val >= 35) colorClass = 'badge-yellow';
                 else colorClass = 'badge-red';
                 
                 const suffix = isTopper ? ' 👑' : '';
