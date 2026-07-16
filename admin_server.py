@@ -138,6 +138,10 @@ HTML_TEMPLATE = """
             outline: none;
             transition: all 0.3s;
         }
+        .select-input option {
+            background-color: #141828;
+            color: var(--text-main);
+        }
         .select-input:focus, .text-input:focus {
             border-color: var(--primary);
             box-shadow: 0 0 10px rgba(138, 124, 255, 0.2);
