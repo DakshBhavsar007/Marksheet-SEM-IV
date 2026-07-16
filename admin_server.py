@@ -342,20 +342,17 @@ HTML_TEMPLATE = """
                 </div>
                 <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15px; font-size: 0.9rem;">
                     <div>
-                        <span style="color: var(--text-muted); display: block; font-size: 0.75rem;">Database Column</span>
-                        <strong id="dakshKey" style="color: var(--primary);">coa4</strong>
+                        <span style="color: var(--text-muted); display: block; font-size: 0.75rem;">Exam Score (<span id="dakshKey">coa4</span>)</span>
+                        <strong id="dakshOldNew" style="color: var(--primary);">0.00 → 38.00</strong>
                     </div>
                     <div>
-                        <span style="color: var(--text-muted); display: block; font-size: 0.75rem;">Old Value</span>
-                        <strong id="dakshOld" style="color: var(--error);">0.00</strong>
+                        <span style="color: var(--text-muted); display: block; font-size: 0.75rem;">Overall Subject Score (Cumulative)</span>
+                        <strong id="dakshCumOldNew" style="color: var(--accent);">71.00 → 90.00</strong>
                     </div>
                     <div>
-                        <span style="color: var(--text-muted); display: block; font-size: 0.75rem;">New Value</span>
-                        <strong id="dakshNew" style="color: var(--success);">20.25</strong>
+                        <span style="color: var(--text-muted); display: block; font-size: 0.75rem;">Overall Delta (Change Added)</span>
+                        <strong id="dakshDelta" style="color: var(--success);">+19.00</strong>
                     </div>
-                </div>
-                <div id="dakshCumulativeInfo" style="margin-top: 15px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.05); font-size: 0.85rem; color: var(--text-muted);">
-                    Cumulative overall subject score will update by <strong id="dakshDelta" style="color: var(--success);">+0.00</strong> marks.
                 </div>
             </div>
 
@@ -379,9 +376,9 @@ HTML_TEMPLATE = """
                             <th>Roll</th>
                             <th>Enrollment</th>
                             <th>Name</th>
-                            <th>Old Value</th>
-                            <th>New Value</th>
-                            <th>Delta</th>
+                            <th>Exam Score (Raw)</th>
+                            <th>Overall Cumulative</th>
+                            <th>Overall Delta</th>
                         </tr>
                     </thead>
                     <tbody id="resultsTableBody">
@@ -455,10 +452,10 @@ HTML_TEMPLATE = """
                     const dakshCard = document.getElementById('dakshCard');
                     if (result.daksh_log) {
                         document.getElementById('dakshKey').textContent = result.target_key;
-                        document.getElementById('dakshOld').textContent = result.daksh_log.old.toFixed(2);
-                        document.getElementById('dakshNew').textContent = result.daksh_log.new.toFixed(2);
+                        document.getElementById('dakshOldNew').textContent = `${result.daksh_log.old_exam.toFixed(2)} → ${result.daksh_log.new_exam.toFixed(2)}`;
+                        document.getElementById('dakshCumOldNew').textContent = `${result.daksh_log.old_cumulative.toFixed(2)} → ${result.daksh_log.new_cumulative.toFixed(2)}`;
                         
-                        const delta = result.daksh_log.new - result.daksh_log.old;
+                        const delta = result.daksh_log.cumulative_delta;
                         const deltaStr = delta >= 0 ? `+${delta.toFixed(2)}` : `${delta.toFixed(2)}`;
                         document.getElementById('dakshDelta').textContent = deltaStr;
                         document.getElementById('dakshDelta').style.color = delta >= 0 ? 'var(--success)' : 'var(--error)';
@@ -471,7 +468,7 @@ HTML_TEMPLATE = """
                     // Populate table
                     let tableHTML = '';
                     result.sample_logs.forEach(log => {
-                        const delta = log.new - log.old;
+                        const delta = log.cumulative_delta;
                         const deltaStr = delta >= 0 ? `+${delta.toFixed(2)}` : `${delta.toFixed(2)}`;
                         const deltaColor = delta >= 0 ? 'var(--success)' : 'var(--error)';
                         tableHTML += `
@@ -479,8 +476,8 @@ HTML_TEMPLATE = """
                                 <td>${log.roll}</td>
                                 <td>${log.enrollment}</td>
                                 <td>${log.name}</td>
-                                <td>${log.old.toFixed(2)}</td>
-                                <td>${log.new.toFixed(2)}</td>
+                                <td>${log.old_exam.toFixed(2)} → ${log.new_exam.toFixed(2)}</td>
+                                <td>${log.old_cumulative.toFixed(2)} → ${log.new_cumulative.toFixed(2)}</td>
                                 <td style="color:${deltaColor}; font-weight:700;">${deltaStr}</td>
                             </tr>
                         `;
@@ -680,6 +677,7 @@ def upload_file():
             pdf_val = 0.0  # Treat missing students as absent (0.0 marks)
             
         old_val = s.get(target_key, 0.0) or 0.0
+        old_cumulative = s.get(cumulative_key, 0.0) or 0.0
         
         if multiplier_mode == 'overwrite':
             new_val = pdf_val
@@ -689,14 +687,16 @@ def upload_file():
                 s[cumulative_key] = round((s.get(cumulative_key, 0.0) or 0.0) + diff, 2)
         else:
             mult = float(multiplier_mode)
-            calculated_change = pdf_val * mult
             if target == 'overall':
+                calculated_change = pdf_val * mult
                 new_val = old_val + calculated_change
                 s[target_key] = round(new_val, 2)
             else:
                 new_val = pdf_val
                 s[target_key] = new_val
                 if update_cumulative:
+                    # Calculate change based on the difference of new and old exam scores to keep it idempotent
+                    calculated_change = (pdf_val - old_val) * mult
                     s[cumulative_key] = round((s.get(cumulative_key, 0.0) or 0.0) + calculated_change, 2)
         
         # Recalculate totals
@@ -707,15 +707,21 @@ def upload_file():
         toc = s.get('toc', 0.0) or 0.0
         s['total'] = round(dm + coa + fsd2 + python2 + toc, 2)
         
+        new_cumulative = s.get(cumulative_key, 0.0) or 0.0
+        cum_delta = round(new_cumulative - old_cumulative, 2)
+        
         # Only log students who were actually present in the PDF or had a change in marks
-        if is_in_pdf or new_val != old_val:
+        if is_in_pdf or new_val != old_val or cum_delta != 0.0:
             updated_count += 1
             all_logs.append({
                 'roll': s.get('roll'),
                 'enrollment': enroll,
                 'name': s.get('name'),
-                'old': old_val,
-                'new': new_val
+                'old_exam': old_val,
+                'new_exam': new_val,
+                'old_cumulative': old_cumulative,
+                'new_cumulative': new_cumulative,
+                'cumulative_delta': cum_delta
             })
 
     # Search for Daksh Bhavsar in all logs
