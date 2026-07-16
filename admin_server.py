@@ -12,6 +12,8 @@ JS_PATH = r'c:\Users\parul\Desktop\marksheet\marksheet_SEM-IV\new_datamarksheet.
 
 # In-memory transaction state
 pending_db = None
+pending_subject = ""
+pending_target = ""
 
 SUBJECT_KEYS = {
     'dm': {
@@ -507,13 +509,20 @@ HTML_TEMPLATE = """
             const rejectBtn = document.getElementById('btnReject');
             btn.disabled = true;
             rejectBtn.disabled = true;
-            btn.innerHTML = '<i class="ri-loader-4-line ri-spin"></i> Saving to disk...';
+            btn.innerHTML = '<i class="ri-loader-4-line ri-spin"></i> Saving to disk & committing...';
 
             try {
                 const response = await fetch('/confirm', { method: 'POST' });
                 const result = await response.json();
                 if (result.success) {
-                    document.getElementById('statusMessage').textContent = '✅ Success: Database changes have been permanently written to new_datamarksheet.js!';
+                    let msg = `✅ Success: Database changes written to disk! Backup created as "${result.backup_created}".`;
+                    if (result.commit_done) {
+                        msg += `<br/>📦 Committed to Git: "<em>${result.commit_message}</em>"`;
+                    } else if (result.warning) {
+                        msg += `<br/>⚠️ ${result.warning}`;
+                    }
+                    msg += `<br/><br/>🚀 <strong>You can now run "git push origin main" in your terminal!</strong>`;
+                    document.getElementById('statusMessage').innerHTML = msg;
                     btn.innerHTML = '<i class="ri-check-line"></i> Changes Applied';
                     btn.style.background = 'var(--success)';
                 } else {
@@ -567,7 +576,7 @@ def home():
 
 @app.route('/upload', methods=['POST'])
 def upload_file():
-    global pending_db
+    global pending_db, pending_subject, pending_target
     if 'file' not in request.files:
         return jsonify({'success': False, 'error': 'No file uploaded'})
     
@@ -731,8 +740,10 @@ def upload_file():
             daksh_log = log
             break
 
-    # Save to global pending_db variable
+    # Save to global pending variables
     pending_db = data
+    pending_subject = subject
+    pending_target = target
 
     return jsonify({
         'success': True,
@@ -744,23 +755,57 @@ def upload_file():
 
 @app.route('/confirm', methods=['POST'])
 def confirm_changes():
-    global pending_db
+    global pending_db, pending_subject, pending_target
     if pending_db is None:
         return jsonify({'success': False, 'error': 'No pending changes to confirm.'})
     
     try:
+        # 1. Create backup file
+        backup_filename = f"{JS_PATH}.t4_{pending_subject}_{pending_target}.bak"
+        if os.path.exists(JS_PATH):
+            import shutil
+            shutil.copy2(JS_PATH, backup_filename)
+        
+        # 2. Write database content
         new_content = 'const data = ' + json.dumps(pending_db, indent=2, ensure_ascii=False) + ';\n'
         with open(JS_PATH, 'w', encoding='utf-8') as f:
             f.write(new_content)
+            
+        # 3. Automatic Git Add and Commit
+        commit_message = f"Upload and integrate {pending_subject.upper()} {pending_target.upper()} compiled marksheet"
+        import subprocess
+        try:
+            # git add
+            subprocess.run(["git", "add", JS_PATH], check=True, capture_output=True)
+            # git commit
+            subprocess.run(["git", "commit", "-m", commit_message], check=True, capture_output=True)
+            commit_done = True
+            warning_msg = None
+        except subprocess.CalledProcessError as ge:
+            commit_done = False
+            warning_msg = f"Database updated & backup created, but Git commit skipped: {ge.stderr.decode('utf-8', errors='ignore').strip()}"
+            
+        # Reset state
         pending_db = None
-        return jsonify({'success': True})
+        pending_subject = ""
+        pending_target = ""
+        
+        return jsonify({
+            'success': True,
+            'backup_created': os.path.basename(backup_filename),
+            'commit_done': commit_done,
+            'commit_message': commit_message,
+            'warning': warning_msg
+        })
     except Exception as e:
-        return jsonify({'success': False, 'error': f'Failed to write updated database to disk: {str(e)}'})
+        return jsonify({'success': False, 'error': f'Failed to write updated database/backup: {str(e)}'})
 
 @app.route('/discard', methods=['POST'])
 def discard_changes():
-    global pending_db
+    global pending_db, pending_subject, pending_target
     pending_db = None
+    pending_subject = ""
+    pending_target = ""
     return jsonify({'success': True})
 
 def start_server():
