@@ -753,6 +753,33 @@ def upload_file():
         'sample_logs': all_logs[:50]
     })
 
+HTML_PATH = r'c:\Users\parul\Desktop\marksheet\marksheet_SEM-IV\28.html'
+
+def bump_html_version():
+    if not os.path.exists(HTML_PATH):
+        return None
+    try:
+        with open(HTML_PATH, 'r', encoding='utf-8') as f:
+            content = f.read()
+        
+        pattern = r'(<script src="new_datamarksheet\.js\?v=)(\d+)("></script>)'
+        match = re.search(pattern, content)
+        if match:
+            prefix = match.group(1)
+            current_version = int(match.group(2))
+            suffix = match.group(3)
+            
+            new_version = current_version + 1
+            new_tag = f"{prefix}{new_version}{suffix}"
+            
+            updated_content = content.replace(match.group(0), new_tag)
+            with open(HTML_PATH, 'w', encoding='utf-8') as f:
+                f.write(updated_content)
+            return new_version
+    except Exception as e:
+        print(f"Error bumping HTML version: {e}")
+    return None
+
 @app.route('/confirm', methods=['POST'])
 def confirm_changes():
     global pending_db, pending_subject, pending_target
@@ -771,12 +798,18 @@ def confirm_changes():
         with open(JS_PATH, 'w', encoding='utf-8') as f:
             f.write(new_content)
             
-        # 3. Automatic Git Add and Commit
+        # 2b. Bump version in 28.html to bust GitHub Pages cache
+        new_ver = bump_html_version()
+            
+        # 3. Automatic Git Add and Commit (include 28.html)
         commit_message = f"Upload and integrate {pending_subject.upper()} {pending_target.upper()} compiled marksheet"
+        if new_ver:
+            commit_message += f" (Bust cache to v{new_ver})"
+            
         import subprocess
         try:
-            # git add
-            subprocess.run(["git", "add", JS_PATH], check=True, capture_output=True)
+            # git add both files
+            subprocess.run(["git", "add", JS_PATH, HTML_PATH], check=True, capture_output=True)
             # git commit
             subprocess.run(["git", "commit", "-m", commit_message], check=True, capture_output=True)
             commit_done = True
