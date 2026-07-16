@@ -1372,7 +1372,7 @@
         </div>
     </div>
 
-    <script src="new_datamarksheet.js?v=15"></script>
+    <script src="new_datamarksheet.js?v=16"></script>
     <script>
         (function () {
             'use strict';
@@ -1671,11 +1671,11 @@ ${semCells}
 
             /* ═══ STATS ═══ */
             function updateStats() {
-                const sy4Pool = filteredData.filter(s => s.dept === 'SY4');
+                const sem4Pool = filteredData.filter(s => s.total > 0);
                 
                 document.getElementById('stat-count').innerText = filteredData.length;
                 
-                if (!sy4Pool.length) {
+                if (!sem4Pool.length) {
                     document.getElementById('stat-avg').innerText   = '--';
                     document.getElementById('stat-topper').innerText = '--';
                     
@@ -1695,9 +1695,9 @@ ${semCells}
                     return;
                 }
                 
-                const n      = sy4Pool.length;
-                const sum    = sy4Pool.reduce((a, c) => a + c.total, 0);
-                const topper = sy4Pool.reduce((p, c) => p.total > c.total ? p : c);
+                const n      = sem4Pool.length;
+                const sum    = sem4Pool.reduce((a, c) => a + c.total, 0);
+                const topper = sem4Pool.reduce((p, c) => p.total > c.total ? p : c);
                 document.getElementById('stat-avg').innerText    = (sum / n).toFixed(1);
                 
                 // Set Topper Score only in Stat Card
@@ -1713,7 +1713,7 @@ ${semCells}
                 ];
                 
                 subjects.forEach(sub => {
-                    const topStudent = sy4Pool.reduce((p, c) => (p[sub.key] || 0) > (c[sub.key] || 0) ? p : c);
+                    const topStudent = sem4Pool.reduce((p, c) => (p[sub.key] || 0) > (c[sub.key] || 0) ? p : c);
                     const sScore = topStudent[sub.key] || 0;
                     
                     // Format Name to FirstName LastName (compact)
@@ -1727,7 +1727,7 @@ ${semCells}
 
                 // Calculate division standings
                 const divMap = {};
-                sy4Pool.forEach(s => {
+                sem4Pool.forEach(s => {
                     const key = `${s.dept}-${s.div}`;
                     if (!divMap[key]) divMap[key] = { count: 0, sum: 0 };
                     divMap[key].count++;
@@ -1770,10 +1770,10 @@ ${semCells}
                 const tick  = dark ? '#888' : '#666';
                 if (gradeChart) gradeChart.destroy();
 
-                const sy4Pool = filteredData.filter(s => s.dept === 'SY4');
+                const sem4Pool = filteredData.filter(s => s.total > 0);
                 const subs = ['dm','coa','fsd2','python2','toc'];
-                const n    = sy4Pool.length || 1;
-                const avgs = subs.map(k => (sy4Pool.reduce((a, s) => a + (s[k] || 0), 0) / n).toFixed(1));
+                const n    = sem4Pool.length || 1;
+                const avgs = subs.map(k => (sem4Pool.reduce((a, s) => a + (s[k] || 0), 0) / n).toFixed(1));
 
                 gradeChart = new Chart(ctx, {
                     type: 'bar',
@@ -1867,9 +1867,9 @@ ${semCells}
                 
                 const divMap = {};
                 const pool = currentDept !== 'Overall' ? allData.filter(s => s.dept === currentDept) : allData;
-                const sy4Pool = pool.filter(s => s.dept === 'SY4');
+                const sem4Pool = pool.filter(s => s.total > 0);
                 
-                sy4Pool.forEach(s => {
+                sem4Pool.forEach(s => {
                     const key = `${s.dept}-${s.div}`;
                     if (!divMap[key]) {
                         divMap[key] = {
@@ -1929,10 +1929,10 @@ ${semCells}
                 if (!tbody) return;
                 
                 const pool = currentDept !== 'Overall' ? allData.filter(s => s.dept === currentDept) : allData;
-                const sy4Pool = pool.filter(s => s.dept === 'SY4');
+                const sem4Pool = pool.filter(s => s.total > 0);
                 
                 const divMap = {};
-                sy4Pool.forEach(s => {
+                sem4Pool.forEach(s => {
                     const key = `${s.dept}-${s.div}`;
                     if (!divMap[key]) {
                         divMap[key] = {
