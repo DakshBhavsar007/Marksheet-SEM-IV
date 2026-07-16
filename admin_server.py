@@ -578,7 +578,7 @@ def upload_file():
     subject = request.form.get('subject')
     target = request.form.get('examTarget')
     multiplier_mode = request.form.get('multiplier')
-    update_cumulative = request.form.get('updateCumulative') == 'true'
+    update_cumulative = request.form.get('updateCumulative') in ('true', 'on')
     mark_pos = request.form.get('markPos', 'last')
 
     if not subject or not target:
