@@ -761,7 +761,7 @@ def confirm_changes():
     
     try:
         # 1. Create backup file
-        backup_filename = f"{JS_PATH}.t4_{pending_subject}_{pending_target}.bak"
+        backup_filename = f"{JS_PATH}.{pending_subject}_{pending_target}.bak"
         if os.path.exists(JS_PATH):
             import shutil
             shutil.copy2(JS_PATH, backup_filename)
