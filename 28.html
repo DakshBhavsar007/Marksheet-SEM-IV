@@ -1372,7 +1372,7 @@
         </div>
     </div>
 
-    <script src="new_datamarksheet.js?v=17"></script>
+    <script src="new_datamarksheet.js?v=18"></script>
     <script>
         (function () {
             'use strict';
@@ -1955,23 +1955,27 @@ ${semCells}
                     } else if (subKey === 'coa') {
                         t2 = s.coa2 || 0;
                         t3 = s.coa3 || 0;
+                        t4 = s.coa4 || 0;
                         total = s.coa || 0;
-                        t1 = total - t2 - t3;
+                        t1 = total - t2 - t3 - (t4 / 2.0);
                     } else if (subKey === 'fsd2') {
                         t2 = s.fsd22 || 0;
                         t3 = s.fsd23 || 0;
+                        t4 = s.fsd24 || 0;
                         total = s.fsd2 || 0;
-                        t1 = total - t2 - t3;
+                        t1 = total - t2 - t3 - (t4 / 2.0);
                     } else if (subKey === 'python2') {
                         t2 = s.python22 || 0;
                         t3 = s.python23 || 0;
+                        t4 = s.python24 || 0;
                         total = s.python2 || 0;
-                        t1 = total - t2 - t3;
+                        t1 = total - t2 - t3 - (t4 / 2.0);
                     } else if (subKey === 'toc') {
                         t2 = s.toc2 || 0;
                         t3 = s.toc3 || 0;
+                        t4 = s.toc4 || 0;
                         total = s.toc || 0;
-                        t1 = total - t2 - t3;
+                        t1 = total - t2 - t3 - (t4 / 2.0);
                     }
                     
                     divMap[key].count++;
@@ -1985,7 +1989,7 @@ ${semCells}
                 // Hide or show T4 column header and cells
                 const t4Header = document.getElementById('examMatrixT4Header');
                 if (t4Header) {
-                    t4Header.style.display = subKey === 'dm' ? '' : 'none';
+                    t4Header.style.display = '';
                 }
                 
                 const rows = Object.entries(divMap).map(([key, data]) => {
@@ -2003,7 +2007,7 @@ ${semCells}
                 
                 let html = '';
                 rows.forEach(r => {
-                    const t4Cell = subKey === 'dm' ? `<td>${r.t4Avg.toFixed(1)}</td>` : '';
+                    const t4Cell = `<td>${r.t4Avg.toFixed(1)}</td>`;
                     html += `
                         <tr>
                             <td style="font-weight:600; text-align: left; color:var(--text-main);">${r.key} <small style="color:var(--text-muted); font-weight:400;">(${r.count} std)</small></td>
