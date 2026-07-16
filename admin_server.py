@@ -10,33 +10,44 @@ app = Flask(__name__)
 
 JS_PATH = r'c:\Users\parul\Desktop\marksheet\marksheet_SEM-IV\new_datamarksheet.js'
 
+# In-memory transaction state
+pending_db = None
+
 SUBJECT_KEYS = {
     'dm': {
         'overall': 'dm',
+        't1': 'dm1',
         't2': 'dm2',
         't3': 'dm3',
         't4': 'dm4'
     },
     'coa': {
         'overall': 'coa',
+        't1': 'coa1',
         't2': 'coa2',
-        't3': 'coa3'
+        't3': 'coa3',
+        't4': 'coa4'
     },
     'fsd2': {
         'overall': 'fsd2',
+        't1': 'fsd21',
         't2': 'fsd22',
-        't3': 'fsd23'
+        't3': 'fsd23',
+        't4': 'fsd24'
     },
     'python2': {
         'overall': 'python2',
+        't1': 'fcsp',  # Python-II T1 is stored as fcsp
         't2': 'python22',
         't3': 'python23',
-        't1': 'fcsp'  # Python-II T1 is stored as fcsp
+        't4': 'python24'
     },
     'toc': {
         'overall': 'toc',
+        't1': 'toc1',
         't2': 'toc2',
-        't3': 'toc3'
+        't3': 'toc3',
+        't4': 'toc4'
     }
 }
 
@@ -203,6 +214,7 @@ HTML_TEMPLATE = """
             box-shadow: 0 12px 25px rgba(138, 124, 255, 0.35);
         }
         .btn-submit:active { transform: translateY(0); }
+        .btn-submit:disabled { opacity: 0.6; cursor: not-allowed; }
         
         .results-panel {
             display: none;
@@ -211,9 +223,9 @@ HTML_TEMPLATE = """
             padding-top: 30px;
         }
         .status-box {
-            background: rgba(46, 213, 115, 0.1);
-            border: 1px solid rgba(46, 213, 115, 0.2);
-            color: var(--success);
+            background: rgba(253, 203, 110, 0.1);
+            border: 1px solid rgba(253, 203, 110, 0.25);
+            color: var(--accent);
             padding: 15px; border-radius: 12px;
             margin-bottom: 20px; font-weight: 600;
             display: flex; align-items: center; gap: 8px;
@@ -263,7 +275,7 @@ HTML_TEMPLATE = """
                             <option value="overall">Cumulative Overall Subject Score (e.g. coa, dm)</option>
                             <option value="t2">T2 Score (e.g. coa2, dm2)</option>
                             <option value="t3">T3 Score (e.g. coa3, dm3)</option>
-                            <option value="t4">T4 Score (e.g. dm4 - DM Only)</option>
+                            <option value="t4">T4 Score (e.g. coa4, dm4)</option>
                             <option value="t1">T1 Score (e.g. fcsp - Python-II Only)</option>
                         </select>
                     </div>
@@ -309,20 +321,56 @@ HTML_TEMPLATE = """
                     </div>
 
                     <button type="submit" class="btn-submit" id="btnSubmit">
-                        <i class="ri-upload-cloud-line"></i> Update Student Marks
+                        <i class="ri-upload-cloud-line"></i> Upload & Preview Changes
                     </button>
                 </div>
             </div>
         </form>
 
-        <!-- Results / Success Panel -->
-        <div class="results-panel" id="resultsPanel">
+        <!-- Results / Confirmation Panel -->
+        <div class="results-panel" id="confirmPanel">
             <div class="status-box">
-                <i class="ri-checkbox-circle-line"></i>
-                <span id="statusMessage">Successfully updated 286 students.</span>
+                <i class="ri-alert-line" style="font-size: 1.2rem;"></i>
+                <span id="statusMessage">Preview Mode: Data parsed in-memory. Click Accept to save to disk.</span>
             </div>
+
+            <!-- Daksh's Highlight Card -->
+            <div id="dakshCard" style="background: rgba(138, 124, 255, 0.08); border: 1px solid var(--primary); border-radius: 16px; padding: 20px; margin-bottom: 25px; display: none;">
+                <div style="display: flex; align-items: center; gap: 10px; margin-bottom: 12px;">
+                    <span style="font-size: 1.5rem;">👑</span>
+                    <h3 style="font-size: 1.1rem; color: #fff; font-weight: 700;">Target Student Verification: BHAVSAR DAKSH NARENDRABHAI</h3>
+                </div>
+                <div style="display: grid; grid-template-columns: 1fr 1fr 1fr; gap: 15px; font-size: 0.9rem;">
+                    <div>
+                        <span style="color: var(--text-muted); display: block; font-size: 0.75rem;">Database Column</span>
+                        <strong id="dakshKey" style="color: var(--primary);">coa4</strong>
+                    </div>
+                    <div>
+                        <span style="color: var(--text-muted); display: block; font-size: 0.75rem;">Old Value</span>
+                        <strong id="dakshOld" style="color: var(--error);">0.00</strong>
+                    </div>
+                    <div>
+                        <span style="color: var(--text-muted); display: block; font-size: 0.75rem;">New Value</span>
+                        <strong id="dakshNew" style="color: var(--success);">20.25</strong>
+                    </div>
+                </div>
+                <div id="dakshCumulativeInfo" style="margin-top: 15px; padding-top: 12px; border-top: 1px solid rgba(255,255,255,0.05); font-size: 0.85rem; color: var(--text-muted);">
+                    Cumulative overall subject score will update by <strong id="dakshDelta" style="color: var(--success);">+0.00</strong> marks.
+                </div>
+            </div>
+
+            <!-- Action buttons -->
+            <div style="display: flex; gap: 15px; margin-bottom: 25px;">
+                <button type="button" id="btnAccept" class="btn-submit" onclick="confirmChanges()" style="background: linear-gradient(135deg, var(--success), #27ae60); box-shadow: 0 10px 20px rgba(46, 213, 115, 0.25);">
+                    <i class="ri-checkbox-circle-line"></i> Accept & Apply Changes (Save DB)
+                </button>
+                <button type="button" id="btnReject" class="btn-submit" onclick="discardChanges()" style="background: linear-gradient(135deg, var(--error), #c0392b); box-shadow: 0 10px 20px rgba(232, 67, 147, 0.25);">
+                    <i class="ri-close-circle-line"></i> Reject & Discard Changes
+                </button>
+            </div>
+
             <div class="toppers-title" style="margin-bottom: 12px; font-weight: 700; color: var(--text-muted); font-size: 0.85rem;">
-                Sample Comparison Log (First 50 Student Updates)
+                Comparison Matrix Log (Sample Updates)
             </div>
             <div class="results-table-scroll">
                 <table>
@@ -331,8 +379,8 @@ HTML_TEMPLATE = """
                             <th>Roll</th>
                             <th>Enrollment</th>
                             <th>Name</th>
-                            <th>Old Mark</th>
-                            <th>New Mark</th>
+                            <th>Old Value</th>
+                            <th>New Value</th>
                             <th>Delta</th>
                         </tr>
                     </thead>
@@ -355,12 +403,6 @@ HTML_TEMPLATE = """
             Array.from(targetSelect.options).forEach(opt => {
                 opt.disabled = false;
             });
-            
-            if (sub !== 'dm') {
-                const t4Opt = targetSelect.querySelector('option[value="t4"]');
-                if (t4Opt) t4Opt.disabled = true;
-                if (target === 't4') targetSelect.value = 'overall';
-            }
             
             if (sub !== 'python2') {
                 const t1Opt = targetSelect.querySelector('option[value="t1"]');
@@ -407,8 +449,26 @@ HTML_TEMPLATE = """
                 const result = await response.json();
                 
                 if (result.success) {
-                    document.getElementById('statusMessage').textContent = `Success: Updated ${result.updated_count} students in database. Recalculated Sem-IV overall totals.`;
+                    document.getElementById('statusMessage').textContent = `Preview Mode: Successfully parsed marks for ${result.updated_count} students in-memory. Please review below:`;
                     
+                    // Show Daksh's Card if found
+                    const dakshCard = document.getElementById('dakshCard');
+                    if (result.daksh_log) {
+                        document.getElementById('dakshKey').textContent = result.target_key;
+                        document.getElementById('dakshOld').textContent = result.daksh_log.old.toFixed(2);
+                        document.getElementById('dakshNew').textContent = result.daksh_log.new.toFixed(2);
+                        
+                        const delta = result.daksh_log.new - result.daksh_log.old;
+                        const deltaStr = delta >= 0 ? `+${delta.toFixed(2)}` : `${delta.toFixed(2)}`;
+                        document.getElementById('dakshDelta').textContent = deltaStr;
+                        document.getElementById('dakshDelta').style.color = delta >= 0 ? 'var(--success)' : 'var(--error)';
+                        
+                        dakshCard.style.display = 'block';
+                    } else {
+                        dakshCard.style.display = 'none';
+                    }
+
+                    // Populate table
                     let tableHTML = '';
                     result.sample_logs.forEach(log => {
                         const delta = log.new - log.old;
@@ -426,7 +486,14 @@ HTML_TEMPLATE = """
                         `;
                     });
                     document.getElementById('resultsTableBody').innerHTML = tableHTML || '<tr><td colspan="6" style="text-align:center">No students updated</td></tr>';
-                    document.getElementById('resultsPanel').style.display = 'block';
+                    
+                    // Show panel & reset accept/reject buttons
+                    document.getElementById('btnAccept').disabled = false;
+                    document.getElementById('btnReject').disabled = false;
+                    document.getElementById('btnAccept').innerHTML = '<i class="ri-checkbox-circle-line"></i> Accept & Apply Changes (Save DB)';
+                    document.getElementById('btnReject').innerHTML = '<i class="ri-close-circle-line"></i> Reject & Discard Changes';
+                    document.getElementById('confirmPanel').style.display = 'block';
+                    document.getElementById('confirmPanel').scrollIntoView({ behavior: 'smooth' });
                 } else {
                     alert('Error: ' + result.error);
                 }
@@ -434,7 +501,62 @@ HTML_TEMPLATE = """
                 alert('Connection error: ' + err.message);
             } finally {
                 btn.disabled = false;
-                btn.innerHTML = '<i class="ri-upload-cloud-line"></i> Update Student Marks';
+                btn.innerHTML = '<i class="ri-upload-cloud-line"></i> Upload & Preview Changes';
+            }
+        }
+
+        async function confirmChanges() {
+            const btn = document.getElementById('btnAccept');
+            const rejectBtn = document.getElementById('btnReject');
+            btn.disabled = true;
+            rejectBtn.disabled = true;
+            btn.innerHTML = '<i class="ri-loader-4-line ri-spin"></i> Saving to disk...';
+
+            try {
+                const response = await fetch('/confirm', { method: 'POST' });
+                const result = await response.json();
+                if (result.success) {
+                    document.getElementById('statusMessage').textContent = '✅ Success: Database changes have been permanently written to new_datamarksheet.js!';
+                    btn.innerHTML = '<i class="ri-check-line"></i> Changes Applied';
+                    btn.style.background = 'var(--success)';
+                } else {
+                    alert('Error saving changes: ' + result.error);
+                    btn.disabled = false;
+                    rejectBtn.disabled = false;
+                    btn.innerHTML = '<i class="ri-checkbox-circle-line"></i> Accept & Apply Changes (Save DB)';
+                }
+            } catch (err) {
+                alert('Connection error: ' + err.message);
+                btn.disabled = false;
+                rejectBtn.disabled = false;
+                btn.innerHTML = '<i class="ri-checkbox-circle-line"></i> Accept & Apply Changes (Save DB)';
+            }
+        }
+
+        async function discardChanges() {
+            const btn = document.getElementById('btnAccept');
+            const rejectBtn = document.getElementById('btnReject');
+            btn.disabled = true;
+            rejectBtn.disabled = true;
+            rejectBtn.innerHTML = '<i class="ri-loader-4-line ri-spin"></i> Discarding...';
+
+            try {
+                const response = await fetch('/discard', { method: 'POST' });
+                const result = await response.json();
+                if (result.success) {
+                    document.getElementById('statusMessage').textContent = '❌ Discarded: Pending changes have been cleared. Database was NOT modified.';
+                    rejectBtn.innerHTML = '<i class="ri-close-line"></i> Discarded';
+                } else {
+                    alert('Error discarding changes: ' + result.error);
+                    btn.disabled = false;
+                    rejectBtn.disabled = false;
+                    rejectBtn.innerHTML = '<i class="ri-close-circle-line"></i> Reject & Discard Changes';
+                }
+            } catch (err) {
+                alert('Connection error: ' + err.message);
+                btn.disabled = false;
+                rejectBtn.disabled = false;
+                rejectBtn.innerHTML = '<i class="ri-close-circle-line"></i> Reject & Discard Changes';
             }
         }
     </script>
@@ -448,6 +570,7 @@ def home():
 
 @app.route('/upload', methods=['POST'])
 def upload_file():
+    global pending_db
     if 'file' not in request.files:
         return jsonify({'success': False, 'error': 'No file uploaded'})
     
@@ -543,9 +666,9 @@ def upload_file():
     except Exception as e:
         return jsonify({'success': False, 'error': f'Failed to load database: {str(e)}'})
 
-    # 5. Update data
+    # 5. Update data in memory
     updated_count = 0
-    sample_logs = []
+    all_logs = []
     
     for s in data:
         enroll = s.get('enrollment')
@@ -571,7 +694,7 @@ def upload_file():
                     if update_cumulative:
                         s[cumulative_key] = round((s.get(cumulative_key, 0.0) or 0.0) + calculated_change, 2)
             
-            # Recalculate total score
+            # Recalculate totals
             dm = s.get('dm', 0.0) or 0.0
             coa = s.get('coa', 0.0) or 0.0
             fsd2 = s.get('fsd2', 0.0) or s.get('fsd-ii', 0.0) or 0.0
@@ -580,36 +703,57 @@ def upload_file():
             s['total'] = round(dm + coa + fsd2 + python2 + toc, 2)
             
             updated_count += 1
-            if len(sample_logs) < 50:
-                sample_logs.append({
-                    'roll': s.get('roll'),
-                    'enrollment': enroll,
-                    'name': s.get('name'),
-                    'old': old_val,
-                    'new': new_val
-                })
+            all_logs.append({
+                'roll': s.get('roll'),
+                'enrollment': enroll,
+                'name': s.get('name'),
+                'old': old_val,
+                'new': new_val
+            })
 
-    # 6. Save updated data back
-    try:
-        new_content = 'const data = ' + json.dumps(data, indent=2, ensure_ascii=False) + ';\n'
-        with open(JS_PATH, 'w', encoding='utf-8') as f:
-            f.write(new_content)
-    except Exception as e:
-        return jsonify({'success': False, 'error': f'Failed to write updated database to disk: {str(e)}'})
+    # Search for Daksh Bhavsar in all logs
+    daksh_log = None
+    for log in all_logs:
+        if log['enrollment'] == '24002171410007' or ('DAKSH' in log['name'].upper() and 'BHAVSAR' in log['name'].upper()):
+            daksh_log = log
+            break
+
+    # Save to global pending_db variable
+    pending_db = data
 
     return jsonify({
         'success': True,
         'updated_count': updated_count,
-        'sample_logs': sample_logs
+        'target_key': target_key,
+        'daksh_log': daksh_log,
+        'sample_logs': all_logs[:50]
     })
+
+@app.route('/confirm', methods=['POST'])
+def confirm_changes():
+    global pending_db
+    if pending_db is None:
+        return jsonify({'success': False, 'error': 'No pending changes to confirm.'})
+    
+    try:
+        new_content = 'const data = ' + json.dumps(pending_db, indent=2, ensure_ascii=False) + ';\n'
+        with open(JS_PATH, 'w', encoding='utf-8') as f:
+            f.write(new_content)
+        pending_db = None
+        return jsonify({'success': True})
+    except Exception as e:
+        return jsonify({'success': False, 'error': f'Failed to write updated database to disk: {str(e)}'})
+
+@app.route('/discard', methods=['POST'])
+def discard_changes():
+    global pending_db
+    pending_db = None
+    return jsonify({'success': True})
 
 def start_server():
     app.run(host='127.0.0.1', port=5000, debug=False)
 
 if __name__ == '__main__':
     print("Starting LJ University Admin Server on http://127.0.0.1:5000...")
-    
-    # Auto-open browser in 1.5s
     threading.Timer(1.5, lambda: webbrowser.open_new("http://127.0.0.1:5000")).start()
-    
     start_server()
