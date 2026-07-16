@@ -672,36 +672,43 @@ def upload_file():
     
     for s in data:
         enroll = s.get('enrollment')
-        if enroll in pdf_records:
+        is_in_pdf = enroll in pdf_records
+        
+        if is_in_pdf:
             pdf_val = pdf_records[enroll]
-            old_val = s.get(target_key, 0.0) or 0.0
+        else:
+            pdf_val = 0.0  # Treat missing students as absent (0.0 marks)
             
-            if multiplier_mode == 'overwrite':
+        old_val = s.get(target_key, 0.0) or 0.0
+        
+        if multiplier_mode == 'overwrite':
+            new_val = pdf_val
+            s[target_key] = new_val
+            if update_cumulative and target != 'overall':
+                diff = new_val - old_val
+                s[cumulative_key] = round((s.get(cumulative_key, 0.0) or 0.0) + diff, 2)
+        else:
+            mult = float(multiplier_mode)
+            calculated_change = pdf_val * mult
+            if target == 'overall':
+                new_val = old_val + calculated_change
+                s[target_key] = round(new_val, 2)
+            else:
                 new_val = pdf_val
                 s[target_key] = new_val
-                if update_cumulative and target != 'overall':
-                    diff = new_val - old_val
-                    s[cumulative_key] = round((s.get(cumulative_key, 0.0) or 0.0) + diff, 2)
-            else:
-                mult = float(multiplier_mode)
-                calculated_change = pdf_val * mult
-                if target == 'overall':
-                    new_val = old_val + calculated_change
-                    s[target_key] = round(new_val, 2)
-                else:
-                    new_val = pdf_val
-                    s[target_key] = new_val
-                    if update_cumulative:
-                        s[cumulative_key] = round((s.get(cumulative_key, 0.0) or 0.0) + calculated_change, 2)
-            
-            # Recalculate totals
-            dm = s.get('dm', 0.0) or 0.0
-            coa = s.get('coa', 0.0) or 0.0
-            fsd2 = s.get('fsd2', 0.0) or s.get('fsd-ii', 0.0) or 0.0
-            python2 = s.get('python2', 0.0) or 0.0
-            toc = s.get('toc', 0.0) or 0.0
-            s['total'] = round(dm + coa + fsd2 + python2 + toc, 2)
-            
+                if update_cumulative:
+                    s[cumulative_key] = round((s.get(cumulative_key, 0.0) or 0.0) + calculated_change, 2)
+        
+        # Recalculate totals
+        dm = s.get('dm', 0.0) or 0.0
+        coa = s.get('coa', 0.0) or 0.0
+        fsd2 = s.get('fsd2', 0.0) or s.get('fsd-ii', 0.0) or 0.0
+        python2 = s.get('python2', 0.0) or 0.0
+        toc = s.get('toc', 0.0) or 0.0
+        s['total'] = round(dm + coa + fsd2 + python2 + toc, 2)
+        
+        # Only log students who were actually present in the PDF or had a change in marks
+        if is_in_pdf or new_val != old_val:
             updated_count += 1
             all_logs.append({
                 'roll': s.get('roll'),
