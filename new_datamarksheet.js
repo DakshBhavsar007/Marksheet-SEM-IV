@@ -13,7 +13,7 @@ const data = [
     "dept": "SY4",
     "etc": 90,
     "dm": 72.0,
-    "coa": 60.0,
+    "coa": 75.0,
     "fsd-ii": 0,
     "fsd2": 63.0,
     "python2": 48.5,
@@ -23,7 +23,7 @@ const data = [
     "sem3marks": 6.775,
     "sem3spi2": 13.55,
     "totalSum": 27.15,
-    "total": 296.0,
+    "total": 311.0,
     "dm2": 13.0,
     "coa2": 20.0,
     "toc2": 18.0,
@@ -35,7 +35,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 18.0,
     "sem3spi": 8.5,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 30.0
   },
   {
     "roll": 199,
@@ -51,7 +52,7 @@ const data = [
     "dept": "SY4",
     "etc": 94,
     "dm": 52.0,
-    "coa": 41.0,
+    "coa": 50.0,
     "fsd-ii": 0,
     "fsd2": 52.0,
     "python2": 36.0,
@@ -61,7 +62,7 @@ const data = [
     "sem3marks": 5.15,
     "sem3spi2": 10.3,
     "totalSum": 22.69,
-    "total": 229.0,
+    "total": 238.0,
     "dm2": 12.5,
     "coa2": 11.5,
     "toc2": 12.0,
@@ -73,7 +74,8 @@ const data = [
     "fsd23": 11.0,
     "python23": 11.0,
     "sem3spi": 6.88,
-    "dm4": 35.0
+    "dm4": 35.0,
+    "coa4": 18.0
   },
   {
     "roll": 91,
@@ -89,7 +91,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 57.25,
-    "coa": 53.0,
+    "coa": 67.5,
     "fsd-ii": 0,
     "fsd2": 55.0,
     "python2": 50.0,
@@ -99,7 +101,7 @@ const data = [
     "sem3marks": 6.625,
     "sem3spi2": 13.25,
     "totalSum": 27.42,
-    "total": 259.75,
+    "total": 274.25,
     "dm2": 7.5,
     "coa2": 13.5,
     "toc2": 12.5,
@@ -111,7 +113,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 17.0,
     "sem3spi": 8.67,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 29.0
   },
   {
     "roll": 68,
@@ -127,7 +130,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 81.0,
-    "coa": 60.0,
+    "coa": 77.5,
     "fsd-ii": 0,
     "fsd2": 67.0,
     "python2": 71.5,
@@ -137,7 +140,7 @@ const data = [
     "sem3marks": 7.175,
     "sem3spi2": 14.35,
     "totalSum": 29.03,
-    "total": 333.0,
+    "total": 350.5,
     "dm2": 17.5,
     "coa2": 22.0,
     "toc2": 17.5,
@@ -149,7 +152,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 24.0,
     "sem3spi": 8.83,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 35.0
   },
   {
     "roll": 136,
@@ -165,7 +169,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 76.75,
-    "coa": 62.0,
+    "coa": 77.5,
     "fsd-ii": 0,
     "fsd2": 57.5,
     "python2": 60.0,
@@ -175,7 +179,7 @@ const data = [
     "sem3marks": 6.375,
     "sem3spi2": 12.75,
     "totalSum": 25.73,
-    "total": 307.75,
+    "total": 323.25,
     "dm2": 18.0,
     "coa2": 20.5,
     "toc2": 14.5,
@@ -187,7 +191,8 @@ const data = [
     "fsd23": 21.5,
     "python23": 18.5,
     "sem3spi": 8.17,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 31.0
   },
   {
     "roll": 276,
@@ -203,7 +208,7 @@ const data = [
     "dept": "SY4",
     "etc": 88,
     "dm": 45.5,
-    "coa": 25.5,
+    "coa": 30.0,
     "fsd-ii": 0,
     "fsd2": 14.5,
     "python2": 31.0,
@@ -213,7 +218,7 @@ const data = [
     "sem3marks": 3.95,
     "sem3spi2": 7.9,
     "totalSum": 15.09,
-    "total": 141.0,
+    "total": 145.5,
     "dm2": 6.5,
     "coa2": 9.0,
     "toc2": 6.5,
@@ -225,7 +230,8 @@ const data = [
     "fsd23": 7.0,
     "python23": 7.0,
     "sem3spi": 5.38,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 9.0
   },
   {
     "roll": 274,
@@ -241,7 +247,7 @@ const data = [
     "dept": "SY4",
     "etc": 94,
     "dm": 43.75,
-    "coa": 32.5,
+    "coa": 39.0,
     "fsd-ii": 0,
     "fsd2": 22.0,
     "python2": 27.5,
@@ -251,7 +257,7 @@ const data = [
     "sem3marks": 3.65,
     "sem3spi2": 7.3,
     "totalSum": 15.74,
-    "total": 153.25,
+    "total": 159.75,
     "dm2": 10.0,
     "coa2": 7.5,
     "toc2": 14.0,
@@ -263,7 +269,8 @@ const data = [
     "fsd23": 10.5,
     "python23": 10.0,
     "sem3spi": 5.58,
-    "dm4": 27.5
+    "dm4": 27.5,
+    "coa4": 13.0
   },
   {
     "roll": 190,
@@ -279,7 +286,7 @@ const data = [
     "dept": "SY4",
     "etc": 90,
     "dm": 62.25,
-    "coa": 38.0,
+    "coa": 51.0,
     "fsd-ii": 0,
     "fsd2": 36.5,
     "python2": 43.5,
@@ -289,7 +296,7 @@ const data = [
     "sem3marks": 5.75,
     "sem3spi2": 11.5,
     "totalSum": 23.3,
-    "total": 228.25,
+    "total": 241.25,
     "dm2": 12.5,
     "coa2": 13.0,
     "toc2": 18.0,
@@ -301,7 +308,8 @@ const data = [
     "fsd23": 11.5,
     "python23": 17.0,
     "sem3spi": 6.83,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 26.0
   },
   {
     "roll": 56,
@@ -317,7 +325,7 @@ const data = [
     "dept": "SY4",
     "etc": 82,
     "dm": 76.75,
-    "coa": 67.5,
+    "coa": 81.0,
     "fsd-ii": 0,
     "fsd2": 56.5,
     "python2": 46.5,
@@ -327,7 +335,7 @@ const data = [
     "sem3marks": 7.175,
     "sem3spi2": 14.35,
     "totalSum": 29.64,
-    "total": 311.25,
+    "total": 324.75,
     "dm2": 17.5,
     "coa2": 21.5,
     "toc2": 23.5,
@@ -339,7 +347,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 18.0,
     "sem3spi": 8.29,
-    "dm4": 39.5
+    "dm4": 39.5,
+    "coa4": 27.0
   },
   {
     "roll": 168,
@@ -355,7 +364,7 @@ const data = [
     "dept": "SY4",
     "etc": 92,
     "dm": 61.25,
-    "coa": 53.5,
+    "coa": 67.5,
     "fsd-ii": 0,
     "fsd2": 55.5,
     "python2": 39.5,
@@ -365,7 +374,7 @@ const data = [
     "sem3marks": 5.425,
     "sem3spi2": 10.85,
     "totalSum": 24.19,
-    "total": 258.75,
+    "total": 272.75,
     "dm2": 18.5,
     "coa2": 15.5,
     "toc2": 14.0,
@@ -377,7 +386,8 @@ const data = [
     "fsd23": 18.5,
     "python23": 13.5,
     "sem3spi": 7.17,
-    "dm4": 26.5
+    "dm4": 26.5,
+    "coa4": 28.0
   },
   {
     "roll": 277,
@@ -393,7 +403,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 45.75,
-    "coa": 35.0,
+    "coa": 41.0,
     "fsd-ii": 0,
     "fsd2": 27.5,
     "python2": 38.0,
@@ -403,7 +413,7 @@ const data = [
     "sem3marks": 3.5,
     "sem3spi2": 7,
     "totalSum": 14.9,
-    "total": 180.25,
+    "total": 186.25,
     "dm2": 8.0,
     "coa2": 10.0,
     "toc2": 12.5,
@@ -415,7 +425,8 @@ const data = [
     "fsd23": 8.5,
     "python23": 10.5,
     "sem3spi": 4.92,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 12.0
   },
   {
     "roll": 178,
@@ -431,7 +442,7 @@ const data = [
     "dept": "SY4",
     "etc": 92,
     "dm": 48.0,
-    "coa": 52.5,
+    "coa": 63.0,
     "fsd-ii": 0,
     "fsd2": 46.5,
     "python2": 42.0,
@@ -441,7 +452,7 @@ const data = [
     "sem3marks": 5.725,
     "sem3spi2": 11.45,
     "totalSum": 23.87,
-    "total": 237.0,
+    "total": 247.5,
     "dm2": 16.5,
     "coa2": 16.0,
     "toc2": 14.0,
@@ -453,7 +464,8 @@ const data = [
     "fsd23": 17.5,
     "python23": 13.0,
     "sem3spi": 7.46,
-    "dm4": 31.0
+    "dm4": 31.0,
+    "coa4": 21.0
   },
   {
     "roll": 258,
@@ -469,7 +481,7 @@ const data = [
     "dept": "SY4",
     "etc": 90,
     "dm": 64.5,
-    "coa": 53.0,
+    "coa": 66.0,
     "fsd-ii": 0,
     "fsd2": 43.0,
     "python2": 40.0,
@@ -479,7 +491,7 @@ const data = [
     "sem3marks": 4.325,
     "sem3spi2": 8.65,
     "totalSum": 18.35,
-    "total": 251.5,
+    "total": 264.5,
     "dm2": 13.5,
     "coa2": 19.0,
     "toc2": 19.0,
@@ -491,7 +503,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 14.5,
     "sem3spi": 6.21,
-    "dm4": 35.0
+    "dm4": 35.0,
+    "coa4": 26.0
   },
   {
     "roll": 31,
@@ -507,7 +520,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 79.5,
-    "coa": 67.5,
+    "coa": 86.0,
     "fsd-ii": 0,
     "fsd2": 58.5,
     "python2": 59.0,
@@ -517,7 +530,7 @@ const data = [
     "sem3marks": 8.1,
     "sem3spi2": 16.2,
     "totalSum": 31.85,
-    "total": 323.0,
+    "total": 341.5,
     "dm2": 17.5,
     "coa2": 23.5,
     "toc2": 22.0,
@@ -529,7 +542,8 @@ const data = [
     "fsd23": 21.5,
     "python23": 19.0,
     "sem3spi": 9.38,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 37.0
   },
   {
     "roll": 206,
@@ -545,7 +559,7 @@ const data = [
     "dept": "SY4",
     "etc": 86,
     "dm": 57.0,
-    "coa": 62.0,
+    "coa": 76.0,
     "fsd-ii": 0,
     "fsd2": 40.5,
     "python2": 39.5,
@@ -555,7 +569,7 @@ const data = [
     "sem3marks": 4.9,
     "sem3spi2": 9.8,
     "totalSum": 22.2,
-    "total": 252.5,
+    "total": 266.5,
     "dm2": 13.0,
     "coa2": 15.5,
     "toc2": 19.5,
@@ -567,7 +581,8 @@ const data = [
     "fsd23": 16.0,
     "python23": 15.0,
     "sem3spi": 6.67,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 28.0
   },
   {
     "roll": 248,
@@ -583,7 +598,7 @@ const data = [
     "dept": "SY4",
     "etc": 82,
     "dm": 49.0,
-    "coa": 42.0,
+    "coa": 53.0,
     "fsd-ii": 0,
     "fsd2": 26.0,
     "python2": 31.0,
@@ -593,7 +608,7 @@ const data = [
     "sem3marks": 4.225,
     "sem3spi2": 8.45,
     "totalSum": 19.08,
-    "total": 179.0,
+    "total": 190.0,
     "dm2": 15.0,
     "coa2": 17.5,
     "toc2": 12.0,
@@ -605,7 +620,8 @@ const data = [
     "fsd23": 13.5,
     "python23": 13.5,
     "sem3spi": 5.88,
-    "dm4": 30.0
+    "dm4": 30.0,
+    "coa4": 22.0
   },
   {
     "roll": 231,
@@ -621,7 +637,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 64.25,
-    "coa": 38.5,
+    "coa": 43.5,
     "fsd-ii": 0,
     "fsd2": 40.0,
     "python2": 34.0,
@@ -631,7 +647,7 @@ const data = [
     "sem3marks": 4.45,
     "sem3spi2": 8.9,
     "totalSum": 20.65,
-    "total": 217.25,
+    "total": 222.25,
     "dm2": 15.5,
     "coa2": 11.0,
     "toc2": 11.0,
@@ -643,7 +659,8 @@ const data = [
     "fsd23": 14.5,
     "python23": 12.5,
     "sem3spi": 6.04,
-    "dm4": 28.5
+    "dm4": 28.5,
+    "coa4": 10.0
   },
   {
     "roll": 99,
@@ -659,7 +676,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 82.25,
-    "coa": 67.0,
+    "coa": 83.5,
     "fsd-ii": 0,
     "fsd2": 49.5,
     "python2": 48.0,
@@ -669,7 +686,7 @@ const data = [
     "sem3marks": 6.75,
     "sem3spi2": 13.5,
     "totalSum": 27.22,
-    "total": 290.25,
+    "total": 306.75,
     "dm2": 20.0,
     "coa2": 21.5,
     "toc2": 16.0,
@@ -681,7 +698,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 13.5,
     "sem3spi": 8.25,
-    "dm4": 39.5
+    "dm4": 39.5,
+    "coa4": 33.0
   },
   {
     "roll": 270,
@@ -697,7 +715,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 41.5,
-    "coa": 48.0,
+    "coa": 56.5,
     "fsd-ii": 0,
     "fsd2": 36.0,
     "python2": 30.5,
@@ -707,7 +725,7 @@ const data = [
     "sem3marks": 3.85,
     "sem3spi2": 7.7,
     "totalSum": 16.13,
-    "total": 183.0,
+    "total": 191.5,
     "dm2": 10.5,
     "coa2": 18.0,
     "toc2": 6.5,
@@ -719,7 +737,8 @@ const data = [
     "fsd23": 11.0,
     "python23": 12.0,
     "sem3spi": 5.67,
-    "dm4": 24.0
+    "dm4": 24.0,
+    "coa4": 17.0
   },
   {
     "roll": 211,
@@ -735,7 +754,7 @@ const data = [
     "dept": "SY4",
     "etc": 90,
     "dm": 73.0,
-    "coa": 52.5,
+    "coa": 69.0,
     "fsd-ii": 0,
     "fsd2": 56.5,
     "python2": 42.0,
@@ -745,7 +764,7 @@ const data = [
     "sem3marks": 4.725,
     "sem3spi2": 9.45,
     "totalSum": 21.96,
-    "total": 277.5,
+    "total": 294.0,
     "dm2": 18.0,
     "coa2": 15.0,
     "toc2": 22.0,
@@ -757,7 +776,8 @@ const data = [
     "fsd23": 20.5,
     "python23": 17.0,
     "sem3spi": 6.46,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 33.0
   },
   {
     "roll": 285,
@@ -794,7 +814,8 @@ const data = [
     "toc3": 1.0,
     "fsd23": 8.0,
     "python23": 2.0,
-    "dm4": 0.0
+    "dm4": 0.0,
+    "coa4": 0.0
   },
   {
     "roll": 121,
@@ -810,7 +831,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 69.25,
-    "coa": 61.0,
+    "coa": 75.5,
     "fsd-ii": 0,
     "fsd2": 62.0,
     "python2": 52.5,
@@ -820,7 +841,7 @@ const data = [
     "sem3marks": 5.9,
     "sem3spi2": 11.8,
     "totalSum": 26.23,
-    "total": 296.25,
+    "total": 310.75,
     "dm2": 14.5,
     "coa2": 24.0,
     "toc2": 19.5,
@@ -832,7 +853,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 16.5,
     "sem3spi": 7.96,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 29.0
   },
   {
     "roll": 160,
@@ -848,7 +870,7 @@ const data = [
     "dept": "SY4",
     "etc": 92,
     "dm": 74.0,
-    "coa": 62.0,
+    "coa": 68.5,
     "fsd-ii": 0,
     "fsd2": 63.5,
     "python2": 52.0,
@@ -858,7 +880,7 @@ const data = [
     "sem3marks": 6.35,
     "sem3spi2": 12.7,
     "totalSum": 24.79,
-    "total": 301.0,
+    "total": 307.5,
     "dm2": 19.5,
     "coa2": 21.5,
     "toc2": 16.5,
@@ -870,7 +892,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 17.0,
     "sem3spi": 7.75,
-    "dm4": 35.0
+    "dm4": 35.0,
+    "coa4": 13.0
   },
   {
     "roll": 238,
@@ -886,7 +909,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 60.25,
-    "coa": 43.0,
+    "coa": 54.5,
     "fsd-ii": 0,
     "fsd2": 22.0,
     "python2": 29.5,
@@ -896,7 +919,7 @@ const data = [
     "sem3marks": 3.725,
     "sem3spi2": 7.45,
     "totalSum": 19.98,
-    "total": 186.25,
+    "total": 197.75,
     "dm2": 16.5,
     "coa2": 14.5,
     "toc2": 10.0,
@@ -908,7 +931,8 @@ const data = [
     "fsd23": 9.0,
     "python23": 11.0,
     "sem3spi": 5.63,
-    "dm4": 33.5
+    "dm4": 33.5,
+    "coa4": 23.0
   },
   {
     "roll": 58,
@@ -924,7 +948,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 78.25,
-    "coa": 69.0,
+    "coa": 88.5,
     "fsd-ii": 0,
     "fsd2": 69.5,
     "python2": 67.0,
@@ -934,7 +958,7 @@ const data = [
     "sem3marks": 7.175,
     "sem3spi2": 14.35,
     "totalSum": 29.62,
-    "total": 336.25,
+    "total": 355.75,
     "dm2": 19.5,
     "coa2": 23.0,
     "toc2": 17.5,
@@ -946,7 +970,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 21.5,
     "sem3spi": 8.92,
-    "dm4": 42.5
+    "dm4": 42.5,
+    "coa4": 39.0
   },
   {
     "roll": 100,
@@ -962,7 +987,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 73.25,
-    "coa": 47.0,
+    "coa": 58.0,
     "fsd-ii": 0,
     "fsd2": 41.5,
     "python2": 45.5,
@@ -972,7 +997,7 @@ const data = [
     "sem3marks": 6.325,
     "sem3spi2": 12.65,
     "totalSum": 27.22,
-    "total": 256.25,
+    "total": 267.25,
     "dm2": 14.5,
     "coa2": 8.0,
     "toc2": 17.0,
@@ -984,7 +1009,8 @@ const data = [
     "fsd23": 14.5,
     "python23": 15.0,
     "sem3spi": 8.21,
-    "dm4": 36.5
+    "dm4": 36.5,
+    "coa4": 22.0
   },
   {
     "roll": 278,
@@ -1000,7 +1026,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 42.75,
-    "coa": 45.5,
+    "coa": 53.0,
     "fsd-ii": 0,
     "fsd2": 28.0,
     "python2": 35.5,
@@ -1010,7 +1036,7 @@ const data = [
     "sem3marks": 3.175,
     "sem3spi2": 6.35,
     "totalSum": 14.88,
-    "total": 177.25,
+    "total": 184.75,
     "dm2": 12.5,
     "coa2": 15.5,
     "toc2": 10.0,
@@ -1022,7 +1048,8 @@ const data = [
     "fsd23": 13.0,
     "python23": 15.0,
     "sem3spi": 5.13,
-    "dm4": 28.5
+    "dm4": 28.5,
+    "coa4": 15.0
   },
   {
     "roll": 197,
@@ -1038,7 +1065,7 @@ const data = [
     "dept": "SY4",
     "etc": 94,
     "dm": 66.0,
-    "coa": 50.0,
+    "coa": 64.0,
     "fsd-ii": 0,
     "fsd2": 37.5,
     "python2": 52.0,
@@ -1048,7 +1075,7 @@ const data = [
     "sem3marks": 4.975,
     "sem3spi2": 9.95,
     "totalSum": 22.78,
-    "total": 255.0,
+    "total": 269.0,
     "dm2": 16.0,
     "coa2": 16.0,
     "toc2": 17.0,
@@ -1060,7 +1087,8 @@ const data = [
     "fsd23": 12.0,
     "python23": 19.0,
     "sem3spi": 6.5,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 28.0
   },
   {
     "roll": 113,
@@ -1076,7 +1104,7 @@ const data = [
     "dept": "SY4",
     "etc": 92,
     "dm": 67.0,
-    "coa": 47.5,
+    "coa": 58.0,
     "fsd-ii": 0,
     "fsd2": 60.0,
     "python2": 44.5,
@@ -1086,7 +1114,7 @@ const data = [
     "sem3marks": 5.8,
     "sem3spi2": 11.6,
     "totalSum": 26.7,
-    "total": 269.0,
+    "total": 279.5,
     "dm2": 17.0,
     "coa2": 13.0,
     "toc2": 12.0,
@@ -1098,7 +1126,8 @@ const data = [
     "fsd23": 15.0,
     "python23": 9.5,
     "sem3spi": 8.04,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 21.0
   },
   {
     "roll": 167,
@@ -1114,7 +1143,7 @@ const data = [
     "dept": "SY4",
     "etc": 90,
     "dm": 62.75,
-    "coa": 44.0,
+    "coa": 53.0,
     "fsd-ii": 0,
     "fsd2": 51.5,
     "python2": 38.0,
@@ -1124,7 +1153,7 @@ const data = [
     "sem3marks": 5.475,
     "sem3spi2": 10.95,
     "totalSum": 24.27,
-    "total": 243.25,
+    "total": 252.25,
     "dm2": 13.0,
     "coa2": 10.5,
     "toc2": 16.0,
@@ -1136,7 +1165,8 @@ const data = [
     "fsd23": 17.5,
     "python23": 15.5,
     "sem3spi": 6.96,
-    "dm4": 31.5
+    "dm4": 31.5,
+    "coa4": 18.0
   },
   {
     "roll": 127,
@@ -1152,7 +1182,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 65.75,
-    "coa": 44.5,
+    "coa": 54.0,
     "fsd-ii": 0,
     "fsd2": 42.0,
     "python2": 52.0,
@@ -1162,7 +1192,7 @@ const data = [
     "sem3marks": 6.55,
     "sem3spi2": 13.1,
     "totalSum": 26,
-    "total": 227.75,
+    "total": 237.25,
     "dm2": 11.0,
     "coa2": 18.0,
     "toc2": 14.5,
@@ -1174,7 +1204,8 @@ const data = [
     "fsd23": 0.0,
     "python23": 15.0,
     "sem3spi": 7.58,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 19.0
   },
   {
     "roll": 185,
@@ -1190,7 +1221,7 @@ const data = [
     "dept": "SY4",
     "etc": 90,
     "dm": 60.0,
-    "coa": 39.5,
+    "coa": 52.5,
     "fsd-ii": 0,
     "fsd2": 38.0,
     "python2": 48.0,
@@ -1200,7 +1231,7 @@ const data = [
     "sem3marks": 5.225,
     "sem3spi2": 10.45,
     "totalSum": 23.49,
-    "total": 233.0,
+    "total": 246.0,
     "dm2": 16.0,
     "coa2": 10.0,
     "toc2": 15.5,
@@ -1212,7 +1243,8 @@ const data = [
     "fsd23": 13.5,
     "python23": 17.5,
     "sem3spi": 6.83,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 26.0
   },
   {
     "roll": 75,
@@ -1228,7 +1260,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 60.75,
-    "coa": 58.0,
+    "coa": 70.5,
     "fsd-ii": 0,
     "fsd2": 59.5,
     "python2": 64.0,
@@ -1238,7 +1270,7 @@ const data = [
     "sem3marks": 6.775,
     "sem3spi2": 13.55,
     "totalSum": 28.65,
-    "total": 292.25,
+    "total": 304.75,
     "dm2": 14.0,
     "coa2": 17.0,
     "toc2": 10.5,
@@ -1250,7 +1282,8 @@ const data = [
     "fsd23": 17.5,
     "python23": 21.0,
     "sem3spi": 7.92,
-    "dm4": 32.5
+    "dm4": 32.5,
+    "coa4": 25.0
   },
   {
     "roll": 134,
@@ -1266,7 +1299,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 51.75,
-    "coa": 53.0,
+    "coa": 63.5,
     "fsd-ii": 0,
     "fsd2": 46.0,
     "python2": 50.0,
@@ -1276,7 +1309,7 @@ const data = [
     "sem3marks": 6.3,
     "sem3spi2": 12.6,
     "totalSum": 25.84,
-    "total": 251.25,
+    "total": 261.75,
     "dm2": 15.0,
     "coa2": 16.0,
     "toc2": 14.0,
@@ -1288,7 +1321,8 @@ const data = [
     "fsd23": 11.0,
     "python23": 15.0,
     "sem3spi": 7.71,
-    "dm4": 12.5
+    "dm4": 12.5,
+    "coa4": 21.0
   },
   {
     "roll": 23,
@@ -1304,7 +1338,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 89.5,
-    "coa": 73.0,
+    "coa": 95.0,
     "fsd-ii": 0,
     "fsd2": 66.5,
     "python2": 69.5,
@@ -1314,7 +1348,7 @@ const data = [
     "sem3marks": 8.225,
     "sem3spi2": 16.45,
     "totalSum": 32.16,
-    "total": 367.0,
+    "total": 389.0,
     "dm2": 22.5,
     "coa2": 24.0,
     "toc2": 23.5,
@@ -1326,7 +1360,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 24.0,
     "sem3spi": 9.54,
-    "dm4": 46.0
+    "dm4": 46.0,
+    "coa4": 44.0
   },
   {
     "roll": 42,
@@ -1342,7 +1377,7 @@ const data = [
     "dept": "SY4",
     "etc": 92,
     "dm": 61.5,
-    "coa": 69.0,
+    "coa": 82.5,
     "fsd-ii": 0,
     "fsd2": 68.0,
     "python2": 65.5,
@@ -1352,7 +1387,7 @@ const data = [
     "sem3marks": 7.45,
     "sem3spi2": 14.9,
     "totalSum": 30.94,
-    "total": 322.0,
+    "total": 335.5,
     "dm2": 11.0,
     "coa2": 23.5,
     "toc2": 21.0,
@@ -1364,7 +1399,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 25.0,
     "sem3spi": 8.92,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 27.0
   },
   {
     "roll": 88,
@@ -1380,7 +1416,7 @@ const data = [
     "dept": "SY4",
     "etc": 90,
     "dm": 79.5,
-    "coa": 64.0,
+    "coa": 81.5,
     "fsd-ii": 0,
     "fsd2": 68.0,
     "python2": 57.0,
@@ -1390,7 +1426,7 @@ const data = [
     "sem3marks": 6.725,
     "sem3spi2": 13.45,
     "totalSum": 27.81,
-    "total": 324.0,
+    "total": 341.5,
     "dm2": 20.5,
     "coa2": 20.0,
     "toc2": 19.0,
@@ -1402,7 +1438,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 16.5,
     "sem3spi": 8.71,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 35.0
   },
   {
     "roll": 81,
@@ -1418,7 +1455,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 74.5,
-    "coa": 60.5,
+    "coa": 76.5,
     "fsd-ii": 0,
     "fsd2": 63.0,
     "python2": 55.0,
@@ -1428,7 +1465,7 @@ const data = [
     "sem3marks": 7.175,
     "sem3spi2": 14.35,
     "totalSum": 28.32,
-    "total": 303.5,
+    "total": 319.5,
     "dm2": 15.0,
     "coa2": 21.0,
     "toc2": 14.5,
@@ -1440,7 +1477,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 19.5,
     "sem3spi": 8.79,
-    "dm4": 47.0
+    "dm4": 47.0,
+    "coa4": 32.0
   },
   {
     "roll": 123,
@@ -1456,7 +1494,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 77.75,
-    "coa": 62.0,
+    "coa": 77.0,
     "fsd-ii": 0,
     "fsd2": 61.5,
     "python2": 48.5,
@@ -1466,7 +1504,7 @@ const data = [
     "sem3marks": 6.475,
     "sem3spi2": 12.95,
     "totalSum": 26.18,
-    "total": 306.25,
+    "total": 321.25,
     "dm2": 16.5,
     "coa2": 22.5,
     "toc2": 16.5,
@@ -1478,7 +1516,8 @@ const data = [
     "fsd23": 18.5,
     "python23": 19.0,
     "sem3spi": 8.21,
-    "dm4": 41.5
+    "dm4": 41.5,
+    "coa4": 30.0
   },
   {
     "roll": 245,
@@ -1494,7 +1533,7 @@ const data = [
     "dept": "SY4",
     "etc": 88,
     "dm": 40.25,
-    "coa": 38.0,
+    "coa": 45.0,
     "fsd-ii": 0,
     "fsd2": 26.0,
     "python2": 33.0,
@@ -1504,7 +1543,7 @@ const data = [
     "sem3marks": 4.075,
     "sem3spi2": 8.15,
     "totalSum": 19.21,
-    "total": 172.25,
+    "total": 179.25,
     "dm2": 5.0,
     "coa2": 10.0,
     "toc2": 12.5,
@@ -1516,7 +1555,8 @@ const data = [
     "fsd23": 11.5,
     "python23": 13.0,
     "sem3spi": 6.13,
-    "dm4": 29.5
+    "dm4": 29.5,
+    "coa4": 14.0
   },
   {
     "roll": 286,
@@ -1532,7 +1572,7 @@ const data = [
     "dept": "SY4",
     "etc": 78,
     "dm": 7.0,
-    "coa": 3.0,
+    "coa": 5.0,
     "fsd-ii": 0,
     "fsd2": 6.0,
     "python2": 15.0,
@@ -1542,7 +1582,7 @@ const data = [
     "sem3marks": 1.6,
     "sem3spi2": 3.2,
     "totalSum": 6.29,
-    "total": 37.0,
+    "total": 39.0,
     "dm2": 0.0,
     "coa2": 0.0,
     "toc2": 0.0,
@@ -1553,7 +1593,8 @@ const data = [
     "toc3": 4.0,
     "fsd23": 2.0,
     "python23": 4.0,
-    "dm4": 5.0
+    "dm4": 5.0,
+    "coa4": 4.0
   },
   {
     "roll": 240,
@@ -1569,7 +1610,7 @@ const data = [
     "dept": "SY4",
     "etc": 94,
     "dm": 49.0,
-    "coa": 32.5,
+    "coa": 41.5,
     "fsd-ii": 0,
     "fsd2": 29.5,
     "python2": 29.5,
@@ -1579,7 +1620,7 @@ const data = [
     "sem3marks": 4.075,
     "sem3spi2": 8.15,
     "totalSum": 19.89,
-    "total": 169.5,
+    "total": 178.5,
     "dm2": 12.5,
     "coa2": 12.5,
     "toc2": 12.0,
@@ -1591,7 +1632,8 @@ const data = [
     "fsd23": 11.5,
     "python23": 10.5,
     "sem3spi": 5.96,
-    "dm4": 34.0
+    "dm4": 34.0,
+    "coa4": 18.0
   },
   {
     "roll": 220,
@@ -1607,7 +1649,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 65.5,
-    "coa": 50.5,
+    "coa": 62.0,
     "fsd-ii": 0,
     "fsd2": 52.0,
     "python2": 42.5,
@@ -1617,7 +1659,7 @@ const data = [
     "sem3marks": 4.65,
     "sem3spi2": 9.3,
     "totalSum": 21.05,
-    "total": 252.5,
+    "total": 264.0,
     "dm2": 14.5,
     "coa2": 15.0,
     "toc2": 19.0,
@@ -1629,7 +1671,8 @@ const data = [
     "fsd23": 13.0,
     "python23": 19.5,
     "sem3spi": 5.88,
-    "dm4": 32.0
+    "dm4": 32.0,
+    "coa4": 23.0
   },
   {
     "roll": 7,
@@ -1645,7 +1688,7 @@ const data = [
     "dept": "SY4",
     "etc": 90,
     "dm": 87.25,
-    "coa": 66.0,
+    "coa": 86.0,
     "fsd-ii": 0,
     "fsd2": 65.0,
     "python2": 68.5,
@@ -1655,7 +1698,7 @@ const data = [
     "sem3marks": 8.325,
     "sem3spi2": 16.65,
     "totalSum": 34.45,
-    "total": 355.75,
+    "total": 375.75,
     "dm2": 20.5,
     "coa2": 23.0,
     "toc2": 22.5,
@@ -1667,7 +1710,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 25.0,
     "sem3spi": 9.46,
-    "dm4": 43.5
+    "dm4": 43.5,
+    "coa4": 40.0
   },
   {
     "roll": 60,
@@ -1683,7 +1727,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 73.25,
-    "coa": 57.0,
+    "coa": 74.5,
     "fsd-ii": 0,
     "fsd2": 60.5,
     "python2": 55.0,
@@ -1693,7 +1737,7 @@ const data = [
     "sem3marks": 7.35,
     "sem3spi2": 14.7,
     "totalSum": 29.57,
-    "total": 290.25,
+    "total": 307.75,
     "dm2": 14.0,
     "coa2": 16.5,
     "toc2": 18.0,
@@ -1705,7 +1749,8 @@ const data = [
     "fsd23": 18.5,
     "python23": 18.5,
     "sem3spi": 8.75,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 35.0
   },
   {
     "roll": 132,
@@ -1721,7 +1766,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 72.0,
-    "coa": 57.5,
+    "coa": 68.0,
     "fsd-ii": 0,
     "fsd2": 43.5,
     "python2": 43.5,
@@ -1731,7 +1776,7 @@ const data = [
     "sem3marks": 6.45,
     "sem3spi2": 12.9,
     "totalSum": 25.92,
-    "total": 262.5,
+    "total": 273.0,
     "dm2": 14.0,
     "coa2": 16.0,
     "toc2": 13.5,
@@ -1743,7 +1788,8 @@ const data = [
     "fsd23": 13.5,
     "python23": 15.5,
     "sem3spi": 7.67,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 21.0
   },
   {
     "roll": 214,
@@ -1759,7 +1805,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 58.5,
-    "coa": 40.0,
+    "coa": 53.5,
     "fsd-ii": 0,
     "fsd2": 39.5,
     "python2": 32.0,
@@ -1769,7 +1815,7 @@ const data = [
     "sem3marks": 4.475,
     "sem3spi2": 8.95,
     "totalSum": 21.54,
-    "total": 211.0,
+    "total": 224.5,
     "dm2": 12.0,
     "coa2": 14.5,
     "toc2": 13.5,
@@ -1781,7 +1827,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 13.5,
     "sem3spi": 6.29,
-    "dm4": 33.0
+    "dm4": 33.0,
+    "coa4": 27.0
   },
   {
     "roll": 95,
@@ -1797,7 +1844,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 76.25,
-    "coa": 61.5,
+    "coa": 76.5,
     "fsd-ii": 0,
     "fsd2": 54.5,
     "python2": 54.0,
@@ -1807,7 +1854,7 @@ const data = [
     "sem3marks": 6.8,
     "sem3spi2": 13.6,
     "totalSum": 27.33,
-    "total": 296.25,
+    "total": 311.25,
     "dm2": 18.0,
     "coa2": 18.0,
     "toc2": 16.0,
@@ -1819,7 +1866,8 @@ const data = [
     "fsd23": 18.5,
     "python23": 19.0,
     "sem3spi": 8.71,
-    "dm4": 42.5
+    "dm4": 42.5,
+    "coa4": 30.0
   },
   {
     "roll": 51,
@@ -1835,7 +1883,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 79.25,
-    "coa": 49.5,
+    "coa": 63.0,
     "fsd-ii": 0,
     "fsd2": 68.5,
     "python2": 69.5,
@@ -1845,7 +1893,7 @@ const data = [
     "sem3marks": 7.275,
     "sem3spi2": 14.55,
     "totalSum": 30.15,
-    "total": 326.75,
+    "total": 340.25,
     "dm2": 19.5,
     "coa2": 15.0,
     "toc2": 19.0,
@@ -1857,7 +1905,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 24.5,
     "sem3spi": 8.75,
-    "dm4": 43.5
+    "dm4": 43.5,
+    "coa4": 27.0
   },
   {
     "roll": 124,
@@ -1873,7 +1922,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 78.0,
-    "coa": 56.0,
+    "coa": 67.5,
     "fsd-ii": 0,
     "fsd2": 33.5,
     "python2": 39.5,
@@ -1883,7 +1932,7 @@ const data = [
     "sem3marks": 5.85,
     "sem3spi2": 11.7,
     "totalSum": 26.09,
-    "total": 266.0,
+    "total": 277.5,
     "dm2": 17.0,
     "coa2": 16.5,
     "toc2": 21.0,
@@ -1895,7 +1944,8 @@ const data = [
     "fsd23": 9.5,
     "python23": 12.5,
     "sem3spi": 7.58,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 23.0
   },
   {
     "roll": 151,
@@ -1911,7 +1961,7 @@ const data = [
     "dept": "SY4",
     "etc": 86,
     "dm": 71.25,
-    "coa": 59.0,
+    "coa": 72.5,
     "fsd-ii": 0,
     "fsd2": 46.0,
     "python2": 52.5,
@@ -1921,7 +1971,7 @@ const data = [
     "sem3marks": 5.9,
     "sem3spi2": 11.8,
     "totalSum": 25.03,
-    "total": 281.25,
+    "total": 294.75,
     "dm2": 16.5,
     "coa2": 13.5,
     "toc2": 16.5,
@@ -1933,7 +1983,8 @@ const data = [
     "fsd23": 17.5,
     "python23": 18.0,
     "sem3spi": 7.33,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 27.0
   },
   {
     "roll": 92,
@@ -1949,7 +2000,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 43.5,
-    "coa": 52.0,
+    "coa": 68.5,
     "fsd-ii": 0,
     "fsd2": 30.0,
     "python2": 50.0,
@@ -1959,7 +2010,7 @@ const data = [
     "sem3marks": 7.125,
     "sem3spi2": 14.25,
     "totalSum": 27.41,
-    "total": 218.5,
+    "total": 235.0,
     "dm2": 11.5,
     "coa2": 19.0,
     "toc2": 15.0,
@@ -1971,7 +2022,8 @@ const data = [
     "fsd23": 12.0,
     "python23": 20.5,
     "sem3spi": 8.63,
-    "dm4": 14.0
+    "dm4": 14.0,
+    "coa4": 33.0
   },
   {
     "roll": 263,
@@ -1987,7 +2039,7 @@ const data = [
     "dept": "SY4",
     "etc": 84,
     "dm": 29.0,
-    "coa": 22.5,
+    "coa": 29.5,
     "fsd-ii": 0,
     "fsd2": 10.0,
     "python2": 13.5,
@@ -1997,7 +2049,7 @@ const data = [
     "sem3marks": 3.45,
     "sem3spi2": 6.9,
     "totalSum": 17.15,
-    "total": 96.0,
+    "total": 103.0,
     "dm2": 7.0,
     "coa2": 3.0,
     "toc2": 6.0,
@@ -2009,7 +2061,8 @@ const data = [
     "fsd23": 5.5,
     "python23": 1.0,
     "sem3spi": 6.0,
-    "dm4": 20.0
+    "dm4": 20.0,
+    "coa4": 14.0
   },
   {
     "roll": 194,
@@ -2025,7 +2078,7 @@ const data = [
     "dept": "SY4",
     "etc": 92,
     "dm": 56.75,
-    "coa": 45.0,
+    "coa": 59.0,
     "fsd-ii": 0,
     "fsd2": 44.0,
     "python2": 44.0,
@@ -2035,7 +2088,7 @@ const data = [
     "sem3marks": 5.225,
     "sem3spi2": 10.45,
     "totalSum": 22.88,
-    "total": 231.25,
+    "total": 245.25,
     "dm2": 12.0,
     "coa2": 12.0,
     "toc2": 14.0,
@@ -2047,7 +2100,8 @@ const data = [
     "fsd23": 14.5,
     "python23": 12.5,
     "sem3spi": 7.13,
-    "dm4": 33.5
+    "dm4": 33.5,
+    "coa4": 28.0
   },
   {
     "roll": 183,
@@ -2063,7 +2117,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 53.0,
-    "coa": 53.5,
+    "coa": 70.0,
     "fsd-ii": 0,
     "fsd2": 47.5,
     "python2": 52.0,
@@ -2073,7 +2127,7 @@ const data = [
     "sem3marks": 5.2,
     "sem3spi2": 10.4,
     "totalSum": 23.62,
-    "total": 257.5,
+    "total": 274.0,
     "dm2": 11.5,
     "coa2": 17.5,
     "toc2": 19.0,
@@ -2085,7 +2139,8 @@ const data = [
     "fsd23": 14.5,
     "python23": 17.5,
     "sem3spi": 6.96,
-    "dm4": 30.0
+    "dm4": 30.0,
+    "coa4": 33.0
   },
   {
     "roll": 260,
@@ -2101,7 +2156,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 45.75,
-    "coa": 45.5,
+    "coa": 49.5,
     "fsd-ii": 0,
     "fsd2": 35.5,
     "python2": 34.0,
@@ -2111,7 +2166,7 @@ const data = [
     "sem3marks": 3.875,
     "sem3spi2": 7.75,
     "totalSum": 17.7,
-    "total": 184.75,
+    "total": 188.75,
     "dm2": 11.5,
     "coa2": 13.5,
     "toc2": 8.0,
@@ -2123,7 +2178,8 @@ const data = [
     "fsd23": 15.5,
     "python23": 13.5,
     "sem3spi": 5.5,
-    "dm4": 32.5
+    "dm4": 32.5,
+    "coa4": 8.0
   },
   {
     "roll": 150,
@@ -2139,7 +2195,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 70.5,
-    "coa": 59.0,
+    "coa": 68.5,
     "fsd-ii": 0,
     "fsd2": 60.0,
     "python2": 58.0,
@@ -2149,7 +2205,7 @@ const data = [
     "sem3marks": 5.7,
     "sem3spi2": 11.4,
     "totalSum": 25.06,
-    "total": 291.0,
+    "total": 300.5,
     "dm2": 18.0,
     "coa2": 21.5,
     "toc2": 14.5,
@@ -2161,7 +2217,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 16.0,
     "sem3spi": 7.63,
-    "dm4": 46.0
+    "dm4": 46.0,
+    "coa4": 19.0
   },
   {
     "roll": 207,
@@ -2177,7 +2234,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 60.25,
-    "coa": 48.5,
+    "coa": 58.0,
     "fsd-ii": 0,
     "fsd2": 59.0,
     "python2": 49.5,
@@ -2187,7 +2244,7 @@ const data = [
     "sem3marks": 5.4,
     "sem3spi2": 10.8,
     "totalSum": 22.18,
-    "total": 257.25,
+    "total": 266.75,
     "dm2": 14.5,
     "coa2": 15.5,
     "toc2": 13.0,
@@ -2199,7 +2256,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 16.5,
     "sem3spi": 6.83,
-    "dm4": 33.5
+    "dm4": 33.5,
+    "coa4": 19.0
   },
   {
     "roll": 105,
@@ -2215,7 +2273,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 63.0,
-    "coa": 47.5,
+    "coa": 63.5,
     "fsd-ii": 0,
     "fsd2": 57.0,
     "python2": 51.5,
@@ -2225,7 +2283,7 @@ const data = [
     "sem3marks": 6.35,
     "sem3spi2": 12.7,
     "totalSum": 27.03,
-    "total": 264.0,
+    "total": 280.0,
     "dm2": 13.5,
     "coa2": 9.0,
     "toc2": 15.5,
@@ -2237,7 +2295,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 16.0,
     "sem3spi": 8.17,
-    "dm4": 35.0
+    "dm4": 35.0,
+    "coa4": 32.0
   },
   {
     "roll": 198,
@@ -2253,7 +2312,7 @@ const data = [
     "dept": "SY4",
     "etc": 90,
     "dm": 30.0,
-    "coa": 21.5,
+    "coa": 26.5,
     "fsd-ii": 0,
     "fsd2": 24.0,
     "python2": 22.0,
@@ -2263,7 +2322,7 @@ const data = [
     "sem3marks": 4.6,
     "sem3spi2": 9.2,
     "totalSum": 22.78,
-    "total": 117.5,
+    "total": 122.5,
     "dm2": 7.5,
     "coa2": 10.5,
     "toc2": 3.0,
@@ -2275,7 +2334,8 @@ const data = [
     "fsd23": 10.5,
     "python23": 10.0,
     "sem3spi": 6.58,
-    "dm4": 18.0
+    "dm4": 18.0,
+    "coa4": 10.0
   },
   {
     "roll": 114,
@@ -2291,7 +2351,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 66.25,
-    "coa": 47.5,
+    "coa": 59.5,
     "fsd-ii": 0,
     "fsd2": 51.5,
     "python2": 59.5,
@@ -2301,7 +2361,7 @@ const data = [
     "sem3marks": 6.475,
     "sem3spi2": 12.95,
     "totalSum": 26.65,
-    "total": 269.75,
+    "total": 281.75,
     "dm2": 18.0,
     "coa2": 13.5,
     "toc2": 17.5,
@@ -2313,7 +2373,8 @@ const data = [
     "fsd23": 14.5,
     "python23": 20.5,
     "sem3spi": 8.13,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 24.0
   },
   {
     "roll": 71,
@@ -2329,7 +2390,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 79.5,
-    "coa": 65.0,
+    "coa": 82.0,
     "fsd-ii": 0,
     "fsd2": 56.5,
     "python2": 51.5,
@@ -2339,7 +2400,7 @@ const data = [
     "sem3marks": 7,
     "sem3spi2": 14,
     "totalSum": 28.84,
-    "total": 306.0,
+    "total": 323.0,
     "dm2": 19.0,
     "coa2": 23.5,
     "toc2": 16.5,
@@ -2351,7 +2412,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 16.5,
     "sem3spi": 8.58,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 34.0
   },
   {
     "roll": 67,
@@ -2367,7 +2429,7 @@ const data = [
     "dept": "SY4",
     "etc": 94,
     "dm": 67.0,
-    "coa": 60.5,
+    "coa": 79.0,
     "fsd-ii": 0,
     "fsd2": 65.0,
     "python2": 52.0,
@@ -2377,7 +2439,7 @@ const data = [
     "sem3marks": 6.775,
     "sem3spi2": 13.55,
     "totalSum": 29.06,
-    "total": 298.0,
+    "total": 316.5,
     "dm2": 14.0,
     "coa2": 18.5,
     "toc2": 18.5,
@@ -2389,7 +2451,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 18.5,
     "sem3spi": 8.67,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 37.0
   },
   {
     "roll": 174,
@@ -2405,7 +2468,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 54.25,
-    "coa": 54.0,
+    "coa": 69.5,
     "fsd-ii": 0,
     "fsd2": 46.5,
     "python2": 40.5,
@@ -2415,7 +2478,7 @@ const data = [
     "sem3marks": 5.225,
     "sem3spi2": 10.45,
     "totalSum": 24.04,
-    "total": 229.75,
+    "total": 245.25,
     "dm2": 15.5,
     "coa2": 12.0,
     "toc2": 15.5,
@@ -2427,7 +2490,8 @@ const data = [
     "fsd23": 12.5,
     "python23": 12.5,
     "sem3spi": 7.13,
-    "dm4": 27.5
+    "dm4": 27.5,
+    "coa4": 31.0
   },
   {
     "roll": 179,
@@ -2443,7 +2507,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 64.0,
-    "coa": 58.0,
+    "coa": 75.5,
     "fsd-ii": 0,
     "fsd2": 46.5,
     "python2": 48.0,
@@ -2453,7 +2517,7 @@ const data = [
     "sem3marks": 5.4,
     "sem3spi2": 10.8,
     "totalSum": 23.85,
-    "total": 260.5,
+    "total": 278.0,
     "dm2": 15.5,
     "coa2": 20.0,
     "toc2": 15.5,
@@ -2465,7 +2529,8 @@ const data = [
     "fsd23": 17.5,
     "python23": 18.0,
     "sem3spi": 7.17,
-    "dm4": 43.0
+    "dm4": 43.0,
+    "coa4": 35.0
   },
   {
     "roll": 153,
@@ -2481,7 +2546,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 71.75,
-    "coa": 53.5,
+    "coa": 67.5,
     "fsd-ii": 0,
     "fsd2": 47.5,
     "python2": 59.0,
@@ -2491,7 +2556,7 @@ const data = [
     "sem3marks": 5.85,
     "sem3spi2": 11.7,
     "totalSum": 25.02,
-    "total": 284.25,
+    "total": 298.25,
     "dm2": 16.0,
     "coa2": 18.0,
     "toc2": 17.0,
@@ -2503,7 +2568,8 @@ const data = [
     "fsd23": 12.5,
     "python23": 18.5,
     "sem3spi": 7.5,
-    "dm4": 36.5
+    "dm4": 36.5,
+    "coa4": 28.0
   },
   {
     "roll": 120,
@@ -2519,7 +2585,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 64.5,
-    "coa": 43.5,
+    "coa": 56.0,
     "fsd-ii": 0,
     "fsd2": 51.5,
     "python2": 33.5,
@@ -2529,7 +2595,7 @@ const data = [
     "sem3marks": 5.375,
     "sem3spi2": 10.75,
     "totalSum": 26.31,
-    "total": 226.0,
+    "total": 238.5,
     "dm2": 17.0,
     "coa2": 16.5,
     "toc2": 14.5,
@@ -2541,7 +2607,8 @@ const data = [
     "fsd23": 15.5,
     "python23": 10.0,
     "sem3spi": 7.38,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 25.0
   },
   {
     "roll": 128,
@@ -2557,7 +2624,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 73.75,
-    "coa": 61.5,
+    "coa": 80.0,
     "fsd-ii": 0,
     "fsd2": 53.0,
     "python2": 53.5,
@@ -2567,7 +2634,7 @@ const data = [
     "sem3marks": 5.725,
     "sem3spi2": 11.45,
     "totalSum": 25.99,
-    "total": 294.25,
+    "total": 312.75,
     "dm2": 16.5,
     "coa2": 16.5,
     "toc2": 17.5,
@@ -2579,7 +2646,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 19.5,
     "sem3spi": 7.67,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 37.0
   },
   {
     "roll": 59,
@@ -2595,7 +2663,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 60.5,
-    "coa": 42.5,
+    "coa": 54.5,
     "fsd-ii": 0,
     "fsd2": 67.0,
     "python2": 51.5,
@@ -2605,7 +2673,7 @@ const data = [
     "sem3marks": 7.325,
     "sem3spi2": 14.65,
     "totalSum": 29.62,
-    "total": 255.5,
+    "total": 267.5,
     "dm2": 13.5,
     "coa2": 11.5,
     "toc2": 11.5,
@@ -2617,7 +2685,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 13.0,
     "sem3spi": 8.71,
-    "dm4": 29.0
+    "dm4": 29.0,
+    "coa4": 24.0
   },
   {
     "roll": 189,
@@ -2633,7 +2702,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 60.0,
-    "coa": 39.0,
+    "coa": 51.0,
     "fsd-ii": 0,
     "fsd2": 51.0,
     "python2": 43.5,
@@ -2643,7 +2712,7 @@ const data = [
     "sem3marks": 4.825,
     "sem3spi2": 9.65,
     "totalSum": 23.32,
-    "total": 227.5,
+    "total": 239.5,
     "dm2": 15.0,
     "coa2": 10.5,
     "toc2": 14.5,
@@ -2655,7 +2724,8 @@ const data = [
     "fsd23": 13.0,
     "python23": 15.0,
     "sem3spi": 6.96,
-    "dm4": 29.0
+    "dm4": 29.0,
+    "coa4": 24.0
   },
   {
     "roll": 256,
@@ -2671,7 +2741,7 @@ const data = [
     "dept": "SY4",
     "etc": 94,
     "dm": 55.5,
-    "coa": 36.0,
+    "coa": 43.5,
     "fsd-ii": 0,
     "fsd2": 33.5,
     "python2": 36.5,
@@ -2681,7 +2751,7 @@ const data = [
     "sem3marks": 4.175,
     "sem3spi2": 8.35,
     "totalSum": 18.38,
-    "total": 190.5,
+    "total": 198.0,
     "dm2": 10.5,
     "coa2": 8.5,
     "toc2": 6.5,
@@ -2693,7 +2763,8 @@ const data = [
     "fsd23": 13.5,
     "python23": 14.0,
     "sem3spi": 6.04,
-    "dm4": 31.0
+    "dm4": 31.0,
+    "coa4": 15.0
   },
   {
     "roll": 1,
@@ -2709,7 +2780,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 91.25,
-    "coa": 74.0,
+    "coa": 97.0,
     "fsd-ii": 0,
     "fsd2": 72.0,
     "python2": 72.5,
@@ -2719,7 +2790,7 @@ const data = [
     "sem3marks": 9.35,
     "sem3spi2": 18.7,
     "totalSum": 36.55,
-    "total": 382.75,
+    "total": 405.75,
     "dm2": 19.5,
     "coa2": 24.5,
     "toc2": 24.0,
@@ -2731,7 +2802,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 24.0,
     "sem3spi": 10.0,
-    "dm4": 47.5
+    "dm4": 47.5,
+    "coa4": 46.0
   },
   {
     "roll": 44,
@@ -2747,7 +2819,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 61.0,
-    "coa": 44.5,
+    "coa": 57.5,
     "fsd-ii": 0,
     "fsd2": 65.0,
     "python2": 54.0,
@@ -2757,7 +2829,7 @@ const data = [
     "sem3marks": 7.425,
     "sem3spi2": 14.85,
     "totalSum": 30.74,
-    "total": 281.0,
+    "total": 294.0,
     "dm2": 13.5,
     "coa2": 11.5,
     "toc2": 17.0,
@@ -2769,7 +2841,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 17.5,
     "sem3spi": 8.79,
-    "dm4": 30.0
+    "dm4": 30.0,
+    "coa4": 26.0
   },
   {
     "roll": 87,
@@ -2785,7 +2858,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 70.5,
-    "coa": 53.5,
+    "coa": 68.0,
     "fsd-ii": 0,
     "fsd2": 61.0,
     "python2": 57.5,
@@ -2795,7 +2868,7 @@ const data = [
     "sem3marks": 6.975,
     "sem3spi2": 13.95,
     "totalSum": 27.86,
-    "total": 290.5,
+    "total": 305.0,
     "dm2": 15.5,
     "coa2": 20.0,
     "toc2": 18.0,
@@ -2807,7 +2880,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 18.5,
     "sem3spi": 8.92,
-    "dm4": 34.0
+    "dm4": 34.0,
+    "coa4": 29.0
   },
   {
     "roll": 219,
@@ -2823,7 +2897,7 @@ const data = [
     "dept": "SY4",
     "etc": 90,
     "dm": 65.75,
-    "coa": 41.0,
+    "coa": 49.0,
     "fsd-ii": 0,
     "fsd2": 40.0,
     "python2": 35.0,
@@ -2833,7 +2907,7 @@ const data = [
     "sem3marks": 5.65,
     "sem3spi2": 11.3,
     "totalSum": 21.15,
-    "total": 223.25,
+    "total": 231.25,
     "dm2": 16.0,
     "coa2": 8.0,
     "toc2": 13.0,
@@ -2845,7 +2919,8 @@ const data = [
     "fsd23": 10.0,
     "python23": 14.0,
     "sem3spi": 7.38,
-    "dm4": 32.5
+    "dm4": 32.5,
+    "coa4": 16.0
   },
   {
     "roll": 141,
@@ -2861,7 +2936,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 66.5,
-    "coa": 45.0,
+    "coa": 58.5,
     "fsd-ii": 0,
     "fsd2": 57.0,
     "python2": 40.5,
@@ -2871,7 +2946,7 @@ const data = [
     "sem3marks": 5.775,
     "sem3spi2": 11.55,
     "totalSum": 25.5,
-    "total": 253.5,
+    "total": 267.0,
     "dm2": 18.5,
     "coa2": 18.0,
     "toc2": 13.5,
@@ -2883,7 +2958,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 8.0,
     "sem3spi": 6.83,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 27.0
   },
   {
     "roll": 148,
@@ -2899,7 +2975,7 @@ const data = [
     "dept": "SY4",
     "etc": 94,
     "dm": 65.0,
-    "coa": 49.0,
+    "coa": 60.5,
     "fsd-ii": 0,
     "fsd2": 48.0,
     "python2": 64.5,
@@ -2909,7 +2985,7 @@ const data = [
     "sem3marks": 5.925,
     "sem3spi2": 11.85,
     "totalSum": 25.2,
-    "total": 281.0,
+    "total": 292.5,
     "dm2": 16.0,
     "coa2": 17.5,
     "toc2": 20.5,
@@ -2921,7 +2997,8 @@ const data = [
     "fsd23": 10.0,
     "python23": 20.5,
     "sem3spi": 7.58,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 23.0
   },
   {
     "roll": 146,
@@ -2937,7 +3014,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 60.75,
-    "coa": 53.0,
+    "coa": 65.5,
     "fsd-ii": 0,
     "fsd2": 44.0,
     "python2": 51.0,
@@ -2947,7 +3024,7 @@ const data = [
     "sem3marks": 6.025,
     "sem3spi2": 12.05,
     "totalSum": 25.23,
-    "total": 255.75,
+    "total": 268.25,
     "dm2": 13.0,
     "coa2": 10.0,
     "toc2": 13.5,
@@ -2959,7 +3036,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 16.0,
     "sem3spi": 7.17,
-    "dm4": 27.5
+    "dm4": 27.5,
+    "coa4": 25.0
   },
   {
     "roll": 232,
@@ -2975,7 +3053,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 47.5,
-    "coa": 29.0,
+    "coa": 39.0,
     "fsd-ii": 0,
     "fsd2": 40.5,
     "python2": 38.0,
@@ -2985,7 +3063,7 @@ const data = [
     "sem3marks": 4.6,
     "sem3spi2": 9.2,
     "totalSum": 20.58,
-    "total": 186.0,
+    "total": 196.0,
     "dm2": 12.0,
     "coa2": 10.5,
     "toc2": 10.5,
@@ -2997,7 +3075,8 @@ const data = [
     "fsd23": 11.5,
     "python23": 12.0,
     "sem3spi": 6.38,
-    "dm4": 34.0
+    "dm4": 34.0,
+    "coa4": 20.0
   },
   {
     "roll": 110,
@@ -3013,7 +3092,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 64.5,
-    "coa": 54.5,
+    "coa": 71.0,
     "fsd-ii": 0,
     "fsd2": 66.5,
     "python2": 52.0,
@@ -3023,7 +3102,7 @@ const data = [
     "sem3marks": 6.3,
     "sem3spi2": 12.6,
     "totalSum": 26.84,
-    "total": 289.0,
+    "total": 305.5,
     "dm2": 18.0,
     "coa2": 20.5,
     "toc2": 17.0,
@@ -3035,7 +3114,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 14.5,
     "sem3spi": 7.92,
-    "dm4": 36.0
+    "dm4": 36.0,
+    "coa4": 33.0
   },
   {
     "roll": 218,
@@ -3051,7 +3131,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 49.75,
-    "coa": 55.0,
+    "coa": 64.0,
     "fsd-ii": 0,
     "fsd2": 47.0,
     "python2": 45.5,
@@ -3061,7 +3141,7 @@ const data = [
     "sem3marks": 4.825,
     "sem3spi2": 9.65,
     "totalSum": 21.23,
-    "total": 236.25,
+    "total": 245.25,
     "dm2": 8.5,
     "coa2": 19.0,
     "toc2": 13.5,
@@ -3073,7 +3153,8 @@ const data = [
     "fsd23": 16.0,
     "python23": 18.0,
     "sem3spi": 6.71,
-    "dm4": 32.5
+    "dm4": 32.5,
+    "coa4": 18.0
   },
   {
     "roll": 204,
@@ -3089,7 +3170,7 @@ const data = [
     "dept": "SY4",
     "etc": 88,
     "dm": 62.0,
-    "coa": 48.5,
+    "coa": 60.5,
     "fsd-ii": 0,
     "fsd2": 36.0,
     "python2": 39.0,
@@ -3099,7 +3180,7 @@ const data = [
     "sem3marks": 5.375,
     "sem3spi2": 10.75,
     "totalSum": 22.43,
-    "total": 239.0,
+    "total": 251.0,
     "dm2": 13.0,
     "coa2": 16.5,
     "toc2": 20.0,
@@ -3111,7 +3192,8 @@ const data = [
     "fsd23": 13.5,
     "python23": 10.0,
     "sem3spi": 6.42,
-    "dm4": 34.0
+    "dm4": 34.0,
+    "coa4": 24.0
   },
   {
     "roll": 122,
@@ -3127,7 +3209,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 70.25,
-    "coa": 54.0,
+    "coa": 72.0,
     "fsd-ii": 0,
     "fsd2": 62.5,
     "python2": 55.5,
@@ -3137,7 +3219,7 @@ const data = [
     "sem3marks": 6.55,
     "sem3spi2": 13.1,
     "totalSum": 26.2,
-    "total": 290.75,
+    "total": 308.75,
     "dm2": 16.5,
     "coa2": 15.5,
     "toc2": 12.5,
@@ -3149,7 +3231,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 19.5,
     "sem3spi": 8.04,
-    "dm4": 36.5
+    "dm4": 36.5,
+    "coa4": 36.0
   },
   {
     "roll": 279,
@@ -3165,7 +3248,7 @@ const data = [
     "dept": "SY4",
     "etc": 88,
     "dm": 42.5,
-    "coa": 29.0,
+    "coa": 35.0,
     "fsd-ii": 0,
     "fsd2": 26.5,
     "python2": 22.5,
@@ -3175,7 +3258,7 @@ const data = [
     "sem3marks": 2.8,
     "sem3spi2": 5.6,
     "totalSum": 14.8,
-    "total": 145.0,
+    "total": 151.0,
     "dm2": 9.5,
     "coa2": 2.0,
     "toc2": 8.0,
@@ -3187,7 +3270,8 @@ const data = [
     "fsd23": 7.5,
     "python23": 7.5,
     "sem3spi": 6.0,
-    "dm4": 30.0
+    "dm4": 30.0,
+    "coa4": 12.0
   },
   {
     "roll": 85,
@@ -3203,7 +3287,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 76.0,
-    "coa": 58.5,
+    "coa": 79.5,
     "fsd-ii": 0,
     "fsd2": 58.0,
     "python2": 55.5,
@@ -3213,7 +3297,7 @@ const data = [
     "sem3marks": 6.775,
     "sem3spi2": 13.55,
     "totalSum": 27.91,
-    "total": 302.5,
+    "total": 323.5,
     "dm2": 19.0,
     "coa2": 17.5,
     "toc2": 18.0,
@@ -3225,7 +3309,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 17.5,
     "sem3spi": 8.46,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 42.0
   },
   {
     "roll": 11,
@@ -3241,7 +3326,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 86.5,
-    "coa": 71.0,
+    "coa": 91.5,
     "fsd-ii": 0,
     "fsd2": 69.0,
     "python2": 69.5,
@@ -3251,7 +3336,7 @@ const data = [
     "sem3marks": 8.525,
     "sem3spi2": 17.05,
     "totalSum": 33.87,
-    "total": 358.0,
+    "total": 378.5,
     "dm2": 19.0,
     "coa2": 21.0,
     "toc2": 22.0,
@@ -3263,7 +3348,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 23.0,
     "sem3spi": 9.25,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 41.0
   },
   {
     "roll": 72,
@@ -3279,7 +3365,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 66.25,
-    "coa": 52.0,
+    "coa": 64.5,
     "fsd-ii": 0,
     "fsd2": 63.5,
     "python2": 62.0,
@@ -3289,7 +3375,7 @@ const data = [
     "sem3marks": 7.075,
     "sem3spi2": 14.15,
     "totalSum": 28.77,
-    "total": 297.75,
+    "total": 310.25,
     "dm2": 18.0,
     "coa2": 15.5,
     "toc2": 19.5,
@@ -3301,7 +3387,8 @@ const data = [
     "fsd23": 21.5,
     "python23": 20.5,
     "sem3spi": 8.88,
-    "dm4": 24.5
+    "dm4": 24.5,
+    "coa4": 25.0
   },
   {
     "roll": 154,
@@ -3317,7 +3404,7 @@ const data = [
     "dept": "SY4",
     "etc": 86,
     "dm": 56.25,
-    "coa": 50.5,
+    "coa": 58.5,
     "fsd-ii": 0,
     "fsd2": 37.5,
     "python2": 42.5,
@@ -3327,7 +3414,7 @@ const data = [
     "sem3marks": 5.35,
     "sem3spi2": 10.7,
     "totalSum": 24.97,
-    "total": 237.25,
+    "total": 245.25,
     "dm2": 13.0,
     "coa2": 18.5,
     "toc2": 15.5,
@@ -3339,7 +3426,8 @@ const data = [
     "fsd23": 15.0,
     "python23": 12.5,
     "sem3spi": 7.58,
-    "dm4": 30.5
+    "dm4": 30.5,
+    "coa4": 16.0
   },
   {
     "roll": 79,
@@ -3355,7 +3443,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 77.0,
-    "coa": 64.0,
+    "coa": 78.5,
     "fsd-ii": 0,
     "fsd2": 64.0,
     "python2": 63.5,
@@ -3365,7 +3453,7 @@ const data = [
     "sem3marks": 6.65,
     "sem3spi2": 13.3,
     "totalSum": 28.39,
-    "total": 335.0,
+    "total": 349.5,
     "dm2": 19.0,
     "coa2": 19.5,
     "toc2": 22.5,
@@ -3377,7 +3465,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 19.0,
     "sem3spi": 8.5,
-    "dm4": 35.0
+    "dm4": 35.0,
+    "coa4": 29.0
   },
   {
     "roll": 143,
@@ -3415,7 +3504,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 17.0,
     "sem3spi": 7.79,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 0.0
   },
   {
     "roll": 196,
@@ -3431,7 +3521,7 @@ const data = [
     "dept": "SY4",
     "etc": 92,
     "dm": 57.5,
-    "coa": 44.5,
+    "coa": 51.0,
     "fsd-ii": 0,
     "fsd2": 36.0,
     "python2": 33.5,
@@ -3441,7 +3531,7 @@ const data = [
     "sem3marks": 4.775,
     "sem3spi2": 9.55,
     "totalSum": 22.79,
-    "total": 215.0,
+    "total": 221.5,
     "dm2": 14.5,
     "coa2": 15.0,
     "toc2": 15.0,
@@ -3453,7 +3543,8 @@ const data = [
     "fsd23": 15.0,
     "python23": 11.5,
     "sem3spi": 6.38,
-    "dm4": 26.0
+    "dm4": 26.0,
+    "coa4": 13.0
   },
   {
     "roll": 175,
@@ -3469,7 +3560,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 66.5,
-    "coa": 52.5,
+    "coa": 70.5,
     "fsd-ii": 0,
     "fsd2": 49.0,
     "python2": 47.5,
@@ -3479,7 +3570,7 @@ const data = [
     "sem3marks": 4.95,
     "sem3spi2": 9.9,
     "totalSum": 24.04,
-    "total": 267.0,
+    "total": 285.0,
     "dm2": 11.5,
     "coa2": 9.5,
     "toc2": 20.0,
@@ -3491,7 +3582,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 18.5,
     "sem3spi": 6.71,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 36.0
   },
   {
     "roll": 171,
@@ -3507,7 +3599,7 @@ const data = [
     "dept": "SY4",
     "etc": 94,
     "dm": 54.0,
-    "coa": 52.0,
+    "coa": 60.0,
     "fsd-ii": 0,
     "fsd2": 51.5,
     "python2": 46.5,
@@ -3517,7 +3609,7 @@ const data = [
     "sem3marks": 5.45,
     "sem3spi2": 10.9,
     "totalSum": 24.14,
-    "total": 255.5,
+    "total": 263.5,
     "dm2": 11.5,
     "coa2": 15.0,
     "toc2": 18.5,
@@ -3529,7 +3621,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 12.0,
     "sem3spi": 7.25,
-    "dm4": 31.0
+    "dm4": 31.0,
+    "coa4": 16.0
   },
   {
     "roll": 259,
@@ -3545,7 +3638,7 @@ const data = [
     "dept": "SY4",
     "etc": 84,
     "dm": 42.0,
-    "coa": 38.5,
+    "coa": 46.0,
     "fsd-ii": 0,
     "fsd2": 34.5,
     "python2": 35.0,
@@ -3555,7 +3648,7 @@ const data = [
     "sem3marks": 4.025,
     "sem3spi2": 8.05,
     "totalSum": 18.29,
-    "total": 196.5,
+    "total": 204.0,
     "dm2": 11.0,
     "coa2": 8.5,
     "toc2": 19.5,
@@ -3567,7 +3660,8 @@ const data = [
     "fsd23": 11.5,
     "python23": 13.0,
     "sem3spi": 5.75,
-    "dm4": 23.0
+    "dm4": 23.0,
+    "coa4": 15.0
   },
   {
     "roll": 166,
@@ -3583,7 +3677,7 @@ const data = [
     "dept": "SY4",
     "etc": 94,
     "dm": 57.5,
-    "coa": 50.0,
+    "coa": 63.5,
     "fsd-ii": 0,
     "fsd2": 48.0,
     "python2": 42.0,
@@ -3593,7 +3687,7 @@ const data = [
     "sem3marks": 5.275,
     "sem3spi2": 10.55,
     "totalSum": 24.43,
-    "total": 242.0,
+    "total": 255.5,
     "dm2": 10.0,
     "coa2": 15.0,
     "toc2": 16.0,
@@ -3605,7 +3699,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 12.5,
     "sem3spi": 6.96,
-    "dm4": 36.0
+    "dm4": 36.0,
+    "coa4": 27.0
   },
   {
     "roll": 76,
@@ -3621,7 +3716,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 61.75,
-    "coa": 61.5,
+    "coa": 73.0,
     "fsd-ii": 0,
     "fsd2": 44.5,
     "python2": 43.5,
@@ -3631,7 +3726,7 @@ const data = [
     "sem3marks": 6.475,
     "sem3spi2": 12.95,
     "totalSum": 28.52,
-    "total": 253.75,
+    "total": 265.25,
     "dm2": 15.0,
     "coa2": 22.0,
     "toc2": 20.5,
@@ -3643,7 +3738,8 @@ const data = [
     "fsd23": 10.5,
     "python23": 11.0,
     "sem3spi": 8.29,
-    "dm4": 30.5
+    "dm4": 30.5,
+    "coa4": 23.0
   },
   {
     "roll": 45,
@@ -3659,7 +3755,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 67.25,
-    "coa": 49.5,
+    "coa": 64.0,
     "fsd-ii": 0,
     "fsd2": 67.5,
     "python2": 60.5,
@@ -3669,7 +3765,7 @@ const data = [
     "sem3marks": 7.35,
     "sem3spi2": 14.7,
     "totalSum": 30.73,
-    "total": 295.75,
+    "total": 310.25,
     "dm2": 16.5,
     "coa2": 15.0,
     "toc2": 21.0,
@@ -3681,7 +3777,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 22.0,
     "sem3spi": 9.0,
-    "dm4": 32.5
+    "dm4": 32.5,
+    "coa4": 29.0
   },
   {
     "roll": 233,
@@ -3697,7 +3794,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 59.75,
-    "coa": 47.5,
+    "coa": 56.0,
     "fsd-ii": 0,
     "fsd2": 31.0,
     "python2": 37.0,
@@ -3707,7 +3804,7 @@ const data = [
     "sem3marks": 4.1,
     "sem3spi2": 8.2,
     "totalSum": 20.5,
-    "total": 214.75,
+    "total": 223.25,
     "dm2": 15.0,
     "coa2": 14.0,
     "toc2": 14.5,
@@ -3719,7 +3816,8 @@ const data = [
     "fsd23": 12.5,
     "python23": 14.0,
     "sem3spi": 6.0,
-    "dm4": 34.5
+    "dm4": 34.5,
+    "coa4": 17.0
   },
   {
     "roll": 215,
@@ -3735,7 +3833,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 57.25,
-    "coa": 39.0,
+    "coa": 49.0,
     "fsd-ii": 0,
     "fsd2": 35.5,
     "python2": 40.5,
@@ -3745,7 +3843,7 @@ const data = [
     "sem3marks": 4.75,
     "sem3spi2": 9.5,
     "totalSum": 21.52,
-    "total": 216.25,
+    "total": 226.25,
     "dm2": 14.0,
     "coa2": 8.5,
     "toc2": 14.5,
@@ -3757,7 +3855,8 @@ const data = [
     "fsd23": 11.5,
     "python23": 18.0,
     "sem3spi": 7.08,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 20.0
   },
   {
     "roll": 264,
@@ -3773,7 +3872,7 @@ const data = [
     "dept": "SY4",
     "etc": 88,
     "dm": 53.5,
-    "coa": 41.5,
+    "coa": 49.5,
     "fsd-ii": 0,
     "fsd2": 35.0,
     "python2": 41.0,
@@ -3783,7 +3882,7 @@ const data = [
     "sem3marks": 4.525,
     "sem3spi2": 9.05,
     "totalSum": 17.15,
-    "total": 211.5,
+    "total": 219.5,
     "dm2": 14.0,
     "coa2": 12.5,
     "toc2": 14.0,
@@ -3795,7 +3894,8 @@ const data = [
     "fsd23": 17.0,
     "python23": 10.0,
     "sem3spi": 6.29,
-    "dm4": 30.0
+    "dm4": 30.0,
+    "coa4": 16.0
   },
   {
     "roll": 246,
@@ -3811,7 +3911,7 @@ const data = [
     "dept": "SY4",
     "etc": 90,
     "dm": 37.5,
-    "coa": 37.5,
+    "coa": 44.0,
     "fsd-ii": 0,
     "fsd2": 22.0,
     "python2": 26.0,
@@ -3821,7 +3921,7 @@ const data = [
     "sem3marks": 4.05,
     "sem3spi2": 8.1,
     "totalSum": 19.17,
-    "total": 149.5,
+    "total": 156.0,
     "dm2": 6.0,
     "coa2": 12.5,
     "toc2": 14.5,
@@ -3833,7 +3933,8 @@ const data = [
     "fsd23": 11.5,
     "python23": 13.0,
     "sem3spi": 5.58,
-    "dm4": 24.0
+    "dm4": 24.0,
+    "coa4": 13.0
   },
   {
     "roll": 139,
@@ -3849,7 +3950,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 66.75,
-    "coa": 58.5,
+    "coa": 75.0,
     "fsd-ii": 0,
     "fsd2": 53.0,
     "python2": 60.0,
@@ -3859,7 +3960,7 @@ const data = [
     "sem3marks": 6.375,
     "sem3spi2": 12.75,
     "totalSum": 25.6,
-    "total": 295.25,
+    "total": 311.75,
     "dm2": 12.0,
     "coa2": 18.5,
     "toc2": 19.5,
@@ -3871,7 +3972,8 @@ const data = [
     "fsd23": 20.5,
     "python23": 20.5,
     "sem3spi": 7.63,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 33.0
   },
   {
     "roll": 84,
@@ -3887,7 +3989,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 89.5,
-    "coa": 66.5,
+    "coa": 87.5,
     "fsd-ii": 0,
     "fsd2": 62.0,
     "python2": 64.0,
@@ -3897,7 +3999,7 @@ const data = [
     "sem3marks": 7.25,
     "sem3spi2": 14.5,
     "totalSum": 28.08,
-    "total": 336.5,
+    "total": 357.5,
     "dm2": 21.5,
     "coa2": 22.5,
     "toc2": 21.5,
@@ -3909,7 +4011,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 20.0,
     "sem3spi": 9.13,
-    "dm4": 43.0
+    "dm4": 43.0,
+    "coa4": 42.0
   },
   {
     "roll": 130,
@@ -3925,7 +4028,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 81.0,
-    "coa": 68.0,
+    "coa": 84.0,
     "fsd-ii": 0,
     "fsd2": 53.0,
     "python2": 49.5,
@@ -3935,7 +4038,7 @@ const data = [
     "sem3marks": 6.275,
     "sem3spi2": 12.55,
     "totalSum": 25.94,
-    "total": 309.0,
+    "total": 325.0,
     "dm2": 19.5,
     "coa2": 21.0,
     "toc2": 19.0,
@@ -3947,7 +4050,8 @@ const data = [
     "fsd23": 21.5,
     "python23": 12.5,
     "sem3spi": 8.17,
-    "dm4": 43.0
+    "dm4": 43.0,
+    "coa4": 32.0
   },
   {
     "roll": 284,
@@ -3963,7 +4067,7 @@ const data = [
     "dept": "SY4",
     "etc": 80,
     "dm": 20.75,
-    "coa": 17.5,
+    "coa": 19.5,
     "fsd-ii": 0,
     "fsd2": 5.0,
     "python2": 10.5,
@@ -3973,7 +4077,7 @@ const data = [
     "sem3marks": 2.05,
     "sem3spi2": 4.1,
     "totalSum": 13.56,
-    "total": 73.75,
+    "total": 75.75,
     "dm2": 5.0,
     "coa2": 7.5,
     "toc2": 5.5,
@@ -3985,7 +4089,8 @@ const data = [
     "fsd23": 1.0,
     "python23": 2.0,
     "sem3spi": 4.63,
-    "dm4": 18.5
+    "dm4": 18.5,
+    "coa4": 4.0
   },
   {
     "roll": 235,
@@ -4001,7 +4106,7 @@ const data = [
     "dept": "SY4",
     "etc": 90,
     "dm": 61.75,
-    "coa": 46.5,
+    "coa": 55.0,
     "fsd-ii": 0,
     "fsd2": 50.5,
     "python2": 35.0,
@@ -4011,7 +4116,7 @@ const data = [
     "sem3marks": 4.475,
     "sem3spi2": 8.95,
     "totalSum": 20.28,
-    "total": 238.75,
+    "total": 247.25,
     "dm2": 13.5,
     "coa2": 12.0,
     "toc2": 15.5,
@@ -4023,7 +4128,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 11.0,
     "sem3spi": 6.46,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 17.0
   },
   {
     "roll": 187,
@@ -4039,7 +4145,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 67.5,
-    "coa": 40.5,
+    "coa": 53.5,
     "fsd-ii": 0,
     "fsd2": 54.0,
     "python2": 49.0,
@@ -4049,7 +4155,7 @@ const data = [
     "sem3marks": 5.575,
     "sem3spi2": 11.15,
     "totalSum": 23.36,
-    "total": 247.5,
+    "total": 260.5,
     "dm2": 14.0,
     "coa2": 16.0,
     "toc2": 17.0,
@@ -4061,7 +4167,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 18.0,
     "sem3spi": 6.58,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 26.0
   },
   {
     "roll": 176,
@@ -4077,7 +4184,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 74.0,
-    "coa": 58.0,
+    "coa": 75.5,
     "fsd-ii": 0,
     "fsd2": 37.5,
     "python2": 40.5,
@@ -4087,7 +4194,7 @@ const data = [
     "sem3marks": 5.725,
     "sem3spi2": 11.45,
     "totalSum": 24.04,
-    "total": 259.5,
+    "total": 277.0,
     "dm2": 12.5,
     "coa2": 21.0,
     "toc2": 18.0,
@@ -4099,7 +4206,8 @@ const data = [
     "fsd23": 15.0,
     "python23": 13.0,
     "sem3spi": 7.5,
-    "dm4": 42.0
+    "dm4": 42.0,
+    "coa4": 35.0
   },
   {
     "roll": 203,
@@ -4115,7 +4223,7 @@ const data = [
     "dept": "SY4",
     "etc": 90,
     "dm": 59.0,
-    "coa": 49.5,
+    "coa": 60.0,
     "fsd-ii": 0,
     "fsd2": 30.5,
     "python2": 34.0,
@@ -4125,7 +4233,7 @@ const data = [
     "sem3marks": 5.025,
     "sem3spi2": 10.05,
     "totalSum": 22.53,
-    "total": 223.5,
+    "total": 234.0,
     "dm2": 12.5,
     "coa2": 19.0,
     "toc2": 16.5,
@@ -4137,7 +4245,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 10.5,
     "sem3spi": 6.63,
-    "dm4": 30.0
+    "dm4": 30.0,
+    "coa4": 21.0
   },
   {
     "roll": 55,
@@ -4153,7 +4262,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 79.25,
-    "coa": 59.0,
+    "coa": 74.5,
     "fsd-ii": 0,
     "fsd2": 58.0,
     "python2": 57.5,
@@ -4163,7 +4272,7 @@ const data = [
     "sem3marks": 6.775,
     "sem3spi2": 13.55,
     "totalSum": 29.81,
-    "total": 311.75,
+    "total": 327.25,
     "dm2": 13.0,
     "coa2": 20.0,
     "toc2": 20.0,
@@ -4175,7 +4284,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 18.0,
     "sem3spi": 8.54,
-    "dm4": 41.5
+    "dm4": 41.5,
+    "coa4": 31.0
   },
   {
     "roll": 107,
@@ -4191,7 +4301,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 71.5,
-    "coa": 62.0,
+    "coa": 73.5,
     "fsd-ii": 0,
     "fsd2": 62.5,
     "python2": 58.5,
@@ -4201,7 +4311,7 @@ const data = [
     "sem3marks": 6.6,
     "sem3spi2": 13.2,
     "totalSum": 26.92,
-    "total": 300.5,
+    "total": 312.0,
     "dm2": 17.5,
     "coa2": 20.0,
     "toc2": 18.0,
@@ -4213,7 +4323,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 21.0,
     "sem3spi": 8.46,
-    "dm4": 35.0
+    "dm4": 35.0,
+    "coa4": 23.0
   },
   {
     "roll": 254,
@@ -4229,7 +4340,7 @@ const data = [
     "dept": "SY4",
     "etc": 88,
     "dm": 61.75,
-    "coa": 42.0,
+    "coa": 55.5,
     "fsd-ii": 0,
     "fsd2": 51.5,
     "python2": 42.5,
@@ -4239,7 +4350,7 @@ const data = [
     "sem3marks": 4.875,
     "sem3spi2": 9.75,
     "totalSum": 18.49,
-    "total": 234.25,
+    "total": 247.75,
     "dm2": 14.0,
     "coa2": 17.0,
     "toc2": 14.0,
@@ -4251,7 +4362,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 17.0,
     "sem3spi": 6.33,
-    "dm4": 25.5
+    "dm4": 25.5,
+    "coa4": 27.0
   },
   {
     "roll": 201,
@@ -4267,7 +4379,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 62.5,
-    "coa": 62.5,
+    "coa": 78.0,
     "fsd-ii": 0,
     "fsd2": 56.0,
     "python2": 48.0,
@@ -4277,7 +4389,7 @@ const data = [
     "sem3marks": 5.125,
     "sem3spi2": 10.25,
     "totalSum": 22.66,
-    "total": 268.0,
+    "total": 283.5,
     "dm2": 15.5,
     "coa2": 22.5,
     "toc2": 19.5,
@@ -4289,7 +4401,8 @@ const data = [
     "fsd23": 20.5,
     "python23": 19.0,
     "sem3spi": 6.17,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 31.0
   },
   {
     "roll": 222,
@@ -4305,7 +4418,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 58.5,
-    "coa": 49.0,
+    "coa": 67.0,
     "fsd-ii": 0,
     "fsd2": 38.0,
     "python2": 37.5,
@@ -4315,7 +4428,7 @@ const data = [
     "sem3marks": 5.025,
     "sem3spi2": 10.05,
     "totalSum": 20.99,
-    "total": 230.0,
+    "total": 248.0,
     "dm2": 13.0,
     "coa2": 10.5,
     "toc2": 20.0,
@@ -4327,7 +4440,8 @@ const data = [
     "fsd23": 13.0,
     "python23": 13.0,
     "sem3spi": 6.54,
-    "dm4": 35.0
+    "dm4": 35.0,
+    "coa4": 36.0
   },
   {
     "roll": 62,
@@ -4343,7 +4457,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 81.75,
-    "coa": 64.5,
+    "coa": 83.0,
     "fsd-ii": 0,
     "fsd2": 65.0,
     "python2": 55.5,
@@ -4353,7 +4467,7 @@ const data = [
     "sem3marks": 6.8,
     "sem3spi2": 13.6,
     "totalSum": 29.32,
-    "total": 317.25,
+    "total": 335.75,
     "dm2": 19.0,
     "coa2": 22.5,
     "toc2": 22.0,
@@ -4365,7 +4479,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 19.5,
     "sem3spi": 8.08,
-    "dm4": 33.5
+    "dm4": 33.5,
+    "coa4": 37.0
   },
   {
     "roll": 46,
@@ -4381,7 +4496,7 @@ const data = [
     "dept": "SY4",
     "etc": 94,
     "dm": 81.0,
-    "coa": 70.5,
+    "coa": 88.5,
     "fsd-ii": 0,
     "fsd2": 66.5,
     "python2": 56.0,
@@ -4391,7 +4506,7 @@ const data = [
     "sem3marks": 7.35,
     "sem3spi2": 14.7,
     "totalSum": 30.63,
-    "total": 332.5,
+    "total": 350.5,
     "dm2": 18.5,
     "coa2": 24.5,
     "toc2": 22.0,
@@ -4403,7 +4518,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 20.5,
     "sem3spi": 8.5,
-    "dm4": 42.0
+    "dm4": 42.0,
+    "coa4": 36.0
   },
   {
     "roll": 172,
@@ -4419,7 +4535,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 62.5,
-    "coa": 59.0,
+    "coa": 73.5,
     "fsd-ii": 0,
     "fsd2": 49.0,
     "python2": 47.5,
@@ -4429,7 +4545,7 @@ const data = [
     "sem3marks": 5.8,
     "sem3spi2": 11.6,
     "totalSum": 24.08,
-    "total": 256.5,
+    "total": 271.0,
     "dm2": 16.5,
     "coa2": 20.0,
     "toc2": 14.0,
@@ -4441,7 +4557,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 19.0,
     "sem3spi": 6.88,
-    "dm4": 31.0
+    "dm4": 31.0,
+    "coa4": 29.0
   },
   {
     "roll": 93,
@@ -4457,7 +4574,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 78.5,
-    "coa": 61.5,
+    "coa": 79.0,
     "fsd-ii": 0,
     "fsd2": 59.0,
     "python2": 54.0,
@@ -4467,7 +4584,7 @@ const data = [
     "sem3marks": 6.625,
     "sem3spi2": 13.25,
     "totalSum": 27.4,
-    "total": 306.0,
+    "total": 323.5,
     "dm2": 20.5,
     "coa2": 18.0,
     "toc2": 21.0,
@@ -4479,7 +4596,8 @@ const data = [
     "fsd23": 20.5,
     "python23": 17.0,
     "sem3spi": 8.5,
-    "dm4": 44.0
+    "dm4": 44.0,
+    "coa4": 35.0
   },
   {
     "roll": 73,
@@ -4495,7 +4613,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 88.25,
-    "coa": 70.0,
+    "coa": 87.5,
     "fsd-ii": 0,
     "fsd2": 63.0,
     "python2": 60.5,
@@ -4505,7 +4623,7 @@ const data = [
     "sem3marks": 6.775,
     "sem3spi2": 13.55,
     "totalSum": 28.72,
-    "total": 341.25,
+    "total": 358.75,
     "dm2": 23.5,
     "coa2": 25.0,
     "toc2": 24.0,
@@ -4517,7 +4635,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 17.5,
     "sem3spi": 8.58,
-    "dm4": 43.5
+    "dm4": 43.5,
+    "coa4": 35.0
   },
   {
     "roll": 21,
@@ -4533,7 +4652,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 80.75,
-    "coa": 67.0,
+    "coa": 88.0,
     "fsd-ii": 0,
     "fsd2": 67.5,
     "python2": 66.0,
@@ -4543,7 +4662,7 @@ const data = [
     "sem3marks": 7.925,
     "sem3spi2": 15.85,
     "totalSum": 32.36,
-    "total": 343.75,
+    "total": 364.75,
     "dm2": 20.5,
     "coa2": 23.0,
     "toc2": 24.0,
@@ -4555,7 +4674,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 23.0,
     "sem3spi": 9.33,
-    "dm4": 36.5
+    "dm4": 36.5,
+    "coa4": 42.0
   },
   {
     "roll": 86,
@@ -4571,7 +4691,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 78.5,
-    "coa": 70.5,
+    "coa": 89.0,
     "fsd-ii": 0,
     "fsd2": 65.0,
     "python2": 65.5,
@@ -4581,7 +4701,7 @@ const data = [
     "sem3marks": 7.4,
     "sem3spi2": 14.8,
     "totalSum": 27.91,
-    "total": 327.5,
+    "total": 346.0,
     "dm2": 23.5,
     "coa2": 24.0,
     "toc2": 18.0,
@@ -4593,7 +4713,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 22.5,
     "sem3spi": 9.0,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 37.0
   },
   {
     "roll": 177,
@@ -4609,7 +4730,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 49.5,
-    "coa": 51.0,
+    "coa": 62.5,
     "fsd-ii": 0,
     "fsd2": 44.5,
     "python2": 44.5,
@@ -4619,7 +4740,7 @@ const data = [
     "sem3marks": 5.625,
     "sem3spi2": 11.25,
     "totalSum": 24.03,
-    "total": 225.5,
+    "total": 237.0,
     "dm2": 15.5,
     "coa2": 16.0,
     "toc2": 17.5,
@@ -4631,7 +4752,8 @@ const data = [
     "fsd23": 11.5,
     "python23": 12.0,
     "sem3spi": 6.79,
-    "dm4": 19.0
+    "dm4": 19.0,
+    "coa4": 23.0
   },
   {
     "roll": 227,
@@ -4647,7 +4769,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 49.0,
-    "coa": 48.0,
+    "coa": 58.5,
     "fsd-ii": 0,
     "fsd2": 41.0,
     "python2": 36.0,
@@ -4657,7 +4779,7 @@ const data = [
     "sem3marks": 4.65,
     "sem3spi2": 9.3,
     "totalSum": 20.9,
-    "total": 214.5,
+    "total": 225.0,
     "dm2": 15.5,
     "coa2": 13.5,
     "toc2": 16.5,
@@ -4669,7 +4791,8 @@ const data = [
     "fsd23": 17.0,
     "python23": 11.0,
     "sem3spi": 6.29,
-    "dm4": 21.0
+    "dm4": 21.0,
+    "coa4": 21.0
   },
   {
     "roll": 228,
@@ -4685,7 +4808,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 52.25,
-    "coa": 31.0,
+    "coa": 38.0,
     "fsd-ii": 0,
     "fsd2": 34.0,
     "python2": 30.0,
@@ -4695,7 +4818,7 @@ const data = [
     "sem3marks": 4.625,
     "sem3spi2": 9.25,
     "totalSum": 20.85,
-    "total": 172.75,
+    "total": 179.75,
     "dm2": 15.0,
     "coa2": 8.0,
     "toc2": 13.5,
@@ -4707,7 +4830,8 @@ const data = [
     "fsd23": 13.5,
     "python23": 11.5,
     "sem3spi": 6.29,
-    "dm4": 25.5
+    "dm4": 25.5,
+    "coa4": 14.0
   },
   {
     "roll": 64,
@@ -4723,7 +4847,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 74.0,
-    "coa": 52.0,
+    "coa": 74.0,
     "fsd-ii": 0,
     "fsd2": 58.5,
     "python2": 48.5,
@@ -4733,7 +4857,7 @@ const data = [
     "sem3marks": 7.025,
     "sem3spi2": 14.05,
     "totalSum": 29.25,
-    "total": 278.0,
+    "total": 300.0,
     "dm2": 18.0,
     "coa2": 16.0,
     "toc2": 15.5,
@@ -4745,7 +4869,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 16.0,
     "sem3spi": 8.5,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 44.0
   },
   {
     "roll": 40,
@@ -4761,7 +4886,7 @@ const data = [
     "dept": "SY4",
     "etc": 52,
     "dm": 79.25,
-    "coa": 65.5,
+    "coa": 84.0,
     "fsd-ii": 0,
     "fsd2": 65.5,
     "python2": 60.0,
@@ -4771,7 +4896,7 @@ const data = [
     "sem3marks": 7.725,
     "sem3spi2": 15.45,
     "totalSum": 31.24,
-    "total": 326.75,
+    "total": 345.25,
     "dm2": 16.5,
     "coa2": 19.0,
     "toc2": 23.0,
@@ -4783,7 +4908,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 21.0,
     "sem3spi": 8.54,
-    "dm4": 42.5
+    "dm4": 42.5,
+    "coa4": 37.0
   },
   {
     "roll": 202,
@@ -4799,7 +4925,7 @@ const data = [
     "dept": "SY4",
     "etc": 88,
     "dm": 65.75,
-    "coa": 52.0,
+    "coa": 61.5,
     "fsd-ii": 0,
     "fsd2": 48.0,
     "python2": 34.0,
@@ -4809,7 +4935,7 @@ const data = [
     "sem3marks": 5.225,
     "sem3spi2": 10.45,
     "totalSum": 22.64,
-    "total": 237.25,
+    "total": 246.75,
     "dm2": 15.5,
     "coa2": 17.5,
     "toc2": 16.5,
@@ -4821,7 +4947,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 10.5,
     "sem3spi": 6.79,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 19.0
   },
   {
     "roll": 80,
@@ -4837,7 +4964,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 91.5,
-    "coa": 73.0,
+    "coa": 96.0,
     "fsd-ii": 0,
     "fsd2": 63.5,
     "python2": 59.0,
@@ -4847,7 +4974,7 @@ const data = [
     "sem3marks": 6.875,
     "sem3spi2": 13.75,
     "totalSum": 28.35,
-    "total": 348.5,
+    "total": 371.5,
     "dm2": 21.5,
     "coa2": 24.0,
     "toc2": 22.0,
@@ -4859,7 +4986,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 16.5,
     "sem3spi": 8.75,
-    "dm4": 44.0
+    "dm4": 44.0,
+    "coa4": 46.0
   },
   {
     "roll": 156,
@@ -4875,7 +5003,7 @@ const data = [
     "dept": "SY4",
     "etc": 94,
     "dm": 55.5,
-    "coa": 56.5,
+    "coa": 70.0,
     "fsd-ii": 0,
     "fsd2": 48.5,
     "python2": 57.0,
@@ -4885,7 +5013,7 @@ const data = [
     "sem3marks": 5.675,
     "sem3spi2": 11.35,
     "totalSum": 24.92,
-    "total": 258.0,
+    "total": 271.5,
     "dm2": 15.0,
     "coa2": 20.0,
     "toc2": 11.0,
@@ -4897,7 +5025,8 @@ const data = [
     "fsd23": 18.5,
     "python23": 17.0,
     "sem3spi": 7.54,
-    "dm4": 35.0
+    "dm4": 35.0,
+    "coa4": 27.0
   },
   {
     "roll": 36,
@@ -4913,7 +5042,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 77.75,
-    "coa": 42.5,
+    "coa": 59.0,
     "fsd-ii": 0,
     "fsd2": 60.5,
     "python2": 60.0,
@@ -4923,7 +5052,7 @@ const data = [
     "sem3marks": 8,
     "sem3spi2": 16,
     "totalSum": 31.54,
-    "total": 300.75,
+    "total": 317.25,
     "dm2": 20.0,
     "coa2": 12.5,
     "toc2": 22.0,
@@ -4935,7 +5064,8 @@ const data = [
     "fsd23": 17.0,
     "python23": 19.0,
     "sem3spi": 8.96,
-    "dm4": 40.5
+    "dm4": 40.5,
+    "coa4": 33.0
   },
   {
     "roll": 165,
@@ -4951,7 +5081,7 @@ const data = [
     "dept": "SY4",
     "etc": 94,
     "dm": 74.75,
-    "coa": 50.5,
+    "coa": 58.5,
     "fsd-ii": 0,
     "fsd2": 42.0,
     "python2": 42.0,
@@ -4961,7 +5091,7 @@ const data = [
     "sem3marks": 5.875,
     "sem3spi2": 11.75,
     "totalSum": 24.51,
-    "total": 258.25,
+    "total": 266.25,
     "dm2": 16.5,
     "coa2": 15.0,
     "toc2": 16.0,
@@ -4973,7 +5103,8 @@ const data = [
     "fsd23": 12.5,
     "python23": 16.5,
     "sem3spi": 7.29,
-    "dm4": 40.5
+    "dm4": 40.5,
+    "coa4": 16.0
   },
   {
     "roll": 48,
@@ -4989,7 +5120,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 76.5,
-    "coa": 66.0,
+    "coa": 83.0,
     "fsd-ii": 0,
     "fsd2": 52.0,
     "python2": 52.5,
@@ -4999,7 +5130,7 @@ const data = [
     "sem3marks": 7.35,
     "sem3spi2": 14.7,
     "totalSum": 30.38,
-    "total": 297.5,
+    "total": 314.5,
     "dm2": 19.5,
     "coa2": 20.5,
     "toc2": 22.0,
@@ -5011,7 +5142,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 14.5,
     "sem3spi": 8.83,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 34.0
   },
   {
     "roll": 33,
@@ -5027,7 +5159,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 90.75,
-    "coa": 75.0,
+    "coa": 98.0,
     "fsd-ii": 0,
     "fsd2": 67.5,
     "python2": 69.0,
@@ -5037,7 +5169,7 @@ const data = [
     "sem3marks": 7.45,
     "sem3spi2": 14.9,
     "totalSum": 31.69,
-    "total": 367.75,
+    "total": 390.75,
     "dm2": 23.0,
     "coa2": 25.0,
     "toc2": 22.5,
@@ -5049,7 +5181,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 20.5,
     "sem3spi": 8.37,
-    "dm4": 44.5
+    "dm4": 44.5,
+    "coa4": 46.0
   },
   {
     "roll": 53,
@@ -5065,7 +5198,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 71.5,
-    "coa": 57.0,
+    "coa": 71.0,
     "fsd-ii": 0,
     "fsd2": 57.5,
     "python2": 55.0,
@@ -5075,7 +5208,7 @@ const data = [
     "sem3marks": 6.95,
     "sem3spi2": 13.9,
     "totalSum": 29.92,
-    "total": 290.0,
+    "total": 304.0,
     "dm2": 12.5,
     "coa2": 19.0,
     "toc2": 20.5,
@@ -5087,7 +5220,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 16.5,
     "sem3spi": 7.89,
-    "dm4": 34.0
+    "dm4": 34.0,
+    "coa4": 28.0
   },
   {
     "roll": 144,
@@ -5103,7 +5237,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 58.5,
-    "coa": 55.0,
+    "coa": 68.0,
     "fsd-ii": 0,
     "fsd2": 36.0,
     "python2": 56.0,
@@ -5113,7 +5247,7 @@ const data = [
     "sem3marks": 5.925,
     "sem3spi2": 11.85,
     "totalSum": 25.25,
-    "total": 250.0,
+    "total": 263.0,
     "dm2": 14.0,
     "coa2": 17.5,
     "toc2": 16.0,
@@ -5125,7 +5259,8 @@ const data = [
     "fsd23": 9.0,
     "python23": 16.0,
     "sem3spi": 7.96,
-    "dm4": 33.0
+    "dm4": 33.0,
+    "coa4": 26.0
   },
   {
     "roll": 188,
@@ -5141,7 +5276,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 73.5,
-    "coa": 60.5,
+    "coa": 73.0,
     "fsd-ii": 0,
     "fsd2": 51.5,
     "python2": 51.0,
@@ -5151,7 +5286,7 @@ const data = [
     "sem3marks": 5.55,
     "sem3spi2": 11.1,
     "totalSum": 23.34,
-    "total": 292.0,
+    "total": 304.5,
     "dm2": 16.5,
     "coa2": 18.5,
     "toc2": 22.0,
@@ -5163,7 +5298,8 @@ const data = [
     "fsd23": 21.5,
     "python23": 14.5,
     "sem3spi": 7.08,
-    "dm4": 30.0
+    "dm4": 30.0,
+    "coa4": 25.0
   },
   {
     "roll": 22,
@@ -5179,7 +5315,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 87.75,
-    "coa": 70.0,
+    "coa": 91.5,
     "fsd-ii": 0,
     "fsd2": 70.0,
     "python2": 68.5,
@@ -5189,7 +5325,7 @@ const data = [
     "sem3marks": 8,
     "sem3spi2": 16,
     "totalSum": 32.34,
-    "total": 361.75,
+    "total": 383.25,
     "dm2": 22.5,
     "coa2": 23.5,
     "toc2": 19.0,
@@ -5201,7 +5337,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 23.0,
     "sem3spi": 9.25,
-    "dm4": 47.5
+    "dm4": 47.5,
+    "coa4": 43.0
   },
   {
     "roll": 257,
@@ -5217,7 +5354,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 51.25,
-    "coa": 29.0,
+    "coa": 40.0,
     "fsd-ii": 0,
     "fsd2": 23.0,
     "python2": 29.0,
@@ -5227,7 +5364,7 @@ const data = [
     "sem3marks": 3.925,
     "sem3spi2": 7.85,
     "totalSum": 18.37,
-    "total": 160.75,
+    "total": 171.75,
     "dm2": 18.0,
     "coa2": 12.0,
     "toc2": 15.0,
@@ -5239,7 +5376,8 @@ const data = [
     "fsd23": 12.5,
     "python23": 7.5,
     "sem3spi": 5.54,
-    "dm4": 30.5
+    "dm4": 30.5,
+    "coa4": 22.0
   },
   {
     "roll": 19,
@@ -5255,7 +5393,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 82.75,
-    "coa": 62.5,
+    "coa": 82.5,
     "fsd-ii": 0,
     "fsd2": 66.0,
     "python2": 65.0,
@@ -5265,7 +5403,7 @@ const data = [
     "sem3marks": 8.025,
     "sem3spi2": 16.05,
     "totalSum": 32.46,
-    "total": 330.75,
+    "total": 350.75,
     "dm2": 20.0,
     "coa2": 20.0,
     "toc2": 20.0,
@@ -5277,7 +5415,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 21.0,
     "sem3spi": 8.88,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 40.0
   },
   {
     "roll": 66,
@@ -5293,7 +5432,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 74.0,
-    "coa": 56.0,
+    "coa": 73.5,
     "fsd-ii": 0,
     "fsd2": 54.5,
     "python2": 50.5,
@@ -5303,7 +5442,7 @@ const data = [
     "sem3marks": 6.9,
     "sem3spi2": 13.8,
     "totalSum": 29.11,
-    "total": 284.0,
+    "total": 301.5,
     "dm2": 17.0,
     "coa2": 12.0,
     "toc2": 20.0,
@@ -5315,7 +5454,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 15.5,
     "sem3spi": 8.79,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 35.0
   },
   {
     "roll": 147,
@@ -5331,7 +5471,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 71.75,
-    "coa": 51.0,
+    "coa": 63.5,
     "fsd-ii": 0,
     "fsd2": 46.0,
     "python2": 58.0,
@@ -5341,7 +5481,7 @@ const data = [
     "sem3marks": 5.7,
     "sem3spi2": 11.4,
     "totalSum": 25.2,
-    "total": 275.25,
+    "total": 287.75,
     "dm2": 14.0,
     "coa2": 19.0,
     "toc2": 18.0,
@@ -5353,7 +5493,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 18.0,
     "sem3spi": 7.79,
-    "dm4": 36.5
+    "dm4": 36.5,
+    "coa4": 25.0
   },
   {
     "roll": 200,
@@ -5369,7 +5510,7 @@ const data = [
     "dept": "SY4",
     "etc": 86,
     "dm": 64.0,
-    "coa": 36.0,
+    "coa": 45.0,
     "fsd-ii": 0,
     "fsd2": 37.0,
     "python2": 31.0,
@@ -5379,7 +5520,7 @@ const data = [
     "sem3marks": 6.05,
     "sem3spi2": 12.1,
     "totalSum": 22.67,
-    "total": 208.5,
+    "total": 217.5,
     "dm2": 16.0,
     "coa2": 11.0,
     "toc2": 9.0,
@@ -5391,7 +5532,8 @@ const data = [
     "fsd23": 16.0,
     "python23": 8.5,
     "sem3spi": 7.29,
-    "dm4": 32.0
+    "dm4": 32.0,
+    "coa4": 18.0
   },
   {
     "roll": 103,
@@ -5407,7 +5549,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 76.0,
-    "coa": 47.5,
+    "coa": 62.25,
     "fsd-ii": 0,
     "fsd2": 61.0,
     "python2": 56.0,
@@ -5417,7 +5559,7 @@ const data = [
     "sem3marks": 6.675,
     "sem3spi2": 13.35,
     "totalSum": 27.11,
-    "total": 285.5,
+    "total": 300.25,
     "dm2": 22.0,
     "coa2": 15.5,
     "toc2": 20.5,
@@ -5429,7 +5571,8 @@ const data = [
     "fsd23": 21.5,
     "python23": 17.0,
     "sem3spi": 8.38,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 29.5
   },
   {
     "roll": 116,
@@ -5445,7 +5588,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 70.0,
-    "coa": 49.0,
+    "coa": 63.75,
     "fsd-ii": 0,
     "fsd2": 64.5,
     "python2": 40.5,
@@ -5455,7 +5598,7 @@ const data = [
     "sem3marks": 6.575,
     "sem3spi2": 13.15,
     "totalSum": 26.56,
-    "total": 266.0,
+    "total": 280.75,
     "dm2": 18.0,
     "coa2": 17.0,
     "toc2": 16.0,
@@ -5467,7 +5610,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 16.5,
     "sem3spi": 8.33,
-    "dm4": 30.0
+    "dm4": 30.0,
+    "coa4": 29.5
   },
   {
     "roll": 97,
@@ -5483,7 +5627,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 85.5,
-    "coa": 62.5,
+    "coa": 83.0,
     "fsd-ii": 0,
     "fsd2": 65.5,
     "python2": 67.5,
@@ -5493,7 +5637,7 @@ const data = [
     "sem3marks": 6.35,
     "sem3spi2": 12.7,
     "totalSum": 27.27,
-    "total": 331.5,
+    "total": 352.0,
     "dm2": 22.0,
     "coa2": 21.5,
     "toc2": 17.5,
@@ -5505,7 +5649,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 24.0,
     "sem3spi": 8.54,
-    "dm4": 43.0
+    "dm4": 43.0,
+    "coa4": 41.0
   },
   {
     "roll": 208,
@@ -5521,7 +5666,7 @@ const data = [
     "dept": "SY4",
     "etc": 84,
     "dm": 71.5,
-    "coa": 44.5,
+    "coa": 55.25,
     "fsd-ii": 0,
     "fsd2": 39.0,
     "python2": 46.0,
@@ -5531,7 +5676,7 @@ const data = [
     "sem3marks": 4.875,
     "sem3spi2": 9.75,
     "totalSum": 22.14,
-    "total": 252.0,
+    "total": 262.75,
     "dm2": 20.0,
     "coa2": 15.5,
     "toc2": 18.0,
@@ -5543,7 +5688,8 @@ const data = [
     "fsd23": 11.0,
     "python23": 13.0,
     "sem3spi": 6.83,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 21.5
   },
   {
     "roll": 212,
@@ -5559,7 +5705,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 63.5,
-    "coa": 46.5,
+    "coa": 56.0,
     "fsd-ii": 0,
     "fsd2": 32.0,
     "python2": 32.5,
@@ -5569,7 +5715,7 @@ const data = [
     "sem3marks": 4.325,
     "sem3spi2": 8.65,
     "totalSum": 21.9,
-    "total": 205.5,
+    "total": 215.0,
     "dm2": 15.5,
     "coa2": 14.5,
     "toc2": 10.0,
@@ -5581,7 +5727,8 @@ const data = [
     "fsd23": 8.5,
     "python23": 11.0,
     "sem3spi": 6.0,
-    "dm4": 33.0
+    "dm4": 33.0,
+    "coa4": 19.0
   },
   {
     "roll": 184,
@@ -5597,7 +5744,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 62.5,
-    "coa": 47.5,
+    "coa": 62.25,
     "fsd-ii": 0,
     "fsd2": 52.5,
     "python2": 38.0,
@@ -5607,7 +5754,7 @@ const data = [
     "sem3marks": 6.05,
     "sem3spi2": 12.1,
     "totalSum": 23.61,
-    "total": 237.5,
+    "total": 252.25,
     "dm2": 17.5,
     "coa2": 11.5,
     "toc2": 17.0,
@@ -5619,7 +5766,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 13.0,
     "sem3spi": 6.29,
-    "dm4": 33.0
+    "dm4": 33.0,
+    "coa4": 29.5
   },
   {
     "roll": 112,
@@ -5635,7 +5783,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 65.5,
-    "coa": 39.5,
+    "coa": 53.5,
     "fsd-ii": 0,
     "fsd2": 41.5,
     "python2": 41.0,
@@ -5645,7 +5793,7 @@ const data = [
     "sem3marks": 6.025,
     "sem3spi2": 12.05,
     "totalSum": 26.79,
-    "total": 229.5,
+    "total": 243.5,
     "dm2": 15.5,
     "coa2": 12.0,
     "toc2": 13.0,
@@ -5656,7 +5804,8 @@ const data = [
     "toc3": 15.0,
     "fsd23": 15.0,
     "python23": 14.5,
-    "dm4": 34.0
+    "dm4": 34.0,
+    "coa4": 28.0
   },
   {
     "roll": 43,
@@ -5672,7 +5821,7 @@ const data = [
     "dept": "SY4",
     "etc": 94,
     "dm": 67.25,
-    "coa": 57.5,
+    "coa": 74.0,
     "fsd-ii": 0,
     "fsd2": 56.5,
     "python2": 50.5,
@@ -5682,7 +5831,7 @@ const data = [
     "sem3marks": 7.275,
     "sem3spi2": 14.55,
     "totalSum": 30.93,
-    "total": 281.25,
+    "total": 297.75,
     "dm2": 16.0,
     "coa2": 18.0,
     "toc2": 19.0,
@@ -5694,7 +5843,8 @@ const data = [
     "fsd23": 20.5,
     "python23": 19.5,
     "sem3spi": 8.67,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 33.0
   },
   {
     "roll": 8,
@@ -5710,7 +5860,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 85.75,
-    "coa": 60.5,
+    "coa": 77.0,
     "fsd-ii": 0,
     "fsd2": 69.5,
     "python2": 69.0,
@@ -5720,7 +5870,7 @@ const data = [
     "sem3marks": 8.325,
     "sem3spi2": 16.65,
     "totalSum": 34.27,
-    "total": 347.25,
+    "total": 363.75,
     "dm2": 20.5,
     "coa2": 19.0,
     "toc2": 19.0,
@@ -5732,7 +5882,8 @@ const data = [
     "fsd23": 24.5,
     "python23": 22.0,
     "sem3spi": 7.73,
-    "dm4": 43.5
+    "dm4": 43.5,
+    "coa4": 33.0
   },
   {
     "roll": 192,
@@ -5748,7 +5899,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 64.5,
-    "coa": 32.0,
+    "coa": 40.5,
     "fsd-ii": 0,
     "fsd2": 44.0,
     "python2": 56.5,
@@ -5758,7 +5909,7 @@ const data = [
     "sem3marks": 4.975,
     "sem3spi2": 9.95,
     "totalSum": 23.04,
-    "total": 222.5,
+    "total": 231.0,
     "dm2": 18.5,
     "coa2": 8.0,
     "toc2": 12.0,
@@ -5770,7 +5921,8 @@ const data = [
     "fsd23": 13.5,
     "python23": 18.0,
     "sem3spi": 6.92,
-    "dm4": 29.0
+    "dm4": 29.0,
+    "coa4": 17.0
   },
   {
     "roll": 209,
@@ -5786,7 +5938,7 @@ const data = [
     "dept": "SY4",
     "etc": 94,
     "dm": 51.0,
-    "coa": 50.0,
+    "coa": 61.0,
     "fsd-ii": 0,
     "fsd2": 36.5,
     "python2": 37.5,
@@ -5796,7 +5948,7 @@ const data = [
     "sem3marks": 4.525,
     "sem3spi2": 9.05,
     "totalSum": 22.04,
-    "total": 221.5,
+    "total": 232.5,
     "dm2": 12.0,
     "coa2": 15.5,
     "toc2": 15.0,
@@ -5808,7 +5960,8 @@ const data = [
     "fsd23": 13.5,
     "python23": 13.5,
     "sem3spi": 6.33,
-    "dm4": 20.0
+    "dm4": 20.0,
+    "coa4": 22.0
   },
   {
     "roll": 133,
@@ -5824,7 +5977,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 80.25,
-    "coa": 72.0,
+    "coa": 91.5,
     "fsd-ii": 0,
     "fsd2": 42.0,
     "python2": 48.5,
@@ -5834,7 +5987,7 @@ const data = [
     "sem3marks": 6.5,
     "sem3spi2": 13,
     "totalSum": 25.89,
-    "total": 299.25,
+    "total": 318.75,
     "dm2": 19.0,
     "coa2": 25.0,
     "toc2": 21.0,
@@ -5846,7 +5999,8 @@ const data = [
     "fsd23": 20.5,
     "python23": 15.0,
     "sem3spi": 7.67,
-    "dm4": 41.5
+    "dm4": 41.5,
+    "coa4": 39.0
   },
   {
     "roll": 82,
@@ -5862,7 +6016,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 80.75,
-    "coa": 58.5,
+    "coa": 76.75,
     "fsd-ii": 0,
     "fsd2": 62.0,
     "python2": 52.0,
@@ -5872,7 +6026,7 @@ const data = [
     "sem3marks": 6.925,
     "sem3spi2": 13.85,
     "totalSum": 28.3,
-    "total": 309.25,
+    "total": 327.5,
     "dm2": 22.5,
     "coa2": 21.0,
     "toc2": 23.0,
@@ -5884,7 +6038,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 14.5,
     "sem3spi": 8.79,
-    "dm4": 33.5
+    "dm4": 33.5,
+    "coa4": 36.5
   },
   {
     "roll": 119,
@@ -5900,7 +6055,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 64.5,
-    "coa": 43.0,
+    "coa": 52.0,
     "fsd-ii": 0,
     "fsd2": 23.5,
     "python2": 29.5,
@@ -5910,7 +6065,7 @@ const data = [
     "sem3marks": 5.4,
     "sem3spi2": 10.8,
     "totalSum": 26.36,
-    "total": 194.0,
+    "total": 203.0,
     "dm2": 18.0,
     "coa2": 10.0,
     "toc2": 15.0,
@@ -5922,7 +6077,8 @@ const data = [
     "fsd23": 10.5,
     "python23": 13.0,
     "sem3spi": 7.13,
-    "dm4": 34.0
+    "dm4": 34.0,
+    "coa4": 18.0
   },
   {
     "roll": 101,
@@ -5938,7 +6094,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 72.0,
-    "coa": 46.5,
+    "coa": 59.0,
     "fsd-ii": 0,
     "fsd2": 39.5,
     "python2": 45.0,
@@ -5948,7 +6104,7 @@ const data = [
     "sem3marks": 6.4,
     "sem3spi2": 12.8,
     "totalSum": 27.19,
-    "total": 251.0,
+    "total": 263.5,
     "dm2": 18.0,
     "coa2": 10.0,
     "toc2": 19.0,
@@ -5960,7 +6116,8 @@ const data = [
     "fsd23": 9.5,
     "python23": 15.5,
     "sem3spi": 8.38,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 25.0
   },
   {
     "roll": 217,
@@ -5976,7 +6133,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 55.75,
-    "coa": 50.0,
+    "coa": 62.0,
     "fsd-ii": 0,
     "fsd2": 53.0,
     "python2": 38.0,
@@ -5986,7 +6143,7 @@ const data = [
     "sem3marks": 5.075,
     "sem3spi2": 10.15,
     "totalSum": 21.44,
-    "total": 240.25,
+    "total": 252.25,
     "dm2": 16.5,
     "coa2": 16.0,
     "toc2": 19.0,
@@ -5998,7 +6155,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 12.5,
     "sem3spi": 6.67,
-    "dm4": 29.5
+    "dm4": 29.5,
+    "coa4": 24.0
   },
   {
     "roll": 221,
@@ -6014,7 +6172,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 52.25,
-    "coa": 43.5,
+    "coa": 58.0,
     "fsd-ii": 0,
     "fsd2": 37.0,
     "python2": 25.0,
@@ -6024,7 +6182,7 @@ const data = [
     "sem3marks": 4.4,
     "sem3spi2": 8.8,
     "totalSum": 21.05,
-    "total": 201.75,
+    "total": 216.25,
     "dm2": 9.5,
     "coa2": 8.0,
     "toc2": 13.5,
@@ -6036,7 +6194,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 11.0,
     "sem3spi": 6.46,
-    "dm4": 36.5
+    "dm4": 36.5,
+    "coa4": 29.0
   },
   {
     "roll": 14,
@@ -6052,7 +6211,7 @@ const data = [
     "dept": "SY4",
     "etc": 88,
     "dm": 89.0,
-    "coa": 74.5,
+    "coa": 97.0,
     "fsd-ii": 0,
     "fsd2": 69.0,
     "python2": 68.0,
@@ -6062,7 +6221,7 @@ const data = [
     "sem3marks": 8.5,
     "sem3spi2": 17,
     "totalSum": 33.46,
-    "total": 365.0,
+    "total": 387.5,
     "dm2": 22.0,
     "coa2": 25.0,
     "toc2": 21.5,
@@ -6074,7 +6233,8 @@ const data = [
     "fsd23": 24.5,
     "python23": 23.0,
     "sem3spi": 9.08,
-    "dm4": 47.0
+    "dm4": 47.0,
+    "coa4": 45.0
   },
   {
     "roll": 77,
@@ -6090,7 +6250,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 84.0,
-    "coa": 60.5,
+    "coa": 77.5,
     "fsd-ii": 0,
     "fsd2": 60.5,
     "python2": 50.0,
@@ -6100,7 +6260,7 @@ const data = [
     "sem3marks": 6.75,
     "sem3spi2": 13.5,
     "totalSum": 28.48,
-    "total": 303.5,
+    "total": 320.5,
     "dm2": 21.5,
     "coa2": 19.5,
     "toc2": 17.0,
@@ -6112,7 +6272,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 17.0,
     "sem3spi": 8.38,
-    "dm4": 42.0
+    "dm4": 42.0,
+    "coa4": 34.0
   },
   {
     "roll": 117,
@@ -6128,7 +6289,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 72.25,
-    "coa": 64.5,
+    "coa": 78.0,
     "fsd-ii": 0,
     "fsd2": 50.5,
     "python2": 42.0,
@@ -6138,7 +6299,7 @@ const data = [
     "sem3marks": 6.725,
     "sem3spi2": 13.45,
     "totalSum": 26.51,
-    "total": 273.75,
+    "total": 287.25,
     "dm2": 20.0,
     "coa2": 22.0,
     "toc2": 17.5,
@@ -6150,7 +6311,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 14.5,
     "sem3spi": 8.25,
-    "dm4": 41.5
+    "dm4": 41.5,
+    "coa4": 27.0
   },
   {
     "roll": 210,
@@ -6166,7 +6328,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 47.0,
-    "coa": 47.5,
+    "coa": 63.5,
     "fsd-ii": 0,
     "fsd2": 53.0,
     "python2": 44.5,
@@ -6176,7 +6338,7 @@ const data = [
     "sem3marks": 5.35,
     "sem3spi2": 10.7,
     "totalSum": 22.04,
-    "total": 247.5,
+    "total": 263.5,
     "dm2": 10.0,
     "coa2": 15.0,
     "toc2": 17.5,
@@ -6188,7 +6350,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 19.0,
     "sem3spi": 6.92,
-    "dm4": 29.0
+    "dm4": 29.0,
+    "coa4": 32.0
   },
   {
     "roll": 142,
@@ -6204,7 +6367,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 81.5,
-    "coa": 56.0,
+    "coa": 71.5,
     "fsd-ii": 0,
     "fsd2": 54.5,
     "python2": 54.5,
@@ -6214,7 +6377,7 @@ const data = [
     "sem3marks": 5,
     "sem3spi2": 10,
     "totalSum": 25.34,
-    "total": 307.0,
+    "total": 322.5,
     "dm2": 19.0,
     "coa2": 15.0,
     "toc2": 23.0,
@@ -6226,7 +6389,8 @@ const data = [
     "fsd23": 21.5,
     "python23": 16.0,
     "sem3spi": 7.04,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 31.0
   },
   {
     "roll": 6,
@@ -6242,7 +6406,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 87.25,
-    "coa": 61.5,
+    "coa": 79.0,
     "fsd-ii": 0,
     "fsd2": 65.5,
     "python2": 59.5,
@@ -6252,7 +6416,7 @@ const data = [
     "sem3marks": 8.275,
     "sem3spi2": 16.55,
     "totalSum": 34.5,
-    "total": 332.75,
+    "total": 350.25,
     "dm2": 21.0,
     "coa2": 20.5,
     "toc2": 23.0,
@@ -6264,7 +6428,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 19.0,
     "sem3spi": 9.5,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 35.0
   },
   {
     "roll": 173,
@@ -6280,7 +6445,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 69.25,
-    "coa": 62.0,
+    "coa": 78.5,
     "fsd-ii": 0,
     "fsd2": 40.0,
     "python2": 43.5,
@@ -6290,7 +6455,7 @@ const data = [
     "sem3marks": 5.5,
     "sem3spi2": 11,
     "totalSum": 24.06,
-    "total": 258.75,
+    "total": 275.25,
     "dm2": 21.5,
     "coa2": 19.0,
     "toc2": 14.0,
@@ -6302,7 +6467,8 @@ const data = [
     "fsd23": 17.0,
     "python23": 16.0,
     "sem3spi": 7.25,
-    "dm4": 33.5
+    "dm4": 33.5,
+    "coa4": 33.0
   },
   {
     "roll": 145,
@@ -6318,7 +6484,7 @@ const data = [
     "dept": "SY4",
     "etc": 94,
     "dm": 68.0,
-    "coa": 29.0,
+    "coa": 44.0,
     "fsd-ii": 0,
     "fsd2": 50.5,
     "python2": 51.0,
@@ -6328,7 +6494,7 @@ const data = [
     "sem3marks": 4.925,
     "sem3spi2": 9.85,
     "totalSum": 25.24,
-    "total": 236.0,
+    "total": 251.0,
     "dm2": 18.0,
     "coa2": 8.5,
     "toc2": 14.0,
@@ -6340,7 +6506,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 15.5,
     "sem3spi": 7.13,
-    "dm4": 27.0
+    "dm4": 27.0,
+    "coa4": 30.0
   },
   {
     "roll": 267,
@@ -6356,7 +6523,7 @@ const data = [
     "dept": "SY4",
     "etc": 94,
     "dm": 34.0,
-    "coa": 37.0,
+    "coa": 45.5,
     "fsd-ii": 0,
     "fsd2": 28.0,
     "python2": 29.0,
@@ -6366,7 +6533,7 @@ const data = [
     "sem3marks": 3.575,
     "sem3spi2": 7.15,
     "totalSum": 16.58,
-    "total": 165.0,
+    "total": 173.5,
     "dm2": 14.0,
     "coa2": 12.5,
     "toc2": 12.0,
@@ -6378,7 +6545,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 9.0,
     "sem3spi": 6.0,
-    "dm4": 14.0
+    "dm4": 14.0,
+    "coa4": 17.0
   },
   {
     "roll": 249,
@@ -6394,7 +6562,7 @@ const data = [
     "dept": "SY4",
     "etc": 88,
     "dm": 41.75,
-    "coa": 28.0,
+    "coa": 36.5,
     "fsd-ii": 0,
     "fsd2": 34.5,
     "python2": 24.0,
@@ -6404,7 +6572,7 @@ const data = [
     "sem3marks": 4.375,
     "sem3spi2": 8.75,
     "totalSum": 18.99,
-    "total": 159.25,
+    "total": 167.75,
     "dm2": 15.5,
     "coa2": 12.5,
     "toc2": 10.0,
@@ -6416,7 +6584,8 @@ const data = [
     "fsd23": 15.0,
     "python23": 10.0,
     "sem3spi": 5.33,
-    "dm4": 23.5
+    "dm4": 23.5,
+    "coa4": 17.0
   },
   {
     "roll": 223,
@@ -6432,7 +6601,7 @@ const data = [
     "dept": "SY4",
     "etc": 70,
     "dm": 58.5,
-    "coa": 48.0,
+    "coa": 64.0,
     "fsd-ii": 0,
     "fsd2": 45.5,
     "python2": 33.0,
@@ -6442,7 +6611,7 @@ const data = [
     "sem3marks": 4.875,
     "sem3spi2": 9.75,
     "totalSum": 20.97,
-    "total": 243.0,
+    "total": 259.0,
     "dm2": 13.0,
     "coa2": 14.0,
     "toc2": 19.5,
@@ -6454,7 +6623,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 14.0,
     "sem3spi": 6.25,
-    "dm4": 33.0
+    "dm4": 33.0,
+    "coa4": 32.0
   },
   {
     "roll": 262,
@@ -6470,7 +6640,7 @@ const data = [
     "dept": "SY4",
     "etc": 80,
     "dm": 58.75,
-    "coa": 39.5,
+    "coa": 46.0,
     "fsd-ii": 0,
     "fsd2": 26.0,
     "python2": 31.5,
@@ -6480,7 +6650,7 @@ const data = [
     "sem3marks": 3.5,
     "sem3spi2": 7,
     "totalSum": 17.16,
-    "total": 207.25,
+    "total": 213.75,
     "dm2": 14.0,
     "coa2": 15.0,
     "toc2": 20.0,
@@ -6492,7 +6662,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 6.0,
     "sem3spi": 4.7,
-    "dm4": 27.5
+    "dm4": 27.5,
+    "coa4": 13.0
   },
   {
     "roll": 182,
@@ -6508,7 +6679,7 @@ const data = [
     "dept": "SY4",
     "etc": 94,
     "dm": 60.5,
-    "coa": 35.0,
+    "coa": 51.5,
     "fsd-ii": 0,
     "fsd2": 43.0,
     "python2": 41.0,
@@ -6518,7 +6689,7 @@ const data = [
     "sem3marks": 5.775,
     "sem3spi2": 11.55,
     "totalSum": 23.67,
-    "total": 221.0,
+    "total": 237.5,
     "dm2": 14.0,
     "coa2": 12.0,
     "toc2": 16.5,
@@ -6530,7 +6701,8 @@ const data = [
     "fsd23": 12.5,
     "python23": 19.0,
     "sem3spi": 6.58,
-    "dm4": 29.0
+    "dm4": 29.0,
+    "coa4": 33.0
   },
   {
     "roll": 268,
@@ -6546,7 +6718,7 @@ const data = [
     "dept": "SY4",
     "etc": 78,
     "dm": 61.5,
-    "coa": 48.5,
+    "coa": 57.0,
     "fsd-ii": 0,
     "fsd2": 38.5,
     "python2": 43.5,
@@ -6556,7 +6728,7 @@ const data = [
     "sem3marks": 4.6,
     "sem3spi2": 9.2,
     "totalSum": 16.56,
-    "total": 232.5,
+    "total": 241.0,
     "dm2": 15.0,
     "coa2": 19.0,
     "toc2": 13.5,
@@ -6568,7 +6740,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 14.0,
     "sem3spi": 6.5,
-    "dm4": 32.0
+    "dm4": 32.0,
+    "coa4": 17.0
   },
   {
     "roll": 272,
@@ -6584,7 +6757,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 50.25,
-    "coa": 36.5,
+    "coa": 47.5,
     "fsd-ii": 0,
     "fsd2": 43.5,
     "python2": 45.0,
@@ -6594,7 +6767,7 @@ const data = [
     "sem3marks": 4.425,
     "sem3spi2": 8.85,
     "totalSum": 15.93,
-    "total": 214.75,
+    "total": 225.75,
     "dm2": 9.5,
     "coa2": 9.0,
     "toc2": 13.0,
@@ -6606,7 +6779,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 16.5,
     "sem3spi": 6.71,
-    "dm4": 27.5
+    "dm4": 27.5,
+    "coa4": 22.0
   },
   {
     "roll": 271,
@@ -6622,7 +6796,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 53.25,
-    "coa": 48.5,
+    "coa": 62.5,
     "fsd-ii": 0,
     "fsd2": 47.5,
     "python2": 47.0,
@@ -6632,7 +6806,7 @@ const data = [
     "sem3marks": 4.475,
     "sem3spi2": 8.95,
     "totalSum": 16.11,
-    "total": 233.25,
+    "total": 247.25,
     "dm2": 12.0,
     "coa2": 14.0,
     "toc2": 15.5,
@@ -6644,7 +6818,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 12.0,
     "sem3spi": 6.58,
-    "dm4": 33.5
+    "dm4": 33.5,
+    "coa4": 28.0
   },
   {
     "roll": 281,
@@ -6660,7 +6835,7 @@ const data = [
     "dept": "SY4",
     "etc": 94,
     "dm": 42.75,
-    "coa": 34.5,
+    "coa": 41.5,
     "fsd-ii": 0,
     "fsd2": 43.0,
     "python2": 37.0,
@@ -6670,7 +6845,7 @@ const data = [
     "sem3marks": 4.05,
     "sem3spi2": 8.1,
     "totalSum": 14.58,
-    "total": 179.75,
+    "total": 186.75,
     "dm2": 9.0,
     "coa2": 11.0,
     "toc2": 8.5,
@@ -6682,7 +6857,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 13.0,
     "sem3spi": 6.04,
-    "dm4": 19.5
+    "dm4": 19.5,
+    "coa4": 14.0
   },
   {
     "roll": 265,
@@ -6698,7 +6874,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 71.25,
-    "coa": 49.0,
+    "coa": 61.5,
     "fsd-ii": 0,
     "fsd2": 53.0,
     "python2": 51.5,
@@ -6708,7 +6884,7 @@ const data = [
     "sem3marks": 4.65,
     "sem3spi2": 9.3,
     "totalSum": 16.74,
-    "total": 265.75,
+    "total": 278.25,
     "dm2": 18.0,
     "coa2": 20.0,
     "toc2": 14.5,
@@ -6719,7 +6895,8 @@ const data = [
     "toc3": 13.0,
     "fsd23": 19.0,
     "python23": 16.5,
-    "dm4": 33.5
+    "dm4": 33.5,
+    "coa4": 25.0
   },
   {
     "roll": 261,
@@ -6735,7 +6912,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 45.75,
-    "coa": 33.0,
+    "coa": 42.0,
     "fsd-ii": 0,
     "fsd2": 55.0,
     "python2": 47.0,
@@ -6745,7 +6922,7 @@ const data = [
     "sem3marks": 4.8,
     "sem3spi2": 9.6,
     "totalSum": 17.28,
-    "total": 214.75,
+    "total": 223.75,
     "dm2": 10.5,
     "coa2": 12.0,
     "toc2": 13.5,
@@ -6757,7 +6934,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 14.0,
     "sem3spi": 6.71,
-    "dm4": 33.5
+    "dm4": 33.5,
+    "coa4": 18.0
   },
   {
     "roll": 243,
@@ -6773,7 +6951,7 @@ const data = [
     "dept": "SY4",
     "etc": 90,
     "dm": 58.0,
-    "coa": 61.0,
+    "coa": 79.5,
     "fsd-ii": 0,
     "fsd2": 52.5,
     "python2": 51.0,
@@ -6783,7 +6961,7 @@ const data = [
     "sem3marks": 5.375,
     "sem3spi2": 10.75,
     "totalSum": 19.35,
-    "total": 269.5,
+    "total": 288.0,
     "dm2": 12.5,
     "coa2": 21.0,
     "toc2": 13.5,
@@ -6795,7 +6973,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 11.5,
     "sem3spi": 7.08,
-    "dm4": 31.0
+    "dm4": 31.0,
+    "coa4": 37.0
   },
   {
     "roll": 152,
@@ -6811,7 +6990,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 65.0,
-    "coa": 57.5,
+    "coa": 77.5,
     "fsd-ii": 0,
     "fsd2": 58.0,
     "python2": 52.5,
@@ -6821,7 +7000,7 @@ const data = [
     "sem3marks": 6.95,
     "sem3spi2": 13.9,
     "totalSum": 25.02,
-    "total": 289.0,
+    "total": 309.0,
     "dm2": 14.5,
     "coa2": 13.0,
     "toc2": 19.0,
@@ -6832,7 +7011,8 @@ const data = [
     "toc3": 18.0,
     "fsd23": 20.0,
     "python23": 16.0,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 40.0
   },
   {
     "roll": 250,
@@ -6848,7 +7028,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 49.0,
-    "coa": 43.0,
+    "coa": 52.5,
     "fsd-ii": 0,
     "fsd2": 41.0,
     "python2": 50.5,
@@ -6858,7 +7038,7 @@ const data = [
     "sem3marks": 5.275,
     "sem3spi2": 10.55,
     "totalSum": 18.99,
-    "total": 218.0,
+    "total": 227.5,
     "dm2": 9.0,
     "coa2": 13.0,
     "toc2": 11.5,
@@ -6870,7 +7050,8 @@ const data = [
     "fsd23": 15.0,
     "python23": 13.5,
     "sem3spi": 6.96,
-    "dm4": 27.0
+    "dm4": 27.0,
+    "coa4": 19.0
   },
   {
     "roll": 275,
@@ -6886,7 +7067,7 @@ const data = [
     "dept": "SY4",
     "etc": 92,
     "dm": 60.25,
-    "coa": 50.5,
+    "coa": 62.5,
     "fsd-ii": 0,
     "fsd2": 46.5,
     "python2": 42.5,
@@ -6896,7 +7077,7 @@ const data = [
     "sem3marks": 4.3,
     "sem3spi2": 8.6,
     "totalSum": 15.48,
-    "total": 250.25,
+    "total": 262.25,
     "dm2": 13.0,
     "coa2": 13.0,
     "toc2": 18.0,
@@ -6908,7 +7089,8 @@ const data = [
     "fsd23": 13.0,
     "python23": 9.0,
     "sem3spi": 6.17,
-    "dm4": 36.5
+    "dm4": 36.5,
+    "coa4": 24.0
   },
   {
     "roll": 287,
@@ -6924,7 +7106,7 @@ const data = [
     "dept": "SY4",
     "etc": 90,
     "dm": 14.25,
-    "coa": 7.0,
+    "coa": 12.0,
     "fsd-ii": 0,
     "fsd2": 18.0,
     "python2": 22.5,
@@ -6934,7 +7116,7 @@ const data = [
     "sem3marks": 1.2,
     "sem3spi2": 2.4,
     "totalSum": 4.32,
-    "total": 66.25,
+    "total": 71.25,
     "dm2": 7.0,
     "coa2": 1.0,
     "toc2": 1.0,
@@ -6945,7 +7127,8 @@ const data = [
     "toc3": 0.0,
     "fsd23": 3.0,
     "python23": 5.0,
-    "dm4": 2.5
+    "dm4": 2.5,
+    "coa4": 10.0
   },
   {
     "roll": 242,
@@ -6961,7 +7144,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 53.75,
-    "coa": 49.0,
+    "coa": 65.5,
     "fsd-ii": 0,
     "fsd2": 43.5,
     "python2": 42.5,
@@ -6971,7 +7154,7 @@ const data = [
     "sem3marks": 5.425,
     "sem3spi2": 10.85,
     "totalSum": 19.53,
-    "total": 226.75,
+    "total": 243.25,
     "dm2": 10.0,
     "coa2": 14.0,
     "toc2": 13.5,
@@ -6983,7 +7166,8 @@ const data = [
     "fsd23": 16.0,
     "python23": 11.0,
     "sem3spi": 6.86,
-    "dm4": 32.5
+    "dm4": 32.5,
+    "coa4": 33.0
   },
   {
     "roll": 237,
@@ -6999,7 +7183,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 51.75,
-    "coa": 61.0,
+    "coa": 78.0,
     "fsd-ii": 0,
     "fsd2": 47.0,
     "python2": 42.0,
@@ -7009,7 +7193,7 @@ const data = [
     "sem3marks": 5.575,
     "sem3spi2": 11.15,
     "totalSum": 20.07,
-    "total": 241.75,
+    "total": 258.75,
     "dm2": 12.0,
     "coa2": 19.0,
     "toc2": 13.0,
@@ -7021,7 +7205,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 12.0,
     "sem3spi": 7.08,
-    "dm4": 32.5
+    "dm4": 32.5,
+    "coa4": 34.0
   },
   {
     "roll": 140,
@@ -7037,7 +7222,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 72.0,
-    "coa": 70.0,
+    "coa": 92.0,
     "fsd-ii": 0,
     "fsd2": 57.0,
     "python2": 53.5,
@@ -7047,7 +7232,7 @@ const data = [
     "sem3marks": 7.1,
     "sem3spi2": 14.2,
     "totalSum": 25.56,
-    "total": 300.5,
+    "total": 322.5,
     "dm2": 18.0,
     "coa2": 25.0,
     "toc2": 17.5,
@@ -7059,7 +7244,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 15.0,
     "sem3spi": 8.13,
-    "dm4": 32.0
+    "dm4": 32.0,
+    "coa4": 44.0
   },
   {
     "roll": 195,
@@ -7075,7 +7261,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 62.5,
-    "coa": 49.0,
+    "coa": 64.0,
     "fsd-ii": 0,
     "fsd2": 59.0,
     "python2": 47.5,
@@ -7085,7 +7271,7 @@ const data = [
     "sem3marks": 6.35,
     "sem3spi2": 12.7,
     "totalSum": 22.86,
-    "total": 262.5,
+    "total": 277.5,
     "dm2": 11.5,
     "coa2": 14.0,
     "toc2": 15.5,
@@ -7097,7 +7283,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 14.0,
     "sem3spi": 7.46,
-    "dm4": 33.0
+    "dm4": 33.0,
+    "coa4": 30.0
   },
   {
     "roll": 247,
@@ -7113,7 +7300,7 @@ const data = [
     "dept": "SY4",
     "etc": 94,
     "dm": 51.25,
-    "coa": 58.5,
+    "coa": 70.5,
     "fsd-ii": 0,
     "fsd2": 41.0,
     "python2": 38.5,
@@ -7123,7 +7310,7 @@ const data = [
     "sem3marks": 5.325,
     "sem3spi2": 10.65,
     "totalSum": 19.17,
-    "total": 232.25,
+    "total": 244.25,
     "dm2": 11.5,
     "coa2": 24.0,
     "toc2": 14.5,
@@ -7135,7 +7322,8 @@ const data = [
     "fsd23": 15.0,
     "python23": 11.5,
     "sem3spi": 6.83,
-    "dm4": 31.5
+    "dm4": 31.5,
+    "coa4": 24.0
   },
   {
     "roll": 266,
@@ -7151,7 +7339,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 47.0,
-    "coa": 46.0,
+    "coa": 56.0,
     "fsd-ii": 0,
     "fsd2": 39.0,
     "python2": 36.5,
@@ -7161,7 +7349,7 @@ const data = [
     "sem3marks": 4.65,
     "sem3spi2": 9.3,
     "totalSum": 16.74,
-    "total": 219.5,
+    "total": 229.5,
     "dm2": 6.0,
     "coa2": 15.0,
     "toc2": 15.0,
@@ -7172,7 +7360,8 @@ const data = [
     "toc3": 17.0,
     "fsd23": 0.0,
     "python23": 0.0,
-    "dm4": 27.0
+    "dm4": 27.0,
+    "coa4": 20.0
   },
   {
     "roll": 224,
@@ -7188,7 +7377,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 58.0,
-    "coa": 56.0,
+    "coa": 74.0,
     "fsd-ii": 0,
     "fsd2": 59.0,
     "python2": 59.0,
@@ -7198,7 +7387,7 @@ const data = [
     "sem3marks": 5.825,
     "sem3spi2": 11.65,
     "totalSum": 20.97,
-    "total": 289.0,
+    "total": 307.0,
     "dm2": 16.0,
     "coa2": 21.0,
     "toc2": 19.0,
@@ -7210,7 +7399,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 18.0,
     "sem3spi": 7.71,
-    "dm4": 24.0
+    "dm4": 24.0,
+    "coa4": 36.0
   },
   {
     "roll": 236,
@@ -7226,7 +7416,7 @@ const data = [
     "dept": "SY4",
     "etc": 92,
     "dm": 59.0,
-    "coa": 61.0,
+    "coa": 76.5,
     "fsd-ii": 0,
     "fsd2": 42.5,
     "python2": 55.0,
@@ -7236,7 +7426,7 @@ const data = [
     "sem3marks": 5.6,
     "sem3spi2": 11.2,
     "totalSum": 20.16,
-    "total": 260.0,
+    "total": 275.5,
     "dm2": 12.0,
     "coa2": 20.0,
     "toc2": 14.0,
@@ -7247,7 +7437,8 @@ const data = [
     "toc3": 15.5,
     "fsd23": 14.0,
     "python23": 16.0,
-    "dm4": 35.0
+    "dm4": 35.0,
+    "coa4": 31.0
   },
   {
     "roll": 111,
@@ -7263,7 +7454,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 77.75,
-    "coa": 69.0,
+    "coa": 89.75,
     "fsd-ii": 0,
     "fsd2": 67.5,
     "python2": 65.0,
@@ -7273,7 +7464,7 @@ const data = [
     "sem3marks": 7.45,
     "sem3spi2": 14.9,
     "totalSum": 26.82,
-    "total": 336.75,
+    "total": 357.5,
     "dm2": 16.0,
     "coa2": 20.0,
     "toc2": 17.5,
@@ -7284,7 +7475,8 @@ const data = [
     "toc3": 20.5,
     "fsd23": 22.0,
     "python23": 23.5,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 41.5
   },
   {
     "roll": 4,
@@ -7300,7 +7492,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 86.5,
-    "coa": 69.0,
+    "coa": 91.0,
     "fsd-ii": 0,
     "fsd2": 67.5,
     "python2": 69.0,
@@ -7310,7 +7502,7 @@ const data = [
     "sem3marks": 8.975,
     "sem3spi2": 17.95,
     "totalSum": 35.51,
-    "total": 352.5,
+    "total": 374.5,
     "dm2": 19.0,
     "coa2": 23.5,
     "toc2": 21.0,
@@ -7322,7 +7514,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 25.0,
     "sem3spi": 9.92,
-    "dm4": 43.0
+    "dm4": 43.0,
+    "coa4": 44.0
   },
   {
     "roll": 255,
@@ -7338,7 +7531,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 57.25,
-    "coa": 37.0,
+    "coa": 45.5,
     "fsd-ii": 0,
     "fsd2": 19.5,
     "python2": 22.5,
@@ -7348,7 +7541,7 @@ const data = [
     "sem3marks": 4.15,
     "sem3spi2": 8.3,
     "totalSum": 18.45,
-    "total": 162.75,
+    "total": 171.25,
     "dm2": 14.5,
     "coa2": 15.5,
     "toc2": 10.5,
@@ -7360,7 +7553,8 @@ const data = [
     "fsd23": 7.0,
     "python23": 9.5,
     "sem3spi": 6.08,
-    "dm4": 31.5
+    "dm4": 31.5,
+    "coa4": 17.0
   },
   {
     "roll": 49,
@@ -7376,7 +7570,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 88.0,
-    "coa": 60.5,
+    "coa": 78.5,
     "fsd-ii": 0,
     "fsd2": 65.5,
     "python2": 62.0,
@@ -7386,7 +7580,7 @@ const data = [
     "sem3marks": 7.625,
     "sem3spi2": 15.25,
     "totalSum": 30.31,
-    "total": 322.0,
+    "total": 340.0,
     "dm2": 21.0,
     "coa2": 18.0,
     "toc2": 20.5,
@@ -7398,7 +7592,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 19.5,
     "sem3spi": 9.21,
-    "dm4": 42.0
+    "dm4": 42.0,
+    "coa4": 36.0
   },
   {
     "roll": 229,
@@ -7414,7 +7609,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 53.25,
-    "coa": 53.5,
+    "coa": 66.5,
     "fsd-ii": 0,
     "fsd2": 25.5,
     "python2": 38.0,
@@ -7424,7 +7619,7 @@ const data = [
     "sem3marks": 4.8,
     "sem3spi2": 9.6,
     "totalSum": 20.79,
-    "total": 204.25,
+    "total": 217.25,
     "dm2": 15.5,
     "coa2": 16.0,
     "toc2": 14.5,
@@ -7436,7 +7631,8 @@ const data = [
     "fsd23": 11.5,
     "python23": 14.0,
     "sem3spi": 6.58,
-    "dm4": 33.5
+    "dm4": 33.5,
+    "coa4": 26.0
   },
   {
     "roll": 37,
@@ -7452,7 +7648,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 82.25,
-    "coa": 61.5,
+    "coa": 78.0,
     "fsd-ii": 0,
     "fsd2": 63.0,
     "python2": 59.5,
@@ -7462,7 +7658,7 @@ const data = [
     "sem3marks": 7.375,
     "sem3spi2": 14.75,
     "totalSum": 31.43,
-    "total": 316.75,
+    "total": 333.25,
     "dm2": 20.5,
     "coa2": 22.0,
     "toc2": 17.0,
@@ -7474,7 +7670,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 18.5,
     "sem3spi": 8.96,
-    "dm4": 34.5
+    "dm4": 34.5,
+    "coa4": 33.0
   },
   {
     "roll": 35,
@@ -7490,7 +7687,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 85.75,
-    "coa": 64.5,
+    "coa": 83.5,
     "fsd-ii": 0,
     "fsd2": 68.0,
     "python2": 66.5,
@@ -7500,7 +7697,7 @@ const data = [
     "sem3marks": 7.975,
     "sem3spi2": 15.95,
     "totalSum": 31.62,
-    "total": 340.25,
+    "total": 359.25,
     "dm2": 22.0,
     "coa2": 20.5,
     "toc2": 23.0,
@@ -7512,7 +7709,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 22.5,
     "sem3spi": 9.21,
-    "dm4": 40.5
+    "dm4": 40.5,
+    "coa4": 38.0
   },
   {
     "roll": 225,
@@ -7528,7 +7726,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 58.75,
-    "coa": 23.0,
+    "coa": 32.0,
     "fsd-ii": 0,
     "fsd2": 36.5,
     "python2": 36.0,
@@ -7538,7 +7736,7 @@ const data = [
     "sem3marks": 4.875,
     "sem3spi2": 9.75,
     "totalSum": 20.96,
-    "total": 197.25,
+    "total": 206.25,
     "dm2": 18.5,
     "coa2": 2.0,
     "toc2": 18.0,
@@ -7550,7 +7748,8 @@ const data = [
     "fsd23": 13.5,
     "python23": 11.0,
     "sem3spi": 5.33144,
-    "dm4": 24.5
+    "dm4": 24.5,
+    "coa4": 18.0
   },
   {
     "roll": 30,
@@ -7566,7 +7765,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 78.75,
-    "coa": 64.5,
+    "coa": 78.0,
     "fsd-ii": 0,
     "fsd2": 56.0,
     "python2": 59.5,
@@ -7576,7 +7775,7 @@ const data = [
     "sem3marks": 7.325,
     "sem3spi2": 14.65,
     "totalSum": 31.87,
-    "total": 315.75,
+    "total": 329.25,
     "dm2": 19.5,
     "coa2": 21.5,
     "toc2": 20.0,
@@ -7588,7 +7787,8 @@ const data = [
     "fsd23": 21.5,
     "python23": 19.5,
     "sem3spi": 8.96,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 27.0
   },
   {
     "roll": 129,
@@ -7604,7 +7804,7 @@ const data = [
     "dept": "SY4",
     "etc": 94,
     "dm": 69.5,
-    "coa": 59.5,
+    "coa": 75.5,
     "fsd-ii": 0,
     "fsd2": 58.5,
     "python2": 50.5,
@@ -7614,7 +7814,7 @@ const data = [
     "sem3marks": 6.55,
     "sem3spi2": 13.1,
     "totalSum": 25.96,
-    "total": 283.0,
+    "total": 299.0,
     "dm2": 11.5,
     "coa2": 23.0,
     "toc2": 21.0,
@@ -7626,7 +7826,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 16.5,
     "sem3spi": 7.79,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 32.0
   },
   {
     "roll": 12,
@@ -7642,7 +7843,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 91.25,
-    "coa": 72.0,
+    "coa": 95.5,
     "fsd-ii": 0,
     "fsd2": 68.0,
     "python2": 69.0,
@@ -7652,7 +7853,7 @@ const data = [
     "sem3marks": 8.7,
     "sem3spi2": 17.4,
     "totalSum": 33.78,
-    "total": 365.25,
+    "total": 388.75,
     "dm2": 21.5,
     "coa2": 24.5,
     "toc2": 21.0,
@@ -7664,7 +7865,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 24.5,
     "sem3spi": 9.42,
-    "dm4": 46.5
+    "dm4": 46.5,
+    "coa4": 47.0
   },
   {
     "roll": 98,
@@ -7680,7 +7882,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 77.5,
-    "coa": 49.5,
+    "coa": 65.0,
     "fsd-ii": 0,
     "fsd2": 61.0,
     "python2": 55.5,
@@ -7690,7 +7892,7 @@ const data = [
     "sem3marks": 6.6,
     "sem3spi2": 13.2,
     "totalSum": 27.27,
-    "total": 288.5,
+    "total": 304.0,
     "dm2": 21.0,
     "coa2": 16.0,
     "toc2": 20.0,
@@ -7702,7 +7904,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 19.5,
     "sem3spi": 8.17,
-    "dm4": 34.0
+    "dm4": 34.0,
+    "coa4": 31.0
   },
   {
     "roll": 191,
@@ -7718,7 +7921,7 @@ const data = [
     "dept": "SY4",
     "etc": 94,
     "dm": 71.0,
-    "coa": 36.0,
+    "coa": 49.0,
     "fsd-ii": 0,
     "fsd2": 41.0,
     "python2": 40.5,
@@ -7728,7 +7931,7 @@ const data = [
     "sem3marks": 5,
     "sem3spi2": 10,
     "totalSum": 23.1,
-    "total": 232.5,
+    "total": 245.5,
     "dm2": 20.0,
     "coa2": 15.0,
     "toc2": 17.0,
@@ -7740,7 +7943,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 14.0,
     "sem3spi": 6.71,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 26.0
   },
   {
     "roll": 38,
@@ -7756,7 +7960,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 82.0,
-    "coa": 64.0,
+    "coa": 84.5,
     "fsd-ii": 0,
     "fsd2": 69.0,
     "python2": 69.5,
@@ -7766,7 +7970,7 @@ const data = [
     "sem3marks": 8.1,
     "sem3spi2": 16.2,
     "totalSum": 31.42,
-    "total": 345.0,
+    "total": 365.5,
     "dm2": 19.0,
     "coa2": 24.0,
     "toc2": 21.0,
@@ -7778,7 +7982,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 24.5,
     "sem3spi": 9.38,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 41.0
   },
   {
     "roll": 74,
@@ -7794,7 +7999,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 67.25,
-    "coa": 35.5,
+    "coa": 50.0,
     "fsd-ii": 0,
     "fsd2": 63.5,
     "python2": 57.5,
@@ -7804,7 +8009,7 @@ const data = [
     "sem3marks": 6.975,
     "sem3spi2": 13.95,
     "totalSum": 28.7,
-    "total": 265.25,
+    "total": 279.75,
     "dm2": 18.0,
     "coa2": 13.5,
     "toc2": 15.5,
@@ -7816,7 +8021,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 18.0,
     "sem3spi": 8.58,
-    "dm4": 29.5
+    "dm4": 29.5,
+    "coa4": 29.0
   },
   {
     "roll": 50,
@@ -7832,7 +8038,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 65.5,
-    "coa": 63.0,
+    "coa": 84.5,
     "fsd-ii": 0,
     "fsd2": 65.0,
     "python2": 65.0,
@@ -7842,7 +8048,7 @@ const data = [
     "sem3marks": 7.425,
     "sem3spi2": 14.85,
     "totalSum": 30.26,
-    "total": 319.5,
+    "total": 341.0,
     "dm2": 13.0,
     "coa2": 18.5,
     "toc2": 24.0,
@@ -7854,7 +8060,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 25.0,
     "sem3spi": 8.29,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 43.0
   },
   {
     "roll": 57,
@@ -7870,7 +8077,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 76.75,
-    "coa": 61.0,
+    "coa": 78.0,
     "fsd-ii": 0,
     "fsd2": 63.0,
     "python2": 48.0,
@@ -7880,7 +8087,7 @@ const data = [
     "sem3marks": 7.55,
     "sem3spi2": 15.1,
     "totalSum": 29.64,
-    "total": 306.75,
+    "total": 323.75,
     "dm2": 19.5,
     "coa2": 21.0,
     "toc2": 21.5,
@@ -7892,7 +8099,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 19.0,
     "sem3spi": 9.13,
-    "dm4": 36.5
+    "dm4": 36.5,
+    "coa4": 34.0
   },
   {
     "roll": 241,
@@ -7908,7 +8116,7 @@ const data = [
     "dept": "SY4",
     "etc": 88,
     "dm": 46.0,
-    "coa": 41.5,
+    "coa": 50.5,
     "fsd-ii": 0,
     "fsd2": 39.0,
     "python2": 32.5,
@@ -7918,7 +8126,7 @@ const data = [
     "sem3marks": 4.45,
     "sem3spi2": 8.9,
     "totalSum": 19.53,
-    "total": 185.5,
+    "total": 194.5,
     "dm2": 14.5,
     "coa2": 14.5,
     "toc2": 13.0,
@@ -7930,7 +8138,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 14.0,
     "sem3spi": 5.88,
-    "dm4": 24.0
+    "dm4": 24.0,
+    "coa4": 18.0
   },
   {
     "roll": 28,
@@ -7946,7 +8155,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 91.75,
-    "coa": 68.5,
+    "coa": 90.5,
     "fsd-ii": 0,
     "fsd2": 66.0,
     "python2": 58.5,
@@ -7956,7 +8165,7 @@ const data = [
     "sem3marks": 7.875,
     "sem3spi2": 15.75,
     "totalSum": 32,
-    "total": 346.25,
+    "total": 368.25,
     "dm2": 22.0,
     "coa2": 23.0,
     "toc2": 22.0,
@@ -7968,7 +8177,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 20.0,
     "sem3spi": 8.67,
-    "dm4": 45.5
+    "dm4": 45.5,
+    "coa4": 44.0
   },
   {
     "roll": 89,
@@ -7984,7 +8194,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 74.25,
-    "coa": 61.0,
+    "coa": 74.5,
     "fsd-ii": 0,
     "fsd2": 58.5,
     "python2": 48.5,
@@ -7994,7 +8204,7 @@ const data = [
     "sem3marks": 7.225,
     "sem3spi2": 14.45,
     "totalSum": 27.75,
-    "total": 304.25,
+    "total": 317.75,
     "dm2": 16.0,
     "coa2": 18.5,
     "toc2": 24.0,
@@ -8006,7 +8216,8 @@ const data = [
     "fsd23": 20.5,
     "python23": 12.0,
     "sem3spi": 8.54,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 27.0
   },
   {
     "roll": 24,
@@ -8022,7 +8233,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 86.0,
-    "coa": 59.5,
+    "coa": 73.25,
     "fsd-ii": 0,
     "fsd2": 68.0,
     "python2": 64.0,
@@ -8032,7 +8243,7 @@ const data = [
     "sem3marks": 7.875,
     "sem3spi2": 15.75,
     "totalSum": 32.11,
-    "total": 338.0,
+    "total": 351.75,
     "dm2": 21.5,
     "coa2": 22.0,
     "toc2": 19.0,
@@ -8044,7 +8255,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 20.5,
     "sem3spi": 9.17,
-    "dm4": 36.0
+    "dm4": 36.0,
+    "coa4": 27.5
   },
   {
     "roll": 213,
@@ -8060,7 +8272,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 50.25,
-    "coa": 47.0,
+    "coa": 56.0,
     "fsd-ii": 0,
     "fsd2": 38.5,
     "python2": 43.5,
@@ -8070,7 +8282,7 @@ const data = [
     "sem3marks": 4.9,
     "sem3spi2": 9.8,
     "totalSum": 21.84,
-    "total": 228.75,
+    "total": 237.75,
     "dm2": 14.0,
     "coa2": 21.0,
     "toc2": 15.5,
@@ -8082,7 +8294,8 @@ const data = [
     "fsd23": 11.0,
     "python23": 15.5,
     "sem3spi": 6.21,
-    "dm4": 18.5
+    "dm4": 18.5,
+    "coa4": 18.0
   },
   {
     "roll": 34,
@@ -8098,7 +8311,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 84.5,
-    "coa": 60.5,
+    "coa": 76.5,
     "fsd-ii": 0,
     "fsd2": 58.0,
     "python2": 66.5,
@@ -8108,7 +8321,7 @@ const data = [
     "sem3marks": 7.6,
     "sem3spi2": 15.2,
     "totalSum": 31.64,
-    "total": 323.0,
+    "total": 339.0,
     "dm2": 19.0,
     "coa2": 19.5,
     "toc2": 17.0,
@@ -8120,7 +8333,8 @@ const data = [
     "fsd23": 20.5,
     "python23": 22.5,
     "sem3spi": 9.17,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 32.0
   },
   {
     "roll": 61,
@@ -8136,7 +8350,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 67.0,
-    "coa": 67.5,
+    "coa": 84.5,
     "fsd-ii": 0,
     "fsd2": 57.0,
     "python2": 47.0,
@@ -8146,7 +8360,7 @@ const data = [
     "sem3marks": 7,
     "sem3spi2": 14,
     "totalSum": 29.35,
-    "total": 284.0,
+    "total": 301.0,
     "dm2": 18.0,
     "coa2": 21.0,
     "toc2": 19.0,
@@ -8158,7 +8372,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 19.0,
     "sem3spi": 8.38,
-    "dm4": 43.0
+    "dm4": 43.0,
+    "coa4": 34.0
   },
   {
     "roll": 149,
@@ -8174,7 +8389,7 @@ const data = [
     "dept": "SY4",
     "etc": 86,
     "dm": 76.75,
-    "coa": 66.0,
+    "coa": 83.0,
     "fsd-ii": 0,
     "fsd2": 59.0,
     "python2": 48.0,
@@ -8184,7 +8399,7 @@ const data = [
     "sem3marks": 5.95,
     "sem3spi2": 11.9,
     "totalSum": 25.17,
-    "total": 304.75,
+    "total": 321.75,
     "dm2": 19.0,
     "coa2": 21.5,
     "toc2": 17.0,
@@ -8196,7 +8411,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 15.0,
     "sem3spi": 7.83,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 34.0
   },
   {
     "roll": 15,
@@ -8212,7 +8428,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 87.0,
-    "coa": 60.5,
+    "coa": 75.5,
     "fsd-ii": 0,
     "fsd2": 63.0,
     "python2": 68.0,
@@ -8222,7 +8438,7 @@ const data = [
     "sem3marks": 8,
     "sem3spi2": 16,
     "totalSum": 33.44,
-    "total": 337.5,
+    "total": 352.5,
     "dm2": 19.5,
     "coa2": 19.0,
     "toc2": 22.0,
@@ -8234,7 +8450,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 25.0,
     "sem3spi": 8.96,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 30.0
   },
   {
     "roll": 47,
@@ -8250,7 +8467,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 75.0,
-    "coa": 67.0,
+    "coa": 87.0,
     "fsd-ii": 0,
     "fsd2": 59.0,
     "python2": 69.0,
@@ -8260,7 +8477,7 @@ const data = [
     "sem3marks": 7.125,
     "sem3spi2": 14.25,
     "totalSum": 30.41,
-    "total": 324.5,
+    "total": 344.5,
     "dm2": 11.0,
     "coa2": 23.5,
     "toc2": 22.0,
@@ -8272,7 +8489,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 25.0,
     "sem3spi": 8.75,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 40.0
   },
   {
     "roll": 10,
@@ -8288,7 +8506,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 84.0,
-    "coa": 63.0,
+    "coa": 83.0,
     "fsd-ii": 0,
     "fsd2": 62.5,
     "python2": 64.0,
@@ -8298,7 +8516,7 @@ const data = [
     "sem3marks": 8.375,
     "sem3spi2": 16.75,
     "totalSum": 33.96,
-    "total": 329.5,
+    "total": 349.5,
     "dm2": 16.5,
     "coa2": 21.5,
     "toc2": 24.0,
@@ -8310,7 +8528,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 25.0,
     "sem3spi": 9.33,
-    "dm4": 44.0
+    "dm4": 44.0,
+    "coa4": 40.0
   },
   {
     "roll": 2,
@@ -8326,7 +8545,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 95.5,
-    "coa": 74.5,
+    "coa": 99.5,
     "fsd-ii": 0,
     "fsd2": 68.0,
     "python2": 72.5,
@@ -8336,7 +8555,7 @@ const data = [
     "sem3marks": 9.55,
     "sem3spi2": 19.1,
     "totalSum": 36.47,
-    "total": 381.5,
+    "total": 406.5,
     "dm2": 22.5,
     "coa2": 25.0,
     "toc2": 24.0,
@@ -8348,7 +8567,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 25.0,
     "sem3spi": 9.88,
-    "dm4": 49.0
+    "dm4": 49.0,
+    "coa4": 50.0
   },
   {
     "roll": 239,
@@ -8364,7 +8584,7 @@ const data = [
     "dept": "SY4",
     "etc": 88,
     "dm": 46.25,
-    "coa": 26.0,
+    "coa": 38.0,
     "fsd-ii": 0,
     "fsd2": 19.5,
     "python2": 21.0,
@@ -8374,7 +8594,7 @@ const data = [
     "sem3marks": 4.375,
     "sem3spi2": 8.75,
     "totalSum": 19.93,
-    "total": 147.75,
+    "total": 159.75,
     "dm2": 10.0,
     "coa2": 11.0,
     "toc2": 15.0,
@@ -8386,7 +8606,8 @@ const data = [
     "fsd23": 8.0,
     "python23": 7.0,
     "sem3spi": 4.89,
-    "dm4": 31.5
+    "dm4": 31.5,
+    "coa4": 24.0
   },
   {
     "roll": 126,
@@ -8402,7 +8623,7 @@ const data = [
     "dept": "SY4",
     "etc": 94,
     "dm": 72.0,
-    "coa": 51.0,
+    "coa": 65.5,
     "fsd-ii": 0,
     "fsd2": 41.0,
     "python2": 45.0,
@@ -8412,7 +8633,7 @@ const data = [
     "sem3marks": 5.5,
     "sem3spi2": 11,
     "totalSum": 26.02,
-    "total": 254.5,
+    "total": 269.0,
     "dm2": 16.0,
     "coa2": 18.0,
     "toc2": 19.5,
@@ -8424,7 +8645,8 @@ const data = [
     "fsd23": 17.0,
     "python23": 14.0,
     "sem3spi": 7.75,
-    "dm4": 33.0
+    "dm4": 33.0,
+    "coa4": 29.0
   },
   {
     "roll": 158,
@@ -8440,7 +8662,7 @@ const data = [
     "dept": "SY4",
     "etc": 90,
     "dm": 61.0,
-    "coa": 54.0,
+    "coa": 62.0,
     "fsd-ii": 0,
     "fsd2": 40.0,
     "python2": 47.0,
@@ -8450,7 +8672,7 @@ const data = [
     "sem3marks": 5.875,
     "sem3spi2": 11.75,
     "totalSum": 24.86,
-    "total": 256.5,
+    "total": 264.5,
     "dm2": 12.5,
     "coa2": 16.5,
     "toc2": 19.5,
@@ -8462,7 +8684,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 15.0,
     "sem3spi": 7.38,
-    "dm4": 31.0
+    "dm4": 31.0,
+    "coa4": 16.0
   },
   {
     "roll": 108,
@@ -8478,7 +8701,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 78.75,
-    "coa": 58.0,
+    "coa": 70.5,
     "fsd-ii": 0,
     "fsd2": 38.0,
     "python2": 42.5,
@@ -8488,7 +8711,7 @@ const data = [
     "sem3marks": 6.025,
     "sem3spi2": 12.05,
     "totalSum": 26.9,
-    "total": 265.75,
+    "total": 278.25,
     "dm2": 21.0,
     "coa2": 22.5,
     "toc2": 22.0,
@@ -8500,7 +8723,8 @@ const data = [
     "fsd23": 15.0,
     "python23": 17.0,
     "sem3spi": 8.0,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 25.0
   },
   {
     "roll": 137,
@@ -8516,7 +8740,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 64.5,
-    "coa": 56.5,
+    "coa": 72.0,
     "fsd-ii": 0,
     "fsd2": 41.5,
     "python2": 37.0,
@@ -8526,7 +8750,7 @@ const data = [
     "sem3marks": 5.7,
     "sem3spi2": 11.4,
     "totalSum": 25.7,
-    "total": 243.0,
+    "total": 258.5,
     "dm2": 14.0,
     "coa2": 20.0,
     "toc2": 18.5,
@@ -8538,7 +8762,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 12.5,
     "sem3spi": 7.08,
-    "dm4": 33.0
+    "dm4": 33.0,
+    "coa4": 31.0
   },
   {
     "roll": 216,
@@ -8554,7 +8779,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 55.75,
-    "coa": 46.5,
+    "coa": 58.5,
     "fsd-ii": 0,
     "fsd2": 43.5,
     "python2": 52.0,
@@ -8564,7 +8789,7 @@ const data = [
     "sem3marks": 5.275,
     "sem3spi2": 10.55,
     "totalSum": 21.44,
-    "total": 243.25,
+    "total": 255.25,
     "dm2": 13.0,
     "coa2": 9.0,
     "toc2": 13.5,
@@ -8576,7 +8801,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 19.5,
     "sem3spi": 7.21,
-    "dm4": 34.5
+    "dm4": 34.5,
+    "coa4": 24.0
   },
   {
     "roll": 29,
@@ -8592,7 +8818,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 88.5,
-    "coa": 68.5,
+    "coa": 86.0,
     "fsd-ii": 0,
     "fsd2": 66.0,
     "python2": 65.0,
@@ -8602,7 +8828,7 @@ const data = [
     "sem3marks": 8.075,
     "sem3spi2": 16.15,
     "totalSum": 31.88,
-    "total": 349.5,
+    "total": 367.0,
     "dm2": 22.0,
     "coa2": 23.0,
     "toc2": 24.5,
@@ -8614,7 +8840,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 23.0,
     "sem3spi": 9.04,
-    "dm4": 42.0
+    "dm4": 42.0,
+    "coa4": 35.0
   },
   {
     "roll": 118,
@@ -8630,7 +8857,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 81.0,
-    "coa": 62.5,
+    "coa": 84.0,
     "fsd-ii": 0,
     "fsd2": 66.0,
     "python2": 64.0,
@@ -8640,7 +8867,7 @@ const data = [
     "sem3marks": 6.6,
     "sem3spi2": 13.2,
     "totalSum": 26.42,
-    "total": 321.5,
+    "total": 343.0,
     "dm2": 19.5,
     "coa2": 18.0,
     "toc2": 18.0,
@@ -8652,7 +8879,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 21.5,
     "sem3spi": 8.04,
-    "dm4": 36.0
+    "dm4": 36.0,
+    "coa4": 43.0
   },
   {
     "roll": 155,
@@ -8668,7 +8896,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 72.0,
-    "coa": 61.0,
+    "coa": 76.5,
     "fsd-ii": 0,
     "fsd2": 56.5,
     "python2": 58.0,
@@ -8678,7 +8906,7 @@ const data = [
     "sem3marks": 6,
     "sem3spi2": 12,
     "totalSum": 24.94,
-    "total": 292.0,
+    "total": 307.5,
     "dm2": 15.5,
     "coa2": 18.5,
     "toc2": 20.0,
@@ -8690,7 +8918,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 17.5,
     "sem3spi": 7.67,
-    "dm4": 42.0
+    "dm4": 42.0,
+    "coa4": 31.0
   },
   {
     "roll": 65,
@@ -8706,7 +8935,7 @@ const data = [
     "dept": "SY4",
     "etc": 94,
     "dm": 84.25,
-    "coa": 70.5,
+    "coa": 89.5,
     "fsd-ii": 0,
     "fsd2": 64.0,
     "python2": 60.0,
@@ -8716,7 +8945,7 @@ const data = [
     "sem3marks": 6.925,
     "sem3spi2": 13.85,
     "totalSum": 29.12,
-    "total": 327.25,
+    "total": 346.25,
     "dm2": 21.0,
     "coa2": 24.0,
     "toc2": 17.0,
@@ -8728,7 +8957,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 21.0,
     "sem3spi": 8.33,
-    "dm4": 42.5
+    "dm4": 42.5,
+    "coa4": 38.0
   },
   {
     "roll": 186,
@@ -8744,7 +8974,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 54.5,
-    "coa": 52.0,
+    "coa": 64.5,
     "fsd-ii": 0,
     "fsd2": 41.0,
     "python2": 48.5,
@@ -8754,7 +8984,7 @@ const data = [
     "sem3marks": 5.175,
     "sem3spi2": 10.35,
     "totalSum": 23.43,
-    "total": 241.0,
+    "total": 253.5,
     "dm2": 14.5,
     "coa2": 17.5,
     "toc2": 19.0,
@@ -8766,7 +8996,8 @@ const data = [
     "fsd23": 16.0,
     "python23": 15.0,
     "sem3spi": 6.67,
-    "dm4": 33.0
+    "dm4": 33.0,
+    "coa4": 25.0
   },
   {
     "roll": 83,
@@ -8782,7 +9013,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 70.75,
-    "coa": 50.5,
+    "coa": 69.0,
     "fsd-ii": 0,
     "fsd2": 46.0,
     "python2": 52.0,
@@ -8792,7 +9023,7 @@ const data = [
     "sem3marks": 6.775,
     "sem3spi2": 13.55,
     "totalSum": 28.22,
-    "total": 278.75,
+    "total": 297.25,
     "dm2": 17.0,
     "coa2": 18.0,
     "toc2": 16.0,
@@ -8804,7 +9035,8 @@ const data = [
     "fsd23": 12.0,
     "python23": 16.0,
     "sem3spi": 7.92,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 37.0
   },
   {
     "roll": 115,
@@ -8820,7 +9052,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 72.75,
-    "coa": 55.5,
+    "coa": 75.5,
     "fsd-ii": 0,
     "fsd2": 62.5,
     "python2": 58.5,
@@ -8830,7 +9062,7 @@ const data = [
     "sem3marks": 6.575,
     "sem3spi2": 13.15,
     "totalSum": 26.59,
-    "total": 296.25,
+    "total": 316.25,
     "dm2": 18.0,
     "coa2": 11.5,
     "toc2": 18.5,
@@ -8842,7 +9074,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 19.0,
     "sem3spi": 7.92,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 40.0
   },
   {
     "roll": 17,
@@ -8858,7 +9091,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 80.25,
-    "coa": 67.0,
+    "coa": 83.5,
     "fsd-ii": 0,
     "fsd2": 66.5,
     "python2": 71.5,
@@ -8868,7 +9101,7 @@ const data = [
     "sem3marks": 8.275,
     "sem3spi2": 16.55,
     "totalSum": 32.66,
-    "total": 349.75,
+    "total": 366.25,
     "dm2": 17.0,
     "coa2": 25.0,
     "toc2": 22.5,
@@ -8880,7 +9113,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 24.0,
     "sem3spi": 9.46,
-    "dm4": 42.5
+    "dm4": 42.5,
+    "coa4": 33.0
   },
   {
     "roll": 181,
@@ -8896,7 +9130,7 @@ const data = [
     "dept": "SY4",
     "etc": 84,
     "dm": 60.5,
-    "coa": 50.0,
+    "coa": 59.5,
     "fsd-ii": 0,
     "fsd2": 36.5,
     "python2": 34.5,
@@ -8906,7 +9140,7 @@ const data = [
     "sem3marks": 5.6,
     "sem3spi2": 11.2,
     "totalSum": 23.69,
-    "total": 227.5,
+    "total": 237.0,
     "dm2": 9.0,
     "coa2": 17.0,
     "toc2": 16.0,
@@ -8918,7 +9152,8 @@ const data = [
     "fsd23": 11.0,
     "python23": 12.0,
     "sem3spi": 6.92,
-    "dm4": 35.0
+    "dm4": 35.0,
+    "coa4": 19.0
   },
   {
     "roll": 41,
@@ -8934,7 +9169,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 82.5,
-    "coa": 67.0,
+    "coa": 82.0,
     "fsd-ii": 0,
     "fsd2": 68.0,
     "python2": 60.5,
@@ -8944,7 +9179,7 @@ const data = [
     "sem3marks": 7.75,
     "sem3spi2": 15.5,
     "totalSum": 31.2,
-    "total": 336.0,
+    "total": 351.0,
     "dm2": 20.0,
     "coa2": 23.0,
     "toc2": 21.5,
@@ -8956,7 +9191,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 19.5,
     "sem3spi": 8.96,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 30.0
   },
   {
     "roll": 18,
@@ -8972,7 +9208,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 86.75,
-    "coa": 70.0,
+    "coa": 90.0,
     "fsd-ii": 0,
     "fsd2": 63.5,
     "python2": 63.0,
@@ -8982,7 +9218,7 @@ const data = [
     "sem3marks": 8.025,
     "sem3spi2": 16.05,
     "totalSum": 32.55,
-    "total": 342.25,
+    "total": 362.25,
     "dm2": 21.0,
     "coa2": 24.5,
     "toc2": 23.0,
@@ -8994,7 +9230,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 20.0,
     "sem3spi": 9.38,
-    "dm4": 41.5
+    "dm4": 41.5,
+    "coa4": 40.0
   },
   {
     "roll": 253,
@@ -9010,7 +9247,7 @@ const data = [
     "dept": "SY4",
     "etc": 94,
     "dm": 26.5,
-    "coa": 26.0,
+    "coa": 36.0,
     "fsd-ii": 0,
     "fsd2": 37.5,
     "python2": 31.5,
@@ -9020,7 +9257,7 @@ const data = [
     "sem3marks": 3.925,
     "sem3spi2": 7.85,
     "totalSum": 18.78,
-    "total": 153.0,
+    "total": 163.0,
     "dm2": 9.0,
     "coa2": 7.5,
     "toc2": 16.0,
@@ -9032,7 +9269,8 @@ const data = [
     "fsd23": 16.0,
     "python23": 9.5,
     "sem3spi": 4.89,
-    "dm4": 10.0
+    "dm4": 10.0,
+    "coa4": 20.0
   },
   {
     "roll": 9,
@@ -9048,7 +9286,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 85.5,
-    "coa": 70.0,
+    "coa": 88.5,
     "fsd-ii": 0,
     "fsd2": 62.0,
     "python2": 64.5,
@@ -9058,7 +9296,7 @@ const data = [
     "sem3marks": 8.175,
     "sem3spi2": 16.35,
     "totalSum": 33.98,
-    "total": 340.5,
+    "total": 359.0,
     "dm2": 21.0,
     "coa2": 22.5,
     "toc2": 19.0,
@@ -9070,7 +9308,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 19.5,
     "sem3spi": 9.38,
-    "dm4": 42.0
+    "dm4": 42.0,
+    "coa4": 37.0
   },
   {
     "roll": 180,
@@ -9086,7 +9325,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 63.75,
-    "coa": 48.5,
+    "coa": 62.5,
     "fsd-ii": 0,
     "fsd2": 35.5,
     "python2": 38.5,
@@ -9096,7 +9335,7 @@ const data = [
     "sem3marks": 5.3,
     "sem3spi2": 10.6,
     "totalSum": 23.74,
-    "total": 231.75,
+    "total": 245.75,
     "dm2": 15.0,
     "coa2": 11.5,
     "toc2": 24.0,
@@ -9108,7 +9347,8 @@ const data = [
     "fsd23": 9.0,
     "python23": 13.5,
     "sem3spi": 6.83,
-    "dm4": 36.5
+    "dm4": 36.5,
+    "coa4": 28.0
   },
   {
     "roll": 54,
@@ -9124,7 +9364,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 75.0,
-    "coa": 61.5,
+    "coa": 73.0,
     "fsd-ii": 0,
     "fsd2": 60.5,
     "python2": 55.0,
@@ -9134,7 +9374,7 @@ const data = [
     "sem3marks": 7.05,
     "sem3spi2": 14.1,
     "totalSum": 29.91,
-    "total": 308.5,
+    "total": 320.0,
     "dm2": 16.0,
     "coa2": 19.0,
     "toc2": 23.0,
@@ -9146,7 +9386,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 17.0,
     "sem3spi": 8.42,
-    "dm4": 36.0
+    "dm4": 36.0,
+    "coa4": 23.0
   },
   {
     "roll": 63,
@@ -9162,7 +9403,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 63.0,
-    "coa": 46.5,
+    "coa": 54.5,
     "fsd-ii": 0,
     "fsd2": 57.0,
     "python2": 57.5,
@@ -9172,7 +9413,7 @@ const data = [
     "sem3marks": 6.85,
     "sem3spi2": 13.7,
     "totalSum": 29.26,
-    "total": 266.0,
+    "total": 274.0,
     "dm2": 15.0,
     "coa2": 13.5,
     "toc2": 17.0,
@@ -9184,7 +9425,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 17.0,
     "sem3spi": 7.96,
-    "dm4": 27.0
+    "dm4": 27.0,
+    "coa4": 16.0
   },
   {
     "roll": 70,
@@ -9200,7 +9442,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 62.25,
-    "coa": 57.5,
+    "coa": 67.5,
     "fsd-ii": 0,
     "fsd2": 53.0,
     "python2": 58.5,
@@ -9210,7 +9452,7 @@ const data = [
     "sem3marks": 7.325,
     "sem3spi2": 14.65,
     "totalSum": 28.91,
-    "total": 287.25,
+    "total": 297.25,
     "dm2": 7.0,
     "coa2": 19.0,
     "toc2": 21.0,
@@ -9222,7 +9464,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 22.0,
     "sem3spi": 8.88,
-    "dm4": 29.5
+    "dm4": 29.5,
+    "coa4": 20.0
   },
   {
     "roll": 159,
@@ -9238,7 +9481,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 68.0,
-    "coa": 57.0,
+    "coa": 69.0,
     "fsd-ii": 0,
     "fsd2": 51.0,
     "python2": 49.0,
@@ -9248,7 +9491,7 @@ const data = [
     "sem3marks": 5.75,
     "sem3spi2": 11.5,
     "totalSum": 24.86,
-    "total": 283.5,
+    "total": 295.5,
     "dm2": 13.0,
     "coa2": 17.5,
     "toc2": 21.0,
@@ -9260,7 +9503,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 14.0,
     "sem3spi": 7.08,
-    "dm4": 34.0
+    "dm4": 34.0,
+    "coa4": 24.0
   },
   {
     "roll": 193,
@@ -9276,7 +9520,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 65.0,
-    "coa": 52.5,
+    "coa": 67.0,
     "fsd-ii": 0,
     "fsd2": 40.0,
     "python2": 34.0,
@@ -9286,7 +9530,7 @@ const data = [
     "sem3marks": 5.1,
     "sem3spi2": 10.2,
     "totalSum": 22.92,
-    "total": 234.5,
+    "total": 249.0,
     "dm2": 12.0,
     "coa2": 14.5,
     "toc2": 17.5,
@@ -9298,7 +9542,8 @@ const data = [
     "fsd23": 11.0,
     "python23": 8.5,
     "sem3spi": 6.58,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 29.0
   },
   {
     "roll": 269,
@@ -9314,7 +9559,7 @@ const data = [
     "dept": "SY4",
     "etc": 82,
     "dm": 40.0,
-    "coa": 28.5,
+    "coa": 37.0,
     "fsd-ii": 0,
     "fsd2": 21.0,
     "python2": 13.5,
@@ -9324,7 +9569,7 @@ const data = [
     "sem3marks": 3.3,
     "sem3spi2": 6.6,
     "totalSum": 16.29,
-    "total": 125.0,
+    "total": 133.5,
     "dm2": 0.0,
     "coa2": 0.0,
     "toc2": 0.0,
@@ -9336,7 +9581,8 @@ const data = [
     "fsd23": 10.5,
     "python23": 8.5,
     "sem3spi": 4.96,
-    "dm4": 32.0
+    "dm4": 32.0,
+    "coa4": 17.0
   },
   {
     "roll": 234,
@@ -9352,7 +9598,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 39.25,
-    "coa": 15.0,
+    "coa": 23.0,
     "fsd-ii": 0,
     "fsd2": 24.5,
     "python2": 19.0,
@@ -9362,7 +9608,7 @@ const data = [
     "sem3marks": 3.875,
     "sem3spi2": 7.75,
     "totalSum": 20.47,
-    "total": 116.75,
+    "total": 124.75,
     "dm2": 4.0,
     "coa2": 5.0,
     "toc2": 8.5,
@@ -9374,7 +9620,8 @@ const data = [
     "fsd23": 6.0,
     "python23": 7.0,
     "sem3spi": 6.0,
-    "dm4": 31.5
+    "dm4": 31.5,
+    "coa4": 16.0
   },
   {
     "roll": 94,
@@ -9390,7 +9637,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 77.5,
-    "coa": 65.5,
+    "coa": 84.5,
     "fsd-ii": 0,
     "fsd2": 62.5,
     "python2": 52.0,
@@ -9400,7 +9647,7 @@ const data = [
     "sem3marks": 6.475,
     "sem3spi2": 12.95,
     "totalSum": 27.36,
-    "total": 326.5,
+    "total": 345.5,
     "dm2": 14.0,
     "coa2": 22.0,
     "toc2": 23.5,
@@ -9412,7 +9659,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 13.0,
     "sem3spi": 8.38,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 38.0
   },
   {
     "roll": 226,
@@ -9428,7 +9676,7 @@ const data = [
     "dept": "SY4",
     "etc": 94,
     "dm": 52.25,
-    "coa": 45.5,
+    "coa": 56.0,
     "fsd-ii": 0,
     "fsd2": 40.5,
     "python2": 34.5,
@@ -9438,7 +9686,7 @@ const data = [
     "sem3marks": 4.6,
     "sem3spi2": 9.2,
     "totalSum": 20.91,
-    "total": 216.25,
+    "total": 226.75,
     "dm2": 12.0,
     "coa2": 17.0,
     "toc2": 11.0,
@@ -9450,7 +9698,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 8.0,
     "sem3spi": 6.25,
-    "dm4": 28.5
+    "dm4": 28.5,
+    "coa4": 21.0
   },
   {
     "roll": 138,
@@ -9466,7 +9715,7 @@ const data = [
     "dept": "SY4",
     "etc": 88,
     "dm": 53.25,
-    "coa": 51.5,
+    "coa": 59.0,
     "fsd-ii": 0,
     "fsd2": 47.0,
     "python2": 47.0,
@@ -9476,7 +9725,7 @@ const data = [
     "sem3marks": 5.75,
     "sem3spi2": 11.5,
     "totalSum": 25.66,
-    "total": 248.75,
+    "total": 256.25,
     "dm2": 13.0,
     "coa2": 17.0,
     "toc2": 19.0,
@@ -9488,7 +9737,8 @@ const data = [
     "fsd23": 15.0,
     "python23": 14.0,
     "sem3spi": 7.38,
-    "dm4": 20.5
+    "dm4": 20.5,
+    "coa4": 15.0
   },
   {
     "roll": 252,
@@ -9504,7 +9754,7 @@ const data = [
     "dept": "SY4",
     "etc": 92,
     "dm": 17.75,
-    "coa": 23.5,
+    "coa": 35.0,
     "fsd-ii": 0,
     "fsd2": 27.0,
     "python2": 23.5,
@@ -9514,7 +9764,7 @@ const data = [
     "sem3marks": 4.125,
     "sem3spi2": 8.25,
     "totalSum": 18.9,
-    "total": 106.25,
+    "total": 117.75,
     "dm2": 0.0,
     "coa2": 5.0,
     "toc2": 4.0,
@@ -9526,7 +9776,8 @@ const data = [
     "fsd23": 12.0,
     "python23": 6.0,
     "sem3spi": 5.71,
-    "dm4": 3.5
+    "dm4": 3.5,
+    "coa4": 23.0
   },
   {
     "roll": 25,
@@ -9542,7 +9793,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 79.0,
-    "coa": 65.0,
+    "coa": 86.5,
     "fsd-ii": 0,
     "fsd2": 60.0,
     "python2": 57.5,
@@ -9552,7 +9803,7 @@ const data = [
     "sem3marks": 8.025,
     "sem3spi2": 16.05,
     "totalSum": 32.11,
-    "total": 325.0,
+    "total": 346.5,
     "dm2": 17.0,
     "coa2": 23.0,
     "toc2": 18.0,
@@ -9564,7 +9815,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 21.0,
     "sem3spi": 9.21,
-    "dm4": 34.0
+    "dm4": 34.0,
+    "coa4": 43.0
   },
   {
     "roll": 69,
@@ -9580,7 +9832,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 64.0,
-    "coa": 53.5,
+    "coa": 65.0,
     "fsd-ii": 0,
     "fsd2": 60.5,
     "python2": 55.5,
@@ -9590,7 +9842,7 @@ const data = [
     "sem3marks": 7.2,
     "sem3spi2": 14.4,
     "totalSum": 29.01,
-    "total": 275.0,
+    "total": 286.5,
     "dm2": 19.0,
     "coa2": 16.0,
     "toc2": 13.5,
@@ -9602,7 +9854,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 14.0,
     "sem3spi": 8.63,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 23.0
   },
   {
     "roll": 52,
@@ -9618,7 +9871,7 @@ const data = [
     "dept": "SY4",
     "etc": 60,
     "dm": 60.25,
-    "coa": 55.0,
+    "coa": 67.5,
     "fsd-ii": 0,
     "fsd2": 58.5,
     "python2": 44.0,
@@ -9628,7 +9881,7 @@ const data = [
     "sem3marks": 7.1,
     "sem3spi2": 14.2,
     "totalSum": 30.01,
-    "total": 269.75,
+    "total": 282.25,
     "dm2": 20.0,
     "coa2": 20.0,
     "toc2": 18.0,
@@ -9640,7 +9893,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 12.0,
     "sem3spi": 8.08,
-    "dm4": 31.5
+    "dm4": 31.5,
+    "coa4": 25.0
   },
   {
     "roll": 169,
@@ -9678,7 +9932,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 9.0,
     "sem3spi": 7.33,
-    "dm4": 0.0
+    "dm4": 0.0,
+    "coa4": 0.0
   },
   {
     "roll": 39,
@@ -9694,7 +9949,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 66.5,
-    "coa": 49.0,
+    "coa": 56.0,
     "fsd-ii": 0,
     "fsd2": 58.5,
     "python2": 44.0,
@@ -9704,7 +9959,7 @@ const data = [
     "sem3marks": 7.8,
     "sem3spi2": 15.6,
     "totalSum": 31.29,
-    "total": 268.5,
+    "total": 275.5,
     "dm2": 15.0,
     "coa2": 15.0,
     "toc2": 21.0,
@@ -9716,7 +9971,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 14.0,
     "sem3spi": 9.13,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 14.0
   },
   {
     "roll": 205,
@@ -9732,7 +9988,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 60.25,
-    "coa": 46.0,
+    "coa": 59.0,
     "fsd-ii": 0,
     "fsd2": 46.5,
     "python2": 36.5,
@@ -9742,7 +9998,7 @@ const data = [
     "sem3marks": 5.425,
     "sem3spi2": 10.85,
     "totalSum": 22.31,
-    "total": 236.25,
+    "total": 249.25,
     "dm2": 12.0,
     "coa2": 7.5,
     "toc2": 16.5,
@@ -9754,7 +10010,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 10.5,
     "sem3spi": 6.88,
-    "dm4": 34.5
+    "dm4": 34.5,
+    "coa4": 26.0
   },
   {
     "roll": 106,
@@ -9770,7 +10027,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 68.75,
-    "coa": 62.5,
+    "coa": 78.0,
     "fsd-ii": 0,
     "fsd2": 47.0,
     "python2": 48.0,
@@ -9780,7 +10037,7 @@ const data = [
     "sem3marks": 6.475,
     "sem3spi2": 12.95,
     "totalSum": 27.03,
-    "total": 276.25,
+    "total": 291.75,
     "dm2": 14.5,
     "coa2": 24.0,
     "toc2": 17.0,
@@ -9792,7 +10049,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 13.5,
     "sem3spi": 8.29,
-    "dm4": 33.5
+    "dm4": 33.5,
+    "coa4": 31.0
   },
   {
     "roll": 282,
@@ -9808,7 +10066,7 @@ const data = [
     "dept": "SY4",
     "etc": 88,
     "dm": 25.75,
-    "coa": 17.0,
+    "coa": 20.0,
     "fsd-ii": 0,
     "fsd2": 12.0,
     "python2": 18.5,
@@ -9818,7 +10076,7 @@ const data = [
     "sem3marks": 3.025,
     "sem3spi2": 6.05,
     "totalSum": 13.9,
-    "total": 93.75,
+    "total": 96.75,
     "dm2": 8.0,
     "coa2": 4.0,
     "toc2": 7.0,
@@ -9830,7 +10088,8 @@ const data = [
     "fsd23": 6.0,
     "python23": 5.0,
     "sem3spi": 4.89,
-    "dm4": 4.5
+    "dm4": 4.5,
+    "coa4": 6.0
   },
   {
     "roll": 135,
@@ -9846,7 +10105,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 78.25,
-    "coa": 61.5,
+    "coa": 81.0,
     "fsd-ii": 0,
     "fsd2": 53.0,
     "python2": 55.5,
@@ -9856,7 +10115,7 @@ const data = [
     "sem3marks": 6.25,
     "sem3spi2": 12.5,
     "totalSum": 25.82,
-    "total": 301.25,
+    "total": 320.75,
     "dm2": 17.0,
     "coa2": 17.0,
     "toc2": 20.5,
@@ -9868,7 +10127,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 18.5,
     "sem3spi": 7.92,
-    "dm4": 40.5
+    "dm4": 40.5,
+    "coa4": 39.0
   },
   {
     "roll": 90,
@@ -9884,7 +10144,7 @@ const data = [
     "dept": "SY4",
     "etc": 90,
     "dm": 68.0,
-    "coa": 61.5,
+    "coa": 77.5,
     "fsd-ii": 0,
     "fsd2": 58.5,
     "python2": 50.0,
@@ -9894,7 +10154,7 @@ const data = [
     "sem3marks": 6.875,
     "sem3spi2": 13.75,
     "totalSum": 27.66,
-    "total": 293.0,
+    "total": 309.0,
     "dm2": 17.0,
     "coa2": 19.0,
     "toc2": 21.5,
@@ -9906,7 +10166,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 13.0,
     "sem3spi": 8.21,
-    "dm4": 22.0
+    "dm4": 22.0,
+    "coa4": 32.0
   },
   {
     "roll": 96,
@@ -9922,7 +10183,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 71.75,
-    "coa": 49.5,
+    "coa": 66.5,
     "fsd-ii": 0,
     "fsd2": 55.5,
     "python2": 57.5,
@@ -9932,7 +10193,7 @@ const data = [
     "sem3marks": 6.525,
     "sem3spi2": 13.05,
     "totalSum": 27.32,
-    "total": 271.75,
+    "total": 288.75,
     "dm2": 17.0,
     "coa2": 15.0,
     "toc2": 13.5,
@@ -9944,7 +10205,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 18.5,
     "sem3spi": 8.08,
-    "dm4": 34.5
+    "dm4": 34.5,
+    "coa4": 34.0
   },
   {
     "roll": 164,
@@ -9960,7 +10222,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 71.5,
-    "coa": 59.5,
+    "coa": 79.0,
     "fsd-ii": 0,
     "fsd2": 48.0,
     "python2": 40.5,
@@ -9970,7 +10232,7 @@ const data = [
     "sem3marks": 5.175,
     "sem3spi2": 10.35,
     "totalSum": 24.57,
-    "total": 262.5,
+    "total": 282.0,
     "dm2": 22.0,
     "coa2": 16.0,
     "toc2": 14.5,
@@ -9982,7 +10244,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 12.5,
     "sem3spi": 7.58,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 39.0
   },
   {
     "roll": 78,
@@ -9998,7 +10261,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 76.75,
-    "coa": 60.0,
+    "coa": 77.5,
     "fsd-ii": 0,
     "fsd2": 61.0,
     "python2": 57.0,
@@ -10008,7 +10271,7 @@ const data = [
     "sem3marks": 6.5,
     "sem3spi2": 13,
     "totalSum": 28.42,
-    "total": 313.25,
+    "total": 330.75,
     "dm2": 19.0,
     "coa2": 19.0,
     "toc2": 20.0,
@@ -10020,7 +10283,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 16.0,
     "sem3spi": 8.58,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 35.0
   },
   {
     "roll": 157,
@@ -10036,7 +10300,7 @@ const data = [
     "dept": "SY4",
     "etc": 92,
     "dm": 46.5,
-    "coa": 48.0,
+    "coa": 60.0,
     "fsd-ii": 0,
     "fsd2": 40.0,
     "python2": 46.0,
@@ -10046,7 +10310,7 @@ const data = [
     "sem3marks": 5.7,
     "sem3spi2": 11.4,
     "totalSum": 24.91,
-    "total": 225.5,
+    "total": 237.5,
     "dm2": 15.0,
     "coa2": 14.0,
     "toc2": 16.0,
@@ -10058,7 +10322,8 @@ const data = [
     "fsd23": 12.5,
     "python23": 13.0,
     "sem3spi": 6.63,
-    "dm4": 36.0
+    "dm4": 36.0,
+    "coa4": 24.0
   },
   {
     "roll": 104,
@@ -10074,7 +10339,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 59.25,
-    "coa": 53.0,
+    "coa": 67.0,
     "fsd-ii": 0,
     "fsd2": 48.0,
     "python2": 55.5,
@@ -10084,7 +10349,7 @@ const data = [
     "sem3marks": 6.15,
     "sem3spi2": 12.3,
     "totalSum": 27.04,
-    "total": 256.25,
+    "total": 270.25,
     "dm2": 18.0,
     "coa2": 18.0,
     "toc2": 12.0,
@@ -10096,7 +10361,8 @@ const data = [
     "fsd23": 16.5,
     "python23": 15.0,
     "sem3spi": 7.96,
-    "dm4": 30.5
+    "dm4": 30.5,
+    "coa4": 28.0
   },
   {
     "roll": 16,
@@ -10112,7 +10378,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 85.0,
-    "coa": 69.5,
+    "coa": 89.0,
     "fsd-ii": 0,
     "fsd2": 61.0,
     "python2": 62.0,
@@ -10122,7 +10388,7 @@ const data = [
     "sem3marks": 8.125,
     "sem3spi2": 16.25,
     "totalSum": 33.44,
-    "total": 334.5,
+    "total": 354.0,
     "dm2": 20.0,
     "coa2": 23.5,
     "toc2": 21.5,
@@ -10134,7 +10400,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 19.5,
     "sem3spi": 9.33,
-    "dm4": 46.0
+    "dm4": 46.0,
+    "coa4": 39.0
   },
   {
     "roll": 230,
@@ -10150,7 +10417,7 @@ const data = [
     "dept": "SY4",
     "etc": 92,
     "dm": 41.25,
-    "coa": 25.5,
+    "coa": 35.5,
     "fsd-ii": 0,
     "fsd2": 24.0,
     "python2": 28.0,
@@ -10160,7 +10427,7 @@ const data = [
     "sem3marks": 4.175,
     "sem3spi2": 8.35,
     "totalSum": 20.74,
-    "total": 147.75,
+    "total": 157.75,
     "dm2": 9.0,
     "coa2": 14.0,
     "toc2": 8.5,
@@ -10172,7 +10439,8 @@ const data = [
     "fsd23": 10.0,
     "python23": 4.5,
     "sem3spi": 6.21,
-    "dm4": 24.5
+    "dm4": 24.5,
+    "coa4": 20.0
   },
   {
     "roll": 273,
@@ -10188,7 +10456,7 @@ const data = [
     "dept": "SY4",
     "etc": 88,
     "dm": 53.0,
-    "coa": 37.5,
+    "coa": 41.5,
     "fsd-ii": 0,
     "fsd2": 18.0,
     "python2": 27.0,
@@ -10198,7 +10466,7 @@ const data = [
     "sem3marks": 3.7,
     "sem3spi2": 7.4,
     "totalSum": 15.78,
-    "total": 163.0,
+    "total": 167.0,
     "dm2": 13.0,
     "coa2": 11.0,
     "toc2": 13.5,
@@ -10210,7 +10478,8 @@ const data = [
     "fsd23": 8.0,
     "python23": 7.0,
     "sem3spi": 6.0,
-    "dm4": 32.0
+    "dm4": 32.0,
+    "coa4": 8.0
   },
   {
     "roll": 280,
@@ -10226,7 +10495,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 32.5,
-    "coa": 12.0,
+    "coa": 13.25,
     "fsd-ii": 0,
     "fsd2": 19.0,
     "python2": 31.5,
@@ -10236,7 +10505,7 @@ const data = [
     "sem3marks": 3.2,
     "sem3spi2": 6.4,
     "totalSum": 14.58,
-    "total": 112.5,
+    "total": 113.75,
     "dm2": 7.0,
     "coa2": 5.0,
     "toc2": 3.0,
@@ -10247,7 +10516,8 @@ const data = [
     "toc3": 4.0,
     "fsd23": 4.0,
     "python23": 10.5,
-    "dm4": 24.0
+    "dm4": 24.0,
+    "coa4": 2.5
   },
   {
     "roll": 20,
@@ -10263,7 +10533,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 89.5,
-    "coa": 65.5,
+    "coa": 86.0,
     "fsd-ii": 0,
     "fsd2": 66.5,
     "python2": 59.0,
@@ -10273,7 +10543,7 @@ const data = [
     "sem3marks": 7.625,
     "sem3spi2": 15.25,
     "totalSum": 32.46,
-    "total": 339.5,
+    "total": 360.0,
     "dm2": 21.0,
     "coa2": 18.0,
     "toc2": 17.0,
@@ -10285,7 +10555,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 21.0,
     "sem3spi": 9.17,
-    "dm4": 48.0
+    "dm4": 48.0,
+    "coa4": 41.0
   },
   {
     "roll": 27,
@@ -10301,7 +10572,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 86.25,
-    "coa": 65.0,
+    "coa": 87.0,
     "fsd-ii": 0,
     "fsd2": 64.0,
     "python2": 66.5,
@@ -10311,7 +10582,7 @@ const data = [
     "sem3marks": 7.9,
     "sem3spi2": 15.8,
     "totalSum": 32.02,
-    "total": 342.75,
+    "total": 364.75,
     "dm2": 21.0,
     "coa2": 20.0,
     "toc2": 20.0,
@@ -10323,7 +10594,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 24.0,
     "sem3spi": 9.42,
-    "dm4": 44.5
+    "dm4": 44.5,
+    "coa4": 44.0
   },
   {
     "roll": 109,
@@ -10339,7 +10611,7 @@ const data = [
     "dept": "SY4",
     "etc": 96,
     "dm": 76.5,
-    "coa": 66.5,
+    "coa": 81.5,
     "fsd-ii": 0,
     "fsd2": 58.0,
     "python2": 48.0,
@@ -10349,7 +10621,7 @@ const data = [
     "sem3marks": 7.475,
     "sem3spi2": 14.95,
     "totalSum": 26.86,
-    "total": 306.0,
+    "total": 321.0,
     "dm2": 17.0,
     "coa2": 20.0,
     "toc2": 17.0,
@@ -10361,7 +10633,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 16.0,
     "sem3spi": 8.5,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 30.0
   },
   {
     "roll": 5,
@@ -10377,7 +10650,7 @@ const data = [
     "dept": "SY4",
     "etc": 68,
     "dm": 90.25,
-    "coa": 73.0,
+    "coa": 97.0,
     "fsd-ii": 0,
     "fsd2": 64.5,
     "python2": 69.0,
@@ -10387,7 +10660,7 @@ const data = [
     "sem3marks": 8.6,
     "sem3spi2": 17.2,
     "totalSum": 35.37,
-    "total": 362.25,
+    "total": 386.25,
     "dm2": 22.0,
     "coa2": 24.0,
     "toc2": 22.0,
@@ -10399,7 +10672,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 23.0,
     "sem3spi": 9.13,
-    "dm4": 44.5
+    "dm4": 44.5,
+    "coa4": 48.0
   },
   {
     "roll": 13,
@@ -10415,7 +10689,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 89.0,
-    "coa": 71.0,
+    "coa": 94.5,
     "fsd-ii": 0,
     "fsd2": 65.5,
     "python2": 68.5,
@@ -10425,7 +10699,7 @@ const data = [
     "sem3marks": 8.825,
     "sem3spi2": 17.65,
     "totalSum": 33.54,
-    "total": 358.0,
+    "total": 381.5,
     "dm2": 21.0,
     "coa2": 22.0,
     "toc2": 21.0,
@@ -10437,7 +10711,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 23.5,
     "sem3spi": 9.92,
-    "dm4": 46.0
+    "dm4": 46.0,
+    "coa4": 47.0
   },
   {
     "roll": 244,
@@ -10453,7 +10728,7 @@ const data = [
     "dept": "SY4",
     "etc": 88,
     "dm": 17.75,
-    "coa": 0.0,
+    "coa": 9.0,
     "fsd-ii": 0,
     "fsd2": 0.0,
     "python2": 0.0,
@@ -10463,7 +10738,7 @@ const data = [
     "sem3marks": 5.3,
     "sem3spi2": 10.6,
     "totalSum": 19.23,
-    "total": 17.75,
+    "total": 26.75,
     "dm2": 0.0,
     "coa2": 0.0,
     "toc2": 0.0,
@@ -10475,7 +10750,8 @@ const data = [
     "fsd23": 0.0,
     "python23": 0.0,
     "sem3spi": 5.58,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 18.0
   },
   {
     "roll": 131,
@@ -10491,7 +10767,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 71.75,
-    "coa": 63.0,
+    "coa": 77.0,
     "fsd-ii": 0,
     "fsd2": 56.5,
     "python2": 51.5,
@@ -10501,7 +10777,7 @@ const data = [
     "sem3marks": 5.975,
     "sem3spi2": 11.95,
     "totalSum": 25.93,
-    "total": 298.25,
+    "total": 312.25,
     "dm2": 19.0,
     "coa2": 18.0,
     "toc2": 20.0,
@@ -10513,7 +10789,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 15.0,
     "sem3spi": 7.38,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 28.0
   },
   {
     "roll": 162,
@@ -10529,7 +10806,7 @@ const data = [
     "dept": "SY4",
     "etc": 94,
     "dm": 70.0,
-    "coa": 47.0,
+    "coa": 58.5,
     "fsd-ii": 0,
     "fsd2": 33.5,
     "python2": 43.5,
@@ -10539,7 +10816,7 @@ const data = [
     "sem3marks": 5.25,
     "sem3spi2": 10.5,
     "totalSum": 24.74,
-    "total": 243.5,
+    "total": 255.0,
     "dm2": 14.0,
     "coa2": 14.0,
     "toc2": 16.5,
@@ -10551,7 +10828,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 12.0,
     "sem3spi": 7.29,
-    "dm4": 44.0
+    "dm4": 44.0,
+    "coa4": 23.0
   },
   {
     "roll": 125,
@@ -10567,7 +10845,7 @@ const data = [
     "dept": "SY4",
     "etc": 0,
     "dm": 85.5,
-    "coa": 65.0,
+    "coa": 84.5,
     "fsd-ii": 0,
     "fsd2": 62.5,
     "python2": 58.0,
@@ -10577,7 +10855,7 @@ const data = [
     "sem3marks": 5.1,
     "sem3spi2": 10.2,
     "totalSum": 26.09,
-    "total": 324.0,
+    "total": 343.5,
     "dm2": 20.0,
     "coa2": 21.0,
     "toc2": 18.5,
@@ -10589,7 +10867,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 20.5,
     "sem3spi": 7.89,
-    "dm4": 42.0
+    "dm4": 42.0,
+    "coa4": 39.0
   },
   {
     "roll": 161,
@@ -10605,7 +10884,7 @@ const data = [
     "dept": "SY4",
     "etc": 92,
     "dm": 57.0,
-    "coa": 31.0,
+    "coa": 39.0,
     "fsd-ii": 0,
     "fsd2": 49.0,
     "python2": 30.5,
@@ -10615,7 +10894,7 @@ const data = [
     "sem3marks": 5.2,
     "sem3spi2": 10.4,
     "totalSum": 24.78,
-    "total": 210.5,
+    "total": 218.5,
     "dm2": 16.0,
     "coa2": 10.0,
     "toc2": 14.0,
@@ -10627,7 +10906,8 @@ const data = [
     "fsd23": 20.5,
     "python23": 5.5,
     "sem3spi": 7.21,
-    "dm4": 36.0
+    "dm4": 36.0,
+    "coa4": 16.0
   },
   {
     "roll": 251,
@@ -10643,7 +10923,7 @@ const data = [
     "dept": "SY4",
     "etc": 90,
     "dm": 55.25,
-    "coa": 50.0,
+    "coa": 57.5,
     "fsd-ii": 0,
     "fsd2": 44.5,
     "python2": 35.5,
@@ -10653,7 +10933,7 @@ const data = [
     "sem3marks": 4.15,
     "sem3spi2": 8.3,
     "totalSum": 18.9,
-    "total": 230.25,
+    "total": 237.75,
     "dm2": 18.0,
     "coa2": 18.0,
     "toc2": 15.5,
@@ -10665,7 +10945,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 9.0,
     "sem3spi": 5.92,
-    "dm4": 32.5
+    "dm4": 32.5,
+    "coa4": 15.0
   },
   {
     "roll": 170,
@@ -10703,7 +10984,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 12.5,
     "sem3spi": 7.46,
-    "dm4": 46.0
+    "dm4": 46.0,
+    "coa4": 0.0
   },
   {
     "roll": 3,
@@ -10719,7 +11001,7 @@ const data = [
     "dept": "SY4",
     "etc": 94,
     "dm": 92.5,
-    "coa": 72.0,
+    "coa": 95.0,
     "fsd-ii": 0,
     "fsd2": 64.5,
     "python2": 72.5,
@@ -10729,7 +11011,7 @@ const data = [
     "sem3marks": 8.95,
     "sem3spi2": 17.9,
     "totalSum": 36.46,
-    "total": 372.5,
+    "total": 395.5,
     "dm2": 23.0,
     "coa2": 23.0,
     "toc2": 22.0,
@@ -10741,7 +11023,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 25.0,
     "sem3spi": 9.83,
-    "dm4": 48.0
+    "dm4": 48.0,
+    "coa4": 46.0
   },
   {
     "roll": 32,
@@ -10757,7 +11040,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 81.5,
-    "coa": 54.5,
+    "coa": 73.0,
     "fsd-ii": 0,
     "fsd2": 67.0,
     "python2": 66.0,
@@ -10767,7 +11050,7 @@ const data = [
     "sem3marks": 8.075,
     "sem3spi2": 16.15,
     "totalSum": 31.75,
-    "total": 327.0,
+    "total": 345.5,
     "dm2": 17.0,
     "coa2": 16.0,
     "toc2": 20.0,
@@ -10779,7 +11062,8 @@ const data = [
     "fsd23": 24.5,
     "python23": 24.0,
     "sem3spi": 8.96,
-    "dm4": 46.0
+    "dm4": 46.0,
+    "coa4": 37.0
   },
   {
     "roll": 26,
@@ -10795,7 +11079,7 @@ const data = [
     "dept": "SY4",
     "etc": 100,
     "dm": 75.75,
-    "coa": 64.5,
+    "coa": 78.0,
     "fsd-ii": 0,
     "fsd2": 48.0,
     "python2": 56.5,
@@ -10805,7 +11089,7 @@ const data = [
     "sem3marks": 7.225,
     "sem3spi2": 14.45,
     "totalSum": 32.1,
-    "total": 297.75,
+    "total": 311.25,
     "dm2": 12.0,
     "coa2": 21.0,
     "toc2": 17.0,
@@ -10817,7 +11101,8 @@ const data = [
     "fsd23": 11.0,
     "python23": 16.0,
     "sem3spi": 8.54,
-    "dm4": 40.5
+    "dm4": 40.5,
+    "coa4": 27.0
   },
   {
     "roll": 163,
@@ -10833,7 +11118,7 @@ const data = [
     "dept": "SY4",
     "etc": 98,
     "dm": 85.5,
-    "coa": 46.0,
+    "coa": 52.5,
     "fsd-ii": 0,
     "fsd2": 53.0,
     "python2": 46.5,
@@ -10843,7 +11128,7 @@ const data = [
     "sem3marks": 5.95,
     "sem3spi2": 11.9,
     "totalSum": 24.73,
-    "total": 264.0,
+    "total": 270.5,
     "dm2": 22.0,
     "coa2": 17.0,
     "toc2": 14.5,
@@ -10855,7 +11140,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 11.0,
     "sem3spi": 7.04,
-    "dm4": 44.0
+    "dm4": 44.0,
+    "coa4": 13.0
   },
   {
     "roll": 2,
@@ -10871,7 +11157,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 84.25,
-    "coa": 68.5,
+    "coa": 90.5,
     "fsd-ii": 0,
     "fsd2": 71.0,
     "python2": 72.0,
@@ -10881,7 +11167,7 @@ const data = [
     "sem3marks": 9.325,
     "sem3spi2": 18.65,
     "totalSum": 36.91,
-    "total": 352.75,
+    "total": 374.75,
     "coa2": 24.0,
     "toc2": 18.0,
     "fsd22": 25.0,
@@ -10892,7 +11178,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 25.0,
     "sem3spi": 9.96,
-    "dm4": 34.5
+    "dm4": 34.5,
+    "coa4": 44.0
   },
   {
     "roll": 47,
@@ -10908,7 +11195,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 76.5,
-    "coa": 59.5,
+    "coa": 80.5,
     "fsd-ii": 0,
     "fsd2": 64.0,
     "python2": 60.0,
@@ -10918,7 +11205,7 @@ const data = [
     "sem3marks": 8.2,
     "sem3spi2": 16.4,
     "totalSum": 32.76,
-    "total": 320.0,
+    "total": 341.0,
     "coa2": 19.0,
     "toc2": 20.0,
     "fsd22": 22.5,
@@ -10929,7 +11216,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 20.0,
     "sem3spi": 9.58,
-    "dm4": 31.0
+    "dm4": 31.0,
+    "coa4": 42.0
   },
   {
     "roll": 210,
@@ -10945,7 +11233,7 @@ const data = [
     "dept": "SY2",
     "etc": 92,
     "dm": 84.25,
-    "coa": 62.0,
+    "coa": 78.5,
     "fsd-ii": 0,
     "fsd2": 51.5,
     "python2": 46.5,
@@ -10955,7 +11243,7 @@ const data = [
     "sem3marks": 5.7,
     "sem3spi2": 11.4,
     "totalSum": 24.09,
-    "total": 296.75,
+    "total": 313.25,
     "coa2": 20.0,
     "toc2": 16.0,
     "fsd22": 19.5,
@@ -10966,7 +11254,8 @@ const data = [
     "fsd23": 21.5,
     "python23": 14.0,
     "sem3spi": 7.75,
-    "dm4": 36.5
+    "dm4": 36.5,
+    "coa4": 33.0
   },
   {
     "roll": 286,
@@ -10982,7 +11271,7 @@ const data = [
     "dept": "SY2",
     "etc": 96,
     "dm": 14.75,
-    "coa": 7.0,
+    "coa": 11.5,
     "fsd-ii": 0,
     "fsd2": 5.0,
     "python2": 10.0,
@@ -10992,7 +11281,7 @@ const data = [
     "sem3marks": 3.1,
     "sem3spi2": 6.2,
     "totalSum": 12.24,
-    "total": 42.25,
+    "total": 46.75,
     "coa2": 0.0,
     "toc2": 0.0,
     "fsd22": 0.0,
@@ -11003,7 +11292,8 @@ const data = [
     "fsd23": 0.0,
     "python23": 0.0,
     "sem3spi": 6.0,
-    "dm4": 20.5
+    "dm4": 20.5,
+    "coa4": 9.0
   },
   {
     "roll": 27,
@@ -11019,7 +11309,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 88.25,
-    "coa": 71.0,
+    "coa": 92.5,
     "fsd-ii": 0,
     "fsd2": 68.0,
     "python2": 68.5,
@@ -11029,7 +11319,7 @@ const data = [
     "sem3marks": 8.55,
     "sem3spi2": 17.1,
     "totalSum": 33.97,
-    "total": 357.75,
+    "total": 379.25,
     "coa2": 24.5,
     "toc2": 22.5,
     "fsd22": 22.0,
@@ -11040,7 +11330,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 23.0,
     "sem3spi": 9.58,
-    "dm4": 41.5
+    "dm4": 41.5,
+    "coa4": 43.0
   },
   {
     "roll": 150,
@@ -11056,7 +11347,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 71.0,
-    "coa": 42.5,
+    "coa": 53.5,
     "fsd-ii": 0,
     "fsd2": 57.5,
     "python2": 47.0,
@@ -11066,7 +11357,7 @@ const data = [
     "sem3marks": 6.125,
     "sem3spi2": 12.25,
     "totalSum": 27.29,
-    "total": 259.0,
+    "total": 270.0,
     "coa2": 6.5,
     "toc2": 15.0,
     "fsd22": 17.5,
@@ -11077,7 +11368,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 12.0,
     "sem3spi": 8.04,
-    "dm4": 36.0
+    "dm4": 36.0,
+    "coa4": 22.0
   },
   {
     "roll": 69,
@@ -11093,7 +11385,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 82.25,
-    "coa": 56.0,
+    "coa": 72.5,
     "fsd-ii": 0,
     "fsd2": 62.0,
     "python2": 58.0,
@@ -11103,7 +11395,7 @@ const data = [
     "sem3marks": 7.7,
     "sem3spi2": 15.4,
     "totalSum": 31.28,
-    "total": 321.75,
+    "total": 338.25,
     "coa2": 14.0,
     "toc2": 23.0,
     "fsd22": 19.0,
@@ -11114,7 +11406,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 15.5,
     "sem3spi": 9.0,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 33.0
   },
   {
     "roll": 237,
@@ -11130,7 +11423,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 62.0,
-    "coa": 46.5,
+    "coa": 56.5,
     "fsd-ii": 0,
     "fsd2": 42.5,
     "python2": 31.5,
@@ -11140,7 +11433,7 @@ const data = [
     "sem3marks": 4.875,
     "sem3spi2": 9.75,
     "totalSum": 22,
-    "total": 214.5,
+    "total": 224.5,
     "coa2": 14.0,
     "toc2": 10.0,
     "fsd22": 10.0,
@@ -11151,7 +11444,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 7.0,
     "sem3spi": 6.58,
-    "dm4": 24.0
+    "dm4": 24.0,
+    "coa4": 20.0
   },
   {
     "roll": 229,
@@ -11167,7 +11461,7 @@ const data = [
     "dept": "SY2",
     "etc": 88,
     "dm": 81.75,
-    "coa": 55.0,
+    "coa": 65.0,
     "fsd-ii": 0,
     "fsd2": 44.0,
     "python2": 47.5,
@@ -11177,7 +11471,7 @@ const data = [
     "sem3marks": 4.875,
     "sem3spi2": 9.75,
     "totalSum": 22.25,
-    "total": 281.25,
+    "total": 291.25,
     "coa2": 14.0,
     "toc2": 18.5,
     "fsd22": 12.0,
@@ -11188,7 +11482,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 15.0,
     "sem3spi": 7.21,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 20.0
   },
   {
     "roll": 191,
@@ -11204,7 +11499,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 63.5,
-    "coa": 38.5,
+    "coa": 50.0,
     "fsd-ii": 0,
     "fsd2": 66.5,
     "python2": 46.5,
@@ -11214,7 +11509,7 @@ const data = [
     "sem3marks": 6.125,
     "sem3spi2": 12.25,
     "totalSum": 24.96,
-    "total": 273.0,
+    "total": 284.5,
     "coa2": 20.0,
     "toc2": 20.5,
     "fsd22": 22.0,
@@ -11225,7 +11520,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 18.5,
     "sem3spi": 8.38,
-    "dm4": 29.0
+    "dm4": 29.0,
+    "coa4": 23.0
   },
   {
     "roll": 172,
@@ -11241,7 +11537,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 72.0,
-    "coa": 59.0,
+    "coa": 75.0,
     "fsd-ii": 0,
     "fsd2": 55.0,
     "python2": 41.0,
@@ -11251,7 +11547,7 @@ const data = [
     "sem3marks": 6.35,
     "sem3spi2": 12.7,
     "totalSum": 26.38,
-    "total": 283.0,
+    "total": 299.0,
     "coa2": 20.0,
     "toc2": 14.5,
     "fsd22": 13.0,
@@ -11262,7 +11558,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 13.5,
     "sem3spi": 8.0,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 32.0
   },
   {
     "roll": 127,
@@ -11278,7 +11575,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 84.0,
-    "coa": 62.0,
+    "coa": 81.5,
     "fsd-ii": 0,
     "fsd2": 67.0,
     "python2": 61.0,
@@ -11288,7 +11585,7 @@ const data = [
     "sem3marks": 7.175,
     "sem3spi2": 14.35,
     "totalSum": 28.35,
-    "total": 332.5,
+    "total": 352.0,
     "coa2": 20.0,
     "toc2": 24.5,
     "fsd22": 21.0,
@@ -11299,7 +11596,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 18.0,
     "sem3spi": 8.75,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 39.0
   },
   {
     "roll": 4,
@@ -11315,7 +11613,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 78.75,
-    "coa": 69.0,
+    "coa": 90.0,
     "fsd-ii": 0,
     "fsd2": 70.0,
     "python2": 70.0,
@@ -11325,7 +11623,7 @@ const data = [
     "sem3marks": 8.9,
     "sem3spi2": 17.8,
     "totalSum": 36.24,
-    "total": 344.25,
+    "total": 365.25,
     "coa2": 23.0,
     "toc2": 24.0,
     "fsd22": 24.0,
@@ -11336,7 +11634,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 23.0,
     "sem3spi": 9.83,
-    "dm4": 33.5
+    "dm4": 33.5,
+    "coa4": 42.0
   },
   {
     "roll": 254,
@@ -11352,7 +11651,7 @@ const data = [
     "dept": "SY2",
     "etc": 86,
     "dm": 7.25,
-    "coa": 8.0,
+    "coa": 10.0,
     "fsd-ii": 0,
     "fsd2": 4.0,
     "python2": 6.0,
@@ -11362,7 +11661,7 @@ const data = [
     "sem3marks": 3.625,
     "sem3spi2": 7.25,
     "totalSum": 20.4,
-    "total": 30.25,
+    "total": 32.25,
     "coa2": 0.0,
     "toc2": 0.0,
     "fsd22": 0.0,
@@ -11373,7 +11672,8 @@ const data = [
     "fsd23": 2.0,
     "python23": 3.0,
     "sem3spi": 6.52,
-    "dm4": 1.5
+    "dm4": 1.5,
+    "coa4": 4.0
   },
   {
     "roll": 76,
@@ -11389,7 +11689,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 91.25,
-    "coa": 67.0,
+    "coa": 83.25,
     "fsd-ii": 0,
     "fsd2": 70.0,
     "python2": 70.0,
@@ -11399,7 +11699,7 @@ const data = [
     "sem3marks": 7.7,
     "sem3spi2": 15.4,
     "totalSum": 30.92,
-    "total": 355.25,
+    "total": 371.5,
     "coa2": 24.0,
     "toc2": 20.0,
     "fsd22": 24.0,
@@ -11410,7 +11710,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 23.0,
     "sem3spi": 9.08,
-    "dm4": 46.5
+    "dm4": 46.5,
+    "coa4": 32.5
   },
   {
     "roll": 86,
@@ -11426,7 +11727,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 86.75,
-    "coa": 64.5,
+    "coa": 80.0,
     "fsd-ii": 0,
     "fsd2": 58.5,
     "python2": 63.5,
@@ -11436,7 +11737,7 @@ const data = [
     "sem3marks": 7.5,
     "sem3spi2": 15,
     "totalSum": 30.56,
-    "total": 332.25,
+    "total": 347.75,
     "coa2": 23.0,
     "toc2": 20.0,
     "fsd22": 17.5,
@@ -11447,7 +11748,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 21.5,
     "sem3spi": 9.17,
-    "dm4": 40.5
+    "dm4": 40.5,
+    "coa4": 31.0
   },
   {
     "roll": 116,
@@ -11463,7 +11765,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 69.75,
-    "coa": 59.0,
+    "coa": 75.75,
     "fsd-ii": 0,
     "fsd2": 60.5,
     "python2": 56.5,
@@ -11473,7 +11775,7 @@ const data = [
     "sem3marks": 6.8,
     "sem3spi2": 13.6,
     "totalSum": 28.94,
-    "total": 297.75,
+    "total": 314.5,
     "coa2": 16.0,
     "toc2": 20.0,
     "fsd22": 20.0,
@@ -11484,7 +11786,8 @@ const data = [
     "fsd23": 20.5,
     "python23": 21.5,
     "sem3spi": 8.13,
-    "dm4": 42.5
+    "dm4": 42.5,
+    "coa4": 33.5
   },
   {
     "roll": 208,
@@ -11500,7 +11803,7 @@ const data = [
     "dept": "SY2",
     "etc": 88,
     "dm": 69.5,
-    "coa": 51.0,
+    "coa": 62.0,
     "fsd-ii": 0,
     "fsd2": 56.0,
     "python2": 30.5,
@@ -11510,7 +11813,7 @@ const data = [
     "sem3marks": 5.225,
     "sem3spi2": 10.45,
     "totalSum": 24.14,
-    "total": 249.5,
+    "total": 260.5,
     "coa2": 19.0,
     "toc2": 21.5,
     "fsd22": 16.5,
@@ -11521,7 +11824,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 10.0,
     "sem3spi": 6.17,
-    "dm4": 33.0
+    "dm4": 33.0,
+    "coa4": 22.0
   },
   {
     "roll": 188,
@@ -11537,7 +11841,7 @@ const data = [
     "dept": "SY2",
     "etc": 84,
     "dm": 43.5,
-    "coa": 28.5,
+    "coa": 38.5,
     "fsd-ii": 0,
     "fsd2": 55.0,
     "python2": 29.0,
@@ -11547,7 +11851,7 @@ const data = [
     "sem3marks": 5.75,
     "sem3spi2": 11.5,
     "totalSum": 25.15,
-    "total": 200.5,
+    "total": 210.5,
     "coa2": 8.0,
     "toc2": 18.0,
     "fsd22": 18.0,
@@ -11558,7 +11862,8 @@ const data = [
     "fsd23": 18.5,
     "python23": 11.5,
     "sem3spi": 7.21,
-    "dm4": 13.0
+    "dm4": 13.0,
+    "coa4": 20.0
   },
   {
     "roll": 46,
@@ -11574,7 +11879,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 88.0,
-    "coa": 59.5,
+    "coa": 78.0,
     "fsd-ii": 0,
     "fsd2": 69.5,
     "python2": 60.5,
@@ -11584,7 +11889,7 @@ const data = [
     "sem3marks": 7.75,
     "sem3spi2": 15.5,
     "totalSum": 32.76,
-    "total": 344.0,
+    "total": 362.5,
     "coa2": 17.0,
     "toc2": 22.0,
     "fsd22": 23.0,
@@ -11595,7 +11900,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 16.5,
     "sem3spi": 8.63,
-    "dm4": 44.0
+    "dm4": 44.0,
+    "coa4": 37.0
   },
   {
     "roll": 284,
@@ -11611,7 +11917,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 55.25,
-    "coa": 41.5,
+    "coa": 49.25,
     "fsd-ii": 0,
     "fsd2": 34.0,
     "python2": 26.0,
@@ -11621,7 +11927,7 @@ const data = [
     "sem3marks": 3.7,
     "sem3spi2": 7.4,
     "totalSum": 16.23,
-    "total": 188.25,
+    "total": 196.0,
     "coa2": 14.0,
     "toc2": 11.0,
     "fsd22": 8.0,
@@ -11632,7 +11938,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 11.0,
     "sem3spi": 5.42,
-    "dm4": 25.5
+    "dm4": 25.5,
+    "coa4": 15.5
   },
   {
     "roll": 43,
@@ -11648,7 +11955,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 84.75,
-    "coa": 64.0,
+    "coa": 85.0,
     "fsd-ii": 0,
     "fsd2": 68.5,
     "python2": 64.5,
@@ -11658,7 +11965,7 @@ const data = [
     "sem3marks": 8,
     "sem3spi2": 16,
     "totalSum": 33.06,
-    "total": 341.75,
+    "total": 362.75,
     "coa2": 20.0,
     "toc2": 21.5,
     "fsd22": 20.5,
@@ -11669,7 +11976,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 21.0,
     "sem3spi": 9.42,
-    "dm4": 36.5
+    "dm4": 36.5,
+    "coa4": 42.0
   },
   {
     "roll": 155,
@@ -11685,7 +11993,7 @@ const data = [
     "dept": "SY2",
     "etc": 80,
     "dm": 70.0,
-    "coa": 48.0,
+    "coa": 58.0,
     "fsd-ii": 0,
     "fsd2": 46.0,
     "python2": 36.5,
@@ -11695,7 +12003,7 @@ const data = [
     "sem3marks": 5.65,
     "sem3spi2": 11.3,
     "totalSum": 27.08,
-    "total": 242.5,
+    "total": 252.5,
     "coa2": 13.0,
     "toc2": 16.0,
     "fsd22": 17.0,
@@ -11706,7 +12014,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 9.5,
     "sem3spi": 7.29,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 20.0
   },
   {
     "roll": 264,
@@ -11722,7 +12031,7 @@ const data = [
     "dept": "SY2",
     "etc": 92,
     "dm": 46.5,
-    "coa": 30.5,
+    "coa": 43.0,
     "fsd-ii": 0,
     "fsd2": 44.5,
     "python2": 41.0,
@@ -11732,7 +12041,7 @@ const data = [
     "sem3marks": 4.275,
     "sem3spi2": 8.55,
     "totalSum": 19.53,
-    "total": 205.5,
+    "total": 218.0,
     "coa2": 12.0,
     "toc2": 15.0,
     "fsd22": 9.5,
@@ -11743,7 +12052,8 @@ const data = [
     "fsd23": 17.0,
     "python23": 13.0,
     "sem3spi": 6.58,
-    "dm4": 32.0
+    "dm4": 32.0,
+    "coa4": 25.0
   },
   {
     "roll": 81,
@@ -11759,7 +12069,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 91.0,
-    "coa": 70.0,
+    "coa": 91.0,
     "fsd-ii": 0,
     "fsd2": 66.5,
     "python2": 63.0,
@@ -11769,7 +12079,7 @@ const data = [
     "sem3marks": 7.825,
     "sem3spi2": 15.65,
     "totalSum": 30.72,
-    "total": 353.0,
+    "total": 374.0,
     "coa2": 24.0,
     "toc2": 21.5,
     "fsd22": 23.0,
@@ -11780,7 +12090,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 21.5,
     "sem3spi": 9.13,
-    "dm4": 48.0
+    "dm4": 48.0,
+    "coa4": 42.0
   },
   {
     "roll": 91,
@@ -11796,7 +12107,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 86.0,
-    "coa": 57.0,
+    "coa": 78.5,
     "fsd-ii": 0,
     "fsd2": 56.5,
     "python2": 54.5,
@@ -11806,7 +12117,7 @@ const data = [
     "sem3marks": 7.975,
     "sem3spi2": 15.95,
     "totalSum": 30.3,
-    "total": 313.5,
+    "total": 335.0,
     "coa2": 18.0,
     "toc2": 20.0,
     "fsd22": 14.0,
@@ -11817,7 +12128,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 10.5,
     "sem3spi": 9.46,
-    "dm4": 46.0
+    "dm4": 46.0,
+    "coa4": 43.0
   },
   {
     "roll": 275,
@@ -11833,7 +12145,7 @@ const data = [
     "dept": "SY2",
     "etc": 84,
     "dm": 59.0,
-    "coa": 48.0,
+    "coa": 57.0,
     "fsd-ii": 0,
     "fsd2": 34.5,
     "python2": 30.0,
@@ -11843,7 +12155,7 @@ const data = [
     "sem3marks": 4,
     "sem3spi2": 8,
     "totalSum": 17.99,
-    "total": 215.5,
+    "total": 224.5,
     "coa2": 11.5,
     "toc2": 15.5,
     "fsd22": 6.0,
@@ -11854,7 +12166,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 9.5,
     "sem3spi": 5.46,
-    "dm4": 33.0
+    "dm4": 33.0,
+    "coa4": 18.0
   },
   {
     "roll": 263,
@@ -11870,7 +12183,7 @@ const data = [
     "dept": "SY2",
     "etc": 0,
     "dm": 66.25,
-    "coa": 36.5,
+    "coa": 49.5,
     "fsd-ii": 0,
     "fsd2": 54.5,
     "python2": 49.0,
@@ -11880,7 +12193,7 @@ const data = [
     "sem3marks": 3.225,
     "sem3spi2": 6.45,
     "totalSum": 19.99,
-    "total": 256.75,
+    "total": 269.75,
     "coa2": 10.5,
     "toc2": 15.0,
     "fsd22": 13.5,
@@ -11891,7 +12204,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 15.0,
     "sem3spi": 6.33171,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 26.0
   },
   {
     "roll": 102,
@@ -11907,7 +12221,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 71.75,
-    "coa": 56.0,
+    "coa": 67.5,
     "fsd-ii": 0,
     "fsd2": 53.0,
     "python2": 56.0,
@@ -11917,7 +12231,7 @@ const data = [
     "sem3marks": 7,
     "sem3spi2": 14,
     "totalSum": 29.59,
-    "total": 285.25,
+    "total": 296.75,
     "coa2": 21.0,
     "toc2": 14.5,
     "fsd22": 15.0,
@@ -11928,7 +12242,8 @@ const data = [
     "fsd23": 21.5,
     "python23": 17.0,
     "sem3spi": 8.46,
-    "dm4": 29.5
+    "dm4": 29.5,
+    "coa4": 23.0
   },
   {
     "roll": 207,
@@ -11944,7 +12259,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 80.25,
-    "coa": 53.0,
+    "coa": 67.0,
     "fsd-ii": 0,
     "fsd2": 58.5,
     "python2": 49.5,
@@ -11954,7 +12269,7 @@ const data = [
     "sem3marks": 6.05,
     "sem3spi2": 12.1,
     "totalSum": 24.2,
-    "total": 292.75,
+    "total": 306.75,
     "coa2": 17.0,
     "toc2": 18.0,
     "fsd22": 13.0,
@@ -11965,7 +12280,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 14.5,
     "sem3spi": 7.58,
-    "dm4": 40.5
+    "dm4": 40.5,
+    "coa4": 28.0
   },
   {
     "roll": 32,
@@ -11981,7 +12297,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 86.75,
-    "coa": 59.0,
+    "coa": 79.5,
     "fsd-ii": 0,
     "fsd2": 69.5,
     "python2": 63.5,
@@ -11991,7 +12307,7 @@ const data = [
     "sem3marks": 8.4,
     "sem3spi2": 16.8,
     "totalSum": 33.66,
-    "total": 333.25,
+    "total": 353.75,
     "coa2": 18.0,
     "toc2": 16.5,
     "fsd22": 23.0,
@@ -12002,7 +12318,8 @@ const data = [
     "fsd23": 24.5,
     "python23": 19.5,
     "sem3spi": 9.58,
-    "dm4": 41.5
+    "dm4": 41.5,
+    "coa4": 41.0
   },
   {
     "roll": 70,
@@ -12018,7 +12335,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 87.0,
-    "coa": 65.0,
+    "coa": 83.5,
     "fsd-ii": 0,
     "fsd2": 66.0,
     "python2": 63.5,
@@ -12028,7 +12345,7 @@ const data = [
     "sem3marks": 7.45,
     "sem3spi2": 14.9,
     "totalSum": 31.28,
-    "total": 345.5,
+    "total": 364.0,
     "coa2": 21.0,
     "toc2": 21.5,
     "fsd22": 23.0,
@@ -12039,7 +12356,8 @@ const data = [
     "fsd23": 24.5,
     "python23": 19.5,
     "sem3spi": 8.79,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 37.0
   },
   {
     "roll": 206,
@@ -12055,7 +12373,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 59.5,
-    "coa": 53.5,
+    "coa": 69.0,
     "fsd-ii": 0,
     "fsd2": 59.5,
     "python2": 57.0,
@@ -12065,7 +12383,7 @@ const data = [
     "sem3marks": 5.6,
     "sem3spi2": 11.2,
     "totalSum": 24.36,
-    "total": 285.5,
+    "total": 301.0,
     "coa2": 20.0,
     "toc2": 18.5,
     "fsd22": 20.0,
@@ -12076,7 +12394,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 17.5,
     "sem3spi": 7.63,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 31.0
   },
   {
     "roll": 28,
@@ -12092,7 +12411,7 @@ const data = [
     "dept": "SY2",
     "etc": 96,
     "dm": 91.0,
-    "coa": 65.5,
+    "coa": 86.5,
     "fsd-ii": 0,
     "fsd2": 70.0,
     "python2": 67.5,
@@ -12102,7 +12421,7 @@ const data = [
     "sem3marks": 8.2,
     "sem3spi2": 16.4,
     "totalSum": 33.84,
-    "total": 356.5,
+    "total": 377.5,
     "coa2": 22.0,
     "toc2": 22.5,
     "fsd22": 24.0,
@@ -12113,7 +12432,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 23.0,
     "sem3spi": 9.42,
-    "dm4": 47.0
+    "dm4": 47.0,
+    "coa4": 42.0
   },
   {
     "roll": 16,
@@ -12129,7 +12449,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 80.25,
-    "coa": 72.0,
+    "coa": 94.5,
     "fsd-ii": 0,
     "fsd2": 71.5,
     "python2": 70.5,
@@ -12139,7 +12459,7 @@ const data = [
     "sem3marks": 8.9,
     "sem3spi2": 17.8,
     "totalSum": 35.21,
-    "total": 350.25,
+    "total": 372.75,
     "coa2": 24.0,
     "toc2": 21.0,
     "fsd22": 24.0,
@@ -12150,7 +12470,8 @@ const data = [
     "fsd23": 24.5,
     "python23": 24.5,
     "sem3spi": 9.79,
-    "dm4": 47.5
+    "dm4": 47.5,
+    "coa4": 45.0
   },
   {
     "roll": 24,
@@ -12166,7 +12487,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 82.0,
-    "coa": 64.5,
+    "coa": 79.0,
     "fsd-ii": 0,
     "fsd2": 71.0,
     "python2": 66.0,
@@ -12176,7 +12497,7 @@ const data = [
     "sem3marks": 8.475,
     "sem3spi2": 16.95,
     "totalSum": 34.59,
-    "total": 341.0,
+    "total": 355.5,
     "coa2": 24.0,
     "toc2": 20.5,
     "fsd22": 23.0,
@@ -12187,7 +12508,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 20.0,
     "sem3spi": 9.71,
-    "dm4": 32.0
+    "dm4": 32.0,
+    "coa4": 29.0
   },
   {
     "roll": 22,
@@ -12203,7 +12525,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 90.5,
-    "coa": 70.5,
+    "coa": 90.0,
     "fsd-ii": 0,
     "fsd2": 66.0,
     "python2": 64.5,
@@ -12213,7 +12535,7 @@ const data = [
     "sem3marks": 8.6,
     "sem3spi2": 17.2,
     "totalSum": 34.83,
-    "total": 357.5,
+    "total": 377.0,
     "coa2": 23.0,
     "toc2": 22.0,
     "fsd22": 22.0,
@@ -12224,7 +12546,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 22.5,
     "sem3spi": 9.58,
-    "dm4": 43.0
+    "dm4": 43.0,
+    "coa4": 39.0
   },
   {
     "roll": 105,
@@ -12240,7 +12563,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 82.25,
-    "coa": 64.5,
+    "coa": 80.0,
     "fsd-ii": 0,
     "fsd2": 66.5,
     "python2": 60.5,
@@ -12250,7 +12573,7 @@ const data = [
     "sem3marks": 6.95,
     "sem3spi2": 13.9,
     "totalSum": 29.49,
-    "total": 323.75,
+    "total": 339.25,
     "coa2": 23.0,
     "toc2": 11.0,
     "fsd22": 22.0,
@@ -12261,7 +12584,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 20.0,
     "sem3spi": 8.5,
-    "dm4": 42.5
+    "dm4": 42.5,
+    "coa4": 31.0
   },
   {
     "roll": 110,
@@ -12277,7 +12601,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 69.75,
-    "coa": 54.5,
+    "coa": 66.5,
     "fsd-ii": 0,
     "fsd2": 56.5,
     "python2": 63.5,
@@ -12287,7 +12611,7 @@ const data = [
     "sem3marks": 7.05,
     "sem3spi2": 14.1,
     "totalSum": 29.3,
-    "total": 301.75,
+    "total": 313.75,
     "coa2": 15.0,
     "toc2": 21.0,
     "fsd22": 16.0,
@@ -12298,7 +12622,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 21.5,
     "sem3spi": 8.83,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 24.0
   },
   {
     "roll": 245,
@@ -12314,7 +12639,7 @@ const data = [
     "dept": "SY2",
     "etc": 92,
     "dm": 57.0,
-    "coa": 38.5,
+    "coa": 55.0,
     "fsd-ii": 0,
     "fsd2": 39.5,
     "python2": 31.0,
@@ -12324,7 +12649,7 @@ const data = [
     "sem3marks": 4.95,
     "sem3spi2": 9.9,
     "totalSum": 21.24,
-    "total": 207.5,
+    "total": 224.0,
     "coa2": 5.0,
     "toc2": 17.0,
     "fsd22": 7.0,
@@ -12335,7 +12660,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 16.5,
     "sem3spi": 6.54,
-    "dm4": 31.0
+    "dm4": 31.0,
+    "coa4": 33.0
   },
   {
     "roll": 162,
@@ -12351,7 +12677,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 81.75,
-    "coa": 67.0,
+    "coa": 86.0,
     "fsd-ii": 0,
     "fsd2": 63.5,
     "python2": 61.5,
@@ -12361,7 +12687,7 @@ const data = [
     "sem3marks": 7.2,
     "sem3spi2": 14.4,
     "totalSum": 26.91,
-    "total": 334.25,
+    "total": 353.25,
     "coa2": 22.0,
     "toc2": 20.5,
     "fsd22": 20.0,
@@ -12372,7 +12698,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 19.0,
     "sem3spi": 8.75,
-    "dm4": 41.5
+    "dm4": 41.5,
+    "coa4": 38.0
   },
   {
     "roll": 213,
@@ -12388,7 +12715,7 @@ const data = [
     "dept": "SY2",
     "etc": 96,
     "dm": 74.75,
-    "coa": 53.5,
+    "coa": 66.5,
     "fsd-ii": 0,
     "fsd2": 54.0,
     "python2": 47.0,
@@ -12398,7 +12725,7 @@ const data = [
     "sem3marks": 6.025,
     "sem3spi2": 12.05,
     "totalSum": 24.01,
-    "total": 273.75,
+    "total": 286.75,
     "coa2": 18.0,
     "toc2": 13.5,
     "fsd22": 16.0,
@@ -12409,7 +12736,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 14.5,
     "sem3spi": 7.58,
-    "dm4": 36.5
+    "dm4": 36.5,
+    "coa4": 26.0
   },
   {
     "roll": 197,
@@ -12425,7 +12753,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 73.25,
-    "coa": 42.0,
+    "coa": 53.5,
     "fsd-ii": 0,
     "fsd2": 55.0,
     "python2": 47.0,
@@ -12435,7 +12763,7 @@ const data = [
     "sem3marks": 6.075,
     "sem3spi2": 12.15,
     "totalSum": 24.72,
-    "total": 272.25,
+    "total": 283.75,
     "coa2": 10.0,
     "toc2": 18.0,
     "fsd22": 16.0,
@@ -12446,7 +12774,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 15.5,
     "sem3spi": 8.17,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 23.0
   },
   {
     "roll": 163,
@@ -12462,7 +12791,7 @@ const data = [
     "dept": "SY2",
     "etc": 88,
     "dm": 73.75,
-    "coa": 52.0,
+    "coa": 66.5,
     "fsd-ii": 0,
     "fsd2": 58.0,
     "python2": 50.0,
@@ -12472,7 +12801,7 @@ const data = [
     "sem3marks": 6.7,
     "sem3spi2": 13.4,
     "totalSum": 26.9,
-    "total": 291.25,
+    "total": 305.75,
     "coa2": 16.0,
     "toc2": 21.0,
     "fsd22": 15.0,
@@ -12483,7 +12812,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 10.5,
     "sem3spi": 8.17,
-    "dm4": 33.5
+    "dm4": 33.5,
+    "coa4": 29.0
   },
   {
     "roll": 195,
@@ -12499,7 +12829,7 @@ const data = [
     "dept": "SY2",
     "etc": 90,
     "dm": 62.0,
-    "coa": 61.0,
+    "coa": 72.5,
     "fsd-ii": 0,
     "fsd2": 63.0,
     "python2": 52.5,
@@ -12509,7 +12839,7 @@ const data = [
     "sem3marks": 6.175,
     "sem3spi2": 12.35,
     "totalSum": 24.85,
-    "total": 285.0,
+    "total": 296.5,
     "coa2": 21.0,
     "toc2": 17.5,
     "fsd22": 19.5,
@@ -12520,7 +12850,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 14.5,
     "sem3spi": 7.92,
-    "dm4": 34.0
+    "dm4": 34.0,
+    "coa4": 23.0
   },
   {
     "roll": 8,
@@ -12536,7 +12867,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 87.5,
-    "coa": 71.0,
+    "coa": 93.0,
     "fsd-ii": 0,
     "fsd2": 72.0,
     "python2": 70.0,
@@ -12546,7 +12877,7 @@ const data = [
     "sem3marks": 8.9,
     "sem3spi2": 17.8,
     "totalSum": 35.82,
-    "total": 360.5,
+    "total": 382.5,
     "coa2": 24.0,
     "toc2": 21.0,
     "fsd22": 24.0,
@@ -12557,7 +12888,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 22.0,
     "sem3spi": 9.75,
-    "dm4": 42.0
+    "dm4": 42.0,
+    "coa4": 44.0
   },
   {
     "roll": 140,
@@ -12573,7 +12905,7 @@ const data = [
     "dept": "SY2",
     "etc": 96,
     "dm": 61.75,
-    "coa": 48.0,
+    "coa": 60.0,
     "fsd-ii": 0,
     "fsd2": 51.0,
     "python2": 52.0,
@@ -12583,7 +12915,7 @@ const data = [
     "sem3marks": 6.325,
     "sem3spi2": 12.65,
     "totalSum": 27.79,
-    "total": 266.25,
+    "total": 278.25,
     "coa2": 18.0,
     "toc2": 21.0,
     "fsd22": 14.5,
@@ -12594,7 +12926,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 15.0,
     "sem3spi": 7.83,
-    "dm4": 32.5
+    "dm4": 32.5,
+    "coa4": 24.0
   },
   {
     "roll": 104,
@@ -12610,7 +12943,7 @@ const data = [
     "dept": "SY2",
     "etc": 90,
     "dm": 81.25,
-    "coa": 67.5,
+    "coa": 83.0,
     "fsd-ii": 0,
     "fsd2": 59.5,
     "python2": 52.0,
@@ -12620,7 +12953,7 @@ const data = [
     "sem3marks": 7.3,
     "sem3spi2": 14.6,
     "totalSum": 29.5,
-    "total": 305.25,
+    "total": 320.75,
     "coa2": 24.0,
     "toc2": 13.5,
     "fsd22": 15.0,
@@ -12631,7 +12964,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 15.5,
     "sem3spi": 8.63,
-    "dm4": 44.5
+    "dm4": 44.5,
+    "coa4": 31.0
   },
   {
     "roll": 270,
@@ -12647,7 +12981,7 @@ const data = [
     "dept": "SY2",
     "etc": 96,
     "dm": 51.5,
-    "coa": 41.0,
+    "coa": 44.0,
     "fsd-ii": 0,
     "fsd2": 43.5,
     "python2": 46.5,
@@ -12657,7 +12991,7 @@ const data = [
     "sem3marks": 4.975,
     "sem3spi2": 9.95,
     "totalSum": 18.75,
-    "total": 208.0,
+    "total": 211.0,
     "coa2": 16.0,
     "toc2": 14.5,
     "fsd22": 6.0,
@@ -12668,7 +13002,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 12.0,
     "sem3spi": 5.17,
-    "dm4": 27.0
+    "dm4": 27.0,
+    "coa4": 6.0
   },
   {
     "roll": 225,
@@ -12684,7 +13019,7 @@ const data = [
     "dept": "SY2",
     "etc": 90,
     "dm": 63.25,
-    "coa": 45.0,
+    "coa": 50.5,
     "fsd-ii": 0,
     "fsd2": 48.5,
     "python2": 48.0,
@@ -12694,7 +13029,7 @@ const data = [
     "sem3marks": 5.05,
     "sem3spi2": 10.1,
     "totalSum": 22.72,
-    "total": 245.75,
+    "total": 251.25,
     "coa2": 12.0,
     "toc2": 10.0,
     "fsd22": 11.0,
@@ -12705,7 +13040,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 14.5,
     "sem3spi": 6.96,
-    "dm4": 32.5
+    "dm4": 32.5,
+    "coa4": 11.0
   },
   {
     "roll": 95,
@@ -12721,7 +13057,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 77.5,
-    "coa": 64.0,
+    "coa": 80.0,
     "fsd-ii": 0,
     "fsd2": 61.5,
     "python2": 54.0,
@@ -12731,7 +13067,7 @@ const data = [
     "sem3marks": 7.2,
     "sem3spi2": 14.4,
     "totalSum": 29.97,
-    "total": 309.5,
+    "total": 325.5,
     "coa2": 21.0,
     "toc2": 19.0,
     "fsd22": 19.0,
@@ -12742,7 +13078,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 14.0,
     "sem3spi": 8.67,
-    "dm4": 36.0
+    "dm4": 36.0,
+    "coa4": 32.0
   },
   {
     "roll": 41,
@@ -12758,7 +13095,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 91.0,
-    "coa": 64.0,
+    "coa": 87.5,
     "fsd-ii": 0,
     "fsd2": 61.5,
     "python2": 54.0,
@@ -12768,7 +13105,7 @@ const data = [
     "sem3marks": 8.075,
     "sem3spi2": 16.15,
     "totalSum": 33.13,
-    "total": 336.5,
+    "total": 360.0,
     "coa2": 18.0,
     "toc2": 23.5,
     "fsd22": 18.0,
@@ -12779,7 +13116,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 13.0,
     "sem3spi": 9.42,
-    "dm4": 43.0
+    "dm4": 43.0,
+    "coa4": 47.0
   },
   {
     "roll": 250,
@@ -12795,7 +13133,7 @@ const data = [
     "dept": "SY2",
     "etc": 84,
     "dm": 65.25,
-    "coa": 57.5,
+    "coa": 71.0,
     "fsd-ii": 0,
     "fsd2": 49.5,
     "python2": 43.0,
@@ -12805,7 +13143,7 @@ const data = [
     "sem3marks": 4.425,
     "sem3spi2": 8.85,
     "totalSum": 20.97,
-    "total": 270.25,
+    "total": 283.75,
     "coa2": 24.0,
     "toc2": 20.0,
     "fsd22": 13.0,
@@ -12816,7 +13154,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 14.0,
     "sem3spi": 6.5,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 27.0
   },
   {
     "roll": 164,
@@ -12832,7 +13171,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 81.25,
-    "coa": 57.5,
+    "coa": 71.0,
     "fsd-ii": 0,
     "fsd2": 46.5,
     "python2": 48.0,
@@ -12842,7 +13181,7 @@ const data = [
     "sem3marks": 6.35,
     "sem3spi2": 12.7,
     "totalSum": 26.87,
-    "total": 285.75,
+    "total": 299.25,
     "coa2": 17.0,
     "toc2": 23.0,
     "fsd22": 14.0,
@@ -12853,7 +13192,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 16.5,
     "sem3spi": 7.92,
-    "dm4": 40.5
+    "dm4": 40.5,
+    "coa4": 27.0
   },
   {
     "roll": 101,
@@ -12869,7 +13209,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 78.5,
-    "coa": 62.0,
+    "coa": 79.5,
     "fsd-ii": 0,
     "fsd2": 67.0,
     "python2": 62.0,
@@ -12879,7 +13219,7 @@ const data = [
     "sem3marks": 6.9,
     "sem3spi2": 13.8,
     "totalSum": 29.66,
-    "total": 318.0,
+    "total": 335.5,
     "coa2": 20.0,
     "toc2": 16.5,
     "fsd22": 21.5,
@@ -12890,7 +13230,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 18.0,
     "sem3spi": 8.25,
-    "dm4": 43.0
+    "dm4": 43.0,
+    "coa4": 35.0
   },
   {
     "roll": 205,
@@ -12906,7 +13247,7 @@ const data = [
     "dept": "SY2",
     "etc": 86,
     "dm": 62.25,
-    "coa": 34.5,
+    "coa": 48.0,
     "fsd-ii": 0,
     "fsd2": 48.0,
     "python2": 39.5,
@@ -12916,7 +13257,7 @@ const data = [
     "sem3marks": 5.65,
     "sem3spi2": 11.3,
     "totalSum": 24.41,
-    "total": 236.75,
+    "total": 250.25,
     "coa2": 12.0,
     "toc2": 15.5,
     "fsd22": 13.5,
@@ -12927,7 +13268,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 13.0,
     "sem3spi": 7.67,
-    "dm4": 39.5
+    "dm4": 39.5,
+    "coa4": 27.0
   },
   {
     "roll": 266,
@@ -12943,7 +13285,7 @@ const data = [
     "dept": "SY2",
     "etc": 72,
     "dm": 51.25,
-    "coa": 46.0,
+    "coa": 56.0,
     "fsd-ii": 0,
     "fsd2": 43.0,
     "python2": 41.0,
@@ -12953,7 +13295,7 @@ const data = [
     "sem3marks": 4.95,
     "sem3spi2": 9.9,
     "totalSum": 19.19,
-    "total": 226.25,
+    "total": 236.25,
     "coa2": 14.0,
     "toc2": 15.0,
     "fsd22": 7.0,
@@ -12964,7 +13306,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 21.0,
     "sem3spi": 5.46,
-    "dm4": 31.5
+    "dm4": 31.5,
+    "coa4": 20.0
   },
   {
     "roll": 269,
@@ -12980,7 +13323,7 @@ const data = [
     "dept": "SY2",
     "etc": 76,
     "dm": 25.75,
-    "coa": 20.5,
+    "coa": 25.0,
     "fsd-ii": 0,
     "fsd2": 22.5,
     "python2": 21.0,
@@ -12990,7 +13333,7 @@ const data = [
     "sem3marks": 3.5,
     "sem3spi2": 7,
     "totalSum": 18.88,
-    "total": 114.75,
+    "total": 119.25,
     "coa2": 2.0,
     "toc2": 6.5,
     "fsd22": 4.0,
@@ -13001,7 +13344,8 @@ const data = [
     "fsd23": 9.0,
     "python23": 9.5,
     "sem3spi": 5.63,
-    "dm4": 2.5
+    "dm4": 2.5,
+    "coa4": 9.0
   },
   {
     "roll": 65,
@@ -13017,7 +13361,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 81.25,
-    "coa": 64.5,
+    "coa": 84.0,
     "fsd-ii": 0,
     "fsd2": 70.0,
     "python2": 57.0,
@@ -13027,7 +13371,7 @@ const data = [
     "sem3marks": 8.075,
     "sem3spi2": 16.15,
     "totalSum": 31.44,
-    "total": 325.25,
+    "total": 344.75,
     "coa2": 21.0,
     "toc2": 21.0,
     "fsd22": 23.0,
@@ -13038,7 +13382,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 18.0,
     "sem3spi": 9.21,
-    "dm4": 33.5
+    "dm4": 33.5,
+    "coa4": 39.0
   },
   {
     "roll": 185,
@@ -13054,7 +13399,7 @@ const data = [
     "dept": "SY2",
     "etc": 88,
     "dm": 65.5,
-    "coa": 44.5,
+    "coa": 53.5,
     "fsd-ii": 0,
     "fsd2": 40.0,
     "python2": 43.5,
@@ -13064,7 +13409,7 @@ const data = [
     "sem3marks": 6.025,
     "sem3spi2": 12.05,
     "totalSum": 25.35,
-    "total": 245.0,
+    "total": 254.0,
     "coa2": 15.5,
     "toc2": 18.0,
     "fsd22": 10.0,
@@ -13075,7 +13420,8 @@ const data = [
     "fsd23": 13.0,
     "python23": 13.5,
     "sem3spi": 7.67,
-    "dm4": 36.0
+    "dm4": 36.0,
+    "coa4": 18.0
   },
   {
     "roll": 161,
@@ -13091,7 +13437,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 65.25,
-    "coa": 41.5,
+    "coa": 58.0,
     "fsd-ii": 0,
     "fsd2": 56.0,
     "python2": 49.5,
@@ -13101,7 +13447,7 @@ const data = [
     "sem3marks": 6.3,
     "sem3spi2": 12.6,
     "totalSum": 26.97,
-    "total": 265.25,
+    "total": 281.75,
     "coa2": 19.0,
     "toc2": 19.5,
     "fsd22": 23.0,
@@ -13112,7 +13458,8 @@ const data = [
     "fsd23": 18.5,
     "python23": 14.0,
     "sem3spi": 8.29,
-    "dm4": 39.5
+    "dm4": 39.5,
+    "coa4": 33.0
   },
   {
     "roll": 167,
@@ -13128,7 +13475,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 66.75,
-    "coa": 61.0,
+    "coa": 78.0,
     "fsd-ii": 0,
     "fsd2": 56.5,
     "python2": 61.0,
@@ -13138,7 +13485,7 @@ const data = [
     "sem3marks": 6.575,
     "sem3spi2": 13.15,
     "totalSum": 26.71,
-    "total": 301.25,
+    "total": 318.25,
     "coa2": 20.0,
     "toc2": 16.5,
     "fsd22": 17.0,
@@ -13149,7 +13496,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 21.5,
     "sem3spi": 8.38,
-    "dm4": 22.5
+    "dm4": 22.5,
+    "coa4": 34.0
   },
   {
     "roll": 83,
@@ -13165,7 +13513,7 @@ const data = [
     "dept": "SY2",
     "etc": 88,
     "dm": 80.5,
-    "coa": 66.0,
+    "coa": 84.0,
     "fsd-ii": 0,
     "fsd2": 64.0,
     "python2": 62.0,
@@ -13175,7 +13523,7 @@ const data = [
     "sem3marks": 7.925,
     "sem3spi2": 15.85,
     "totalSum": 30.63,
-    "total": 322.5,
+    "total": 340.5,
     "coa2": 20.0,
     "toc2": 20.0,
     "fsd22": 22.0,
@@ -13186,7 +13534,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 18.5,
     "sem3spi": 9.0,
-    "dm4": 34.0
+    "dm4": 34.0,
+    "coa4": 36.0
   },
   {
     "roll": 79,
@@ -13202,7 +13551,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 84.75,
-    "coa": 71.5,
+    "coa": 93.0,
     "fsd-ii": 0,
     "fsd2": 65.5,
     "python2": 66.5,
@@ -13212,7 +13561,7 @@ const data = [
     "sem3marks": 7.6,
     "sem3spi2": 15.2,
     "totalSum": 30.86,
-    "total": 341.75,
+    "total": 363.25,
     "coa2": 24.0,
     "toc2": 18.5,
     "fsd22": 23.0,
@@ -13223,7 +13572,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 25.0,
     "sem3spi": 8.92,
-    "dm4": 44.5
+    "dm4": 44.5,
+    "coa4": 43.0
   },
   {
     "roll": 68,
@@ -13239,7 +13589,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 85.5,
-    "coa": 62.5,
+    "coa": 77.5,
     "fsd-ii": 0,
     "fsd2": 57.5,
     "python2": 59.0,
@@ -13249,7 +13599,7 @@ const data = [
     "sem3marks": 7.45,
     "sem3spi2": 14.9,
     "totalSum": 31.3,
-    "total": 333.5,
+    "total": 348.5,
     "coa2": 23.0,
     "toc2": 25.0,
     "fsd22": 12.5,
@@ -13260,7 +13610,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 15.5,
     "sem3spi": 8.71,
-    "dm4": 48.0
+    "dm4": 48.0,
+    "coa4": 30.0
   },
   {
     "roll": 239,
@@ -13276,7 +13627,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 62.75,
-    "coa": 37.5,
+    "coa": 45.5,
     "fsd-ii": 0,
     "fsd2": 42.5,
     "python2": 22.0,
@@ -13286,7 +13637,7 @@ const data = [
     "sem3marks": 4.95,
     "sem3spi2": 9.9,
     "totalSum": 21.83,
-    "total": 223.75,
+    "total": 231.75,
     "coa2": 12.0,
     "toc2": 19.5,
     "fsd22": 9.5,
@@ -13297,7 +13648,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 5.0,
     "sem3spi": 6.75,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 16.0
   },
   {
     "roll": 129,
@@ -13313,7 +13665,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 76.25,
-    "coa": 54.0,
+    "coa": 74.5,
     "fsd-ii": 0,
     "fsd2": 59.5,
     "python2": 59.5,
@@ -13323,7 +13675,7 @@ const data = [
     "sem3marks": 6.775,
     "sem3spi2": 13.55,
     "totalSum": 28.24,
-    "total": 300.25,
+    "total": 320.75,
     "coa2": 17.0,
     "toc2": 16.5,
     "fsd22": 17.0,
@@ -13334,7 +13686,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 21.0,
     "sem3spi": 8.46,
-    "dm4": 36.5
+    "dm4": 36.5,
+    "coa4": 41.0
   },
   {
     "roll": 60,
@@ -13350,7 +13703,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 83.25,
-    "coa": 60.5,
+    "coa": 79.5,
     "fsd-ii": 0,
     "fsd2": 66.0,
     "python2": 60.5,
@@ -13360,7 +13713,7 @@ const data = [
     "sem3marks": 8.1,
     "sem3spi2": 16.2,
     "totalSum": 31.76,
-    "total": 332.25,
+    "total": 351.25,
     "coa2": 22.5,
     "toc2": 19.0,
     "fsd22": 23.0,
@@ -13371,7 +13724,8 @@ const data = [
     "fsd23": 24.5,
     "python23": 20.5,
     "sem3spi": 8.96,
-    "dm4": 42.5
+    "dm4": 42.5,
+    "coa4": 38.0
   },
   {
     "roll": 73,
@@ -13387,7 +13741,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 89.5,
-    "coa": 55.5,
+    "coa": 75.0,
     "fsd-ii": 0,
     "fsd2": 59.5,
     "python2": 61.5,
@@ -13397,7 +13751,7 @@ const data = [
     "sem3marks": 7.7,
     "sem3spi2": 15.4,
     "totalSum": 31.14,
-    "total": 325.0,
+    "total": 344.5,
     "coa2": 22.0,
     "toc2": 18.5,
     "fsd22": 22.0,
@@ -13408,7 +13762,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 22.0,
     "sem3spi": 9.04,
-    "dm4": 44.0
+    "dm4": 44.0,
+    "coa4": 39.0
   },
   {
     "roll": 49,
@@ -13424,7 +13779,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 77.5,
-    "coa": 64.5,
+    "coa": 81.0,
     "fsd-ii": 0,
     "fsd2": 66.5,
     "python2": 52.5,
@@ -13434,7 +13789,7 @@ const data = [
     "sem3marks": 7.7,
     "sem3spi2": 15.4,
     "totalSum": 32.63,
-    "total": 317.5,
+    "total": 334.0,
     "coa2": 23.0,
     "toc2": 21.5,
     "fsd22": 23.0,
@@ -13445,7 +13800,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 14.0,
     "sem3spi": 9.04,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 33.0
   },
   {
     "roll": 255,
@@ -13461,7 +13817,7 @@ const data = [
     "dept": "SY2",
     "etc": 92,
     "dm": 49.25,
-    "coa": 44.0,
+    "coa": 55.5,
     "fsd-ii": 0,
     "fsd2": 48.5,
     "python2": 38.0,
@@ -13471,7 +13827,7 @@ const data = [
     "sem3marks": 4.775,
     "sem3spi2": 9.55,
     "totalSum": 20.33,
-    "total": 222.75,
+    "total": 234.25,
     "coa2": 13.5,
     "toc2": 15.0,
     "fsd22": 13.5,
@@ -13482,7 +13838,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 13.5,
     "sem3spi": 5.15,
-    "dm4": 31.5
+    "dm4": 31.5,
+    "coa4": 23.0
   },
   {
     "roll": 232,
@@ -13498,7 +13855,7 @@ const data = [
     "dept": "SY2",
     "etc": 88,
     "dm": 61.75,
-    "coa": 21.5,
+    "coa": 27.0,
     "fsd-ii": 0,
     "fsd2": 30.5,
     "python2": 21.5,
@@ -13508,7 +13865,7 @@ const data = [
     "sem3marks": 4.525,
     "sem3spi2": 9.05,
     "totalSum": 22.22,
-    "total": 177.25,
+    "total": 182.75,
     "coa2": 4.0,
     "toc2": 18.0,
     "fsd22": 10.0,
@@ -13519,7 +13876,8 @@ const data = [
     "fsd23": 9.0,
     "python23": 3.0,
     "sem3spi": 6.88,
-    "dm4": 29.5
+    "dm4": 29.5,
+    "coa4": 11.0
   },
   {
     "roll": 290,
@@ -13535,7 +13893,7 @@ const data = [
     "dept": "SY2",
     "etc": 96,
     "dm": 37.25,
-    "coa": 30.5,
+    "coa": 39.5,
     "fsd-ii": 0,
     "fsd2": 31.0,
     "python2": 30.5,
@@ -13545,7 +13903,7 @@ const data = [
     "sem3marks": 2.75,
     "sem3spi2": 5.5,
     "totalSum": 9.46,
-    "total": 163.25,
+    "total": 172.25,
     "coa2": 5.0,
     "toc2": 7.5,
     "fsd22": 6.0,
@@ -13555,7 +13913,8 @@ const data = [
     "toc3": 13.5,
     "fsd23": 14.0,
     "python23": 9.0,
-    "dm4": 16.5
+    "dm4": 16.5,
+    "coa4": 18.0
   },
   {
     "roll": 216,
@@ -13571,7 +13930,7 @@ const data = [
     "dept": "SY2",
     "etc": 94,
     "dm": 73.0,
-    "coa": 51.0,
+    "coa": 64.5,
     "fsd-ii": 0,
     "fsd2": 53.0,
     "python2": 42.0,
@@ -13581,7 +13940,7 @@ const data = [
     "sem3marks": 5.375,
     "sem3spi2": 10.75,
     "totalSum": 23.79,
-    "total": 267.5,
+    "total": 281.0,
     "coa2": 14.0,
     "toc2": 19.0,
     "fsd22": 12.0,
@@ -13592,7 +13951,8 @@ const data = [
     "fsd23": 21.5,
     "python23": 14.0,
     "sem3spi": 7.17,
-    "dm4": 34.0
+    "dm4": 34.0,
+    "coa4": 27.0
   },
   {
     "roll": 55,
@@ -13608,7 +13968,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 83.0,
-    "coa": 59.0,
+    "coa": 82.0,
     "fsd-ii": 0,
     "fsd2": 64.0,
     "python2": 60.0,
@@ -13618,7 +13978,7 @@ const data = [
     "sem3marks": 8.175,
     "sem3spi2": 16.35,
     "totalSum": 32.27,
-    "total": 325.5,
+    "total": 348.5,
     "coa2": 19.5,
     "toc2": 20.5,
     "fsd22": 18.0,
@@ -13629,7 +13989,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 18.5,
     "sem3spi": 9.38,
-    "dm4": 42.0
+    "dm4": 42.0,
+    "coa4": 46.0
   },
   {
     "roll": 124,
@@ -13645,7 +14006,7 @@ const data = [
     "dept": "SY2",
     "etc": 96,
     "dm": 83.0,
-    "coa": 66.5,
+    "coa": 85.0,
     "fsd-ii": 0,
     "fsd2": 59.5,
     "python2": 50.5,
@@ -13655,7 +14016,7 @@ const data = [
     "sem3marks": 7,
     "sem3spi2": 14,
     "totalSum": 28.69,
-    "total": 317.0,
+    "total": 335.5,
     "coa2": 23.0,
     "toc2": 21.0,
     "fsd22": 18.0,
@@ -13666,7 +14027,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 16.5,
     "sem3spi": 8.46,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 37.0
   },
   {
     "roll": 11,
@@ -13682,7 +14044,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 81.75,
-    "coa": 69.0,
+    "coa": 87.0,
     "fsd-ii": 0,
     "fsd2": 64.0,
     "python2": 70.0,
@@ -13692,7 +14054,7 @@ const data = [
     "sem3marks": 8.975,
     "sem3spi2": 17.95,
     "totalSum": 35.6,
-    "total": 333.25,
+    "total": 351.25,
     "coa2": 23.0,
     "toc2": 20.0,
     "fsd22": 21.0,
@@ -13703,7 +14065,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 25.0,
     "sem3spi": 9.88,
-    "dm4": 39.5
+    "dm4": 39.5,
+    "coa4": 36.0
   },
   {
     "roll": 193,
@@ -13719,7 +14082,7 @@ const data = [
     "dept": "SY2",
     "etc": 96,
     "dm": 81.0,
-    "coa": 64.0,
+    "coa": 81.0,
     "fsd-ii": 0,
     "fsd2": 58.5,
     "python2": 52.0,
@@ -13729,7 +14092,7 @@ const data = [
     "sem3marks": 6.425,
     "sem3spi2": 12.85,
     "totalSum": 24.92,
-    "total": 317.0,
+    "total": 334.0,
     "coa2": 21.0,
     "toc2": 23.0,
     "fsd22": 14.5,
@@ -13740,7 +14103,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 14.0,
     "sem3spi": 8.29,
-    "dm4": 34.0
+    "dm4": 34.0,
+    "coa4": 34.0
   },
   {
     "roll": 211,
@@ -13756,7 +14120,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 70.0,
-    "coa": 64.5,
+    "coa": 75.5,
     "fsd-ii": 0,
     "fsd2": 50.5,
     "python2": 37.5,
@@ -13766,7 +14130,7 @@ const data = [
     "sem3marks": 5.725,
     "sem3spi2": 11.45,
     "totalSum": 24.08,
-    "total": 265.5,
+    "total": 276.5,
     "coa2": 22.0,
     "toc2": 18.0,
     "fsd22": 12.0,
@@ -13777,7 +14141,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 11.0,
     "sem3spi": 7.75,
-    "dm4": 34.0
+    "dm4": 34.0,
+    "coa4": 22.0
   },
   {
     "roll": 252,
@@ -13793,7 +14158,7 @@ const data = [
     "dept": "SY2",
     "etc": 88,
     "dm": 43.0,
-    "coa": 27.5,
+    "coa": 37.0,
     "fsd-ii": 0,
     "fsd2": 40.0,
     "python2": 45.0,
@@ -13803,7 +14168,7 @@ const data = [
     "sem3marks": 4.175,
     "sem3spi2": 8.35,
     "totalSum": 20.75,
-    "total": 200.0,
+    "total": 209.5,
     "coa2": 10.0,
     "toc2": 15.5,
     "fsd22": 11.0,
@@ -13814,7 +14179,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 13.0,
     "sem3spi": 5.92,
-    "dm4": 20.0
+    "dm4": 20.0,
+    "coa4": 19.0
   },
   {
     "roll": 14,
@@ -13830,7 +14196,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 90.25,
-    "coa": 68.5,
+    "coa": 82.5,
     "fsd-ii": 0,
     "fsd2": 64.5,
     "python2": 61.5,
@@ -13840,7 +14206,7 @@ const data = [
     "sem3marks": 8.675,
     "sem3spi2": 17.35,
     "totalSum": 35.3,
-    "total": 350.25,
+    "total": 364.25,
     "coa2": 23.0,
     "toc2": 22.0,
     "fsd22": 18.0,
@@ -13851,7 +14217,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 16.5,
     "sem3spi": 9.71,
-    "dm4": 48.5
+    "dm4": 48.5,
+    "coa4": 28.0
   },
   {
     "roll": 3,
@@ -13867,7 +14234,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 94.25,
-    "coa": 74.0,
+    "coa": 97.0,
     "fsd-ii": 0,
     "fsd2": 63.5,
     "python2": 69.5,
@@ -13877,7 +14244,7 @@ const data = [
     "sem3marks": 9.2,
     "sem3spi2": 18.4,
     "totalSum": 36.64,
-    "total": 368.25,
+    "total": 391.25,
     "coa2": 24.5,
     "toc2": 23.0,
     "fsd22": 21.0,
@@ -13888,7 +14255,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 22.5,
     "sem3spi": 9.88,
-    "dm4": 49.5
+    "dm4": 49.5,
+    "coa4": 46.0
   },
   {
     "roll": 130,
@@ -13904,7 +14272,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 57.25,
-    "coa": 40.5,
+    "coa": 49.0,
     "fsd-ii": 0,
     "fsd2": 60.5,
     "python2": 45.0,
@@ -13914,7 +14282,7 @@ const data = [
     "sem3marks": 6.6,
     "sem3spi2": 13.2,
     "totalSum": 28.22,
-    "total": 259.75,
+    "total": 268.25,
     "coa2": 14.0,
     "toc2": 22.0,
     "fsd22": 18.0,
@@ -13925,7 +14293,8 @@ const data = [
     "fsd23": 24.5,
     "python23": 13.5,
     "sem3spi": 8.46,
-    "dm4": 24.5
+    "dm4": 24.5,
+    "coa4": 17.0
   },
   {
     "roll": 89,
@@ -13941,7 +14310,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 81.0,
-    "coa": 63.0,
+    "coa": 75.0,
     "fsd-ii": 0,
     "fsd2": 64.5,
     "python2": 50.5,
@@ -13951,7 +14320,7 @@ const data = [
     "sem3marks": 7.25,
     "sem3spi2": 14.5,
     "totalSum": 30.44,
-    "total": 314.5,
+    "total": 326.5,
     "coa2": 22.0,
     "toc2": 18.0,
     "fsd22": 21.0,
@@ -13962,7 +14331,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 11.5,
     "sem3spi": 8.79,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 24.0
   },
   {
     "roll": 34,
@@ -13978,7 +14348,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 94.25,
-    "coa": 72.0,
+    "coa": 96.0,
     "fsd-ii": 0,
     "fsd2": 69.5,
     "python2": 70.0,
@@ -13988,7 +14358,7 @@ const data = [
     "sem3marks": 8.775,
     "sem3spi2": 17.55,
     "totalSum": 33.42,
-    "total": 361.25,
+    "total": 385.25,
     "coa2": 25.0,
     "toc2": 20.0,
     "fsd22": 24.5,
@@ -13999,7 +14369,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 24.0,
     "sem3spi": 9.5,
-    "dm4": 49.5
+    "dm4": 49.5,
+    "coa4": 48.0
   },
   {
     "roll": 13,
@@ -14015,7 +14386,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 91.0,
-    "coa": 70.0,
+    "coa": 89.5,
     "fsd-ii": 0,
     "fsd2": 65.5,
     "python2": 67.0,
@@ -14025,7 +14396,7 @@ const data = [
     "sem3marks": 8.675,
     "sem3spi2": 17.35,
     "totalSum": 35.46,
-    "total": 358.5,
+    "total": 378.0,
     "coa2": 23.0,
     "toc2": 22.5,
     "fsd22": 20.0,
@@ -14036,7 +14407,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 24.0,
     "sem3spi": 9.83,
-    "dm4": 45.0
+    "dm4": 45.0,
+    "coa4": 39.0
   },
   {
     "roll": 99,
@@ -14052,7 +14424,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 80.5,
-    "coa": 62.0,
+    "coa": 79.0,
     "fsd-ii": 0,
     "fsd2": 62.5,
     "python2": 64.0,
@@ -14062,7 +14434,7 @@ const data = [
     "sem3marks": 7.1,
     "sem3spi2": 14.2,
     "totalSum": 29.69,
-    "total": 319.5,
+    "total": 336.5,
     "coa2": 18.0,
     "toc2": 15.5,
     "fsd22": 18.5,
@@ -14073,7 +14445,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 23.0,
     "sem3spi": 8.54,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 34.0
   },
   {
     "roll": 243,
@@ -14089,7 +14462,7 @@ const data = [
     "dept": "SY2",
     "etc": 96,
     "dm": 58.0,
-    "coa": 38.5,
+    "coa": 53.0,
     "fsd-ii": 0,
     "fsd2": 39.0,
     "python2": 31.5,
@@ -14099,7 +14472,7 @@ const data = [
     "sem3marks": 4.65,
     "sem3spi2": 9.3,
     "totalSum": 21.54,
-    "total": 205.5,
+    "total": 220.0,
     "coa2": 9.0,
     "toc2": 14.5,
     "fsd22": 10.0,
@@ -14110,7 +14483,8 @@ const data = [
     "fsd23": 17.0,
     "python23": 10.5,
     "sem3spi": 6.25,
-    "dm4": 35.0
+    "dm4": 35.0,
+    "coa4": 29.0
   },
   {
     "roll": 67,
@@ -14126,7 +14500,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 79.75,
-    "coa": 56.0,
+    "coa": 70.0,
     "fsd-ii": 0,
     "fsd2": 67.0,
     "python2": 68.5,
@@ -14136,7 +14510,7 @@ const data = [
     "sem3marks": 7.75,
     "sem3spi2": 15.5,
     "totalSum": 31.35,
-    "total": 336.25,
+    "total": 350.25,
     "coa2": 16.0,
     "toc2": 23.0,
     "fsd22": 20.5,
@@ -14147,7 +14521,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 22.5,
     "sem3spi": 9.25,
-    "dm4": 39.5
+    "dm4": 39.5,
+    "coa4": 28.0
   },
   {
     "roll": 149,
@@ -14163,7 +14538,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 71.5,
-    "coa": 63.0,
+    "coa": 77.5,
     "fsd-ii": 0,
     "fsd2": 62.0,
     "python2": 38.5,
@@ -14173,7 +14548,7 @@ const data = [
     "sem3marks": 6.6,
     "sem3spi2": 13.2,
     "totalSum": 27.34,
-    "total": 297.0,
+    "total": 311.5,
     "coa2": 22.0,
     "toc2": 22.0,
     "fsd22": 22.0,
@@ -14184,7 +14559,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 11.5,
     "sem3spi": 8.04,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 29.0
   },
   {
     "roll": 45,
@@ -14200,7 +14576,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 79.25,
-    "coa": 60.0,
+    "coa": 81.5,
     "fsd-ii": 0,
     "fsd2": 63.5,
     "python2": 56.5,
@@ -14210,7 +14586,7 @@ const data = [
     "sem3marks": 7.875,
     "sem3spi2": 15.75,
     "totalSum": 32.84,
-    "total": 323.75,
+    "total": 345.25,
     "coa2": 18.0,
     "toc2": 21.5,
     "fsd22": 19.0,
@@ -14221,7 +14597,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 16.5,
     "sem3spi": 8.92,
-    "dm4": 47.5
+    "dm4": 47.5,
+    "coa4": 43.0
   },
   {
     "roll": 144,
@@ -14237,7 +14614,7 @@ const data = [
     "dept": "SY2",
     "etc": 96,
     "dm": 75.5,
-    "coa": 66.0,
+    "coa": 83.0,
     "fsd-ii": 0,
     "fsd2": 69.0,
     "python2": 56.0,
@@ -14247,7 +14624,7 @@ const data = [
     "sem3marks": 7.025,
     "sem3spi2": 14.05,
     "totalSum": 27.53,
-    "total": 323.0,
+    "total": 340.0,
     "coa2": 22.0,
     "toc2": 19.5,
     "fsd22": 22.5,
@@ -14258,7 +14635,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 19.5,
     "sem3spi": 8.58,
-    "dm4": 36.0
+    "dm4": 36.0,
+    "coa4": 34.0
   },
   {
     "roll": 131,
@@ -14274,7 +14652,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 75.0,
-    "coa": 61.0,
+    "coa": 77.5,
     "fsd-ii": 0,
     "fsd2": 59.5,
     "python2": 53.5,
@@ -14284,7 +14662,7 @@ const data = [
     "sem3marks": 6.775,
     "sem3spi2": 13.55,
     "totalSum": 28.22,
-    "total": 308.5,
+    "total": 325.0,
     "coa2": 20.0,
     "toc2": 23.0,
     "fsd22": 18.0,
@@ -14295,7 +14673,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 15.0,
     "sem3spi": 8.04,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 33.0
   },
   {
     "roll": 33,
@@ -14311,7 +14690,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 86.75,
-    "coa": 67.0,
+    "coa": 90.5,
     "fsd-ii": 0,
     "fsd2": 71.0,
     "python2": 69.5,
@@ -14321,7 +14700,7 @@ const data = [
     "sem3marks": 8.7,
     "sem3spi2": 17.4,
     "totalSum": 33.53,
-    "total": 353.75,
+    "total": 377.25,
     "coa2": 23.0,
     "toc2": 20.0,
     "fsd22": 22.0,
@@ -14332,7 +14711,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 23.0,
     "sem3spi": 9.83,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 47.0
   },
   {
     "roll": 132,
@@ -14348,7 +14728,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 73.0,
-    "coa": 45.0,
+    "coa": 61.0,
     "fsd-ii": 0,
     "fsd2": 63.0,
     "python2": 55.5,
@@ -14358,7 +14738,7 @@ const data = [
     "sem3marks": 6.05,
     "sem3spi2": 12.1,
     "totalSum": 28.13,
-    "total": 289.0,
+    "total": 305.0,
     "coa2": 11.0,
     "toc2": 22.0,
     "fsd22": 21.5,
@@ -14369,7 +14749,8 @@ const data = [
     "fsd23": 18.5,
     "python23": 13.0,
     "sem3spi": 7.46,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 32.0
   },
   {
     "roll": 77,
@@ -14385,7 +14766,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 78.0,
-    "coa": 50.5,
+    "coa": 69.5,
     "fsd-ii": 0,
     "fsd2": 66.5,
     "python2": 68.0,
@@ -14395,7 +14776,7 @@ const data = [
     "sem3marks": 7.65,
     "sem3spi2": 15.3,
     "totalSum": 30.92,
-    "total": 306.0,
+    "total": 325.0,
     "coa2": 14.0,
     "toc2": 14.5,
     "fsd22": 22.0,
@@ -14406,7 +14787,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 23.0,
     "sem3spi": 9.04,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 38.0
   },
   {
     "roll": 121,
@@ -14422,7 +14804,7 @@ const data = [
     "dept": "SY2",
     "etc": 92,
     "dm": 79.75,
-    "coa": 54.5,
+    "coa": 69.0,
     "fsd-ii": 0,
     "fsd2": 54.5,
     "python2": 51.5,
@@ -14432,7 +14814,7 @@ const data = [
     "sem3marks": 6.825,
     "sem3spi2": 13.65,
     "totalSum": 28.84,
-    "total": 290.25,
+    "total": 304.75,
     "coa2": 17.0,
     "toc2": 18.0,
     "fsd22": 19.5,
@@ -14443,7 +14825,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 13.5,
     "sem3spi": 8.58,
-    "dm4": 33.5
+    "dm4": 33.5,
+    "coa4": 29.0
   },
   {
     "roll": 202,
@@ -14459,7 +14842,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 59.75,
-    "coa": 39.0,
+    "coa": 54.0,
     "fsd-ii": 0,
     "fsd2": 53.5,
     "python2": 54.0,
@@ -14469,7 +14852,7 @@ const data = [
     "sem3marks": 5.8,
     "sem3spi2": 11.6,
     "totalSum": 24.45,
-    "total": 255.75,
+    "total": 270.75,
     "coa2": 9.0,
     "toc2": 16.0,
     "fsd22": 14.0,
@@ -14480,7 +14863,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 17.5,
     "sem3spi": 7.67,
-    "dm4": 34.5
+    "dm4": 34.5,
+    "coa4": 30.0
   },
   {
     "roll": 119,
@@ -14496,7 +14880,7 @@ const data = [
     "dept": "SY2",
     "etc": 88,
     "dm": 67.0,
-    "coa": 38.5,
+    "coa": 49.0,
     "fsd-ii": 0,
     "fsd2": 48.5,
     "python2": 45.0,
@@ -14506,7 +14890,7 @@ const data = [
     "sem3marks": 7.05,
     "sem3spi2": 14.1,
     "totalSum": 28.86,
-    "total": 261.5,
+    "total": 272.0,
     "coa2": 12.0,
     "toc2": 18.5,
     "fsd22": 11.5,
@@ -14517,7 +14901,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 14.0,
     "sem3spi": 8.33,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 21.0
   },
   {
     "roll": 276,
@@ -14533,7 +14918,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 42.5,
-    "coa": 34.5,
+    "coa": 42.0,
     "fsd-ii": 0,
     "fsd2": 33.5,
     "python2": 30.0,
@@ -14543,7 +14928,7 @@ const data = [
     "sem3marks": 3.625,
     "sem3spi2": 7.25,
     "totalSum": 17.95,
-    "total": 182.0,
+    "total": 189.5,
     "coa2": 9.0,
     "toc2": 14.5,
     "fsd22": 5.0,
@@ -14554,7 +14939,8 @@ const data = [
     "fsd23": 13.5,
     "python23": 16.0,
     "sem3spi": 5.83,
-    "dm4": 33.0
+    "dm4": 33.0,
+    "coa4": 15.0
   },
   {
     "roll": 285,
@@ -14570,7 +14956,7 @@ const data = [
     "dept": "SY2",
     "etc": 90,
     "dm": 29.5,
-    "coa": 29.5,
+    "coa": 34.5,
     "fsd-ii": 0,
     "fsd2": 16.0,
     "python2": 18.5,
@@ -14580,7 +14966,7 @@ const data = [
     "sem3marks": 3.375,
     "sem3spi2": 6.75,
     "totalSum": 15.96,
-    "total": 132.0,
+    "total": 137.0,
     "coa2": 7.0,
     "toc2": 16.5,
     "fsd22": 6.0,
@@ -14591,7 +14977,8 @@ const data = [
     "fsd23": 3.0,
     "python23": 5.0,
     "sem3spi": 6.0,
-    "dm4": 7.0
+    "dm4": 7.0,
+    "coa4": 10.0
   },
   {
     "roll": 5,
@@ -14607,7 +14994,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 93.0,
-    "coa": 72.0,
+    "coa": 92.0,
     "fsd-ii": 0,
     "fsd2": 62.5,
     "python2": 66.5,
@@ -14617,7 +15004,7 @@ const data = [
     "sem3marks": 8.875,
     "sem3spi2": 17.75,
     "totalSum": 36.11,
-    "total": 360.5,
+    "total": 380.5,
     "coa2": 24.0,
     "toc2": 22.5,
     "fsd22": 22.0,
@@ -14628,7 +15015,8 @@ const data = [
     "fsd23": 20.5,
     "python23": 23.5,
     "sem3spi": 9.58,
-    "dm4": 46.0
+    "dm4": 46.0,
+    "coa4": 40.0
   },
   {
     "roll": 126,
@@ -14644,7 +15032,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 86.0,
-    "coa": 59.5,
+    "coa": 75.5,
     "fsd-ii": 0,
     "fsd2": 49.0,
     "python2": 51.5,
@@ -14654,7 +15042,7 @@ const data = [
     "sem3marks": 7.175,
     "sem3spi2": 14.35,
     "totalSum": 28.56,
-    "total": 308.0,
+    "total": 324.0,
     "coa2": 20.0,
     "toc2": 20.5,
     "fsd22": 17.0,
@@ -14665,7 +15053,8 @@ const data = [
     "fsd23": 16.5,
     "python23": 14.5,
     "sem3spi": 8.92,
-    "dm4": 45.0
+    "dm4": 45.0,
+    "coa4": 32.0
   },
   {
     "roll": 200,
@@ -14681,7 +15070,7 @@ const data = [
     "dept": "SY2",
     "etc": 96,
     "dm": 72.75,
-    "coa": 52.0,
+    "coa": 67.0,
     "fsd-ii": 0,
     "fsd2": 50.0,
     "python2": 47.5,
@@ -14691,7 +15080,7 @@ const data = [
     "sem3marks": 5.525,
     "sem3spi2": 11.05,
     "totalSum": 24.53,
-    "total": 276.75,
+    "total": 291.75,
     "coa2": 11.0,
     "toc2": 19.0,
     "fsd22": 16.0,
@@ -14702,7 +15091,8 @@ const data = [
     "fsd23": 21.5,
     "python23": 15.5,
     "sem3spi": 7.17,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 30.0
   },
   {
     "roll": 227,
@@ -14718,7 +15108,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 75.75,
-    "coa": 62.0,
+    "coa": 80.5,
     "fsd-ii": 0,
     "fsd2": 46.0,
     "python2": 54.5,
@@ -14728,7 +15118,7 @@ const data = [
     "sem3marks": 5.7,
     "sem3spi2": 11.4,
     "totalSum": 22.45,
-    "total": 286.25,
+    "total": 304.75,
     "coa2": 23.5,
     "toc2": 18.0,
     "fsd22": 17.0,
@@ -14739,7 +15129,8 @@ const data = [
     "fsd23": 12.0,
     "python23": 17.5,
     "sem3spi": 7.04,
-    "dm4": 45.5
+    "dm4": 45.5,
+    "coa4": 37.0
   },
   {
     "roll": 29,
@@ -14755,7 +15146,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 80.25,
-    "coa": 62.5,
+    "coa": 75.5,
     "fsd-ii": 0,
     "fsd2": 65.0,
     "python2": 67.0,
@@ -14765,7 +15156,7 @@ const data = [
     "sem3marks": 7.875,
     "sem3spi2": 15.75,
     "totalSum": 33.75,
-    "total": 329.75,
+    "total": 342.75,
     "coa2": 20.0,
     "toc2": 17.5,
     "fsd22": 21.0,
@@ -14776,7 +15167,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 25.0,
     "sem3spi": 8.88,
-    "dm4": 36.5
+    "dm4": 36.5,
+    "coa4": 26.0
   },
   {
     "roll": 174,
@@ -14792,7 +15184,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 82.75,
-    "coa": 63.5,
+    "coa": 76.5,
     "fsd-ii": 0,
     "fsd2": 43.0,
     "python2": 43.5,
@@ -14802,7 +15194,7 @@ const data = [
     "sem3marks": 6.925,
     "sem3spi2": 13.85,
     "totalSum": 26.2,
-    "total": 284.75,
+    "total": 297.75,
     "coa2": 20.0,
     "toc2": 18.5,
     "fsd22": 13.0,
@@ -14813,7 +15205,8 @@ const data = [
     "fsd23": 15.0,
     "python23": 12.0,
     "sem3spi": 8.04,
-    "dm4": 36.5
+    "dm4": 36.5,
+    "coa4": 26.0
   },
   {
     "roll": 115,
@@ -14829,7 +15222,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 87.5,
-    "coa": 59.5,
+    "coa": 80.5,
     "fsd-ii": 0,
     "fsd2": 65.0,
     "python2": 64.5,
@@ -14839,7 +15232,7 @@ const data = [
     "sem3marks": 7,
     "sem3spi2": 14,
     "totalSum": 29.01,
-    "total": 342.5,
+    "total": 363.5,
     "coa2": 16.5,
     "toc2": 25.0,
     "fsd22": 21.5,
@@ -14850,7 +15243,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 22.5,
     "sem3spi": 8.75,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 42.0
   },
   {
     "roll": 189,
@@ -14866,7 +15260,7 @@ const data = [
     "dept": "SY2",
     "etc": 96,
     "dm": 55.75,
-    "coa": 34.0,
+    "coa": 47.0,
     "fsd-ii": 0,
     "fsd2": 48.5,
     "python2": 46.0,
@@ -14876,7 +15270,7 @@ const data = [
     "sem3marks": 5.575,
     "sem3spi2": 11.15,
     "totalSum": 25.15,
-    "total": 239.25,
+    "total": 252.25,
     "coa2": 13.0,
     "toc2": 17.5,
     "fsd22": 16.5,
@@ -14887,7 +15281,8 @@ const data = [
     "fsd23": 14.5,
     "python23": 20.5,
     "sem3spi": 7.33,
-    "dm4": 28.5
+    "dm4": 28.5,
+    "coa4": 26.0
   },
   {
     "roll": 17,
@@ -14903,7 +15298,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 84.5,
-    "coa": 64.5,
+    "coa": 83.5,
     "fsd-ii": 0,
     "fsd2": 65.0,
     "python2": 70.0,
@@ -14913,7 +15308,7 @@ const data = [
     "sem3marks": 8.675,
     "sem3spi2": 17.35,
     "totalSum": 35.06,
-    "total": 344.0,
+    "total": 363.0,
     "coa2": 23.0,
     "toc2": 21.5,
     "fsd22": 22.0,
@@ -14924,7 +15319,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 23.0,
     "sem3spi": 9.75,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 38.0
   },
   {
     "roll": 20,
@@ -14940,7 +15336,7 @@ const data = [
     "dept": "SY2",
     "etc": 88,
     "dm": 91.75,
-    "coa": 72.5,
+    "coa": 91.5,
     "fsd-ii": 0,
     "fsd2": 68.5,
     "python2": 66.5,
@@ -14950,7 +15346,7 @@ const data = [
     "sem3marks": 9.075,
     "sem3spi2": 18.15,
     "totalSum": 35,
-    "total": 363.75,
+    "total": 382.75,
     "coa2": 24.0,
     "toc2": 24.0,
     "fsd22": 24.0,
@@ -14961,7 +15357,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 24.0,
     "sem3spi": 9.75,
-    "dm4": 49.5
+    "dm4": 49.5,
+    "coa4": 38.0
   },
   {
     "roll": 40,
@@ -14977,7 +15374,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 94.75,
-    "coa": 74.0,
+    "coa": 97.0,
     "fsd-ii": 0,
     "fsd2": 65.0,
     "python2": 67.5,
@@ -14987,7 +15384,7 @@ const data = [
     "sem3marks": 8.575,
     "sem3spi2": 17.15,
     "totalSum": 33.14,
-    "total": 364.25,
+    "total": 387.25,
     "coa2": 25.0,
     "toc2": 24.0,
     "fsd22": 22.0,
@@ -14998,7 +15395,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 20.0,
     "sem3spi": 9.71,
-    "dm4": 45.5
+    "dm4": 45.5,
+    "coa4": 46.0
   },
   {
     "roll": 138,
@@ -15014,7 +15412,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 81.75,
-    "coa": 52.0,
+    "coa": 66.0,
     "fsd-ii": 0,
     "fsd2": 60.5,
     "python2": 48.5,
@@ -15024,7 +15422,7 @@ const data = [
     "sem3marks": 7,
     "sem3spi2": 14,
     "totalSum": 27.84,
-    "total": 309.25,
+    "total": 323.25,
     "coa2": 12.0,
     "toc2": 23.0,
     "fsd22": 18.0,
@@ -15035,7 +15433,8 @@ const data = [
     "fsd23": 21.5,
     "python23": 17.0,
     "sem3spi": 8.58,
-    "dm4": 40.5
+    "dm4": 40.5,
+    "coa4": 28.0
   },
   {
     "roll": 158,
@@ -15051,7 +15450,7 @@ const data = [
     "dept": "SY2",
     "etc": 94,
     "dm": 76.25,
-    "coa": 59.0,
+    "coa": 77.0,
     "fsd-ii": 0,
     "fsd2": 65.0,
     "python2": 57.0,
@@ -15061,7 +15460,7 @@ const data = [
     "sem3marks": 6.625,
     "sem3spi2": 13.25,
     "totalSum": 27.04,
-    "total": 314.25,
+    "total": 332.25,
     "coa2": 22.0,
     "toc2": 21.5,
     "fsd22": 22.5,
@@ -15072,7 +15471,8 @@ const data = [
     "fsd23": 21.5,
     "python23": 17.0,
     "sem3spi": 8.33,
-    "dm4": 41.5
+    "dm4": 41.5,
+    "coa4": 36.0
   },
   {
     "roll": 74,
@@ -15088,7 +15488,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 73.0,
-    "coa": 65.0,
+    "coa": 84.0,
     "fsd-ii": 0,
     "fsd2": 64.5,
     "python2": 53.0,
@@ -15098,7 +15498,7 @@ const data = [
     "sem3marks": 7.425,
     "sem3spi2": 14.85,
     "totalSum": 31.06,
-    "total": 311.5,
+    "total": 330.5,
     "coa2": 21.0,
     "toc2": 19.5,
     "fsd22": 21.5,
@@ -15109,7 +15509,8 @@ const data = [
     "fsd23": 20.5,
     "python23": 15.0,
     "sem3spi": 9.04,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 38.0
   },
   {
     "roll": 106,
@@ -15125,7 +15526,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 72.25,
-    "coa": 66.0,
+    "coa": 85.0,
     "fsd-ii": 0,
     "fsd2": 56.0,
     "python2": 56.5,
@@ -15135,7 +15536,7 @@ const data = [
     "sem3marks": 7.175,
     "sem3spi2": 14.35,
     "totalSum": 29.47,
-    "total": 310.25,
+    "total": 329.25,
     "coa2": 22.0,
     "toc2": 20.0,
     "fsd22": 17.0,
@@ -15146,7 +15547,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 19.0,
     "sem3spi": 8.46,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 38.0
   },
   {
     "roll": 39,
@@ -15162,7 +15564,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 87.25,
-    "coa": 68.0,
+    "coa": 83.0,
     "fsd-ii": 0,
     "fsd2": 61.5,
     "python2": 64.0,
@@ -15172,7 +15574,7 @@ const data = [
     "sem3marks": 8,
     "sem3spi2": 16,
     "totalSum": 33.17,
-    "total": 350.25,
+    "total": 365.25,
     "coa2": 23.0,
     "toc2": 23.5,
     "fsd22": 21.0,
@@ -15183,7 +15585,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 22.5,
     "sem3spi": 9.46,
-    "dm4": 44.5
+    "dm4": 44.5,
+    "coa4": 30.0
   },
   {
     "roll": 113,
@@ -15199,7 +15602,7 @@ const data = [
     "dept": "SY2",
     "etc": 92,
     "dm": 77.5,
-    "coa": 55.5,
+    "coa": 74.0,
     "fsd-ii": 0,
     "fsd2": 67.5,
     "python2": 49.5,
@@ -15209,7 +15612,7 @@ const data = [
     "sem3marks": 6.65,
     "sem3spi2": 13.3,
     "totalSum": 29.1,
-    "total": 312.5,
+    "total": 331.0,
     "coa2": 17.0,
     "toc2": 24.0,
     "fsd22": 23.0,
@@ -15220,7 +15623,8 @@ const data = [
     "fsd23": 21.5,
     "python23": 13.0,
     "sem3spi": 8.0,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 37.0
   },
   {
     "roll": 98,
@@ -15236,7 +15640,7 @@ const data = [
     "dept": "SY2",
     "etc": 96,
     "dm": 77.5,
-    "coa": 60.0,
+    "coa": 80.0,
     "fsd-ii": 0,
     "fsd2": 64.5,
     "python2": 62.0,
@@ -15246,7 +15650,7 @@ const data = [
     "sem3marks": 6.925,
     "sem3spi2": 13.85,
     "totalSum": 29.83,
-    "total": 322.5,
+    "total": 342.5,
     "coa2": 19.0,
     "toc2": 20.0,
     "fsd22": 22.0,
@@ -15257,7 +15661,8 @@ const data = [
     "fsd23": 20.5,
     "python23": 22.0,
     "sem3spi": 8.54,
-    "dm4": 42.0
+    "dm4": 42.0,
+    "coa4": 40.0
   },
   {
     "roll": 44,
@@ -15273,7 +15678,7 @@ const data = [
     "dept": "SY2",
     "etc": 92,
     "dm": 91.0,
-    "coa": 70.5,
+    "coa": 90.5,
     "fsd-ii": 0,
     "fsd2": 64.5,
     "python2": 59.0,
@@ -15283,7 +15688,7 @@ const data = [
     "sem3marks": 7.875,
     "sem3spi2": 15.75,
     "totalSum": 33.02,
-    "total": 347.5,
+    "total": 367.5,
     "coa2": 25.0,
     "toc2": 24.0,
     "fsd22": 22.5,
@@ -15294,7 +15699,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 19.0,
     "sem3spi": 9.29,
-    "dm4": 46.0
+    "dm4": 46.0,
+    "coa4": 40.0
   },
   {
     "roll": 159,
@@ -15310,7 +15716,7 @@ const data = [
     "dept": "SY2",
     "etc": 96,
     "dm": 64.25,
-    "coa": 56.5,
+    "coa": 72.0,
     "fsd-ii": 0,
     "fsd2": 55.0,
     "python2": 45.5,
@@ -15320,7 +15726,7 @@ const data = [
     "sem3marks": 5.95,
     "sem3spi2": 11.9,
     "totalSum": 27.01,
-    "total": 277.25,
+    "total": 292.75,
     "coa2": 20.0,
     "toc2": 20.5,
     "fsd22": 20.0,
@@ -15331,7 +15737,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 14.0,
     "sem3spi": 7.83,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 31.0
   },
   {
     "roll": 38,
@@ -15347,7 +15754,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 85.5,
-    "coa": 63.0,
+    "coa": 82.0,
     "fsd-ii": 0,
     "fsd2": 65.0,
     "python2": 68.5,
@@ -15357,7 +15764,7 @@ const data = [
     "sem3marks": 8.125,
     "sem3spi2": 16.25,
     "totalSum": 33.23,
-    "total": 338.0,
+    "total": 357.0,
     "coa2": 21.0,
     "toc2": 20.5,
     "fsd22": 21.5,
@@ -15368,7 +15775,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 23.0,
     "sem3spi": 9.46,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 38.0
   },
   {
     "roll": 248,
@@ -15384,7 +15792,7 @@ const data = [
     "dept": "SY2",
     "etc": 82,
     "dm": 48.0,
-    "coa": 30.0,
+    "coa": 35.5,
     "fsd-ii": 0,
     "fsd2": 38.0,
     "python2": 29.0,
@@ -15394,7 +15802,7 @@ const data = [
     "sem3marks": 4.6,
     "sem3spi2": 9.2,
     "totalSum": 21.12,
-    "total": 196.5,
+    "total": 202.0,
     "coa2": 7.0,
     "toc2": 19.5,
     "fsd22": 11.0,
@@ -15405,7 +15813,8 @@ const data = [
     "fsd23": 11.5,
     "python23": 6.0,
     "sem3spi": 6.46,
-    "dm4": 27.0
+    "dm4": 27.0,
+    "coa4": 11.0
   },
   {
     "roll": 37,
@@ -15421,7 +15830,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 90.5,
-    "coa": 66.0,
+    "coa": 88.0,
     "fsd-ii": 0,
     "fsd2": 67.0,
     "python2": 59.5,
@@ -15431,7 +15840,7 @@ const data = [
     "sem3marks": 8.55,
     "sem3spi2": 17.1,
     "totalSum": 33.31,
-    "total": 347.5,
+    "total": 369.5,
     "coa2": 22.0,
     "toc2": 21.0,
     "fsd22": 22.5,
@@ -15442,7 +15851,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 20.0,
     "sem3spi": 9.63,
-    "dm4": 49.0
+    "dm4": 49.0,
+    "coa4": 44.0
   },
   {
     "roll": 117,
@@ -15458,7 +15868,7 @@ const data = [
     "dept": "SY2",
     "etc": 94,
     "dm": 77.75,
-    "coa": 62.5,
+    "coa": 81.5,
     "fsd-ii": 0,
     "fsd2": 66.0,
     "python2": 59.0,
@@ -15468,7 +15878,7 @@ const data = [
     "sem3marks": 7.05,
     "sem3spi2": 14.1,
     "totalSum": 28.9,
-    "total": 321.75,
+    "total": 340.75,
     "coa2": 22.5,
     "toc2": 20.5,
     "fsd22": 21.0,
@@ -15479,7 +15889,8 @@ const data = [
     "fsd23": 24.5,
     "python23": 18.0,
     "sem3spi": 8.58,
-    "dm4": 32.5
+    "dm4": 32.5,
+    "coa4": 38.0
   },
   {
     "roll": 25,
@@ -15495,7 +15906,7 @@ const data = [
     "dept": "SY2",
     "etc": 78,
     "dm": 88.0,
-    "coa": 70.5,
+    "coa": 92.0,
     "fsd-ii": 0,
     "fsd2": 71.5,
     "python2": 69.5,
@@ -15505,7 +15916,7 @@ const data = [
     "sem3marks": 8.55,
     "sem3spi2": 17.1,
     "totalSum": 34.3,
-    "total": 360.5,
+    "total": 382.0,
     "coa2": 22.0,
     "toc2": 22.5,
     "fsd22": 24.0,
@@ -15516,7 +15927,8 @@ const data = [
     "fsd23": 24.5,
     "python23": 24.0,
     "sem3spi": 9.38,
-    "dm4": 45.0
+    "dm4": 45.0,
+    "coa4": 43.0
   },
   {
     "roll": 56,
@@ -15532,7 +15944,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 81.75,
-    "coa": 64.0,
+    "coa": 81.5,
     "fsd-ii": 0,
     "fsd2": 64.5,
     "python2": 65.0,
@@ -15542,7 +15954,7 @@ const data = [
     "sem3marks": 7.775,
     "sem3spi2": 15.55,
     "totalSum": 32.23,
-    "total": 333.75,
+    "total": 351.25,
     "coa2": 21.5,
     "toc2": 21.0,
     "fsd22": 21.5,
@@ -15553,7 +15965,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 18.0,
     "sem3spi": 8.92,
-    "dm4": 41.5
+    "dm4": 41.5,
+    "coa4": 35.0
   },
   {
     "roll": 71,
@@ -15569,7 +15982,7 @@ const data = [
     "dept": "SY2",
     "etc": 96,
     "dm": 74.75,
-    "coa": 51.5,
+    "coa": 64.5,
     "fsd-ii": 0,
     "fsd2": 60.0,
     "python2": 47.0,
@@ -15579,7 +15992,7 @@ const data = [
     "sem3marks": 7.45,
     "sem3spi2": 14.9,
     "totalSum": 31.28,
-    "total": 291.75,
+    "total": 304.75,
     "coa2": 16.0,
     "toc2": 21.5,
     "fsd22": 18.0,
@@ -15590,7 +16003,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 14.0,
     "sem3spi": 8.96,
-    "dm4": 39.5
+    "dm4": 39.5,
+    "coa4": 26.0
   },
   {
     "roll": 108,
@@ -15606,7 +16020,7 @@ const data = [
     "dept": "SY2",
     "etc": 94,
     "dm": 81.5,
-    "coa": 64.0,
+    "coa": 83.5,
     "fsd-ii": 0,
     "fsd2": 63.0,
     "python2": 51.0,
@@ -15616,7 +16030,7 @@ const data = [
     "sem3marks": 7.15,
     "sem3spi2": 14.3,
     "totalSum": 29.37,
-    "total": 315.5,
+    "total": 335.0,
     "coa2": 21.0,
     "toc2": 21.5,
     "fsd22": 21.0,
@@ -15627,7 +16041,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 16.0,
     "sem3spi": 8.42,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 39.0
   },
   {
     "roll": 133,
@@ -15643,7 +16058,7 @@ const data = [
     "dept": "SY2",
     "etc": 94,
     "dm": 46.25,
-    "coa": 31.5,
+    "coa": 44.5,
     "fsd-ii": 0,
     "fsd2": 26.0,
     "python2": 26.0,
@@ -15653,7 +16068,7 @@ const data = [
     "sem3marks": 6.275,
     "sem3spi2": 12.55,
     "totalSum": 27.99,
-    "total": 161.75,
+    "total": 174.75,
     "coa2": 12.0,
     "toc2": 11.5,
     "fsd22": 5.0,
@@ -15664,7 +16079,8 @@ const data = [
     "fsd23": 10.0,
     "python23": 12.5,
     "sem3spi": 8.13,
-    "dm4": 29.5
+    "dm4": 29.5,
+    "coa4": 26.0
   },
   {
     "roll": 169,
@@ -15680,7 +16096,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 89.5,
-    "coa": 73.0,
+    "coa": 93.5,
     "fsd-ii": 0,
     "fsd2": 58.5,
     "python2": 58.5,
@@ -15690,7 +16106,7 @@ const data = [
     "sem3marks": 6.9,
     "sem3spi2": 13.8,
     "totalSum": 26.56,
-    "total": 336.5,
+    "total": 357.0,
     "coa2": 24.0,
     "toc2": 22.5,
     "fsd22": 17.5,
@@ -15701,7 +16117,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 16.0,
     "sem3spi": 8.38,
-    "dm4": 47.0
+    "dm4": 47.0,
+    "coa4": 41.0
   },
   {
     "roll": 50,
@@ -15717,7 +16134,7 @@ const data = [
     "dept": "SY2",
     "etc": 94,
     "dm": 76.75,
-    "coa": 54.5,
+    "coa": 71.0,
     "fsd-ii": 0,
     "fsd2": 69.5,
     "python2": 65.5,
@@ -15727,7 +16144,7 @@ const data = [
     "sem3marks": 8.175,
     "sem3spi2": 16.35,
     "totalSum": 32.58,
-    "total": 326.75,
+    "total": 343.25,
     "coa2": 19.0,
     "toc2": 23.0,
     "fsd22": 24.0,
@@ -15738,7 +16155,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 24.0,
     "sem3spi": 9.46,
-    "dm4": 36.5
+    "dm4": 36.5,
+    "coa4": 33.0
   },
   {
     "roll": 80,
@@ -15754,7 +16172,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 86.0,
-    "coa": 68.0,
+    "coa": 88.5,
     "fsd-ii": 0,
     "fsd2": 68.5,
     "python2": 60.5,
@@ -15764,7 +16182,7 @@ const data = [
     "sem3marks": 7.7,
     "sem3spi2": 15.4,
     "totalSum": 30.75,
-    "total": 339.5,
+    "total": 360.0,
     "coa2": 21.0,
     "toc2": 18.5,
     "fsd22": 24.0,
@@ -15775,7 +16193,8 @@ const data = [
     "fsd23": 24.5,
     "python23": 17.0,
     "sem3spi": 9.13,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 41.0
   },
   {
     "roll": 90,
@@ -15791,7 +16210,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 69.25,
-    "coa": 62.0,
+    "coa": 81.5,
     "fsd-ii": 0,
     "fsd2": 69.0,
     "python2": 64.5,
@@ -15801,7 +16220,7 @@ const data = [
     "sem3marks": 7.1,
     "sem3spi2": 14.2,
     "totalSum": 30.34,
-    "total": 299.25,
+    "total": 318.75,
     "coa2": 18.0,
     "toc2": 9.5,
     "fsd22": 21.0,
@@ -15812,7 +16231,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 24.0,
     "sem3spi": 8.29,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 39.0
   },
   {
     "roll": 217,
@@ -15828,7 +16248,7 @@ const data = [
     "dept": "SY2",
     "etc": 94,
     "dm": 74.5,
-    "coa": 61.5,
+    "coa": 76.5,
     "fsd-ii": 0,
     "fsd2": 37.5,
     "python2": 41.5,
@@ -15838,7 +16258,7 @@ const data = [
     "sem3marks": 5.425,
     "sem3spi2": 10.85,
     "totalSum": 23.66,
-    "total": 270.5,
+    "total": 285.5,
     "coa2": 23.0,
     "toc2": 19.5,
     "fsd22": 12.0,
@@ -15849,7 +16269,8 @@ const data = [
     "fsd23": 13.5,
     "python23": 12.0,
     "sem3spi": 6.92,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 30.0
   },
   {
     "roll": 97,
@@ -15865,7 +16286,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 62.0,
-    "coa": 54.0,
+    "coa": 70.75,
     "fsd-ii": 0,
     "fsd2": 56.5,
     "python2": 63.5,
@@ -15875,7 +16296,7 @@ const data = [
     "sem3marks": 7.6,
     "sem3spi2": 15.2,
     "totalSum": 29.87,
-    "total": 286.0,
+    "total": 302.75,
     "coa2": 12.0,
     "toc2": 16.0,
     "fsd22": 17.5,
@@ -15886,7 +16307,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 20.0,
     "sem3spi": 9.17,
-    "dm4": 25.0
+    "dm4": 25.0,
+    "coa4": 33.5
   },
   {
     "roll": 203,
@@ -15902,7 +16324,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 73.5,
-    "coa": 59.0,
+    "coa": 76.75,
     "fsd-ii": 0,
     "fsd2": 58.0,
     "python2": 43.0,
@@ -15912,7 +16334,7 @@ const data = [
     "sem3marks": 5.775,
     "sem3spi2": 11.55,
     "totalSum": 24.44,
-    "total": 274.5,
+    "total": 292.25,
     "coa2": 20.0,
     "toc2": 15.5,
     "fsd22": 19.0,
@@ -15923,7 +16345,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 14.0,
     "sem3spi": 7.08,
-    "dm4": 30.0
+    "dm4": 30.0,
+    "coa4": 35.5
   },
   {
     "roll": 233,
@@ -15939,7 +16362,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 69.25,
-    "coa": 37.5,
+    "coa": 45.25,
     "fsd-ii": 0,
     "fsd2": 54.0,
     "python2": 51.0,
@@ -15949,7 +16372,7 @@ const data = [
     "sem3marks": 5.525,
     "sem3spi2": 11.05,
     "totalSum": 22.17,
-    "total": 244.25,
+    "total": 252.0,
     "coa2": 13.5,
     "toc2": 15.0,
     "fsd22": 18.5,
@@ -15960,7 +16383,8 @@ const data = [
     "fsd23": 16.0,
     "python23": 19.0,
     "sem3spi": 7.54,
-    "dm4": 34.5
+    "dm4": 34.5,
+    "coa4": 15.5
   },
   {
     "roll": 142,
@@ -15976,7 +16400,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 61.75,
-    "coa": 39.5,
+    "coa": 55.0,
     "fsd-ii": 0,
     "fsd2": 67.5,
     "python2": 55.5,
@@ -15986,7 +16410,7 @@ const data = [
     "sem3marks": 6.675,
     "sem3spi2": 13.35,
     "totalSum": 27.6,
-    "total": 282.25,
+    "total": 297.75,
     "coa2": 16.5,
     "toc2": 22.5,
     "fsd22": 23.0,
@@ -15997,7 +16421,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 19.0,
     "sem3spi": 8.46,
-    "dm4": 42.5
+    "dm4": 42.5,
+    "coa4": 31.0
   },
   {
     "roll": 114,
@@ -16013,7 +16438,7 @@ const data = [
     "dept": "SY2",
     "etc": 94,
     "dm": 87.25,
-    "coa": 61.0,
+    "coa": 78.0,
     "fsd-ii": 0,
     "fsd2": 61.5,
     "python2": 56.0,
@@ -16023,7 +16448,7 @@ const data = [
     "sem3marks": 7.05,
     "sem3spi2": 14.1,
     "totalSum": 29.05,
-    "total": 314.25,
+    "total": 331.25,
     "coa2": 16.5,
     "toc2": 17.5,
     "fsd22": 19.0,
@@ -16034,7 +16459,8 @@ const data = [
     "fsd23": 21.5,
     "python23": 17.0,
     "sem3spi": 8.38,
-    "dm4": 40.5
+    "dm4": 40.5,
+    "coa4": 34.0
   },
   {
     "roll": 212,
@@ -16050,7 +16476,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 75.5,
-    "coa": 59.0,
+    "coa": 77.0,
     "fsd-ii": 0,
     "fsd2": 55.5,
     "python2": 44.0,
@@ -16060,7 +16486,7 @@ const data = [
     "sem3marks": 5.825,
     "sem3spi2": 11.65,
     "totalSum": 24.07,
-    "total": 279.0,
+    "total": 297.0,
     "coa2": 18.0,
     "toc2": 16.5,
     "fsd22": 17.0,
@@ -16071,7 +16497,8 @@ const data = [
     "fsd23": 18.5,
     "python23": 15.0,
     "sem3spi": 7.71,
-    "dm4": 35.0
+    "dm4": 35.0,
+    "coa4": 36.0
   },
   {
     "roll": 175,
@@ -16087,7 +16514,7 @@ const data = [
     "dept": "SY2",
     "etc": 96,
     "dm": 63.0,
-    "coa": 44.0,
+    "coa": 56.0,
     "fsd-ii": 0,
     "fsd2": 46.5,
     "python2": 50.5,
@@ -16097,7 +16524,7 @@ const data = [
     "sem3marks": 5.925,
     "sem3spi2": 11.85,
     "totalSum": 26.09,
-    "total": 232.5,
+    "total": 244.5,
     "coa2": 12.0,
     "toc2": 12.5,
     "fsd22": 9.0,
@@ -16108,7 +16535,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 14.0,
     "sem3spi": 7.54,
-    "dm4": 36.0
+    "dm4": 36.0,
+    "coa4": 24.0
   },
   {
     "roll": 182,
@@ -16124,7 +16552,7 @@ const data = [
     "dept": "SY2",
     "etc": 94,
     "dm": 67.0,
-    "coa": 59.5,
+    "coa": 75.75,
     "fsd-ii": 0,
     "fsd2": 53.0,
     "python2": 46.5,
@@ -16134,7 +16562,7 @@ const data = [
     "sem3marks": 5.825,
     "sem3spi2": 11.65,
     "totalSum": 25.59,
-    "total": 282.0,
+    "total": 298.25,
     "coa2": 21.5,
     "toc2": 19.5,
     "fsd22": 13.5,
@@ -16145,7 +16573,8 @@ const data = [
     "fsd23": 18.5,
     "python23": 13.0,
     "sem3spi": 7.33,
-    "dm4": 33.0
+    "dm4": 33.0,
+    "coa4": 32.5
   },
   {
     "roll": 261,
@@ -16161,7 +16590,7 @@ const data = [
     "dept": "SY2",
     "etc": 84,
     "dm": 33.5,
-    "coa": 34.0,
+    "coa": 44.0,
     "fsd-ii": 0,
     "fsd2": 39.5,
     "python2": 28.5,
@@ -16171,7 +16600,7 @@ const data = [
     "sem3marks": 4.85,
     "sem3spi2": 9.7,
     "totalSum": 20.07,
-    "total": 171.5,
+    "total": 181.5,
     "coa2": 10.0,
     "toc2": 10.5,
     "fsd22": 9.0,
@@ -16182,7 +16611,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 8.0,
     "sem3spi": 6.63,
-    "dm4": 24.0
+    "dm4": 24.0,
+    "coa4": 20.0
   },
   {
     "roll": 6,
@@ -16198,7 +16628,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 92.25,
-    "coa": 75.0,
+    "coa": 99.5,
     "fsd-ii": 0,
     "fsd2": 68.0,
     "python2": 70.5,
@@ -16208,7 +16638,7 @@ const data = [
     "sem3marks": 8.975,
     "sem3spi2": 17.95,
     "totalSum": 36.05,
-    "total": 370.75,
+    "total": 395.25,
     "coa2": 25.0,
     "toc2": 20.5,
     "fsd22": 23.0,
@@ -16219,7 +16649,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 24.5,
     "sem3spi": 9.88,
-    "dm4": 46.5
+    "dm4": 46.5,
+    "coa4": 49.0
   },
   {
     "roll": 165,
@@ -16235,7 +16666,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 70.5,
-    "coa": 51.0,
+    "coa": 62.0,
     "fsd-ii": 0,
     "fsd2": 54.0,
     "python2": 40.5,
@@ -16245,7 +16676,7 @@ const data = [
     "sem3marks": 5.925,
     "sem3spi2": 11.85,
     "totalSum": 26.79,
-    "total": 263.0,
+    "total": 274.0,
     "coa2": 13.5,
     "toc2": 16.0,
     "fsd22": 18.5,
@@ -16256,7 +16687,8 @@ const data = [
     "fsd23": 14.5,
     "python23": 8.0,
     "sem3spi": 7.92,
-    "dm4": 35.0
+    "dm4": 35.0,
+    "coa4": 22.0
   },
   {
     "roll": 52,
@@ -16272,7 +16704,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 89.25,
-    "coa": 65.0,
+    "coa": 80.0,
     "fsd-ii": 0,
     "fsd2": 66.0,
     "python2": 63.5,
@@ -16282,7 +16714,7 @@ const data = [
     "sem3marks": 8.05,
     "sem3spi2": 16.1,
     "totalSum": 32.46,
-    "total": 348.75,
+    "total": 363.75,
     "coa2": 21.0,
     "toc2": 22.0,
     "fsd22": 22.0,
@@ -16293,7 +16725,8 @@ const data = [
     "fsd23": 24.5,
     "python23": 22.0,
     "sem3spi": 9.29,
-    "dm4": 45.5
+    "dm4": 45.5,
+    "coa4": 30.0
   },
   {
     "roll": 61,
@@ -16309,7 +16742,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 91.25,
-    "coa": 71.0,
+    "coa": 93.5,
     "fsd-ii": 0,
     "fsd2": 67.5,
     "python2": 64.5,
@@ -16319,7 +16752,7 @@ const data = [
     "sem3marks": 7.975,
     "sem3spi2": 15.95,
     "totalSum": 31.71,
-    "total": 357.25,
+    "total": 379.75,
     "coa2": 22.5,
     "toc2": 24.0,
     "fsd22": 23.0,
@@ -16330,7 +16763,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 21.0,
     "sem3spi": 9.08,
-    "dm4": 46.5
+    "dm4": 46.5,
+    "coa4": 45.0
   },
   {
     "roll": 63,
@@ -16346,7 +16780,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 81.0,
-    "coa": 54.0,
+    "coa": 71.0,
     "fsd-ii": 0,
     "fsd2": 69.0,
     "python2": 59.0,
@@ -16356,7 +16790,7 @@ const data = [
     "sem3marks": 7.55,
     "sem3spi2": 15.1,
     "totalSum": 31.62,
-    "total": 327.0,
+    "total": 344.0,
     "coa2": 17.0,
     "toc2": 20.5,
     "fsd22": 23.0,
@@ -16367,7 +16801,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 20.0,
     "sem3spi": 8.96,
-    "dm4": 36.0
+    "dm4": 36.0,
+    "coa4": 34.0
   },
   {
     "roll": 181,
@@ -16383,7 +16818,7 @@ const data = [
     "dept": "SY2",
     "etc": 94,
     "dm": 63.5,
-    "coa": 52.5,
+    "coa": 67.0,
     "fsd-ii": 0,
     "fsd2": 55.0,
     "python2": 41.5,
@@ -16393,7 +16828,7 @@ const data = [
     "sem3marks": 5.7,
     "sem3spi2": 11.4,
     "totalSum": 25.62,
-    "total": 262.0,
+    "total": 276.5,
     "coa2": 15.5,
     "toc2": 18.0,
     "fsd22": 20.0,
@@ -16404,7 +16839,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 11.0,
     "sem3spi": 7.25,
-    "dm4": 32.0
+    "dm4": 32.0,
+    "coa4": 29.0
   },
   {
     "roll": 53,
@@ -16420,7 +16856,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 84.0,
-    "coa": 60.5,
+    "coa": 79.5,
     "fsd-ii": 0,
     "fsd2": 63.5,
     "python2": 64.5,
@@ -16430,7 +16866,7 @@ const data = [
     "sem3marks": 8.25,
     "sem3spi2": 16.5,
     "totalSum": 32.4,
-    "total": 334.5,
+    "total": 353.5,
     "coa2": 22.0,
     "toc2": 22.5,
     "fsd22": 19.5,
@@ -16441,7 +16877,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 21.0,
     "sem3spi": 9.5,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 38.0
   },
   {
     "roll": 82,
@@ -16457,7 +16894,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 75.25,
-    "coa": 59.0,
+    "coa": 81.0,
     "fsd-ii": 0,
     "fsd2": 62.5,
     "python2": 55.0,
@@ -16467,7 +16904,7 @@ const data = [
     "sem3marks": 7.55,
     "sem3spi2": 15.1,
     "totalSum": 30.69,
-    "total": 303.25,
+    "total": 325.25,
     "coa2": 20.0,
     "toc2": 18.0,
     "fsd22": 18.0,
@@ -16478,7 +16915,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 23.0,
     "sem3spi": 8.96,
-    "dm4": 44.5
+    "dm4": 44.5,
+    "coa4": 44.0
   },
   {
     "roll": 120,
@@ -16494,7 +16932,7 @@ const data = [
     "dept": "SY2",
     "etc": 96,
     "dm": 64.25,
-    "coa": 56.0,
+    "coa": 70.5,
     "fsd-ii": 0,
     "fsd2": 47.5,
     "python2": 66.0,
@@ -16504,7 +16942,7 @@ const data = [
     "sem3marks": 6.45,
     "sem3spi2": 12.9,
     "totalSum": 28.86,
-    "total": 296.75,
+    "total": 311.25,
     "coa2": 22.0,
     "toc2": 22.5,
     "fsd22": 14.0,
@@ -16515,7 +16953,8 @@ const data = [
     "fsd23": 15.5,
     "python23": 21.0,
     "sem3spi": 8.04,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 29.0
   },
   {
     "roll": 109,
@@ -16531,7 +16970,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 77.0,
-    "coa": 55.0,
+    "coa": 70.0,
     "fsd-ii": 0,
     "fsd2": 63.0,
     "python2": 53.5,
@@ -16541,7 +16980,7 @@ const data = [
     "sem3marks": 7.225,
     "sem3spi2": 14.45,
     "totalSum": 29.32,
-    "total": 301.5,
+    "total": 316.5,
     "coa2": 18.0,
     "toc2": 17.5,
     "fsd22": 22.0,
@@ -16552,7 +16991,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 17.0,
     "sem3spi": 8.71,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 30.0
   },
   {
     "roll": 177,
@@ -16568,7 +17008,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 76.5,
-    "coa": 48.5,
+    "coa": 62.0,
     "fsd-ii": 0,
     "fsd2": 45.5,
     "python2": 37.5,
@@ -16578,7 +17018,7 @@ const data = [
     "sem3marks": 6.05,
     "sem3spi2": 12.1,
     "totalSum": 26.01,
-    "total": 243.0,
+    "total": 256.5,
     "coa2": 19.0,
     "toc2": 13.5,
     "fsd22": 15.0,
@@ -16589,7 +17029,8 @@ const data = [
     "fsd23": 15.0,
     "python23": 12.0,
     "sem3spi": 7.92,
-    "dm4": 43.0
+    "dm4": 43.0,
+    "coa4": 27.0
   },
   {
     "roll": 15,
@@ -16605,7 +17046,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 85.25,
-    "coa": 70.0,
+    "coa": 91.0,
     "fsd-ii": 0,
     "fsd2": 71.0,
     "python2": 71.0,
@@ -16615,7 +17056,7 @@ const data = [
     "sem3marks": 8.725,
     "sem3spi2": 17.45,
     "totalSum": 35.3,
-    "total": 355.75,
+    "total": 376.75,
     "coa2": 24.0,
     "toc2": 22.0,
     "fsd22": 23.0,
@@ -16626,7 +17067,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 24.0,
     "sem3spi": 9.83,
-    "dm4": 41.5
+    "dm4": 41.5,
+    "coa4": 42.0
   },
   {
     "roll": 96,
@@ -16642,7 +17084,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 74.5,
-    "coa": 69.0,
+    "coa": 88.5,
     "fsd-ii": 0,
     "fsd2": 57.0,
     "python2": 57.0,
@@ -16652,7 +17094,7 @@ const data = [
     "sem3marks": 7.25,
     "sem3spi2": 14.5,
     "totalSum": 29.94,
-    "total": 314.5,
+    "total": 334.0,
     "coa2": 21.0,
     "toc2": 18.0,
     "fsd22": 15.0,
@@ -16663,7 +17105,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 21.0,
     "sem3spi": 8.75,
-    "dm4": 44.0
+    "dm4": 44.0,
+    "coa4": 39.0
   },
   {
     "roll": 268,
@@ -16679,7 +17122,7 @@ const data = [
     "dept": "SY2",
     "etc": 74,
     "dm": 60.0,
-    "coa": 57.0,
+    "coa": 62.0,
     "fsd-ii": 0,
     "fsd2": 31.5,
     "python2": 31.5,
@@ -16689,7 +17132,7 @@ const data = [
     "sem3marks": 4.475,
     "sem3spi2": 8.95,
     "totalSum": 18.95,
-    "total": 213.5,
+    "total": 218.5,
     "coa2": 16.0,
     "toc2": 16.0,
     "fsd22": 7.5,
@@ -16700,7 +17143,8 @@ const data = [
     "fsd23": 16.5,
     "python23": 11.0,
     "sem3spi": 6.13,
-    "dm4": 32.0
+    "dm4": 32.0,
+    "coa4": 10.0
   },
   {
     "roll": 145,
@@ -16716,7 +17160,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 83.0,
-    "coa": 62.0,
+    "coa": 79.0,
     "fsd-ii": 0,
     "fsd2": 47.5,
     "python2": 53.0,
@@ -16726,7 +17170,7 @@ const data = [
     "sem3marks": 6.7,
     "sem3spi2": 13.4,
     "totalSum": 27.5,
-    "total": 301.5,
+    "total": 318.5,
     "coa2": 20.0,
     "toc2": 23.5,
     "fsd22": 11.5,
@@ -16737,7 +17181,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 13.0,
     "sem3spi": 7.92,
-    "dm4": 42.0
+    "dm4": 42.0,
+    "coa4": 34.0
   },
   {
     "roll": 57,
@@ -16753,7 +17198,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 87.75,
-    "coa": 61.5,
+    "coa": 82.0,
     "fsd-ii": 0,
     "fsd2": 60.0,
     "python2": 52.5,
@@ -16763,7 +17208,7 @@ const data = [
     "sem3marks": 7.7,
     "sem3spi2": 15.4,
     "totalSum": 32.17,
-    "total": 326.75,
+    "total": 347.25,
     "coa2": 21.0,
     "toc2": 24.0,
     "fsd22": 17.0,
@@ -16774,7 +17219,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 17.0,
     "sem3spi": 8.79,
-    "dm4": 44.5
+    "dm4": 44.5,
+    "coa4": 41.0
   },
   {
     "roll": 64,
@@ -16790,7 +17236,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 80.0,
-    "coa": 61.0,
+    "coa": 78.5,
     "fsd-ii": 0,
     "fsd2": 61.5,
     "python2": 53.0,
@@ -16800,7 +17246,7 @@ const data = [
     "sem3marks": 7.725,
     "sem3spi2": 15.45,
     "totalSum": 31.56,
-    "total": 311.5,
+    "total": 329.0,
     "coa2": 19.0,
     "toc2": 20.0,
     "fsd22": 21.0,
@@ -16811,7 +17257,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 15.0,
     "sem3spi": 9.0,
-    "dm4": 44.0
+    "dm4": 44.0,
+    "coa4": 35.0
   },
   {
     "roll": 75,
@@ -16827,7 +17274,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 75.75,
-    "coa": 53.5,
+    "coa": 68.0,
     "fsd-ii": 0,
     "fsd2": 63.5,
     "python2": 60.0,
@@ -16837,7 +17284,7 @@ const data = [
     "sem3marks": 7.525,
     "sem3spi2": 15.05,
     "totalSum": 31.01,
-    "total": 315.75,
+    "total": 330.25,
     "coa2": 15.0,
     "toc2": 21.0,
     "fsd22": 20.5,
@@ -16848,7 +17295,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 21.0,
     "sem3spi": 8.83,
-    "dm4": 39.5
+    "dm4": 39.5,
+    "coa4": 29.0
   },
   {
     "roll": 9,
@@ -16864,7 +17312,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 88.5,
-    "coa": 71.5,
+    "coa": 94.0,
     "fsd-ii": 0,
     "fsd2": 70.0,
     "python2": 68.0,
@@ -16874,7 +17322,7 @@ const data = [
     "sem3marks": 9.175,
     "sem3spi2": 18.35,
     "totalSum": 35.8,
-    "total": 359.5,
+    "total": 382.0,
     "coa2": 23.0,
     "toc2": 23.0,
     "fsd22": 24.0,
@@ -16885,7 +17333,8 @@ const data = [
     "fsd23": 24.5,
     "python23": 24.0,
     "sem3spi": 10.0,
-    "dm4": 45.0
+    "dm4": 45.0,
+    "coa4": 45.0
   },
   {
     "roll": 92,
@@ -16901,7 +17350,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 77.5,
-    "coa": 54.0,
+    "coa": 68.25,
     "fsd-ii": 0,
     "fsd2": 61.0,
     "python2": 55.0,
@@ -16911,7 +17360,7 @@ const data = [
     "sem3marks": 7.45,
     "sem3spi2": 14.9,
     "totalSum": 30.15,
-    "total": 289.5,
+    "total": 303.75,
     "coa2": 18.0,
     "toc2": 16.5,
     "fsd22": 20.0,
@@ -16922,7 +17371,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 18.0,
     "sem3spi": 8.75,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 28.5
   },
   {
     "roll": 125,
@@ -16938,7 +17388,7 @@ const data = [
     "dept": "SY2",
     "etc": 90,
     "dm": 68.5,
-    "coa": 27.0,
+    "coa": 35.75,
     "fsd-ii": 0,
     "fsd2": 48.0,
     "python2": 46.5,
@@ -16948,7 +17398,7 @@ const data = [
     "sem3marks": 7.15,
     "sem3spi2": 14.3,
     "totalSum": 28.62,
-    "total": 237.0,
+    "total": 245.75,
     "coa2": 11.0,
     "toc2": 17.5,
     "fsd22": 12.0,
@@ -16959,7 +17409,8 @@ const data = [
     "fsd23": 14.5,
     "python23": 16.0,
     "sem3spi": 8.63,
-    "dm4": 32.0
+    "dm4": 32.0,
+    "coa4": 17.5
   },
   {
     "roll": 184,
@@ -16975,7 +17426,7 @@ const data = [
     "dept": "SY2",
     "etc": 94,
     "dm": 74.75,
-    "coa": 62.0,
+    "coa": 81.25,
     "fsd-ii": 0,
     "fsd2": 47.5,
     "python2": 39.5,
@@ -16985,7 +17436,7 @@ const data = [
     "sem3marks": 5.8,
     "sem3spi2": 11.6,
     "totalSum": 25.45,
-    "total": 271.25,
+    "total": 290.5,
     "coa2": 18.0,
     "toc2": 16.0,
     "fsd22": 10.0,
@@ -16996,7 +17447,8 @@ const data = [
     "fsd23": 20.5,
     "python23": 15.0,
     "sem3spi": 8.17,
-    "dm4": 34.5
+    "dm4": 34.5,
+    "coa4": 38.5
   },
   {
     "roll": 223,
@@ -17012,7 +17464,7 @@ const data = [
     "dept": "SY2",
     "etc": 94,
     "dm": 72.25,
-    "coa": 50.5,
+    "coa": 62.25,
     "fsd-ii": 0,
     "fsd2": 31.0,
     "python2": 37.0,
@@ -17022,7 +17474,7 @@ const data = [
     "sem3marks": 4.825,
     "sem3spi2": 9.65,
     "totalSum": 23.01,
-    "total": 234.75,
+    "total": 246.5,
     "coa2": 17.0,
     "toc2": 15.5,
     "fsd22": 7.5,
@@ -17033,7 +17485,8 @@ const data = [
     "fsd23": 12.0,
     "python23": 10.0,
     "sem3spi": 6.92,
-    "dm4": 40.5
+    "dm4": 40.5,
+    "coa4": 23.5
   },
   {
     "roll": 42,
@@ -17049,7 +17502,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 88.5,
-    "coa": 66.0,
+    "coa": 83.5,
     "fsd-ii": 0,
     "fsd2": 63.5,
     "python2": 64.5,
@@ -17059,7 +17512,7 @@ const data = [
     "sem3marks": 8.175,
     "sem3spi2": 16.35,
     "totalSum": 33.09,
-    "total": 341.0,
+    "total": 358.5,
     "coa2": 22.0,
     "toc2": 22.5,
     "fsd22": 19.5,
@@ -17070,7 +17523,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 22.0,
     "sem3spi": 9.29,
-    "dm4": 44.0
+    "dm4": 44.0,
+    "coa4": 35.0
   },
   {
     "roll": 151,
@@ -17086,7 +17540,7 @@ const data = [
     "dept": "SY2",
     "etc": 96,
     "dm": 74.75,
-    "coa": 55.5,
+    "coa": 70.0,
     "fsd-ii": 0,
     "fsd2": 47.0,
     "python2": 47.0,
@@ -17096,7 +17550,7 @@ const data = [
     "sem3marks": 6.55,
     "sem3spi2": 13.1,
     "totalSum": 27.26,
-    "total": 278.25,
+    "total": 292.75,
     "coa2": 16.0,
     "toc2": 21.5,
     "fsd22": 13.5,
@@ -17107,7 +17561,8 @@ const data = [
     "fsd23": 15.5,
     "python23": 18.0,
     "sem3spi": 8.5,
-    "dm4": 42.5
+    "dm4": 42.5,
+    "coa4": 29.0
   },
   {
     "roll": 12,
@@ -17123,7 +17578,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 90.25,
-    "coa": 73.0,
+    "coa": 95.5,
     "fsd-ii": 0,
     "fsd2": 65.5,
     "python2": 68.0,
@@ -17133,7 +17588,7 @@ const data = [
     "sem3marks": 8.825,
     "sem3spi2": 17.65,
     "totalSum": 35.59,
-    "total": 362.25,
+    "total": 384.75,
     "coa2": 25.0,
     "toc2": 23.5,
     "fsd22": 23.0,
@@ -17144,7 +17599,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 24.0,
     "sem3spi": 9.83,
-    "dm4": 45.5
+    "dm4": 45.5,
+    "coa4": 45.0
   },
   {
     "roll": 7,
@@ -17160,7 +17616,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 91.5,
-    "coa": 70.5,
+    "coa": 83.0,
     "fsd-ii": 0,
     "fsd2": 66.5,
     "python2": 68.5,
@@ -17170,7 +17626,7 @@ const data = [
     "sem3marks": 9,
     "sem3spi2": 18,
     "totalSum": 35.94,
-    "total": 360.5,
+    "total": 373.0,
     "coa2": 24.5,
     "toc2": 24.0,
     "fsd22": 22.0,
@@ -17181,7 +17637,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 25.0,
     "sem3spi": 9.92,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 25.0
   },
   {
     "roll": 51,
@@ -17197,7 +17654,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 74.5,
-    "coa": 65.5,
+    "coa": 88.0,
     "fsd-ii": 0,
     "fsd2": 62.5,
     "python2": 57.0,
@@ -17207,7 +17664,7 @@ const data = [
     "sem3marks": 8.375,
     "sem3spi2": 16.75,
     "totalSum": 32.58,
-    "total": 329.5,
+    "total": 352.0,
     "coa2": 18.0,
     "toc2": 24.0,
     "fsd22": 19.0,
@@ -17218,7 +17675,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 14.5,
     "sem3spi": 9.17,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 45.0
   },
   {
     "roll": 21,
@@ -17234,7 +17692,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 85.0,
-    "coa": 73.5,
+    "coa": 94.0,
     "fsd-ii": 0,
     "fsd2": 65.5,
     "python2": 67.5,
@@ -17244,7 +17702,7 @@ const data = [
     "sem3marks": 8.675,
     "sem3spi2": 17.35,
     "totalSum": 34.84,
-    "total": 353.5,
+    "total": 374.0,
     "coa2": 24.5,
     "toc2": 22.0,
     "fsd22": 21.5,
@@ -17255,7 +17713,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 23.0,
     "sem3spi": 9.38,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 41.0
   },
   {
     "roll": 78,
@@ -17271,7 +17730,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 86.0,
-    "coa": 70.0,
+    "coa": 90.0,
     "fsd-ii": 0,
     "fsd2": 63.5,
     "python2": 58.5,
@@ -17281,7 +17740,7 @@ const data = [
     "sem3marks": 7.375,
     "sem3spi2": 14.75,
     "totalSum": 30.87,
-    "total": 334.0,
+    "total": 354.0,
     "coa2": 23.0,
     "toc2": 22.0,
     "fsd22": 22.0,
@@ -17292,7 +17751,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 19.0,
     "sem3spi": 8.88,
-    "dm4": 43.0
+    "dm4": 43.0,
+    "coa4": 40.0
   },
   {
     "roll": 246,
@@ -17308,7 +17768,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 48.0,
-    "coa": 47.5,
+    "coa": 51.5,
     "fsd-ii": 0,
     "fsd2": 30.5,
     "python2": 35.0,
@@ -17318,7 +17778,7 @@ const data = [
     "sem3marks": 5.35,
     "sem3spi2": 10.7,
     "totalSum": 21.21,
-    "total": 199.0,
+    "total": 203.0,
     "coa2": 12.0,
     "toc2": 16.0,
     "fsd22": 7.0,
@@ -17329,7 +17789,8 @@ const data = [
     "fsd23": 12.0,
     "python23": 10.0,
     "sem3spi": 6.25,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 8.0
   },
   {
     "roll": 168,
@@ -17345,7 +17806,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 60.0,
-    "coa": 42.0,
+    "coa": 56.5,
     "fsd-ii": 0,
     "fsd2": 43.0,
     "python2": 45.5,
@@ -17355,7 +17816,7 @@ const data = [
     "sem3marks": 6.575,
     "sem3spi2": 13.15,
     "totalSum": 26.64,
-    "total": 235.5,
+    "total": 250.0,
     "coa2": 12.0,
     "toc2": 16.5,
     "fsd22": 16.5,
@@ -17366,7 +17827,8 @@ const data = [
     "fsd23": 11.5,
     "python23": 18.0,
     "sem3spi": 8.38,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 29.0
   },
   {
     "roll": 1,
@@ -17382,7 +17844,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 94.25,
-    "coa": 72.5,
+    "coa": 94.0,
     "fsd-ii": 0,
     "fsd2": 73.0,
     "python2": 72.5,
@@ -17392,7 +17854,7 @@ const data = [
     "sem3marks": 9.4,
     "sem3spi2": 18.8,
     "totalSum": 37.82,
-    "total": 376.25,
+    "total": 397.75,
     "coa2": 23.0,
     "toc2": 19.0,
     "fsd22": 24.5,
@@ -17403,7 +17865,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 25.0,
     "sem3spi": 9.96,
-    "dm4": 48.5
+    "dm4": 48.5,
+    "coa4": 43.0
   },
   {
     "roll": 190,
@@ -17419,7 +17882,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 68.25,
-    "coa": 64.0,
+    "coa": 76.5,
     "fsd-ii": 0,
     "fsd2": 46.0,
     "python2": 36.5,
@@ -17429,7 +17892,7 @@ const data = [
     "sem3marks": 6.175,
     "sem3spi2": 12.35,
     "totalSum": 24.99,
-    "total": 273.75,
+    "total": 286.25,
     "coa2": 23.0,
     "toc2": 20.0,
     "fsd22": 17.0,
@@ -17440,7 +17903,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 12.0,
     "sem3spi": 8.04,
-    "dm4": 34.5
+    "dm4": 34.5,
+    "coa4": 25.0
   },
   {
     "roll": 247,
@@ -17456,7 +17920,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 44.75,
-    "coa": 31.0,
+    "coa": 38.0,
     "fsd-ii": 0,
     "fsd2": 32.5,
     "python2": 22.5,
@@ -17466,7 +17930,7 @@ const data = [
     "sem3marks": 4.4,
     "sem3spi2": 8.8,
     "totalSum": 21.17,
-    "total": 170.75,
+    "total": 177.75,
     "coa2": 9.0,
     "toc2": 19.0,
     "fsd22": 14.5,
@@ -17477,7 +17941,8 @@ const data = [
     "fsd23": 5.0,
     "python23": 7.5,
     "sem3spi": 6.25,
-    "dm4": 36.5
+    "dm4": 36.5,
+    "coa4": 14.0
   },
   {
     "roll": 84,
@@ -17493,7 +17958,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 65.5,
-    "coa": 57.5,
+    "coa": 71.5,
     "fsd-ii": 0,
     "fsd2": 53.5,
     "python2": 53.0,
@@ -17503,7 +17968,7 @@ const data = [
     "sem3marks": 7.55,
     "sem3spi2": 15.1,
     "totalSum": 30.59,
-    "total": 279.0,
+    "total": 293.0,
     "coa2": 21.0,
     "toc2": 17.5,
     "fsd22": 16.0,
@@ -17514,7 +17979,8 @@ const data = [
     "fsd23": 16.5,
     "python23": 19.0,
     "sem3spi": 8.83,
-    "dm4": 33.0
+    "dm4": 33.0,
+    "coa4": 28.0
   },
   {
     "roll": 100,
@@ -17530,7 +17996,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 85.5,
-    "coa": 71.5,
+    "coa": 93.0,
     "fsd-ii": 0,
     "fsd2": 65.5,
     "python2": 55.0,
@@ -17540,7 +18006,7 @@ const data = [
     "sem3marks": 7.5,
     "sem3spi2": 15,
     "totalSum": 29.69,
-    "total": 336.0,
+    "total": 357.5,
     "coa2": 24.0,
     "toc2": 21.0,
     "fsd22": 22.0,
@@ -17551,7 +18017,8 @@ const data = [
     "fsd23": 21.5,
     "python23": 14.0,
     "sem3spi": 8.54,
-    "dm4": 47.0
+    "dm4": 47.0,
+    "coa4": 43.0
   },
   {
     "roll": 218,
@@ -17567,7 +18034,7 @@ const data = [
     "dept": "SY2",
     "etc": 96,
     "dm": 66.25,
-    "coa": 56.0,
+    "coa": 66.0,
     "fsd-ii": 0,
     "fsd2": 44.5,
     "python2": 44.0,
@@ -17577,7 +18044,7 @@ const data = [
     "sem3marks": 5.6,
     "sem3spi2": 11.2,
     "totalSum": 23.64,
-    "total": 254.25,
+    "total": 264.25,
     "coa2": 21.0,
     "toc2": 18.5,
     "fsd22": 18.5,
@@ -17588,7 +18055,8 @@ const data = [
     "fsd23": 15.0,
     "python23": 13.0,
     "sem3spi": 7.46,
-    "dm4": 36.5
+    "dm4": 36.5,
+    "coa4": 20.0
   },
   {
     "roll": 244,
@@ -17604,7 +18072,7 @@ const data = [
     "dept": "SY2",
     "etc": 96,
     "dm": 55.0,
-    "coa": 41.0,
+    "coa": 53.0,
     "fsd-ii": 0,
     "fsd2": 33.0,
     "python2": 28.0,
@@ -17614,7 +18082,7 @@ const data = [
     "sem3marks": 4.85,
     "sem3spi2": 9.7,
     "totalSum": 21.38,
-    "total": 208.5,
+    "total": 220.5,
     "coa2": 13.0,
     "toc2": 21.0,
     "fsd22": 6.0,
@@ -17625,7 +18093,8 @@ const data = [
     "fsd23": 16.0,
     "python23": 8.0,
     "sem3spi": 6.46,
-    "dm4": 32.0
+    "dm4": 32.0,
+    "coa4": 24.0
   },
   {
     "roll": 257,
@@ -17641,7 +18110,7 @@ const data = [
     "dept": "SY2",
     "etc": 94,
     "dm": 56.25,
-    "coa": 54.5,
+    "coa": 66.5,
     "fsd-ii": 0,
     "fsd2": 46.0,
     "python2": 34.0,
@@ -17651,7 +18120,7 @@ const data = [
     "sem3marks": 4.475,
     "sem3spi2": 8.95,
     "totalSum": 20.23,
-    "total": 239.75,
+    "total": 251.75,
     "coa2": 16.0,
     "toc2": 19.5,
     "fsd22": 15.0,
@@ -17662,7 +18131,8 @@ const data = [
     "fsd23": 14.5,
     "python23": 9.0,
     "sem3spi": 5.92,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 24.0
   },
   {
     "roll": 48,
@@ -17678,7 +18148,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 86.25,
-    "coa": 57.0,
+    "coa": 78.0,
     "fsd-ii": 0,
     "fsd2": 63.0,
     "python2": 59.5,
@@ -17688,7 +18158,7 @@ const data = [
     "sem3marks": 7.85,
     "sem3spi2": 15.7,
     "totalSum": 32.71,
-    "total": 320.75,
+    "total": 341.75,
     "coa2": 20.0,
     "toc2": 21.5,
     "fsd22": 22.0,
@@ -17699,7 +18169,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 18.5,
     "sem3spi": 9.21,
-    "dm4": 40.5
+    "dm4": 40.5,
+    "coa4": 42.0
   },
   {
     "roll": 154,
@@ -17736,7 +18207,8 @@ const data = [
     "fsd23": 0.0,
     "python23": 0.0,
     "sem3spi": 8.17,
-    "dm4": 0.0
+    "dm4": 0.0,
+    "coa4": 0.0
   },
   {
     "roll": 215,
@@ -17752,7 +18224,7 @@ const data = [
     "dept": "SY2",
     "etc": 96,
     "dm": 70.5,
-    "coa": 56.5,
+    "coa": 70.0,
     "fsd-ii": 0,
     "fsd2": 45.5,
     "python2": 35.5,
@@ -17762,7 +18234,7 @@ const data = [
     "sem3marks": 5.775,
     "sem3spi2": 11.55,
     "totalSum": 23.83,
-    "total": 247.0,
+    "total": 260.5,
     "coa2": 19.0,
     "toc2": 15.0,
     "fsd22": 15.0,
@@ -17773,7 +18245,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 12.0,
     "sem3spi": 7.54,
-    "dm4": 34.0
+    "dm4": 34.0,
+    "coa4": 27.0
   },
   {
     "roll": 35,
@@ -17789,7 +18262,7 @@ const data = [
     "dept": "SY2",
     "etc": 96,
     "dm": 91.0,
-    "coa": 66.5,
+    "coa": 85.0,
     "fsd-ii": 0,
     "fsd2": 63.5,
     "python2": 72.0,
@@ -17799,7 +18272,7 @@ const data = [
     "sem3marks": 8.625,
     "sem3spi2": 17.25,
     "totalSum": 33.36,
-    "total": 356.0,
+    "total": 374.5,
     "coa2": 21.0,
     "toc2": 20.5,
     "fsd22": 16.5,
@@ -17810,7 +18283,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 23.5,
     "sem3spi": 9.54,
-    "dm4": 46.0
+    "dm4": 46.0,
+    "coa4": 37.0
   },
   {
     "roll": 209,
@@ -17826,7 +18300,7 @@ const data = [
     "dept": "SY2",
     "etc": 86,
     "dm": 46.25,
-    "coa": 35.5,
+    "coa": 42.5,
     "fsd-ii": 0,
     "fsd2": 46.5,
     "python2": 37.5,
@@ -17836,7 +18310,7 @@ const data = [
     "sem3marks": 4.95,
     "sem3spi2": 9.9,
     "totalSum": 24.14,
-    "total": 203.75,
+    "total": 210.75,
     "coa2": 16.0,
     "toc2": 13.5,
     "fsd22": 10.5,
@@ -17847,7 +18321,8 @@ const data = [
     "fsd23": 16.5,
     "python23": 12.0,
     "sem3spi": 7.17,
-    "dm4": 28.5
+    "dm4": 28.5,
+    "coa4": 14.0
   },
   {
     "roll": 30,
@@ -17863,7 +18338,7 @@ const data = [
     "dept": "SY2",
     "etc": 96,
     "dm": 84.5,
-    "coa": 58.0,
+    "coa": 74.5,
     "fsd-ii": 0,
     "fsd2": 64.0,
     "python2": 63.0,
@@ -17873,7 +18348,7 @@ const data = [
     "sem3marks": 8.375,
     "sem3spi2": 16.75,
     "totalSum": 33.73,
-    "total": 329.0,
+    "total": 345.5,
     "coa2": 19.0,
     "toc2": 22.0,
     "fsd22": 19.5,
@@ -17884,7 +18359,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 21.0,
     "sem3spi": 9.5,
-    "dm4": 43.0
+    "dm4": 43.0,
+    "coa4": 33.0
   },
   {
     "roll": 72,
@@ -17900,7 +18376,7 @@ const data = [
     "dept": "SY2",
     "etc": 96,
     "dm": 84.5,
-    "coa": 65.0,
+    "coa": 80.5,
     "fsd-ii": 0,
     "fsd2": 60.5,
     "python2": 51.5,
@@ -17910,7 +18386,7 @@ const data = [
     "sem3marks": 7.625,
     "sem3spi2": 15.25,
     "totalSum": 31.2,
-    "total": 319.0,
+    "total": 334.5,
     "coa2": 20.0,
     "toc2": 20.0,
     "fsd22": 16.0,
@@ -17921,7 +18397,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 13.0,
     "sem3spi": 9.0,
-    "dm4": 44.0
+    "dm4": 44.0,
+    "coa4": 31.0
   },
   {
     "roll": 107,
@@ -17937,7 +18414,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 69.75,
-    "coa": 60.0,
+    "coa": 74.0,
     "fsd-ii": 0,
     "fsd2": 64.0,
     "python2": 58.5,
@@ -17947,7 +18424,7 @@ const data = [
     "sem3marks": 6.825,
     "sem3spi2": 13.65,
     "totalSum": 29.44,
-    "total": 305.25,
+    "total": 319.25,
     "coa2": 17.5,
     "toc2": 18.0,
     "fsd22": 20.5,
@@ -17958,7 +18435,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 16.0,
     "sem3spi": 8.25,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 28.0
   },
   {
     "roll": 147,
@@ -17974,7 +18452,7 @@ const data = [
     "dept": "SY2",
     "etc": 94,
     "dm": 75.0,
-    "coa": 64.0,
+    "coa": 81.0,
     "fsd-ii": 0,
     "fsd2": 59.5,
     "python2": 55.0,
@@ -17984,7 +18462,7 @@ const data = [
     "sem3marks": 6.25,
     "sem3spi2": 12.5,
     "totalSum": 27.38,
-    "total": 308.0,
+    "total": 325.0,
     "coa2": 21.0,
     "toc2": 18.5,
     "fsd22": 20.5,
@@ -17995,7 +18473,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 16.0,
     "sem3spi": 7.96,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 34.0
   },
   {
     "roll": 258,
@@ -18011,7 +18490,7 @@ const data = [
     "dept": "SY2",
     "etc": 92,
     "dm": 60.75,
-    "coa": 34.5,
+    "coa": 45.5,
     "fsd-ii": 0,
     "fsd2": 43.0,
     "python2": 30.5,
@@ -18021,7 +18500,7 @@ const data = [
     "sem3marks": 4.825,
     "sem3spi2": 9.65,
     "totalSum": 20.22,
-    "total": 215.25,
+    "total": 226.25,
     "coa2": 12.0,
     "toc2": 20.0,
     "fsd22": 11.5,
@@ -18032,7 +18511,8 @@ const data = [
     "fsd23": 16.5,
     "python23": 10.0,
     "sem3spi": 6.38,
-    "dm4": 32.5
+    "dm4": 32.5,
+    "coa4": 22.0
   },
   {
     "roll": 54,
@@ -18048,7 +18528,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 82.0,
-    "coa": 57.5,
+    "coa": 76.5,
     "fsd-ii": 0,
     "fsd2": 47.5,
     "python2": 59.5,
@@ -18058,7 +18538,7 @@ const data = [
     "sem3marks": 7.425,
     "sem3spi2": 14.85,
     "totalSum": 32.33,
-    "total": 307.0,
+    "total": 326.0,
     "coa2": 20.0,
     "toc2": 21.0,
     "fsd22": 15.0,
@@ -18069,7 +18549,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 18.0,
     "sem3spi": 8.75,
-    "dm4": 46.0
+    "dm4": 46.0,
+    "coa4": 38.0
   },
   {
     "roll": 194,
@@ -18085,7 +18566,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 66.75,
-    "coa": 43.5,
+    "coa": 57.0,
     "fsd-ii": 0,
     "fsd2": 52.0,
     "python2": 36.5,
@@ -18095,7 +18576,7 @@ const data = [
     "sem3marks": 5.775,
     "sem3spi2": 11.55,
     "totalSum": 24.87,
-    "total": 255.25,
+    "total": 268.75,
     "coa2": 19.0,
     "toc2": 24.0,
     "fsd22": 16.5,
@@ -18106,7 +18587,8 @@ const data = [
     "fsd23": 15.5,
     "python23": 10.0,
     "sem3spi": 7.63,
-    "dm4": 28.5
+    "dm4": 28.5,
+    "coa4": 27.0
   },
   {
     "roll": 135,
@@ -18122,7 +18604,7 @@ const data = [
     "dept": "SY2",
     "etc": 94,
     "dm": 62.5,
-    "coa": 45.0,
+    "coa": 52.0,
     "fsd-ii": 0,
     "fsd2": 56.0,
     "python2": 52.0,
@@ -18132,7 +18614,7 @@ const data = [
     "sem3marks": 6.7,
     "sem3spi2": 13.4,
     "totalSum": 27.94,
-    "total": 263.0,
+    "total": 270.0,
     "coa2": 14.0,
     "toc2": 19.0,
     "fsd22": 17.5,
@@ -18143,7 +18625,8 @@ const data = [
     "fsd23": 17.5,
     "python23": 18.0,
     "sem3spi": 8.25,
-    "dm4": 32.0
+    "dm4": 32.0,
+    "coa4": 14.0
   },
   {
     "roll": 62,
@@ -18159,7 +18642,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 73.75,
-    "coa": 56.5,
+    "coa": 69.5,
     "fsd-ii": 0,
     "fsd2": 66.5,
     "python2": 58.0,
@@ -18169,7 +18652,7 @@ const data = [
     "sem3marks": 7.575,
     "sem3spi2": 15.15,
     "totalSum": 31.66,
-    "total": 322.75,
+    "total": 335.75,
     "coa2": 18.5,
     "toc2": 24.5,
     "fsd22": 20.0,
@@ -18180,7 +18663,8 @@ const data = [
     "fsd23": 24.5,
     "python23": 17.0,
     "sem3spi": 8.79,
-    "dm4": 30.5
+    "dm4": 30.5,
+    "coa4": 26.0
   },
   {
     "roll": 224,
@@ -18196,7 +18680,7 @@ const data = [
     "dept": "SY2",
     "etc": 92,
     "dm": 70.5,
-    "coa": 52.5,
+    "coa": 65.5,
     "fsd-ii": 0,
     "fsd2": 49.0,
     "python2": 49.0,
@@ -18206,7 +18690,7 @@ const data = [
     "sem3marks": 5.825,
     "sem3spi2": 11.65,
     "totalSum": 22.92,
-    "total": 268.5,
+    "total": 281.5,
     "coa2": 24.5,
     "toc2": 19.0,
     "fsd22": 15.5,
@@ -18217,7 +18701,8 @@ const data = [
     "fsd23": 18.5,
     "python23": 14.0,
     "sem3spi": 7.33,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 26.0
   },
   {
     "roll": 10,
@@ -18233,7 +18718,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 92.75,
-    "coa": 73.0,
+    "coa": 91.5,
     "fsd-ii": 0,
     "fsd2": 67.5,
     "python2": 66.0,
@@ -18243,7 +18728,7 @@ const data = [
     "sem3marks": 8.75,
     "sem3spi2": 17.5,
     "totalSum": 35.79,
-    "total": 362.75,
+    "total": 381.25,
     "coa2": 24.0,
     "toc2": 24.0,
     "fsd22": 22.5,
@@ -18254,7 +18739,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 23.0,
     "sem3spi": 9.71,
-    "dm4": 47.5
+    "dm4": 47.5,
+    "coa4": 37.0
   },
   {
     "roll": 180,
@@ -18270,7 +18756,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 79.25,
-    "coa": 57.0,
+    "coa": 73.5,
     "fsd-ii": 0,
     "fsd2": 54.0,
     "python2": 52.0,
@@ -18280,7 +18766,7 @@ const data = [
     "sem3marks": 6.125,
     "sem3spi2": 12.25,
     "totalSum": 25.65,
-    "total": 293.75,
+    "total": 310.25,
     "coa2": 19.0,
     "toc2": 18.0,
     "fsd22": 17.0,
@@ -18291,7 +18777,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 15.0,
     "sem3spi": 8.04,
-    "dm4": 36.5
+    "dm4": 36.5,
+    "coa4": 33.0
   },
   {
     "roll": 85,
@@ -18307,7 +18794,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 75.5,
-    "coa": 60.0,
+    "coa": 73.0,
     "fsd-ii": 0,
     "fsd2": 58.5,
     "python2": 59.5,
@@ -18317,7 +18804,7 @@ const data = [
     "sem3marks": 6.675,
     "sem3spi2": 13.35,
     "totalSum": 30.58,
-    "total": 310.5,
+    "total": 323.5,
     "coa2": 21.5,
     "toc2": 18.0,
     "fsd22": 17.5,
@@ -18328,7 +18815,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 18.0,
     "sem3spi": 8.33,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 26.0
   },
   {
     "roll": 123,
@@ -18344,7 +18832,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 78.5,
-    "coa": 60.5,
+    "coa": 79.0,
     "fsd-ii": 0,
     "fsd2": 61.0,
     "python2": 61.5,
@@ -18354,7 +18842,7 @@ const data = [
     "sem3marks": 7.975,
     "sem3spi2": 15.95,
     "totalSum": 28.71,
-    "total": 327.5,
+    "total": 346.0,
     "coa2": 20.0,
     "toc2": 24.5,
     "fsd22": 19.0,
@@ -18365,7 +18853,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 21.5,
     "sem3spi": 9.42,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 37.0
   },
   {
     "roll": 282,
@@ -18381,7 +18870,7 @@ const data = [
     "dept": "SY2",
     "etc": 94,
     "dm": 37.5,
-    "coa": 42.0,
+    "coa": 59.5,
     "fsd-ii": 0,
     "fsd2": 47.5,
     "python2": 42.0,
@@ -18391,7 +18880,7 @@ const data = [
     "sem3marks": 4.725,
     "sem3spi2": 9.45,
     "totalSum": 17.01,
-    "total": 207.5,
+    "total": 225.0,
     "coa2": 13.5,
     "toc2": 16.0,
     "fsd22": 17.5,
@@ -18402,7 +18891,8 @@ const data = [
     "fsd23": 10.5,
     "python23": 12.0,
     "sem3spi": 6.96,
-    "dm4": 29.0
+    "dm4": 29.0,
+    "coa4": 35.0
   },
   {
     "roll": 274,
@@ -18439,7 +18929,8 @@ const data = [
     "fsd23": 0.0,
     "python23": 0.0,
     "sem3spi": 6.79,
-    "dm4": 0.0
+    "dm4": 0.0,
+    "coa4": 0.0
   },
   {
     "roll": 160,
@@ -18455,7 +18946,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 71.25,
-    "coa": 59.0,
+    "coa": 75.75,
     "fsd-ii": 0,
     "fsd2": 58.5,
     "python2": 43.0,
@@ -18465,7 +18956,7 @@ const data = [
     "sem3marks": 7.5,
     "sem3spi2": 15,
     "totalSum": 27,
-    "total": 286.25,
+    "total": 303.0,
     "coa2": 18.0,
     "toc2": 18.0,
     "fsd22": 20.5,
@@ -18476,7 +18967,8 @@ const data = [
     "fsd23": 21.5,
     "python23": 15.0,
     "sem3spi": 8.67,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 33.5
   },
   {
     "roll": 198,
@@ -18492,7 +18984,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 52.75,
-    "coa": 53.5,
+    "coa": 64.75,
     "fsd-ii": 0,
     "fsd2": 59.5,
     "python2": 59.5,
@@ -18502,7 +18994,7 @@ const data = [
     "sem3marks": 6.85,
     "sem3spi2": 13.7,
     "totalSum": 24.66,
-    "total": 274.25,
+    "total": 285.5,
     "coa2": 17.0,
     "toc2": 20.5,
     "fsd22": 21.5,
@@ -18513,7 +19005,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 18.0,
     "sem3spi": 7.79,
-    "dm4": 26.5
+    "dm4": 26.5,
+    "coa4": 22.5
   },
   {
     "roll": 277,
@@ -18529,7 +19022,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 57.0,
-    "coa": 47.5,
+    "coa": 61.5,
     "fsd-ii": 0,
     "fsd2": 65.0,
     "python2": 49.5,
@@ -18539,7 +19032,7 @@ const data = [
     "sem3marks": 4.975,
     "sem3spi2": 9.95,
     "totalSum": 17.91,
-    "total": 263.0,
+    "total": 277.0,
     "coa2": 13.0,
     "toc2": 17.5,
     "fsd22": 21.5,
@@ -18550,7 +19043,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 14.0,
     "sem3spi": 6.58,
-    "dm4": 30.0
+    "dm4": 30.0,
+    "coa4": 28.0
   },
   {
     "roll": 262,
@@ -18566,7 +19060,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 51.75,
-    "coa": 50.0,
+    "coa": 63.5,
     "fsd-ii": 0,
     "fsd2": 52.5,
     "python2": 48.5,
@@ -18576,7 +19070,7 @@ const data = [
     "sem3marks": 5.575,
     "sem3spi2": 11.15,
     "totalSum": 20.07,
-    "total": 255.75,
+    "total": 269.25,
     "coa2": 20.0,
     "toc2": 15.0,
     "fsd22": 21.0,
@@ -18587,7 +19081,8 @@ const data = [
     "fsd23": 14.5,
     "python23": 16.0,
     "sem3spi": 7.29,
-    "dm4": 30.5
+    "dm4": 30.5,
+    "coa4": 27.0
   },
   {
     "roll": 192,
@@ -18603,7 +19098,7 @@ const data = [
     "dept": "SY2",
     "etc": 72,
     "dm": 63.0,
-    "coa": 62.5,
+    "coa": 71.5,
     "fsd-ii": 0,
     "fsd2": 61.0,
     "python2": 52.0,
@@ -18613,7 +19108,7 @@ const data = [
     "sem3marks": 6.925,
     "sem3spi2": 13.85,
     "totalSum": 24.93,
-    "total": 295.5,
+    "total": 304.5,
     "coa2": 22.0,
     "toc2": 20.5,
     "fsd22": 20.5,
@@ -18624,7 +19119,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 16.0,
     "sem3spi": 8.0,
-    "dm4": 33.0
+    "dm4": 33.0,
+    "coa4": 18.0
   },
   {
     "roll": 287,
@@ -18640,7 +19136,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 38.0,
-    "coa": 40.0,
+    "coa": 52.5,
     "fsd-ii": 0,
     "fsd2": 42.5,
     "python2": 41.0,
@@ -18650,7 +19146,7 @@ const data = [
     "sem3marks": 3.35,
     "sem3spi2": 6.7,
     "totalSum": 12.06,
-    "total": 191.5,
+    "total": 204.0,
     "coa2": 12.5,
     "toc2": 12.0,
     "fsd22": 12.5,
@@ -18660,7 +19156,8 @@ const data = [
     "toc3": 11.0,
     "fsd23": 14.0,
     "python23": 17.0,
-    "dm4": 25.0
+    "dm4": 25.0,
+    "coa4": 25.0
   },
   {
     "roll": 278,
@@ -18676,7 +19173,7 @@ const data = [
     "dept": "SY2",
     "etc": 96,
     "dm": 35.5,
-    "coa": 42.0,
+    "coa": 50.5,
     "fsd-ii": 0,
     "fsd2": 40.5,
     "python2": 37.5,
@@ -18686,7 +19183,7 @@ const data = [
     "sem3marks": 4.975,
     "sem3spi2": 9.95,
     "totalSum": 17.91,
-    "total": 193.5,
+    "total": 202.0,
     "coa2": 13.0,
     "toc2": 14.5,
     "fsd22": 13.0,
@@ -18697,7 +19194,8 @@ const data = [
     "fsd23": 12.5,
     "python23": 9.0,
     "sem3spi": 6.88,
-    "dm4": 16.0
+    "dm4": 16.0,
+    "coa4": 17.0
   },
   {
     "roll": 136,
@@ -18713,7 +19211,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 65.75,
-    "coa": 56.0,
+    "coa": 72.5,
     "fsd-ii": 0,
     "fsd2": 62.5,
     "python2": 55.5,
@@ -18723,7 +19221,7 @@ const data = [
     "sem3marks": 7.75,
     "sem3spi2": 15.5,
     "totalSum": 27.9,
-    "total": 303.75,
+    "total": 320.25,
     "coa2": 15.0,
     "toc2": 21.0,
     "fsd22": 21.5,
@@ -18734,7 +19232,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 17.0,
     "sem3spi": 8.67,
-    "dm4": 34.5
+    "dm4": 34.5,
+    "coa4": 33.0
   },
   {
     "roll": 196,
@@ -18750,7 +19249,7 @@ const data = [
     "dept": "SY2",
     "etc": 92,
     "dm": 58.75,
-    "coa": 53.0,
+    "coa": 69.0,
     "fsd-ii": 0,
     "fsd2": 48.5,
     "python2": 51.0,
@@ -18760,7 +19259,7 @@ const data = [
     "sem3marks": 6.875,
     "sem3spi2": 13.75,
     "totalSum": 24.75,
-    "total": 269.75,
+    "total": 285.75,
     "coa2": 16.0,
     "toc2": 20.5,
     "fsd22": 14.5,
@@ -18771,7 +19270,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 18.0,
     "sem3spi": 8.58,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 32.0
   },
   {
     "roll": 235,
@@ -18787,7 +19287,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 58.25,
-    "coa": 53.5,
+    "coa": 69.0,
     "fsd-ii": 0,
     "fsd2": 48.0,
     "python2": 53.0,
@@ -18797,7 +19297,7 @@ const data = [
     "sem3marks": 6.15,
     "sem3spi2": 12.3,
     "totalSum": 22.14,
-    "total": 250.75,
+    "total": 266.25,
     "coa2": 19.0,
     "toc2": 10.0,
     "fsd22": 17.5,
@@ -18808,7 +19308,8 @@ const data = [
     "fsd23": 12.5,
     "python23": 17.0,
     "sem3spi": 7.92,
-    "dm4": 32.5
+    "dm4": 32.5,
+    "coa4": 31.0
   },
   {
     "roll": 153,
@@ -18824,7 +19325,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 83.75,
-    "coa": 68.0,
+    "coa": 86.5,
     "fsd-ii": 0,
     "fsd2": 58.5,
     "python2": 60.5,
@@ -18834,7 +19335,7 @@ const data = [
     "sem3marks": 7.55,
     "sem3spi2": 15.1,
     "totalSum": 27.18,
-    "total": 334.25,
+    "total": 352.75,
     "coa2": 22.0,
     "toc2": 22.0,
     "fsd22": 19.5,
@@ -18845,7 +19346,8 @@ const data = [
     "fsd23": 18.5,
     "python23": 17.5,
     "sem3spi": 8.79,
-    "dm4": 40.5
+    "dm4": 40.5,
+    "coa4": 37.0
   },
   {
     "roll": 221,
@@ -18861,7 +19363,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 59.25,
-    "coa": 49.5,
+    "coa": 62.0,
     "fsd-ii": 0,
     "fsd2": 33.5,
     "python2": 46.5,
@@ -18871,7 +19373,7 @@ const data = [
     "sem3marks": 6.475,
     "sem3spi2": 12.95,
     "totalSum": 23.31,
-    "total": 235.75,
+    "total": 248.25,
     "coa2": 15.0,
     "toc2": 20.5,
     "fsd22": 14.5,
@@ -18882,7 +19384,8 @@ const data = [
     "fsd23": 8.0,
     "python23": 14.0,
     "sem3spi": 7.92,
-    "dm4": 36.5
+    "dm4": 36.5,
+    "coa4": 25.0
   },
   {
     "roll": 171,
@@ -18898,7 +19401,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 84.75,
-    "coa": 68.5,
+    "coa": 92.0,
     "fsd-ii": 0,
     "fsd2": 62.5,
     "python2": 58.5,
@@ -18908,7 +19411,7 @@ const data = [
     "sem3marks": 7.35,
     "sem3spi2": 14.7,
     "totalSum": 26.46,
-    "total": 333.75,
+    "total": 357.25,
     "coa2": 24.0,
     "toc2": 20.0,
     "fsd22": 21.5,
@@ -18919,7 +19422,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 16.0,
     "sem3spi": 9.0,
-    "dm4": 43.5
+    "dm4": 43.5,
+    "coa4": 47.0
   },
   {
     "roll": 141,
@@ -18935,7 +19439,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 73.5,
-    "coa": 55.0,
+    "coa": 69.5,
     "fsd-ii": 0,
     "fsd2": 67.0,
     "python2": 64.0,
@@ -18945,7 +19449,7 @@ const data = [
     "sem3marks": 7.7,
     "sem3spi2": 15.4,
     "totalSum": 27.72,
-    "total": 317.5,
+    "total": 332.0,
     "coa2": 20.0,
     "toc2": 23.0,
     "fsd22": 22.5,
@@ -18956,7 +19460,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 20.0,
     "sem3spi": 8.92,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 29.0
   },
   {
     "roll": 173,
@@ -18972,7 +19477,7 @@ const data = [
     "dept": "SY2",
     "etc": 96,
     "dm": 82.75,
-    "coa": 69.0,
+    "coa": 86.5,
     "fsd-ii": 0,
     "fsd2": 54.0,
     "python2": 53.0,
@@ -18982,7 +19487,7 @@ const data = [
     "sem3marks": 7.325,
     "sem3spi2": 14.65,
     "totalSum": 26.37,
-    "total": 311.75,
+    "total": 329.25,
     "coa2": 21.0,
     "toc2": 18.5,
     "fsd22": 19.5,
@@ -18993,7 +19498,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 13.0,
     "sem3spi": 8.79,
-    "dm4": 39.5
+    "dm4": 39.5,
+    "coa4": 35.0
   },
   {
     "roll": 236,
@@ -19009,7 +19515,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 71.25,
-    "coa": 65.5,
+    "coa": 83.5,
     "fsd-ii": 0,
     "fsd2": 47.0,
     "python2": 57.5,
@@ -19019,7 +19525,7 @@ const data = [
     "sem3marks": 6.15,
     "sem3spi2": 12.3,
     "totalSum": 22.14,
-    "total": 292.25,
+    "total": 310.25,
     "coa2": 21.0,
     "toc2": 17.0,
     "fsd22": 18.0,
@@ -19030,7 +19536,8 @@ const data = [
     "fsd23": 13.0,
     "python23": 17.0,
     "sem3spi": 7.88,
-    "dm4": 34.5
+    "dm4": 34.5,
+    "coa4": 36.0
   },
   {
     "roll": 231,
@@ -19046,7 +19553,7 @@ const data = [
     "dept": "SY2",
     "etc": 94,
     "dm": 69.25,
-    "coa": 55.0,
+    "coa": 73.0,
     "fsd-ii": 0,
     "fsd2": 47.5,
     "python2": 43.5,
@@ -19056,7 +19563,7 @@ const data = [
     "sem3marks": 6.175,
     "sem3spi2": 12.35,
     "totalSum": 22.23,
-    "total": 258.75,
+    "total": 276.75,
     "coa2": 17.0,
     "toc2": 14.0,
     "fsd22": 16.0,
@@ -19067,7 +19574,8 @@ const data = [
     "fsd23": 15.5,
     "python23": 12.0,
     "sem3spi": 7.54,
-    "dm4": 40.5
+    "dm4": 40.5,
+    "coa4": 36.0
   },
   {
     "roll": 273,
@@ -19083,7 +19591,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 35.75,
-    "coa": 36.0,
+    "coa": 46.5,
     "fsd-ii": 0,
     "fsd2": 35.0,
     "python2": 40.5,
@@ -19093,7 +19601,7 @@ const data = [
     "sem3marks": 5.1,
     "sem3spi2": 10.2,
     "totalSum": 18.36,
-    "total": 184.25,
+    "total": 194.75,
     "coa2": 13.0,
     "toc2": 16.0,
     "fsd22": 9.0,
@@ -19104,7 +19612,8 @@ const data = [
     "fsd23": 12.5,
     "python23": 10.0,
     "sem3spi": 6.17,
-    "dm4": 20.5
+    "dm4": 20.5,
+    "coa4": 21.0
   },
   {
     "roll": 226,
@@ -19120,7 +19629,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 49.5,
-    "coa": 58.0,
+    "coa": 72.0,
     "fsd-ii": 0,
     "fsd2": 41.0,
     "python2": 45.5,
@@ -19130,7 +19639,7 @@ const data = [
     "sem3marks": 6.3,
     "sem3spi2": 12.6,
     "totalSum": 22.68,
-    "total": 234.5,
+    "total": 248.5,
     "coa2": 19.0,
     "toc2": 16.5,
     "fsd22": 15.5,
@@ -19141,7 +19650,8 @@ const data = [
     "fsd23": 12.5,
     "python23": 12.0,
     "sem3spi": 7.83,
-    "dm4": 20.0
+    "dm4": 20.0,
+    "coa4": 28.0
   },
   {
     "roll": 111,
@@ -19157,7 +19667,7 @@ const data = [
     "dept": "SY2",
     "etc": 96,
     "dm": 85.75,
-    "coa": 62.5,
+    "coa": 82.0,
     "fsd-ii": 0,
     "fsd2": 66.5,
     "python2": 62.5,
@@ -19167,7 +19677,7 @@ const data = [
     "sem3marks": 8.1,
     "sem3spi2": 16.2,
     "totalSum": 29.16,
-    "total": 334.25,
+    "total": 353.75,
     "coa2": 20.0,
     "toc2": 23.5,
     "fsd22": 20.5,
@@ -19178,7 +19688,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 18.0,
     "sem3spi": 9.21,
-    "dm4": 41.5
+    "dm4": 41.5,
+    "coa4": 39.0
   },
   {
     "roll": 186,
@@ -19194,7 +19705,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 66.5,
-    "coa": 60.0,
+    "coa": 78.0,
     "fsd-ii": 0,
     "fsd2": 62.0,
     "python2": 53.0,
@@ -19204,7 +19715,7 @@ const data = [
     "sem3marks": 7.025,
     "sem3spi2": 14.05,
     "totalSum": 25.29,
-    "total": 303.0,
+    "total": 321.0,
     "coa2": 19.0,
     "toc2": 22.0,
     "fsd22": 20.5,
@@ -19215,7 +19726,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 14.0,
     "sem3spi": 8.42,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 36.0
   },
   {
     "roll": 267,
@@ -19231,7 +19743,7 @@ const data = [
     "dept": "SY2",
     "etc": 92,
     "dm": 49.5,
-    "coa": 43.0,
+    "coa": 56.25,
     "fsd-ii": 0,
     "fsd2": 55.5,
     "python2": 45.5,
@@ -19241,7 +19753,7 @@ const data = [
     "sem3marks": 5.325,
     "sem3spi2": 10.65,
     "totalSum": 19.17,
-    "total": 242.0,
+    "total": 255.25,
     "coa2": 14.0,
     "toc2": 17.0,
     "fsd22": 15.5,
@@ -19252,7 +19764,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 15.0,
     "sem3spi": 7.17,
-    "dm4": 33.0
+    "dm4": 33.0,
+    "coa4": 26.5
   },
   {
     "roll": 183,
@@ -19268,7 +19781,7 @@ const data = [
     "dept": "SY2",
     "etc": 94,
     "dm": 49.5,
-    "coa": 34.5,
+    "coa": 49.5,
     "fsd-ii": 0,
     "fsd2": 31.0,
     "python2": 25.5,
@@ -19278,7 +19791,7 @@ const data = [
     "sem3marks": 7.1,
     "sem3spi2": 14.2,
     "totalSum": 25.56,
-    "total": 167.0,
+    "total": 182.0,
     "coa2": 0.0,
     "toc2": 0.0,
     "fsd22": 0.0,
@@ -19288,7 +19801,8 @@ const data = [
     "toc3": 9.0,
     "fsd23": 9.5,
     "python23": 13.0,
-    "dm4": 36.0
+    "dm4": 36.0,
+    "coa4": 30.0
   },
   {
     "roll": 178,
@@ -19304,7 +19818,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 74.0,
-    "coa": 61.5,
+    "coa": 78.75,
     "fsd-ii": 0,
     "fsd2": 57.0,
     "python2": 52.0,
@@ -19314,7 +19828,7 @@ const data = [
     "sem3marks": 6.25,
     "sem3spi2": 12.5,
     "totalSum": 25.96,
-    "total": 292.5,
+    "total": 309.75,
     "coa2": 21.5,
     "toc2": 19.5,
     "fsd22": 19.0,
@@ -19325,7 +19839,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 17.0,
     "sem3spi": 8.17,
-    "dm4": 35.0
+    "dm4": 35.0,
+    "coa4": 34.5
   },
   {
     "roll": 112,
@@ -19341,7 +19856,7 @@ const data = [
     "dept": "SY2",
     "etc": 90,
     "dm": 76.75,
-    "coa": 65.0,
+    "coa": 80.5,
     "fsd-ii": 0,
     "fsd2": 61.5,
     "python2": 52.5,
@@ -19351,7 +19866,7 @@ const data = [
     "sem3marks": 7.125,
     "sem3spi2": 14.25,
     "totalSum": 29.15,
-    "total": 306.75,
+    "total": 322.25,
     "coa2": 22.0,
     "toc2": 19.0,
     "fsd22": 20.0,
@@ -19362,7 +19877,8 @@ const data = [
     "fsd23": 21.5,
     "python23": 16.0,
     "sem3spi": 8.13,
-    "dm4": 36.5
+    "dm4": 36.5,
+    "coa4": 31.0
   },
   {
     "roll": 238,
@@ -19378,7 +19894,7 @@ const data = [
     "dept": "SY2",
     "etc": 92,
     "dm": 62.75,
-    "coa": 50.5,
+    "coa": 60.0,
     "fsd-ii": 0,
     "fsd2": 49.5,
     "python2": 36.0,
@@ -19388,7 +19904,7 @@ const data = [
     "sem3marks": 4.85,
     "sem3spi2": 9.7,
     "totalSum": 21.96,
-    "total": 241.25,
+    "total": 250.75,
     "coa2": 20.0,
     "toc2": 18.5,
     "fsd22": 18.0,
@@ -19399,7 +19915,8 @@ const data = [
     "fsd23": 17.5,
     "python23": 12.5,
     "sem3spi": 6.88,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 19.0
   },
   {
     "roll": 281,
@@ -19415,7 +19932,7 @@ const data = [
     "dept": "SY2",
     "etc": 84,
     "dm": 15.5,
-    "coa": 5.0,
+    "coa": 10.5,
     "fsd-ii": 0,
     "fsd2": 7.0,
     "python2": 3.5,
@@ -19425,7 +19942,7 @@ const data = [
     "sem3marks": 2.8,
     "sem3spi2": 5.6,
     "totalSum": 17.07,
-    "total": 39.5,
+    "total": 45.0,
     "coa2": 0.0,
     "toc2": 0.0,
     "fsd22": 0.0,
@@ -19436,7 +19953,8 @@ const data = [
     "fsd23": 0.0,
     "python23": 0.0,
     "sem3spi": 5.26,
-    "dm4": 12.0
+    "dm4": 12.0,
+    "coa4": 11.0
   },
   {
     "roll": 176,
@@ -19452,7 +19970,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 81.25,
-    "coa": 58.0,
+    "coa": 73.5,
     "fsd-ii": 0,
     "fsd2": 54.5,
     "python2": 52.0,
@@ -19462,7 +19980,7 @@ const data = [
     "sem3marks": 6.375,
     "sem3spi2": 12.75,
     "totalSum": 26.05,
-    "total": 301.75,
+    "total": 317.25,
     "coa2": 19.5,
     "toc2": 17.5,
     "fsd22": 15.5,
@@ -19473,7 +19991,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 15.0,
     "sem3spi": 8.21,
-    "dm4": 39.5
+    "dm4": 39.5,
+    "coa4": 31.0
   },
   {
     "roll": 128,
@@ -19489,7 +20008,7 @@ const data = [
     "dept": "SY2",
     "etc": 96,
     "dm": 72.5,
-    "coa": 49.5,
+    "coa": 62.75,
     "fsd-ii": 0,
     "fsd2": 64.0,
     "python2": 58.0,
@@ -19499,7 +20018,7 @@ const data = [
     "sem3marks": 6.975,
     "sem3spi2": 13.95,
     "totalSum": 28.35,
-    "total": 295.5,
+    "total": 308.75,
     "coa2": 15.0,
     "toc2": 22.0,
     "fsd22": 23.0,
@@ -19510,7 +20029,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 16.5,
     "sem3spi": 8.42,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 26.5
   },
   {
     "roll": 249,
@@ -19526,7 +20046,7 @@ const data = [
     "dept": "SY2",
     "etc": 94,
     "dm": 57.5,
-    "coa": 43.5,
+    "coa": 52.5,
     "fsd-ii": 0,
     "fsd2": 60.5,
     "python2": 43.5,
@@ -19536,7 +20056,7 @@ const data = [
     "sem3marks": 4.65,
     "sem3spi2": 9.3,
     "totalSum": 21.02,
-    "total": 247.5,
+    "total": 256.5,
     "coa2": 15.0,
     "toc2": 11.5,
     "fsd22": 18.0,
@@ -19547,7 +20067,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 17.0,
     "sem3spi": 6.71,
-    "dm4": 34.0
+    "dm4": 34.0,
+    "coa4": 18.0
   },
   {
     "roll": 148,
@@ -19563,7 +20084,7 @@ const data = [
     "dept": "SY2",
     "etc": 92,
     "dm": 79.75,
-    "coa": 67.5,
+    "coa": 84.0,
     "fsd-ii": 0,
     "fsd2": 52.0,
     "python2": 50.5,
@@ -19573,7 +20094,7 @@ const data = [
     "sem3marks": 6.9,
     "sem3spi2": 13.8,
     "totalSum": 27.35,
-    "total": 300.75,
+    "total": 317.25,
     "coa2": 19.0,
     "toc2": 17.5,
     "fsd22": 18.0,
@@ -19584,7 +20105,8 @@ const data = [
     "fsd23": 15.0,
     "python23": 18.5,
     "sem3spi": 8.63,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 33.0
   },
   {
     "roll": 279,
@@ -19600,7 +20122,7 @@ const data = [
     "dept": "SY2",
     "etc": 82,
     "dm": 35.75,
-    "coa": 43.5,
+    "coa": 52.0,
     "fsd-ii": 0,
     "fsd2": 30.0,
     "python2": 31.5,
@@ -19610,7 +20132,7 @@ const data = [
     "sem3marks": 3.85,
     "sem3spi2": 7.7,
     "totalSum": 17.7,
-    "total": 179.75,
+    "total": 188.25,
     "coa2": 12.5,
     "toc2": 12.5,
     "fsd22": 7.5,
@@ -19621,7 +20143,8 @@ const data = [
     "fsd23": 9.0,
     "python23": 13.0,
     "sem3spi": 5.29,
-    "dm4": 19.5
+    "dm4": 19.5,
+    "coa4": 17.0
   },
   {
     "roll": 219,
@@ -19637,7 +20160,7 @@ const data = [
     "dept": "SY2",
     "etc": 88,
     "dm": 57.0,
-    "coa": 32.5,
+    "coa": 41.5,
     "fsd-ii": 0,
     "fsd2": 34.5,
     "python2": 42.5,
@@ -19647,7 +20170,7 @@ const data = [
     "sem3marks": 5.1,
     "sem3spi2": 10.2,
     "totalSum": 23.58,
-    "total": 197.0,
+    "total": 206.0,
     "coa2": 0.0,
     "toc2": 17.5,
     "fsd22": 11.5,
@@ -19658,7 +20181,8 @@ const data = [
     "fsd23": 9.5,
     "python23": 14.5,
     "sem3spi": 6.92,
-    "dm4": 16.0
+    "dm4": 16.0,
+    "coa4": 18.0
   },
   {
     "roll": 271,
@@ -19674,7 +20198,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 63.75,
-    "coa": 52.5,
+    "coa": 63.5,
     "fsd-ii": 0,
     "fsd2": 30.0,
     "python2": 22.5,
@@ -19684,7 +20208,7 @@ const data = [
     "sem3marks": 4.4,
     "sem3spi2": 8.8,
     "totalSum": 18.7,
-    "total": 205.75,
+    "total": 216.75,
     "coa2": 12.0,
     "toc2": 19.5,
     "fsd22": 10.0,
@@ -19695,7 +20219,8 @@ const data = [
     "fsd23": 9.5,
     "python23": 6.0,
     "sem3spi": 6.63,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 22.0
   },
   {
     "roll": 220,
@@ -19711,7 +20236,7 @@ const data = [
     "dept": "SY2",
     "etc": 94,
     "dm": 71.5,
-    "coa": 57.0,
+    "coa": 72.0,
     "fsd-ii": 0,
     "fsd2": 54.5,
     "python2": 39.5,
@@ -19721,7 +20246,7 @@ const data = [
     "sem3marks": 5.9,
     "sem3spi2": 11.8,
     "totalSum": 23.45,
-    "total": 269.0,
+    "total": 284.0,
     "coa2": 19.0,
     "toc2": 19.0,
     "fsd22": 19.0,
@@ -19732,7 +20257,8 @@ const data = [
     "fsd23": 16.5,
     "python23": 9.5,
     "sem3spi": 7.71,
-    "dm4": 31.0
+    "dm4": 31.0,
+    "coa4": 30.0
   },
   {
     "roll": 253,
@@ -19748,7 +20274,7 @@ const data = [
     "dept": "SY2",
     "etc": 86,
     "dm": 51.0,
-    "coa": 39.5,
+    "coa": 49.5,
     "fsd-ii": 0,
     "fsd2": 29.5,
     "python2": 30.0,
@@ -19758,7 +20284,7 @@ const data = [
     "sem3marks": 4.575,
     "sem3spi2": 9.15,
     "totalSum": 20.7,
-    "total": 196.5,
+    "total": 206.5,
     "coa2": 11.5,
     "toc2": 20.0,
     "fsd22": 11.0,
@@ -19769,7 +20295,8 @@ const data = [
     "fsd23": 6.0,
     "python23": 9.0,
     "sem3spi": 6.46,
-    "dm4": 32.0
+    "dm4": 32.0,
+    "coa4": 20.0
   },
   {
     "roll": 265,
@@ -19785,7 +20312,7 @@ const data = [
     "dept": "SY2",
     "etc": 86,
     "dm": 53.5,
-    "coa": 44.0,
+    "coa": 56.5,
     "fsd-ii": 0,
     "fsd2": 29.0,
     "python2": 23.5,
@@ -19795,7 +20322,7 @@ const data = [
     "sem3marks": 4.425,
     "sem3spi2": 8.85,
     "totalSum": 19.47,
-    "total": 185.0,
+    "total": 197.5,
     "coa2": 18.0,
     "toc2": 17.5,
     "fsd22": 9.0,
@@ -19806,7 +20333,8 @@ const data = [
     "fsd23": 16.0,
     "python23": 7.0,
     "sem3spi": 4.37,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 25.0
   },
   {
     "roll": 241,
@@ -19822,7 +20350,7 @@ const data = [
     "dept": "SY2",
     "etc": 82,
     "dm": 40.0,
-    "coa": 36.0,
+    "coa": 40.0,
     "fsd-ii": 0,
     "fsd2": 23.5,
     "python2": 23.0,
@@ -19832,7 +20360,7 @@ const data = [
     "sem3marks": 4.725,
     "sem3spi2": 9.45,
     "totalSum": 21.62,
-    "total": 150.5,
+    "total": 154.5,
     "coa2": 10.0,
     "toc2": 20.0,
     "fsd22": 5.5,
@@ -19843,7 +20371,8 @@ const data = [
     "fsd23": 11.0,
     "python23": 11.5,
     "sem3spi": 5.96,
-    "dm4": 0.0
+    "dm4": 0.0,
+    "coa4": 8.0
   },
   {
     "roll": 204,
@@ -19859,7 +20388,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 63.75,
-    "coa": 61.5,
+    "coa": 77.5,
     "fsd-ii": 0,
     "fsd2": 34.5,
     "python2": 38.5,
@@ -19869,7 +20398,7 @@ const data = [
     "sem3marks": 5.4,
     "sem3spi2": 10.8,
     "totalSum": 24.42,
-    "total": 246.75,
+    "total": 262.75,
     "coa2": 23.0,
     "toc2": 17.5,
     "fsd22": 13.0,
@@ -19880,7 +20409,8 @@ const data = [
     "fsd23": 16.5,
     "python23": 14.0,
     "sem3spi": 7.54,
-    "dm4": 29.5
+    "dm4": 29.5,
+    "coa4": 32.0
   },
   {
     "roll": 157,
@@ -19896,7 +20426,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 73.0,
-    "coa": 65.5,
+    "coa": 84.0,
     "fsd-ii": 0,
     "fsd2": 62.5,
     "python2": 57.5,
@@ -19906,7 +20436,7 @@ const data = [
     "sem3marks": 6.25,
     "sem3spi2": 12.5,
     "totalSum": 27.06,
-    "total": 313.0,
+    "total": 331.5,
     "coa2": 21.0,
     "toc2": 19.5,
     "fsd22": 18.0,
@@ -19917,7 +20447,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 17.5,
     "sem3spi": 7.63,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 37.0
   },
   {
     "roll": 19,
@@ -19933,7 +20464,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 83.25,
-    "coa": 68.5,
+    "coa": 88.5,
     "fsd-ii": 0,
     "fsd2": 69.0,
     "python2": 68.0,
@@ -19943,7 +20474,7 @@ const data = [
     "sem3marks": 8.65,
     "sem3spi2": 17.3,
     "totalSum": 35.01,
-    "total": 355.25,
+    "total": 375.25,
     "coa2": 22.5,
     "toc2": 23.0,
     "fsd22": 23.0,
@@ -19954,7 +20485,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 24.0,
     "sem3spi": 9.75,
-    "dm4": 46.5
+    "dm4": 46.5,
+    "coa4": 40.0
   },
   {
     "roll": 31,
@@ -19970,7 +20502,7 @@ const data = [
     "dept": "SY2",
     "etc": 96,
     "dm": 81.25,
-    "coa": 61.5,
+    "coa": 83.0,
     "fsd-ii": 0,
     "fsd2": 62.5,
     "python2": 55.5,
@@ -19980,7 +20512,7 @@ const data = [
     "sem3marks": 8.175,
     "sem3spi2": 16.35,
     "totalSum": 33.68,
-    "total": 310.25,
+    "total": 331.75,
     "coa2": 22.0,
     "toc2": 18.5,
     "fsd22": 20.0,
@@ -19991,7 +20523,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 20.5,
     "sem3spi": 9.38,
-    "dm4": 42.5
+    "dm4": 42.5,
+    "coa4": 43.0
   },
   {
     "roll": 59,
@@ -20007,7 +20540,7 @@ const data = [
     "dept": "SY2",
     "etc": 92,
     "dm": 91.5,
-    "coa": 64.5,
+    "coa": 85.0,
     "fsd-ii": 0,
     "fsd2": 62.0,
     "python2": 62.0,
@@ -20017,7 +20550,7 @@ const data = [
     "sem3marks": 7.95,
     "sem3spi2": 15.9,
     "totalSum": 31.83,
-    "total": 341.0,
+    "total": 361.5,
     "coa2": 19.0,
     "toc2": 19.5,
     "fsd22": 21.0,
@@ -20028,7 +20561,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 22.0,
     "sem3spi": 9.46,
-    "dm4": 45.0
+    "dm4": 45.0,
+    "coa4": 41.0
   },
   {
     "roll": 201,
@@ -20044,7 +20578,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 67.0,
-    "coa": 55.5,
+    "coa": 71.0,
     "fsd-ii": 0,
     "fsd2": 52.5,
     "python2": 47.0,
@@ -20054,7 +20588,7 @@ const data = [
     "sem3marks": 5.925,
     "sem3spi2": 11.85,
     "totalSum": 24.52,
-    "total": 274.5,
+    "total": 290.0,
     "coa2": 16.0,
     "toc2": 16.0,
     "fsd22": 18.0,
@@ -20065,7 +20599,8 @@ const data = [
     "fsd23": 16.0,
     "python23": 16.5,
     "sem3spi": 7.75,
-    "dm4": 29.0
+    "dm4": 29.0,
+    "coa4": 31.0
   },
   {
     "roll": 94,
@@ -20081,7 +20616,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 77.5,
-    "coa": 53.5,
+    "coa": 61.5,
     "fsd-ii": 0,
     "fsd2": 62.5,
     "python2": 58.5,
@@ -20091,7 +20626,7 @@ const data = [
     "sem3marks": 7.025,
     "sem3spi2": 14.05,
     "totalSum": 30.08,
-    "total": 309.0,
+    "total": 317.0,
     "coa2": 16.0,
     "toc2": 20.0,
     "fsd22": 20.0,
@@ -20102,7 +20637,8 @@ const data = [
     "fsd23": 20.5,
     "python23": 19.0,
     "sem3spi": 8.17,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 16.0
   },
   {
     "roll": 156,
@@ -20118,7 +20654,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 67.0,
-    "coa": 62.5,
+    "coa": 77.5,
     "fsd-ii": 0,
     "fsd2": 63.5,
     "python2": 60.5,
@@ -20128,7 +20664,7 @@ const data = [
     "sem3marks": 6.525,
     "sem3spi2": 13.05,
     "totalSum": 27.08,
-    "total": 297.5,
+    "total": 312.5,
     "coa2": 21.0,
     "toc2": 18.0,
     "fsd22": 20.5,
@@ -20139,7 +20675,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 20.0,
     "sem3spi": 7.96,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 30.0
   },
   {
     "roll": 234,
@@ -20155,7 +20692,7 @@ const data = [
     "dept": "SY2",
     "etc": 94,
     "dm": 44.0,
-    "coa": 34.5,
+    "coa": 41.5,
     "fsd-ii": 0,
     "fsd2": 20.5,
     "python2": 34.0,
@@ -20165,7 +20702,7 @@ const data = [
     "sem3marks": 4.45,
     "sem3spi2": 8.9,
     "totalSum": 22.15,
-    "total": 159.0,
+    "total": 166.0,
     "coa2": 6.0,
     "toc2": 10.0,
     "fsd22": 7.5,
@@ -20176,7 +20713,8 @@ const data = [
     "fsd23": 7.0,
     "python23": 11.0,
     "sem3spi": 6.17,
-    "dm4": 18.0
+    "dm4": 18.0,
+    "coa4": 14.0
   },
   {
     "roll": 242,
@@ -20192,7 +20730,7 @@ const data = [
     "dept": "SY2",
     "etc": 90,
     "dm": 68.25,
-    "coa": 59.5,
+    "coa": 76.5,
     "fsd-ii": 0,
     "fsd2": 39.5,
     "python2": 42.5,
@@ -20202,7 +20740,7 @@ const data = [
     "sem3marks": 5.175,
     "sem3spi2": 10.35,
     "totalSum": 21.61,
-    "total": 254.25,
+    "total": 271.25,
     "coa2": 20.0,
     "toc2": 15.0,
     "fsd22": 15.5,
@@ -20213,7 +20751,8 @@ const data = [
     "fsd23": 10.0,
     "python23": 13.5,
     "sem3spi": 6.96,
-    "dm4": 32.5
+    "dm4": 32.5,
+    "coa4": 34.0
   },
   {
     "roll": 214,
@@ -20229,7 +20768,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 70.0,
-    "coa": 60.5,
+    "coa": 77.0,
     "fsd-ii": 0,
     "fsd2": 49.0,
     "python2": 41.5,
@@ -20239,7 +20778,7 @@ const data = [
     "sem3marks": 5.5,
     "sem3spi2": 11,
     "totalSum": 24,
-    "total": 269.0,
+    "total": 285.5,
     "coa2": 20.0,
     "toc2": 19.5,
     "fsd22": 19.5,
@@ -20250,7 +20789,8 @@ const data = [
     "fsd23": 11.0,
     "python23": 10.0,
     "sem3spi": 7.58,
-    "dm4": 35.0
+    "dm4": 35.0,
+    "coa4": 33.0
   },
   {
     "roll": 288,
@@ -20287,7 +20827,8 @@ const data = [
     "fsd23": 0.0,
     "python23": 0.0,
     "sem3spi": 6.0,
-    "dm4": 0.0
+    "dm4": 0.0,
+    "coa4": 0.0
   },
   {
     "roll": 88,
@@ -20303,7 +20844,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 85.5,
-    "coa": 69.0,
+    "coa": 86.5,
     "fsd-ii": 0,
     "fsd2": 60.5,
     "python2": 65.0,
@@ -20313,7 +20854,7 @@ const data = [
     "sem3marks": 7.625,
     "sem3spi2": 15.25,
     "totalSum": 30.47,
-    "total": 347.0,
+    "total": 364.5,
     "coa2": 21.5,
     "toc2": 21.0,
     "fsd22": 17.0,
@@ -20324,7 +20865,8 @@ const data = [
     "fsd23": 21.5,
     "python23": 24.0,
     "sem3spi": 8.92,
-    "dm4": 43.0
+    "dm4": 43.0,
+    "coa4": 35.0
   },
   {
     "roll": 280,
@@ -20340,7 +20882,7 @@ const data = [
     "dept": "SY2",
     "etc": 92,
     "dm": 19.5,
-    "coa": 5.5,
+    "coa": 9.0,
     "fsd-ii": 0,
     "fsd2": 13.0,
     "python2": 17.0,
@@ -20350,7 +20892,7 @@ const data = [
     "sem3marks": 3.3,
     "sem3spi2": 6.6,
     "totalSum": 17.32,
-    "total": 65.0,
+    "total": 68.5,
     "coa2": 1.0,
     "toc2": 9.0,
     "fsd22": 7.0,
@@ -20361,7 +20903,8 @@ const data = [
     "fsd23": 3.0,
     "python23": 4.0,
     "sem3spi": 4.89,
-    "dm4": 3.0
+    "dm4": 3.0,
+    "coa4": 7.0
   },
   {
     "roll": 139,
@@ -20377,7 +20920,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 72.0,
-    "coa": 47.0,
+    "coa": 57.0,
     "fsd-ii": 0,
     "fsd2": 66.5,
     "python2": 58.0,
@@ -20387,7 +20930,7 @@ const data = [
     "sem3marks": 6.5,
     "sem3spi2": 13,
     "totalSum": 27.83,
-    "total": 305.0,
+    "total": 315.0,
     "coa2": 18.0,
     "toc2": 19.5,
     "fsd22": 24.5,
@@ -20398,7 +20941,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 17.5,
     "sem3spi": 7.83,
-    "dm4": 35.0
+    "dm4": 35.0,
+    "coa4": 20.0
   },
   {
     "roll": 228,
@@ -20414,7 +20958,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 67.75,
-    "coa": 45.5,
+    "coa": 62.0,
     "fsd-ii": 0,
     "fsd2": 38.0,
     "python2": 40.0,
@@ -20424,7 +20968,7 @@ const data = [
     "sem3marks": 5.225,
     "sem3spi2": 10.45,
     "totalSum": 22.31,
-    "total": 229.25,
+    "total": 245.75,
     "coa2": 12.5,
     "toc2": 17.5,
     "fsd22": 11.5,
@@ -20435,7 +20979,8 @@ const data = [
     "fsd23": 13.0,
     "python23": 14.0,
     "sem3spi": 6.46,
-    "dm4": 32.5
+    "dm4": 32.5,
+    "coa4": 33.0
   },
   {
     "roll": 230,
@@ -20451,7 +20996,7 @@ const data = [
     "dept": "SY2",
     "etc": 92,
     "dm": 64.5,
-    "coa": 56.5,
+    "coa": 71.75,
     "fsd-ii": 0,
     "fsd2": 32.5,
     "python2": 44.5,
@@ -20461,7 +21006,7 @@ const data = [
     "sem3marks": 4.825,
     "sem3spi2": 9.65,
     "totalSum": 22.25,
-    "total": 245.0,
+    "total": 260.25,
     "coa2": 18.5,
     "toc2": 16.0,
     "fsd22": 10.5,
@@ -20472,7 +21017,8 @@ const data = [
     "fsd23": 11.0,
     "python23": 11.5,
     "sem3spi": 7.08,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 30.5
   },
   {
     "roll": 26,
@@ -20488,7 +21034,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 89.0,
-    "coa": 74.5,
+    "coa": 98.0,
     "fsd-ii": 0,
     "fsd2": 68.0,
     "python2": 68.5,
@@ -20498,7 +21044,7 @@ const data = [
     "sem3marks": 8.65,
     "sem3spi2": 17.3,
     "totalSum": 34.08,
-    "total": 363.0,
+    "total": 386.5,
     "coa2": 25.0,
     "toc2": 23.0,
     "fsd22": 23.0,
@@ -20509,7 +21055,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 24.0,
     "sem3spi": 9.75,
-    "dm4": 48.0
+    "dm4": 48.0,
+    "coa4": 47.0
   },
   {
     "roll": 259,
@@ -20525,7 +21072,7 @@ const data = [
     "dept": "SY2",
     "etc": 88,
     "dm": 38.25,
-    "coa": 25.0,
+    "coa": 34.5,
     "fsd-ii": 0,
     "fsd2": 46.0,
     "python2": 33.5,
@@ -20535,7 +21082,7 @@ const data = [
     "sem3marks": 4.25,
     "sem3spi2": 8.5,
     "totalSum": 20.19,
-    "total": 179.75,
+    "total": 189.25,
     "coa2": 10.0,
     "toc2": 11.0,
     "fsd22": 12.0,
@@ -20546,7 +21093,8 @@ const data = [
     "fsd23": 12.0,
     "python23": 11.0,
     "sem3spi": 6.54,
-    "dm4": 21.5
+    "dm4": 21.5,
+    "coa4": 19.0
   },
   {
     "roll": 260,
@@ -20562,7 +21110,7 @@ const data = [
     "dept": "SY2",
     "etc": 90,
     "dm": 42.5,
-    "coa": 26.5,
+    "coa": 33.0,
     "fsd-ii": 0,
     "fsd2": 43.0,
     "python2": 25.0,
@@ -20572,7 +21120,7 @@ const data = [
     "sem3marks": 4.325,
     "sem3spi2": 8.65,
     "totalSum": 20.13,
-    "total": 178.5,
+    "total": 185.0,
     "coa2": 7.5,
     "toc2": 14.0,
     "fsd22": 12.0,
@@ -20583,7 +21131,8 @@ const data = [
     "fsd23": 15.0,
     "python23": 6.0,
     "sem3spi": 6.38,
-    "dm4": 19.0
+    "dm4": 19.0,
+    "coa4": 13.0
   },
   {
     "roll": 36,
@@ -20599,7 +21148,7 @@ const data = [
     "dept": "SY2",
     "etc": 96,
     "dm": 81.25,
-    "coa": 65.5,
+    "coa": 79.75,
     "fsd-ii": 0,
     "fsd2": 67.0,
     "python2": 58.0,
@@ -20609,7 +21158,7 @@ const data = [
     "sem3marks": 8.4,
     "sem3spi2": 16.8,
     "totalSum": 33.32,
-    "total": 329.25,
+    "total": 343.5,
     "coa2": 23.0,
     "toc2": 21.0,
     "fsd22": 20.5,
@@ -20620,7 +21169,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 18.0,
     "sem3spi": 9.58,
-    "dm4": 42.5
+    "dm4": 42.5,
+    "coa4": 28.5
   },
   {
     "roll": 166,
@@ -20636,7 +21186,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 64.0,
-    "coa": 52.0,
+    "coa": 68.75,
     "fsd-ii": 0,
     "fsd2": 57.5,
     "python2": 47.5,
@@ -20646,7 +21196,7 @@ const data = [
     "sem3marks": 6.325,
     "sem3spi2": 12.65,
     "totalSum": 26.79,
-    "total": 273.0,
+    "total": 289.75,
     "coa2": 17.0,
     "toc2": 17.5,
     "fsd22": 17.5,
@@ -20657,7 +21207,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 16.5,
     "sem3spi": 8.29,
-    "dm4": 44.0
+    "dm4": 44.0,
+    "coa4": 33.5
   },
   {
     "roll": 256,
@@ -20673,7 +21224,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 44.25,
-    "coa": 29.5,
+    "coa": 36.75,
     "fsd-ii": 0,
     "fsd2": 30.5,
     "python2": 28.5,
@@ -20683,7 +21234,7 @@ const data = [
     "sem3marks": 4.275,
     "sem3spi2": 8.55,
     "totalSum": 20.24,
-    "total": 168.75,
+    "total": 176.0,
     "coa2": 3.0,
     "toc2": 9.0,
     "fsd22": 5.0,
@@ -20694,7 +21245,8 @@ const data = [
     "fsd23": 14.5,
     "python23": 14.0,
     "sem3spi": 6.38,
-    "dm4": 30.5
+    "dm4": 30.5,
+    "coa4": 14.5
   },
   {
     "roll": 118,
@@ -20710,7 +21262,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 32.0,
-    "coa": 42.0,
+    "coa": 57.0,
     "fsd-ii": 0,
     "fsd2": 34.0,
     "python2": 29.5,
@@ -20720,7 +21272,7 @@ const data = [
     "sem3marks": 6.65,
     "sem3spi2": 13.3,
     "totalSum": 28.89,
-    "total": 174.0,
+    "total": 189.0,
     "coa2": 0.0,
     "toc2": 0.0,
     "fsd22": 0.0,
@@ -20731,7 +21283,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 17.5,
     "sem3spi": 8.17,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 30.0
   },
   {
     "roll": 272,
@@ -20747,7 +21300,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 63.25,
-    "coa": 42.0,
+    "coa": 50.0,
     "fsd-ii": 0,
     "fsd2": 24.5,
     "python2": 36.0,
@@ -20757,7 +21310,7 @@ const data = [
     "sem3marks": 3.95,
     "sem3spi2": 7.9,
     "totalSum": 18.36,
-    "total": 195.75,
+    "total": 203.75,
     "coa2": 13.0,
     "toc2": 12.5,
     "fsd22": 11.0,
@@ -20768,7 +21321,8 @@ const data = [
     "fsd23": 11.5,
     "python23": 12.0,
     "sem3spi": 5.54,
-    "dm4": 24.5
+    "dm4": 24.5,
+    "coa4": 16.0
   },
   {
     "roll": 170,
@@ -20784,7 +21338,7 @@ const data = [
     "dept": "SY2",
     "etc": 88,
     "dm": 59.0,
-    "coa": 53.5,
+    "coa": 61.75,
     "fsd-ii": 0,
     "fsd2": 37.5,
     "python2": 49.5,
@@ -20794,7 +21348,7 @@ const data = [
     "sem3marks": 5.95,
     "sem3spi2": 11.9,
     "totalSum": 26.52,
-    "total": 237.0,
+    "total": 245.25,
     "coa2": 17.0,
     "toc2": 14.0,
     "fsd22": 14.5,
@@ -20805,7 +21359,8 @@ const data = [
     "fsd23": 11.0,
     "python23": 17.5,
     "sem3spi": 7.54,
-    "dm4": 36.0
+    "dm4": 36.0,
+    "coa4": 16.5
   },
   {
     "roll": 87,
@@ -20821,7 +21376,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 71.75,
-    "coa": 56.5,
+    "coa": 72.5,
     "fsd-ii": 0,
     "fsd2": 59.5,
     "python2": 56.5,
@@ -20831,7 +21386,7 @@ const data = [
     "sem3marks": 7.225,
     "sem3spi2": 14.45,
     "totalSum": 30.52,
-    "total": 290.75,
+    "total": 306.75,
     "coa2": 20.0,
     "toc2": 18.0,
     "fsd22": 18.5,
@@ -20842,7 +21397,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 18.0,
     "sem3spi": 8.83,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 32.0
   },
   {
     "roll": 103,
@@ -20858,7 +21414,7 @@ const data = [
     "dept": "SY2",
     "etc": 92,
     "dm": 90.75,
-    "coa": 66.5,
+    "coa": 84.5,
     "fsd-ii": 0,
     "fsd2": 59.0,
     "python2": 53.0,
@@ -20868,7 +21424,7 @@ const data = [
     "sem3marks": 6.8,
     "sem3spi2": 13.6,
     "totalSum": 29.57,
-    "total": 318.75,
+    "total": 336.75,
     "coa2": 21.0,
     "toc2": 18.0,
     "fsd22": 15.0,
@@ -20879,7 +21435,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 14.5,
     "sem3spi": 8.42,
-    "dm4": 47.5
+    "dm4": 47.5,
+    "coa4": 36.0
   },
   {
     "roll": 199,
@@ -20895,7 +21452,7 @@ const data = [
     "dept": "SY2",
     "etc": 96,
     "dm": 58.5,
-    "coa": 47.0,
+    "coa": 58.5,
     "fsd-ii": 0,
     "fsd2": 51.5,
     "python2": 31.0,
@@ -20905,7 +21462,7 @@ const data = [
     "sem3marks": 5.05,
     "sem3spi2": 10.1,
     "totalSum": 24.64,
-    "total": 232.5,
+    "total": 244.0,
     "coa2": 18.0,
     "toc2": 15.5,
     "fsd22": 17.5,
@@ -20916,7 +21473,8 @@ const data = [
     "fsd23": 17.0,
     "python23": 9.0,
     "sem3spi": 6.5,
-    "dm4": 31.0
+    "dm4": 31.0,
+    "coa4": 23.0
   },
   {
     "roll": 134,
@@ -20932,7 +21490,7 @@ const data = [
     "dept": "SY2",
     "etc": 94,
     "dm": 71.25,
-    "coa": 57.5,
+    "coa": 72.0,
     "fsd-ii": 0,
     "fsd2": 58.5,
     "python2": 52.0,
@@ -20942,7 +21500,7 @@ const data = [
     "sem3marks": 6.225,
     "sem3spi2": 12.45,
     "totalSum": 27.96,
-    "total": 287.25,
+    "total": 301.75,
     "coa2": 20.0,
     "toc2": 17.5,
     "fsd22": 19.5,
@@ -20953,7 +21511,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 17.0,
     "sem3spi": 8.25,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 29.0
   },
   {
     "roll": 137,
@@ -20969,7 +21528,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 79.0,
-    "coa": 57.0,
+    "coa": 76.75,
     "fsd-ii": 0,
     "fsd2": 52.0,
     "python2": 54.0,
@@ -20979,7 +21538,7 @@ const data = [
     "sem3marks": 7.175,
     "sem3spi2": 14.35,
     "totalSum": 27.86,
-    "total": 297.0,
+    "total": 316.75,
     "coa2": 18.0,
     "toc2": 20.0,
     "fsd22": 18.0,
@@ -20990,7 +21549,8 @@ const data = [
     "fsd23": 17.0,
     "python23": 10.0,
     "sem3spi": 8.79,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 39.5
   },
   {
     "roll": 143,
@@ -21006,7 +21566,7 @@ const data = [
     "dept": "SY2",
     "etc": 96,
     "dm": 69.0,
-    "coa": 51.5,
+    "coa": 64.5,
     "fsd-ii": 0,
     "fsd2": 51.0,
     "python2": 50.0,
@@ -21016,7 +21576,7 @@ const data = [
     "sem3marks": 7.175,
     "sem3spi2": 14.35,
     "totalSum": 27.58,
-    "total": 282.0,
+    "total": 295.0,
     "coa2": 14.0,
     "toc2": 20.5,
     "fsd22": 14.0,
@@ -21027,7 +21587,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 16.0,
     "sem3spi": 8.58,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 26.0
   },
   {
     "roll": 222,
@@ -21043,7 +21604,7 @@ const data = [
     "dept": "SY2",
     "etc": 94,
     "dm": 67.0,
-    "coa": 53.0,
+    "coa": 67.5,
     "fsd-ii": 0,
     "fsd2": 35.5,
     "python2": 49.0,
@@ -21053,7 +21614,7 @@ const data = [
     "sem3marks": 5.225,
     "sem3spi2": 10.45,
     "totalSum": 23.02,
-    "total": 251.5,
+    "total": 266.0,
     "coa2": 12.0,
     "toc2": 17.5,
     "fsd22": 9.0,
@@ -21064,7 +21625,8 @@ const data = [
     "fsd23": 12.5,
     "python23": 18.0,
     "sem3spi": 7.08,
-    "dm4": 34.0
+    "dm4": 34.0,
+    "coa4": 29.0
   },
   {
     "roll": 122,
@@ -21080,7 +21642,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 71.25,
-    "coa": 52.0,
+    "coa": 68.0,
     "fsd-ii": 0,
     "fsd2": 58.5,
     "python2": 53.0,
@@ -21090,7 +21652,7 @@ const data = [
     "sem3marks": 7.05,
     "sem3spi2": 14.1,
     "totalSum": 28.72,
-    "total": 292.25,
+    "total": 308.25,
     "coa2": 17.0,
     "toc2": 20.5,
     "fsd22": 22.0,
@@ -21101,7 +21663,8 @@ const data = [
     "fsd23": 20.5,
     "python23": 20.0,
     "sem3spi": 8.71,
-    "dm4": 30.5
+    "dm4": 30.5,
+    "coa4": 32.0
   },
   {
     "roll": 152,
@@ -21117,7 +21680,7 @@ const data = [
     "dept": "SY2",
     "etc": 94,
     "dm": 83.5,
-    "coa": 63.5,
+    "coa": 80.0,
     "fsd-ii": 0,
     "fsd2": 52.0,
     "python2": 52.0,
@@ -21127,7 +21690,7 @@ const data = [
     "sem3marks": 6.625,
     "sem3spi2": 13.25,
     "totalSum": 27.18,
-    "total": 308.5,
+    "total": 325.0,
     "coa2": 20.0,
     "toc2": 23.0,
     "fsd22": 16.5,
@@ -21138,7 +21701,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 18.5,
     "sem3spi": 8.58,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 33.0
   },
   {
     "roll": 251,
@@ -21154,7 +21718,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 49.0,
-    "coa": 36.0,
+    "coa": 43.5,
     "fsd-ii": 0,
     "fsd2": 31.5,
     "python2": 32.0,
@@ -21164,7 +21728,7 @@ const data = [
     "sem3marks": 4.5,
     "sem3spi2": 9,
     "totalSum": 20.92,
-    "total": 179.5,
+    "total": 187.0,
     "coa2": 9.0,
     "toc2": 11.5,
     "fsd22": 11.5,
@@ -21175,7 +21739,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 8.0,
     "sem3spi": 6.63,
-    "dm4": 19.0
+    "dm4": 19.0,
+    "coa4": 15.0
   },
   {
     "roll": 179,
@@ -21191,7 +21756,7 @@ const data = [
     "dept": "SY2",
     "etc": 92,
     "dm": 74.75,
-    "coa": 52.0,
+    "coa": 63.0,
     "fsd-ii": 0,
     "fsd2": 40.5,
     "python2": 44.5,
@@ -21201,7 +21766,7 @@ const data = [
     "sem3marks": 6.125,
     "sem3spi2": 12.25,
     "totalSum": 25.95,
-    "total": 264.75,
+    "total": 275.75,
     "coa2": 13.0,
     "toc2": 18.5,
     "fsd22": 15.0,
@@ -21212,7 +21777,8 @@ const data = [
     "fsd23": 16.5,
     "python23": 13.0,
     "sem3spi": 7.88,
-    "dm4": 32.5
+    "dm4": 32.5,
+    "coa4": 22.0
   },
   {
     "roll": 240,
@@ -21228,7 +21794,7 @@ const data = [
     "dept": "SY2",
     "etc": 96,
     "dm": 46.5,
-    "coa": 32.5,
+    "coa": 40.0,
     "fsd-ii": 0,
     "fsd2": 45.5,
     "python2": 39.5,
@@ -21238,7 +21804,7 @@ const data = [
     "sem3marks": 4.975,
     "sem3spi2": 9.95,
     "totalSum": 21.69,
-    "total": 197.5,
+    "total": 205.0,
     "coa2": 10.0,
     "toc2": 10.0,
     "fsd22": 21.5,
@@ -21249,7 +21815,8 @@ const data = [
     "fsd23": 11.0,
     "python23": 14.0,
     "sem3spi": 6.75,
-    "dm4": 31.0
+    "dm4": 31.0,
+    "coa4": 15.0
   },
   {
     "roll": 18,
@@ -21265,7 +21832,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 86.0,
-    "coa": 70.0,
+    "coa": 87.0,
     "fsd-ii": 0,
     "fsd2": 64.5,
     "python2": 67.0,
@@ -21275,7 +21842,7 @@ const data = [
     "sem3marks": 8.975,
     "sem3spi2": 17.95,
     "totalSum": 35.05,
-    "total": 349.0,
+    "total": 366.0,
     "coa2": 24.0,
     "toc2": 22.5,
     "fsd22": 18.5,
@@ -21286,7 +21853,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 23.0,
     "sem3spi": 9.88,
-    "dm4": 44.0
+    "dm4": 44.0,
+    "coa4": 34.0
   },
   {
     "roll": 187,
@@ -21302,7 +21870,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 66.5,
-    "coa": 51.5,
+    "coa": 70.5,
     "fsd-ii": 0,
     "fsd2": 60.0,
     "python2": 47.0,
@@ -21312,7 +21880,7 @@ const data = [
     "sem3marks": 5.95,
     "sem3spi2": 11.9,
     "totalSum": 25.19,
-    "total": 281.0,
+    "total": 300.0,
     "coa2": 16.0,
     "toc2": 21.0,
     "fsd22": 20.0,
@@ -21323,7 +21891,8 @@ const data = [
     "fsd23": 21.5,
     "python23": 15.0,
     "sem3spi": 7.29,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 38.0
   },
   {
     "roll": 93,
@@ -21339,7 +21908,7 @@ const data = [
     "dept": "SY2",
     "etc": 98,
     "dm": 85.25,
-    "coa": 70.0,
+    "coa": 86.5,
     "fsd-ii": 0,
     "fsd2": 66.5,
     "python2": 52.5,
@@ -21349,7 +21918,7 @@ const data = [
     "sem3marks": 6.975,
     "sem3spi2": 13.95,
     "totalSum": 30.1,
-    "total": 334.75,
+    "total": 351.25,
     "coa2": 22.0,
     "toc2": 23.0,
     "fsd22": 21.0,
@@ -21360,7 +21929,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 17.5,
     "sem3spi": 8.46,
-    "dm4": 44.5
+    "dm4": 44.5,
+    "coa4": 33.0
   },
   {
     "roll": 146,
@@ -21376,7 +21946,7 @@ const data = [
     "dept": "SY2",
     "etc": 94,
     "dm": 66.5,
-    "coa": 43.0,
+    "coa": 59.5,
     "fsd-ii": 0,
     "fsd2": 46.5,
     "python2": 44.5,
@@ -21386,7 +21956,7 @@ const data = [
     "sem3marks": 6.475,
     "sem3spi2": 12.95,
     "totalSum": 27.5,
-    "total": 244.0,
+    "total": 260.5,
     "coa2": 10.0,
     "toc2": 18.0,
     "fsd22": 19.0,
@@ -21397,7 +21967,8 @@ const data = [
     "fsd23": 11.5,
     "python23": 13.0,
     "sem3spi": 8.21,
-    "dm4": 34.0
+    "dm4": 34.0,
+    "coa4": 33.0
   },
   {
     "roll": 58,
@@ -21413,7 +21984,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 71.75,
-    "coa": 48.5,
+    "coa": 62.5,
     "fsd-ii": 0,
     "fsd2": 60.5,
     "python2": 55.5,
@@ -21423,7 +21994,7 @@ const data = [
     "sem3marks": 8.5,
     "sem3spi2": 17,
     "totalSum": 32.11,
-    "total": 289.75,
+    "total": 303.75,
     "coa2": 15.0,
     "toc2": 23.5,
     "fsd22": 20.5,
@@ -21434,7 +22005,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 14.5,
     "sem3spi": 9.29,
-    "dm4": 34.5
+    "dm4": 34.5,
+    "coa4": 28.0
   },
   {
     "roll": 23,
@@ -21450,7 +22022,7 @@ const data = [
     "dept": "SY2",
     "etc": 100,
     "dm": 95.75,
-    "coa": 71.5,
+    "coa": 90.0,
     "fsd-ii": 0,
     "fsd2": 68.0,
     "python2": 63.0,
@@ -21460,7 +22032,7 @@ const data = [
     "sem3marks": 8.625,
     "sem3spi2": 17.25,
     "totalSum": 34.67,
-    "total": 360.75,
+    "total": 379.25,
     "coa2": 23.0,
     "toc2": 23.0,
     "fsd22": 21.0,
@@ -21471,7 +22043,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 22.0,
     "sem3spi": 9.5,
-    "dm4": 47.5
+    "dm4": 47.5,
+    "coa4": 37.0
   },
   {
     "roll": 66,
@@ -21487,7 +22060,7 @@ const data = [
     "dept": "SY2",
     "etc": 88,
     "dm": 77.25,
-    "coa": 59.0,
+    "coa": 80.0,
     "fsd-ii": 0,
     "fsd2": 64.0,
     "python2": 57.0,
@@ -21497,7 +22070,7 @@ const data = [
     "sem3marks": 7.85,
     "sem3spi2": 15.7,
     "totalSum": 31.37,
-    "total": 320.75,
+    "total": 341.75,
     "coa2": 19.0,
     "toc2": 24.0,
     "fsd22": 21.5,
@@ -21508,7 +22081,8 @@ const data = [
     "fsd23": 21.5,
     "python23": 16.0,
     "sem3spi": 8.88,
-    "dm4": 42.5
+    "dm4": 42.5,
+    "coa4": 42.0
   },
   {
     "roll": 1,
@@ -21524,12 +22098,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 96.0,
-    "coa": 71.0,
+    "coa": 92.75,
     "fsd-ii": 0,
     "fsd2": 70.0,
     "python2": 71.0,
     "toc": 67.5,
-    "total": 375.5,
+    "total": 397.25,
     "coa2": 24.0,
     "toc2": 23.0,
     "fsd22": 23.0,
@@ -21540,7 +22114,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 25.0,
     "sem3spi": 9.83,
-    "dm4": 48.0
+    "dm4": 48.0,
+    "coa4": 43.5
   },
   {
     "roll": 2,
@@ -21556,12 +22131,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 90.75,
-    "coa": 67.0,
+    "coa": 85.5,
     "fsd-ii": 0,
     "fsd2": 68.0,
     "python2": 72.0,
     "toc": 66.5,
-    "total": 364.25,
+    "total": 382.75,
     "coa2": 23.0,
     "toc2": 24.0,
     "fsd22": 22.5,
@@ -21572,7 +22147,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 24.0,
     "sem3spi": 9.75,
-    "dm4": 43.5
+    "dm4": 43.5,
+    "coa4": 37.0
   },
   {
     "roll": 4,
@@ -21588,12 +22164,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 88.75,
-    "coa": 62.5,
+    "coa": 84.5,
     "fsd-ii": 0,
     "fsd2": 66.0,
     "python2": 62.0,
     "toc": 69.5,
-    "total": 348.75,
+    "total": 370.75,
     "coa2": 25.0,
     "toc2": 24.0,
     "fsd22": 19.0,
@@ -21604,7 +22180,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 19.5,
     "sem3spi": 9.5,
-    "dm4": 44.5
+    "dm4": 44.5,
+    "coa4": 44.0
   },
   {
     "roll": 3,
@@ -21620,12 +22197,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 84.25,
-    "coa": 63.5,
+    "coa": 79.5,
     "fsd-ii": 0,
     "fsd2": 68.5,
     "python2": 65.5,
     "toc": 68.5,
-    "total": 350.25,
+    "total": 366.25,
     "coa2": 23.5,
     "toc2": 21.5,
     "fsd22": 20.5,
@@ -21636,7 +22213,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 21.0,
     "sem3spi": 9.63,
-    "dm4": 39.5
+    "dm4": 39.5,
+    "coa4": 32.0
   },
   {
     "roll": 14,
@@ -21652,12 +22230,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 69.0,
-    "coa": 51.5,
+    "coa": 62.5,
     "fsd-ii": 0,
     "fsd2": 63.0,
     "python2": 57.0,
     "toc": 44.5,
-    "total": 285.0,
+    "total": 296.0,
     "coa2": 18.0,
     "toc2": 18.0,
     "fsd22": 19.5,
@@ -21668,7 +22246,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 15.0,
     "sem3spi": 9.33,
-    "dm4": 35.0
+    "dm4": 35.0,
+    "coa4": 22.0
   },
   {
     "roll": 5,
@@ -21684,12 +22263,12 @@ const data = [
     "dept": "SY3",
     "etc": 94,
     "dm": 91.75,
-    "coa": 70.5,
+    "coa": 93.0,
     "fsd-ii": 0,
     "fsd2": 67.5,
     "python2": 60.0,
     "toc": 64.0,
-    "total": 353.75,
+    "total": 376.25,
     "coa2": 25.0,
     "toc2": 21.0,
     "fsd22": 22.5,
@@ -21700,7 +22279,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 20.5,
     "sem3spi": 9.29,
-    "dm4": 47.5
+    "dm4": 47.5,
+    "coa4": 45.0
   },
   {
     "roll": 7,
@@ -21716,12 +22296,12 @@ const data = [
     "dept": "SY3",
     "etc": 92,
     "dm": 85.0,
-    "coa": 60.5,
+    "coa": 81.5,
     "fsd-ii": 0,
     "fsd2": 61.0,
     "python2": 61.5,
     "toc": 66.5,
-    "total": 334.5,
+    "total": 355.5,
     "coa2": 23.5,
     "toc2": 21.0,
     "fsd22": 17.5,
@@ -21732,7 +22312,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 22.0,
     "sem3spi": 9.46,
-    "dm4": 45.0
+    "dm4": 45.0,
+    "coa4": 42.0
   },
   {
     "roll": 9,
@@ -21748,12 +22329,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 86.25,
-    "coa": 66.5,
+    "coa": 88.0,
     "fsd-ii": 0,
     "fsd2": 69.0,
     "python2": 69.0,
     "toc": 67.5,
-    "total": 358.25,
+    "total": 379.75,
     "coa2": 25.0,
     "toc2": 23.0,
     "fsd22": 23.0,
@@ -21764,7 +22345,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 25.0,
     "sem3spi": 9.79,
-    "dm4": 43.5
+    "dm4": 43.5,
+    "coa4": 43.0
   },
   {
     "roll": 6,
@@ -21780,12 +22362,12 @@ const data = [
     "dept": "SY3",
     "etc": 94,
     "dm": 64.25,
-    "coa": 70.0,
+    "coa": 87.0,
     "fsd-ii": 0,
     "fsd2": 70.0,
     "python2": 64.5,
     "toc": 65.5,
-    "total": 334.25,
+    "total": 351.25,
     "coa2": 25.0,
     "toc2": 25.0,
     "fsd22": 22.0,
@@ -21796,7 +22378,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 20.5,
     "sem3spi": 9.67,
-    "dm4": 42.5
+    "dm4": 42.5,
+    "coa4": 34.0
   },
   {
     "roll": 8,
@@ -21812,12 +22395,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 96.5,
-    "coa": 66.5,
+    "coa": 85.25,
     "fsd-ii": 0,
     "fsd2": 64.0,
     "python2": 65.0,
     "toc": 60.0,
-    "total": 352.0,
+    "total": 370.75,
     "coa2": 25.0,
     "toc2": 22.0,
     "fsd22": 21.5,
@@ -21828,7 +22411,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 20.0,
     "sem3spi": 9.83,
-    "dm4": 49.0
+    "dm4": 49.0,
+    "coa4": 37.5
   },
   {
     "roll": 17,
@@ -21844,12 +22428,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 82.0,
-    "coa": 39.5,
+    "coa": 57.5,
     "fsd-ii": 0,
     "fsd2": 56.5,
     "python2": 53.0,
     "toc": 57.0,
-    "total": 288.0,
+    "total": 306.0,
     "coa2": 19.0,
     "toc2": 23.0,
     "fsd22": 18.0,
@@ -21860,7 +22444,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 14.0,
     "sem3spi": 9.13,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 36.0
   },
   {
     "roll": 11,
@@ -21876,12 +22461,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 85.0,
-    "coa": 66.5,
+    "coa": 85.0,
     "fsd-ii": 0,
     "fsd2": 68.0,
     "python2": 67.5,
     "toc": 62.0,
-    "total": 349.0,
+    "total": 367.5,
     "coa2": 23.0,
     "toc2": 20.0,
     "fsd22": 21.0,
@@ -21892,7 +22477,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 24.0,
     "sem3spi": 9.38,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 37.0
   },
   {
     "roll": 56,
@@ -21908,12 +22494,12 @@ const data = [
     "dept": "SY3",
     "etc": 94,
     "dm": 55.5,
-    "coa": 35.5,
+    "coa": 52.5,
     "fsd-ii": 0,
     "fsd2": 43.0,
     "python2": 26.0,
     "toc": 28.0,
-    "total": 188.0,
+    "total": 205.0,
     "coa2": 0.0,
     "toc2": 0.0,
     "fsd22": 0.0,
@@ -21924,7 +22510,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 11.0,
     "sem3spi": 8.5,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 34.0
   },
   {
     "roll": 10,
@@ -21940,12 +22527,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 93.75,
-    "coa": 66.5,
+    "coa": 84.0,
     "fsd-ii": 0,
     "fsd2": 68.0,
     "python2": 66.0,
     "toc": 64.5,
-    "total": 358.75,
+    "total": 376.25,
     "coa2": 23.0,
     "toc2": 22.0,
     "fsd22": 21.0,
@@ -21956,7 +22543,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 21.0,
     "sem3spi": 9.13,
-    "dm4": 48.5
+    "dm4": 48.5,
+    "coa4": 35.0
   },
   {
     "roll": 19,
@@ -21972,12 +22560,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 87.0,
-    "coa": 66.0,
+    "coa": 82.75,
     "fsd-ii": 0,
     "fsd2": 69.5,
     "python2": 60.5,
     "toc": 66.0,
-    "total": 349.0,
+    "total": 365.75,
     "coa2": 25.0,
     "toc2": 22.0,
     "fsd22": 23.5,
@@ -21988,7 +22576,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 16.5,
     "sem3spi": 9.13,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 33.5
   },
   {
     "roll": 12,
@@ -22004,12 +22593,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 78.5,
-    "coa": 60.0,
+    "coa": 78.25,
     "fsd-ii": 0,
     "fsd2": 68.5,
     "python2": 68.5,
     "toc": 61.5,
-    "total": 337.0,
+    "total": 355.25,
     "coa2": 17.0,
     "toc2": 22.0,
     "fsd22": 22.0,
@@ -22020,7 +22609,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 24.0,
     "sem3spi": 9.58,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 36.5
   },
   {
     "roll": 13,
@@ -22036,12 +22626,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 85.0,
-    "coa": 71.5,
+    "coa": 91.5,
     "fsd-ii": 0,
     "fsd2": 65.0,
     "python2": 57.5,
     "toc": 68.5,
-    "total": 347.5,
+    "total": 367.5,
     "coa2": 24.0,
     "toc2": 24.0,
     "fsd22": 20.0,
@@ -22052,7 +22642,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 15.5,
     "sem3spi": 9.63,
-    "dm4": 42.0
+    "dm4": 42.0,
+    "coa4": 40.0
   },
   {
     "roll": 30,
@@ -22068,12 +22659,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 84.5,
-    "coa": 68.5,
+    "coa": 84.0,
     "fsd-ii": 0,
     "fsd2": 60.0,
     "python2": 57.5,
     "toc": 67.0,
-    "total": 337.5,
+    "total": 353.0,
     "coa2": 23.5,
     "toc2": 22.0,
     "fsd22": 20.5,
@@ -22084,7 +22675,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 17.0,
     "sem3spi": 9.21,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 31.0
   },
   {
     "roll": 44,
@@ -22100,12 +22692,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 87.0,
-    "coa": 59.0,
+    "coa": 76.0,
     "fsd-ii": 0,
     "fsd2": 58.5,
     "python2": 60.0,
     "toc": 45.5,
-    "total": 310.0,
+    "total": 327.0,
     "coa2": 20.0,
     "toc2": 20.0,
     "fsd22": 18.0,
@@ -22116,7 +22708,8 @@ const data = [
     "fsd23": 17.5,
     "python23": 25.0,
     "sem3spi": 8.88,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 34.0
   },
   {
     "roll": 33,
@@ -22132,12 +22725,12 @@ const data = [
     "dept": "SY3",
     "etc": 92,
     "dm": 87.5,
-    "coa": 58.0,
+    "coa": 77.5,
     "fsd-ii": 0,
     "fsd2": 60.5,
     "python2": 49.0,
     "toc": 59.5,
-    "total": 314.5,
+    "total": 334.0,
     "coa2": 22.0,
     "toc2": 22.0,
     "fsd22": 17.5,
@@ -22148,7 +22741,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 10.5,
     "sem3spi": 8.96,
-    "dm4": 47.0
+    "dm4": 47.0,
+    "coa4": 39.0
   },
   {
     "roll": 38,
@@ -22164,12 +22758,12 @@ const data = [
     "dept": "SY3",
     "etc": 94,
     "dm": 73.75,
-    "coa": 54.5,
+    "coa": 74.5,
     "fsd-ii": 0,
     "fsd2": 62.5,
     "python2": 57.0,
     "toc": 60.0,
-    "total": 307.75,
+    "total": 327.75,
     "coa2": 16.5,
     "toc2": 16.5,
     "fsd22": 21.5,
@@ -22180,7 +22774,8 @@ const data = [
     "fsd23": 21.5,
     "python23": 13.5,
     "sem3spi": 8.79,
-    "dm4": 42.5
+    "dm4": 42.5,
+    "coa4": 40.0
   },
   {
     "roll": 35,
@@ -22196,12 +22791,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 85.25,
-    "coa": 70.0,
+    "coa": 88.0,
     "fsd-ii": 0,
     "fsd2": 67.0,
     "python2": 65.0,
     "toc": 66.0,
-    "total": 353.25,
+    "total": 371.25,
     "coa2": 23.0,
     "toc2": 24.0,
     "fsd22": 23.0,
@@ -22212,7 +22807,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 20.0,
     "sem3spi": 9.04,
-    "dm4": 44.5
+    "dm4": 44.5,
+    "coa4": 36.0
   },
   {
     "roll": 43,
@@ -22228,12 +22824,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 70.75,
-    "coa": 58.5,
+    "coa": 75.5,
     "fsd-ii": 0,
     "fsd2": 67.5,
     "python2": 58.5,
     "toc": 55.0,
-    "total": 310.25,
+    "total": 327.25,
     "coa2": 17.0,
     "toc2": 18.5,
     "fsd22": 22.0,
@@ -22244,7 +22840,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 16.5,
     "sem3spi": 8.83,
-    "dm4": 23.5
+    "dm4": 23.5,
+    "coa4": 34.0
   },
   {
     "roll": 24,
@@ -22260,12 +22857,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 77.5,
-    "coa": 66.0,
+    "coa": 84.0,
     "fsd-ii": 0,
     "fsd2": 58.5,
     "python2": 58.0,
     "toc": 61.5,
-    "total": 321.5,
+    "total": 339.5,
     "coa2": 24.0,
     "toc2": 19.0,
     "fsd22": 20.5,
@@ -22276,7 +22873,8 @@ const data = [
     "fsd23": 21.5,
     "python23": 15.0,
     "sem3spi": 9.25,
-    "dm4": 34.0
+    "dm4": 34.0,
+    "coa4": 36.0
   },
   {
     "roll": 15,
@@ -22292,12 +22890,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 77.25,
-    "coa": 62.0,
+    "coa": 79.25,
     "fsd-ii": 0,
     "fsd2": 65.0,
     "python2": 59.5,
     "toc": 65.0,
-    "total": 328.75,
+    "total": 346.0,
     "coa2": 21.0,
     "toc2": 23.0,
     "fsd22": 20.0,
@@ -22308,7 +22906,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 18.5,
     "sem3spi": 9.38,
-    "dm4": 32.5
+    "dm4": 32.5,
+    "coa4": 34.5
   },
   {
     "roll": 36,
@@ -22324,12 +22923,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 80.0,
-    "coa": 59.5,
+    "coa": 75.0,
     "fsd-ii": 0,
     "fsd2": 62.5,
     "python2": 56.5,
     "toc": 64.5,
-    "total": 323.0,
+    "total": 338.5,
     "coa2": 22.0,
     "toc2": 22.5,
     "fsd22": 18.5,
@@ -22340,7 +22939,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 16.5,
     "sem3spi": 9.08,
-    "dm4": 36.0
+    "dm4": 36.0,
+    "coa4": 31.0
   },
   {
     "roll": 16,
@@ -22356,12 +22956,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 92.5,
-    "coa": 70.5,
+    "coa": 93.0,
     "fsd-ii": 0,
     "fsd2": 63.0,
     "python2": 65.0,
     "toc": 60.5,
-    "total": 351.5,
+    "total": 374.0,
     "coa2": 24.0,
     "toc2": 22.0,
     "fsd22": 23.0,
@@ -22372,7 +22972,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 22.0,
     "sem3spi": 9.33,
-    "dm4": 49.0
+    "dm4": 49.0,
+    "coa4": 45.0
   },
   {
     "roll": 37,
@@ -22388,12 +22989,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 59.5,
-    "coa": 48.5,
+    "coa": 64.0,
     "fsd-ii": 0,
     "fsd2": 62.0,
     "python2": 64.5,
     "toc": 35.0,
-    "total": 269.5,
+    "total": 285.0,
     "coa2": 19.0,
     "toc2": 9.5,
     "fsd22": 18.5,
@@ -22404,7 +23005,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 20.0,
     "sem3spi": 8.75,
-    "dm4": 35.0
+    "dm4": 35.0,
+    "coa4": 31.0
   },
   {
     "roll": 48,
@@ -22420,12 +23022,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 81.5,
-    "coa": 57.0,
+    "coa": 71.5,
     "fsd-ii": 0,
     "fsd2": 60.5,
     "python2": 55.5,
     "toc": 57.5,
-    "total": 312.0,
+    "total": 326.5,
     "coa2": 19.0,
     "toc2": 19.0,
     "fsd22": 23.5,
@@ -22436,7 +23038,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 17.5,
     "sem3spi": 8.63,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 29.0
   },
   {
     "roll": 27,
@@ -22452,12 +23055,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 75.75,
-    "coa": 62.5,
+    "coa": 80.0,
     "fsd-ii": 0,
     "fsd2": 60.5,
     "python2": 60.0,
     "toc": 58.5,
-    "total": 317.25,
+    "total": 334.75,
     "coa2": 22.5,
     "toc2": 21.0,
     "fsd22": 18.5,
@@ -22468,7 +23071,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 17.5,
     "sem3spi": 9.13,
-    "dm4": 39.5
+    "dm4": 39.5,
+    "coa4": 35.0
   },
   {
     "roll": 53,
@@ -22484,12 +23088,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 81.0,
-    "coa": 67.0,
+    "coa": 85.5,
     "fsd-ii": 0,
     "fsd2": 63.5,
     "python2": 58.0,
     "toc": 65.0,
-    "total": 334.5,
+    "total": 353.0,
     "coa2": 25.0,
     "toc2": 25.0,
     "fsd22": 23.0,
@@ -22500,7 +23104,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 18.0,
     "sem3spi": 8.71,
-    "dm4": 36.0
+    "dm4": 36.0,
+    "coa4": 37.0
   },
   {
     "roll": 66,
@@ -22516,12 +23121,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 85.0,
-    "coa": 67.5,
+    "coa": 73.0,
     "fsd-ii": 0,
     "fsd2": 57.0,
     "python2": 59.0,
     "toc": 63.0,
-    "total": 331.5,
+    "total": 337.0,
     "coa2": 23.5,
     "toc2": 21.0,
     "fsd22": 17.0,
@@ -22532,7 +23137,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 17.0,
     "sem3spi": 8.25,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 11.0
   },
   {
     "roll": 29,
@@ -22548,12 +23154,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 84.5,
-    "coa": 69.5,
+    "coa": 86.25,
     "fsd-ii": 0,
     "fsd2": 68.0,
     "python2": 63.0,
     "toc": 64.5,
-    "total": 349.5,
+    "total": 366.25,
     "coa2": 24.0,
     "toc2": 23.0,
     "fsd22": 23.0,
@@ -22564,7 +23170,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 19.0,
     "sem3spi": 9.0,
-    "dm4": 44.0
+    "dm4": 44.0,
+    "coa4": 33.5
   },
   {
     "roll": 20,
@@ -22580,12 +23187,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 84.0,
-    "coa": 60.5,
+    "coa": 76.5,
     "fsd-ii": 0,
     "fsd2": 61.0,
     "python2": 67.5,
     "toc": 56.5,
-    "total": 329.5,
+    "total": 345.5,
     "coa2": 15.5,
     "toc2": 21.5,
     "fsd22": 21.0,
@@ -22596,7 +23203,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 24.0,
     "sem3spi": 9.25,
-    "dm4": 35.0
+    "dm4": 35.0,
+    "coa4": 32.0
   },
   {
     "roll": 21,
@@ -22612,12 +23220,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 81.5,
-    "coa": 67.5,
+    "coa": 86.5,
     "fsd-ii": 0,
     "fsd2": 64.0,
     "python2": 59.5,
     "toc": 62.0,
-    "total": 334.5,
+    "total": 353.5,
     "coa2": 21.5,
     "toc2": 22.0,
     "fsd22": 22.0,
@@ -22628,7 +23236,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 18.5,
     "sem3spi": 9.38,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 38.0
   },
   {
     "roll": 54,
@@ -22644,12 +23253,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 75.25,
-    "coa": 63.0,
+    "coa": 83.5,
     "fsd-ii": 0,
     "fsd2": 66.0,
     "python2": 65.0,
     "toc": 53.5,
-    "total": 322.75,
+    "total": 343.25,
     "coa2": 23.5,
     "toc2": 17.0,
     "fsd22": 22.0,
@@ -22660,7 +23269,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 21.0,
     "sem3spi": 9.17,
-    "dm4": 28.5
+    "dm4": 28.5,
+    "coa4": 41.0
   },
   {
     "roll": 62,
@@ -22676,12 +23286,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 77.25,
-    "coa": 55.0,
+    "coa": 65.5,
     "fsd-ii": 0,
     "fsd2": 45.0,
     "python2": 47.0,
     "toc": 58.0,
-    "total": 282.25,
+    "total": 292.75,
     "coa2": 17.5,
     "toc2": 18.0,
     "fsd22": 17.0,
@@ -22692,7 +23302,8 @@ const data = [
     "fsd23": 9.0,
     "python23": 13.5,
     "sem3spi": 8.42,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 21.0
   },
   {
     "roll": 64,
@@ -22708,12 +23319,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 69.25,
-    "coa": 50.5,
+    "coa": 63.0,
     "fsd-ii": 0,
     "fsd2": 54.5,
     "python2": 64.5,
     "toc": 58.5,
-    "total": 297.25,
+    "total": 309.75,
     "coa2": 19.5,
     "toc2": 21.0,
     "fsd22": 16.5,
@@ -22724,7 +23335,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 24.0,
     "sem3spi": 8.38,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 25.0
   },
   {
     "roll": 42,
@@ -22740,12 +23352,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 79.0,
-    "coa": 62.5,
+    "coa": 76.25,
     "fsd-ii": 0,
     "fsd2": 63.5,
     "python2": 56.5,
     "toc": 56.0,
-    "total": 317.5,
+    "total": 331.25,
     "coa2": 21.5,
     "toc2": 18.0,
     "fsd22": 21.0,
@@ -22756,7 +23368,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 20.0,
     "sem3spi": 9.13,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 27.5
   },
   {
     "roll": 31,
@@ -22772,12 +23385,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 86.0,
-    "coa": 70.0,
+    "coa": 92.0,
     "fsd-ii": 0,
     "fsd2": 67.0,
     "python2": 67.5,
     "toc": 63.0,
-    "total": 353.5,
+    "total": 375.5,
     "coa2": 24.0,
     "toc2": 17.0,
     "fsd22": 23.5,
@@ -22788,7 +23401,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 21.0,
     "sem3spi": 9.38,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 44.0
   },
   {
     "roll": 51,
@@ -22804,12 +23418,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 70.75,
-    "coa": 64.0,
+    "coa": 83.0,
     "fsd-ii": 0,
     "fsd2": 53.0,
     "python2": 51.5,
     "toc": 54.0,
-    "total": 293.25,
+    "total": 312.25,
     "coa2": 21.5,
     "toc2": 21.0,
     "fsd22": 14.0,
@@ -22820,7 +23434,8 @@ const data = [
     "fsd23": 16.5,
     "python23": 15.0,
     "sem3spi": 8.92,
-    "dm4": 33.5
+    "dm4": 33.5,
+    "coa4": 38.0
   },
   {
     "roll": 41,
@@ -22836,12 +23451,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 84.25,
-    "coa": 64.0,
+    "coa": 80.0,
     "fsd-ii": 0,
     "fsd2": 56.0,
     "python2": 51.5,
     "toc": 53.0,
-    "total": 308.75,
+    "total": 324.75,
     "coa2": 20.5,
     "toc2": 19.0,
     "fsd22": 21.5,
@@ -22852,7 +23467,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 14.0,
     "sem3spi": 9.08,
-    "dm4": 41.5
+    "dm4": 41.5,
+    "coa4": 32.0
   },
   {
     "roll": 52,
@@ -22868,12 +23484,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 86.0,
-    "coa": 65.0,
+    "coa": 84.0,
     "fsd-ii": 0,
     "fsd2": 52.0,
     "python2": 61.5,
     "toc": 60.0,
-    "total": 324.5,
+    "total": 343.5,
     "coa2": 21.0,
     "toc2": 21.5,
     "fsd22": 16.0,
@@ -22884,7 +23500,8 @@ const data = [
     "fsd23": 16.0,
     "python23": 17.0,
     "sem3spi": 9.0,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 38.0
   },
   {
     "roll": 23,
@@ -22900,12 +23517,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 88.0,
-    "coa": 63.0,
+    "coa": 82.0,
     "fsd-ii": 0,
     "fsd2": 64.5,
     "python2": 62.0,
     "toc": 52.0,
-    "total": 329.5,
+    "total": 348.5,
     "coa2": 22.0,
     "toc2": 19.0,
     "fsd22": 21.0,
@@ -22916,7 +23533,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 18.0,
     "sem3spi": 9.29,
-    "dm4": 44.0
+    "dm4": 44.0,
+    "coa4": 38.0
   },
   {
     "roll": 39,
@@ -22932,12 +23550,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 87.25,
-    "coa": 68.5,
+    "coa": 89.5,
     "fsd-ii": 0,
     "fsd2": 68.5,
     "python2": 62.5,
     "toc": 57.0,
-    "total": 343.75,
+    "total": 364.75,
     "coa2": 23.0,
     "toc2": 16.5,
     "fsd22": 23.5,
@@ -22948,7 +23566,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 18.5,
     "sem3spi": 9.25,
-    "dm4": 45.5
+    "dm4": 45.5,
+    "coa4": 42.0
   },
   {
     "roll": 32,
@@ -22964,12 +23583,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 83.0,
-    "coa": 68.5,
+    "coa": 90.0,
     "fsd-ii": 0,
     "fsd2": 72.0,
     "python2": 63.0,
     "toc": 60.5,
-    "total": 347.0,
+    "total": 368.5,
     "coa2": 24.0,
     "toc2": 20.5,
     "fsd22": 23.0,
@@ -22980,7 +23599,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 19.5,
     "sem3spi": 9.25,
-    "dm4": 44.0
+    "dm4": 44.0,
+    "coa4": 43.0
   },
   {
     "roll": 26,
@@ -22996,12 +23616,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 83.75,
-    "coa": 64.0,
+    "coa": 74.0,
     "fsd-ii": 0,
     "fsd2": 69.5,
     "python2": 61.5,
     "toc": 57.5,
-    "total": 336.25,
+    "total": 346.25,
     "coa2": 21.0,
     "toc2": 20.5,
     "fsd22": 22.5,
@@ -23012,7 +23632,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 18.0,
     "sem3spi": 8.22,
-    "dm4": 44.5
+    "dm4": 44.5,
+    "coa4": 20.0
   },
   {
     "roll": 47,
@@ -23028,12 +23649,12 @@ const data = [
     "dept": "SY3",
     "etc": 94,
     "dm": 66.25,
-    "coa": 56.0,
+    "coa": 69.0,
     "fsd-ii": 0,
     "fsd2": 56.0,
     "python2": 64.0,
     "toc": 49.5,
-    "total": 291.75,
+    "total": 304.75,
     "coa2": 18.0,
     "toc2": 13.5,
     "fsd22": 15.5,
@@ -23044,7 +23665,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 25.0,
     "sem3spi": 9.04,
-    "dm4": 34.5
+    "dm4": 34.5,
+    "coa4": 26.0
   },
   {
     "roll": 28,
@@ -23060,12 +23682,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 86.0,
-    "coa": 67.0,
+    "coa": 88.0,
     "fsd-ii": 0,
     "fsd2": 69.5,
     "python2": 62.0,
     "toc": 55.5,
-    "total": 340.0,
+    "total": 361.0,
     "coa2": 24.0,
     "toc2": 17.0,
     "fsd22": 23.0,
@@ -23076,7 +23698,8 @@ const data = [
     "fsd23": 24.5,
     "python23": 19.0,
     "sem3spi": 9.04,
-    "dm4": 43.0
+    "dm4": 43.0,
+    "coa4": 42.0
   },
   {
     "roll": 57,
@@ -23092,12 +23715,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 71.5,
-    "coa": 52.0,
+    "coa": 66.75,
     "fsd-ii": 0,
     "fsd2": 62.0,
     "python2": 59.0,
     "toc": 60.5,
-    "total": 305.0,
+    "total": 319.75,
     "coa2": 18.0,
     "toc2": 22.0,
     "fsd22": 20.0,
@@ -23108,7 +23731,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 18.0,
     "sem3spi": 8.88,
-    "dm4": 32.0
+    "dm4": 32.0,
+    "coa4": 29.5
   },
   {
     "roll": 34,
@@ -23124,12 +23748,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 87.25,
-    "coa": 71.5,
+    "coa": 88.0,
     "fsd-ii": 0,
     "fsd2": 62.5,
     "python2": 59.0,
     "toc": 63.5,
-    "total": 343.75,
+    "total": 360.25,
     "coa2": 25.0,
     "toc2": 20.0,
     "fsd22": 23.0,
@@ -23140,7 +23764,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 16.0,
     "sem3spi": 9.42,
-    "dm4": 44.5
+    "dm4": 44.5,
+    "coa4": 33.0
   },
   {
     "roll": 50,
@@ -23156,12 +23781,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 74.25,
-    "coa": 53.0,
+    "coa": 71.25,
     "fsd-ii": 0,
     "fsd2": 45.0,
     "python2": 53.0,
     "toc": 60.0,
-    "total": 285.25,
+    "total": 303.5,
     "coa2": 18.0,
     "toc2": 20.0,
     "fsd22": 21.0,
@@ -23172,7 +23797,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 17.5,
     "sem3spi": 9.17,
-    "dm4": 40.5
+    "dm4": 40.5,
+    "coa4": 36.5
   },
   {
     "roll": 60,
@@ -23188,12 +23814,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 72.25,
-    "coa": 58.5,
+    "coa": 72.5,
     "fsd-ii": 0,
     "fsd2": 64.0,
     "python2": 56.5,
     "toc": 52.5,
-    "total": 303.75,
+    "total": 317.75,
     "coa2": 22.0,
     "toc2": 19.0,
     "fsd22": 20.0,
@@ -23204,7 +23830,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 17.0,
     "sem3spi": 8.96,
-    "dm4": 34.5
+    "dm4": 34.5,
+    "coa4": 28.0
   },
   {
     "roll": 90,
@@ -23220,12 +23847,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 83.0,
-    "coa": 60.5,
+    "coa": 77.5,
     "fsd-ii": 0,
     "fsd2": 52.0,
     "python2": 57.5,
     "toc": 58.5,
-    "total": 311.5,
+    "total": 328.5,
     "coa2": 18.0,
     "toc2": 21.0,
     "fsd22": 16.5,
@@ -23236,7 +23863,8 @@ const data = [
     "fsd23": 17.0,
     "python23": 16.5,
     "sem3spi": 8.71,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 34.0
   },
   {
     "roll": 61,
@@ -23252,12 +23880,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 82.75,
-    "coa": 61.0,
+    "coa": 76.5,
     "fsd-ii": 0,
     "fsd2": 64.0,
     "python2": 61.0,
     "toc": 57.5,
-    "total": 326.25,
+    "total": 341.75,
     "coa2": 20.5,
     "toc2": 19.0,
     "fsd22": 19.0,
@@ -23268,7 +23896,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 22.0,
     "sem3spi": 9.04,
-    "dm4": 43.5
+    "dm4": 43.5,
+    "coa4": 31.0
   },
   {
     "roll": 45,
@@ -23284,12 +23913,12 @@ const data = [
     "dept": "SY3",
     "etc": 94,
     "dm": 86.5,
-    "coa": 60.5,
+    "coa": 80.75,
     "fsd-ii": 0,
     "fsd2": 65.5,
     "python2": 68.5,
     "toc": 61.5,
-    "total": 342.5,
+    "total": 362.75,
     "coa2": 22.5,
     "toc2": 20.0,
     "fsd22": 21.0,
@@ -23300,7 +23929,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 25.0,
     "sem3spi": 9.13,
-    "dm4": 43.0
+    "dm4": 43.0,
+    "coa4": 40.5
   },
   {
     "roll": 76,
@@ -23316,12 +23946,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 81.75,
-    "coa": 63.5,
+    "coa": 80.0,
     "fsd-ii": 0,
     "fsd2": 56.0,
     "python2": 45.0,
     "toc": 50.5,
-    "total": 296.75,
+    "total": 313.25,
     "coa2": 20.0,
     "toc2": 17.0,
     "fsd22": 16.5,
@@ -23332,7 +23962,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 15.5,
     "sem3spi": 8.79,
-    "dm4": 41.5
+    "dm4": 41.5,
+    "coa4": 33.0
   },
   {
     "roll": 58,
@@ -23348,12 +23979,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 89.0,
-    "coa": 69.5,
+    "coa": 90.25,
     "fsd-ii": 0,
     "fsd2": 63.5,
     "python2": 57.0,
     "toc": 55.5,
-    "total": 334.5,
+    "total": 355.25,
     "coa2": 24.5,
     "toc2": 19.0,
     "fsd22": 22.0,
@@ -23364,7 +23995,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 18.5,
     "sem3spi": 9.25,
-    "dm4": 45.0
+    "dm4": 45.0,
+    "coa4": 41.5
   },
   {
     "roll": 79,
@@ -23380,12 +24012,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 69.0,
-    "coa": 50.5,
+    "coa": 69.0,
     "fsd-ii": 0,
     "fsd2": 54.5,
     "python2": 42.5,
     "toc": 49.5,
-    "total": 266.0,
+    "total": 284.5,
     "coa2": 11.0,
     "toc2": 18.5,
     "fsd22": 13.5,
@@ -23396,7 +24028,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 14.0,
     "sem3spi": 8.5,
-    "dm4": 36.0
+    "dm4": 36.0,
+    "coa4": 37.0
   },
   {
     "roll": 84,
@@ -23412,12 +24045,12 @@ const data = [
     "dept": "SY3",
     "etc": 94,
     "dm": 67.25,
-    "coa": 53.0,
+    "coa": 64.5,
     "fsd-ii": 0,
     "fsd2": 51.0,
     "python2": 45.0,
     "toc": 45.5,
-    "total": 261.75,
+    "total": 273.25,
     "coa2": 16.5,
     "toc2": 16.5,
     "fsd22": 14.5,
@@ -23428,7 +24061,8 @@ const data = [
     "fsd23": 17.0,
     "python23": 14.0,
     "sem3spi": 8.08,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 23.0
   },
   {
     "roll": 68,
@@ -23444,12 +24078,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 85.0,
-    "coa": 69.5,
+    "coa": 88.5,
     "fsd-ii": 0,
     "fsd2": 58.0,
     "python2": 56.5,
     "toc": 58.5,
-    "total": 327.5,
+    "total": 346.5,
     "coa2": 25.0,
     "toc2": 22.0,
     "fsd22": 20.0,
@@ -23460,7 +24094,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 17.0,
     "sem3spi": 9.04,
-    "dm4": 44.0
+    "dm4": 44.0,
+    "coa4": 38.0
   },
   {
     "roll": 59,
@@ -23476,12 +24111,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 77.75,
-    "coa": 57.0,
+    "coa": 77.0,
     "fsd-ii": 0,
     "fsd2": 61.5,
     "python2": 49.0,
     "toc": 59.0,
-    "total": 304.25,
+    "total": 324.25,
     "coa2": 22.0,
     "toc2": 20.0,
     "fsd22": 19.0,
@@ -23492,7 +24127,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 13.5,
     "sem3spi": 8.79,
-    "dm4": 42.5
+    "dm4": 42.5,
+    "coa4": 40.0
   },
   {
     "roll": 55,
@@ -23508,12 +24144,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 78.5,
-    "coa": 62.5,
+    "coa": 81.0,
     "fsd-ii": 0,
     "fsd2": 62.0,
     "python2": 62.0,
     "toc": 59.0,
-    "total": 324.0,
+    "total": 342.5,
     "coa2": 21.0,
     "toc2": 23.0,
     "fsd22": 22.0,
@@ -23524,7 +24160,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 20.0,
     "sem3spi": 9.08,
-    "dm4": 43.0
+    "dm4": 43.0,
+    "coa4": 37.0
   },
   {
     "roll": 83,
@@ -23540,12 +24177,12 @@ const data = [
     "dept": "SY3",
     "etc": 92,
     "dm": 75.25,
-    "coa": 66.0,
+    "coa": 82.5,
     "fsd-ii": 0,
     "fsd2": 55.0,
     "python2": 50.5,
     "toc": 54.0,
-    "total": 300.75,
+    "total": 317.25,
     "coa2": 21.5,
     "toc2": 16.5,
     "fsd22": 12.5,
@@ -23556,7 +24193,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 17.5,
     "sem3spi": 8.38,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 33.0
   },
   {
     "roll": 85,
@@ -23572,12 +24210,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 71.75,
-    "coa": 35.0,
+    "coa": 49.0,
     "fsd-ii": 0,
     "fsd2": 60.0,
     "python2": 47.5,
     "toc": 37.5,
-    "total": 251.75,
+    "total": 265.75,
     "coa2": 6.0,
     "toc2": 15.5,
     "fsd22": 19.0,
@@ -23588,7 +24226,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 12.0,
     "sem3spi": 7.67,
-    "dm4": 28.5
+    "dm4": 28.5,
+    "coa4": 28.0
   },
   {
     "roll": 70,
@@ -23604,12 +24243,12 @@ const data = [
     "dept": "SY3",
     "etc": 84,
     "dm": 81.5,
-    "coa": 56.0,
+    "coa": 68.5,
     "fsd-ii": 0,
     "fsd2": 53.5,
     "python2": 48.0,
     "toc": 57.5,
-    "total": 296.5,
+    "total": 309.0,
     "coa2": 17.0,
     "toc2": 18.5,
     "fsd22": 17.5,
@@ -23620,7 +24259,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 16.0,
     "sem3spi": 8.46,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 25.0
   },
   {
     "roll": 80,
@@ -23636,12 +24276,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 59.75,
-    "coa": 52.5,
+    "coa": 65.5,
     "fsd-ii": 0,
     "fsd2": 68.0,
     "python2": 55.0,
     "toc": 46.5,
-    "total": 281.75,
+    "total": 294.75,
     "coa2": 22.0,
     "toc2": 15.0,
     "fsd22": 22.5,
@@ -23652,7 +24292,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 15.0,
     "sem3spi": 8.13,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 26.0
   },
   {
     "roll": 77,
@@ -23668,12 +24309,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 62.75,
-    "coa": 36.0,
+    "coa": 52.5,
     "fsd-ii": 0,
     "fsd2": 42.5,
     "python2": 25.5,
     "toc": 31.5,
-    "total": 198.25,
+    "total": 214.75,
     "coa2": 0.0,
     "toc2": 0.0,
     "fsd22": 0.0,
@@ -23684,7 +24325,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 12.0,
     "sem3spi": 8.5,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 33.0
   },
   {
     "roll": 40,
@@ -23700,12 +24342,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 78.75,
-    "coa": 66.5,
+    "coa": 87.0,
     "fsd-ii": 0,
     "fsd2": 68.5,
     "python2": 58.0,
     "toc": 62.5,
-    "total": 334.25,
+    "total": 354.75,
     "coa2": 21.0,
     "toc2": 22.0,
     "fsd22": 23.0,
@@ -23716,7 +24358,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 19.0,
     "sem3spi": 9.17,
-    "dm4": 39.5
+    "dm4": 39.5,
+    "coa4": 41.0
   },
   {
     "roll": 46,
@@ -23732,12 +24375,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 79.25,
-    "coa": 55.0,
+    "coa": 72.75,
     "fsd-ii": 0,
     "fsd2": 63.5,
     "python2": 55.5,
     "toc": 61.5,
-    "total": 314.75,
+    "total": 332.5,
     "coa2": 14.0,
     "toc2": 21.0,
     "fsd22": 21.5,
@@ -23748,7 +24391,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 17.0,
     "sem3spi": 9.33,
-    "dm4": 39.5
+    "dm4": 39.5,
+    "coa4": 35.5
   },
   {
     "roll": 88,
@@ -23764,12 +24408,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 79.0,
-    "coa": 45.5,
+    "coa": 61.0,
     "fsd-ii": 0,
     "fsd2": 57.5,
     "python2": 41.0,
     "toc": 54.0,
-    "total": 277.0,
+    "total": 292.5,
     "coa2": 16.0,
     "toc2": 14.5,
     "fsd22": 18.5,
@@ -23780,7 +24424,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 13.5,
     "sem3spi": 8.5,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 31.0
   },
   {
     "roll": 71,
@@ -23796,12 +24441,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 57.25,
-    "coa": 42.0,
+    "coa": 57.5,
     "fsd-ii": 0,
     "fsd2": 65.0,
     "python2": 52.5,
     "toc": 49.5,
-    "total": 266.25,
+    "total": 281.75,
     "coa2": 0.0,
     "toc2": 18.5,
     "fsd22": 22.5,
@@ -23812,7 +24457,8 @@ const data = [
     "fsd23": 20.5,
     "python23": 16.0,
     "sem3spi": 8.42,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 31.0
   },
   {
     "roll": 78,
@@ -23828,12 +24474,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 77.0,
-    "coa": 58.0,
+    "coa": 74.0,
     "fsd-ii": 0,
     "fsd2": 55.0,
     "python2": 49.0,
     "toc": 48.0,
-    "total": 287.0,
+    "total": 303.0,
     "coa2": 21.5,
     "toc2": 19.0,
     "fsd22": 19.0,
@@ -23844,7 +24490,8 @@ const data = [
     "fsd23": 14.5,
     "python23": 14.0,
     "sem3spi": 8.54,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 32.0
   },
   {
     "roll": 49,
@@ -23860,12 +24507,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 79.25,
-    "coa": 62.5,
+    "coa": 78.75,
     "fsd-ii": 0,
     "fsd2": 47.0,
     "python2": 48.5,
     "toc": 59.0,
-    "total": 296.25,
+    "total": 312.5,
     "coa2": 22.0,
     "toc2": 20.0,
     "fsd22": 20.0,
@@ -23876,7 +24523,8 @@ const data = [
     "fsd23": 9.0,
     "python23": 15.5,
     "sem3spi": 9.04,
-    "dm4": 40.5
+    "dm4": 40.5,
+    "coa4": 32.5
   },
   {
     "roll": 99,
@@ -23892,12 +24540,12 @@ const data = [
     "dept": "SY3",
     "etc": 90,
     "dm": 71.0,
-    "coa": 59.0,
+    "coa": 75.5,
     "fsd-ii": 0,
     "fsd2": 53.5,
     "python2": 54.5,
     "toc": 62.0,
-    "total": 300.0,
+    "total": 316.5,
     "coa2": 18.0,
     "toc2": 22.0,
     "fsd22": 13.0,
@@ -23908,7 +24556,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 13.0,
     "sem3spi": 8.29,
-    "dm4": 34.0
+    "dm4": 34.0,
+    "coa4": 33.0
   },
   {
     "roll": 89,
@@ -23924,12 +24573,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 69.0,
-    "coa": 61.5,
+    "coa": 77.5,
     "fsd-ii": 0,
     "fsd2": 41.0,
     "python2": 28.0,
     "toc": 59.0,
-    "total": 258.5,
+    "total": 274.5,
     "coa2": 19.5,
     "toc2": 20.5,
     "fsd22": 16.0,
@@ -23940,7 +24589,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 11.5,
     "sem3spi": 8.42,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 32.0
   },
   {
     "roll": 91,
@@ -23956,12 +24606,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 77.0,
-    "coa": 65.0,
+    "coa": 80.0,
     "fsd-ii": 0,
     "fsd2": 53.0,
     "python2": 48.5,
     "toc": 53.0,
-    "total": 296.5,
+    "total": 311.5,
     "coa2": 20.0,
     "toc2": 21.5,
     "fsd22": 12.0,
@@ -23972,7 +24622,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 15.0,
     "sem3spi": 7.92,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 30.0
   },
   {
     "roll": 67,
@@ -23988,12 +24639,12 @@ const data = [
     "dept": "SY3",
     "etc": 92,
     "dm": 78.0,
-    "coa": 65.0,
+    "coa": 80.25,
     "fsd-ii": 0,
     "fsd2": 61.0,
     "python2": 52.0,
     "toc": 51.5,
-    "total": 307.5,
+    "total": 322.75,
     "coa2": 19.0,
     "toc2": 22.0,
     "fsd22": 22.0,
@@ -24004,7 +24655,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 18.0,
     "sem3spi": 8.83,
-    "dm4": 43.0
+    "dm4": 43.0,
+    "coa4": 30.5
   },
   {
     "roll": 82,
@@ -24020,12 +24672,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 77.25,
-    "coa": 56.5,
+    "coa": 74.0,
     "fsd-ii": 0,
     "fsd2": 58.5,
     "python2": 48.5,
     "toc": 51.0,
-    "total": 291.75,
+    "total": 309.25,
     "coa2": 17.0,
     "toc2": 23.0,
     "fsd22": 20.5,
@@ -24036,7 +24688,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 13.5,
     "sem3spi": 8.33,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 35.0
   },
   {
     "roll": 74,
@@ -24052,12 +24705,12 @@ const data = [
     "dept": "SY3",
     "etc": 86,
     "dm": 71.25,
-    "coa": 61.0,
+    "coa": 70.0,
     "fsd-ii": 0,
     "fsd2": 52.0,
     "python2": 52.5,
     "toc": 58.5,
-    "total": 295.25,
+    "total": 304.25,
     "coa2": 22.5,
     "toc2": 19.0,
     "fsd22": 20.0,
@@ -24068,7 +24721,8 @@ const data = [
     "fsd23": 12.5,
     "python23": 16.5,
     "sem3spi": 8.42,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 18.0
   },
   {
     "roll": 73,
@@ -24084,12 +24738,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 80.0,
-    "coa": 51.5,
+    "coa": 64.75,
     "fsd-ii": 0,
     "fsd2": 51.5,
     "python2": 49.5,
     "toc": 51.5,
-    "total": 284.0,
+    "total": 297.25,
     "coa2": 17.5,
     "toc2": 17.0,
     "fsd22": 20.0,
@@ -24100,7 +24754,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 12.0,
     "sem3spi": 8.54,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 26.5
   },
   {
     "roll": 92,
@@ -24116,12 +24771,12 @@ const data = [
     "dept": "SY3",
     "etc": 88,
     "dm": 87.75,
-    "coa": 72.0,
+    "coa": 88.5,
     "fsd-ii": 0,
     "fsd2": 61.0,
     "python2": 52.0,
     "toc": 55.0,
-    "total": 327.75,
+    "total": 344.25,
     "coa2": 23.5,
     "toc2": 20.0,
     "fsd22": 18.0,
@@ -24132,7 +24787,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 16.5,
     "sem3spi": 8.38,
-    "dm4": 45.5
+    "dm4": 45.5,
+    "coa4": 33.0
   },
   {
     "roll": 98,
@@ -24148,12 +24804,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 77.25,
-    "coa": 61.5,
+    "coa": 79.0,
     "fsd-ii": 0,
     "fsd2": 57.5,
     "python2": 47.5,
     "toc": 56.0,
-    "total": 299.75,
+    "total": 317.25,
     "coa2": 21.0,
     "toc2": 20.0,
     "fsd22": 19.5,
@@ -24164,7 +24820,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 13.5,
     "sem3spi": 8.54,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 35.0
   },
   {
     "roll": 103,
@@ -24180,12 +24837,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 77.0,
-    "coa": 56.0,
+    "coa": 67.0,
     "fsd-ii": 0,
     "fsd2": 39.0,
     "python2": 49.0,
     "toc": 54.0,
-    "total": 275.0,
+    "total": 286.0,
     "coa2": 18.5,
     "toc2": 22.0,
     "fsd22": 15.5,
@@ -24196,7 +24853,8 @@ const data = [
     "fsd23": 17.5,
     "python23": 18.0,
     "sem3spi": 8.5,
-    "dm4": 35.0
+    "dm4": 35.0,
+    "coa4": 22.0
   },
   {
     "roll": 127,
@@ -24212,12 +24870,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 75.25,
-    "coa": 48.0,
+    "coa": 59.5,
     "fsd-ii": 0,
     "fsd2": 62.0,
     "python2": 46.5,
     "toc": 59.0,
-    "total": 290.75,
+    "total": 302.25,
     "coa2": 14.0,
     "toc2": 19.0,
     "fsd22": 20.5,
@@ -24228,7 +24886,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 15.5,
     "sem3spi": 7.83,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 23.0
   },
   {
     "roll": 95,
@@ -24244,12 +24903,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 70.25,
-    "coa": 59.5,
+    "coa": 74.0,
     "fsd-ii": 0,
     "fsd2": 66.0,
     "python2": 69.0,
     "toc": 58.0,
-    "total": 322.75,
+    "total": 337.25,
     "coa2": 15.5,
     "toc2": 21.0,
     "fsd22": 24.0,
@@ -24260,7 +24919,8 @@ const data = [
     "fsd23": 20.5,
     "python23": 24.0,
     "sem3spi": 8.38,
-    "dm4": 33.5
+    "dm4": 33.5,
+    "coa4": 29.0
   },
   {
     "roll": 93,
@@ -24276,12 +24936,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 75.25,
-    "coa": 66.0,
+    "coa": 78.0,
     "fsd-ii": 0,
     "fsd2": 52.5,
     "python2": 49.5,
     "toc": 43.5,
-    "total": 286.75,
+    "total": 298.75,
     "coa2": 25.0,
     "toc2": 19.0,
     "fsd22": 12.5,
@@ -24292,7 +24952,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 13.0,
     "sem3spi": 8.04,
-    "dm4": 30.5
+    "dm4": 30.5,
+    "coa4": 24.0
   },
   {
     "roll": 114,
@@ -24308,12 +24969,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 61.75,
-    "coa": 44.0,
+    "coa": 52.25,
     "fsd-ii": 0,
     "fsd2": 45.0,
     "python2": 39.5,
     "toc": 49.5,
-    "total": 239.75,
+    "total": 248.0,
     "coa2": 10.0,
     "toc2": 23.0,
     "fsd22": 16.0,
@@ -24324,7 +24985,8 @@ const data = [
     "fsd23": 9.0,
     "python23": 10.5,
     "sem3spi": 7.67,
-    "dm4": 34.5
+    "dm4": 34.5,
+    "coa4": 16.5
   },
   {
     "roll": 122,
@@ -24340,12 +25002,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 56.0,
-    "coa": 38.5,
+    "coa": 43.5,
     "fsd-ii": 0,
     "fsd2": 51.5,
     "python2": 44.0,
     "toc": 50.0,
-    "total": 240.0,
+    "total": 245.0,
     "coa2": 13.0,
     "toc2": 16.0,
     "fsd22": 13.5,
@@ -24356,7 +25018,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 13.5,
     "sem3spi": 7.79,
-    "dm4": 22.0
+    "dm4": 22.0,
+    "coa4": 10.0
   },
   {
     "roll": 104,
@@ -24372,12 +25035,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 71.0,
-    "coa": 56.0,
+    "coa": 70.0,
     "fsd-ii": 0,
     "fsd2": 60.0,
     "python2": 59.5,
     "toc": 58.5,
-    "total": 305.0,
+    "total": 319.0,
     "coa2": 17.5,
     "toc2": 19.0,
     "fsd22": 17.5,
@@ -24388,7 +25051,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 15.0,
     "sem3spi": 8.29,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 28.0
   },
   {
     "roll": 144,
@@ -24404,12 +25068,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 80.0,
-    "coa": 69.5,
+    "coa": 80.75,
     "fsd-ii": 0,
     "fsd2": 52.5,
     "python2": 42.0,
     "toc": 36.5,
-    "total": 280.5,
+    "total": 291.75,
     "coa2": 23.0,
     "toc2": 24.0,
     "fsd22": 20.0,
@@ -24420,7 +25084,8 @@ const data = [
     "fsd23": 16.0,
     "python23": 13.0,
     "sem3spi": 7.79,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 22.5
   },
   {
     "roll": 112,
@@ -24436,12 +25101,12 @@ const data = [
     "dept": "SY3",
     "etc": 92,
     "dm": 69.75,
-    "coa": 44.5,
+    "coa": 56.5,
     "fsd-ii": 0,
     "fsd2": 52.0,
     "python2": 47.5,
     "toc": 45.0,
-    "total": 258.75,
+    "total": 270.75,
     "coa2": 16.5,
     "toc2": 15.0,
     "fsd22": 16.0,
@@ -24452,7 +25117,8 @@ const data = [
     "fsd23": 17.0,
     "python23": 15.5,
     "sem3spi": 7.92,
-    "dm4": 39.5
+    "dm4": 39.5,
+    "coa4": 24.0
   },
   {
     "roll": 96,
@@ -24468,12 +25134,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 69.5,
-    "coa": 58.5,
+    "coa": 70.0,
     "fsd-ii": 0,
     "fsd2": 59.5,
     "python2": 48.5,
     "toc": 40.5,
-    "total": 276.5,
+    "total": 288.0,
     "coa2": 17.5,
     "toc2": 12.0,
     "fsd22": 15.5,
@@ -24484,7 +25150,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 17.5,
     "sem3spi": 8.54,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 23.0
   },
   {
     "roll": 135,
@@ -24500,12 +25167,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 71.5,
-    "coa": 62.0,
+    "coa": 74.5,
     "fsd-ii": 0,
     "fsd2": 57.0,
     "python2": 51.0,
     "toc": 52.0,
-    "total": 293.5,
+    "total": 306.0,
     "coa2": 19.0,
     "toc2": 19.5,
     "fsd22": 15.0,
@@ -24516,7 +25183,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 15.0,
     "sem3spi": 8.13,
-    "dm4": 36.0
+    "dm4": 36.0,
+    "coa4": 25.0
   },
   {
     "roll": 108,
@@ -24532,12 +25200,12 @@ const data = [
     "dept": "SY3",
     "etc": 86,
     "dm": 68.0,
-    "coa": 37.0,
+    "coa": 45.0,
     "fsd-ii": 0,
     "fsd2": 54.5,
     "python2": 52.0,
     "toc": 49.0,
-    "total": 260.5,
+    "total": 268.5,
     "coa2": 7.0,
     "toc2": 15.0,
     "fsd22": 20.0,
@@ -24548,7 +25216,8 @@ const data = [
     "fsd23": 12.0,
     "python23": 19.0,
     "sem3spi": 7.92,
-    "dm4": 36.0
+    "dm4": 36.0,
+    "coa4": 16.0
   },
   {
     "roll": 72,
@@ -24564,12 +25233,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 74.25,
-    "coa": 70.0,
+    "coa": 82.5,
     "fsd-ii": 0,
     "fsd2": 63.0,
     "python2": 67.5,
     "toc": 58.5,
-    "total": 333.25,
+    "total": 345.75,
     "coa2": 23.5,
     "toc2": 23.0,
     "fsd22": 20.5,
@@ -24580,7 +25249,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 22.5,
     "sem3spi": 9.08,
-    "dm4": 23.5
+    "dm4": 23.5,
+    "coa4": 25.0
   },
   {
     "roll": 149,
@@ -24596,12 +25266,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 74.25,
-    "coa": 53.5,
+    "coa": 68.5,
     "fsd-ii": 0,
     "fsd2": 46.0,
     "python2": 49.0,
     "toc": 52.5,
-    "total": 275.25,
+    "total": 290.25,
     "coa2": 18.5,
     "toc2": 18.5,
     "fsd22": 12.5,
@@ -24612,7 +25282,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 16.5,
     "sem3spi": 7.58,
-    "dm4": 32.5
+    "dm4": 32.5,
+    "coa4": 30.0
   },
   {
     "roll": 121,
@@ -24628,12 +25299,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 83.75,
-    "coa": 65.5,
+    "coa": 82.0,
     "fsd-ii": 0,
     "fsd2": 56.0,
     "python2": 57.0,
     "toc": 42.0,
-    "total": 304.25,
+    "total": 320.75,
     "coa2": 19.0,
     "toc2": 14.5,
     "fsd22": 18.5,
@@ -24644,7 +25315,8 @@ const data = [
     "fsd23": 17.5,
     "python23": 19.5,
     "sem3spi": 8.25,
-    "dm4": 40.5
+    "dm4": 40.5,
+    "coa4": 33.0
   },
   {
     "roll": 100,
@@ -24660,12 +25332,12 @@ const data = [
     "dept": "SY3",
     "etc": 92,
     "dm": 64.5,
-    "coa": 52.5,
+    "coa": 68.0,
     "fsd-ii": 0,
     "fsd2": 59.0,
     "python2": 48.0,
     "toc": 46.0,
-    "total": 270.0,
+    "total": 285.5,
     "coa2": 16.0,
     "toc2": 15.5,
     "fsd22": 17.5,
@@ -24676,7 +25348,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 12.0,
     "sem3spi": 8.42,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 31.0
   },
   {
     "roll": 129,
@@ -24692,12 +25365,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 72.5,
-    "coa": 53.5,
+    "coa": 68.5,
     "fsd-ii": 0,
     "fsd2": 49.0,
     "python2": 44.5,
     "toc": 54.0,
-    "total": 273.5,
+    "total": 288.5,
     "coa2": 19.0,
     "toc2": 19.5,
     "fsd22": 15.0,
@@ -24708,7 +25381,8 @@ const data = [
     "fsd23": 17.0,
     "python23": 13.5,
     "sem3spi": 8.21,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 30.0
   },
   {
     "roll": 105,
@@ -24724,12 +25398,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 72.0,
-    "coa": 60.5,
+    "coa": 80.25,
     "fsd-ii": 0,
     "fsd2": 65.0,
     "python2": 58.0,
     "toc": 59.5,
-    "total": 315.0,
+    "total": 334.75,
     "coa2": 23.5,
     "toc2": 23.0,
     "fsd22": 21.0,
@@ -24740,7 +25414,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 17.0,
     "sem3spi": 8.58,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 39.5
   },
   {
     "roll": 128,
@@ -24756,12 +25431,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 60.5,
-    "coa": 31.0,
+    "coa": 36.0,
     "fsd-ii": 0,
     "fsd2": 43.5,
     "python2": 53.5,
     "toc": 30.0,
-    "total": 218.5,
+    "total": 223.5,
     "coa2": 9.5,
     "toc2": 11.0,
     "fsd22": 11.0,
@@ -24772,7 +25447,8 @@ const data = [
     "fsd23": 12.0,
     "python23": 17.0,
     "sem3spi": 7.17,
-    "dm4": 25.0
+    "dm4": 25.0,
+    "coa4": 10.0
   },
   {
     "roll": 111,
@@ -24788,12 +25464,12 @@ const data = [
     "dept": "SY3",
     "etc": 86,
     "dm": 78.75,
-    "coa": 23.0,
+    "coa": 42.0,
     "fsd-ii": 0,
     "fsd2": 64.0,
     "python2": 53.0,
     "toc": 46.5,
-    "total": 265.25,
+    "total": 284.25,
     "coa2": 10.0,
     "toc2": 16.0,
     "fsd22": 22.0,
@@ -24804,7 +25480,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 18.0,
     "sem3spi": 8.0,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 38.0
   },
   {
     "roll": 94,
@@ -24820,12 +25497,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 67.25,
-    "coa": 46.0,
+    "coa": 57.75,
     "fsd-ii": 0,
     "fsd2": 41.5,
     "python2": 39.0,
     "toc": 40.0,
-    "total": 233.75,
+    "total": 245.5,
     "coa2": 11.0,
     "toc2": 20.0,
     "fsd22": 17.0,
@@ -24836,7 +25513,8 @@ const data = [
     "fsd23": 9.0,
     "python23": 10.0,
     "sem3spi": 8.21,
-    "dm4": 34.5
+    "dm4": 34.5,
+    "coa4": 23.5
   },
   {
     "roll": 131,
@@ -24852,12 +25530,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 65.0,
-    "coa": 54.0,
+    "coa": 66.5,
     "fsd-ii": 0,
     "fsd2": 37.5,
     "python2": 40.0,
     "toc": 44.0,
-    "total": 240.5,
+    "total": 253.0,
     "coa2": 21.0,
     "toc2": 18.0,
     "fsd22": 12.0,
@@ -24868,7 +25546,8 @@ const data = [
     "fsd23": 16.0,
     "python23": 12.5,
     "sem3spi": 7.71,
-    "dm4": 29.0
+    "dm4": 29.0,
+    "coa4": 25.0
   },
   {
     "roll": 118,
@@ -24884,12 +25563,12 @@ const data = [
     "dept": "SY3",
     "etc": 92,
     "dm": 76.75,
-    "coa": 60.5,
+    "coa": 74.25,
     "fsd-ii": 0,
     "fsd2": 58.5,
     "python2": 51.5,
     "toc": 53.0,
-    "total": 300.25,
+    "total": 314.0,
     "coa2": 21.5,
     "toc2": 19.0,
     "fsd22": 23.0,
@@ -24900,7 +25579,8 @@ const data = [
     "fsd23": 17.0,
     "python23": 17.0,
     "sem3spi": 8.04,
-    "dm4": 39.5
+    "dm4": 39.5,
+    "coa4": 27.5
   },
   {
     "roll": 109,
@@ -24916,12 +25596,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 80.5,
-    "coa": 66.5,
+    "coa": 85.5,
     "fsd-ii": 0,
     "fsd2": 59.5,
     "python2": 55.5,
     "toc": 51.5,
-    "total": 313.5,
+    "total": 332.5,
     "coa2": 24.0,
     "toc2": 17.0,
     "fsd22": 21.0,
@@ -24932,7 +25612,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 18.5,
     "sem3spi": 8.5,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 38.0
   },
   {
     "roll": 115,
@@ -24948,12 +25629,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 69.0,
-    "coa": 44.5,
+    "coa": 57.0,
     "fsd-ii": 0,
     "fsd2": 54.5,
     "python2": 48.0,
     "toc": 46.0,
-    "total": 262.0,
+    "total": 274.5,
     "coa2": 13.5,
     "toc2": 14.0,
     "fsd22": 18.0,
@@ -24964,7 +25645,8 @@ const data = [
     "fsd23": 17.0,
     "python23": 12.5,
     "sem3spi": 8.17,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 25.0
   },
   {
     "roll": 166,
@@ -24980,12 +25662,12 @@ const data = [
     "dept": "SY3",
     "etc": 80,
     "dm": 57.5,
-    "coa": 31.0,
+    "coa": 40.0,
     "fsd-ii": 0,
     "fsd2": 34.0,
     "python2": 30.5,
     "toc": 35.0,
-    "total": 188.0,
+    "total": 197.0,
     "coa2": 8.0,
     "toc2": 14.0,
     "fsd22": 8.0,
@@ -24996,7 +25678,8 @@ const data = [
     "fsd23": 9.0,
     "python23": 10.0,
     "sem3spi": 6.79,
-    "dm4": 35.0
+    "dm4": 35.0,
+    "coa4": 18.0
   },
   {
     "roll": 134,
@@ -25012,12 +25695,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 75.0,
-    "coa": 60.0,
+    "coa": 79.5,
     "fsd-ii": 0,
     "fsd2": 50.5,
     "python2": 52.0,
     "toc": 47.0,
-    "total": 284.5,
+    "total": 304.0,
     "coa2": 22.0,
     "toc2": 17.0,
     "fsd22": 17.5,
@@ -25028,7 +25711,8 @@ const data = [
     "fsd23": 13.0,
     "python23": 16.0,
     "sem3spi": 7.5,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 39.0
   },
   {
     "roll": 140,
@@ -25044,12 +25728,12 @@ const data = [
     "dept": "SY3",
     "etc": 92,
     "dm": 56.25,
-    "coa": 65.0,
+    "coa": 81.0,
     "fsd-ii": 0,
     "fsd2": 53.0,
     "python2": 57.0,
     "toc": 46.5,
-    "total": 277.75,
+    "total": 293.75,
     "coa2": 22.5,
     "toc2": 19.0,
     "fsd22": 18.0,
@@ -25060,7 +25744,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 16.0,
     "sem3spi": 7.25,
-    "dm4": 30.5
+    "dm4": 30.5,
+    "coa4": 32.0
   },
   {
     "roll": 107,
@@ -25076,12 +25761,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 76.5,
-    "coa": 61.5,
+    "coa": 77.5,
     "fsd-ii": 0,
     "fsd2": 67.0,
     "python2": 56.0,
     "toc": 49.0,
-    "total": 310.0,
+    "total": 326.0,
     "coa2": 23.5,
     "toc2": 16.0,
     "fsd22": 22.0,
@@ -25092,7 +25777,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 19.0,
     "sem3spi": 8.42,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 32.0
   },
   {
     "roll": 154,
@@ -25108,12 +25794,12 @@ const data = [
     "dept": "SY3",
     "etc": 82,
     "dm": 69.5,
-    "coa": 50.5,
+    "coa": 60.5,
     "fsd-ii": 0,
     "fsd2": 44.5,
     "python2": 40.0,
     "toc": 43.5,
-    "total": 248.0,
+    "total": 258.0,
     "coa2": 18.5,
     "toc2": 16.0,
     "fsd22": 14.5,
@@ -25124,7 +25810,8 @@ const data = [
     "fsd23": 12.5,
     "python23": 13.0,
     "sem3spi": 7.46,
-    "dm4": 29.0
+    "dm4": 29.0,
+    "coa4": 20.0
   },
   {
     "roll": 153,
@@ -25140,12 +25827,12 @@ const data = [
     "dept": "SY3",
     "etc": 94,
     "dm": 70.75,
-    "coa": 56.0,
+    "coa": 73.5,
     "fsd-ii": 0,
     "fsd2": 40.5,
     "python2": 45.0,
     "toc": 48.0,
-    "total": 260.25,
+    "total": 277.75,
     "coa2": 17.0,
     "toc2": 17.0,
     "fsd22": 18.0,
@@ -25156,7 +25843,8 @@ const data = [
     "fsd23": 13.0,
     "python23": 16.5,
     "sem3spi": 7.67,
-    "dm4": 41.5
+    "dm4": 41.5,
+    "coa4": 35.0
   },
   {
     "roll": 124,
@@ -25172,12 +25860,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 72.5,
-    "coa": 61.0,
+    "coa": 79.75,
     "fsd-ii": 0,
     "fsd2": 53.0,
     "python2": 51.0,
     "toc": 47.0,
-    "total": 284.5,
+    "total": 303.25,
     "coa2": 22.0,
     "toc2": 16.0,
     "fsd22": 21.0,
@@ -25188,7 +25876,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 14.0,
     "sem3spi": 8.33,
-    "dm4": 43.0
+    "dm4": 43.0,
+    "coa4": 37.5
   },
   {
     "roll": 142,
@@ -25204,12 +25893,12 @@ const data = [
     "dept": "SY3",
     "etc": 74,
     "dm": 66.5,
-    "coa": 54.0,
+    "coa": 65.5,
     "fsd-ii": 0,
     "fsd2": 56.0,
     "python2": 39.0,
     "toc": 56.5,
-    "total": 272.0,
+    "total": 283.5,
     "coa2": 20.0,
     "toc2": 20.0,
     "fsd22": 16.0,
@@ -25220,7 +25909,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 13.5,
     "sem3spi": 7.17,
-    "dm4": 36.0
+    "dm4": 36.0,
+    "coa4": 23.0
   },
   {
     "roll": 138,
@@ -25236,12 +25926,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 71.25,
-    "coa": 62.0,
+    "coa": 79.5,
     "fsd-ii": 0,
     "fsd2": 53.5,
     "python2": 46.5,
     "toc": 53.5,
-    "total": 286.75,
+    "total": 304.25,
     "coa2": 18.5,
     "toc2": 18.5,
     "fsd22": 16.0,
@@ -25252,7 +25942,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 15.0,
     "sem3spi": 8.13,
-    "dm4": 40.5
+    "dm4": 40.5,
+    "coa4": 35.0
   },
   {
     "roll": 126,
@@ -25268,12 +25959,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 70.75,
-    "coa": 47.5,
+    "coa": 60.25,
     "fsd-ii": 0,
     "fsd2": 50.5,
     "python2": 43.0,
     "toc": 58.5,
-    "total": 270.25,
+    "total": 283.0,
     "coa2": 16.5,
     "toc2": 19.0,
     "fsd22": 14.5,
@@ -25284,7 +25975,8 @@ const data = [
     "fsd23": 16.0,
     "python23": 9.5,
     "sem3spi": 7.71,
-    "dm4": 30.5
+    "dm4": 30.5,
+    "coa4": 25.5
   },
   {
     "roll": 159,
@@ -25300,12 +25992,12 @@ const data = [
     "dept": "SY3",
     "etc": 92,
     "dm": 76.75,
-    "coa": 60.5,
+    "coa": 77.5,
     "fsd-ii": 0,
     "fsd2": 53.0,
     "python2": 46.5,
     "toc": 49.5,
-    "total": 286.25,
+    "total": 303.25,
     "coa2": 20.5,
     "toc2": 13.0,
     "fsd22": 16.0,
@@ -25316,7 +26008,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 15.5,
     "sem3spi": 7.21,
-    "dm4": 40.5
+    "dm4": 40.5,
+    "coa4": 34.0
   },
   {
     "roll": 133,
@@ -25332,12 +26025,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 74.25,
-    "coa": 48.5,
+    "coa": 63.0,
     "fsd-ii": 0,
     "fsd2": 37.0,
     "python2": 38.5,
     "toc": 48.5,
-    "total": 246.75,
+    "total": 261.25,
     "coa2": 15.0,
     "toc2": 20.0,
     "fsd22": 14.0,
@@ -25348,7 +26041,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 10.0,
     "sem3spi": 7.5,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 29.0
   },
   {
     "roll": 146,
@@ -25364,12 +26058,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 65.75,
-    "coa": 45.0,
+    "coa": 58.25,
     "fsd-ii": 0,
     "fsd2": 45.5,
     "python2": 41.5,
     "toc": 41.5,
-    "total": 239.25,
+    "total": 252.5,
     "coa2": 13.5,
     "toc2": 17.0,
     "fsd22": 17.0,
@@ -25380,7 +26074,8 @@ const data = [
     "fsd23": 18.5,
     "python23": 13.5,
     "sem3spi": 7.54,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 26.5
   },
   {
     "roll": 139,
@@ -25396,12 +26091,12 @@ const data = [
     "dept": "SY3",
     "etc": 90,
     "dm": 60.5,
-    "coa": 47.5,
+    "coa": 54.0,
     "fsd-ii": 0,
     "fsd2": 52.0,
     "python2": 37.0,
     "toc": 46.0,
-    "total": 243.0,
+    "total": 249.5,
     "coa2": 19.0,
     "toc2": 18.0,
     "fsd22": 20.0,
@@ -25412,7 +26107,8 @@ const data = [
     "fsd23": 15.5,
     "python23": 11.0,
     "sem3spi": 7.58,
-    "dm4": 35.0
+    "dm4": 35.0,
+    "coa4": 13.0
   },
   {
     "roll": 145,
@@ -25428,12 +26124,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 82.5,
-    "coa": 59.5,
+    "coa": 75.0,
     "fsd-ii": 0,
     "fsd2": 58.5,
     "python2": 49.0,
     "toc": 50.5,
-    "total": 300.0,
+    "total": 315.5,
     "coa2": 17.5,
     "toc2": 13.5,
     "fsd22": 17.5,
@@ -25444,7 +26140,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 16.0,
     "sem3spi": 7.42,
-    "dm4": 43.0
+    "dm4": 43.0,
+    "coa4": 31.0
   },
   {
     "roll": 163,
@@ -25476,7 +26173,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 12.5,
     "sem3spi": 7.38,
-    "dm4": 0.0
+    "dm4": 0.0,
+    "coa4": 0.0
   },
   {
     "roll": 120,
@@ -25492,12 +26190,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 67.0,
-    "coa": 59.5,
+    "coa": 69.75,
     "fsd-ii": 0,
     "fsd2": 58.5,
     "python2": 53.0,
     "toc": 48.5,
-    "total": 286.5,
+    "total": 296.75,
     "coa2": 20.0,
     "toc2": 17.0,
     "fsd22": 19.0,
@@ -25508,7 +26206,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 19.0,
     "sem3spi": 8.08,
-    "dm4": 31.0
+    "dm4": 31.0,
+    "coa4": 20.5
   },
   {
     "roll": 195,
@@ -25524,12 +26223,12 @@ const data = [
     "dept": "SY3",
     "etc": 82,
     "dm": 51.5,
-    "coa": 46.5,
+    "coa": 57.0,
     "fsd-ii": 0,
     "fsd2": 29.0,
     "python2": 49.0,
     "toc": 53.5,
-    "total": 229.5,
+    "total": 240.0,
     "coa2": 13.0,
     "toc2": 19.0,
     "fsd22": 12.0,
@@ -25540,7 +26239,8 @@ const data = [
     "fsd23": 9.0,
     "python23": 16.0,
     "sem3spi": 6.54,
-    "dm4": 23.0
+    "dm4": 23.0,
+    "coa4": 21.0
   },
   {
     "roll": 136,
@@ -25556,12 +26256,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 78.0,
-    "coa": 42.5,
+    "coa": 55.5,
     "fsd-ii": 0,
     "fsd2": 57.5,
     "python2": 53.5,
     "toc": 41.5,
-    "total": 273.0,
+    "total": 286.0,
     "coa2": 15.0,
     "toc2": 17.0,
     "fsd22": 19.5,
@@ -25572,7 +26272,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 17.0,
     "sem3spi": 7.75,
-    "dm4": 42.0
+    "dm4": 42.0,
+    "coa4": 26.0
   },
   {
     "roll": 157,
@@ -25588,12 +26289,12 @@ const data = [
     "dept": "SY3",
     "etc": 92,
     "dm": 79.5,
-    "coa": 50.5,
+    "coa": 64.0,
     "fsd-ii": 0,
     "fsd2": 42.0,
     "python2": 40.5,
     "toc": 43.5,
-    "total": 256.0,
+    "total": 269.5,
     "coa2": 18.0,
     "toc2": 15.0,
     "fsd22": 8.0,
@@ -25604,7 +26305,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 11.0,
     "sem3spi": 7.71,
-    "dm4": 32.0
+    "dm4": 32.0,
+    "coa4": 27.0
   },
   {
     "roll": 152,
@@ -25620,12 +26322,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 57.75,
-    "coa": 51.5,
+    "coa": 57.5,
     "fsd-ii": 0,
     "fsd2": 45.0,
     "python2": 55.5,
     "toc": 36.0,
-    "total": 245.75,
+    "total": 251.75,
     "coa2": 19.5,
     "toc2": 11.0,
     "fsd22": 9.0,
@@ -25636,7 +26338,8 @@ const data = [
     "fsd23": 15.0,
     "python23": 19.5,
     "sem3spi": 6.96,
-    "dm4": 29.5
+    "dm4": 29.5,
+    "coa4": 12.0
   },
   {
     "roll": 102,
@@ -25652,12 +26355,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 71.25,
-    "coa": 48.0,
+    "coa": 59.5,
     "fsd-ii": 0,
     "fsd2": 57.5,
     "python2": 49.5,
     "toc": 41.5,
-    "total": 267.75,
+    "total": 279.25,
     "coa2": 15.0,
     "toc2": 16.5,
     "fsd22": 15.0,
@@ -25668,7 +26371,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 11.0,
     "sem3spi": 8.5,
-    "dm4": 33.5
+    "dm4": 33.5,
+    "coa4": 23.0
   },
   {
     "roll": 123,
@@ -25684,12 +26388,12 @@ const data = [
     "dept": "SY3",
     "etc": 94,
     "dm": 70.75,
-    "coa": 57.0,
+    "coa": 73.0,
     "fsd-ii": 0,
     "fsd2": 56.5,
     "python2": 45.5,
     "toc": 55.5,
-    "total": 285.25,
+    "total": 301.25,
     "coa2": 18.5,
     "toc2": 20.5,
     "fsd22": 14.5,
@@ -25700,7 +26404,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 14.5,
     "sem3spi": 8.13,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 32.0
   },
   {
     "roll": 130,
@@ -25716,12 +26421,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 79.5,
-    "coa": 66.5,
+    "coa": 84.25,
     "fsd-ii": 0,
     "fsd2": 57.5,
     "python2": 35.5,
     "toc": 54.0,
-    "total": 293.0,
+    "total": 310.75,
     "coa2": 25.0,
     "toc2": 20.0,
     "fsd22": 20.0,
@@ -25732,7 +26437,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 11.0,
     "sem3spi": 7.96,
-    "dm4": 33.0
+    "dm4": 33.0,
+    "coa4": 35.5
   },
   {
     "roll": 180,
@@ -25748,12 +26454,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 63.25,
-    "coa": 40.0,
+    "coa": 48.5,
     "fsd-ii": 0,
     "fsd2": 49.5,
     "python2": 45.0,
     "toc": 52.0,
-    "total": 249.75,
+    "total": 258.25,
     "coa2": 13.0,
     "toc2": 21.0,
     "fsd22": 14.5,
@@ -25764,7 +26470,8 @@ const data = [
     "fsd23": 16.0,
     "python23": 14.0,
     "sem3spi": 7.54,
-    "dm4": 26.5
+    "dm4": 26.5,
+    "coa4": 17.0
   },
   {
     "roll": 194,
@@ -25780,12 +26487,12 @@ const data = [
     "dept": "SY3",
     "etc": 78,
     "dm": 84.75,
-    "coa": 70.0,
+    "coa": 86.75,
     "fsd-ii": 0,
     "fsd2": 59.5,
     "python2": 39.5,
     "toc": 55.5,
-    "total": 309.25,
+    "total": 326.0,
     "coa2": 25.0,
     "toc2": 20.0,
     "fsd22": 18.5,
@@ -25796,7 +26503,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 10.5,
     "sem3spi": 7.21,
-    "dm4": 46.5
+    "dm4": 46.5,
+    "coa4": 33.5
   },
   {
     "roll": 171,
@@ -25812,12 +26520,12 @@ const data = [
     "dept": "SY3",
     "etc": 94,
     "dm": 48.0,
-    "coa": 37.0,
+    "coa": 48.75,
     "fsd-ii": 0,
     "fsd2": 49.0,
     "python2": 44.5,
     "toc": 50.0,
-    "total": 228.5,
+    "total": 240.25,
     "coa2": 9.5,
     "toc2": 16.0,
     "fsd22": 17.5,
@@ -25828,7 +26536,8 @@ const data = [
     "fsd23": 13.0,
     "python23": 12.5,
     "sem3spi": 6.96,
-    "dm4": 36.0
+    "dm4": 36.0,
+    "coa4": 23.5
   },
   {
     "roll": 170,
@@ -25844,12 +26553,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 72.75,
-    "coa": 56.5,
+    "coa": 70.25,
     "fsd-ii": 0,
     "fsd2": 56.0,
     "python2": 45.0,
     "toc": 39.0,
-    "total": 269.25,
+    "total": 283.0,
     "coa2": 18.5,
     "toc2": 18.0,
     "fsd22": 21.0,
@@ -25860,7 +26569,8 @@ const data = [
     "fsd23": 17.0,
     "python23": 15.0,
     "sem3spi": 7.17,
-    "dm4": 39.5
+    "dm4": 39.5,
+    "coa4": 27.5
   },
   {
     "roll": 165,
@@ -25876,12 +26586,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 71.75,
-    "coa": 57.5,
+    "coa": 70.0,
     "fsd-ii": 0,
     "fsd2": 59.5,
     "python2": 46.5,
     "toc": 48.0,
-    "total": 283.25,
+    "total": 295.75,
     "coa2": 18.0,
     "toc2": 17.5,
     "fsd22": 18.0,
@@ -25892,7 +26602,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 17.0,
     "sem3spi": 7.08,
-    "dm4": 34.5
+    "dm4": 34.5,
+    "coa4": 25.0
   },
   {
     "roll": 202,
@@ -25908,12 +26619,12 @@ const data = [
     "dept": "SY3",
     "etc": 94,
     "dm": 67.25,
-    "coa": 48.5,
+    "coa": 62.5,
     "fsd-ii": 0,
     "fsd2": 49.5,
     "python2": 42.0,
     "toc": 47.0,
-    "total": 254.25,
+    "total": 268.25,
     "coa2": 17.5,
     "toc2": 16.0,
     "fsd22": 19.5,
@@ -25924,7 +26635,8 @@ const data = [
     "fsd23": 12.0,
     "python23": 12.5,
     "sem3spi": 6.42,
-    "dm4": 33.5
+    "dm4": 33.5,
+    "coa4": 28.0
   },
   {
     "roll": 176,
@@ -25940,12 +26652,12 @@ const data = [
     "dept": "SY3",
     "etc": 94,
     "dm": 84.5,
-    "coa": 65.0,
+    "coa": 81.0,
     "fsd-ii": 0,
     "fsd2": 51.5,
     "python2": 51.0,
     "toc": 60.0,
-    "total": 312.0,
+    "total": 328.0,
     "coa2": 25.0,
     "toc2": 23.0,
     "fsd22": 20.5,
@@ -25956,7 +26668,8 @@ const data = [
     "fsd23": 15.5,
     "python23": 15.5,
     "sem3spi": 6.92,
-    "dm4": 45.0
+    "dm4": 45.0,
+    "coa4": 32.0
   },
   {
     "roll": 162,
@@ -25972,12 +26685,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 69.0,
-    "coa": 46.0,
+    "coa": 56.5,
     "fsd-ii": 0,
     "fsd2": 48.5,
     "python2": 42.0,
     "toc": 45.5,
-    "total": 251.0,
+    "total": 261.5,
     "coa2": 10.5,
     "toc2": 16.0,
     "fsd22": 13.5,
@@ -25988,7 +26701,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 12.0,
     "sem3spi": 7.08,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 21.0
   },
   {
     "roll": 197,
@@ -26004,12 +26718,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 78.0,
-    "coa": 46.5,
+    "coa": 61.0,
     "fsd-ii": 0,
     "fsd2": 50.5,
     "python2": 46.0,
     "toc": 35.0,
-    "total": 256.0,
+    "total": 270.5,
     "coa2": 20.5,
     "toc2": 12.0,
     "fsd22": 14.5,
@@ -26020,7 +26734,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 12.5,
     "sem3spi": 7.04,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 29.0
   },
   {
     "roll": 143,
@@ -26036,12 +26751,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 82.5,
-    "coa": 51.5,
+    "coa": 61.0,
     "fsd-ii": 0,
     "fsd2": 50.0,
     "python2": 46.5,
     "toc": 57.0,
-    "total": 287.5,
+    "total": 297.0,
     "coa2": 14.5,
     "toc2": 20.0,
     "fsd22": 10.0,
@@ -26052,7 +26767,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 11.5,
     "sem3spi": 7.63,
-    "dm4": 33.0
+    "dm4": 33.0,
+    "coa4": 19.0
   },
   {
     "roll": 169,
@@ -26068,12 +26784,12 @@ const data = [
     "dept": "SY3",
     "etc": 94,
     "dm": 58.25,
-    "coa": 50.5,
+    "coa": 66.5,
     "fsd-ii": 0,
     "fsd2": 54.5,
     "python2": 34.5,
     "toc": 36.5,
-    "total": 234.25,
+    "total": 250.25,
     "coa2": 19.0,
     "toc2": 12.0,
     "fsd22": 20.0,
@@ -26084,7 +26800,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 13.0,
     "sem3spi": 7.21,
-    "dm4": 27.5
+    "dm4": 27.5,
+    "coa4": 32.0
   },
   {
     "roll": 181,
@@ -26100,12 +26817,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 67.0,
-    "coa": 42.5,
+    "coa": 52.5,
     "fsd-ii": 0,
     "fsd2": 56.5,
     "python2": 43.0,
     "toc": 44.0,
-    "total": 253.0,
+    "total": 263.0,
     "coa2": 11.0,
     "toc2": 17.0,
     "fsd22": 20.0,
@@ -26116,7 +26833,8 @@ const data = [
     "fsd23": 16.5,
     "python23": 11.5,
     "sem3spi": 7.63,
-    "dm4": 36.0
+    "dm4": 36.0,
+    "coa4": 20.0
   },
   {
     "roll": 160,
@@ -26132,12 +26850,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 78.5,
-    "coa": 59.0,
+    "coa": 74.0,
     "fsd-ii": 0,
     "fsd2": 59.5,
     "python2": 52.0,
     "toc": 57.0,
-    "total": 306.0,
+    "total": 321.0,
     "coa2": 16.0,
     "toc2": 15.5,
     "fsd22": 14.0,
@@ -26148,7 +26866,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 15.5,
     "sem3spi": 7.25,
-    "dm4": 33.0
+    "dm4": 33.0,
+    "coa4": 30.0
   },
   {
     "roll": 110,
@@ -26164,12 +26883,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 82.5,
-    "coa": 59.0,
+    "coa": 78.0,
     "fsd-ii": 0,
     "fsd2": 67.0,
     "python2": 46.5,
     "toc": 43.5,
-    "total": 298.5,
+    "total": 317.5,
     "coa2": 19.5,
     "toc2": 13.5,
     "fsd22": 20.0,
@@ -26180,7 +26899,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 0.0,
     "sem3spi": 8.46,
-    "dm4": 35.0
+    "dm4": 35.0,
+    "coa4": 38.0
   },
   {
     "roll": 86,
@@ -26196,12 +26916,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 79.0,
-    "coa": 69.0,
+    "coa": 82.0,
     "fsd-ii": 0,
     "fsd2": 59.5,
     "python2": 50.0,
     "toc": 59.5,
-    "total": 317.0,
+    "total": 330.0,
     "coa2": 23.5,
     "toc2": 20.0,
     "fsd22": 21.0,
@@ -26212,7 +26932,8 @@ const data = [
     "fsd23": 17.0,
     "python23": 12.0,
     "sem3spi": 8.67,
-    "dm4": 30.0
+    "dm4": 30.0,
+    "coa4": 26.0
   },
   {
     "roll": 158,
@@ -26228,12 +26949,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 78.25,
-    "coa": 47.5,
+    "coa": 62.5,
     "fsd-ii": 0,
     "fsd2": 43.0,
     "python2": 40.0,
     "toc": 50.5,
-    "total": 259.25,
+    "total": 274.25,
     "coa2": 17.5,
     "toc2": 15.0,
     "fsd22": 10.0,
@@ -26244,7 +26965,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 14.5,
     "sem3spi": 6.83,
-    "dm4": 42.5
+    "dm4": 42.5,
+    "coa4": 30.0
   },
   {
     "roll": 192,
@@ -26260,12 +26982,12 @@ const data = [
     "dept": "SY3",
     "etc": 90,
     "dm": 26.5,
-    "coa": 23.0,
+    "coa": 41.0,
     "fsd-ii": 0,
     "fsd2": 22.0,
     "python2": 27.5,
     "toc": 29.5,
-    "total": 128.5,
+    "total": 146.5,
     "coa2": 10.0,
     "toc2": 11.5,
     "fsd22": 8.0,
@@ -26276,7 +26998,8 @@ const data = [
     "fsd23": 7.0,
     "python23": 10.5,
     "sem3spi": 5.93,
-    "dm4": 2.0
+    "dm4": 2.0,
+    "coa4": 36.0
   },
   {
     "roll": 125,
@@ -26292,12 +27015,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 65.5,
-    "coa": 53.0,
+    "coa": 64.0,
     "fsd-ii": 0,
     "fsd2": 59.5,
     "python2": 42.5,
     "toc": 55.5,
-    "total": 276.0,
+    "total": 287.0,
     "coa2": 18.0,
     "toc2": 15.5,
     "fsd22": 18.0,
@@ -26308,7 +27031,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 12.5,
     "sem3spi": 8.08,
-    "dm4": 32.0
+    "dm4": 32.0,
+    "coa4": 22.0
   },
   {
     "roll": 137,
@@ -26324,12 +27048,12 @@ const data = [
     "dept": "SY3",
     "etc": 92,
     "dm": 69.75,
-    "coa": 54.0,
+    "coa": 65.0,
     "fsd-ii": 0,
     "fsd2": 62.0,
     "python2": 55.5,
     "toc": 54.5,
-    "total": 295.75,
+    "total": 306.75,
     "coa2": 21.0,
     "toc2": 18.5,
     "fsd22": 21.0,
@@ -26340,7 +27064,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 16.0,
     "sem3spi": 8.08,
-    "dm4": 34.5
+    "dm4": 34.5,
+    "coa4": 22.0
   },
   {
     "roll": 164,
@@ -26356,12 +27081,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 69.25,
-    "coa": 54.5,
+    "coa": 68.0,
     "fsd-ii": 0,
     "fsd2": 45.0,
     "python2": 38.5,
     "toc": 53.0,
-    "total": 260.25,
+    "total": 273.75,
     "coa2": 14.5,
     "toc2": 19.0,
     "fsd22": 11.0,
@@ -26372,7 +27097,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 9.5,
     "sem3spi": 7.58,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 27.0
   },
   {
     "roll": 229,
@@ -26388,12 +27114,12 @@ const data = [
     "dept": "SY3",
     "etc": 84,
     "dm": 53.75,
-    "coa": 39.0,
+    "coa": 49.0,
     "fsd-ii": 0,
     "fsd2": 37.5,
     "python2": 37.0,
     "toc": 39.5,
-    "total": 206.75,
+    "total": 216.75,
     "coa2": 14.0,
     "toc2": 14.0,
     "fsd22": 6.0,
@@ -26404,7 +27130,8 @@ const data = [
     "fsd23": 17.0,
     "python23": 10.0,
     "sem3spi": 6.04,
-    "dm4": 26.5
+    "dm4": 26.5,
+    "coa4": 20.0
   },
   {
     "roll": 190,
@@ -26420,12 +27147,12 @@ const data = [
     "dept": "SY3",
     "etc": 88,
     "dm": 61.0,
-    "coa": 42.0,
+    "coa": 56.25,
     "fsd-ii": 0,
     "fsd2": 45.0,
     "python2": 41.5,
     "toc": 45.0,
-    "total": 234.5,
+    "total": 248.75,
     "coa2": 18.0,
     "toc2": 22.0,
     "fsd22": 16.5,
@@ -26436,7 +27163,8 @@ const data = [
     "fsd23": 12.5,
     "python23": 13.0,
     "sem3spi": 6.63,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 28.5
   },
   {
     "roll": 182,
@@ -26452,12 +27180,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 79.0,
-    "coa": 57.0,
+    "coa": 66.5,
     "fsd-ii": 0,
     "fsd2": 58.0,
     "python2": 45.5,
     "toc": 51.0,
-    "total": 290.5,
+    "total": 300.0,
     "coa2": 19.0,
     "toc2": 20.5,
     "fsd22": 19.0,
@@ -26468,7 +27196,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 17.0,
     "sem3spi": 7.5,
-    "dm4": 35.0
+    "dm4": 35.0,
+    "coa4": 19.0
   },
   {
     "roll": 185,
@@ -26484,12 +27213,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 59.75,
-    "coa": 48.5,
+    "coa": 58.0,
     "fsd-ii": 0,
     "fsd2": 56.5,
     "python2": 41.5,
     "toc": 56.0,
-    "total": 262.25,
+    "total": 271.75,
     "coa2": 17.0,
     "toc2": 19.5,
     "fsd22": 16.0,
@@ -26500,7 +27229,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 14.0,
     "sem3spi": 7.17,
-    "dm4": 30.5
+    "dm4": 30.5,
+    "coa4": 19.0
   },
   {
     "roll": 205,
@@ -26516,12 +27246,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 46.5,
-    "coa": 20.0,
+    "coa": 32.0,
     "fsd-ii": 0,
     "fsd2": 37.0,
     "python2": 26.0,
     "toc": 28.5,
-    "total": 158.0,
+    "total": 170.0,
     "coa2": 5.5,
     "toc2": 11.0,
     "fsd22": 10.0,
@@ -26532,7 +27262,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 9.0,
     "sem3spi": 6.33,
-    "dm4": 30.0
+    "dm4": 30.0,
+    "coa4": 24.0
   },
   {
     "roll": 174,
@@ -26548,12 +27279,12 @@ const data = [
     "dept": "SY3",
     "etc": 94,
     "dm": 77.0,
-    "coa": 62.5,
+    "coa": 70.0,
     "fsd-ii": 0,
     "fsd2": 56.5,
     "python2": 38.0,
     "toc": 49.5,
-    "total": 283.5,
+    "total": 291.0,
     "coa2": 23.0,
     "toc2": 20.0,
     "fsd22": 22.5,
@@ -26564,7 +27295,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 13.0,
     "sem3spi": 7.13,
-    "dm4": 44.0
+    "dm4": 44.0,
+    "coa4": 15.0
   },
   {
     "roll": 191,
@@ -26580,12 +27312,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 50.5,
-    "coa": 35.0,
+    "coa": 45.0,
     "fsd-ii": 0,
     "fsd2": 56.0,
     "python2": 41.0,
     "toc": 41.5,
-    "total": 224.0,
+    "total": 234.0,
     "coa2": 10.5,
     "toc2": 13.5,
     "fsd22": 18.0,
@@ -26596,7 +27328,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 15.5,
     "sem3spi": 7.33,
-    "dm4": 23.0
+    "dm4": 23.0,
+    "coa4": 20.0
   },
   {
     "roll": 179,
@@ -26612,12 +27345,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 58.5,
-    "coa": 44.0,
+    "coa": 53.5,
     "fsd-ii": 0,
     "fsd2": 36.5,
     "python2": 32.5,
     "toc": 42.5,
-    "total": 214.0,
+    "total": 223.5,
     "coa2": 14.0,
     "toc2": 16.0,
     "fsd22": 4.5,
@@ -26628,7 +27361,8 @@ const data = [
     "fsd23": 15.0,
     "python23": 6.5,
     "sem3spi": 7.17,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 19.0
   },
   {
     "roll": 208,
@@ -26644,12 +27378,12 @@ const data = [
     "dept": "SY3",
     "etc": 90,
     "dm": 71.25,
-    "coa": 47.0,
+    "coa": 61.25,
     "fsd-ii": 0,
     "fsd2": 38.0,
     "python2": 37.0,
     "toc": 48.5,
-    "total": 241.75,
+    "total": 256.0,
     "coa2": 18.0,
     "toc2": 19.0,
     "fsd22": 16.5,
@@ -26660,7 +27394,8 @@ const data = [
     "fsd23": 16.0,
     "python23": 13.5,
     "sem3spi": 7.08,
-    "dm4": 40.5
+    "dm4": 40.5,
+    "coa4": 28.5
   },
   {
     "roll": 193,
@@ -26676,12 +27411,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 59.75,
-    "coa": 44.5,
+    "coa": 55.5,
     "fsd-ii": 0,
     "fsd2": 53.0,
     "python2": 44.5,
     "toc": 49.5,
-    "total": 251.25,
+    "total": 262.25,
     "coa2": 11.0,
     "toc2": 18.0,
     "fsd22": 20.0,
@@ -26692,7 +27427,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 12.5,
     "sem3spi": 7.04,
-    "dm4": 29.5
+    "dm4": 29.5,
+    "coa4": 22.0
   },
   {
     "roll": 204,
@@ -26708,12 +27444,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 42.25,
-    "coa": 43.5,
+    "coa": 50.5,
     "fsd-ii": 0,
     "fsd2": 41.0,
     "python2": 43.0,
     "toc": 42.0,
-    "total": 211.75,
+    "total": 218.75,
     "coa2": 8.0,
     "toc2": 12.5,
     "fsd22": 10.0,
@@ -26724,7 +27460,8 @@ const data = [
     "fsd23": 16.0,
     "python23": 16.0,
     "sem3spi": 6.92,
-    "dm4": 22.5
+    "dm4": 22.5,
+    "coa4": 14.0
   },
   {
     "roll": 198,
@@ -26740,12 +27477,12 @@ const data = [
     "dept": "SY3",
     "etc": 86,
     "dm": 63.5,
-    "coa": 57.0,
+    "coa": 70.5,
     "fsd-ii": 0,
     "fsd2": 46.5,
     "python2": 44.5,
     "toc": 55.0,
-    "total": 266.5,
+    "total": 280.0,
     "coa2": 19.0,
     "toc2": 17.0,
     "fsd22": 11.5,
@@ -26756,7 +27493,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 15.0,
     "sem3spi": 7.08,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 27.0
   },
   {
     "roll": 210,
@@ -26772,12 +27510,12 @@ const data = [
     "dept": "SY3",
     "etc": 90,
     "dm": 63.0,
-    "coa": 42.0,
+    "coa": 51.0,
     "fsd-ii": 0,
     "fsd2": 45.0,
     "python2": 35.0,
     "toc": 34.0,
-    "total": 219.0,
+    "total": 228.0,
     "coa2": 13.0,
     "toc2": 12.0,
     "fsd22": 7.5,
@@ -26788,7 +27526,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 12.0,
     "sem3spi": 6.08,
-    "dm4": 32.0
+    "dm4": 32.0,
+    "coa4": 18.0
   },
   {
     "roll": 156,
@@ -26804,12 +27543,12 @@ const data = [
     "dept": "SY3",
     "etc": 94,
     "dm": 60.75,
-    "coa": 57.0,
+    "coa": 73.0,
     "fsd-ii": 0,
     "fsd2": 60.5,
     "python2": 48.0,
     "toc": 53.5,
-    "total": 279.75,
+    "total": 295.75,
     "coa2": 22.5,
     "toc2": 21.5,
     "fsd22": 20.5,
@@ -26820,7 +27559,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 18.5,
     "sem3spi": 7.63,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 32.0
   },
   {
     "roll": 172,
@@ -26836,12 +27576,12 @@ const data = [
     "dept": "SY3",
     "etc": 0,
     "dm": 72.5,
-    "coa": 35.0,
+    "coa": 44.5,
     "fsd-ii": 0,
     "fsd2": 59.0,
     "python2": 45.5,
     "toc": 41.0,
-    "total": 253.0,
+    "total": 262.5,
     "coa2": 9.0,
     "toc2": 17.5,
     "fsd22": 18.0,
@@ -26852,7 +27592,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 13.5,
     "sem3spi": 5.78,
-    "dm4": 44.0
+    "dm4": 44.0,
+    "coa4": 19.0
   },
   {
     "roll": 218,
@@ -26868,12 +27609,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 69.5,
-    "coa": 49.0,
+    "coa": 63.5,
     "fsd-ii": 0,
     "fsd2": 47.0,
     "python2": 40.5,
     "toc": 36.5,
-    "total": 242.5,
+    "total": 257.0,
     "coa2": 7.5,
     "toc2": 9.5,
     "fsd22": 9.0,
@@ -26884,7 +27625,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 10.5,
     "sem3spi": 6.54,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 29.0
   },
   {
     "roll": 196,
@@ -26900,12 +27642,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 62.75,
-    "coa": 53.0,
+    "coa": 64.0,
     "fsd-ii": 0,
     "fsd2": 55.0,
     "python2": 56.5,
     "toc": 45.5,
-    "total": 272.75,
+    "total": 283.75,
     "coa2": 17.5,
     "toc2": 20.5,
     "fsd22": 20.0,
@@ -26916,7 +27658,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 17.5,
     "sem3spi": 7.25,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 22.0
   },
   {
     "roll": 227,
@@ -26932,12 +27675,12 @@ const data = [
     "dept": "SY3",
     "etc": 94,
     "dm": 47.25,
-    "coa": 50.0,
+    "coa": 65.25,
     "fsd-ii": 0,
     "fsd2": 31.0,
     "python2": 27.5,
     "toc": 46.5,
-    "total": 202.25,
+    "total": 217.5,
     "coa2": 22.0,
     "toc2": 17.0,
     "fsd22": 11.0,
@@ -26948,7 +27691,8 @@ const data = [
     "fsd23": 10.0,
     "python23": 9.0,
     "sem3spi": 6.71,
-    "dm4": 29.5
+    "dm4": 29.5,
+    "coa4": 30.5
   },
   {
     "roll": 173,
@@ -26964,12 +27708,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 74.75,
-    "coa": 44.5,
+    "coa": 57.75,
     "fsd-ii": 0,
     "fsd2": 51.5,
     "python2": 32.5,
     "toc": 43.0,
-    "total": 246.25,
+    "total": 259.5,
     "coa2": 19.5,
     "toc2": 18.0,
     "fsd22": 18.0,
@@ -26980,7 +27724,8 @@ const data = [
     "fsd23": 13.0,
     "python23": 9.5,
     "sem3spi": 7.04,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 26.5
   },
   {
     "roll": 178,
@@ -26996,12 +27741,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 62.5,
-    "coa": 34.5,
+    "coa": 45.5,
     "fsd-ii": 0,
     "fsd2": 45.0,
     "python2": 32.5,
     "toc": 36.0,
-    "total": 210.5,
+    "total": 221.5,
     "coa2": 13.0,
     "toc2": 12.5,
     "fsd22": 10.0,
@@ -27012,7 +27757,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 13.0,
     "sem3spi": 7.04,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 22.0
   },
   {
     "roll": 200,
@@ -27028,12 +27774,12 @@ const data = [
     "dept": "SY3",
     "etc": 90,
     "dm": 72.5,
-    "coa": 55.5,
+    "coa": 67.5,
     "fsd-ii": 0,
     "fsd2": 44.0,
     "python2": 35.0,
     "toc": 49.5,
-    "total": 256.5,
+    "total": 268.5,
     "coa2": 19.0,
     "toc2": 17.0,
     "fsd22": 18.5,
@@ -27044,7 +27790,8 @@ const data = [
     "fsd23": 8.0,
     "python23": 8.0,
     "sem3spi": 6.67,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 24.0
   },
   {
     "roll": 232,
@@ -27060,12 +27807,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 56.75,
-    "coa": 36.5,
+    "coa": 43.5,
     "fsd-ii": 0,
     "fsd2": 40.5,
     "python2": 49.0,
     "toc": 35.5,
-    "total": 218.25,
+    "total": 225.25,
     "coa2": 11.0,
     "toc2": 13.5,
     "fsd22": 9.5,
@@ -27076,7 +27823,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 17.0,
     "sem3spi": 6.54,
-    "dm4": 33.5
+    "dm4": 33.5,
+    "coa4": 14.0
   },
   {
     "roll": 207,
@@ -27092,12 +27840,12 @@ const data = [
     "dept": "SY3",
     "etc": 90,
     "dm": 66.5,
-    "coa": 61.5,
+    "coa": 76.0,
     "fsd-ii": 0,
     "fsd2": 49.5,
     "python2": 43.0,
     "toc": 39.5,
-    "total": 260.0,
+    "total": 274.5,
     "coa2": 25.0,
     "toc2": 16.0,
     "fsd22": 17.0,
@@ -27108,7 +27856,8 @@ const data = [
     "fsd23": 16.0,
     "python23": 16.0,
     "sem3spi": 6.5,
-    "dm4": 35.0
+    "dm4": 35.0,
+    "coa4": 29.0
   },
   {
     "roll": 214,
@@ -27124,12 +27873,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 58.5,
-    "coa": 38.5,
+    "coa": 54.5,
     "fsd-ii": 0,
     "fsd2": 37.0,
     "python2": 38.5,
     "toc": 31.0,
-    "total": 203.5,
+    "total": 219.5,
     "coa2": 11.0,
     "toc2": 11.5,
     "fsd22": 6.5,
@@ -27140,7 +27889,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 10.5,
     "sem3spi": 6.46,
-    "dm4": 35.0
+    "dm4": 35.0,
+    "coa4": 32.0
   },
   {
     "roll": 201,
@@ -27156,12 +27906,12 @@ const data = [
     "dept": "SY3",
     "etc": 90,
     "dm": 76.75,
-    "coa": 63.0,
+    "coa": 80.5,
     "fsd-ii": 0,
     "fsd2": 55.0,
     "python2": 50.0,
     "toc": 50.5,
-    "total": 295.25,
+    "total": 312.75,
     "coa2": 18.0,
     "toc2": 19.5,
     "fsd22": 19.0,
@@ -27172,7 +27922,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 15.0,
     "sem3spi": 6.83,
-    "dm4": 42.5
+    "dm4": 42.5,
+    "coa4": 35.0
   },
   {
     "roll": 213,
@@ -27188,12 +27939,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 58.5,
-    "coa": 40.0,
+    "coa": 46.75,
     "fsd-ii": 0,
     "fsd2": 51.0,
     "python2": 31.0,
     "toc": 50.5,
-    "total": 231.0,
+    "total": 237.75,
     "coa2": 14.0,
     "toc2": 21.0,
     "fsd22": 19.0,
@@ -27204,7 +27955,8 @@ const data = [
     "fsd23": 16.0,
     "python23": 10.0,
     "sem3spi": 6.71,
-    "dm4": 27.0
+    "dm4": 27.0,
+    "coa4": 13.5
   },
   {
     "roll": 217,
@@ -27220,12 +27972,12 @@ const data = [
     "dept": "SY3",
     "etc": 90,
     "dm": 52.75,
-    "coa": 49.0,
+    "coa": 58.0,
     "fsd-ii": 0,
     "fsd2": 50.5,
     "python2": 32.0,
     "toc": 55.5,
-    "total": 239.75,
+    "total": 248.75,
     "coa2": 17.0,
     "toc2": 21.0,
     "fsd22": 13.5,
@@ -27236,7 +27988,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 13.0,
     "sem3spi": 6.63,
-    "dm4": 22.5
+    "dm4": 22.5,
+    "coa4": 18.0
   },
   {
     "roll": 233,
@@ -27252,12 +28005,12 @@ const data = [
     "dept": "SY3",
     "etc": 90,
     "dm": 61.75,
-    "coa": 41.5,
+    "coa": 50.5,
     "fsd-ii": 0,
     "fsd2": 31.5,
     "python2": 36.0,
     "toc": 40.5,
-    "total": 211.25,
+    "total": 220.25,
     "coa2": 17.0,
     "toc2": 14.0,
     "fsd22": 10.0,
@@ -27268,7 +28021,8 @@ const data = [
     "fsd23": 16.0,
     "python23": 12.0,
     "sem3spi": 5.88,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 18.0
   },
   {
     "roll": 225,
@@ -27284,12 +28038,12 @@ const data = [
     "dept": "SY3",
     "etc": 82,
     "dm": 58.25,
-    "coa": 40.0,
+    "coa": 48.0,
     "fsd-ii": 0,
     "fsd2": 38.5,
     "python2": 32.5,
     "toc": 39.5,
-    "total": 208.75,
+    "total": 216.75,
     "coa2": 17.0,
     "toc2": 15.0,
     "fsd22": 16.0,
@@ -27300,7 +28054,8 @@ const data = [
     "fsd23": 12.0,
     "python23": 10.0,
     "sem3spi": 6.29,
-    "dm4": 29.5
+    "dm4": 29.5,
+    "coa4": 16.0
   },
   {
     "roll": 231,
@@ -27316,12 +28071,12 @@ const data = [
     "dept": "SY3",
     "etc": 90,
     "dm": 44.25,
-    "coa": 33.0,
+    "coa": 41.5,
     "fsd-ii": 0,
     "fsd2": 28.5,
     "python2": 26.0,
     "toc": 32.5,
-    "total": 164.25,
+    "total": 172.75,
     "coa2": 16.0,
     "toc2": 11.0,
     "fsd22": 9.5,
@@ -27332,7 +28087,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 10.0,
     "sem3spi": 5.3,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 17.0
   },
   {
     "roll": 211,
@@ -27348,12 +28104,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 61.5,
-    "coa": 53.5,
+    "coa": 63.5,
     "fsd-ii": 0,
     "fsd2": 46.0,
     "python2": 40.0,
     "toc": 47.0,
-    "total": 248.0,
+    "total": 258.0,
     "coa2": 17.5,
     "toc2": 15.0,
     "fsd22": 15.5,
@@ -27364,7 +28120,8 @@ const data = [
     "fsd23": 16.0,
     "python23": 13.5,
     "sem3spi": 6.92,
-    "dm4": 32.0
+    "dm4": 32.0,
+    "coa4": 20.0
   },
   {
     "roll": 248,
@@ -27380,12 +28137,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 46.25,
-    "coa": 38.0,
+    "coa": 46.0,
     "fsd-ii": 0,
     "fsd2": 33.5,
     "python2": 30.5,
     "toc": 27.0,
-    "total": 175.25,
+    "total": 183.25,
     "coa2": 13.0,
     "toc2": 7.0,
     "fsd22": 14.0,
@@ -27396,7 +28153,8 @@ const data = [
     "fsd23": 11.5,
     "python23": 11.0,
     "sem3spi": 6.08,
-    "dm4": 36.5
+    "dm4": 36.5,
+    "coa4": 16.0
   },
   {
     "roll": 238,
@@ -27412,12 +28170,12 @@ const data = [
     "dept": "SY3",
     "etc": 88,
     "dm": 49.75,
-    "coa": 36.0,
+    "coa": 46.25,
     "fsd-ii": 0,
     "fsd2": 30.0,
     "python2": 19.5,
     "toc": 37.5,
-    "total": 172.75,
+    "total": 183.0,
     "coa2": 9.0,
     "toc2": 15.0,
     "fsd22": 9.0,
@@ -27428,7 +28186,8 @@ const data = [
     "fsd23": 9.0,
     "python23": 5.0,
     "sem3spi": 5.96,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 20.5
   },
   {
     "roll": 203,
@@ -27444,12 +28203,12 @@ const data = [
     "dept": "SY3",
     "etc": 92,
     "dm": 40.5,
-    "coa": 31.0,
+    "coa": 36.5,
     "fsd-ii": 0,
     "fsd2": 58.5,
     "python2": 33.5,
     "toc": 27.5,
-    "total": 191.0,
+    "total": 196.5,
     "coa2": 7.0,
     "toc2": 12.0,
     "fsd22": 18.0,
@@ -27460,7 +28219,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 16.5,
     "sem3spi": 7.42,
-    "dm4": 26.0
+    "dm4": 26.0,
+    "coa4": 11.0
   },
   {
     "roll": 219,
@@ -27476,12 +28236,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 47.25,
-    "coa": 36.0,
+    "coa": 46.0,
     "fsd-ii": 0,
     "fsd2": 31.0,
     "python2": 35.0,
     "toc": 35.0,
-    "total": 184.25,
+    "total": 194.25,
     "coa2": 10.5,
     "toc2": 13.0,
     "fsd22": 8.0,
@@ -27492,7 +28252,8 @@ const data = [
     "fsd23": 11.0,
     "python23": 11.0,
     "sem3spi": 6.5,
-    "dm4": 24.5
+    "dm4": 24.5,
+    "coa4": 20.0
   },
   {
     "roll": 220,
@@ -27508,12 +28269,12 @@ const data = [
     "dept": "SY3",
     "etc": 92,
     "dm": 56.25,
-    "coa": 33.5,
+    "coa": 39.0,
     "fsd-ii": 0,
     "fsd2": 33.0,
     "python2": 24.0,
     "toc": 37.0,
-    "total": 183.75,
+    "total": 189.25,
     "coa2": 15.5,
     "toc2": 13.0,
     "fsd22": 8.0,
@@ -27524,7 +28285,8 @@ const data = [
     "fsd23": 10.0,
     "python23": 3.0,
     "sem3spi": 6.0,
-    "dm4": 25.5
+    "dm4": 25.5,
+    "coa4": 11.0
   },
   {
     "roll": 226,
@@ -27540,12 +28302,12 @@ const data = [
     "dept": "SY3",
     "etc": 90,
     "dm": 67.25,
-    "coa": 62.5,
+    "coa": 72.5,
     "fsd-ii": 0,
     "fsd2": 29.5,
     "python2": 45.5,
     "toc": 38.5,
-    "total": 243.25,
+    "total": 253.25,
     "coa2": 16.5,
     "toc2": 14.0,
     "fsd22": 9.5,
@@ -27556,7 +28318,8 @@ const data = [
     "fsd23": 13.0,
     "python23": 15.5,
     "sem3spi": 6.08,
-    "dm4": 32.5
+    "dm4": 32.5,
+    "coa4": 20.0
   },
   {
     "roll": 189,
@@ -27572,12 +28335,12 @@ const data = [
     "dept": "SY3",
     "etc": 86,
     "dm": 61.5,
-    "coa": 30.0,
+    "coa": 36.5,
     "fsd-ii": 0,
     "fsd2": 48.0,
     "python2": 34.0,
     "toc": 40.5,
-    "total": 214.0,
+    "total": 220.5,
     "coa2": 6.0,
     "toc2": 14.0,
     "fsd22": 15.5,
@@ -27588,7 +28351,8 @@ const data = [
     "fsd23": 11.5,
     "python23": 11.5,
     "sem3spi": 7.33,
-    "dm4": 26.0
+    "dm4": 26.0,
+    "coa4": 13.0
   },
   {
     "roll": 246,
@@ -27604,12 +28368,12 @@ const data = [
     "dept": "SY3",
     "etc": 94,
     "dm": 58.75,
-    "coa": 53.5,
+    "coa": 64.5,
     "fsd-ii": 0,
     "fsd2": 45.5,
     "python2": 52.0,
     "toc": 52.0,
-    "total": 261.75,
+    "total": 272.75,
     "coa2": 19.5,
     "toc2": 23.0,
     "fsd22": 17.5,
@@ -27620,7 +28384,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 15.0,
     "sem3spi": 6.33,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 22.0
   },
   {
     "roll": 228,
@@ -27636,12 +28401,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 65.5,
-    "coa": 51.0,
+    "coa": 63.0,
     "fsd-ii": 0,
     "fsd2": 33.0,
     "python2": 42.5,
     "toc": 32.5,
-    "total": 224.5,
+    "total": 236.5,
     "coa2": 18.5,
     "toc2": 12.0,
     "fsd22": 12.0,
@@ -27652,7 +28417,8 @@ const data = [
     "fsd23": 13.0,
     "python23": 15.0,
     "sem3spi": 6.21,
-    "dm4": 36.0
+    "dm4": 36.0,
+    "coa4": 24.0
   },
   {
     "roll": 255,
@@ -27668,12 +28434,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 53.0,
-    "coa": 43.5,
+    "coa": 57.5,
     "fsd-ii": 0,
     "fsd2": 39.5,
     "python2": 31.5,
     "toc": 36.0,
-    "total": 203.5,
+    "total": 217.5,
     "coa2": 19.0,
     "toc2": 13.0,
     "fsd22": 8.0,
@@ -27684,7 +28450,8 @@ const data = [
     "fsd23": 17.0,
     "python23": 10.0,
     "sem3spi": 4.7,
-    "dm4": 32.0
+    "dm4": 32.0,
+    "coa4": 28.0
   },
   {
     "roll": 250,
@@ -27700,12 +28467,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 53.75,
-    "coa": 34.5,
+    "coa": 42.0,
     "fsd-ii": 0,
     "fsd2": 35.0,
     "python2": 35.5,
     "toc": 33.5,
-    "total": 192.25,
+    "total": 199.75,
     "coa2": 13.0,
     "toc2": 13.0,
     "fsd22": 9.0,
@@ -27716,7 +28483,8 @@ const data = [
     "fsd23": 17.0,
     "python23": 10.0,
     "sem3spi": 5.96,
-    "dm4": 40.5
+    "dm4": 40.5,
+    "coa4": 15.0
   },
   {
     "roll": 63,
@@ -27732,12 +28500,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 79.5,
-    "coa": 69.0,
+    "coa": 86.25,
     "fsd-ii": 0,
     "fsd2": 62.5,
     "python2": 58.0,
     "toc": 59.0,
-    "total": 328.0,
+    "total": 345.25,
     "coa2": 23.0,
     "toc2": 20.5,
     "fsd22": 21.0,
@@ -27748,7 +28516,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 15.5,
     "sem3spi": 8.58,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 34.5
   },
   {
     "roll": 22,
@@ -27764,12 +28533,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 74.25,
-    "coa": 62.5,
+    "coa": 79.0,
     "fsd-ii": 0,
     "fsd2": 67.5,
     "python2": 70.5,
     "toc": 56.0,
-    "total": 330.75,
+    "total": 347.25,
     "coa2": 20.5,
     "toc2": 18.0,
     "fsd22": 21.5,
@@ -27780,7 +28549,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 25.0,
     "sem3spi": 9.25,
-    "dm4": 41.5
+    "dm4": 41.5,
+    "coa4": 33.0
   },
   {
     "roll": 75,
@@ -27796,12 +28566,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 70.75,
-    "coa": 51.5,
+    "coa": 66.5,
     "fsd-ii": 0,
     "fsd2": 61.5,
     "python2": 53.0,
     "toc": 55.5,
-    "total": 292.25,
+    "total": 307.25,
     "coa2": 18.5,
     "toc2": 22.0,
     "fsd22": 21.5,
@@ -27812,7 +28582,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 14.0,
     "sem3spi": 8.42,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 30.0
   },
   {
     "roll": 69,
@@ -27828,12 +28599,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 71.25,
-    "coa": 61.0,
+    "coa": 81.75,
     "fsd-ii": 0,
     "fsd2": 57.5,
     "python2": 55.5,
     "toc": 48.0,
-    "total": 293.25,
+    "total": 314.0,
     "coa2": 23.0,
     "toc2": 21.0,
     "fsd22": 19.5,
@@ -27844,7 +28615,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 16.5,
     "sem3spi": 9.13,
-    "dm4": 32.5
+    "dm4": 32.5,
+    "coa4": 41.5
   },
   {
     "roll": 97,
@@ -27860,12 +28632,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 84.0,
-    "coa": 66.5,
+    "coa": 80.5,
     "fsd-ii": 0,
     "fsd2": 68.0,
     "python2": 53.5,
     "toc": 53.0,
-    "total": 325.0,
+    "total": 339.0,
     "coa2": 22.5,
     "toc2": 15.5,
     "fsd22": 24.0,
@@ -27876,7 +28648,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 16.0,
     "sem3spi": 8.0,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 28.0
   },
   {
     "roll": 25,
@@ -27892,12 +28665,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 86.0,
-    "coa": 65.0,
+    "coa": 84.5,
     "fsd-ii": 0,
     "fsd2": 65.5,
     "python2": 41.0,
     "toc": 63.0,
-    "total": 320.5,
+    "total": 340.0,
     "coa2": 20.5,
     "toc2": 19.5,
     "fsd22": 20.5,
@@ -27908,7 +28681,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 0.0,
     "sem3spi": 9.54,
-    "dm4": 43.0
+    "dm4": 43.0,
+    "coa4": 39.0
   },
   {
     "roll": 81,
@@ -27924,12 +28698,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 70.25,
-    "coa": 61.5,
+    "coa": 72.0,
     "fsd-ii": 0,
     "fsd2": 60.0,
     "python2": 43.0,
     "toc": 48.0,
-    "total": 282.75,
+    "total": 293.25,
     "coa2": 20.5,
     "toc2": 17.0,
     "fsd22": 14.5,
@@ -27940,7 +28714,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 14.0,
     "sem3spi": 8.46,
-    "dm4": 30.5
+    "dm4": 30.5,
+    "coa4": 21.0
   },
   {
     "roll": 113,
@@ -27956,12 +28731,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 67.0,
-    "coa": 55.0,
+    "coa": 66.25,
     "fsd-ii": 0,
     "fsd2": 56.0,
     "python2": 39.5,
     "toc": 59.0,
-    "total": 276.5,
+    "total": 287.75,
     "coa2": 15.5,
     "toc2": 21.0,
     "fsd22": 21.0,
@@ -27972,7 +28747,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 12.5,
     "sem3spi": 7.63,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 22.5
   },
   {
     "roll": 87,
@@ -27988,12 +28764,12 @@ const data = [
     "dept": "SY3",
     "etc": 86,
     "dm": 63.75,
-    "coa": 55.0,
+    "coa": 68.0,
     "fsd-ii": 0,
     "fsd2": 46.5,
     "python2": 55.5,
     "toc": 53.5,
-    "total": 274.25,
+    "total": 287.25,
     "coa2": 16.5,
     "toc2": 21.0,
     "fsd22": 12.5,
@@ -28004,7 +28780,8 @@ const data = [
     "fsd23": 16.0,
     "python23": 13.0,
     "sem3spi": 7.88,
-    "dm4": 23.5
+    "dm4": 23.5,
+    "coa4": 26.0
   },
   {
     "roll": 141,
@@ -28020,12 +28797,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 75.75,
-    "coa": 65.5,
+    "coa": 83.5,
     "fsd-ii": 0,
     "fsd2": 54.0,
     "python2": 50.5,
     "toc": 52.0,
-    "total": 297.75,
+    "total": 315.75,
     "coa2": 21.5,
     "toc2": 18.0,
     "fsd22": 14.5,
@@ -28036,7 +28813,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 13.5,
     "sem3spi": 7.83,
-    "dm4": 41.5
+    "dm4": 41.5,
+    "coa4": 36.0
   },
   {
     "roll": 150,
@@ -28052,12 +28830,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 78.25,
-    "coa": 60.0,
+    "coa": 73.5,
     "fsd-ii": 0,
     "fsd2": 57.0,
     "python2": 53.5,
     "toc": 55.0,
-    "total": 303.75,
+    "total": 317.25,
     "coa2": 20.5,
     "toc2": 20.0,
     "fsd22": 16.0,
@@ -28068,7 +28846,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 18.0,
     "sem3spi": 7.63,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 27.0
   },
   {
     "roll": 119,
@@ -28084,12 +28863,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 90.0,
-    "coa": 63.0,
+    "coa": 82.5,
     "fsd-ii": 0,
     "fsd2": 67.0,
     "python2": 53.0,
     "toc": 55.5,
-    "total": 328.5,
+    "total": 348.0,
     "coa2": 22.5,
     "toc2": 18.0,
     "fsd22": 22.5,
@@ -28100,7 +28879,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 18.0,
     "sem3spi": 8.29,
-    "dm4": 45.0
+    "dm4": 45.0,
+    "coa4": 39.0
   },
   {
     "roll": 175,
@@ -28116,12 +28896,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 52.75,
-    "coa": 37.0,
+    "coa": 47.5,
     "fsd-ii": 0,
     "fsd2": 47.5,
     "python2": 37.5,
     "toc": 46.0,
-    "total": 220.75,
+    "total": 231.25,
     "coa2": 13.0,
     "toc2": 18.0,
     "fsd22": 14.5,
@@ -28132,7 +28912,8 @@ const data = [
     "fsd23": 17.0,
     "python23": 11.5,
     "sem3spi": 6.71,
-    "dm4": 17.5
+    "dm4": 17.5,
+    "coa4": 21.0
   },
   {
     "roll": 188,
@@ -28148,12 +28929,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 73.0,
-    "coa": 33.5,
+    "coa": 47.0,
     "fsd-ii": 0,
     "fsd2": 42.5,
     "python2": 33.5,
     "toc": 50.5,
-    "total": 233.0,
+    "total": 246.5,
     "coa2": 5.5,
     "toc2": 16.5,
     "fsd22": 10.0,
@@ -28164,7 +28945,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 10.0,
     "sem3spi": 6.83,
-    "dm4": 34.0
+    "dm4": 34.0,
+    "coa4": 27.0
   },
   {
     "roll": 216,
@@ -28180,12 +28962,12 @@ const data = [
     "dept": "SY3",
     "etc": 88,
     "dm": 70.75,
-    "coa": 61.5,
+    "coa": 75.5,
     "fsd-ii": 0,
     "fsd2": 36.5,
     "python2": 38.0,
     "toc": 56.5,
-    "total": 263.25,
+    "total": 277.25,
     "coa2": 20.5,
     "toc2": 21.0,
     "fsd22": 9.5,
@@ -28196,7 +28978,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 14.0,
     "sem3spi": 6.5,
-    "dm4": 41.5
+    "dm4": 41.5,
+    "coa4": 28.0
   },
   {
     "roll": 132,
@@ -28212,12 +28995,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 82.0,
-    "coa": 65.0,
+    "coa": 80.5,
     "fsd-ii": 0,
     "fsd2": 54.0,
     "python2": 45.5,
     "toc": 62.5,
-    "total": 309.0,
+    "total": 324.5,
     "coa2": 19.5,
     "toc2": 19.0,
     "fsd22": 13.5,
@@ -28228,7 +29011,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 17.0,
     "sem3spi": 7.92,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 31.0
   },
   {
     "roll": 151,
@@ -28244,12 +29028,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 62.0,
-    "coa": 48.0,
+    "coa": 57.0,
     "fsd-ii": 0,
     "fsd2": 46.5,
     "python2": 50.5,
     "toc": 36.5,
-    "total": 243.5,
+    "total": 252.5,
     "coa2": 17.0,
     "toc2": 9.0,
     "fsd22": 11.5,
@@ -28260,7 +29044,8 @@ const data = [
     "fsd23": 18.5,
     "python23": 18.5,
     "sem3spi": 7.25,
-    "dm4": 27.0
+    "dm4": 27.0,
+    "coa4": 18.0
   },
   {
     "roll": 183,
@@ -28276,12 +29061,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 64.5,
-    "coa": 33.5,
+    "coa": 43.25,
     "fsd-ii": 0,
     "fsd2": 32.0,
     "python2": 34.5,
     "toc": 36.5,
-    "total": 201.0,
+    "total": 210.75,
     "coa2": 14.0,
     "toc2": 14.0,
     "fsd22": 11.0,
@@ -28292,7 +29077,8 @@ const data = [
     "fsd23": 16.0,
     "python23": 10.0,
     "sem3spi": 6.92,
-    "dm4": 34.0
+    "dm4": 34.0,
+    "coa4": 19.5
   },
   {
     "roll": 239,
@@ -28308,12 +29094,12 @@ const data = [
     "dept": "SY3",
     "etc": 90,
     "dm": 67.5,
-    "coa": 55.0,
+    "coa": 71.5,
     "fsd-ii": 0,
     "fsd2": 51.0,
     "python2": 47.0,
     "toc": 42.0,
-    "total": 262.5,
+    "total": 279.0,
     "coa2": 18.0,
     "toc2": 16.0,
     "fsd22": 15.0,
@@ -28324,7 +29110,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 17.5,
     "sem3spi": 6.58,
-    "dm4": 31.0
+    "dm4": 31.0,
+    "coa4": 33.0
   },
   {
     "roll": 209,
@@ -28340,12 +29127,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 77.5,
-    "coa": 49.5,
+    "coa": 57.5,
     "fsd-ii": 0,
     "fsd2": 33.5,
     "python2": 40.5,
     "toc": 48.0,
-    "total": 249.0,
+    "total": 257.0,
     "coa2": 17.0,
     "toc2": 20.0,
     "fsd22": 17.0,
@@ -28356,7 +29143,8 @@ const data = [
     "fsd23": 9.5,
     "python23": 13.5,
     "sem3spi": 6.96,
-    "dm4": 44.0
+    "dm4": 44.0,
+    "coa4": 16.0
   },
   {
     "roll": 223,
@@ -28372,12 +29160,12 @@ const data = [
     "dept": "SY3",
     "etc": 90,
     "dm": 80.5,
-    "coa": 58.5,
+    "coa": 72.0,
     "fsd-ii": 0,
     "fsd2": 35.0,
     "python2": 37.5,
     "toc": 60.0,
-    "total": 271.5,
+    "total": 285.0,
     "coa2": 20.0,
     "toc2": 20.5,
     "fsd22": 7.0,
@@ -28388,7 +29176,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 13.5,
     "sem3spi": 6.92,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 27.0
   },
   {
     "roll": 253,
@@ -28404,12 +29193,12 @@ const data = [
     "dept": "SY3",
     "etc": 86,
     "dm": 34.75,
-    "coa": 42.0,
+    "coa": 46.5,
     "fsd-ii": 0,
     "fsd2": 33.5,
     "python2": 30.0,
     "toc": 40.0,
-    "total": 180.25,
+    "total": 184.75,
     "coa2": 13.5,
     "toc2": 19.0,
     "fsd22": 12.0,
@@ -28420,7 +29209,8 @@ const data = [
     "fsd23": 6.0,
     "python23": 9.0,
     "sem3spi": 5.96,
-    "dm4": 5.5
+    "dm4": 5.5,
+    "coa4": 9.0
   },
   {
     "roll": 261,
@@ -28436,12 +29226,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 50.25,
-    "coa": 43.5,
+    "coa": 56.5,
     "fsd-ii": 0,
     "fsd2": 28.0,
     "python2": 36.5,
     "toc": 46.5,
-    "total": 204.75,
+    "total": 217.75,
     "coa2": 13.5,
     "toc2": 17.0,
     "fsd22": 15.5,
@@ -28452,7 +29242,8 @@ const data = [
     "fsd23": 5.0,
     "python23": 10.0,
     "sem3spi": 6.13,
-    "dm4": 15.5
+    "dm4": 15.5,
+    "coa4": 26.0
   },
   {
     "roll": 276,
@@ -28483,7 +29274,8 @@ const data = [
     "toc3": 1.0,
     "fsd23": 6.0,
     "python23": 9.0,
-    "dm4": 0.0
+    "dm4": 0.0,
+    "coa4": 0.0
   },
   {
     "roll": 277,
@@ -28499,12 +29291,12 @@ const data = [
     "dept": "SY3",
     "etc": 88,
     "dm": 10.75,
-    "coa": 12.0,
+    "coa": 14.0,
     "fsd-ii": 0,
     "fsd2": 5.0,
     "python2": 6.0,
     "toc": 10.0,
-    "total": 43.75,
+    "total": 45.75,
     "coa2": 7.0,
     "toc2": 8.0,
     "fsd22": 3.0,
@@ -28514,7 +29306,8 @@ const data = [
     "toc3": 1.0,
     "fsd23": 0.0,
     "python23": 2.0,
-    "dm4": 2.5
+    "dm4": 2.5,
+    "coa4": 4.0
   },
   {
     "roll": 237,
@@ -28530,12 +29323,12 @@ const data = [
     "dept": "SY3",
     "etc": 84,
     "dm": 49.25,
-    "coa": 15.0,
+    "coa": 18.0,
     "fsd-ii": 0,
     "fsd2": 14.5,
     "python2": 21.0,
     "toc": 27.5,
-    "total": 127.25,
+    "total": 130.25,
     "coa2": 5.0,
     "toc2": 11.0,
     "fsd22": 2.0,
@@ -28546,7 +29339,8 @@ const data = [
     "fsd23": 3.0,
     "python23": 8.0,
     "sem3spi": 5.52,
-    "dm4": 22.5
+    "dm4": 22.5,
+    "coa4": 6.0
   },
   {
     "roll": 247,
@@ -28562,12 +29356,12 @@ const data = [
     "dept": "SY3",
     "etc": 88,
     "dm": 49.0,
-    "coa": 35.0,
+    "coa": 46.0,
     "fsd-ii": 0,
     "fsd2": 42.0,
     "python2": 26.5,
     "toc": 45.5,
-    "total": 198.0,
+    "total": 209.0,
     "coa2": 10.0,
     "toc2": 18.0,
     "fsd22": 10.5,
@@ -28578,7 +29372,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 9.0,
     "sem3spi": 6.04,
-    "dm4": 28.0
+    "dm4": 28.0,
+    "coa4": 22.0
   },
   {
     "roll": 249,
@@ -28594,12 +29389,12 @@ const data = [
     "dept": "SY3",
     "etc": 88,
     "dm": 33.0,
-    "coa": 36.5,
+    "coa": 44.0,
     "fsd-ii": 0,
     "fsd2": 41.0,
     "python2": 31.5,
     "toc": 39.0,
-    "total": 181.0,
+    "total": 188.5,
     "coa2": 17.0,
     "toc2": 14.0,
     "fsd22": 11.0,
@@ -28610,7 +29405,8 @@ const data = [
     "fsd23": 9.0,
     "python23": 10.0,
     "sem3spi": 5.04,
-    "dm4": 27.0
+    "dm4": 27.0,
+    "coa4": 15.0
   },
   {
     "roll": 240,
@@ -28626,12 +29422,12 @@ const data = [
     "dept": "SY3",
     "etc": 84,
     "dm": 46.25,
-    "coa": 36.0,
+    "coa": 42.5,
     "fsd-ii": 0,
     "fsd2": 57.0,
     "python2": 46.0,
     "toc": 24.5,
-    "total": 209.75,
+    "total": 216.25,
     "coa2": 14.0,
     "toc2": 7.5,
     "fsd22": 17.5,
@@ -28642,7 +29438,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 17.5,
     "sem3spi": 5.11,
-    "dm4": 23.5
+    "dm4": 23.5,
+    "coa4": 13.0
   },
   {
     "roll": 230,
@@ -28658,12 +29455,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 72.5,
-    "coa": 43.0,
+    "coa": 50.25,
     "fsd-ii": 0,
     "fsd2": 37.0,
     "python2": 38.5,
     "toc": 49.5,
-    "total": 240.5,
+    "total": 247.75,
     "coa2": 17.0,
     "toc2": 19.0,
     "fsd22": 15.0,
@@ -28673,7 +29470,8 @@ const data = [
     "toc3": 17.5,
     "fsd23": 10.5,
     "python23": 14.5,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 14.5
   },
   {
     "roll": 257,
@@ -28689,12 +29487,12 @@ const data = [
     "dept": "SY3",
     "etc": 90,
     "dm": 42.5,
-    "coa": 20.5,
+    "coa": 28.5,
     "fsd-ii": 0,
     "fsd2": 20.0,
     "python2": 31.5,
     "toc": 29.5,
-    "total": 144.0,
+    "total": 152.0,
     "coa2": 5.5,
     "toc2": 9.5,
     "fsd22": 7.0,
@@ -28705,7 +29503,8 @@ const data = [
     "fsd23": 11.0,
     "python23": 11.0,
     "sem3spi": 5.33,
-    "dm4": 32.0
+    "dm4": 32.0,
+    "coa4": 16.0
   },
   {
     "roll": 243,
@@ -28721,12 +29520,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 54.0,
-    "coa": 34.5,
+    "coa": 42.0,
     "fsd-ii": 0,
     "fsd2": 40.5,
     "python2": 24.5,
     "toc": 47.0,
-    "total": 200.5,
+    "total": 208.0,
     "coa2": 8.0,
     "toc2": 18.0,
     "fsd22": 10.5,
@@ -28737,7 +29536,8 @@ const data = [
     "fsd23": 12.0,
     "python23": 4.5,
     "sem3spi": 5.67,
-    "dm4": 32.0
+    "dm4": 32.0,
+    "coa4": 15.0
   },
   {
     "roll": 212,
@@ -28753,12 +29553,12 @@ const data = [
     "dept": "SY3",
     "etc": 88,
     "dm": 59.25,
-    "coa": 55.0,
+    "coa": 66.5,
     "fsd-ii": 0,
     "fsd2": 53.5,
     "python2": 49.0,
     "toc": 54.5,
-    "total": 271.25,
+    "total": 282.75,
     "coa2": 17.0,
     "toc2": 18.5,
     "fsd22": 19.5,
@@ -28769,7 +29569,8 @@ const data = [
     "fsd23": 15.0,
     "python23": 13.5,
     "sem3spi": 6.54,
-    "dm4": 32.5
+    "dm4": 32.5,
+    "coa4": 23.0
   },
   {
     "roll": 258,
@@ -28785,12 +29586,12 @@ const data = [
     "dept": "SY3",
     "etc": 92,
     "dm": 25.0,
-    "coa": 29.0,
+    "coa": 33.5,
     "fsd-ii": 0,
     "fsd2": 24.0,
     "python2": 31.5,
     "toc": 16.0,
-    "total": 125.5,
+    "total": 130.0,
     "coa2": 10.5,
     "toc2": 8.0,
     "fsd22": 9.5,
@@ -28801,7 +29602,8 @@ const data = [
     "fsd23": 10.5,
     "python23": 9.0,
     "sem3spi": 5.96,
-    "dm4": 16.0
+    "dm4": 16.0,
+    "coa4": 9.0
   },
   {
     "roll": 224,
@@ -28817,12 +29619,12 @@ const data = [
     "dept": "SY3",
     "etc": 92,
     "dm": 49.75,
-    "coa": 39.0,
+    "coa": 49.5,
     "fsd-ii": 0,
     "fsd2": 42.5,
     "python2": 49.5,
     "toc": 35.0,
-    "total": 215.75,
+    "total": 226.25,
     "coa2": 12.5,
     "toc2": 12.5,
     "fsd22": 10.5,
@@ -28833,7 +29635,8 @@ const data = [
     "fsd23": 15.0,
     "python23": 18.5,
     "sem3spi": 6.0,
-    "dm4": 21.5
+    "dm4": 21.5,
+    "coa4": 21.0
   },
   {
     "roll": 222,
@@ -28849,12 +29652,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 57.75,
-    "coa": 41.0,
+    "coa": 50.5,
     "fsd-ii": 0,
     "fsd2": 40.0,
     "python2": 32.5,
     "toc": 34.0,
-    "total": 205.25,
+    "total": 214.75,
     "coa2": 12.0,
     "toc2": 18.0,
     "fsd22": 16.0,
@@ -28865,7 +29668,8 @@ const data = [
     "fsd23": 11.0,
     "python23": 12.0,
     "sem3spi": 6.54,
-    "dm4": 29.5
+    "dm4": 29.5,
+    "coa4": 19.0
   },
   {
     "roll": 252,
@@ -28881,12 +29685,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 53.25,
-    "coa": 42.5,
+    "coa": 51.75,
     "fsd-ii": 0,
     "fsd2": 35.5,
     "python2": 30.5,
     "toc": 29.0,
-    "total": 190.75,
+    "total": 200.0,
     "coa2": 18.5,
     "toc2": 12.0,
     "fsd22": 16.0,
@@ -28897,7 +29701,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 10.0,
     "sem3spi": 5.96,
-    "dm4": 28.5
+    "dm4": 28.5,
+    "coa4": 18.5
   },
   {
     "roll": 259,
@@ -28913,12 +29718,12 @@ const data = [
     "dept": "SY3",
     "etc": 90,
     "dm": 57.5,
-    "coa": 36.0,
+    "coa": 46.0,
     "fsd-ii": 0,
     "fsd2": 51.0,
     "python2": 33.5,
     "toc": 40.5,
-    "total": 218.5,
+    "total": 228.5,
     "coa2": 15.0,
     "toc2": 15.0,
     "fsd22": 14.0,
@@ -28929,7 +29734,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 11.5,
     "sem3spi": 5.25,
-    "dm4": 32.0
+    "dm4": 32.0,
+    "coa4": 20.0
   },
   {
     "roll": 267,
@@ -28945,12 +29751,12 @@ const data = [
     "dept": "SY3",
     "etc": 92,
     "dm": 42.75,
-    "coa": 30.0,
+    "coa": 41.0,
     "fsd-ii": 0,
     "fsd2": 34.0,
     "python2": 26.0,
     "toc": 29.5,
-    "total": 162.25,
+    "total": 173.25,
     "coa2": 10.5,
     "toc2": 8.5,
     "fsd22": 10.0,
@@ -28961,7 +29767,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 8.0,
     "sem3spi": 9.25,
-    "dm4": 27.5
+    "dm4": 27.5,
+    "coa4": 22.0
   },
   {
     "roll": 262,
@@ -28977,12 +29784,12 @@ const data = [
     "dept": "SY3",
     "etc": 88,
     "dm": 64.75,
-    "coa": 42.5,
+    "coa": 52.0,
     "fsd-ii": 0,
     "fsd2": 40.0,
     "python2": 35.5,
     "toc": 48.0,
-    "total": 230.75,
+    "total": 240.25,
     "coa2": 19.5,
     "toc2": 16.0,
     "fsd22": 11.5,
@@ -28993,7 +29800,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 11.0,
     "sem3spi": 5.46,
-    "dm4": 28.5
+    "dm4": 28.5,
+    "coa4": 19.0
   },
   {
     "roll": 266,
@@ -29009,12 +29817,12 @@ const data = [
     "dept": "SY3",
     "etc": 80,
     "dm": 34.25,
-    "coa": 37.5,
+    "coa": 44.0,
     "fsd-ii": 0,
     "fsd2": 39.0,
     "python2": 29.5,
     "toc": 28.5,
-    "total": 168.75,
+    "total": 175.25,
     "coa2": 11.0,
     "toc2": 16.0,
     "fsd22": 15.5,
@@ -29025,7 +29833,8 @@ const data = [
     "fsd23": 9.0,
     "python23": 10.0,
     "sem3spi": 4.59,
-    "dm4": 15.5
+    "dm4": 15.5,
+    "coa4": 13.0
   },
   {
     "roll": 273,
@@ -29041,12 +29850,12 @@ const data = [
     "dept": "SY3",
     "etc": 84,
     "dm": 30.25,
-    "coa": 27.5,
+    "coa": 37.0,
     "fsd-ii": 0,
     "fsd2": 18.0,
     "python2": 27.5,
     "toc": 23.5,
-    "total": 126.75,
+    "total": 136.25,
     "coa2": 6.5,
     "toc2": 7.5,
     "fsd22": 9.5,
@@ -29057,7 +29866,8 @@ const data = [
     "fsd23": 6.0,
     "python23": 8.5,
     "sem3spi": 4.26115,
-    "dm4": 22.5
+    "dm4": 22.5,
+    "coa4": 19.0
   },
   {
     "roll": 271,
@@ -29073,12 +29883,12 @@ const data = [
     "dept": "SY3",
     "etc": 90,
     "dm": 41.25,
-    "coa": 37.0,
+    "coa": 40.5,
     "fsd-ii": 0,
     "fsd2": 20.0,
     "python2": 27.0,
     "toc": 25.5,
-    "total": 150.75,
+    "total": 154.25,
     "coa2": 11.5,
     "toc2": 11.5,
     "fsd22": 8.0,
@@ -29089,7 +29899,8 @@ const data = [
     "fsd23": 8.0,
     "python23": 6.0,
     "sem3spi": 4.33117,
-    "dm4": 14.5
+    "dm4": 14.5,
+    "coa4": 7.0
   },
   {
     "roll": 274,
@@ -29105,12 +29916,12 @@ const data = [
     "dept": "SY3",
     "etc": 80,
     "dm": 48.75,
-    "coa": 29.5,
+    "coa": 37.5,
     "fsd-ii": 0,
     "fsd2": 33.5,
     "python2": 27.5,
     "toc": 31.0,
-    "total": 170.25,
+    "total": 178.25,
     "coa2": 7.0,
     "toc2": 16.0,
     "fsd22": 8.0,
@@ -29120,7 +29931,8 @@ const data = [
     "toc3": 6.0,
     "fsd23": 19.0,
     "python23": 8.5,
-    "dm4": 28.5
+    "dm4": 28.5,
+    "coa4": 16.0
   },
   {
     "roll": 265,
@@ -29136,12 +29948,12 @@ const data = [
     "dept": "SY3",
     "etc": 88,
     "dm": 57.0,
-    "coa": 44.0,
+    "coa": 53.5,
     "fsd-ii": 0,
     "fsd2": 39.0,
     "python2": 32.5,
     "toc": 36.5,
-    "total": 209.0,
+    "total": 218.5,
     "coa2": 15.5,
     "toc2": 17.0,
     "fsd22": 12.0,
@@ -29152,7 +29964,8 @@ const data = [
     "fsd23": 15.0,
     "python23": 12.0,
     "sem3spi": 5.71,
-    "dm4": 31.0
+    "dm4": 31.0,
+    "coa4": 19.0
   },
   {
     "roll": 270,
@@ -29168,12 +29981,12 @@ const data = [
     "dept": "SY3",
     "etc": 88,
     "dm": 47.75,
-    "coa": 31.0,
+    "coa": 39.5,
     "fsd-ii": 0,
     "fsd2": 31.0,
     "python2": 26.0,
     "toc": 27.5,
-    "total": 163.25,
+    "total": 171.75,
     "coa2": 9.0,
     "toc2": 11.5,
     "fsd22": 8.0,
@@ -29184,7 +29997,8 @@ const data = [
     "fsd23": 11.0,
     "python23": 8.0,
     "sem3spi": 4.88,
-    "dm4": 30.5
+    "dm4": 30.5,
+    "coa4": 17.0
   },
   {
     "roll": 275,
@@ -29200,12 +30014,12 @@ const data = [
     "dept": "SY3",
     "etc": 84,
     "dm": 24.5,
-    "coa": 24.5,
+    "coa": 29.0,
     "fsd-ii": 0,
     "fsd2": 17.0,
     "python2": 22.0,
     "toc": 12.5,
-    "total": 100.5,
+    "total": 105.0,
     "coa2": 6.5,
     "toc2": 4.0,
     "fsd22": 7.0,
@@ -29215,7 +30029,8 @@ const data = [
     "toc3": 3.0,
     "fsd23": 8.0,
     "python23": 6.0,
-    "dm4": 3.0
+    "dm4": 3.0,
+    "coa4": 9.0
   },
   {
     "roll": 256,
@@ -29231,12 +30046,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 65.75,
-    "coa": 56.0,
+    "coa": 72.5,
     "fsd-ii": 0,
     "fsd2": 50.5,
     "python2": 41.5,
     "toc": 48.5,
-    "total": 262.25,
+    "total": 278.75,
     "coa2": 17.0,
     "toc2": 14.0,
     "fsd22": 16.5,
@@ -29247,7 +30062,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 13.5,
     "sem3spi": 6.42,
-    "dm4": 29.5
+    "dm4": 29.5,
+    "coa4": 33.0
   },
   {
     "roll": 245,
@@ -29263,12 +30079,12 @@ const data = [
     "dept": "SY3",
     "etc": 86,
     "dm": 62.0,
-    "coa": 53.0,
+    "coa": 69.5,
     "fsd-ii": 0,
     "fsd2": 53.0,
     "python2": 48.0,
     "toc": 42.0,
-    "total": 258.0,
+    "total": 274.5,
     "coa2": 23.5,
     "toc2": 16.0,
     "fsd22": 18.5,
@@ -29279,7 +30095,8 @@ const data = [
     "fsd23": 16.0,
     "python23": 16.0,
     "sem3spi": 6.67,
-    "dm4": 34.0
+    "dm4": 34.0,
+    "coa4": 33.0
   },
   {
     "roll": 278,
@@ -29295,7 +30112,7 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 83.5,
-    "coa": 0,
+    "coa": 0.0,
     "fsd-ii": 0,
     "fsd2": 58.5,
     "python2": 40.0,
@@ -29309,7 +30126,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 10.0,
     "sem3spi": 6.2,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 0.0
   },
   {
     "roll": 279,
@@ -29325,7 +30143,7 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 63.25,
-    "coa": 0,
+    "coa": 0.0,
     "fsd-ii": 0,
     "fsd2": 48.5,
     "python2": 38.0,
@@ -29339,7 +30157,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 15.0,
     "sem3spi": 6.8,
-    "dm4": 31.5
+    "dm4": 31.5,
+    "coa4": 0.0
   },
   {
     "roll": 280,
@@ -29355,7 +30174,7 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 48.25,
-    "coa": 0,
+    "coa": 0.0,
     "fsd-ii": 0,
     "fsd2": 50.0,
     "python2": 29.0,
@@ -29369,7 +30188,8 @@ const data = [
     "fsd23": 13.5,
     "python23": 10.0,
     "sem3spi": 6.28,
-    "dm4": 26.5
+    "dm4": 26.5,
+    "coa4": 0.0
   },
   {
     "roll": 281,
@@ -29385,7 +30205,7 @@ const data = [
     "dept": "SY3",
     "etc": 90,
     "dm": 53.75,
-    "coa": 0,
+    "coa": 0.0,
     "fsd-ii": 0,
     "fsd2": 51.5,
     "python2": 34.5,
@@ -29399,7 +30219,8 @@ const data = [
     "fsd23": 13.5,
     "python23": 12.0,
     "sem3spi": 5.72,
-    "dm4": 31.5
+    "dm4": 31.5,
+    "coa4": 0.0
   },
   {
     "roll": 282,
@@ -29415,7 +30236,7 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 78.25,
-    "coa": 0,
+    "coa": 0.0,
     "fsd-ii": 0,
     "fsd2": 68.0,
     "python2": 55.5,
@@ -29429,7 +30250,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 17.0,
     "sem3spi": 7.36,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 0.0
   },
   {
     "roll": 283,
@@ -29445,7 +30267,7 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 69.0,
-    "coa": 0,
+    "coa": 0.0,
     "fsd-ii": 0,
     "fsd2": 45.5,
     "python2": 44.0,
@@ -29459,7 +30281,8 @@ const data = [
     "fsd23": 13.0,
     "python23": 14.0,
     "sem3spi": 6.28,
-    "dm4": 35.0
+    "dm4": 35.0,
+    "coa4": 0.0
   },
   {
     "roll": 65,
@@ -29475,12 +30298,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 78.25,
-    "coa": 67.5,
+    "coa": 87.5,
     "fsd-ii": 0,
     "fsd2": 67.0,
     "python2": 67.5,
     "toc": 66.0,
-    "total": 346.25,
+    "total": 366.25,
     "coa2": 20.5,
     "toc2": 21.5,
     "fsd22": 21.5,
@@ -29491,7 +30314,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 25.0,
     "sem3spi": 9.46,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 40.0
   },
   {
     "roll": 101,
@@ -29507,12 +30331,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 82.25,
-    "coa": 63.0,
+    "coa": 79.0,
     "fsd-ii": 0,
     "fsd2": 61.5,
     "python2": 59.0,
     "toc": 49.0,
-    "total": 314.75,
+    "total": 330.75,
     "coa2": 21.0,
     "toc2": 20.0,
     "fsd22": 22.0,
@@ -29523,7 +30347,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 16.0,
     "sem3spi": 8.79,
-    "dm4": 44.5
+    "dm4": 44.5,
+    "coa4": 32.0
   },
   {
     "roll": 106,
@@ -29539,12 +30364,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 69.75,
-    "coa": 60.0,
+    "coa": 70.0,
     "fsd-ii": 0,
     "fsd2": 68.0,
     "python2": 67.5,
     "toc": 58.5,
-    "total": 323.75,
+    "total": 333.75,
     "coa2": 18.0,
     "toc2": 21.0,
     "fsd22": 23.0,
@@ -29555,7 +30380,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 22.0,
     "sem3spi": 8.83,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 20.0
   },
   {
     "roll": 264,
@@ -29571,12 +30397,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 62.25,
-    "coa": 42.0,
+    "coa": 56.5,
     "fsd-ii": 0,
     "fsd2": 49.5,
     "python2": 41.0,
     "toc": 35.5,
-    "total": 230.25,
+    "total": 244.75,
     "coa2": 17.0,
     "toc2": 12.5,
     "fsd22": 18.5,
@@ -29587,7 +30413,8 @@ const data = [
     "fsd23": 12.0,
     "python23": 12.0,
     "sem3spi": 6.67,
-    "dm4": 30.5
+    "dm4": 30.5,
+    "coa4": 29.0
   },
   {
     "roll": 147,
@@ -29603,12 +30430,12 @@ const data = [
     "dept": "SY3",
     "etc": 94,
     "dm": 72.75,
-    "coa": 65.0,
+    "coa": 85.0,
     "fsd-ii": 0,
     "fsd2": 52.5,
     "python2": 51.0,
     "toc": 61.0,
-    "total": 302.25,
+    "total": 322.25,
     "coa2": 19.5,
     "toc2": 22.0,
     "fsd22": 14.5,
@@ -29619,7 +30446,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 12.5,
     "sem3spi": 8.5,
-    "dm4": 41.5
+    "dm4": 41.5,
+    "coa4": 40.0
   },
   {
     "roll": 155,
@@ -29635,12 +30463,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 72.0,
-    "coa": 54.0,
+    "coa": 66.0,
     "fsd-ii": 0,
     "fsd2": 54.5,
     "python2": 53.5,
     "toc": 46.0,
-    "total": 280.0,
+    "total": 292.0,
     "coa2": 20.0,
     "toc2": 16.5,
     "fsd22": 19.5,
@@ -29651,7 +30479,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 16.0,
     "sem3spi": 8.46,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 24.0
   },
   {
     "roll": 117,
@@ -29667,12 +30496,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 70.25,
-    "coa": 62.5,
+    "coa": 78.5,
     "fsd-ii": 0,
     "fsd2": 56.5,
     "python2": 56.0,
     "toc": 52.0,
-    "total": 297.25,
+    "total": 313.25,
     "coa2": 23.0,
     "toc2": 19.5,
     "fsd22": 19.0,
@@ -29683,7 +30512,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 18.0,
     "sem3spi": 8.63,
-    "dm4": 44.5
+    "dm4": 44.5,
+    "coa4": 32.0
   },
   {
     "roll": 199,
@@ -29699,12 +30529,12 @@ const data = [
     "dept": "SY3",
     "etc": 92,
     "dm": 78.0,
-    "coa": 67.0,
+    "coa": 80.0,
     "fsd-ii": 0,
     "fsd2": 44.5,
     "python2": 43.5,
     "toc": 61.5,
-    "total": 294.5,
+    "total": 307.5,
     "coa2": 21.0,
     "toc2": 22.0,
     "fsd22": 13.5,
@@ -29715,7 +30545,8 @@ const data = [
     "fsd23": 13.0,
     "python23": 11.0,
     "sem3spi": 8.0,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 26.0
   },
   {
     "roll": 187,
@@ -29731,12 +30562,12 @@ const data = [
     "dept": "SY3",
     "etc": 94,
     "dm": 65.0,
-    "coa": 45.5,
+    "coa": 53.5,
     "fsd-ii": 0,
     "fsd2": 58.0,
     "python2": 49.0,
     "toc": 53.5,
-    "total": 271.0,
+    "total": 279.0,
     "coa2": 15.0,
     "toc2": 20.5,
     "fsd22": 19.5,
@@ -29747,7 +30578,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 14.0,
     "sem3spi": 8.38,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 16.0
   },
   {
     "roll": 236,
@@ -29763,12 +30595,12 @@ const data = [
     "dept": "SY3",
     "etc": 92,
     "dm": 50.0,
-    "coa": 54.0,
+    "coa": 60.5,
     "fsd-ii": 0,
     "fsd2": 64.0,
     "python2": 62.5,
     "toc": 33.0,
-    "total": 263.5,
+    "total": 270.0,
     "coa2": 20.5,
     "toc2": 11.5,
     "fsd22": 21.0,
@@ -29779,7 +30611,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 23.0,
     "sem3spi": 7.46,
-    "dm4": 23.0
+    "dm4": 23.0,
+    "coa4": 13.0
   },
   {
     "roll": 186,
@@ -29795,12 +30628,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 62.25,
-    "coa": 52.0,
+    "coa": 64.0,
     "fsd-ii": 0,
     "fsd2": 57.5,
     "python2": 50.0,
     "toc": 52.5,
-    "total": 274.25,
+    "total": 286.25,
     "coa2": 15.5,
     "toc2": 18.0,
     "fsd22": 16.0,
@@ -29811,7 +30644,8 @@ const data = [
     "fsd23": 18.5,
     "python23": 13.0,
     "sem3spi": 8.46,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 24.0
   },
   {
     "roll": 116,
@@ -29827,12 +30661,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 80.25,
-    "coa": 64.5,
+    "coa": 81.0,
     "fsd-ii": 0,
     "fsd2": 66.0,
     "python2": 58.5,
     "toc": 54.0,
-    "total": 323.25,
+    "total": 339.75,
     "coa2": 23.5,
     "toc2": 16.0,
     "fsd22": 22.5,
@@ -29843,7 +30677,8 @@ const data = [
     "fsd23": 21.5,
     "python23": 13.0,
     "sem3spi": 8.79,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 33.0
   },
   {
     "roll": 184,
@@ -29859,12 +30694,12 @@ const data = [
     "dept": "SY3",
     "etc": 86,
     "dm": 84.0,
-    "coa": 60.0,
+    "coa": 79.5,
     "fsd-ii": 0,
     "fsd2": 51.5,
     "python2": 46.5,
     "toc": 52.5,
-    "total": 294.5,
+    "total": 314.0,
     "coa2": 20.0,
     "toc2": 17.0,
     "fsd22": 18.0,
@@ -29875,7 +30710,8 @@ const data = [
     "fsd23": 13.5,
     "python23": 12.5,
     "sem3spi": 8.33,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 39.0
   },
   {
     "roll": 18,
@@ -29891,12 +30727,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 63.5,
-    "coa": 62.5,
+    "coa": 81.0,
     "fsd-ii": 0,
     "fsd2": 67.0,
     "python2": 65.0,
     "toc": 66.5,
-    "total": 324.5,
+    "total": 343.0,
     "coa2": 18.5,
     "toc2": 22.0,
     "fsd22": 19.5,
@@ -29907,7 +30743,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 22.0,
     "sem3spi": 9.88,
-    "dm4": 34.0
+    "dm4": 34.0,
+    "coa4": 37.0
   },
   {
     "roll": 244,
@@ -29923,12 +30760,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 63.75,
-    "coa": 47.0,
+    "coa": 60.0,
     "fsd-ii": 0,
     "fsd2": 57.0,
     "python2": 53.0,
     "toc": 35.0,
-    "total": 255.75,
+    "total": 268.75,
     "coa2": 15.0,
     "toc2": 14.0,
     "fsd22": 16.5,
@@ -29939,7 +30776,8 @@ const data = [
     "fsd23": 17.0,
     "python23": 15.0,
     "sem3spi": 7.75,
-    "dm4": 39.5
+    "dm4": 39.5,
+    "coa4": 26.0
   },
   {
     "roll": 206,
@@ -29955,12 +30793,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 68.75,
-    "coa": 58.5,
+    "coa": 74.0,
     "fsd-ii": 0,
     "fsd2": 59.5,
     "python2": 58.5,
     "toc": 49.0,
-    "total": 294.25,
+    "total": 309.75,
     "coa2": 20.5,
     "toc2": 17.0,
     "fsd22": 19.0,
@@ -29971,7 +30809,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 15.5,
     "sem3spi": 8.13,
-    "dm4": 33.5
+    "dm4": 33.5,
+    "coa4": 31.0
   },
   {
     "roll": 241,
@@ -29987,12 +30826,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 46.25,
-    "coa": 59.5,
+    "coa": 73.0,
     "fsd-ii": 0,
     "fsd2": 48.5,
     "python2": 55.5,
     "toc": 48.0,
-    "total": 257.75,
+    "total": 271.25,
     "coa2": 19.5,
     "toc2": 16.0,
     "fsd22": 12.5,
@@ -30003,7 +30842,8 @@ const data = [
     "fsd23": 16.0,
     "python23": 15.0,
     "sem3spi": 7.25,
-    "dm4": 24.5
+    "dm4": 24.5,
+    "coa4": 27.0
   },
   {
     "roll": 161,
@@ -30019,12 +30859,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 76.75,
-    "coa": 59.5,
+    "coa": 78.0,
     "fsd-ii": 0,
     "fsd2": 59.5,
     "python2": 49.0,
     "toc": 58.0,
-    "total": 302.75,
+    "total": 321.25,
     "coa2": 17.5,
     "toc2": 20.5,
     "fsd22": 19.5,
@@ -30035,7 +30875,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 14.5,
     "sem3spi": 8.46,
-    "dm4": 46.5
+    "dm4": 46.5,
+    "coa4": 37.0
   },
   {
     "roll": 269,
@@ -30051,12 +30892,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 49.5,
-    "coa": 36.5,
+    "coa": 44.5,
     "fsd-ii": 0,
     "fsd2": 36.0,
     "python2": 29.0,
     "toc": 26.0,
-    "total": 177.0,
+    "total": 185.0,
     "coa2": 13.0,
     "toc2": 9.5,
     "fsd22": 9.0,
@@ -30067,7 +30908,8 @@ const data = [
     "fsd23": 8.0,
     "python23": 10.0,
     "sem3spi": 6.88,
-    "dm4": 32.0
+    "dm4": 32.0,
+    "coa4": 16.0
   },
   {
     "roll": 242,
@@ -30083,12 +30925,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 55.5,
-    "coa": 61.0,
+    "coa": 79.0,
     "fsd-ii": 0,
     "fsd2": 56.0,
     "python2": 49.5,
     "toc": 39.5,
-    "total": 261.5,
+    "total": 279.5,
     "coa2": 21.0,
     "toc2": 12.5,
     "fsd22": 18.5,
@@ -30099,7 +30941,8 @@ const data = [
     "fsd23": 16.5,
     "python23": 17.0,
     "sem3spi": 7.5,
-    "dm4": 29.0
+    "dm4": 29.0,
+    "coa4": 36.0
   },
   {
     "roll": 251,
@@ -30115,12 +30958,12 @@ const data = [
     "dept": "SY3",
     "etc": 74,
     "dm": 46.0,
-    "coa": 35.5,
+    "coa": 44.0,
     "fsd-ii": 0,
     "fsd2": 44.0,
     "python2": 31.0,
     "toc": 36.0,
-    "total": 192.5,
+    "total": 201.0,
     "coa2": 11.5,
     "toc2": 11.0,
     "fsd22": 16.0,
@@ -30131,7 +30974,8 @@ const data = [
     "fsd23": 9.0,
     "python23": 7.5,
     "sem3spi": 6.88,
-    "dm4": 29.0
+    "dm4": 29.0,
+    "coa4": 17.0
   },
   {
     "roll": 167,
@@ -30147,12 +30991,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 72.0,
-    "coa": 64.0,
+    "coa": 83.0,
     "fsd-ii": 0,
     "fsd2": 52.5,
     "python2": 54.5,
     "toc": 48.5,
-    "total": 291.5,
+    "total": 310.5,
     "coa2": 22.0,
     "toc2": 14.0,
     "fsd22": 18.5,
@@ -30163,7 +31007,8 @@ const data = [
     "fsd23": 15.5,
     "python23": 21.0,
     "sem3spi": 8.17,
-    "dm4": 42.0
+    "dm4": 42.0,
+    "coa4": 38.0
   },
   {
     "roll": 235,
@@ -30179,12 +31024,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 66.75,
-    "coa": 53.5,
+    "coa": 70.0,
     "fsd-ii": 0,
     "fsd2": 66.0,
     "python2": 55.0,
     "toc": 42.0,
-    "total": 283.25,
+    "total": 299.75,
     "coa2": 20.0,
     "toc2": 11.0,
     "fsd22": 21.0,
@@ -30195,7 +31040,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 19.5,
     "sem3spi": 7.46,
-    "dm4": 29.5
+    "dm4": 29.5,
+    "coa4": 33.0
   },
   {
     "roll": 254,
@@ -30211,12 +31057,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 34.75,
-    "coa": 46.5,
+    "coa": 55.5,
     "fsd-ii": 0,
     "fsd2": 59.5,
     "python2": 39.5,
     "toc": 36.0,
-    "total": 216.25,
+    "total": 225.25,
     "coa2": 19.5,
     "toc2": 10.5,
     "fsd22": 20.0,
@@ -30227,7 +31073,8 @@ const data = [
     "fsd23": 18.5,
     "python23": 13.0,
     "sem3spi": 6.33,
-    "dm4": 28.5
+    "dm4": 28.5,
+    "coa4": 18.0
   },
   {
     "roll": 221,
@@ -30243,12 +31090,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 72.25,
-    "coa": 60.0,
+    "coa": 77.0,
     "fsd-ii": 0,
     "fsd2": 64.0,
     "python2": 50.5,
     "toc": 53.0,
-    "total": 299.75,
+    "total": 316.75,
     "coa2": 21.0,
     "toc2": 16.5,
     "fsd22": 23.0,
@@ -30259,7 +31106,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 16.0,
     "sem3spi": 8.04,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 34.0
   },
   {
     "roll": 177,
@@ -30275,12 +31123,12 @@ const data = [
     "dept": "SY3",
     "etc": 100,
     "dm": 73.25,
-    "coa": 65.0,
+    "coa": 82.5,
     "fsd-ii": 0,
     "fsd2": 58.5,
     "python2": 47.5,
     "toc": 52.0,
-    "total": 296.25,
+    "total": 313.75,
     "coa2": 23.5,
     "toc2": 17.0,
     "fsd22": 19.0,
@@ -30291,7 +31139,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 15.5,
     "sem3spi": 8.42,
-    "dm4": 33.5
+    "dm4": 33.5,
+    "coa4": 35.0
   },
   {
     "roll": 148,
@@ -30307,12 +31156,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 72.25,
-    "coa": 59.5,
+    "coa": 74.0,
     "fsd-ii": 0,
     "fsd2": 58.0,
     "python2": 50.0,
     "toc": 54.0,
-    "total": 293.75,
+    "total": 308.25,
     "coa2": 17.0,
     "toc2": 20.0,
     "fsd22": 18.0,
@@ -30323,7 +31172,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 15.0,
     "sem3spi": 8.75,
-    "dm4": 42.5
+    "dm4": 42.5,
+    "coa4": 29.0
   },
   {
     "roll": 272,
@@ -30339,12 +31189,12 @@ const data = [
     "dept": "SY3",
     "etc": 90,
     "dm": 39.75,
-    "coa": 30.5,
+    "coa": 37.5,
     "fsd-ii": 0,
     "fsd2": 37.0,
     "python2": 28.5,
     "toc": 33.5,
-    "total": 169.25,
+    "total": 176.25,
     "coa2": 7.5,
     "toc2": 15.0,
     "fsd22": 15.5,
@@ -30355,7 +31205,8 @@ const data = [
     "fsd23": 9.5,
     "python23": 7.0,
     "sem3spi": 5.92,
-    "dm4": 33.5
+    "dm4": 33.5,
+    "coa4": 14.0
   },
   {
     "roll": 234,
@@ -30371,12 +31222,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 58.25,
-    "coa": 53.5,
+    "coa": 63.5,
     "fsd-ii": 0,
     "fsd2": 59.0,
     "python2": 49.0,
     "toc": 46.5,
-    "total": 266.25,
+    "total": 276.25,
     "coa2": 18.5,
     "toc2": 13.5,
     "fsd22": 19.5,
@@ -30387,7 +31238,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 15.5,
     "sem3spi": 7.63,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 20.0
   },
   {
     "roll": 260,
@@ -30403,12 +31255,12 @@ const data = [
     "dept": "SY3",
     "etc": 96,
     "dm": 54.25,
-    "coa": 37.5,
+    "coa": 47.5,
     "fsd-ii": 0,
     "fsd2": 51.5,
     "python2": 32.0,
     "toc": 32.5,
-    "total": 207.75,
+    "total": 217.75,
     "coa2": 16.0,
     "toc2": 12.5,
     "fsd22": 14.5,
@@ -30419,7 +31271,8 @@ const data = [
     "fsd23": 18.5,
     "python23": 7.5,
     "sem3spi": 6.79,
-    "dm4": 31.5
+    "dm4": 31.5,
+    "coa4": 20.0
   },
   {
     "roll": 215,
@@ -30435,12 +31288,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 68.5,
-    "coa": 58.0,
+    "coa": 73.0,
     "fsd-ii": 0,
     "fsd2": 51.5,
     "python2": 37.0,
     "toc": 50.0,
-    "total": 265.0,
+    "total": 280.0,
     "coa2": 22.5,
     "toc2": 21.0,
     "fsd22": 18.5,
@@ -30451,7 +31304,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 10.0,
     "sem3spi": 7.75,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 30.0
   },
   {
     "roll": 168,
@@ -30467,12 +31321,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 73.5,
-    "coa": 63.0,
+    "coa": 75.5,
     "fsd-ii": 0,
     "fsd2": 63.5,
     "python2": 63.5,
     "toc": 50.0,
-    "total": 313.5,
+    "total": 326.0,
     "coa2": 22.0,
     "toc2": 20.0,
     "fsd22": 21.5,
@@ -30483,7 +31337,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 20.5,
     "sem3spi": 8.33,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 25.0
   },
   {
     "roll": 263,
@@ -30499,12 +31354,12 @@ const data = [
     "dept": "SY3",
     "etc": 90,
     "dm": 59.0,
-    "coa": 52.5,
+    "coa": 62.0,
     "fsd-ii": 0,
     "fsd2": 37.5,
     "python2": 37.0,
     "toc": 41.5,
-    "total": 227.5,
+    "total": 237.0,
     "coa2": 19.5,
     "toc2": 14.5,
     "fsd22": 11.0,
@@ -30515,7 +31370,8 @@ const data = [
     "fsd23": 9.0,
     "python23": 10.5,
     "sem3spi": 6.63,
-    "dm4": 32.0
+    "dm4": 32.0,
+    "coa4": 19.0
   },
   {
     "roll": 268,
@@ -30531,12 +31387,12 @@ const data = [
     "dept": "SY3",
     "etc": 98,
     "dm": 56.0,
-    "coa": 54.0,
+    "coa": 66.5,
     "fsd-ii": 0,
     "fsd2": 49.5,
     "python2": 39.0,
     "toc": 33.0,
-    "total": 231.5,
+    "total": 244.0,
     "coa2": 19.0,
     "toc2": 13.0,
     "fsd22": 17.0,
@@ -30547,7 +31403,8 @@ const data = [
     "fsd23": 15.0,
     "python23": 10.0,
     "sem3spi": 6.5,
-    "dm4": 34.0
+    "dm4": 34.0,
+    "coa4": 25.0
   },
   {
     "roll": 101,
@@ -30563,7 +31420,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 83.0,
-    "coa": 55.5,
+    "coa": 71.5,
     "fsd-ii": 0,
     "fsd2": 49.0,
     "python2": 54.5,
@@ -30573,7 +31430,7 @@ const data = [
     "sem3marks": 7.025,
     "sem3spi2": 14.05,
     "totalSum": 28.96,
-    "total": 297.5,
+    "total": 313.5,
     "coa2": 20.5,
     "toc2": 18.0,
     "fsd22": 17.5,
@@ -30584,7 +31441,8 @@ const data = [
     "fsd23": 17.5,
     "python23": 16.0,
     "sem3spi": 8.83,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 32.0
   },
   {
     "roll": 176,
@@ -30600,7 +31458,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 73.25,
-    "coa": 48.0,
+    "coa": 58.5,
     "fsd-ii": 0,
     "fsd2": 35.5,
     "python2": 31.0,
@@ -30610,7 +31468,7 @@ const data = [
     "sem3marks": 5.925,
     "sem3spi2": 11.85,
     "totalSum": 26.07,
-    "total": 246.75,
+    "total": 257.25,
     "coa2": 16.5,
     "toc2": 19.5,
     "fsd22": 9.0,
@@ -30621,7 +31479,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 19.0,
     "sem3spi": 7.0,
-    "dm4": 36.5
+    "dm4": 36.5,
+    "coa4": 21.0
   },
   {
     "roll": 145,
@@ -30637,7 +31496,7 @@ const data = [
     "dept": "SY1",
     "etc": 90,
     "dm": 67.75,
-    "coa": 49.5,
+    "coa": 65.75,
     "fsd-ii": 0,
     "fsd2": 49.5,
     "python2": 48.5,
@@ -30647,7 +31506,7 @@ const data = [
     "sem3marks": 6.1,
     "sem3spi2": 12.2,
     "totalSum": 27.29,
-    "total": 269.25,
+    "total": 285.5,
     "coa2": 17.0,
     "toc2": 19.5,
     "fsd22": 15.5,
@@ -30658,7 +31517,8 @@ const data = [
     "fsd23": 16.0,
     "python23": 15.5,
     "sem3spi": 7.5,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 32.5
   },
   {
     "roll": 45,
@@ -30674,7 +31534,7 @@ const data = [
     "dept": "SY1",
     "etc": 90,
     "dm": 84.5,
-    "coa": 69.5,
+    "coa": 88.5,
     "fsd-ii": 0,
     "fsd2": 63.0,
     "python2": 62.0,
@@ -30684,7 +31544,7 @@ const data = [
     "sem3marks": 8.225,
     "sem3spi2": 16.45,
     "totalSum": 32.06,
-    "total": 343.0,
+    "total": 362.0,
     "coa2": 24.0,
     "toc2": 24.0,
     "fsd22": 22.5,
@@ -30695,7 +31555,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 20.5,
     "sem3spi": 9.42,
-    "dm4": 42.0
+    "dm4": 42.0,
+    "coa4": 38.0
   },
   {
     "roll": 97,
@@ -30711,7 +31572,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 81.5,
-    "coa": 59.5,
+    "coa": 73.75,
     "fsd-ii": 0,
     "fsd2": 56.5,
     "python2": 60.0,
@@ -30721,7 +31582,7 @@ const data = [
     "sem3marks": 6.875,
     "sem3spi2": 13.75,
     "totalSum": 29.06,
-    "total": 312.0,
+    "total": 326.25,
     "coa2": 20.0,
     "toc2": 21.5,
     "fsd22": 20.0,
@@ -30732,7 +31593,8 @@ const data = [
     "fsd23": 18.5,
     "python23": 21.5,
     "sem3spi": 8.42,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 28.5
   },
   {
     "roll": 127,
@@ -30748,7 +31610,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 76.0,
-    "coa": 62.5,
+    "coa": 77.5,
     "fsd-ii": 0,
     "fsd2": 59.0,
     "python2": 49.5,
@@ -30758,7 +31620,7 @@ const data = [
     "sem3marks": 6.675,
     "sem3spi2": 13.35,
     "totalSum": 28.08,
-    "total": 302.0,
+    "total": 317.0,
     "coa2": 21.0,
     "toc2": 21.5,
     "fsd22": 18.0,
@@ -30769,7 +31631,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 13.5,
     "sem3spi": 8.17,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 30.0
   },
   {
     "roll": 159,
@@ -30785,7 +31648,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 66.25,
-    "coa": 47.5,
+    "coa": 58.25,
     "fsd-ii": 0,
     "fsd2": 40.0,
     "python2": 45.0,
@@ -30795,7 +31658,7 @@ const data = [
     "sem3marks": 6.125,
     "sem3spi2": 12.25,
     "totalSum": 26.58,
-    "total": 240.25,
+    "total": 251.0,
     "coa2": 15.5,
     "toc2": 16.5,
     "fsd22": 12.0,
@@ -30806,7 +31669,8 @@ const data = [
     "fsd23": 16.5,
     "python23": 12.0,
     "sem3spi": 7.75,
-    "dm4": 40.5
+    "dm4": 40.5,
+    "coa4": 21.5
   },
   {
     "roll": 170,
@@ -30822,7 +31686,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 64.0,
-    "coa": 43.5,
+    "coa": 57.5,
     "fsd-ii": 0,
     "fsd2": 45.0,
     "python2": 47.5,
@@ -30832,7 +31696,7 @@ const data = [
     "sem3marks": 6.65,
     "sem3spi2": 13.3,
     "totalSum": 26.3,
-    "total": 233.5,
+    "total": 247.5,
     "coa2": 13.0,
     "toc2": 19.5,
     "fsd22": 14.0,
@@ -30843,7 +31707,8 @@ const data = [
     "fsd23": 12.5,
     "python23": 12.5,
     "sem3spi": 7.29,
-    "dm4": 35.0
+    "dm4": 35.0,
+    "coa4": 28.0
   },
   {
     "roll": 80,
@@ -30859,7 +31724,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 80.0,
-    "coa": 59.5,
+    "coa": 76.25,
     "fsd-ii": 0,
     "fsd2": 68.0,
     "python2": 61.0,
@@ -30869,7 +31734,7 @@ const data = [
     "sem3marks": 7.45,
     "sem3spi2": 14.9,
     "totalSum": 30.16,
-    "total": 327.5,
+    "total": 344.25,
     "coa2": 22.0,
     "toc2": 17.5,
     "fsd22": 21.0,
@@ -30880,7 +31745,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 18.0,
     "sem3spi": 8.75,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 33.5
   },
   {
     "roll": 133,
@@ -30896,7 +31762,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 78.0,
-    "coa": 55.0,
+    "coa": 73.25,
     "fsd-ii": 0,
     "fsd2": 47.5,
     "python2": 50.0,
@@ -30906,7 +31772,7 @@ const data = [
     "sem3marks": 7.2,
     "sem3spi2": 14.4,
     "totalSum": 27.86,
-    "total": 277.0,
+    "total": 295.25,
     "coa2": 18.5,
     "toc2": 16.0,
     "fsd22": 11.0,
@@ -30917,7 +31783,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 14.5,
     "sem3spi": 8.25,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 36.5
   },
   {
     "roll": 242,
@@ -30933,7 +31800,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 80.25,
-    "coa": 55.0,
+    "coa": 70.75,
     "fsd-ii": 0,
     "fsd2": 29.0,
     "python2": 40.5,
@@ -30943,7 +31810,7 @@ const data = [
     "sem3marks": 5.225,
     "sem3spi2": 10.45,
     "totalSum": 21.27,
-    "total": 255.75,
+    "total": 271.5,
     "coa2": 17.0,
     "toc2": 20.0,
     "fsd22": 9.0,
@@ -30954,7 +31821,8 @@ const data = [
     "fsd23": 12.0,
     "python23": 14.5,
     "sem3spi": 6.79,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 31.5
   },
   {
     "roll": 230,
@@ -30970,7 +31838,7 @@ const data = [
     "dept": "SY1",
     "etc": 92,
     "dm": 58.5,
-    "coa": 40.5,
+    "coa": 54.25,
     "fsd-ii": 0,
     "fsd2": 29.0,
     "python2": 38.5,
@@ -30980,7 +31848,7 @@ const data = [
     "sem3marks": 5.4,
     "sem3spi2": 10.8,
     "totalSum": 22.6,
-    "total": 210.5,
+    "total": 224.25,
     "coa2": 11.5,
     "toc2": 13.5,
     "fsd22": 9.0,
@@ -30991,7 +31859,8 @@ const data = [
     "fsd23": 11.0,
     "python23": 11.5,
     "sem3spi": 6.5,
-    "dm4": 33.0
+    "dm4": 33.0,
+    "coa4": 27.5
   },
   {
     "roll": 257,
@@ -31007,7 +31876,7 @@ const data = [
     "dept": "SY1",
     "etc": 84,
     "dm": 65.5,
-    "coa": 35.5,
+    "coa": 44.5,
     "fsd-ii": 0,
     "fsd2": 42.5,
     "python2": 34.0,
@@ -31017,7 +31886,7 @@ const data = [
     "sem3marks": 4.375,
     "sem3spi2": 8.75,
     "totalSum": 20.01,
-    "total": 216.0,
+    "total": 225.0,
     "coa2": 14.5,
     "toc2": 9.5,
     "fsd22": 12.5,
@@ -31028,7 +31897,8 @@ const data = [
     "fsd23": 11.0,
     "python23": 10.5,
     "sem3spi": 5.79,
-    "dm4": 35.0
+    "dm4": 35.0,
+    "coa4": 18.0
   },
   {
     "roll": 129,
@@ -31044,7 +31914,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 82.75,
-    "coa": 64.0,
+    "coa": 83.5,
     "fsd-ii": 0,
     "fsd2": 46.5,
     "python2": 51.5,
@@ -31054,7 +31924,7 @@ const data = [
     "sem3marks": 6.85,
     "sem3spi2": 13.7,
     "totalSum": 27.99,
-    "total": 287.25,
+    "total": 306.75,
     "coa2": 19.5,
     "toc2": 12.0,
     "fsd22": 12.5,
@@ -31065,7 +31935,8 @@ const data = [
     "fsd23": 13.5,
     "python23": 16.5,
     "sem3spi": 8.04,
-    "dm4": 42.5
+    "dm4": 42.5,
+    "coa4": 39.0
   },
   {
     "roll": 119,
@@ -31081,7 +31952,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 66.25,
-    "coa": 52.0,
+    "coa": 67.0,
     "fsd-ii": 0,
     "fsd2": 51.5,
     "python2": 43.0,
@@ -31091,7 +31962,7 @@ const data = [
     "sem3marks": 6.95,
     "sem3spi2": 13.9,
     "totalSum": 28.47,
-    "total": 261.25,
+    "total": 276.25,
     "coa2": 17.0,
     "toc2": 18.5,
     "fsd22": 12.5,
@@ -31102,7 +31973,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 16.0,
     "sem3spi": 8.46,
-    "dm4": 40.5
+    "dm4": 40.5,
+    "coa4": 30.0
   },
   {
     "roll": 262,
@@ -31118,7 +31990,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 54.0,
-    "coa": 30.0,
+    "coa": 37.25,
     "fsd-ii": 0,
     "fsd2": 27.5,
     "python2": 30.5,
@@ -31128,7 +32000,7 @@ const data = [
     "sem3marks": 4.3,
     "sem3spi2": 8.6,
     "totalSum": 19.89,
-    "total": 168.0,
+    "total": 175.25,
     "coa2": 14.0,
     "toc2": 15.5,
     "fsd22": 9.5,
@@ -31139,7 +32011,8 @@ const data = [
     "fsd23": 10.0,
     "python23": 10.5,
     "sem3spi": 6.08,
-    "dm4": 28.0
+    "dm4": 28.0,
+    "coa4": 14.5
   },
   {
     "roll": 195,
@@ -31155,7 +32028,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 84.75,
-    "coa": 58.5,
+    "coa": 75.25,
     "fsd-ii": 0,
     "fsd2": 39.0,
     "python2": 55.0,
@@ -31165,7 +32038,7 @@ const data = [
     "sem3marks": 6.3,
     "sem3spi2": 12.6,
     "totalSum": 24.71,
-    "total": 297.75,
+    "total": 314.5,
     "coa2": 21.0,
     "toc2": 21.5,
     "fsd22": 10.5,
@@ -31176,7 +32049,8 @@ const data = [
     "fsd23": 14.5,
     "python23": 17.0,
     "sem3spi": 7.63,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 33.5
   },
   {
     "roll": 123,
@@ -31192,7 +32066,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 75.75,
-    "coa": 55.5,
+    "coa": 72.75,
     "fsd-ii": 0,
     "fsd2": 52.5,
     "python2": 50.5,
@@ -31202,7 +32076,7 @@ const data = [
     "sem3marks": 7.025,
     "sem3spi2": 14.05,
     "totalSum": 28.27,
-    "total": 286.75,
+    "total": 304.0,
     "coa2": 21.0,
     "toc2": 20.0,
     "fsd22": 16.5,
@@ -31213,7 +32087,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 16.0,
     "sem3spi": 8.21,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 34.5
   },
   {
     "roll": 134,
@@ -31229,7 +32104,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 77.75,
-    "coa": 54.0,
+    "coa": 65.5,
     "fsd-ii": 0,
     "fsd2": 55.0,
     "python2": 54.5,
@@ -31239,7 +32114,7 @@ const data = [
     "sem3marks": 6.475,
     "sem3spi2": 12.95,
     "totalSum": 27.73,
-    "total": 282.75,
+    "total": 294.25,
     "coa2": 17.5,
     "toc2": 16.5,
     "fsd22": 15.0,
@@ -31250,7 +32125,8 @@ const data = [
     "fsd23": 21.5,
     "python23": 16.0,
     "sem3spi": 7.96,
-    "dm4": 39.5
+    "dm4": 39.5,
+    "coa4": 23.0
   },
   {
     "roll": 226,
@@ -31266,7 +32142,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 75.0,
-    "coa": 47.5,
+    "coa": 61.0,
     "fsd-ii": 0,
     "fsd2": 18.0,
     "python2": 33.0,
@@ -31276,7 +32152,7 @@ const data = [
     "sem3marks": 5.275,
     "sem3spi2": 10.55,
     "totalSum": 22.91,
-    "total": 221.0,
+    "total": 234.5,
     "coa2": 12.0,
     "toc2": 16.0,
     "fsd22": 9.0,
@@ -31287,7 +32163,8 @@ const data = [
     "fsd23": 0.0,
     "python23": 0.0,
     "sem3spi": 6.83,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 27.0
   },
   {
     "roll": 73,
@@ -31303,7 +32180,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 76.5,
-    "coa": 49.5,
+    "coa": 66.25,
     "fsd-ii": 0,
     "fsd2": 63.0,
     "python2": 52.0,
@@ -31313,7 +32190,7 @@ const data = [
     "sem3marks": 7.325,
     "sem3spi2": 14.65,
     "totalSum": 30.63,
-    "total": 300.5,
+    "total": 317.25,
     "coa2": 18.0,
     "toc2": 22.0,
     "fsd22": 21.5,
@@ -31324,7 +32201,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 17.5,
     "sem3spi": 8.67,
-    "dm4": 34.0
+    "dm4": 34.0,
+    "coa4": 33.5
   },
   {
     "roll": 152,
@@ -31340,7 +32218,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 60.25,
-    "coa": 49.0,
+    "coa": 65.0,
     "fsd-ii": 0,
     "fsd2": 52.5,
     "python2": 46.5,
@@ -31350,7 +32228,7 @@ const data = [
     "sem3marks": 6.325,
     "sem3spi2": 12.65,
     "totalSum": 26.93,
-    "total": 255.75,
+    "total": 271.75,
     "coa2": 17.0,
     "toc2": 18.0,
     "fsd22": 17.5,
@@ -31361,7 +32239,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 10.0,
     "sem3spi": 7.79,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 32.0
   },
   {
     "roll": 87,
@@ -31377,7 +32256,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 78.75,
-    "coa": 58.5,
+    "coa": 71.75,
     "fsd-ii": 0,
     "fsd2": 47.0,
     "python2": 46.0,
@@ -31387,7 +32266,7 @@ const data = [
     "sem3marks": 7.3,
     "sem3spi2": 14.6,
     "totalSum": 29.67,
-    "total": 281.75,
+    "total": 295.0,
     "coa2": 17.5,
     "toc2": 19.0,
     "fsd22": 13.5,
@@ -31398,7 +32277,8 @@ const data = [
     "fsd23": 18.5,
     "python23": 13.0,
     "sem3spi": 8.96,
-    "dm4": 41.5
+    "dm4": 41.5,
+    "coa4": 26.5
   },
   {
     "roll": 17,
@@ -31414,7 +32294,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 90.75,
-    "coa": 67.0,
+    "coa": 87.75,
     "fsd-ii": 0,
     "fsd2": 64.0,
     "python2": 67.0,
@@ -31424,7 +32304,7 @@ const data = [
     "sem3marks": 8.625,
     "sem3spi2": 17.25,
     "totalSum": 34.24,
-    "total": 349.25,
+    "total": 370.0,
     "coa2": 24.5,
     "toc2": 18.5,
     "fsd22": 19.0,
@@ -31435,7 +32315,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 24.0,
     "sem3spi": 9.63,
-    "dm4": 41.5
+    "dm4": 41.5,
+    "coa4": 41.5
   },
   {
     "roll": 173,
@@ -31451,7 +32332,7 @@ const data = [
     "dept": "SY1",
     "etc": 90,
     "dm": 73.0,
-    "coa": 57.0,
+    "coa": 68.25,
     "fsd-ii": 0,
     "fsd2": 43.5,
     "python2": 44.5,
@@ -31461,7 +32342,7 @@ const data = [
     "sem3marks": 6.875,
     "sem3spi2": 13.75,
     "totalSum": 26.21,
-    "total": 271.0,
+    "total": 282.25,
     "coa2": 21.0,
     "toc2": 21.5,
     "fsd22": 13.0,
@@ -31472,7 +32353,8 @@ const data = [
     "fsd23": 20.5,
     "python23": 14.5,
     "sem3spi": 7.75,
-    "dm4": 35.0
+    "dm4": 35.0,
+    "coa4": 22.5
   },
   {
     "roll": 44,
@@ -31488,7 +32370,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 79.25,
-    "coa": 66.0,
+    "coa": 85.25,
     "fsd-ii": 0,
     "fsd2": 54.0,
     "python2": 60.0,
@@ -31498,7 +32380,7 @@ const data = [
     "sem3marks": 7.95,
     "sem3spi2": 15.9,
     "totalSum": 32.11,
-    "total": 322.75,
+    "total": 342.0,
     "coa2": 20.5,
     "toc2": 22.5,
     "fsd22": 15.5,
@@ -31509,7 +32391,8 @@ const data = [
     "fsd23": 16.0,
     "python23": 20.5,
     "sem3spi": 9.04,
-    "dm4": 34.5
+    "dm4": 34.5,
+    "coa4": 38.5
   },
   {
     "roll": 164,
@@ -31525,7 +32408,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 79.75,
-    "coa": 50.5,
+    "coa": 59.75,
     "fsd-ii": 0,
     "fsd2": 58.0,
     "python2": 41.5,
@@ -31535,7 +32418,7 @@ const data = [
     "sem3marks": 6.6,
     "sem3spi2": 13.2,
     "totalSum": 26.43,
-    "total": 289.75,
+    "total": 299.0,
     "coa2": 16.5,
     "toc2": 23.0,
     "fsd22": 20.5,
@@ -31546,7 +32429,8 @@ const data = [
     "fsd23": 20.5,
     "python23": 14.5,
     "sem3spi": 7.79,
-    "dm4": 32.5
+    "dm4": 32.5,
+    "coa4": 18.5
   },
   {
     "roll": 256,
@@ -31562,7 +32446,7 @@ const data = [
     "dept": "SY1",
     "etc": 86,
     "dm": 49.0,
-    "coa": 37.0,
+    "coa": 42.5,
     "fsd-ii": 0,
     "fsd2": 21.0,
     "python2": 28.0,
@@ -31572,7 +32456,7 @@ const data = [
     "sem3marks": 4.65,
     "sem3spi2": 9.3,
     "totalSum": 20.01,
-    "total": 177.0,
+    "total": 182.5,
     "coa2": 12.0,
     "toc2": 16.0,
     "fsd22": 6.5,
@@ -31583,7 +32467,8 @@ const data = [
     "fsd23": 4.5,
     "python23": 9.0,
     "sem3spi": 6.13,
-    "dm4": 23.0
+    "dm4": 23.0,
+    "coa4": 11.0
   },
   {
     "roll": 151,
@@ -31599,7 +32484,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 85.75,
-    "coa": 51.0,
+    "coa": 68.75,
     "fsd-ii": 0,
     "fsd2": 47.0,
     "python2": 42.0,
@@ -31609,7 +32494,7 @@ const data = [
     "sem3marks": 6.3,
     "sem3spi2": 12.6,
     "totalSum": 27.21,
-    "total": 281.25,
+    "total": 299.0,
     "coa2": 18.0,
     "toc2": 19.0,
     "fsd22": 11.5,
@@ -31620,7 +32505,8 @@ const data = [
     "fsd23": 17.5,
     "python23": 12.5,
     "sem3spi": 8.29,
-    "dm4": 43.5
+    "dm4": 43.5,
+    "coa4": 35.5
   },
   {
     "roll": 178,
@@ -31636,7 +32522,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 57.25,
-    "coa": 34.0,
+    "coa": 48.0,
     "fsd-ii": 0,
     "fsd2": 32.0,
     "python2": 50.0,
@@ -31646,7 +32532,7 @@ const data = [
     "sem3marks": 6.175,
     "sem3spi2": 12.35,
     "totalSum": 26.03,
-    "total": 215.75,
+    "total": 229.75,
     "coa2": 10.0,
     "toc2": 21.5,
     "fsd22": 14.5,
@@ -31657,7 +32543,8 @@ const data = [
     "fsd23": 11.0,
     "python23": 15.5,
     "sem3spi": 7.83,
-    "dm4": 32.5
+    "dm4": 32.5,
+    "coa4": 28.0
   },
   {
     "roll": 67,
@@ -31673,7 +32560,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 85.75,
-    "coa": 62.5,
+    "coa": 81.75,
     "fsd-ii": 0,
     "fsd2": 64.0,
     "python2": 60.0,
@@ -31683,7 +32570,7 @@ const data = [
     "sem3marks": 7.85,
     "sem3spi2": 15.7,
     "totalSum": 30.98,
-    "total": 336.25,
+    "total": 355.5,
     "coa2": 20.5,
     "toc2": 23.0,
     "fsd22": 21.5,
@@ -31694,7 +32581,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 20.5,
     "sem3spi": 9.08,
-    "dm4": 44.5
+    "dm4": 44.5,
+    "coa4": 38.5
   },
   {
     "roll": 122,
@@ -31710,7 +32598,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 78.0,
-    "coa": 57.5,
+    "coa": 74.0,
     "fsd-ii": 0,
     "fsd2": 63.5,
     "python2": 49.0,
@@ -31720,7 +32608,7 @@ const data = [
     "sem3marks": 6.9,
     "sem3spi2": 13.8,
     "totalSum": 28.34,
-    "total": 305.5,
+    "total": 322.0,
     "coa2": 20.5,
     "toc2": 23.0,
     "fsd22": 21.5,
@@ -31731,7 +32619,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 14.0,
     "sem3spi": 8.17,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 33.0
   },
   {
     "roll": 261,
@@ -31747,7 +32636,7 @@ const data = [
     "dept": "SY1",
     "etc": 84,
     "dm": 45.75,
-    "coa": 17.0,
+    "coa": 25.0,
     "fsd-ii": 0,
     "fsd2": 18.0,
     "python2": 28.5,
@@ -31757,7 +32646,7 @@ const data = [
     "sem3marks": 4.375,
     "sem3spi2": 8.75,
     "totalSum": 19.89,
-    "total": 150.75,
+    "total": 158.75,
     "coa2": 11.0,
     "toc2": 19.0,
     "fsd22": 6.5,
@@ -31768,7 +32657,8 @@ const data = [
     "fsd23": 7.5,
     "python23": 11.0,
     "sem3spi": 6.58,
-    "dm4": 28.5
+    "dm4": 28.5,
+    "coa4": 16.0
   },
   {
     "roll": 216,
@@ -31784,7 +32674,7 @@ const data = [
     "dept": "SY1",
     "etc": 86,
     "dm": 55.25,
-    "coa": 57.5,
+    "coa": 71.0,
     "fsd-ii": 0,
     "fsd2": 36.0,
     "python2": 34.5,
@@ -31794,7 +32684,7 @@ const data = [
     "sem3marks": 5.85,
     "sem3spi2": 11.7,
     "totalSum": 23.65,
-    "total": 234.25,
+    "total": 247.75,
     "coa2": 21.0,
     "toc2": 17.0,
     "fsd22": 12.5,
@@ -31805,7 +32695,8 @@ const data = [
     "fsd23": 11.0,
     "python23": 6.5,
     "sem3spi": 6.71,
-    "dm4": 20.5
+    "dm4": 20.5,
+    "coa4": 27.0
   },
   {
     "roll": 94,
@@ -31821,7 +32712,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 77.75,
-    "coa": 42.0,
+    "coa": 56.5,
     "fsd-ii": 0,
     "fsd2": 50.5,
     "python2": 41.5,
@@ -31831,7 +32722,7 @@ const data = [
     "sem3marks": 7.175,
     "sem3spi2": 14.35,
     "totalSum": 29.25,
-    "total": 258.75,
+    "total": 273.25,
     "coa2": 15.5,
     "toc2": 19.5,
     "fsd22": 15.5,
@@ -31842,7 +32733,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 15.5,
     "sem3spi": 8.5,
-    "dm4": 39.5
+    "dm4": 39.5,
+    "coa4": 29.0
   },
   {
     "roll": 120,
@@ -31858,7 +32750,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 79.0,
-    "coa": 61.5,
+    "coa": 71.5,
     "fsd-ii": 0,
     "fsd2": 61.5,
     "python2": 56.0,
@@ -31868,7 +32760,7 @@ const data = [
     "sem3marks": 7.475,
     "sem3spi2": 14.95,
     "totalSum": 28.46,
-    "total": 306.0,
+    "total": 316.0,
     "coa2": 22.5,
     "toc2": 18.5,
     "fsd22": 22.5,
@@ -31879,7 +32771,8 @@ const data = [
     "fsd23": 21.5,
     "python23": 19.0,
     "sem3spi": 8.54,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 20.0
   },
   {
     "roll": 144,
@@ -31895,7 +32788,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 81.75,
-    "coa": 66.5,
+    "coa": 84.75,
     "fsd-ii": 0,
     "fsd2": 66.5,
     "python2": 51.5,
@@ -31905,7 +32798,7 @@ const data = [
     "sem3marks": 6.925,
     "sem3spi2": 13.85,
     "totalSum": 27.32,
-    "total": 327.75,
+    "total": 346.0,
     "coa2": 23.0,
     "toc2": 23.0,
     "fsd22": 23.5,
@@ -31916,7 +32809,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 20.0,
     "sem3spi": 8.33,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 36.5
   },
   {
     "roll": 217,
@@ -31932,7 +32826,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 60.75,
-    "coa": 32.0,
+    "coa": 49.5,
     "fsd-ii": 0,
     "fsd2": 38.0,
     "python2": 43.5,
@@ -31942,7 +32836,7 @@ const data = [
     "sem3marks": 5.575,
     "sem3spi2": 11.15,
     "totalSum": 23.62,
-    "total": 213.75,
+    "total": 231.25,
     "coa2": 16.5,
     "toc2": 13.0,
     "fsd22": 14.0,
@@ -31953,7 +32847,8 @@ const data = [
     "fsd23": 11.0,
     "python23": 13.0,
     "sem3spi": 6.26,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 35.0
   },
   {
     "roll": 197,
@@ -31969,7 +32864,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 80.0,
-    "coa": 43.5,
+    "coa": 59.0,
     "fsd-ii": 0,
     "fsd2": 41.5,
     "python2": 48.5,
@@ -31979,7 +32874,7 @@ const data = [
     "sem3marks": 5.8,
     "sem3spi2": 11.6,
     "totalSum": 24.62,
-    "total": 258.0,
+    "total": 273.5,
     "coa2": 9.0,
     "toc2": 17.5,
     "fsd22": 16.5,
@@ -31990,7 +32885,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 15.5,
     "sem3spi": 7.67,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 31.0
   },
   {
     "roll": 142,
@@ -32006,7 +32902,7 @@ const data = [
     "dept": "SY1",
     "etc": 92,
     "dm": 72.0,
-    "coa": 50.5,
+    "coa": 68.0,
     "fsd-ii": 0,
     "fsd2": 47.5,
     "python2": 50.0,
@@ -32016,7 +32912,7 @@ const data = [
     "sem3marks": 6.6,
     "sem3spi2": 13.2,
     "totalSum": 27.41,
-    "total": 281.0,
+    "total": 298.5,
     "coa2": 18.0,
     "toc2": 20.0,
     "fsd22": 15.5,
@@ -32027,7 +32923,8 @@ const data = [
     "fsd23": 11.0,
     "python23": 17.0,
     "sem3spi": 8.29,
-    "dm4": 34.0
+    "dm4": 34.0,
+    "coa4": 35.0
   },
   {
     "roll": 222,
@@ -32043,7 +32940,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 72.75,
-    "coa": 51.0,
+    "coa": 61.5,
     "fsd-ii": 0,
     "fsd2": 47.0,
     "python2": 64.5,
@@ -32053,7 +32950,7 @@ const data = [
     "sem3marks": 5.175,
     "sem3spi2": 10.35,
     "totalSum": 23.31,
-    "total": 286.75,
+    "total": 297.25,
     "coa2": 14.0,
     "toc2": 15.0,
     "fsd22": 13.5,
@@ -32064,7 +32961,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 23.0,
     "sem3spi": 6.63,
-    "dm4": 39.5
+    "dm4": 39.5,
+    "coa4": 21.0
   },
   {
     "roll": 58,
@@ -32080,7 +32978,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 80.5,
-    "coa": 62.0,
+    "coa": 78.0,
     "fsd-ii": 0,
     "fsd2": 61.0,
     "python2": 62.5,
@@ -32090,7 +32988,7 @@ const data = [
     "sem3marks": 7.85,
     "sem3spi2": 15.7,
     "totalSum": 31.32,
-    "total": 320.5,
+    "total": 336.5,
     "coa2": 21.0,
     "toc2": 19.0,
     "fsd22": 18.5,
@@ -32101,7 +32999,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 21.5,
     "sem3spi": 8.92,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 32.0
   },
   {
     "roll": 126,
@@ -32117,7 +33016,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 71.75,
-    "coa": 58.5,
+    "coa": 73.25,
     "fsd-ii": 0,
     "fsd2": 45.0,
     "python2": 39.0,
@@ -32127,7 +33026,7 @@ const data = [
     "sem3marks": 6.425,
     "sem3spi2": 12.85,
     "totalSum": 28.14,
-    "total": 266.25,
+    "total": 281.0,
     "coa2": 18.0,
     "toc2": 18.5,
     "fsd22": 14.0,
@@ -32138,7 +33037,8 @@ const data = [
     "fsd23": 15.0,
     "python23": 13.5,
     "sem3spi": 7.96,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 29.5
   },
   {
     "roll": 90,
@@ -32154,7 +33054,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 88.25,
-    "coa": 47.0,
+    "coa": 59.75,
     "fsd-ii": 0,
     "fsd2": 46.5,
     "python2": 54.5,
@@ -32164,7 +33064,7 @@ const data = [
     "sem3marks": 7.225,
     "sem3spi2": 14.45,
     "totalSum": 29.46,
-    "total": 292.75,
+    "total": 305.5,
     "coa2": 13.0,
     "toc2": 22.5,
     "fsd22": 10.0,
@@ -32175,7 +33075,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 13.0,
     "sem3spi": 8.92,
-    "dm4": 39.5
+    "dm4": 39.5,
+    "coa4": 25.5
   },
   {
     "roll": 70,
@@ -32191,7 +33092,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 78.75,
-    "coa": 62.0,
+    "coa": 81.0,
     "fsd-ii": 0,
     "fsd2": 42.0,
     "python2": 56.5,
@@ -32201,7 +33102,7 @@ const data = [
     "sem3marks": 7.6,
     "sem3spi2": 15.2,
     "totalSum": 30.9,
-    "total": 294.75,
+    "total": 313.75,
     "coa2": 19.0,
     "toc2": 20.0,
     "fsd22": 14.0,
@@ -32212,7 +33113,8 @@ const data = [
     "fsd23": 15.0,
     "python23": 17.5,
     "sem3spi": 9.21,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 38.0
   },
   {
     "roll": 181,
@@ -32228,7 +33130,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 85.5,
-    "coa": 56.5,
+    "coa": 70.25,
     "fsd-ii": 0,
     "fsd2": 47.0,
     "python2": 62.0,
@@ -32238,7 +33140,7 @@ const data = [
     "sem3marks": 6.375,
     "sem3spi2": 12.75,
     "totalSum": 25.83,
-    "total": 313.0,
+    "total": 326.75,
     "coa2": 20.0,
     "toc2": 24.0,
     "fsd22": 16.0,
@@ -32249,7 +33151,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 20.5,
     "sem3spi": 7.92,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 27.5
   },
   {
     "roll": 161,
@@ -32265,7 +33168,7 @@ const data = [
     "dept": "SY1",
     "etc": 90,
     "dm": 64.5,
-    "coa": 47.0,
+    "coa": 60.5,
     "fsd-ii": 0,
     "fsd2": 32.5,
     "python2": 44.5,
@@ -32275,7 +33178,7 @@ const data = [
     "sem3marks": 6.175,
     "sem3spi2": 12.35,
     "totalSum": 26.54,
-    "total": 245.5,
+    "total": 259.0,
     "coa2": 14.0,
     "toc2": 20.5,
     "fsd22": 15.5,
@@ -32286,7 +33189,8 @@ const data = [
     "fsd23": 9.0,
     "python23": 15.5,
     "sem3spi": 7.54,
-    "dm4": 32.0
+    "dm4": 32.0,
+    "coa4": 27.0
   },
   {
     "roll": 75,
@@ -32302,7 +33206,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 74.25,
-    "coa": 65.5,
+    "coa": 85.75,
     "fsd-ii": 0,
     "fsd2": 62.0,
     "python2": 66.0,
@@ -32312,7 +33216,7 @@ const data = [
     "sem3marks": 7.3,
     "sem3spi2": 14.6,
     "totalSum": 30.57,
-    "total": 327.25,
+    "total": 347.5,
     "coa2": 21.0,
     "toc2": 17.5,
     "fsd22": 16.5,
@@ -32323,7 +33227,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 24.0,
     "sem3spi": 8.75,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 40.5
   },
   {
     "roll": 49,
@@ -32339,7 +33244,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 78.0,
-    "coa": 45.5,
+    "coa": 58.75,
     "fsd-ii": 0,
     "fsd2": 57.0,
     "python2": 50.0,
@@ -32349,7 +33254,7 @@ const data = [
     "sem3marks": 7.2,
     "sem3spi2": 14.4,
     "totalSum": 31.93,
-    "total": 289.5,
+    "total": 302.75,
     "coa2": 16.5,
     "toc2": 24.0,
     "fsd22": 20.0,
@@ -32360,7 +33265,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 14.0,
     "sem3spi": 8.33,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 26.5
   },
   {
     "roll": 22,
@@ -32376,7 +33282,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 77.5,
-    "coa": 63.0,
+    "coa": 82.75,
     "fsd-ii": 0,
     "fsd2": 61.0,
     "python2": 67.5,
@@ -32386,7 +33292,7 @@ const data = [
     "sem3marks": 8.05,
     "sem3spi2": 16.1,
     "totalSum": 33.8,
-    "total": 331.5,
+    "total": 351.25,
     "coa2": 17.5,
     "toc2": 23.5,
     "fsd22": 22.5,
@@ -32397,7 +33303,8 @@ const data = [
     "fsd23": 17.5,
     "python23": 21.0,
     "sem3spi": 9.29,
-    "dm4": 42.0
+    "dm4": 42.0,
+    "coa4": 39.5
   },
   {
     "roll": 62,
@@ -32413,7 +33320,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 84.0,
-    "coa": 62.0,
+    "coa": 79.0,
     "fsd-ii": 0,
     "fsd2": 55.0,
     "python2": 49.0,
@@ -32423,7 +33330,7 @@ const data = [
     "sem3marks": 7.525,
     "sem3spi2": 15.05,
     "totalSum": 31.1,
-    "total": 301.0,
+    "total": 318.0,
     "coa2": 19.0,
     "toc2": 21.5,
     "fsd22": 14.5,
@@ -32434,7 +33341,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 16.5,
     "sem3spi": 8.88,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 34.0
   },
   {
     "roll": 268,
@@ -32450,7 +33358,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 53.25,
-    "coa": 43.5,
+    "coa": 53.25,
     "fsd-ii": 0,
     "fsd2": 23.5,
     "python2": 38.0,
@@ -32460,7 +33368,7 @@ const data = [
     "sem3marks": 4.4,
     "sem3spi2": 8.8,
     "totalSum": 19.36,
-    "total": 183.75,
+    "total": 193.5,
     "coa2": 12.0,
     "toc2": 11.0,
     "fsd22": 9.0,
@@ -32471,7 +33379,8 @@ const data = [
     "fsd23": 9.0,
     "python23": 12.0,
     "sem3spi": 5.71,
-    "dm4": 27.5
+    "dm4": 27.5,
+    "coa4": 19.5
   },
   {
     "roll": 100,
@@ -32487,7 +33396,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 77.0,
-    "coa": 57.5,
+    "coa": 74.25,
     "fsd-ii": 0,
     "fsd2": 41.0,
     "python2": 53.5,
@@ -32497,7 +33406,7 @@ const data = [
     "sem3marks": 7.325,
     "sem3spi2": 14.65,
     "totalSum": 28.98,
-    "total": 269.0,
+    "total": 285.75,
     "coa2": 18.5,
     "toc2": 12.5,
     "fsd22": 15.5,
@@ -32508,7 +33417,8 @@ const data = [
     "fsd23": 15.0,
     "python23": 15.5,
     "sem3spi": 8.58,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 33.5
   },
   {
     "roll": 211,
@@ -32524,7 +33434,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 81.75,
-    "coa": 70.5,
+    "coa": 92.0,
     "fsd-ii": 0,
     "fsd2": 52.5,
     "python2": 45.0,
@@ -32534,7 +33444,7 @@ const data = [
     "sem3marks": 5.75,
     "sem3spi2": 11.5,
     "totalSum": 23.87,
-    "total": 309.75,
+    "total": 331.25,
     "coa2": 23.0,
     "toc2": 19.0,
     "fsd22": 17.0,
@@ -32545,7 +33455,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 14.0,
     "sem3spi": 7.54,
-    "dm4": 36.5
+    "dm4": 36.5,
+    "coa4": 43.0
   },
   {
     "roll": 42,
@@ -32561,7 +33472,7 @@ const data = [
     "dept": "SY1",
     "etc": 0,
     "dm": 81.0,
-    "coa": 61.0,
+    "coa": 78.25,
     "fsd-ii": 0,
     "fsd2": 59.0,
     "python2": 54.0,
@@ -32571,7 +33482,7 @@ const data = [
     "sem3marks": 7.825,
     "sem3spi2": 15.65,
     "totalSum": 32.28,
-    "total": 305.5,
+    "total": 322.75,
     "coa2": 19.0,
     "toc2": 14.5,
     "fsd22": 16.5,
@@ -32582,7 +33493,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 22.0,
     "sem3spi": 7.96,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 34.5
   },
   {
     "roll": 57,
@@ -32598,7 +33510,7 @@ const data = [
     "dept": "SY1",
     "etc": 90,
     "dm": 84.5,
-    "coa": 58.0,
+    "coa": 70.5,
     "fsd-ii": 0,
     "fsd2": 56.5,
     "python2": 58.5,
@@ -32608,7 +33520,7 @@ const data = [
     "sem3marks": 7.075,
     "sem3spi2": 14.15,
     "totalSum": 31.34,
-    "total": 307.0,
+    "total": 319.5,
     "coa2": 18.5,
     "toc2": 18.0,
     "fsd22": 17.5,
@@ -32619,7 +33531,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 22.5,
     "sem3spi": 8.92,
-    "dm4": 42.0
+    "dm4": 42.0,
+    "coa4": 25.0
   },
   {
     "roll": 6,
@@ -32635,7 +33548,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 90.75,
-    "coa": 69.5,
+    "coa": 88.0,
     "fsd-ii": 0,
     "fsd2": 66.0,
     "python2": 67.5,
@@ -32645,7 +33558,7 @@ const data = [
     "sem3marks": 9.2,
     "sem3spi2": 18.4,
     "totalSum": 36.04,
-    "total": 361.75,
+    "total": 380.25,
     "coa2": 21.5,
     "toc2": 23.0,
     "fsd22": 21.5,
@@ -32656,7 +33569,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 23.0,
     "sem3spi": 10.0,
-    "dm4": 48.5
+    "dm4": 48.5,
+    "coa4": 37.0
   },
   {
     "roll": 114,
@@ -32672,7 +33586,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 75.5,
-    "coa": 54.5,
+    "coa": 69.5,
     "fsd-ii": 0,
     "fsd2": 42.5,
     "python2": 41.0,
@@ -32682,7 +33596,7 @@ const data = [
     "sem3marks": 6.925,
     "sem3spi2": 13.85,
     "totalSum": 28.55,
-    "total": 255.0,
+    "total": 270.0,
     "coa2": 16.0,
     "toc2": 15.5,
     "fsd22": 12.5,
@@ -32693,7 +33607,8 @@ const data = [
     "fsd23": 15.0,
     "python23": 13.5,
     "sem3spi": 8.25,
-    "dm4": 34.0
+    "dm4": 34.0,
+    "coa4": 30.0
   },
   {
     "roll": 31,
@@ -32709,7 +33624,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 84.5,
-    "coa": 55.5,
+    "coa": 73.0,
     "fsd-ii": 0,
     "fsd2": 42.0,
     "python2": 65.0,
@@ -32719,7 +33634,7 @@ const data = [
     "sem3marks": 8,
     "sem3spi2": 16,
     "totalSum": 33.07,
-    "total": 303.5,
+    "total": 321.0,
     "coa2": 20.5,
     "toc2": 19.5,
     "fsd22": 13.5,
@@ -32730,7 +33645,8 @@ const data = [
     "fsd23": 13.5,
     "python23": 23.5,
     "sem3spi": 9.29,
-    "dm4": 45.0
+    "dm4": 45.0,
+    "coa4": 35.0
   },
   {
     "roll": 55,
@@ -32746,7 +33662,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 86.5,
-    "coa": 66.5,
+    "coa": 87.0,
     "fsd-ii": 0,
     "fsd2": 54.0,
     "python2": 50.5,
@@ -32756,7 +33672,7 @@ const data = [
     "sem3marks": 7.825,
     "sem3spi2": 15.65,
     "totalSum": 31.45,
-    "total": 319.0,
+    "total": 339.5,
     "coa2": 22.0,
     "toc2": 19.5,
     "fsd22": 18.5,
@@ -32767,7 +33683,8 @@ const data = [
     "fsd23": 15.5,
     "python23": 13.0,
     "sem3spi": 9.25,
-    "dm4": 44.0
+    "dm4": 44.0,
+    "coa4": 41.0
   },
   {
     "roll": 153,
@@ -32783,7 +33700,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 79.0,
-    "coa": 55.5,
+    "coa": 69.5,
     "fsd-ii": 0,
     "fsd2": 49.0,
     "python2": 48.5,
@@ -32793,7 +33710,7 @@ const data = [
     "sem3marks": 6.85,
     "sem3spi2": 13.7,
     "totalSum": 26.88,
-    "total": 289.0,
+    "total": 303.0,
     "coa2": 17.0,
     "toc2": 20.0,
     "fsd22": 13.0,
@@ -32804,7 +33721,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 13.0,
     "sem3spi": 8.54,
-    "dm4": 42.0
+    "dm4": 42.0,
+    "coa4": 28.0
   },
   {
     "roll": 43,
@@ -32820,7 +33738,7 @@ const data = [
     "dept": "SY1",
     "etc": 92,
     "dm": 86.0,
-    "coa": 73.5,
+    "coa": 93.0,
     "fsd-ii": 0,
     "fsd2": 63.5,
     "python2": 59.0,
@@ -32830,7 +33748,7 @@ const data = [
     "sem3marks": 8.1,
     "sem3spi2": 16.2,
     "totalSum": 32.13,
-    "total": 346.5,
+    "total": 366.0,
     "coa2": 25.0,
     "toc2": 23.0,
     "fsd22": 21.0,
@@ -32841,7 +33759,8 @@ const data = [
     "fsd23": 24.5,
     "python23": 21.5,
     "sem3spi": 9.21,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 39.0
   },
   {
     "roll": 200,
@@ -32857,7 +33776,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 66.75,
-    "coa": 45.0,
+    "coa": 59.5,
     "fsd-ii": 0,
     "fsd2": 32.0,
     "python2": 52.5,
@@ -32867,7 +33786,7 @@ const data = [
     "sem3marks": 6.05,
     "sem3spi2": 12.1,
     "totalSum": 24.53,
-    "total": 247.25,
+    "total": 261.75,
     "coa2": 12.0,
     "toc2": 17.5,
     "fsd22": 12.0,
@@ -32878,7 +33797,8 @@ const data = [
     "fsd23": 13.0,
     "python23": 15.5,
     "sem3spi": 7.42,
-    "dm4": 29.5
+    "dm4": 29.5,
+    "coa4": 29.0
   },
   {
     "roll": 9,
@@ -32894,7 +33814,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 80.5,
-    "coa": 65.0,
+    "coa": 86.5,
     "fsd-ii": 0,
     "fsd2": 70.0,
     "python2": 67.5,
@@ -32904,7 +33824,7 @@ const data = [
     "sem3marks": 8.625,
     "sem3spi2": 17.25,
     "totalSum": 35.5,
-    "total": 348.5,
+    "total": 370.0,
     "coa2": 21.5,
     "toc2": 21.0,
     "fsd22": 24.0,
@@ -32915,7 +33835,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 24.0,
     "sem3spi": 9.79,
-    "dm4": 35.0
+    "dm4": 35.0,
+    "coa4": 43.0
   },
   {
     "roll": 30,
@@ -32931,7 +33852,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 91.25,
-    "coa": 69.0,
+    "coa": 88.75,
     "fsd-ii": 0,
     "fsd2": 70.5,
     "python2": 67.5,
@@ -32941,7 +33862,7 @@ const data = [
     "sem3marks": 8.675,
     "sem3spi2": 17.35,
     "totalSum": 33.16,
-    "total": 365.75,
+    "total": 385.5,
     "coa2": 22.0,
     "toc2": 21.0,
     "fsd22": 24.0,
@@ -32952,7 +33873,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 23.0,
     "sem3spi": 9.58,
-    "dm4": 48.5
+    "dm4": 48.5,
+    "coa4": 39.5
   },
   {
     "roll": 130,
@@ -32968,7 +33890,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 88.5,
-    "coa": 63.5,
+    "coa": 82.5,
     "fsd-ii": 0,
     "fsd2": 62.0,
     "python2": 54.5,
@@ -32978,7 +33900,7 @@ const data = [
     "sem3marks": 6.35,
     "sem3spi2": 12.7,
     "totalSum": 27.89,
-    "total": 333.0,
+    "total": 352.0,
     "coa2": 20.5,
     "toc2": 22.0,
     "fsd22": 20.0,
@@ -32989,7 +33911,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 16.5,
     "sem3spi": 8.21,
-    "dm4": 43.0
+    "dm4": 43.0,
+    "coa4": 38.0
   },
   {
     "roll": 219,
@@ -33005,7 +33928,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 64.0,
-    "coa": 36.0,
+    "coa": 44.25,
     "fsd-ii": 0,
     "fsd2": 24.0,
     "python2": 46.0,
@@ -33015,7 +33938,7 @@ const data = [
     "sem3marks": 5.425,
     "sem3spi2": 10.85,
     "totalSum": 23.48,
-    "total": 212.5,
+    "total": 220.75,
     "coa2": 7.0,
     "toc2": 11.5,
     "fsd22": 7.0,
@@ -33026,7 +33949,8 @@ const data = [
     "fsd23": 6.0,
     "python23": 13.0,
     "sem3spi": 7.42,
-    "dm4": 24.0
+    "dm4": 24.0,
+    "coa4": 16.5
   },
   {
     "roll": 5,
@@ -33042,7 +33966,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 90.5,
-    "coa": 67.5,
+    "coa": 87.5,
     "fsd-ii": 0,
     "fsd2": 61.5,
     "python2": 60.5,
@@ -33052,7 +33976,7 @@ const data = [
     "sem3marks": 8.775,
     "sem3spi2": 17.55,
     "totalSum": 36.28,
-    "total": 350.0,
+    "total": 370.0,
     "coa2": 20.0,
     "toc2": 24.0,
     "fsd22": 19.0,
@@ -33063,7 +33987,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 25.0,
     "sem3spi": 9.88,
-    "dm4": 44.0
+    "dm4": 44.0,
+    "coa4": 40.0
   },
   {
     "roll": 109,
@@ -33079,7 +34004,7 @@ const data = [
     "dept": "SY1",
     "etc": 90,
     "dm": 67.5,
-    "coa": 50.0,
+    "coa": 65.0,
     "fsd-ii": 0,
     "fsd2": 41.5,
     "python2": 51.5,
@@ -33089,7 +34014,7 @@ const data = [
     "sem3marks": 6.95,
     "sem3spi2": 13.9,
     "totalSum": 28.75,
-    "total": 249.0,
+    "total": 264.0,
     "coa2": 14.0,
     "toc2": 13.5,
     "fsd22": 13.5,
@@ -33100,7 +34025,8 @@ const data = [
     "fsd23": 17.0,
     "python23": 12.0,
     "sem3spi": 8.46,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 30.0
   },
   {
     "roll": 38,
@@ -33116,7 +34042,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 78.25,
-    "coa": 51.5,
+    "coa": 72.5,
     "fsd-ii": 0,
     "fsd2": 46.5,
     "python2": 51.5,
@@ -33126,7 +34052,7 @@ const data = [
     "sem3marks": 7.55,
     "sem3spi2": 15.1,
     "totalSum": 32.8,
-    "total": 283.75,
+    "total": 304.75,
     "coa2": 11.0,
     "toc2": 19.0,
     "fsd22": 10.5,
@@ -33137,7 +34063,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 15.5,
     "sem3spi": 9.25,
-    "dm4": 39.5
+    "dm4": 39.5,
+    "coa4": 42.0
   },
   {
     "roll": 158,
@@ -33153,7 +34080,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 78.0,
-    "coa": 41.5,
+    "coa": 53.75,
     "fsd-ii": 0,
     "fsd2": 57.5,
     "python2": 51.0,
@@ -33163,7 +34090,7 @@ const data = [
     "sem3marks": 7.15,
     "sem3spi2": 14.3,
     "totalSum": 26.65,
-    "total": 284.5,
+    "total": 296.75,
     "coa2": 13.5,
     "toc2": 19.0,
     "fsd22": 16.5,
@@ -33174,7 +34101,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 17.0,
     "sem3spi": 8.63,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 24.5
   },
   {
     "roll": 25,
@@ -33190,7 +34118,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 82.25,
-    "coa": 61.0,
+    "coa": 76.75,
     "fsd-ii": 0,
     "fsd2": 67.5,
     "python2": 63.0,
@@ -33200,7 +34128,7 @@ const data = [
     "sem3marks": 8.475,
     "sem3spi2": 16.95,
     "totalSum": 33.62,
-    "total": 337.25,
+    "total": 353.0,
     "coa2": 19.0,
     "toc2": 22.5,
     "fsd22": 23.5,
@@ -33211,7 +34139,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 25.0,
     "sem3spi": 9.67,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 31.5
   },
   {
     "roll": 11,
@@ -33227,7 +34156,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 87.75,
-    "coa": 71.5,
+    "coa": 95.0,
     "fsd-ii": 0,
     "fsd2": 64.5,
     "python2": 66.0,
@@ -33237,7 +34166,7 @@ const data = [
     "sem3marks": 8.575,
     "sem3spi2": 17.15,
     "totalSum": 34.82,
-    "total": 348.75,
+    "total": 372.25,
     "coa2": 24.5,
     "toc2": 23.0,
     "fsd22": 19.5,
@@ -33248,7 +34177,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 22.5,
     "sem3spi": 9.92,
-    "dm4": 48.5
+    "dm4": 48.5,
+    "coa4": 47.0
   },
   {
     "roll": 56,
@@ -33264,7 +34194,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 81.75,
-    "coa": 68.0,
+    "coa": 87.5,
     "fsd-ii": 0,
     "fsd2": 66.5,
     "python2": 60.0,
@@ -33274,7 +34204,7 @@ const data = [
     "sem3marks": 7.8,
     "sem3spi2": 15.6,
     "totalSum": 31.38,
-    "total": 336.25,
+    "total": 355.75,
     "coa2": 21.0,
     "toc2": 19.5,
     "fsd22": 22.5,
@@ -33285,7 +34215,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 17.0,
     "sem3spi": 9.38,
-    "dm4": 39.5
+    "dm4": 39.5,
+    "coa4": 39.0
   },
   {
     "roll": 92,
@@ -33301,7 +34232,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 64.0,
-    "coa": 28.5,
+    "coa": 36.5,
     "fsd-ii": 0,
     "fsd2": 41.0,
     "python2": 50.5,
@@ -33311,7 +34242,7 @@ const data = [
     "sem3marks": 6.95,
     "sem3spi2": 13.9,
     "totalSum": 29.31,
-    "total": 225.5,
+    "total": 233.5,
     "coa2": 7.0,
     "toc2": 10.5,
     "fsd22": 11.0,
@@ -33322,7 +34253,8 @@ const data = [
     "fsd23": 13.0,
     "python23": 11.5,
     "sem3spi": 7.71,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 16.0
   },
   {
     "roll": 69,
@@ -33338,7 +34270,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 91.5,
-    "coa": 66.5,
+    "coa": 88.5,
     "fsd-ii": 0,
     "fsd2": 64.0,
     "python2": 54.5,
@@ -33348,7 +34280,7 @@ const data = [
     "sem3marks": 7.475,
     "sem3spi2": 14.95,
     "totalSum": 30.92,
-    "total": 336.0,
+    "total": 358.0,
     "coa2": 25.0,
     "toc2": 23.0,
     "fsd22": 21.0,
@@ -33359,7 +34291,8 @@ const data = [
     "fsd23": 24.5,
     "python23": 19.0,
     "sem3spi": 8.63,
-    "dm4": 44.0
+    "dm4": 44.0,
+    "coa4": 44.0
   },
   {
     "roll": 37,
@@ -33375,7 +34308,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 92.5,
-    "coa": 63.0,
+    "coa": 83.0,
     "fsd-ii": 0,
     "fsd2": 52.0,
     "python2": 57.0,
@@ -33385,7 +34318,7 @@ const data = [
     "sem3marks": 8.3,
     "sem3spi2": 16.6,
     "totalSum": 32.9,
-    "total": 328.0,
+    "total": 348.0,
     "coa2": 17.0,
     "toc2": 19.0,
     "fsd22": 16.0,
@@ -33396,7 +34329,8 @@ const data = [
     "fsd23": 17.0,
     "python23": 16.0,
     "sem3spi": 9.38,
-    "dm4": 47.0
+    "dm4": 47.0,
+    "coa4": 40.0
   },
   {
     "roll": 277,
@@ -33412,7 +34346,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 37.25,
-    "coa": 19.0,
+    "coa": 30.5,
     "fsd-ii": 0,
     "fsd2": 22.0,
     "python2": 31.0,
@@ -33422,7 +34356,7 @@ const data = [
     "sem3marks": 4.325,
     "sem3spi2": 8.65,
     "totalSum": 18.46,
-    "total": 144.75,
+    "total": 156.25,
     "coa2": 8.0,
     "toc2": 12.0,
     "fsd22": 7.5,
@@ -33433,7 +34367,8 @@ const data = [
     "fsd23": 7.5,
     "python23": 9.0,
     "sem3spi": 5.92,
-    "dm4": 17.5
+    "dm4": 17.5,
+    "coa4": 23.0
   },
   {
     "roll": 168,
@@ -33449,7 +34384,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 50.75,
-    "coa": 41.5,
+    "coa": 55.0,
     "fsd-ii": 0,
     "fsd2": 29.0,
     "python2": 27.5,
@@ -33459,7 +34394,7 @@ const data = [
     "sem3marks": 6.65,
     "sem3spi2": 13.3,
     "totalSum": 26.35,
-    "total": 184.25,
+    "total": 197.75,
     "coa2": 0.0,
     "toc2": 0.0,
     "fsd22": 0.0,
@@ -33470,7 +34405,8 @@ const data = [
     "fsd23": 16.5,
     "python23": 13.5,
     "sem3spi": 7.38,
-    "dm4": 33.5
+    "dm4": 33.5,
+    "coa4": 27.0
   },
   {
     "roll": 235,
@@ -33486,7 +34422,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 52.75,
-    "coa": 51.0,
+    "coa": 57.75,
     "fsd-ii": 0,
     "fsd2": 30.5,
     "python2": 37.5,
@@ -33496,7 +34432,7 @@ const data = [
     "sem3marks": 5.125,
     "sem3spi2": 10.25,
     "totalSum": 21.83,
-    "total": 219.25,
+    "total": 226.0,
     "coa2": 16.0,
     "toc2": 16.5,
     "fsd22": 11.5,
@@ -33507,7 +34443,8 @@ const data = [
     "fsd23": 13.0,
     "python23": 9.0,
     "sem3spi": 6.75,
-    "dm4": 25.5
+    "dm4": 25.5,
+    "coa4": 13.5
   },
   {
     "roll": 141,
@@ -33523,7 +34460,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 71.0,
-    "coa": 42.0,
+    "coa": 60.5,
     "fsd-ii": 0,
     "fsd2": 36.0,
     "python2": 53.0,
@@ -33533,7 +34470,7 @@ const data = [
     "sem3marks": 6,
     "sem3spi2": 12,
     "totalSum": 27.44,
-    "total": 254.0,
+    "total": 272.5,
     "coa2": 10.0,
     "toc2": 19.0,
     "fsd22": 17.0,
@@ -33544,7 +34481,8 @@ const data = [
     "fsd23": 11.0,
     "python23": 18.0,
     "sem3spi": 7.88,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 37.0
   },
   {
     "roll": 66,
@@ -33560,7 +34498,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 90.5,
-    "coa": 57.0,
+    "coa": 75.0,
     "fsd-ii": 0,
     "fsd2": 64.0,
     "python2": 53.0,
@@ -33570,7 +34508,7 @@ const data = [
     "sem3marks": 7.75,
     "sem3spi2": 15.5,
     "totalSum": 31,
-    "total": 329.0,
+    "total": 347.0,
     "coa2": 17.0,
     "toc2": 22.5,
     "fsd22": 20.0,
@@ -33581,7 +34519,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 14.0,
     "sem3spi": 8.71,
-    "dm4": 45.0
+    "dm4": 45.0,
+    "coa4": 36.0
   },
   {
     "roll": 116,
@@ -33597,7 +34536,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 70.0,
-    "coa": 66.0,
+    "coa": 84.0,
     "fsd-ii": 0,
     "fsd2": 48.5,
     "python2": 52.5,
@@ -33607,7 +34546,7 @@ const data = [
     "sem3marks": 6.675,
     "sem3spi2": 13.35,
     "totalSum": 28.53,
-    "total": 292.0,
+    "total": 310.0,
     "coa2": 21.5,
     "toc2": 16.0,
     "fsd22": 7.5,
@@ -33618,7 +34557,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 17.5,
     "sem3spi": 8.46,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 36.0
   },
   {
     "roll": 210,
@@ -33634,7 +34574,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 59.25,
-    "coa": 38.0,
+    "coa": 45.0,
     "fsd-ii": 0,
     "fsd2": 38.0,
     "python2": 55.0,
@@ -33644,7 +34584,7 @@ const data = [
     "sem3marks": 5.45,
     "sem3spi2": 10.9,
     "totalSum": 23.88,
-    "total": 248.75,
+    "total": 255.75,
     "coa2": 10.0,
     "toc2": 18.0,
     "fsd22": 10.5,
@@ -33655,7 +34595,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 15.5,
     "sem3spi": 7.04,
-    "dm4": 20.5
+    "dm4": 20.5,
+    "coa4": 14.0
   },
   {
     "roll": 32,
@@ -33671,7 +34612,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 83.75,
-    "coa": 69.0,
+    "coa": 88.25,
     "fsd-ii": 0,
     "fsd2": 65.5,
     "python2": 58.5,
@@ -33681,7 +34622,7 @@ const data = [
     "sem3marks": 8.225,
     "sem3spi2": 16.45,
     "totalSum": 33.04,
-    "total": 336.25,
+    "total": 355.5,
     "coa2": 23.0,
     "toc2": 20.5,
     "fsd22": 22.0,
@@ -33692,7 +34633,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 18.5,
     "sem3spi": 9.58,
-    "dm4": 41.5
+    "dm4": 41.5,
+    "coa4": 38.5
   },
   {
     "roll": 52,
@@ -33708,7 +34650,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 87.75,
-    "coa": 64.5,
+    "coa": 82.5,
     "fsd-ii": 0,
     "fsd2": 67.5,
     "python2": 61.5,
@@ -33718,7 +34660,7 @@ const data = [
     "sem3marks": 7.875,
     "sem3spi2": 15.75,
     "totalSum": 31.69,
-    "total": 342.25,
+    "total": 360.25,
     "coa2": 21.0,
     "toc2": 23.0,
     "fsd22": 21.0,
@@ -33729,7 +34671,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 18.0,
     "sem3spi": 9.0,
-    "dm4": 39.5
+    "dm4": 39.5,
+    "coa4": 36.0
   },
   {
     "roll": 212,
@@ -33745,7 +34688,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 75.0,
-    "coa": 53.5,
+    "coa": 64.75,
     "fsd-ii": 0,
     "fsd2": 35.0,
     "python2": 45.5,
@@ -33755,7 +34698,7 @@ const data = [
     "sem3marks": 6.15,
     "sem3spi2": 12.3,
     "totalSum": 23.87,
-    "total": 256.0,
+    "total": 267.25,
     "coa2": 15.0,
     "toc2": 18.0,
     "fsd22": 11.5,
@@ -33766,7 +34709,8 @@ const data = [
     "fsd23": 12.5,
     "python23": 16.0,
     "sem3spi": 7.5,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 22.5
   },
   {
     "roll": 131,
@@ -33782,7 +34726,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 61.75,
-    "coa": 45.5,
+    "coa": 56.75,
     "fsd-ii": 0,
     "fsd2": 37.5,
     "python2": 28.5,
@@ -33792,7 +34736,7 @@ const data = [
     "sem3marks": 7.35,
     "sem3spi2": 14.7,
     "totalSum": 27.88,
-    "total": 215.25,
+    "total": 226.5,
     "coa2": 0.0,
     "toc2": 0.0,
     "fsd22": 0.0,
@@ -33803,7 +34747,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 14.0,
     "sem3spi": 8.38,
-    "dm4": 44.5
+    "dm4": 44.5,
+    "coa4": 22.5
   },
   {
     "roll": 207,
@@ -33819,7 +34764,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 70.75,
-    "coa": 43.0,
+    "coa": 53.75,
     "fsd-ii": 0,
     "fsd2": 39.5,
     "python2": 48.5,
@@ -33829,7 +34774,7 @@ const data = [
     "sem3marks": 5.95,
     "sem3spi2": 11.9,
     "totalSum": 24.1,
-    "total": 250.75,
+    "total": 261.5,
     "coa2": 11.0,
     "toc2": 16.5,
     "fsd22": 11.0,
@@ -33840,7 +34785,8 @@ const data = [
     "fsd23": 12.0,
     "python23": 18.0,
     "sem3spi": 7.29,
-    "dm4": 30.5
+    "dm4": 30.5,
+    "coa4": 21.5
   },
   {
     "roll": 117,
@@ -33856,7 +34802,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 73.75,
-    "coa": 70.0,
+    "coa": 81.5,
     "fsd-ii": 0,
     "fsd2": 58.5,
     "python2": 47.5,
@@ -33866,7 +34812,7 @@ const data = [
     "sem3marks": 6.95,
     "sem3spi2": 13.9,
     "totalSum": 28.49,
-    "total": 298.75,
+    "total": 310.25,
     "coa2": 25.0,
     "toc2": 17.0,
     "fsd22": 19.0,
@@ -33877,7 +34823,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 12.5,
     "sem3spi": 8.38,
-    "dm4": 28.5
+    "dm4": 28.5,
+    "coa4": 23.0
   },
   {
     "roll": 27,
@@ -33893,7 +34840,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 92.0,
-    "coa": 71.0,
+    "coa": 89.0,
     "fsd-ii": 0,
     "fsd2": 66.5,
     "python2": 62.0,
@@ -33903,7 +34850,7 @@ const data = [
     "sem3marks": 8.5,
     "sem3spi2": 17,
     "totalSum": 33.56,
-    "total": 353.0,
+    "total": 371.0,
     "coa2": 24.5,
     "toc2": 21.0,
     "fsd22": 24.0,
@@ -33914,7 +34861,8 @@ const data = [
     "fsd23": 21.5,
     "python23": 19.0,
     "sem3spi": 9.54,
-    "dm4": 47.0
+    "dm4": 47.0,
+    "coa4": 36.0
   },
   {
     "roll": 107,
@@ -33930,7 +34878,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 71.0,
-    "coa": 63.0,
+    "coa": 79.0,
     "fsd-ii": 0,
     "fsd2": 58.0,
     "python2": 55.0,
@@ -33940,7 +34888,7 @@ const data = [
     "sem3marks": 7.125,
     "sem3spi2": 14.25,
     "totalSum": 28.79,
-    "total": 304.0,
+    "total": 320.0,
     "coa2": 22.0,
     "toc2": 18.5,
     "fsd22": 19.5,
@@ -33951,7 +34899,8 @@ const data = [
     "fsd23": 20.5,
     "python23": 19.5,
     "sem3spi": 8.67,
-    "dm4": 31.0
+    "dm4": 31.0,
+    "coa4": 32.0
   },
   {
     "roll": 104,
@@ -33967,7 +34916,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 80.75,
-    "coa": 52.5,
+    "coa": 70.75,
     "fsd-ii": 0,
     "fsd2": 45.0,
     "python2": 56.5,
@@ -33977,7 +34926,7 @@ const data = [
     "sem3marks": 6.925,
     "sem3spi2": 13.85,
     "totalSum": 28.86,
-    "total": 289.75,
+    "total": 308.0,
     "coa2": 14.0,
     "toc2": 16.5,
     "fsd22": 21.0,
@@ -33988,7 +34937,8 @@ const data = [
     "fsd23": 9.0,
     "python23": 20.5,
     "sem3spi": 8.75,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 36.5
   },
   {
     "roll": 180,
@@ -34004,7 +34954,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 72.5,
-    "coa": 61.5,
+    "coa": 72.5,
     "fsd-ii": 0,
     "fsd2": 57.0,
     "python2": 63.0,
@@ -34014,7 +34964,7 @@ const data = [
     "sem3marks": 6.325,
     "sem3spi2": 12.65,
     "totalSum": 25.98,
-    "total": 314.0,
+    "total": 325.0,
     "coa2": 19.0,
     "toc2": 20.5,
     "fsd22": 19.5,
@@ -34025,7 +34975,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 21.5,
     "sem3spi": 7.46,
-    "dm4": 34.0
+    "dm4": 34.0,
+    "coa4": 22.0
   },
   {
     "roll": 135,
@@ -34041,7 +34992,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 78.25,
-    "coa": 60.0,
+    "coa": 75.5,
     "fsd-ii": 0,
     "fsd2": 47.5,
     "python2": 43.5,
@@ -34051,7 +35002,7 @@ const data = [
     "sem3marks": 6.825,
     "sem3spi2": 13.65,
     "totalSum": 27.71,
-    "total": 283.75,
+    "total": 299.25,
     "coa2": 16.5,
     "toc2": 20.0,
     "fsd22": 19.5,
@@ -34062,7 +35013,8 @@ const data = [
     "fsd23": 12.5,
     "python23": 11.5,
     "sem3spi": 7.71,
-    "dm4": 34.5
+    "dm4": 34.5,
+    "coa4": 31.0
   },
   {
     "roll": 218,
@@ -34078,7 +35030,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 65.0,
-    "coa": 62.5,
+    "coa": 72.5,
     "fsd-ii": 0,
     "fsd2": 33.0,
     "python2": 45.0,
@@ -34088,7 +35040,7 @@ const data = [
     "sem3marks": 5.7,
     "sem3spi2": 11.4,
     "totalSum": 23.56,
-    "total": 251.0,
+    "total": 261.0,
     "coa2": 21.0,
     "toc2": 15.5,
     "fsd22": 12.5,
@@ -34099,7 +35051,8 @@ const data = [
     "fsd23": 9.5,
     "python23": 12.5,
     "sem3spi": 7.71,
-    "dm4": 20.0
+    "dm4": 20.0,
+    "coa4": 20.0
   },
   {
     "roll": 84,
@@ -34115,7 +35068,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 84.75,
-    "coa": 62.5,
+    "coa": 78.5,
     "fsd-ii": 0,
     "fsd2": 58.0,
     "python2": 57.0,
@@ -34125,7 +35078,7 @@ const data = [
     "sem3marks": 7.3,
     "sem3spi2": 14.6,
     "totalSum": 29.81,
-    "total": 314.75,
+    "total": 330.75,
     "coa2": 19.0,
     "toc2": 17.5,
     "fsd22": 20.0,
@@ -34136,7 +35089,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 18.5,
     "sem3spi": 8.79,
-    "dm4": 43.5
+    "dm4": 43.5,
+    "coa4": 32.0
   },
   {
     "roll": 14,
@@ -34152,7 +35106,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 81.0,
-    "coa": 50.5,
+    "coa": 66.5,
     "fsd-ii": 0,
     "fsd2": 63.5,
     "python2": 66.0,
@@ -34162,7 +35116,7 @@ const data = [
     "sem3marks": 8.425,
     "sem3spi2": 16.85,
     "totalSum": 34.48,
-    "total": 324.5,
+    "total": 340.5,
     "coa2": 12.0,
     "toc2": 17.5,
     "fsd22": 19.5,
@@ -34173,7 +35127,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 23.0,
     "sem3spi": 9.5,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 32.0
   },
   {
     "roll": 78,
@@ -34189,7 +35144,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 82.0,
-    "coa": 66.0,
+    "coa": 86.75,
     "fsd-ii": 0,
     "fsd2": 61.0,
     "python2": 57.5,
@@ -34199,7 +35154,7 @@ const data = [
     "sem3marks": 7.95,
     "sem3spi2": 15.9,
     "totalSum": 30.43,
-    "total": 321.0,
+    "total": 341.75,
     "coa2": 21.0,
     "toc2": 16.5,
     "fsd22": 19.0,
@@ -34210,7 +35165,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 18.5,
     "sem3spi": 9.21,
-    "dm4": 43.0
+    "dm4": 43.0,
+    "coa4": 41.5
   },
   {
     "roll": 18,
@@ -34226,7 +35182,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 89.0,
-    "coa": 56.0,
+    "coa": 68.25,
     "fsd-ii": 0,
     "fsd2": 67.5,
     "python2": 69.0,
@@ -34236,7 +35192,7 @@ const data = [
     "sem3marks": 8.5,
     "sem3spi2": 17,
     "totalSum": 34.18,
-    "total": 345.5,
+    "total": 357.75,
     "coa2": 18.0,
     "toc2": 19.0,
     "fsd22": 19.5,
@@ -34247,7 +35203,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 24.0,
     "sem3spi": 9.46,
-    "dm4": 44.0
+    "dm4": 44.0,
+    "coa4": 24.5
   },
   {
     "roll": 95,
@@ -34263,7 +35220,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 85.75,
-    "coa": 42.5,
+    "coa": 57.0,
     "fsd-ii": 0,
     "fsd2": 35.0,
     "python2": 44.5,
@@ -34273,7 +35230,7 @@ const data = [
     "sem3marks": 6.85,
     "sem3spi2": 13.7,
     "totalSum": 29.2,
-    "total": 252.75,
+    "total": 267.25,
     "coa2": 12.0,
     "toc2": 14.0,
     "fsd22": 12.5,
@@ -34284,7 +35241,8 @@ const data = [
     "fsd23": 16.0,
     "python23": 12.0,
     "sem3spi": 8.25,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 29.0
   },
   {
     "roll": 63,
@@ -34300,7 +35258,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 89.5,
-    "coa": 61.5,
+    "coa": 81.5,
     "fsd-ii": 0,
     "fsd2": 65.0,
     "python2": 60.5,
@@ -34310,7 +35268,7 @@ const data = [
     "sem3marks": 7.325,
     "sem3spi2": 14.65,
     "totalSum": 31.09,
-    "total": 333.0,
+    "total": 353.0,
     "coa2": 19.0,
     "toc2": 24.0,
     "fsd22": 22.0,
@@ -34321,7 +35279,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 22.0,
     "sem3spi": 8.63,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 40.0
   },
   {
     "roll": 93,
@@ -34337,7 +35296,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 70.25,
-    "coa": 41.0,
+    "coa": 55.75,
     "fsd-ii": 0,
     "fsd2": 34.5,
     "python2": 53.5,
@@ -34347,7 +35306,7 @@ const data = [
     "sem3marks": 6.55,
     "sem3spi2": 13.1,
     "totalSum": 29.3,
-    "total": 246.75,
+    "total": 261.5,
     "coa2": 9.0,
     "toc2": 17.0,
     "fsd22": 10.5,
@@ -34358,7 +35317,8 @@ const data = [
     "fsd23": 9.0,
     "python23": 17.5,
     "sem3spi": 8.38,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 29.5
   },
   {
     "roll": 305,
@@ -34394,7 +35354,8 @@ const data = [
     "toc3": 2.0,
     "fsd23": 0.0,
     "python23": 0.0,
-    "dm4": 0.0
+    "dm4": 0.0,
+    "coa4": 0.0
   },
   {
     "roll": 143,
@@ -34410,7 +35371,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 67.75,
-    "coa": 37.5,
+    "coa": 46.0,
     "fsd-ii": 0,
     "fsd2": 43.5,
     "python2": 50.0,
@@ -34420,7 +35381,7 @@ const data = [
     "sem3marks": 6.05,
     "sem3spi2": 12.1,
     "totalSum": 27.4,
-    "total": 252.75,
+    "total": 261.25,
     "coa2": 6.0,
     "toc2": 21.0,
     "fsd22": 13.0,
@@ -34431,7 +35392,8 @@ const data = [
     "fsd23": 13.5,
     "python23": 14.0,
     "sem3spi": 7.83,
-    "dm4": 26.5
+    "dm4": 26.5,
+    "coa4": 17.0
   },
   {
     "roll": 72,
@@ -34447,7 +35409,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 85.75,
-    "coa": 56.5,
+    "coa": 72.5,
     "fsd-ii": 0,
     "fsd2": 63.0,
     "python2": 64.0,
@@ -34457,7 +35419,7 @@ const data = [
     "sem3marks": 7.425,
     "sem3spi2": 14.85,
     "totalSum": 30.66,
-    "total": 320.75,
+    "total": 336.75,
     "coa2": 18.0,
     "toc2": 14.0,
     "fsd22": 23.0,
@@ -34468,7 +35430,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 23.0,
     "sem3spi": 8.63,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 32.0
   },
   {
     "roll": 265,
@@ -34484,7 +35447,7 @@ const data = [
     "dept": "SY1",
     "etc": 82,
     "dm": 53.0,
-    "coa": 32.0,
+    "coa": 41.5,
     "fsd-ii": 0,
     "fsd2": 27.5,
     "python2": 29.5,
@@ -34494,7 +35457,7 @@ const data = [
     "sem3marks": 4.2,
     "sem3spi2": 8.4,
     "totalSum": 19.76,
-    "total": 168.5,
+    "total": 178.0,
     "coa2": 11.0,
     "toc2": 11.0,
     "fsd22": 10.0,
@@ -34505,7 +35468,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 9.0,
     "sem3spi": 6.13,
-    "dm4": 24.0
+    "dm4": 24.0,
+    "coa4": 19.0
   },
   {
     "roll": 263,
@@ -34521,7 +35485,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 63.0,
-    "coa": 34.5,
+    "coa": 40.25,
     "fsd-ii": 0,
     "fsd2": 25.5,
     "python2": 33.0,
@@ -34531,7 +35495,7 @@ const data = [
     "sem3marks": 4.225,
     "sem3spi2": 8.45,
     "totalSum": 19.88,
-    "total": 202.0,
+    "total": 207.75,
     "coa2": 8.0,
     "toc2": 18.5,
     "fsd22": 9.5,
@@ -34542,7 +35506,8 @@ const data = [
     "fsd23": 9.0,
     "python23": 12.5,
     "sem3spi": 5.92,
-    "dm4": 32.0
+    "dm4": 32.0,
+    "coa4": 11.5
   },
   {
     "roll": 201,
@@ -34579,7 +35544,8 @@ const data = [
     "fsd23": 0.0,
     "python23": 0.0,
     "sem3spi": 6.63,
-    "dm4": 0.0
+    "dm4": 0.0,
+    "coa4": 0.0
   },
   {
     "roll": 276,
@@ -34595,7 +35561,7 @@ const data = [
     "dept": "SY1",
     "etc": 86,
     "dm": 55.5,
-    "coa": 32.0,
+    "coa": 39.25,
     "fsd-ii": 0,
     "fsd2": 35.5,
     "python2": 33.0,
@@ -34605,7 +35571,7 @@ const data = [
     "sem3marks": 4.55,
     "sem3spi2": 9.1,
     "totalSum": 18.58,
-    "total": 182.0,
+    "total": 189.25,
     "coa2": 13.0,
     "toc2": 0.0,
     "fsd22": 7.0,
@@ -34616,7 +35582,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 10.5,
     "sem3spi": 6.25,
-    "dm4": 24.0
+    "dm4": 24.0,
+    "coa4": 14.5
   },
   {
     "roll": 21,
@@ -34632,7 +35599,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 84.0,
-    "coa": 63.5,
+    "coa": 82.75,
     "fsd-ii": 0,
     "fsd2": 63.0,
     "python2": 66.0,
@@ -34642,7 +35609,7 @@ const data = [
     "sem3marks": 8.45,
     "sem3spi2": 16.9,
     "totalSum": 33.9,
-    "total": 343.5,
+    "total": 362.75,
     "coa2": 17.0,
     "toc2": 20.0,
     "fsd22": 16.5,
@@ -34653,7 +35620,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 23.0,
     "sem3spi": 9.75,
-    "dm4": 46.0
+    "dm4": 46.0,
+    "coa4": 38.5
   },
   {
     "roll": 59,
@@ -34669,7 +35637,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 87.75,
-    "coa": 72.0,
+    "coa": 92.5,
     "fsd-ii": 0,
     "fsd2": 64.0,
     "python2": 65.5,
@@ -34679,7 +35647,7 @@ const data = [
     "sem3marks": 7.875,
     "sem3spi2": 15.75,
     "totalSum": 31.31,
-    "total": 352.75,
+    "total": 373.25,
     "coa2": 23.5,
     "toc2": 24.5,
     "fsd22": 21.5,
@@ -34690,7 +35658,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 20.5,
     "sem3spi": 9.04,
-    "dm4": 45.5
+    "dm4": 45.5,
+    "coa4": 41.0
   },
   {
     "roll": 106,
@@ -34706,7 +35675,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 81.5,
-    "coa": 65.0,
+    "coa": 85.5,
     "fsd-ii": 0,
     "fsd2": 60.5,
     "python2": 53.0,
@@ -34716,7 +35685,7 @@ const data = [
     "sem3marks": 6.975,
     "sem3spi2": 13.95,
     "totalSum": 28.8,
-    "total": 315.0,
+    "total": 335.5,
     "coa2": 22.0,
     "toc2": 18.0,
     "fsd22": 19.5,
@@ -34727,7 +35696,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 13.5,
     "sem3spi": 8.79,
-    "dm4": 45.0
+    "dm4": 45.0,
+    "coa4": 41.0
   },
   {
     "roll": 7,
@@ -34743,7 +35713,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 79.25,
-    "coa": 70.5,
+    "coa": 89.0,
     "fsd-ii": 0,
     "fsd2": 67.5,
     "python2": 68.5,
@@ -34753,7 +35723,7 @@ const data = [
     "sem3marks": 9.3,
     "sem3spi2": 18.6,
     "totalSum": 35.75,
-    "total": 352.25,
+    "total": 370.75,
     "coa2": 23.0,
     "toc2": 22.5,
     "fsd22": 20.5,
@@ -34764,7 +35734,8 @@ const data = [
     "fsd23": 24.5,
     "python23": 20.5,
     "sem3spi": 9.96,
-    "dm4": 25.5
+    "dm4": 25.5,
+    "coa4": 37.0
   },
   {
     "roll": 236,
@@ -34780,7 +35751,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 56.75,
-    "coa": 55.5,
+    "coa": 69.0,
     "fsd-ii": 0,
     "fsd2": 21.5,
     "python2": 31.5,
@@ -34790,7 +35761,7 @@ const data = [
     "sem3marks": 4.55,
     "sem3spi2": 9.1,
     "totalSum": 21.63,
-    "total": 221.75,
+    "total": 235.25,
     "coa2": 18.0,
     "toc2": 17.5,
     "fsd22": 5.0,
@@ -34801,7 +35772,8 @@ const data = [
     "fsd23": 10.5,
     "python23": 10.5,
     "sem3spi": 6.5,
-    "dm4": 27.5
+    "dm4": 27.5,
+    "coa4": 27.0
   },
   {
     "roll": 96,
@@ -34817,7 +35789,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 77.0,
-    "coa": 36.0,
+    "coa": 50.5,
     "fsd-ii": 0,
     "fsd2": 44.0,
     "python2": 40.5,
@@ -34827,7 +35799,7 @@ const data = [
     "sem3marks": 7.15,
     "sem3spi2": 14.3,
     "totalSum": 29.19,
-    "total": 258.5,
+    "total": 273.0,
     "coa2": 11.5,
     "toc2": 19.0,
     "fsd22": 10.0,
@@ -34838,7 +35810,8 @@ const data = [
     "fsd23": 15.0,
     "python23": 13.0,
     "sem3spi": 8.5,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 29.0
   },
   {
     "roll": 118,
@@ -34854,7 +35827,7 @@ const data = [
     "dept": "SY1",
     "etc": 84,
     "dm": 79.5,
-    "coa": 64.0,
+    "coa": 78.75,
     "fsd-ii": 0,
     "fsd2": 63.5,
     "python2": 60.0,
@@ -34864,7 +35837,7 @@ const data = [
     "sem3marks": 7.525,
     "sem3spi2": 15.05,
     "totalSum": 28.49,
-    "total": 326.5,
+    "total": 341.25,
     "coa2": 19.0,
     "toc2": 17.5,
     "fsd22": 18.0,
@@ -34875,7 +35848,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 18.0,
     "sem3spi": 8.21,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 29.5
   },
   {
     "roll": 47,
@@ -34891,7 +35865,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 83.0,
-    "coa": 68.5,
+    "coa": 87.75,
     "fsd-ii": 0,
     "fsd2": 64.0,
     "python2": 62.5,
@@ -34901,7 +35875,7 @@ const data = [
     "sem3marks": 7.375,
     "sem3spi2": 14.75,
     "totalSum": 32,
-    "total": 344.5,
+    "total": 363.75,
     "coa2": 23.5,
     "toc2": 23.0,
     "fsd22": 20.5,
@@ -34912,7 +35886,8 @@ const data = [
     "fsd23": 20.5,
     "python23": 22.0,
     "sem3spi": 8.88,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 38.5
   },
   {
     "roll": 124,
@@ -34928,7 +35903,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 75.25,
-    "coa": 55.5,
+    "coa": 69.5,
     "fsd-ii": 0,
     "fsd2": 55.0,
     "python2": 48.0,
@@ -34938,7 +35913,7 @@ const data = [
     "sem3marks": 7.275,
     "sem3spi2": 14.55,
     "totalSum": 28.17,
-    "total": 284.25,
+    "total": 298.25,
     "coa2": 19.5,
     "toc2": 15.0,
     "fsd22": 13.5,
@@ -34949,7 +35924,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 13.0,
     "sem3spi": 8.75,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 28.0
   },
   {
     "roll": 26,
@@ -34965,7 +35941,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 81.75,
-    "coa": 59.0,
+    "coa": 75.5,
     "fsd-ii": 0,
     "fsd2": 67.0,
     "python2": 57.5,
@@ -34975,7 +35951,7 @@ const data = [
     "sem3marks": 8.475,
     "sem3spi2": 16.95,
     "totalSum": 33.57,
-    "total": 319.75,
+    "total": 336.25,
     "coa2": 14.0,
     "toc2": 19.0,
     "fsd22": 22.5,
@@ -34986,7 +35962,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 15.0,
     "sem3spi": 9.58,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 33.0
   },
   {
     "roll": 79,
@@ -35002,7 +35979,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 80.5,
-    "coa": 51.0,
+    "coa": 65.25,
     "fsd-ii": 0,
     "fsd2": 64.0,
     "python2": 57.5,
@@ -35012,7 +35989,7 @@ const data = [
     "sem3marks": 6.95,
     "sem3spi2": 13.9,
     "totalSum": 30.26,
-    "total": 312.0,
+    "total": 326.25,
     "coa2": 13.5,
     "toc2": 22.5,
     "fsd22": 22.5,
@@ -35023,7 +36000,8 @@ const data = [
     "fsd23": 20.5,
     "python23": 17.0,
     "sem3spi": 8.67,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 28.5
   },
   {
     "roll": 15,
@@ -35039,7 +36017,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 94.0,
-    "coa": 71.0,
+    "coa": 91.0,
     "fsd-ii": 0,
     "fsd2": 64.5,
     "python2": 63.5,
@@ -35049,7 +36027,7 @@ const data = [
     "sem3marks": 8.675,
     "sem3spi2": 17.35,
     "totalSum": 34.32,
-    "total": 359.5,
+    "total": 379.5,
     "coa2": 23.0,
     "toc2": 23.0,
     "fsd22": 18.5,
@@ -35060,7 +36038,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 18.0,
     "sem3spi": 9.75,
-    "dm4": 47.0
+    "dm4": 47.0,
+    "coa4": 40.0
   },
   {
     "roll": 50,
@@ -35076,7 +36055,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 84.75,
-    "coa": 63.0,
+    "coa": 82.75,
     "fsd-ii": 0,
     "fsd2": 67.5,
     "python2": 63.0,
@@ -35086,7 +36065,7 @@ const data = [
     "sem3marks": 7.775,
     "sem3spi2": 15.55,
     "totalSum": 31.92,
-    "total": 338.75,
+    "total": 358.5,
     "coa2": 17.0,
     "toc2": 22.0,
     "fsd22": 20.0,
@@ -35097,7 +36076,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 21.0,
     "sem3spi": 9.21,
-    "dm4": 39.5
+    "dm4": 39.5,
+    "coa4": 39.5
   },
   {
     "roll": 225,
@@ -35113,7 +36093,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 74.0,
-    "coa": 59.5,
+    "coa": 70.0,
     "fsd-ii": 0,
     "fsd2": 43.5,
     "python2": 39.0,
@@ -35123,7 +36103,7 @@ const data = [
     "sem3marks": 5.15,
     "sem3spi2": 10.3,
     "totalSum": 23.09,
-    "total": 269.0,
+    "total": 279.5,
     "coa2": 21.0,
     "toc2": 21.5,
     "fsd22": 15.0,
@@ -35134,7 +36114,8 @@ const data = [
     "fsd23": 16.5,
     "python23": 15.0,
     "sem3spi": 6.88,
-    "dm4": 36.0
+    "dm4": 36.0,
+    "coa4": 21.0
   },
   {
     "roll": 269,
@@ -35150,7 +36131,7 @@ const data = [
     "dept": "SY1",
     "etc": 92,
     "dm": 53.25,
-    "coa": 36.0,
+    "coa": 49.0,
     "fsd-ii": 0,
     "fsd2": 23.0,
     "python2": 35.5,
@@ -35160,7 +36141,7 @@ const data = [
     "sem3marks": 3.9,
     "sem3spi2": 7.8,
     "totalSum": 19.35,
-    "total": 177.25,
+    "total": 190.25,
     "coa2": 13.5,
     "toc2": 10.0,
     "fsd22": 8.5,
@@ -35171,7 +36152,8 @@ const data = [
     "fsd23": 6.5,
     "python23": 12.0,
     "sem3spi": 5.83,
-    "dm4": 27.5
+    "dm4": 27.5,
+    "coa4": 26.0
   },
   {
     "roll": 140,
@@ -35187,7 +36169,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 78.75,
-    "coa": 61.5,
+    "coa": 76.5,
     "fsd-ii": 0,
     "fsd2": 53.0,
     "python2": 48.0,
@@ -35197,7 +36179,7 @@ const data = [
     "sem3marks": 6.525,
     "sem3spi2": 13.05,
     "totalSum": 27.52,
-    "total": 294.25,
+    "total": 309.25,
     "coa2": 22.0,
     "toc2": 21.5,
     "fsd22": 16.5,
@@ -35208,7 +36190,8 @@ const data = [
     "fsd23": 17.5,
     "python23": 14.0,
     "sem3spi": 8.04,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 30.0
   },
   {
     "roll": 264,
@@ -35224,7 +36207,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 70.75,
-    "coa": 41.0,
+    "coa": 55.0,
     "fsd-ii": 0,
     "fsd2": 39.0,
     "python2": 40.0,
@@ -35234,7 +36217,7 @@ const data = [
     "sem3marks": 4.5,
     "sem3spi2": 9,
     "totalSum": 19.88,
-    "total": 232.75,
+    "total": 246.75,
     "coa2": 14.0,
     "toc2": 14.0,
     "fsd22": 9.0,
@@ -35245,7 +36228,8 @@ const data = [
     "fsd23": 17.0,
     "python23": 8.0,
     "sem3spi": 6.58,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 28.0
   },
   {
     "roll": 162,
@@ -35261,7 +36245,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 66.25,
-    "coa": 58.5,
+    "coa": 74.5,
     "fsd-ii": 0,
     "fsd2": 57.0,
     "python2": 49.0,
@@ -35271,7 +36255,7 @@ const data = [
     "sem3marks": 6.825,
     "sem3spi2": 13.65,
     "totalSum": 26.52,
-    "total": 293.25,
+    "total": 309.25,
     "coa2": 19.0,
     "toc2": 21.5,
     "fsd22": 15.5,
@@ -35282,7 +36266,8 @@ const data = [
     "fsd23": 20.5,
     "python23": 12.0,
     "sem3spi": 8.38,
-    "dm4": 31.5
+    "dm4": 31.5,
+    "coa4": 32.0
   },
   {
     "roll": 3,
@@ -35298,7 +36283,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 91.0,
-    "coa": 72.5,
+    "coa": 97.0,
     "fsd-ii": 0,
     "fsd2": 68.0,
     "python2": 72.5,
@@ -35308,7 +36293,7 @@ const data = [
     "sem3marks": 9.3,
     "sem3spi2": 18.6,
     "totalSum": 36.49,
-    "total": 371.0,
+    "total": 395.5,
     "coa2": 25.0,
     "toc2": 24.0,
     "fsd22": 24.5,
@@ -35319,7 +36304,8 @@ const data = [
     "fsd23": 20.5,
     "python23": 25.0,
     "sem3spi": 10.0,
-    "dm4": 50.0
+    "dm4": 50.0,
+    "coa4": 49.0
   },
   {
     "roll": 239,
@@ -35335,7 +36321,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 57.75,
-    "coa": 41.5,
+    "coa": 58.0,
     "fsd-ii": 0,
     "fsd2": 39.5,
     "python2": 32.0,
@@ -35345,7 +36331,7 @@ const data = [
     "sem3marks": 4.55,
     "sem3spi2": 9.1,
     "totalSum": 21.39,
-    "total": 211.75,
+    "total": 228.25,
     "coa2": 9.5,
     "toc2": 15.0,
     "fsd22": 16.0,
@@ -35356,7 +36342,8 @@ const data = [
     "fsd23": 16.5,
     "python23": 9.0,
     "sem3spi": 6.46,
-    "dm4": 26.5
+    "dm4": 26.5,
+    "coa4": 33.0
   },
   {
     "roll": 132,
@@ -35372,7 +36359,7 @@ const data = [
     "dept": "SY1",
     "etc": 92,
     "dm": 72.25,
-    "coa": 63.5,
+    "coa": 79.0,
     "fsd-ii": 0,
     "fsd2": 58.0,
     "python2": 38.5,
@@ -35382,7 +36369,7 @@ const data = [
     "sem3marks": 6.75,
     "sem3spi2": 13.5,
     "totalSum": 27.86,
-    "total": 283.25,
+    "total": 298.75,
     "coa2": 21.0,
     "toc2": 18.0,
     "fsd22": 16.0,
@@ -35393,7 +36380,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 13.0,
     "sem3spi": 7.88,
-    "dm4": 33.5
+    "dm4": 33.5,
+    "coa4": 31.0
   },
   {
     "roll": 167,
@@ -35409,7 +36397,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 73.75,
-    "coa": 44.0,
+    "coa": 54.75,
     "fsd-ii": 0,
     "fsd2": 54.5,
     "python2": 42.0,
@@ -35419,7 +36407,7 @@ const data = [
     "sem3marks": 6.05,
     "sem3spi2": 12.1,
     "totalSum": 26.37,
-    "total": 267.25,
+    "total": 278.0,
     "coa2": 14.5,
     "toc2": 19.0,
     "fsd22": 18.0,
@@ -35430,7 +36418,8 @@ const data = [
     "fsd23": 15.5,
     "python23": 10.0,
     "sem3spi": 7.71,
-    "dm4": 36.5
+    "dm4": 36.5,
+    "coa4": 21.5
   },
   {
     "roll": 2,
@@ -35446,7 +36435,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 91.75,
-    "coa": 66.0,
+    "coa": 87.0,
     "fsd-ii": 0,
     "fsd2": 68.0,
     "python2": 70.5,
@@ -35456,7 +36445,7 @@ const data = [
     "sem3marks": 9.1,
     "sem3spi2": 18.2,
     "totalSum": 36.67,
-    "total": 366.25,
+    "total": 387.25,
     "coa2": 23.5,
     "toc2": 23.0,
     "fsd22": 23.0,
@@ -35467,7 +36456,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 24.0,
     "sem3spi": 9.75,
-    "dm4": 48.5
+    "dm4": 48.5,
+    "coa4": 42.0
   },
   {
     "roll": 39,
@@ -35483,7 +36473,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 82.75,
-    "coa": 69.5,
+    "coa": 89.5,
     "fsd-ii": 0,
     "fsd2": 64.5,
     "python2": 64.5,
@@ -35493,7 +36483,7 @@ const data = [
     "sem3marks": 8.075,
     "sem3spi2": 16.15,
     "totalSum": 32.68,
-    "total": 341.25,
+    "total": 361.25,
     "coa2": 24.0,
     "toc2": 23.0,
     "fsd22": 20.5,
@@ -35504,7 +36494,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 18.5,
     "sem3spi": 9.33,
-    "dm4": 41.5
+    "dm4": 41.5,
+    "coa4": 40.0
   },
   {
     "roll": 81,
@@ -35520,7 +36511,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 83.5,
-    "coa": 54.5,
+    "coa": 70.5,
     "fsd-ii": 0,
     "fsd2": 58.5,
     "python2": 57.0,
@@ -35530,7 +36521,7 @@ const data = [
     "sem3marks": 7.275,
     "sem3spi2": 14.55,
     "totalSum": 30.1,
-    "total": 305.0,
+    "total": 321.0,
     "coa2": 16.0,
     "toc2": 17.0,
     "fsd22": 20.5,
@@ -35541,7 +36532,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 17.0,
     "sem3spi": 8.88,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 32.0
   },
   {
     "roll": 88,
@@ -35557,7 +36549,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 74.5,
-    "coa": 49.5,
+    "coa": 65.25,
     "fsd-ii": 0,
     "fsd2": 58.0,
     "python2": 45.0,
@@ -35567,7 +36559,7 @@ const data = [
     "sem3marks": 7.025,
     "sem3spi2": 14.05,
     "totalSum": 29.57,
-    "total": 279.5,
+    "total": 295.25,
     "coa2": 10.5,
     "toc2": 19.0,
     "fsd22": 19.0,
@@ -35578,7 +36570,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 15.0,
     "sem3spi": 8.58,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 31.5
   },
   {
     "roll": 115,
@@ -35594,7 +36587,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 78.25,
-    "coa": 50.0,
+    "coa": 59.5,
     "fsd-ii": 0,
     "fsd2": 51.0,
     "python2": 50.0,
@@ -35604,7 +36597,7 @@ const data = [
     "sem3marks": 6.8,
     "sem3spi2": 13.6,
     "totalSum": 28.54,
-    "total": 283.75,
+    "total": 293.25,
     "coa2": 12.0,
     "toc2": 15.0,
     "fsd22": 15.5,
@@ -35615,7 +36608,8 @@ const data = [
     "fsd23": 17.5,
     "python23": 15.0,
     "sem3spi": 8.33,
-    "dm4": 42.5
+    "dm4": 42.5,
+    "coa4": 19.0
   },
   {
     "roll": 174,
@@ -35631,7 +36625,7 @@ const data = [
     "dept": "SY1",
     "etc": 90,
     "dm": 63.5,
-    "coa": 42.0,
+    "coa": 51.75,
     "fsd-ii": 0,
     "fsd2": 49.5,
     "python2": 46.5,
@@ -35641,7 +36635,7 @@ const data = [
     "sem3marks": 5.975,
     "sem3spi2": 11.95,
     "totalSum": 26.12,
-    "total": 249.0,
+    "total": 258.75,
     "coa2": 13.0,
     "toc2": 18.0,
     "fsd22": 15.0,
@@ -35652,7 +36646,8 @@ const data = [
     "fsd23": 13.5,
     "python23": 13.0,
     "sem3spi": 7.92,
-    "dm4": 32.0
+    "dm4": 32.0,
+    "coa4": 19.5
   },
   {
     "roll": 1,
@@ -35668,7 +36663,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 96.0,
-    "coa": 72.5,
+    "coa": 93.5,
     "fsd-ii": 0,
     "fsd2": 72.0,
     "python2": 72.5,
@@ -35678,7 +36673,7 @@ const data = [
     "sem3marks": 9.6,
     "sem3spi2": 19.2,
     "totalSum": 37.86,
-    "total": 385.0,
+    "total": 406.0,
     "coa2": 24.0,
     "toc2": 22.0,
     "fsd22": 23.0,
@@ -35689,7 +36684,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 25.0,
     "sem3spi": 10.0,
-    "dm4": 50.0
+    "dm4": 50.0,
+    "coa4": 42.0
   },
   {
     "roll": 196,
@@ -35705,7 +36701,7 @@ const data = [
     "dept": "SY1",
     "etc": 90,
     "dm": 83.5,
-    "coa": 62.0,
+    "coa": 77.0,
     "fsd-ii": 0,
     "fsd2": 46.5,
     "python2": 54.5,
@@ -35715,7 +36711,7 @@ const data = [
     "sem3marks": 6.125,
     "sem3spi2": 12.25,
     "totalSum": 24.68,
-    "total": 303.0,
+    "total": 318.0,
     "coa2": 19.0,
     "toc2": 21.0,
     "fsd22": 16.5,
@@ -35726,7 +36722,8 @@ const data = [
     "fsd23": 15.0,
     "python23": 18.5,
     "sem3spi": 7.21,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 30.0
   },
   {
     "roll": 53,
@@ -35742,7 +36739,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 88.0,
-    "coa": 60.0,
+    "coa": 81.5,
     "fsd-ii": 0,
     "fsd2": 54.0,
     "python2": 59.5,
@@ -35752,7 +36749,7 @@ const data = [
     "sem3marks": 7.4,
     "sem3spi2": 14.8,
     "totalSum": 31.5,
-    "total": 320.0,
+    "total": 341.5,
     "coa2": 17.5,
     "toc2": 17.5,
     "fsd22": 16.0,
@@ -35763,7 +36760,8 @@ const data = [
     "fsd23": 17.0,
     "python23": 18.0,
     "sem3spi": 9.04,
-    "dm4": 46.0
+    "dm4": 46.0,
+    "coa4": 43.0
   },
   {
     "roll": 28,
@@ -35779,7 +36777,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 83.0,
-    "coa": 69.5,
+    "coa": 89.75,
     "fsd-ii": 0,
     "fsd2": 62.5,
     "python2": 70.0,
@@ -35789,7 +36787,7 @@ const data = [
     "sem3marks": 8.375,
     "sem3spi2": 16.75,
     "totalSum": 33.47,
-    "total": 351.5,
+    "total": 371.75,
     "coa2": 22.0,
     "toc2": 22.0,
     "fsd22": 20.5,
@@ -35800,7 +36798,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 23.5,
     "sem3spi": 9.58,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 40.5
   },
   {
     "roll": 19,
@@ -35816,7 +36815,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 70.75,
-    "coa": 54.0,
+    "coa": 69.5,
     "fsd-ii": 0,
     "fsd2": 65.5,
     "python2": 67.5,
@@ -35826,7 +36825,7 @@ const data = [
     "sem3marks": 8.25,
     "sem3spi2": 16.5,
     "totalSum": 34.16,
-    "total": 320.75,
+    "total": 336.25,
     "coa2": 17.5,
     "toc2": 19.0,
     "fsd22": 20.0,
@@ -35837,7 +36836,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 21.0,
     "sem3spi": 9.58,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 31.0
   },
   {
     "roll": 48,
@@ -35853,7 +36853,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 92.25,
-    "coa": 67.0,
+    "coa": 87.5,
     "fsd-ii": 0,
     "fsd2": 67.0,
     "python2": 60.5,
@@ -35863,7 +36863,7 @@ const data = [
     "sem3marks": 7.75,
     "sem3spi2": 15.5,
     "totalSum": 31.96,
-    "total": 353.75,
+    "total": 374.25,
     "coa2": 22.5,
     "toc2": 23.0,
     "fsd22": 21.5,
@@ -35874,7 +36874,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 18.5,
     "sem3spi": 9.08,
-    "dm4": 44.5
+    "dm4": 44.5,
+    "coa4": 41.0
   },
   {
     "roll": 228,
@@ -35890,7 +36891,7 @@ const data = [
     "dept": "SY1",
     "etc": 92,
     "dm": 60.25,
-    "coa": 44.5,
+    "coa": 60.5,
     "fsd-ii": 0,
     "fsd2": 44.0,
     "python2": 40.5,
@@ -35900,7 +36901,7 @@ const data = [
     "sem3marks": 5.6,
     "sem3spi2": 11.2,
     "totalSum": 22.85,
-    "total": 234.75,
+    "total": 250.75,
     "coa2": 14.5,
     "toc2": 15.5,
     "fsd22": 14.0,
@@ -35911,7 +36912,8 @@ const data = [
     "fsd23": 15.0,
     "python23": 14.0,
     "sem3spi": 7.08,
-    "dm4": 33.5
+    "dm4": 33.5,
+    "coa4": 32.0
   },
   {
     "roll": 213,
@@ -35927,7 +36929,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 55.0,
-    "coa": 31.0,
+    "coa": 43.25,
     "fsd-ii": 0,
     "fsd2": 41.5,
     "python2": 32.0,
@@ -35937,7 +36939,7 @@ const data = [
     "sem3marks": 5.45,
     "sem3spi2": 10.9,
     "totalSum": 23.81,
-    "total": 197.5,
+    "total": 209.75,
     "coa2": 9.0,
     "toc2": 16.5,
     "fsd22": 13.0,
@@ -35948,7 +36950,8 @@ const data = [
     "fsd23": 11.5,
     "python23": 6.0,
     "sem3spi": 7.08,
-    "dm4": 28.0
+    "dm4": 28.0,
+    "coa4": 24.5
   },
   {
     "roll": 103,
@@ -35964,7 +36967,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 75.5,
-    "coa": 55.5,
+    "coa": 63.0,
     "fsd-ii": 0,
     "fsd2": 55.0,
     "python2": 52.5,
@@ -35974,7 +36977,7 @@ const data = [
     "sem3marks": 6.825,
     "sem3spi2": 13.65,
     "totalSum": 28.93,
-    "total": 288.5,
+    "total": 296.0,
     "coa2": 16.0,
     "toc2": 17.5,
     "fsd22": 15.5,
@@ -35985,7 +36988,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 16.0,
     "sem3spi": 8.58,
-    "dm4": 32.0
+    "dm4": 32.0,
+    "coa4": 15.0
   },
   {
     "roll": 209,
@@ -36001,7 +37005,7 @@ const data = [
     "dept": "SY1",
     "etc": 90,
     "dm": 64.75,
-    "coa": 47.0,
+    "coa": 57.5,
     "fsd-ii": 0,
     "fsd2": 52.5,
     "python2": 52.0,
@@ -36011,7 +37015,7 @@ const data = [
     "sem3marks": 5.7,
     "sem3spi2": 11.4,
     "totalSum": 23.93,
-    "total": 267.25,
+    "total": 277.75,
     "coa2": 18.0,
     "toc2": 20.0,
     "fsd22": 14.5,
@@ -36022,7 +37026,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 16.0,
     "sem3spi": 7.29,
-    "dm4": 34.5
+    "dm4": 34.5,
+    "coa4": 21.0
   },
   {
     "roll": 16,
@@ -36038,7 +37043,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 92.0,
-    "coa": 63.5,
+    "coa": 85.0,
     "fsd-ii": 0,
     "fsd2": 63.5,
     "python2": 73.0,
@@ -36048,7 +37053,7 @@ const data = [
     "sem3marks": 8.625,
     "sem3spi2": 17.25,
     "totalSum": 34.3,
-    "total": 361.0,
+    "total": 382.5,
     "coa2": 21.5,
     "toc2": 24.0,
     "fsd22": 18.5,
@@ -36059,7 +37064,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 24.5,
     "sem3spi": 9.54,
-    "dm4": 50.0
+    "dm4": 50.0,
+    "coa4": 43.0
   },
   {
     "roll": 191,
@@ -36075,7 +37081,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 66.75,
-    "coa": 45.0,
+    "coa": 53.5,
     "fsd-ii": 0,
     "fsd2": 46.0,
     "python2": 52.5,
@@ -36085,7 +37091,7 @@ const data = [
     "sem3marks": 6.075,
     "sem3spi2": 12.15,
     "totalSum": 25.01,
-    "total": 267.25,
+    "total": 275.75,
     "coa2": 10.0,
     "toc2": 19.0,
     "fsd22": 16.5,
@@ -36096,7 +37102,8 @@ const data = [
     "fsd23": 16.5,
     "python23": 16.0,
     "sem3spi": 7.67,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 17.0
   },
   {
     "roll": 177,
@@ -36112,7 +37119,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 78.0,
-    "coa": 55.5,
+    "coa": 67.5,
     "fsd-ii": 0,
     "fsd2": 56.5,
     "python2": 55.0,
@@ -36122,7 +37129,7 @@ const data = [
     "sem3marks": 6.175,
     "sem3spi2": 12.35,
     "totalSum": 26.06,
-    "total": 304.0,
+    "total": 316.0,
     "coa2": 15.5,
     "toc2": 15.5,
     "fsd22": 12.0,
@@ -36133,7 +37140,8 @@ const data = [
     "fsd23": 21.5,
     "python23": 16.0,
     "sem3spi": 7.79,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 24.0
   },
   {
     "roll": 71,
@@ -36149,7 +37157,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 71.25,
-    "coa": 58.0,
+    "coa": 72.5,
     "fsd-ii": 0,
     "fsd2": 51.5,
     "python2": 66.0,
@@ -36159,7 +37167,7 @@ const data = [
     "sem3marks": 7.35,
     "sem3spi2": 14.7,
     "totalSum": 30.86,
-    "total": 303.25,
+    "total": 317.75,
     "coa2": 15.0,
     "toc2": 18.0,
     "fsd22": 15.0,
@@ -36170,7 +37178,8 @@ const data = [
     "fsd23": 16.5,
     "python23": 22.0,
     "sem3spi": 8.42,
-    "dm4": 39.5
+    "dm4": 39.5,
+    "coa4": 29.0
   },
   {
     "roll": 46,
@@ -36186,7 +37195,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 82.25,
-    "coa": 63.5,
+    "coa": 81.25,
     "fsd-ii": 0,
     "fsd2": 40.0,
     "python2": 53.5,
@@ -36196,7 +37205,7 @@ const data = [
     "sem3marks": 7.875,
     "sem3spi2": 15.75,
     "totalSum": 32.03,
-    "total": 303.25,
+    "total": 321.0,
     "coa2": 21.5,
     "toc2": 21.5,
     "fsd22": 0.0,
@@ -36207,7 +37216,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 15.0,
     "sem3spi": 9.42,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 35.5
   },
   {
     "roll": 291,
@@ -36244,7 +37254,8 @@ const data = [
     "fsd23": 0.0,
     "python23": 2.0,
     "sem3spi": 5.19,
-    "dm4": 0.0
+    "dm4": 0.0,
+    "coa4": 0.0
   },
   {
     "roll": 182,
@@ -36260,7 +37271,7 @@ const data = [
     "dept": "SY1",
     "etc": 92,
     "dm": 69.0,
-    "coa": 37.0,
+    "coa": 47.25,
     "fsd-ii": 0,
     "fsd2": 54.5,
     "python2": 56.0,
@@ -36270,7 +37281,7 @@ const data = [
     "sem3marks": 6.45,
     "sem3spi2": 12.9,
     "totalSum": 25.69,
-    "total": 262.0,
+    "total": 272.25,
     "coa2": 12.0,
     "toc2": 18.0,
     "fsd22": 15.5,
@@ -36281,7 +37292,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 17.0,
     "sem3spi": 8.04,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 20.5
   },
   {
     "roll": 51,
@@ -36297,7 +37309,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 87.5,
-    "coa": 60.5,
+    "coa": 78.5,
     "fsd-ii": 0,
     "fsd2": 65.5,
     "python2": 69.5,
@@ -36307,7 +37319,7 @@ const data = [
     "sem3marks": 8.05,
     "sem3spi2": 16.1,
     "totalSum": 31.9,
-    "total": 345.5,
+    "total": 363.5,
     "coa2": 20.0,
     "toc2": 17.5,
     "fsd22": 21.0,
@@ -36318,7 +37330,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 25.0,
     "sem3spi": 9.29,
-    "dm4": 46.0
+    "dm4": 46.0,
+    "coa4": 36.0
   },
   {
     "roll": 204,
@@ -36334,7 +37347,7 @@ const data = [
     "dept": "SY1",
     "etc": 86,
     "dm": 63.0,
-    "coa": 53.0,
+    "coa": 61.75,
     "fsd-ii": 0,
     "fsd2": 42.5,
     "python2": 49.5,
@@ -36344,7 +37357,7 @@ const data = [
     "sem3marks": 5.8,
     "sem3spi2": 11.6,
     "totalSum": 24.25,
-    "total": 245.0,
+    "total": 253.75,
     "coa2": 17.5,
     "toc2": 16.0,
     "fsd22": 10.5,
@@ -36355,7 +37368,8 @@ const data = [
     "fsd23": 16.0,
     "python23": 17.0,
     "sem3spi": 7.5,
-    "dm4": 28.0
+    "dm4": 28.0,
+    "coa4": 17.5
   },
   {
     "roll": 241,
@@ -36371,7 +37385,7 @@ const data = [
     "dept": "SY1",
     "etc": 84,
     "dm": 70.25,
-    "coa": 63.5,
+    "coa": 76.5,
     "fsd-ii": 0,
     "fsd2": 29.5,
     "python2": 39.5,
@@ -36381,7 +37395,7 @@ const data = [
     "sem3marks": 5.35,
     "sem3spi2": 10.7,
     "totalSum": 21.28,
-    "total": 257.75,
+    "total": 270.75,
     "coa2": 18.5,
     "toc2": 20.0,
     "fsd22": 8.5,
@@ -36392,7 +37406,8 @@ const data = [
     "fsd23": 15.0,
     "python23": 14.0,
     "sem3spi": 5.75,
-    "dm4": 34.5
+    "dm4": 34.5,
+    "coa4": 26.0
   },
   {
     "roll": 83,
@@ -36408,7 +37423,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 81.25,
-    "coa": 52.5,
+    "coa": 66.75,
     "fsd-ii": 0,
     "fsd2": 62.0,
     "python2": 59.5,
@@ -36418,7 +37433,7 @@ const data = [
     "sem3marks": 7.175,
     "sem3spi2": 14.35,
     "totalSum": 29.99,
-    "total": 312.75,
+    "total": 327.0,
     "coa2": 16.5,
     "toc2": 20.5,
     "fsd22": 18.5,
@@ -36429,7 +37444,8 @@ const data = [
     "fsd23": 21.5,
     "python23": 19.0,
     "sem3spi": 8.83,
-    "dm4": 42.5
+    "dm4": 42.5,
+    "coa4": 28.5
   },
   {
     "roll": 33,
@@ -36445,7 +37461,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 83.0,
-    "coa": 60.0,
+    "coa": 80.75,
     "fsd-ii": 0,
     "fsd2": 67.5,
     "python2": 67.5,
@@ -36455,7 +37471,7 @@ const data = [
     "sem3marks": 8.525,
     "sem3spi2": 17.05,
     "totalSum": 33,
-    "total": 345.0,
+    "total": 365.75,
     "coa2": 17.5,
     "toc2": 20.5,
     "fsd22": 22.0,
@@ -36466,7 +37482,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 24.0,
     "sem3spi": 9.29,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 41.5
   },
   {
     "roll": 136,
@@ -36482,7 +37499,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 85.5,
-    "coa": 60.5,
+    "coa": 76.0,
     "fsd-ii": 0,
     "fsd2": 61.5,
     "python2": 58.5,
@@ -36492,7 +37509,7 @@ const data = [
     "sem3marks": 6.6,
     "sem3spi2": 13.2,
     "totalSum": 27.67,
-    "total": 323.5,
+    "total": 339.0,
     "coa2": 18.5,
     "toc2": 23.0,
     "fsd22": 20.5,
@@ -36503,7 +37520,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 21.0,
     "sem3spi": 7.96,
-    "dm4": 45.0
+    "dm4": 45.0,
+    "coa4": 31.0
   },
   {
     "roll": 183,
@@ -36519,7 +37537,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 72.0,
-    "coa": 50.5,
+    "coa": 61.5,
     "fsd-ii": 0,
     "fsd2": 64.0,
     "python2": 59.5,
@@ -36529,7 +37547,7 @@ const data = [
     "sem3marks": 6.275,
     "sem3spi2": 12.55,
     "totalSum": 25.6,
-    "total": 290.0,
+    "total": 301.0,
     "coa2": 13.0,
     "toc2": 12.0,
     "fsd22": 19.0,
@@ -36540,7 +37558,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 18.0,
     "sem3spi": 7.21,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 22.0
   },
   {
     "roll": 128,
@@ -36556,7 +37575,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 76.25,
-    "coa": 62.0,
+    "coa": 78.5,
     "fsd-ii": 0,
     "fsd2": 65.0,
     "python2": 58.0,
@@ -36566,7 +37585,7 @@ const data = [
     "sem3marks": 6.55,
     "sem3spi2": 13.1,
     "totalSum": 28.08,
-    "total": 313.25,
+    "total": 329.75,
     "coa2": 18.5,
     "toc2": 19.5,
     "fsd22": 20.0,
@@ -36577,7 +37596,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 18.0,
     "sem3spi": 7.96,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 33.0
   },
   {
     "roll": 82,
@@ -36593,7 +37613,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 75.0,
-    "coa": 45.0,
+    "coa": 57.0,
     "fsd-ii": 0,
     "fsd2": 61.0,
     "python2": 63.0,
@@ -36603,7 +37623,7 @@ const data = [
     "sem3marks": 6.7,
     "sem3spi2": 13.4,
     "totalSum": 30.05,
-    "total": 288.0,
+    "total": 300.0,
     "coa2": 14.0,
     "toc2": 17.0,
     "fsd22": 19.5,
@@ -36614,7 +37634,8 @@ const data = [
     "fsd23": 21.5,
     "python23": 21.0,
     "sem3spi": 8.46,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 24.0
   },
   {
     "roll": 160,
@@ -36630,7 +37651,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 65.75,
-    "coa": 33.5,
+    "coa": 39.75,
     "fsd-ii": 0,
     "fsd2": 46.5,
     "python2": 50.0,
@@ -36640,7 +37661,7 @@ const data = [
     "sem3marks": 6.25,
     "sem3spi2": 12.5,
     "totalSum": 26.54,
-    "total": 245.25,
+    "total": 251.5,
     "coa2": 10.5,
     "toc2": 17.0,
     "fsd22": 13.0,
@@ -36651,7 +37672,8 @@ const data = [
     "fsd23": 14.5,
     "python23": 14.0,
     "sem3spi": 7.79,
-    "dm4": 40.5
+    "dm4": 40.5,
+    "coa4": 12.5
   },
   {
     "roll": 60,
@@ -36667,7 +37689,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 81.5,
-    "coa": 70.0,
+    "coa": 94.5,
     "fsd-ii": 0,
     "fsd2": 65.5,
     "python2": 64.0,
@@ -36677,7 +37699,7 @@ const data = [
     "sem3marks": 7.7,
     "sem3spi2": 15.4,
     "totalSum": 31.19,
-    "total": 348.0,
+    "total": 372.5,
     "coa2": 25.0,
     "toc2": 24.0,
     "fsd22": 21.0,
@@ -36688,7 +37710,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 25.0,
     "sem3spi": 8.42,
-    "dm4": 43.0
+    "dm4": 43.0,
+    "coa4": 49.0
   },
   {
     "roll": 284,
@@ -36704,7 +37727,7 @@ const data = [
     "dept": "SY1",
     "etc": 80,
     "dm": 45.75,
-    "coa": 20.5,
+    "coa": 29.75,
     "fsd-ii": 0,
     "fsd2": 15.5,
     "python2": 24.0,
@@ -36714,7 +37737,7 @@ const data = [
     "sem3marks": 4.025,
     "sem3spi2": 8.05,
     "totalSum": 17.37,
-    "total": 127.75,
+    "total": 137.0,
     "coa2": 9.0,
     "toc2": 11.0,
     "fsd22": 6.5,
@@ -36725,7 +37748,8 @@ const data = [
     "fsd23": 0.0,
     "python23": 0.0,
     "sem3spi": 5.29,
-    "dm4": 25.5
+    "dm4": 25.5,
+    "coa4": 18.5
   },
   {
     "roll": 271,
@@ -36741,7 +37765,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 51.0,
-    "coa": 46.0,
+    "coa": 56.75,
     "fsd-ii": 0,
     "fsd2": 44.0,
     "python2": 51.0,
@@ -36751,7 +37775,7 @@ const data = [
     "sem3marks": 4.925,
     "sem3spi2": 9.85,
     "totalSum": 19.23,
-    "total": 239.5,
+    "total": 250.25,
     "coa2": 18.0,
     "toc2": 17.5,
     "fsd22": 10.5,
@@ -36762,7 +37786,8 @@ const data = [
     "fsd23": 20.5,
     "python23": 17.0,
     "sem3spi": 6.42,
-    "dm4": 27.0
+    "dm4": 27.0,
+    "coa4": 21.5
   },
   {
     "roll": 36,
@@ -36778,7 +37803,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 92.0,
-    "coa": 66.5,
+    "coa": 89.5,
     "fsd-ii": 0,
     "fsd2": 71.5,
     "python2": 70.0,
@@ -36788,7 +37813,7 @@ const data = [
     "sem3marks": 7.625,
     "sem3spi2": 15.25,
     "totalSum": 32.91,
-    "total": 363.0,
+    "total": 386.0,
     "coa2": 21.5,
     "toc2": 22.5,
     "fsd22": 23.5,
@@ -36799,7 +37824,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 24.0,
     "sem3spi": 9.21,
-    "dm4": 46.0
+    "dm4": 46.0,
+    "coa4": 46.0
   },
   {
     "roll": 188,
@@ -36815,7 +37841,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 43.0,
-    "coa": 48.5,
+    "coa": 60.0,
     "fsd-ii": 0,
     "fsd2": 51.0,
     "python2": 52.5,
@@ -36825,7 +37851,7 @@ const data = [
     "sem3marks": 5.45,
     "sem3spi2": 10.9,
     "totalSum": 25.17,
-    "total": 243.5,
+    "total": 255.0,
     "coa2": 11.5,
     "toc2": 15.0,
     "fsd22": 16.0,
@@ -36836,7 +37862,8 @@ const data = [
     "fsd23": 17.0,
     "python23": 14.0,
     "sem3spi": 7.42,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 23.0
   },
   {
     "roll": 155,
@@ -36852,7 +37879,7 @@ const data = [
     "dept": "SY1",
     "etc": 84,
     "dm": 74.5,
-    "coa": 39.5,
+    "coa": 53.5,
     "fsd-ii": 0,
     "fsd2": 52.0,
     "python2": 55.5,
@@ -36862,7 +37889,7 @@ const data = [
     "sem3marks": 6.425,
     "sem3spi2": 12.85,
     "totalSum": 26.81,
-    "total": 269.5,
+    "total": 283.5,
     "coa2": 4.0,
     "toc2": 16.0,
     "fsd22": 13.0,
@@ -36873,7 +37900,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 15.0,
     "sem3spi": 7.92,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 28.0
   },
   {
     "roll": 288,
@@ -36889,7 +37917,7 @@ const data = [
     "dept": "SY1",
     "etc": 86,
     "dm": 56.0,
-    "coa": 33.5,
+    "coa": 39.75,
     "fsd-ii": 0,
     "fsd2": 29.0,
     "python2": 29.0,
@@ -36899,7 +37927,7 @@ const data = [
     "sem3marks": 3.55,
     "sem3spi2": 7.1,
     "totalSum": 17.09,
-    "total": 188.0,
+    "total": 194.25,
     "coa2": 9.5,
     "toc2": 13.0,
     "fsd22": 7.0,
@@ -36910,7 +37938,8 @@ const data = [
     "fsd23": 11.0,
     "python23": 10.0,
     "sem3spi": 5.58,
-    "dm4": 30.0
+    "dm4": 30.0,
+    "coa4": 12.5
   },
   {
     "roll": 157,
@@ -36926,7 +37955,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 75.5,
-    "coa": 64.5,
+    "coa": 80.75,
     "fsd-ii": 0,
     "fsd2": 59.0,
     "python2": 49.5,
@@ -36936,7 +37965,7 @@ const data = [
     "sem3marks": 6.35,
     "sem3spi2": 12.7,
     "totalSum": 26.67,
-    "total": 308.5,
+    "total": 324.75,
     "coa2": 20.5,
     "toc2": 20.5,
     "fsd22": 20.0,
@@ -36947,7 +37976,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 17.0,
     "sem3spi": 8.21,
-    "dm4": 35.0
+    "dm4": 35.0,
+    "coa4": 32.5
   },
   {
     "roll": 146,
@@ -36963,7 +37993,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 78.75,
-    "coa": 65.0,
+    "coa": 84.25,
     "fsd-ii": 0,
     "fsd2": 57.5,
     "python2": 55.5,
@@ -36973,7 +38003,7 @@ const data = [
     "sem3marks": 6.8,
     "sem3spi2": 13.6,
     "totalSum": 27.28,
-    "total": 319.75,
+    "total": 339.0,
     "coa2": 19.0,
     "toc2": 20.5,
     "fsd22": 16.5,
@@ -36984,7 +38014,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 18.5,
     "sem3spi": 8.21,
-    "dm4": 40.5
+    "dm4": 40.5,
+    "coa4": 38.5
   },
   {
     "roll": 281,
@@ -37000,7 +38031,7 @@ const data = [
     "dept": "SY1",
     "etc": 92,
     "dm": 55.75,
-    "coa": 45.5,
+    "coa": 52.25,
     "fsd-ii": 0,
     "fsd2": 42.0,
     "python2": 40.0,
@@ -37010,7 +38041,7 @@ const data = [
     "sem3marks": 3.725,
     "sem3spi2": 7.45,
     "totalSum": 18.09,
-    "total": 219.75,
+    "total": 226.5,
     "coa2": 12.5,
     "toc2": 16.5,
     "fsd22": 12.0,
@@ -37021,7 +38052,8 @@ const data = [
     "fsd23": 15.0,
     "python23": 12.0,
     "sem3spi": 5.63,
-    "dm4": 34.5
+    "dm4": 34.5,
+    "coa4": 13.5
   },
   {
     "roll": 165,
@@ -37037,7 +38069,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 66.5,
-    "coa": 51.0,
+    "coa": 62.5,
     "fsd-ii": 0,
     "fsd2": 54.5,
     "python2": 41.5,
@@ -37047,7 +38079,7 @@ const data = [
     "sem3marks": 5.975,
     "sem3spi2": 11.95,
     "totalSum": 26.4,
-    "total": 262.5,
+    "total": 274.0,
     "coa2": 13.5,
     "toc2": 17.0,
     "fsd22": 15.5,
@@ -37058,7 +38090,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 10.0,
     "sem3spi": 7.71,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 23.0
   },
   {
     "roll": 150,
@@ -37074,7 +38107,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 76.5,
-    "coa": 56.5,
+    "coa": 71.75,
     "fsd-ii": 0,
     "fsd2": 53.0,
     "python2": 36.0,
@@ -37084,7 +38117,7 @@ const data = [
     "sem3marks": 6.8,
     "sem3spi2": 13.6,
     "totalSum": 27.25,
-    "total": 281.0,
+    "total": 296.25,
     "coa2": 17.0,
     "toc2": 21.5,
     "fsd22": 12.5,
@@ -37095,7 +38128,8 @@ const data = [
     "fsd23": 21.5,
     "python23": 10.0,
     "sem3spi": 8.33,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 30.5
   },
   {
     "roll": 8,
@@ -37111,7 +38145,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 88.5,
-    "coa": 72.0,
+    "coa": 92.0,
     "fsd-ii": 0,
     "fsd2": 70.0,
     "python2": 68.5,
@@ -37121,7 +38155,7 @@ const data = [
     "sem3marks": 8.825,
     "sem3spi2": 17.65,
     "totalSum": 35.63,
-    "total": 368.0,
+    "total": 388.0,
     "coa2": 23.0,
     "toc2": 24.0,
     "fsd22": 22.5,
@@ -37132,7 +38166,8 @@ const data = [
     "fsd23": 24.5,
     "python23": 23.0,
     "sem3spi": 9.92,
-    "dm4": 46.0
+    "dm4": 46.0,
+    "coa4": 40.0
   },
   {
     "roll": 23,
@@ -37148,7 +38183,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 81.0,
-    "coa": 58.0,
+    "coa": 75.75,
     "fsd-ii": 0,
     "fsd2": 66.0,
     "python2": 67.0,
@@ -37158,7 +38193,7 @@ const data = [
     "sem3marks": 8.5,
     "sem3spi2": 17,
     "totalSum": 33.71,
-    "total": 334.5,
+    "total": 352.25,
     "coa2": 19.0,
     "toc2": 23.0,
     "fsd22": 21.5,
@@ -37169,7 +38204,8 @@ const data = [
     "fsd23": 24.5,
     "python23": 21.0,
     "sem3spi": 9.58,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 35.5
   },
   {
     "roll": 76,
@@ -37185,7 +38221,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 82.5,
-    "coa": 57.5,
+    "coa": 71.0,
     "fsd-ii": 0,
     "fsd2": 61.0,
     "python2": 54.5,
@@ -37195,7 +38231,7 @@ const data = [
     "sem3marks": 7.575,
     "sem3spi2": 15.15,
     "totalSum": 30.56,
-    "total": 314.5,
+    "total": 328.0,
     "coa2": 15.0,
     "toc2": 23.0,
     "fsd22": 21.0,
@@ -37206,7 +38242,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 18.0,
     "sem3spi": 8.88,
-    "dm4": 45.0
+    "dm4": 45.0,
+    "coa4": 27.0
   },
   {
     "roll": 266,
@@ -37222,7 +38259,7 @@ const data = [
     "dept": "SY1",
     "etc": 86,
     "dm": 43.25,
-    "coa": 34.5,
+    "coa": 42.25,
     "fsd-ii": 0,
     "fsd2": 35.0,
     "python2": 31.0,
@@ -37232,7 +38269,7 @@ const data = [
     "sem3marks": 4.8,
     "sem3spi2": 9.6,
     "totalSum": 19.69,
-    "total": 176.75,
+    "total": 184.5,
     "coa2": 9.0,
     "toc2": 11.0,
     "fsd22": 7.5,
@@ -37243,7 +38280,8 @@ const data = [
     "fsd23": 10.5,
     "python23": 9.0,
     "sem3spi": 4.67,
-    "dm4": 18.5
+    "dm4": 18.5,
+    "coa4": 15.5
   },
   {
     "roll": 91,
@@ -37259,7 +38297,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 84.0,
-    "coa": 54.0,
+    "coa": 69.25,
     "fsd-ii": 0,
     "fsd2": 61.0,
     "python2": 50.5,
@@ -37269,7 +38307,7 @@ const data = [
     "sem3marks": 7.275,
     "sem3spi2": 14.55,
     "totalSum": 29.41,
-    "total": 306.0,
+    "total": 321.25,
     "coa2": 18.0,
     "toc2": 22.5,
     "fsd22": 20.0,
@@ -37280,7 +38318,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 17.0,
     "sem3spi": 8.46,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 30.5
   },
   {
     "roll": 220,
@@ -37296,7 +38335,7 @@ const data = [
     "dept": "SY1",
     "etc": 90,
     "dm": 48.0,
-    "coa": 37.5,
+    "coa": 46.25,
     "fsd-ii": 0,
     "fsd2": 60.0,
     "python2": 49.5,
@@ -37306,7 +38345,7 @@ const data = [
     "sem3marks": 5.5,
     "sem3spi2": 11,
     "totalSum": 23.43,
-    "total": 235.5,
+    "total": 244.25,
     "coa2": 7.0,
     "toc2": 9.0,
     "fsd22": 18.0,
@@ -37317,7 +38356,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 16.0,
     "sem3spi": 7.25,
-    "dm4": 23.0
+    "dm4": 23.0,
+    "coa4": 17.5
   },
   {
     "roll": 20,
@@ -37333,7 +38373,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 85.0,
-    "coa": 62.0,
+    "coa": 80.25,
     "fsd-ii": 0,
     "fsd2": 68.0,
     "python2": 68.5,
@@ -37343,7 +38383,7 @@ const data = [
     "sem3marks": 8.075,
     "sem3spi2": 16.15,
     "totalSum": 33.93,
-    "total": 350.5,
+    "total": 368.75,
     "coa2": 20.0,
     "toc2": 22.0,
     "fsd22": 21.5,
@@ -37354,7 +38394,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 23.0,
     "sem3spi": 9.29,
-    "dm4": 46.0
+    "dm4": 46.0,
+    "coa4": 36.5
   },
   {
     "roll": 111,
@@ -37370,7 +38411,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 79.0,
-    "coa": 64.0,
+    "coa": 81.5,
     "fsd-ii": 0,
     "fsd2": 62.5,
     "python2": 45.0,
@@ -37380,7 +38421,7 @@ const data = [
     "sem3marks": 6.925,
     "sem3spi2": 13.85,
     "totalSum": 28.65,
-    "total": 306.5,
+    "total": 324.0,
     "coa2": 21.0,
     "toc2": 21.0,
     "fsd22": 21.5,
@@ -37391,7 +38432,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 14.0,
     "sem3spi": 8.46,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 35.0
   },
   {
     "roll": 74,
@@ -37407,7 +38449,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 76.0,
-    "coa": 63.5,
+    "coa": 76.0,
     "fsd-ii": 0,
     "fsd2": 67.0,
     "python2": 55.0,
@@ -37417,7 +38459,7 @@ const data = [
     "sem3marks": 7.425,
     "sem3spi2": 14.85,
     "totalSum": 30.62,
-    "total": 307.0,
+    "total": 319.5,
     "coa2": 22.5,
     "toc2": 15.0,
     "fsd22": 21.0,
@@ -37428,7 +38470,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 17.0,
     "sem3spi": 8.83,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 25.0
   },
   {
     "roll": 253,
@@ -37444,7 +38487,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 58.5,
-    "coa": 38.5,
+    "coa": 47.0,
     "fsd-ii": 0,
     "fsd2": 44.0,
     "python2": 44.0,
@@ -37454,7 +38497,7 @@ const data = [
     "sem3marks": 4.45,
     "sem3spi2": 8.9,
     "totalSum": 20.45,
-    "total": 224.5,
+    "total": 233.0,
     "coa2": 14.5,
     "toc2": 10.5,
     "fsd22": 15.0,
@@ -37465,7 +38508,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 17.0,
     "sem3spi": 6.21,
-    "dm4": 28.0
+    "dm4": 28.0,
+    "coa4": 17.0
   },
   {
     "roll": 41,
@@ -37481,7 +38525,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 90.75,
-    "coa": 65.5,
+    "coa": 86.5,
     "fsd-ii": 0,
     "fsd2": 54.0,
     "python2": 55.5,
@@ -37491,7 +38535,7 @@ const data = [
     "sem3marks": 7.925,
     "sem3spi2": 15.85,
     "totalSum": 32.32,
-    "total": 329.75,
+    "total": 350.75,
     "coa2": 18.5,
     "toc2": 20.0,
     "fsd22": 15.0,
@@ -37502,7 +38546,8 @@ const data = [
     "fsd23": 17.0,
     "python23": 19.0,
     "sem3spi": 9.46,
-    "dm4": 46.5
+    "dm4": 46.5,
+    "coa4": 42.0
   },
   {
     "roll": 65,
@@ -37518,7 +38563,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 66.5,
-    "coa": 62.5,
+    "coa": 83.0,
     "fsd-ii": 0,
     "fsd2": 62.5,
     "python2": 60.0,
@@ -37528,7 +38573,7 @@ const data = [
     "sem3marks": 7.425,
     "sem3spi2": 14.85,
     "totalSum": 31.01,
-    "total": 315.0,
+    "total": 335.5,
     "coa2": 18.5,
     "toc2": 18.5,
     "fsd22": 19.0,
@@ -37539,7 +38584,8 @@ const data = [
     "fsd23": 20.5,
     "python23": 19.0,
     "sem3spi": 9.04,
-    "dm4": 42.0
+    "dm4": 42.0,
+    "coa4": 41.0
   },
   {
     "roll": 86,
@@ -37555,7 +38601,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 71.75,
-    "coa": 37.5,
+    "coa": 48.75,
     "fsd-ii": 0,
     "fsd2": 65.5,
     "python2": 62.0,
@@ -37565,7 +38611,7 @@ const data = [
     "sem3marks": 7.475,
     "sem3spi2": 14.95,
     "totalSum": 29.7,
-    "total": 284.75,
+    "total": 296.0,
     "coa2": 6.5,
     "toc2": 20.0,
     "fsd22": 23.5,
@@ -37576,7 +38622,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 18.0,
     "sem3spi": 8.79,
-    "dm4": 27.5
+    "dm4": 27.5,
+    "coa4": 22.5
   },
   {
     "roll": 208,
@@ -37592,7 +38639,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 75.0,
-    "coa": 50.5,
+    "coa": 62.0,
     "fsd-ii": 0,
     "fsd2": 57.0,
     "python2": 57.5,
@@ -37602,7 +38649,7 @@ const data = [
     "sem3marks": 5.875,
     "sem3spi2": 11.75,
     "totalSum": 24.04,
-    "total": 291.5,
+    "total": 303.0,
     "coa2": 14.5,
     "toc2": 17.0,
     "fsd22": 17.5,
@@ -37613,7 +38660,8 @@ const data = [
     "fsd23": 20.5,
     "python23": 15.0,
     "sem3spi": 7.46,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 23.0
   },
   {
     "roll": 154,
@@ -37629,7 +38677,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 74.75,
-    "coa": 41.0,
+    "coa": 53.25,
     "fsd-ii": 0,
     "fsd2": 52.0,
     "python2": 40.5,
@@ -37639,7 +38687,7 @@ const data = [
     "sem3marks": 6.3,
     "sem3spi2": 12.6,
     "totalSum": 26.87,
-    "total": 272.25,
+    "total": 284.5,
     "coa2": 11.5,
     "toc2": 24.0,
     "fsd22": 13.0,
@@ -37650,7 +38698,8 @@ const data = [
     "fsd23": 17.0,
     "python23": 12.0,
     "sem3spi": 7.58,
-    "dm4": 39.5
+    "dm4": 39.5,
+    "coa4": 24.5
   },
   {
     "roll": 64,
@@ -37666,7 +38715,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 85.0,
-    "coa": 71.5,
+    "coa": 88.0,
     "fsd-ii": 0,
     "fsd2": 58.0,
     "python2": 55.0,
@@ -37676,7 +38725,7 @@ const data = [
     "sem3marks": 7.625,
     "sem3spi2": 15.25,
     "totalSum": 31.06,
-    "total": 332.0,
+    "total": 348.5,
     "coa2": 22.5,
     "toc2": 19.5,
     "fsd22": 16.0,
@@ -37687,7 +38736,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 16.0,
     "sem3spi": 8.96,
-    "dm4": 43.0
+    "dm4": 43.0,
+    "coa4": 33.0
   },
   {
     "roll": 13,
@@ -37703,7 +38753,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 86.5,
-    "coa": 67.5,
+    "coa": 85.5,
     "fsd-ii": 0,
     "fsd2": 61.5,
     "python2": 66.5,
@@ -37713,7 +38763,7 @@ const data = [
     "sem3marks": 8.6,
     "sem3spi2": 17.2,
     "totalSum": 34.5,
-    "total": 344.5,
+    "total": 362.5,
     "coa2": 23.0,
     "toc2": 19.5,
     "fsd22": 19.0,
@@ -37724,7 +38774,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 22.0,
     "sem3spi": 9.71,
-    "dm4": 43.0
+    "dm4": 43.0,
+    "coa4": 36.0
   },
   {
     "roll": 254,
@@ -37740,7 +38791,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 58.25,
-    "coa": 29.5,
+    "coa": 35.5,
     "fsd-ii": 0,
     "fsd2": 35.0,
     "python2": 32.5,
@@ -37750,7 +38801,7 @@ const data = [
     "sem3marks": 4.275,
     "sem3spi2": 8.55,
     "totalSum": 20.25,
-    "total": 199.25,
+    "total": 205.25,
     "coa2": 9.5,
     "toc2": 14.0,
     "fsd22": 9.0,
@@ -37761,7 +38812,8 @@ const data = [
     "fsd23": 11.0,
     "python23": 8.0,
     "sem3spi": 6.54,
-    "dm4": 35.5
+    "dm4": 35.5,
+    "coa4": 12.0
   },
   {
     "roll": 184,
@@ -37777,7 +38829,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 77.75,
-    "coa": 50.5,
+    "coa": 57.5,
     "fsd-ii": 0,
     "fsd2": 61.0,
     "python2": 58.5,
@@ -37787,7 +38839,7 @@ const data = [
     "sem3marks": 5.925,
     "sem3spi2": 11.85,
     "totalSum": 25.59,
-    "total": 291.25,
+    "total": 298.25,
     "coa2": 16.5,
     "toc2": 20.5,
     "fsd22": 20.0,
@@ -37798,7 +38850,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 16.0,
     "sem3spi": 7.71,
-    "dm4": 36.5
+    "dm4": 36.5,
+    "coa4": 14.0
   },
   {
     "roll": 12,
@@ -37814,7 +38867,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 90.75,
-    "coa": 69.0,
+    "coa": 88.5,
     "fsd-ii": 0,
     "fsd2": 63.0,
     "python2": 61.5,
@@ -37824,7 +38877,7 @@ const data = [
     "sem3marks": 8.6,
     "sem3spi2": 17.2,
     "totalSum": 34.5,
-    "total": 352.25,
+    "total": 371.75,
     "coa2": 23.0,
     "toc2": 24.0,
     "fsd22": 20.0,
@@ -37835,7 +38888,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 20.0,
     "sem3spi": 9.83,
-    "dm4": 43.5
+    "dm4": 43.5,
+    "coa4": 39.0
   },
   {
     "roll": 169,
@@ -37851,7 +38905,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 61.25,
-    "coa": 42.5,
+    "coa": 54.5,
     "fsd-ii": 0,
     "fsd2": 55.5,
     "python2": 41.0,
@@ -37861,7 +38915,7 @@ const data = [
     "sem3marks": 6.35,
     "sem3spi2": 12.7,
     "totalSum": 26.31,
-    "total": 246.25,
+    "total": 258.25,
     "coa2": 10.0,
     "toc2": 14.5,
     "fsd22": 16.5,
@@ -37872,7 +38926,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 11.0,
     "sem3spi": 7.79,
-    "dm4": 29.5
+    "dm4": 29.5,
+    "coa4": 24.0
   },
   {
     "roll": 215,
@@ -37888,7 +38943,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 63.5,
-    "coa": 48.5,
+    "coa": 57.5,
     "fsd-ii": 0,
     "fsd2": 43.5,
     "python2": 43.5,
@@ -37898,7 +38953,7 @@ const data = [
     "sem3marks": 5.2,
     "sem3spi2": 10.4,
     "totalSum": 23.7,
-    "total": 262.5,
+    "total": 271.5,
     "coa2": 14.0,
     "toc2": 20.5,
     "fsd22": 12.5,
@@ -37909,7 +38964,8 @@ const data = [
     "fsd23": 15.0,
     "python23": 13.0,
     "sem3spi": 7.0,
-    "dm4": 29.0
+    "dm4": 29.0,
+    "coa4": 18.0
   },
   {
     "roll": 137,
@@ -37925,7 +38981,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 80.25,
-    "coa": 57.5,
+    "coa": 74.0,
     "fsd-ii": 0,
     "fsd2": 51.5,
     "python2": 44.0,
@@ -37935,7 +38991,7 @@ const data = [
     "sem3marks": 7,
     "sem3spi2": 14,
     "totalSum": 27.63,
-    "total": 290.25,
+    "total": 306.75,
     "coa2": 17.5,
     "toc2": 18.0,
     "fsd22": 14.0,
@@ -37946,7 +39002,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 10.5,
     "sem3spi": 8.29,
-    "dm4": 41.5
+    "dm4": 41.5,
+    "coa4": 33.0
   },
   {
     "roll": 229,
@@ -37962,7 +39019,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 51.5,
-    "coa": 55.0,
+    "coa": 63.5,
     "fsd-ii": 0,
     "fsd2": 44.5,
     "python2": 32.0,
@@ -37972,7 +39029,7 @@ const data = [
     "sem3marks": 5.2,
     "sem3spi2": 10.4,
     "totalSum": 22.63,
-    "total": 230.0,
+    "total": 238.5,
     "coa2": 21.5,
     "toc2": 18.5,
     "fsd22": 16.0,
@@ -37983,7 +39040,8 @@ const data = [
     "fsd23": 17.0,
     "python23": 7.0,
     "sem3spi": 6.42,
-    "dm4": 32.0
+    "dm4": 32.0,
+    "coa4": 17.0
   },
   {
     "roll": 227,
@@ -37999,7 +39057,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 57.75,
-    "coa": 43.0,
+    "coa": 49.75,
     "fsd-ii": 0,
     "fsd2": 27.5,
     "python2": 33.5,
@@ -38009,7 +39067,7 @@ const data = [
     "sem3marks": 5.625,
     "sem3spi2": 11.25,
     "totalSum": 22.91,
-    "total": 217.75,
+    "total": 224.5,
     "coa2": 14.0,
     "toc2": 20.5,
     "fsd22": 9.0,
@@ -38020,7 +39078,8 @@ const data = [
     "fsd23": 9.0,
     "python23": 9.0,
     "sem3spi": 7.13,
-    "dm4": 25.5
+    "dm4": 25.5,
+    "coa4": 13.5
   },
   {
     "roll": 54,
@@ -38036,7 +39095,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 42.0,
-    "coa": 21.0,
+    "coa": 43.5,
     "fsd-ii": 0,
     "fsd2": 24.0,
     "python2": 18.0,
@@ -38046,7 +39105,7 @@ const data = [
     "sem3marks": 7.525,
     "sem3spi2": 15.05,
     "totalSum": 31.48,
-    "total": 126.0,
+    "total": 148.5,
     "coa2": 0.0,
     "toc2": 0.0,
     "fsd22": 0.0,
@@ -38057,7 +39116,8 @@ const data = [
     "fsd23": 0.0,
     "python23": 0.0,
     "sem3spi": 8.96,
-    "dm4": 44.0
+    "dm4": 44.0,
+    "coa4": 45.0
   },
   {
     "roll": 240,
@@ -38073,7 +39133,7 @@ const data = [
     "dept": "SY1",
     "etc": 90,
     "dm": 57.75,
-    "coa": 53.0,
+    "coa": 62.5,
     "fsd-ii": 0,
     "fsd2": 36.5,
     "python2": 28.5,
@@ -38083,7 +39143,7 @@ const data = [
     "sem3marks": 4.775,
     "sem3spi2": 9.55,
     "totalSum": 21.38,
-    "total": 223.25,
+    "total": 232.75,
     "coa2": 14.5,
     "toc2": 11.5,
     "fsd22": 6.0,
@@ -38094,7 +39154,8 @@ const data = [
     "fsd23": 13.0,
     "python23": 10.5,
     "sem3spi": 6.63,
-    "dm4": 33.5
+    "dm4": 33.5,
+    "coa4": 19.0
   },
   {
     "roll": 238,
@@ -38110,7 +39171,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 66.75,
-    "coa": 59.5,
+    "coa": 76.25,
     "fsd-ii": 0,
     "fsd2": 46.0,
     "python2": 37.5,
@@ -38120,7 +39181,7 @@ const data = [
     "sem3marks": 5.25,
     "sem3spi2": 10.5,
     "totalSum": 21.44,
-    "total": 263.75,
+    "total": 280.5,
     "coa2": 21.0,
     "toc2": 19.0,
     "fsd22": 12.0,
@@ -38131,7 +39192,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 12.0,
     "sem3spi": 6.88,
-    "dm4": 43.5
+    "dm4": 43.5,
+    "coa4": 33.5
   },
   {
     "roll": 105,
@@ -38147,7 +39209,7 @@ const data = [
     "dept": "SY1",
     "etc": 92,
     "dm": 79.0,
-    "coa": 51.0,
+    "coa": 71.0,
     "fsd-ii": 0,
     "fsd2": 56.0,
     "python2": 54.5,
@@ -38157,7 +39219,7 @@ const data = [
     "sem3marks": 7.525,
     "sem3spi2": 15.05,
     "totalSum": 28.82,
-    "total": 287.0,
+    "total": 307.0,
     "coa2": 15.0,
     "toc2": 15.0,
     "fsd22": 11.0,
@@ -38168,7 +39230,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 15.5,
     "sem3spi": 8.83,
-    "dm4": 45.0
+    "dm4": 45.0,
+    "coa4": 40.0
   },
   {
     "roll": 68,
@@ -38184,7 +39247,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 69.5,
-    "coa": 53.0,
+    "coa": 70.0,
     "fsd-ii": 0,
     "fsd2": 50.5,
     "python2": 45.5,
@@ -38194,7 +39257,7 @@ const data = [
     "sem3marks": 7.475,
     "sem3spi2": 14.95,
     "totalSum": 30.94,
-    "total": 269.5,
+    "total": 286.5,
     "coa2": 17.5,
     "toc2": 16.0,
     "fsd22": 17.0,
@@ -38205,7 +39268,8 @@ const data = [
     "fsd23": 16.0,
     "python23": 10.5,
     "sem3spi": 8.29,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 34.0
   },
   {
     "roll": 259,
@@ -38221,7 +39285,7 @@ const data = [
     "dept": "SY1",
     "etc": 90,
     "dm": 53.25,
-    "coa": 37.0,
+    "coa": 44.25,
     "fsd-ii": 0,
     "fsd2": 34.5,
     "python2": 30.5,
@@ -38231,7 +39295,7 @@ const data = [
     "sem3marks": 4.4,
     "sem3spi2": 8.8,
     "totalSum": 19.95,
-    "total": 189.75,
+    "total": 197.0,
     "coa2": 12.5,
     "toc2": 13.0,
     "fsd22": 8.0,
@@ -38242,7 +39306,8 @@ const data = [
     "fsd23": 17.5,
     "python23": 9.5,
     "sem3spi": 6.08,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 14.5
   },
   {
     "roll": 113,
@@ -38258,7 +39323,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 89.75,
-    "coa": 53.5,
+    "coa": 64.75,
     "fsd-ii": 0,
     "fsd2": 52.5,
     "python2": 43.5,
@@ -38268,7 +39333,7 @@ const data = [
     "sem3marks": 6.25,
     "sem3spi2": 12.5,
     "totalSum": 28.55,
-    "total": 286.75,
+    "total": 298.0,
     "coa2": 19.5,
     "toc2": 17.0,
     "fsd22": 15.0,
@@ -38279,7 +39344,8 @@ const data = [
     "fsd23": 17.0,
     "python23": 14.5,
     "sem3spi": 7.96,
-    "dm4": 44.5
+    "dm4": 44.5,
+    "coa4": 22.5
   },
   {
     "roll": 192,
@@ -38295,7 +39361,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 77.0,
-    "coa": 45.0,
+    "coa": 57.5,
     "fsd-ii": 0,
     "fsd2": 36.0,
     "python2": 50.5,
@@ -38305,7 +39371,7 @@ const data = [
     "sem3marks": 6.3,
     "sem3spi2": 12.6,
     "totalSum": 24.86,
-    "total": 252.0,
+    "total": 264.5,
     "coa2": 16.5,
     "toc2": 20.0,
     "fsd22": 9.5,
@@ -38316,7 +39382,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 18.0,
     "sem3spi": 7.96,
-    "dm4": 43.0
+    "dm4": 43.0,
+    "coa4": 25.0
   },
   {
     "roll": 24,
@@ -38332,7 +39399,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 82.75,
-    "coa": 66.0,
+    "coa": 85.25,
     "fsd-ii": 0,
     "fsd2": 68.0,
     "python2": 64.5,
@@ -38342,7 +39409,7 @@ const data = [
     "sem3marks": 8.1,
     "sem3spi2": 16.2,
     "totalSum": 33.69,
-    "total": 340.25,
+    "total": 359.5,
     "coa2": 20.0,
     "toc2": 23.0,
     "fsd22": 23.5,
@@ -38353,7 +39420,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 25.0,
     "sem3spi": 9.21,
-    "dm4": 40.5
+    "dm4": 40.5,
+    "coa4": 38.5
   },
   {
     "roll": 299,
@@ -38369,7 +39437,7 @@ const data = [
     "dept": "SY1",
     "etc": 90,
     "dm": 55.25,
-    "coa": 42.0,
+    "coa": 55.0,
     "fsd-ii": 0,
     "fsd2": 48.0,
     "python2": 46.0,
@@ -38379,7 +39447,7 @@ const data = [
     "sem3marks": 3.35,
     "sem3spi2": 6.7,
     "totalSum": 14.69,
-    "total": 229.75,
+    "total": 242.75,
     "coa2": 10.0,
     "toc2": 11.0,
     "fsd22": 12.0,
@@ -38390,7 +39458,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 11.5,
     "sem3spi": 5.33,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 26.0
   },
   {
     "roll": 10,
@@ -38406,7 +39475,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 92.25,
-    "coa": 64.5,
+    "coa": 84.25,
     "fsd-ii": 0,
     "fsd2": 66.5,
     "python2": 70.0,
@@ -38416,7 +39485,7 @@ const data = [
     "sem3marks": 8.825,
     "sem3spi2": 17.65,
     "totalSum": 35.44,
-    "total": 359.75,
+    "total": 379.5,
     "coa2": 23.5,
     "toc2": 22.0,
     "fsd22": 21.0,
@@ -38427,7 +39496,8 @@ const data = [
     "fsd23": 24.5,
     "python23": 24.5,
     "sem3spi": 9.71,
-    "dm4": 45.5
+    "dm4": 45.5,
+    "coa4": 39.5
   },
   {
     "roll": 34,
@@ -38443,7 +39513,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 80.75,
-    "coa": 61.5,
+    "coa": 78.5,
     "fsd-ii": 0,
     "fsd2": 70.0,
     "python2": 68.5,
@@ -38453,7 +39523,7 @@ const data = [
     "sem3marks": 8.525,
     "sem3spi2": 17.05,
     "totalSum": 33,
-    "total": 341.75,
+    "total": 358.75,
     "coa2": 20.5,
     "toc2": 23.5,
     "fsd22": 23.0,
@@ -38464,7 +39534,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 23.0,
     "sem3spi": 9.38,
-    "dm4": 43.5
+    "dm4": 43.5,
+    "coa4": 34.0
   },
   {
     "roll": 4,
@@ -38480,7 +39551,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 91.0,
-    "coa": 67.5,
+    "coa": 85.25,
     "fsd-ii": 0,
     "fsd2": 62.0,
     "python2": 70.0,
@@ -38490,7 +39561,7 @@ const data = [
     "sem3marks": 9,
     "sem3spi2": 18,
     "totalSum": 36.4,
-    "total": 359.5,
+    "total": 377.25,
     "coa2": 23.5,
     "toc2": 23.0,
     "fsd22": 19.0,
@@ -38501,7 +39572,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 25.0,
     "sem3spi": 9.88,
-    "dm4": 43.0
+    "dm4": 43.0,
+    "coa4": 35.5
   },
   {
     "roll": 108,
@@ -38517,7 +39589,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 86.75,
-    "coa": 68.0,
+    "coa": 83.25,
     "fsd-ii": 0,
     "fsd2": 63.5,
     "python2": 55.5,
@@ -38527,7 +39599,7 @@ const data = [
     "sem3marks": 6.9,
     "sem3spi2": 13.8,
     "totalSum": 28.79,
-    "total": 335.75,
+    "total": 351.0,
     "coa2": 22.0,
     "toc2": 21.5,
     "fsd22": 18.5,
@@ -38538,7 +39610,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 17.0,
     "sem3spi": 8.17,
-    "dm4": 47.5
+    "dm4": 47.5,
+    "coa4": 30.5
   },
   {
     "roll": 185,
@@ -38554,7 +39627,7 @@ const data = [
     "dept": "SY1",
     "etc": 80,
     "dm": 74.0,
-    "coa": 53.0,
+    "coa": 70.0,
     "fsd-ii": 0,
     "fsd2": 49.5,
     "python2": 51.0,
@@ -38564,7 +39637,7 @@ const data = [
     "sem3marks": 5.925,
     "sem3spi2": 11.85,
     "totalSum": 25.59,
-    "total": 282.0,
+    "total": 299.0,
     "coa2": 20.5,
     "toc2": 17.0,
     "fsd22": 13.0,
@@ -38575,7 +39648,8 @@ const data = [
     "fsd23": 20.5,
     "python23": 13.0,
     "sem3spi": 7.46,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 34.0
   },
   {
     "roll": 187,
@@ -38591,7 +39665,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 74.75,
-    "coa": 45.0,
+    "coa": 58.25,
     "fsd-ii": 0,
     "fsd2": 40.5,
     "python2": 49.5,
@@ -38601,7 +39675,7 @@ const data = [
     "sem3marks": 6.45,
     "sem3spi2": 12.9,
     "totalSum": 25.46,
-    "total": 260.75,
+    "total": 274.0,
     "coa2": 14.0,
     "toc2": 18.0,
     "fsd22": 11.0,
@@ -38612,7 +39686,8 @@ const data = [
     "fsd23": 16.0,
     "python23": 15.5,
     "sem3spi": 8.04,
-    "dm4": 34.5
+    "dm4": 34.5,
+    "coa4": 26.5
   },
   {
     "roll": 252,
@@ -38628,7 +39703,7 @@ const data = [
     "dept": "SY1",
     "etc": 88,
     "dm": 22.0,
-    "coa": 12.5,
+    "coa": 16.5,
     "fsd-ii": 0,
     "fsd2": 11.5,
     "python2": 13.5,
@@ -38638,7 +39713,7 @@ const data = [
     "sem3marks": 4.95,
     "sem3spi2": 9.9,
     "totalSum": 20.54,
-    "total": 74.0,
+    "total": 78.0,
     "coa2": 5.5,
     "toc2": 11.0,
     "fsd22": 6.5,
@@ -38649,7 +39724,8 @@ const data = [
     "fsd23": 0.0,
     "python23": 0.0,
     "sem3spi": 6.67,
-    "dm4": 0.0
+    "dm4": 0.0,
+    "coa4": 8.0
   },
   {
     "roll": 202,
@@ -38665,7 +39741,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 78.25,
-    "coa": 35.5,
+    "coa": 47.5,
     "fsd-ii": 0,
     "fsd2": 46.0,
     "python2": 56.0,
@@ -38675,7 +39751,7 @@ const data = [
     "sem3marks": 5.825,
     "sem3spi2": 11.65,
     "totalSum": 24.5,
-    "total": 260.25,
+    "total": 272.25,
     "coa2": 12.0,
     "toc2": 16.5,
     "fsd22": 16.0,
@@ -38686,7 +39762,8 @@ const data = [
     "fsd23": 21.5,
     "python23": 16.0,
     "sem3spi": 7.25,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 24.0
   },
   {
     "roll": 193,
@@ -38702,7 +39779,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 60.25,
-    "coa": 37.5,
+    "coa": 49.0,
     "fsd-ii": 0,
     "fsd2": 36.0,
     "python2": 47.0,
@@ -38712,7 +39789,7 @@ const data = [
     "sem3marks": 6.775,
     "sem3spi2": 13.55,
     "totalSum": 24.8,
-    "total": 231.25,
+    "total": 242.75,
     "coa2": 8.5,
     "toc2": 19.5,
     "fsd22": 12.0,
@@ -38723,7 +39800,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 14.5,
     "sem3spi": 8.25,
-    "dm4": 25.5
+    "dm4": 25.5,
+    "coa4": 23.0
   },
   {
     "roll": 149,
@@ -38739,7 +39817,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 62.5,
-    "coa": 52.0,
+    "coa": 68.5,
     "fsd-ii": 0,
     "fsd2": 44.5,
     "python2": 41.0,
@@ -38749,7 +39827,7 @@ const data = [
     "sem3marks": 6.45,
     "sem3spi2": 12.9,
     "totalSum": 27.25,
-    "total": 256.0,
+    "total": 272.5,
     "coa2": 21.0,
     "toc2": 20.0,
     "fsd22": 11.5,
@@ -38760,7 +39838,8 @@ const data = [
     "fsd23": 16.0,
     "python23": 11.0,
     "sem3spi": 8.13,
-    "dm4": 32.0
+    "dm4": 32.0,
+    "coa4": 33.0
   },
   {
     "roll": 138,
@@ -38776,7 +39855,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 80.0,
-    "coa": 40.0,
+    "coa": 51.25,
     "fsd-ii": 0,
     "fsd2": 46.5,
     "python2": 53.0,
@@ -38786,7 +39865,7 @@ const data = [
     "sem3marks": 7.25,
     "sem3spi2": 14.5,
     "totalSum": 27.61,
-    "total": 261.0,
+    "total": 272.25,
     "coa2": 11.0,
     "toc2": 15.0,
     "fsd22": 16.0,
@@ -38797,7 +39876,8 @@ const data = [
     "fsd23": 10.0,
     "python23": 15.0,
     "sem3spi": 8.21,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 22.5
   },
   {
     "roll": 35,
@@ -38813,7 +39893,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 80.0,
-    "coa": 66.0,
+    "coa": 83.5,
     "fsd-ii": 0,
     "fsd2": 53.0,
     "python2": 49.0,
@@ -38823,7 +39903,7 @@ const data = [
     "sem3marks": 8.175,
     "sem3spi2": 16.35,
     "totalSum": 32.94,
-    "total": 313.0,
+    "total": 330.5,
     "coa2": 22.0,
     "toc2": 22.5,
     "fsd22": 14.5,
@@ -38834,7 +39914,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 14.0,
     "sem3spi": 9.46,
-    "dm4": 43.0
+    "dm4": 43.0,
+    "coa4": 35.0
   },
   {
     "roll": 221,
@@ -38850,7 +39931,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 64.75,
-    "coa": 49.0,
+    "coa": 60.25,
     "fsd-ii": 0,
     "fsd2": 25.0,
     "python2": 35.0,
@@ -38860,7 +39941,7 @@ const data = [
     "sem3marks": 5.8,
     "sem3spi2": 11.6,
     "totalSum": 23.39,
-    "total": 229.75,
+    "total": 241.0,
     "coa2": 14.5,
     "toc2": 19.0,
     "fsd22": 9.0,
@@ -38871,7 +39952,8 @@ const data = [
     "fsd23": 8.5,
     "python23": 11.5,
     "sem3spi": 7.0,
-    "dm4": 34.5
+    "dm4": 34.5,
+    "coa4": 22.5
   },
   {
     "roll": 40,
@@ -38887,7 +39969,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 89.5,
-    "coa": 68.0,
+    "coa": 91.0,
     "fsd-ii": 0,
     "fsd2": 65.0,
     "python2": 64.0,
@@ -38897,7 +39979,7 @@ const data = [
     "sem3marks": 8.05,
     "sem3spi2": 16.1,
     "totalSum": 32.64,
-    "total": 355.5,
+    "total": 378.5,
     "coa2": 23.5,
     "toc2": 23.0,
     "fsd22": 19.5,
@@ -38908,7 +39990,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 22.5,
     "sem3spi": 9.13,
-    "dm4": 42.0
+    "dm4": 42.0,
+    "coa4": 46.0
   },
   {
     "roll": 300,
@@ -38924,7 +40007,7 @@ const data = [
     "dept": "SY1",
     "etc": 76,
     "dm": 50.0,
-    "coa": 38.0,
+    "coa": 48.0,
     "fsd-ii": 0,
     "fsd2": 16.0,
     "python2": 22.0,
@@ -38934,7 +40017,7 @@ const data = [
     "sem3marks": 3,
     "sem3spi2": 6,
     "totalSum": 13.6,
-    "total": 156.0,
+    "total": 166.0,
     "coa2": 9.5,
     "toc2": 9.5,
     "fsd22": 4.0,
@@ -38945,7 +40028,8 @@ const data = [
     "fsd23": 5.0,
     "python23": 8.0,
     "sem3spi": 7.55,
-    "dm4": 18.0
+    "dm4": 18.0,
+    "coa4": 20.0
   },
   {
     "roll": 29,
@@ -38961,7 +40045,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 58.25,
-    "coa": 22.5,
+    "coa": 38.25,
     "fsd-ii": 0,
     "fsd2": 21.0,
     "python2": 30.5,
@@ -38971,7 +40055,7 @@ const data = [
     "sem3marks": 8.075,
     "sem3spi2": 16.15,
     "totalSum": 33.38,
-    "total": 158.25,
+    "total": 174.0,
     "coa2": 13.5,
     "toc2": 12.5,
     "fsd22": 11.0,
@@ -38982,7 +40066,8 @@ const data = [
     "fsd23": 0.0,
     "python23": 0.0,
     "sem3spi": 9.29,
-    "dm4": 31.5
+    "dm4": 31.5,
+    "coa4": 31.5
   },
   {
     "roll": 61,
@@ -38998,7 +40083,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 85.0,
-    "coa": 72.0,
+    "coa": 94.0,
     "fsd-ii": 0,
     "fsd2": 67.5,
     "python2": 64.5,
@@ -39008,7 +40093,7 @@ const data = [
     "sem3marks": 7.875,
     "sem3spi2": 15.75,
     "totalSum": 31.11,
-    "total": 344.0,
+    "total": 366.0,
     "coa2": 25.0,
     "toc2": 19.0,
     "fsd22": 22.5,
@@ -39019,7 +40104,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 20.5,
     "sem3spi": 9.33,
-    "dm4": 43.0
+    "dm4": 43.0,
+    "coa4": 44.0
   },
   {
     "roll": 112,
@@ -39035,7 +40121,7 @@ const data = [
     "dept": "SY1",
     "etc": 92,
     "dm": 72.25,
-    "coa": 57.5,
+    "coa": 69.25,
     "fsd-ii": 0,
     "fsd2": 36.5,
     "python2": 41.0,
@@ -39045,7 +40131,7 @@ const data = [
     "sem3marks": 6.725,
     "sem3spi2": 13.45,
     "totalSum": 28.61,
-    "total": 254.25,
+    "total": 266.0,
     "coa2": 19.5,
     "toc2": 14.5,
     "fsd22": 9.0,
@@ -39056,7 +40142,8 @@ const data = [
     "fsd23": 14.5,
     "python23": 8.5,
     "sem3spi": 8.0,
-    "dm4": 31.5
+    "dm4": 31.5,
+    "coa4": 23.5
   },
   {
     "roll": 194,
@@ -39072,7 +40159,7 @@ const data = [
     "dept": "SY1",
     "etc": 92,
     "dm": 57.0,
-    "coa": 37.5,
+    "coa": 44.75,
     "fsd-ii": 0,
     "fsd2": 37.0,
     "python2": 50.5,
@@ -39082,7 +40169,7 @@ const data = [
     "sem3marks": 5.575,
     "sem3spi2": 11.15,
     "totalSum": 24.75,
-    "total": 216.5,
+    "total": 223.75,
     "coa2": 9.0,
     "toc2": 14.5,
     "fsd22": 12.0,
@@ -39093,7 +40180,8 @@ const data = [
     "fsd23": 12.5,
     "python23": 12.0,
     "sem3spi": 7.0,
-    "dm4": 33.0
+    "dm4": 33.0,
+    "coa4": 14.5
   },
   {
     "roll": 250,
@@ -39109,7 +40197,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 44.0,
-    "coa": 43.0,
+    "coa": 56.25,
     "fsd-ii": 0,
     "fsd2": 21.5,
     "python2": 35.0,
@@ -39119,7 +40207,7 @@ const data = [
     "sem3marks": 4.275,
     "sem3spi2": 8.55,
     "totalSum": 20.75,
-    "total": 168.5,
+    "total": 181.75,
     "coa2": 15.0,
     "toc2": 5.0,
     "fsd22": 5.0,
@@ -39130,7 +40218,8 @@ const data = [
     "fsd23": 9.0,
     "python23": 12.0,
     "sem3spi": 6.71,
-    "dm4": 29.0
+    "dm4": 29.0,
+    "coa4": 26.5
   },
   {
     "roll": 171,
@@ -39146,7 +40235,7 @@ const data = [
     "dept": "SY1",
     "etc": 86,
     "dm": 52.5,
-    "coa": 29.0,
+    "coa": 35.75,
     "fsd-ii": 0,
     "fsd2": 39.5,
     "python2": 39.5,
@@ -39156,7 +40245,7 @@ const data = [
     "sem3marks": 6.05,
     "sem3spi2": 12.1,
     "totalSum": 26.28,
-    "total": 204.0,
+    "total": 210.75,
     "coa2": 8.5,
     "toc2": 11.0,
     "fsd22": 11.5,
@@ -39167,7 +40256,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 9.0,
     "sem3spi": 7.83,
-    "dm4": 23.0
+    "dm4": 23.0,
+    "coa4": 13.5
   },
   {
     "roll": 102,
@@ -39183,7 +40273,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 79.75,
-    "coa": 62.0,
+    "coa": 74.0,
     "fsd-ii": 0,
     "fsd2": 51.5,
     "python2": 52.5,
@@ -39193,7 +40283,7 @@ const data = [
     "sem3marks": 7.425,
     "sem3spi2": 14.85,
     "totalSum": 28.96,
-    "total": 308.75,
+    "total": 320.75,
     "coa2": 19.5,
     "toc2": 22.0,
     "fsd22": 17.0,
@@ -39204,7 +40294,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 15.0,
     "sem3spi": 8.71,
-    "dm4": 36.5
+    "dm4": 36.5,
+    "coa4": 24.0
   },
   {
     "roll": 156,
@@ -39220,7 +40311,7 @@ const data = [
     "dept": "SY1",
     "etc": 90,
     "dm": 39.5,
-    "coa": 39.0,
+    "coa": 47.25,
     "fsd-ii": 0,
     "fsd2": 35.5,
     "python2": 35.5,
@@ -39230,7 +40321,7 @@ const data = [
     "sem3marks": 6.15,
     "sem3spi2": 12.3,
     "totalSum": 26.77,
-    "total": 197.5,
+    "total": 205.75,
     "coa2": 11.5,
     "toc2": 16.5,
     "fsd22": 10.0,
@@ -39241,7 +40332,8 @@ const data = [
     "fsd23": 15.5,
     "python23": 10.5,
     "sem3spi": 7.5,
-    "dm4": 30.0
+    "dm4": 30.0,
+    "coa4": 16.5
   },
   {
     "roll": 163,
@@ -39257,7 +40349,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 77.0,
-    "coa": 50.5,
+    "coa": 67.0,
     "fsd-ii": 0,
     "fsd2": 55.0,
     "python2": 44.0,
@@ -39267,7 +40359,7 @@ const data = [
     "sem3marks": 6.625,
     "sem3spi2": 13.25,
     "totalSum": 26.51,
-    "total": 278.0,
+    "total": 294.5,
     "coa2": 15.0,
     "toc2": 17.0,
     "fsd22": 14.5,
@@ -39278,7 +40370,8 @@ const data = [
     "fsd23": 19.5,
     "python23": 15.0,
     "sem3spi": 7.83,
-    "dm4": 43.0
+    "dm4": 43.0,
+    "coa4": 33.0
   },
   {
     "roll": 179,
@@ -39294,7 +40387,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 69.75,
-    "coa": 49.5,
+    "coa": 61.75,
     "fsd-ii": 0,
     "fsd2": 62.5,
     "python2": 54.5,
@@ -39304,7 +40397,7 @@ const data = [
     "sem3marks": 6.575,
     "sem3spi2": 13.15,
     "totalSum": 26.02,
-    "total": 281.75,
+    "total": 294.0,
     "coa2": 13.5,
     "toc2": 18.5,
     "fsd22": 19.5,
@@ -39315,7 +40408,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 20.0,
     "sem3spi": 8.33,
-    "dm4": 31.5
+    "dm4": 31.5,
+    "coa4": 24.5
   },
   {
     "roll": 260,
@@ -39331,7 +40425,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 42.75,
-    "coa": 28.0,
+    "coa": 37.25,
     "fsd-ii": 0,
     "fsd2": 26.0,
     "python2": 30.5,
@@ -39341,7 +40435,7 @@ const data = [
     "sem3marks": 4.325,
     "sem3spi2": 8.65,
     "totalSum": 19.94,
-    "total": 164.75,
+    "total": 174.0,
     "coa2": 10.5,
     "toc2": 15.0,
     "fsd22": 9.0,
@@ -39352,7 +40446,8 @@ const data = [
     "fsd23": 11.0,
     "python23": 9.0,
     "sem3spi": 6.46,
-    "dm4": 24.5
+    "dm4": 24.5,
+    "coa4": 18.5
   },
   {
     "roll": 186,
@@ -39368,7 +40463,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 68.5,
-    "coa": 47.5,
+    "coa": 56.75,
     "fsd-ii": 0,
     "fsd2": 53.5,
     "python2": 49.0,
@@ -39378,7 +40473,7 @@ const data = [
     "sem3marks": 6.45,
     "sem3spi2": 12.9,
     "totalSum": 25.53,
-    "total": 271.0,
+    "total": 280.25,
     "coa2": 16.5,
     "toc2": 17.5,
     "fsd22": 16.0,
@@ -39389,7 +40484,8 @@ const data = [
     "fsd23": 18.5,
     "python23": 14.0,
     "sem3spi": 7.96,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 18.5
   },
   {
     "roll": 139,
@@ -39405,7 +40501,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 73.5,
-    "coa": 59.0,
+    "coa": 80.5,
     "fsd-ii": 0,
     "fsd2": 57.5,
     "python2": 53.0,
@@ -39415,7 +40511,7 @@ const data = [
     "sem3marks": 6.225,
     "sem3spi2": 12.45,
     "totalSum": 27.6,
-    "total": 293.0,
+    "total": 314.5,
     "coa2": 21.5,
     "toc2": 13.5,
     "fsd22": 12.5,
@@ -39426,7 +40522,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 21.5,
     "sem3spi": 8.25,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 43.0
   },
   {
     "roll": 77,
@@ -39442,7 +40539,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 81.25,
-    "coa": 56.0,
+    "coa": 72.5,
     "fsd-ii": 0,
     "fsd2": 56.5,
     "python2": 52.5,
@@ -39452,7 +40549,7 @@ const data = [
     "sem3marks": 7.5,
     "sem3spi2": 15,
     "totalSum": 30.46,
-    "total": 296.75,
+    "total": 313.25,
     "coa2": 23.0,
     "toc2": 17.0,
     "fsd22": 18.0,
@@ -39463,7 +40560,8 @@ const data = [
     "fsd23": 18.0,
     "python23": 14.0,
     "sem3spi": 9.04,
-    "dm4": 43.5
+    "dm4": 43.5,
+    "coa4": 33.0
   },
   {
     "roll": 89,
@@ -39479,7 +40577,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 65.5,
-    "coa": 42.0,
+    "coa": 56.5,
     "fsd-ii": 0,
     "fsd2": 48.5,
     "python2": 38.0,
@@ -39489,7 +40587,7 @@ const data = [
     "sem3marks": 6.95,
     "sem3spi2": 13.9,
     "totalSum": 29.54,
-    "total": 237.5,
+    "total": 252.0,
     "coa2": 13.5,
     "toc2": 15.5,
     "fsd22": 16.0,
@@ -39500,7 +40598,8 @@ const data = [
     "fsd23": 15.5,
     "python23": 12.0,
     "sem3spi": 8.5,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 29.0
   },
   {
     "roll": 85,
@@ -39516,7 +40615,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 58.5,
-    "coa": 37.5,
+    "coa": 53.0,
     "fsd-ii": 0,
     "fsd2": 61.5,
     "python2": 51.0,
@@ -39526,7 +40625,7 @@ const data = [
     "sem3marks": 7.45,
     "sem3spi2": 14.9,
     "totalSum": 29.74,
-    "total": 261.0,
+    "total": 276.5,
     "coa2": 0.0,
     "toc2": 21.5,
     "fsd22": 17.0,
@@ -39537,7 +40636,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 14.5,
     "sem3spi": 8.71,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 31.0
   },
   {
     "roll": 223,
@@ -39553,7 +40653,7 @@ const data = [
     "dept": "SY1",
     "etc": 90,
     "dm": 79.0,
-    "coa": 64.0,
+    "coa": 82.0,
     "fsd-ii": 0,
     "fsd2": 58.5,
     "python2": 47.0,
@@ -39563,7 +40663,7 @@ const data = [
     "sem3marks": 6.45,
     "sem3spi2": 12.9,
     "totalSum": 23.22,
-    "total": 306.5,
+    "total": 324.5,
     "coa2": 24.0,
     "toc2": 19.5,
     "fsd22": 19.0,
@@ -39574,7 +40674,8 @@ const data = [
     "fsd23": 17.5,
     "python23": 12.0,
     "sem3spi": 7.67,
-    "dm4": 40.0
+    "dm4": 40.0,
+    "coa4": 36.0
   },
   {
     "roll": 98,
@@ -39590,7 +40691,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 64.0,
-    "coa": 56.0,
+    "coa": 72.5,
     "fsd-ii": 0,
     "fsd2": 62.0,
     "python2": 61.0,
@@ -39600,7 +40701,7 @@ const data = [
     "sem3marks": 8.05,
     "sem3spi2": 16.1,
     "totalSum": 28.98,
-    "total": 299.0,
+    "total": 315.5,
     "coa2": 19.5,
     "toc2": 16.0,
     "fsd22": 20.0,
@@ -39611,7 +40712,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 17.0,
     "sem3spi": 9.42,
-    "dm4": 33.0
+    "dm4": 33.0,
+    "coa4": 33.0
   },
   {
     "roll": 190,
@@ -39627,7 +40729,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 81.0,
-    "coa": 67.5,
+    "coa": 81.5,
     "fsd-ii": 0,
     "fsd2": 66.5,
     "python2": 63.0,
@@ -39637,7 +40739,7 @@ const data = [
     "sem3marks": 6.95,
     "sem3spi2": 13.9,
     "totalSum": 25.02,
-    "total": 335.0,
+    "total": 349.0,
     "coa2": 21.0,
     "toc2": 21.0,
     "fsd22": 22.5,
@@ -39648,7 +40750,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 20.0,
     "sem3spi": 8.58,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 28.0
   },
   {
     "roll": 199,
@@ -39664,7 +40767,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 85.5,
-    "coa": 71.5,
+    "coa": 91.5,
     "fsd-ii": 0,
     "fsd2": 65.5,
     "python2": 58.0,
@@ -39674,7 +40777,7 @@ const data = [
     "sem3marks": 6.825,
     "sem3spi2": 13.65,
     "totalSum": 24.57,
-    "total": 339.5,
+    "total": 359.5,
     "coa2": 24.0,
     "toc2": 20.5,
     "fsd22": 21.0,
@@ -39685,7 +40788,8 @@ const data = [
     "fsd23": 24.5,
     "python23": 18.0,
     "sem3spi": 8.42,
-    "dm4": 45.0
+    "dm4": 45.0,
+    "coa4": 40.0
   },
   {
     "roll": 292,
@@ -39701,7 +40805,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 53.5,
-    "coa": 48.5,
+    "coa": 56.5,
     "fsd-ii": 0,
     "fsd2": 37.5,
     "python2": 30.0,
@@ -39711,7 +40815,7 @@ const data = [
     "sem3marks": 4.425,
     "sem3spi2": 8.85,
     "totalSum": 15.93,
-    "total": 205.0,
+    "total": 213.0,
     "coa2": 19.5,
     "toc2": 13.0,
     "fsd22": 9.5,
@@ -39722,7 +40826,8 @@ const data = [
     "fsd23": 12.0,
     "python23": 8.0,
     "sem3spi": 7.08,
-    "dm4": 32.0
+    "dm4": 32.0,
+    "coa4": 16.0
   },
   {
     "roll": 247,
@@ -39738,7 +40843,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 58.5,
-    "coa": 51.5,
+    "coa": 64.25,
     "fsd-ii": 0,
     "fsd2": 63.5,
     "python2": 49.5,
@@ -39748,7 +40853,7 @@ const data = [
     "sem3marks": 5.8,
     "sem3spi2": 11.6,
     "totalSum": 20.88,
-    "total": 278.5,
+    "total": 291.25,
     "coa2": 17.0,
     "toc2": 16.0,
     "fsd22": 20.0,
@@ -39759,7 +40864,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 16.0,
     "sem3spi": 8.0,
-    "dm4": 36.0
+    "dm4": 36.0,
+    "coa4": 25.5
   },
   {
     "roll": 274,
@@ -39775,7 +40881,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 51.75,
-    "coa": 39.5,
+    "coa": 50.5,
     "fsd-ii": 0,
     "fsd2": 50.5,
     "python2": 40.5,
@@ -39785,7 +40891,7 @@ const data = [
     "sem3marks": 5.225,
     "sem3spi2": 10.45,
     "totalSum": 18.81,
-    "total": 222.75,
+    "total": 233.75,
     "coa2": 13.0,
     "toc2": 12.5,
     "fsd22": 18.0,
@@ -39796,7 +40902,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 10.0,
     "sem3spi": 7.67,
-    "dm4": 32.5
+    "dm4": 32.5,
+    "coa4": 22.0
   },
   {
     "roll": 272,
@@ -39812,7 +40919,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 44.75,
-    "coa": 36.5,
+    "coa": 42.0,
     "fsd-ii": 0,
     "fsd2": 44.0,
     "python2": 45.5,
@@ -39822,7 +40929,7 @@ const data = [
     "sem3marks": 5.325,
     "sem3spi2": 10.65,
     "totalSum": 19.17,
-    "total": 207.75,
+    "total": 213.25,
     "coa2": 10.0,
     "toc2": 9.0,
     "fsd22": 12.5,
@@ -39833,7 +40940,8 @@ const data = [
     "fsd23": 18.5,
     "python23": 17.0,
     "sem3spi": 7.54,
-    "dm4": 29.5
+    "dm4": 29.5,
+    "coa4": 11.0
   },
   {
     "roll": 232,
@@ -39849,7 +40957,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 65.0,
-    "coa": 43.5,
+    "coa": 59.5,
     "fsd-ii": 0,
     "fsd2": 63.5,
     "python2": 49.5,
@@ -39859,7 +40967,7 @@ const data = [
     "sem3marks": 6.15,
     "sem3spi2": 12.3,
     "totalSum": 22.14,
-    "total": 262.0,
+    "total": 278.0,
     "coa2": 0.0,
     "toc2": 12.5,
     "fsd22": 20.5,
@@ -39870,7 +40978,8 @@ const data = [
     "fsd23": 24.0,
     "python23": 15.0,
     "sem3spi": 8.04,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 32.0
   },
   {
     "roll": 249,
@@ -39886,7 +40995,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 47.75,
-    "coa": 43.0,
+    "coa": 53.0,
     "fsd-ii": 0,
     "fsd2": 54.0,
     "python2": 46.0,
@@ -39896,7 +41005,7 @@ const data = [
     "sem3marks": 5.775,
     "sem3spi2": 11.55,
     "totalSum": 20.79,
-    "total": 231.75,
+    "total": 241.75,
     "coa2": 17.0,
     "toc2": 11.5,
     "fsd22": 18.0,
@@ -39907,7 +41016,8 @@ const data = [
     "fsd23": 17.0,
     "python23": 17.0,
     "sem3spi": 8.08,
-    "dm4": 24.5
+    "dm4": 24.5,
+    "coa4": 20.0
   },
   {
     "roll": 280,
@@ -39923,7 +41033,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 66.25,
-    "coa": 52.0,
+    "coa": 67.0,
     "fsd-ii": 0,
     "fsd2": 48.0,
     "python2": 45.5,
@@ -39933,7 +41043,7 @@ const data = [
     "sem3marks": 5.025,
     "sem3spi2": 10.05,
     "totalSum": 18.09,
-    "total": 261.75,
+    "total": 276.75,
     "coa2": 13.0,
     "toc2": 12.0,
     "fsd22": 16.5,
@@ -39944,7 +41054,8 @@ const data = [
     "fsd23": 15.5,
     "python23": 16.0,
     "sem3spi": 7.79,
-    "dm4": 39.5
+    "dm4": 39.5,
+    "coa4": 30.0
   },
   {
     "roll": 290,
@@ -39960,7 +41071,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 51.25,
-    "coa": 38.0,
+    "coa": 48.5,
     "fsd-ii": 0,
     "fsd2": 38.5,
     "python2": 40.5,
@@ -39970,7 +41081,7 @@ const data = [
     "sem3marks": 4.5,
     "sem3spi2": 9,
     "totalSum": 16.2,
-    "total": 211.25,
+    "total": 221.75,
     "coa2": 16.0,
     "toc2": 15.0,
     "fsd22": 15.0,
@@ -39981,7 +41092,8 @@ const data = [
     "fsd23": 11.5,
     "python23": 13.0,
     "sem3spi": 7.04,
-    "dm4": 29.5
+    "dm4": 29.5,
+    "coa4": 21.0
   },
   {
     "roll": 110,
@@ -39997,7 +41109,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 69.0,
-    "coa": 68.5,
+    "coa": 85.5,
     "fsd-ii": 0,
     "fsd2": 68.0,
     "python2": 68.0,
@@ -40007,7 +41119,7 @@ const data = [
     "sem3marks": 7.975,
     "sem3spi2": 15.95,
     "totalSum": 28.71,
-    "total": 317.5,
+    "total": 334.5,
     "coa2": 21.0,
     "toc2": 18.0,
     "fsd22": 21.0,
@@ -40018,7 +41130,8 @@ const data = [
     "fsd23": 25.0,
     "python23": 21.5,
     "sem3spi": 9.46,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 34.0
   },
   {
     "roll": 255,
@@ -40034,7 +41147,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 77.75,
-    "coa": 53.0,
+    "coa": 63.5,
     "fsd-ii": 0,
     "fsd2": 59.5,
     "python2": 42.5,
@@ -40044,7 +41157,7 @@ const data = [
     "sem3marks": 5.575,
     "sem3spi2": 11.15,
     "totalSum": 20.07,
-    "total": 282.75,
+    "total": 293.25,
     "coa2": 16.5,
     "toc2": 20.5,
     "fsd22": 22.0,
@@ -40055,7 +41168,8 @@ const data = [
     "fsd23": 17.5,
     "python23": 12.0,
     "sem3spi": 8.0,
-    "dm4": 40.5
+    "dm4": 40.5,
+    "coa4": 21.0
   },
   {
     "roll": 243,
@@ -40071,7 +41185,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 41.5,
-    "coa": 49.5,
+    "coa": 63.0,
     "fsd-ii": 0,
     "fsd2": 59.0,
     "python2": 38.5,
@@ -40081,7 +41195,7 @@ const data = [
     "sem3marks": 5.85,
     "sem3spi2": 11.7,
     "totalSum": 21.06,
-    "total": 221.0,
+    "total": 234.5,
     "coa2": 14.0,
     "toc2": 14.0,
     "fsd22": 20.0,
@@ -40092,7 +41206,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 15.0,
     "sem3spi": 7.75,
-    "dm4": 25.0
+    "dm4": 25.0,
+    "coa4": 27.0
   },
   {
     "roll": 214,
@@ -40108,7 +41223,7 @@ const data = [
     "dept": "SY1",
     "etc": 90,
     "dm": 72.5,
-    "coa": 64.0,
+    "coa": 80.75,
     "fsd-ii": 0,
     "fsd2": 61.0,
     "python2": 56.0,
@@ -40118,7 +41233,7 @@ const data = [
     "sem3marks": 6.6,
     "sem3spi2": 13.2,
     "totalSum": 23.76,
-    "total": 304.0,
+    "total": 320.75,
     "coa2": 22.5,
     "toc2": 18.5,
     "fsd22": 19.0,
@@ -40129,7 +41244,8 @@ const data = [
     "fsd23": 22.0,
     "python23": 21.0,
     "sem3spi": 8.04,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 33.5
   },
   {
     "roll": 273,
@@ -40145,7 +41261,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 53.25,
-    "coa": 37.5,
+    "coa": 49.75,
     "fsd-ii": 0,
     "fsd2": 56.5,
     "python2": 50.0,
@@ -40155,7 +41271,7 @@ const data = [
     "sem3marks": 5.25,
     "sem3spi2": 10.5,
     "totalSum": 18.9,
-    "total": 238.75,
+    "total": 251.0,
     "coa2": 12.5,
     "toc2": 13.5,
     "fsd22": 21.0,
@@ -40166,7 +41282,8 @@ const data = [
     "fsd23": 16.5,
     "python23": 14.0,
     "sem3spi": 7.67,
-    "dm4": 32.5
+    "dm4": 32.5,
+    "coa4": 24.5
   },
   {
     "roll": 99,
@@ -40182,7 +41299,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 87.5,
-    "coa": 65.0,
+    "coa": 87.0,
     "fsd-ii": 0,
     "fsd2": 67.5,
     "python2": 66.0,
@@ -40192,7 +41309,7 @@ const data = [
     "sem3marks": 8.05,
     "sem3spi2": 16.1,
     "totalSum": 28.98,
-    "total": 346.0,
+    "total": 368.0,
     "coa2": 21.0,
     "toc2": 20.5,
     "fsd22": 24.0,
@@ -40203,7 +41320,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 22.5,
     "sem3spi": 9.58,
-    "dm4": 45.0
+    "dm4": 45.0,
+    "coa4": 44.0
   },
   {
     "roll": 231,
@@ -40219,7 +41337,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 69.75,
-    "coa": 56.5,
+    "coa": 68.75,
     "fsd-ii": 0,
     "fsd2": 60.5,
     "python2": 55.5,
@@ -40229,7 +41347,7 @@ const data = [
     "sem3marks": 6.25,
     "sem3spi2": 12.5,
     "totalSum": 22.5,
-    "total": 295.75,
+    "total": 308.0,
     "coa2": 18.0,
     "toc2": 20.0,
     "fsd22": 21.0,
@@ -40240,7 +41358,8 @@ const data = [
     "fsd23": 20.5,
     "python23": 18.0,
     "sem3spi": 7.75,
-    "dm4": 33.5
+    "dm4": 33.5,
+    "coa4": 24.5
   },
   {
     "roll": 248,
@@ -40256,7 +41375,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 53.75,
-    "coa": 44.5,
+    "coa": 52.75,
     "fsd-ii": 0,
     "fsd2": 50.0,
     "python2": 50.0,
@@ -40266,7 +41385,7 @@ const data = [
     "sem3marks": 5.8,
     "sem3spi2": 11.6,
     "totalSum": 20.88,
-    "total": 249.25,
+    "total": 257.5,
     "coa2": 17.0,
     "toc2": 19.5,
     "fsd22": 18.0,
@@ -40277,7 +41396,8 @@ const data = [
     "fsd23": 13.0,
     "python23": 20.0,
     "sem3spi": 7.88,
-    "dm4": 29.5
+    "dm4": 29.5,
+    "coa4": 16.5
   },
   {
     "roll": 224,
@@ -40293,7 +41413,7 @@ const data = [
     "dept": "SY1",
     "etc": 88,
     "dm": 67.75,
-    "coa": 58.0,
+    "coa": 72.5,
     "fsd-ii": 0,
     "fsd2": 62.5,
     "python2": 51.0,
@@ -40303,7 +41423,7 @@ const data = [
     "sem3marks": 6.425,
     "sem3spi2": 12.85,
     "totalSum": 23.13,
-    "total": 300.75,
+    "total": 315.25,
     "coa2": 18.0,
     "toc2": 20.0,
     "fsd22": 17.0,
@@ -40314,7 +41434,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 18.0,
     "sem3spi": 8.13,
-    "dm4": 34.5
+    "dm4": 34.5,
+    "coa4": 29.0
   },
   {
     "roll": 198,
@@ -40330,7 +41451,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 72.25,
-    "coa": 54.5,
+    "coa": 74.0,
     "fsd-ii": 0,
     "fsd2": 63.0,
     "python2": 55.5,
@@ -40340,7 +41461,7 @@ const data = [
     "sem3marks": 6.825,
     "sem3spi2": 13.65,
     "totalSum": 24.57,
-    "total": 293.25,
+    "total": 312.75,
     "coa2": 22.5,
     "toc2": 19.0,
     "fsd22": 23.0,
@@ -40351,7 +41472,8 @@ const data = [
     "fsd23": 21.5,
     "python23": 19.0,
     "sem3spi": 8.88,
-    "dm4": 39.5
+    "dm4": 39.5,
+    "coa4": 39.0
   },
   {
     "roll": 267,
@@ -40367,7 +41489,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 69.25,
-    "coa": 43.0,
+    "coa": 53.75,
     "fsd-ii": 0,
     "fsd2": 40.5,
     "python2": 43.0,
@@ -40377,7 +41499,7 @@ const data = [
     "sem3marks": 5.425,
     "sem3spi2": 10.85,
     "totalSum": 19.53,
-    "total": 242.75,
+    "total": 253.5,
     "coa2": 12.0,
     "toc2": 17.5,
     "fsd22": 12.0,
@@ -40388,7 +41510,8 @@ const data = [
     "fsd23": 11.0,
     "python23": 13.0,
     "sem3spi": 7.33,
-    "dm4": 34.5
+    "dm4": 34.5,
+    "coa4": 21.5
   },
   {
     "roll": 166,
@@ -40404,7 +41527,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 65.75,
-    "coa": 52.0,
+    "coa": 64.5,
     "fsd-ii": 0,
     "fsd2": 59.0,
     "python2": 48.0,
@@ -40414,7 +41537,7 @@ const data = [
     "sem3marks": 7.325,
     "sem3spi2": 14.65,
     "totalSum": 26.37,
-    "total": 276.25,
+    "total": 288.75,
     "coa2": 17.0,
     "toc2": 21.0,
     "fsd22": 20.0,
@@ -40425,7 +41548,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 10.0,
     "sem3spi": 8.67,
-    "dm4": 33.5
+    "dm4": 33.5,
+    "coa4": 25.0
   },
   {
     "roll": 148,
@@ -40441,7 +41565,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 57.0,
-    "coa": 47.0,
+    "coa": 63.0,
     "fsd-ii": 0,
     "fsd2": 56.0,
     "python2": 56.0,
@@ -40451,7 +41575,7 @@ const data = [
     "sem3marks": 7.575,
     "sem3spi2": 15.15,
     "totalSum": 27.27,
-    "total": 263.0,
+    "total": 279.0,
     "coa2": 12.5,
     "toc2": 15.5,
     "fsd22": 18.0,
@@ -40462,7 +41586,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 18.0,
     "sem3spi": 8.71,
-    "dm4": 36.0
+    "dm4": 36.0,
+    "coa4": 32.0
   },
   {
     "roll": 244,
@@ -40478,7 +41603,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 61.75,
-    "coa": 44.0,
+    "coa": 55.75,
     "fsd-ii": 0,
     "fsd2": 46.0,
     "python2": 40.0,
@@ -40488,7 +41613,7 @@ const data = [
     "sem3marks": 5.85,
     "sem3spi2": 11.7,
     "totalSum": 21.06,
-    "total": 246.75,
+    "total": 258.5,
     "coa2": 16.0,
     "toc2": 22.0,
     "fsd22": 14.0,
@@ -40499,7 +41624,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 14.0,
     "sem3spi": 7.79,
-    "dm4": 37.5
+    "dm4": 37.5,
+    "coa4": 23.5
   },
   {
     "roll": 283,
@@ -40515,7 +41641,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 60.5,
-    "coa": 50.0,
+    "coa": 65.25,
     "fsd-ii": 0,
     "fsd2": 46.5,
     "python2": 44.5,
@@ -40525,7 +41651,7 @@ const data = [
     "sem3marks": 4.875,
     "sem3spi2": 9.75,
     "totalSum": 17.55,
-    "total": 238.0,
+    "total": 253.25,
     "coa2": 16.5,
     "toc2": 15.5,
     "fsd22": 17.0,
@@ -40536,7 +41662,8 @@ const data = [
     "fsd23": 18.5,
     "python23": 13.0,
     "sem3spi": 7.08,
-    "dm4": 35.0
+    "dm4": 35.0,
+    "coa4": 30.5
   },
   {
     "roll": 297,
@@ -40552,7 +41679,7 @@ const data = [
     "dept": "SY1",
     "etc": 88,
     "dm": 60.5,
-    "coa": 54.5,
+    "coa": 70.25,
     "fsd-ii": 0,
     "fsd2": 62.0,
     "python2": 41.5,
@@ -40562,7 +41689,7 @@ const data = [
     "sem3marks": 4.225,
     "sem3spi2": 8.45,
     "totalSum": 15.21,
-    "total": 258.5,
+    "total": 274.25,
     "coa2": 16.0,
     "toc2": 13.0,
     "fsd22": 22.0,
@@ -40573,7 +41700,8 @@ const data = [
     "fsd23": 23.0,
     "python23": 10.0,
     "sem3spi": 6.54,
-    "dm4": 36.0
+    "dm4": 36.0,
+    "coa4": 31.5
   },
   {
     "roll": 147,
@@ -40589,7 +41717,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 79.0,
-    "coa": 46.0,
+    "coa": 63.25,
     "fsd-ii": 0,
     "fsd2": 67.0,
     "python2": 57.0,
@@ -40599,7 +41727,7 @@ const data = [
     "sem3marks": 7.575,
     "sem3spi2": 15.15,
     "totalSum": 27.27,
-    "total": 316.5,
+    "total": 333.75,
     "coa2": 16.0,
     "toc2": 23.0,
     "fsd22": 23.0,
@@ -40610,7 +41738,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 18.0,
     "sem3spi": 9.33,
-    "dm4": 36.0
+    "dm4": 36.0,
+    "coa4": 34.5
   },
   {
     "roll": 233,
@@ -40626,7 +41755,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 68.5,
-    "coa": 62.0,
+    "coa": 73.0,
     "fsd-ii": 0,
     "fsd2": 58.5,
     "python2": 47.5,
@@ -40636,7 +41765,7 @@ const data = [
     "sem3marks": 6.125,
     "sem3spi2": 12.25,
     "totalSum": 22.05,
-    "total": 275.0,
+    "total": 286.0,
     "coa2": 20.5,
     "toc2": 11.0,
     "fsd22": 20.0,
@@ -40647,7 +41776,8 @@ const data = [
     "fsd23": 20.5,
     "python23": 17.0,
     "sem3spi": 8.33,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 22.0
   },
   {
     "roll": 287,
@@ -40663,7 +41793,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 39.25,
-    "coa": 52.0,
+    "coa": 64.0,
     "fsd-ii": 0,
     "fsd2": 38.5,
     "python2": 38.5,
@@ -40673,7 +41803,7 @@ const data = [
     "sem3marks": 4.775,
     "sem3spi2": 9.55,
     "totalSum": 17.19,
-    "total": 201.25,
+    "total": 213.25,
     "coa2": 18.5,
     "toc2": 14.0,
     "fsd22": 10.0,
@@ -40684,7 +41814,8 @@ const data = [
     "fsd23": 13.5,
     "python23": 11.5,
     "sem3spi": 7.21,
-    "dm4": 13.5
+    "dm4": 13.5,
+    "coa4": 24.0
   },
   {
     "roll": 285,
@@ -40700,7 +41831,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 47.5,
-    "coa": 41.5,
+    "coa": 50.5,
     "fsd-ii": 0,
     "fsd2": 36.0,
     "python2": 43.5,
@@ -40710,7 +41841,7 @@ const data = [
     "sem3marks": 4.825,
     "sem3spi2": 9.65,
     "totalSum": 17.37,
-    "total": 216.5,
+    "total": 225.5,
     "coa2": 10.0,
     "toc2": 18.0,
     "fsd22": 9.0,
@@ -40721,7 +41852,8 @@ const data = [
     "fsd23": 14.0,
     "python23": 11.5,
     "sem3spi": 7.17,
-    "dm4": 29.0
+    "dm4": 29.0,
+    "coa4": 18.0
   },
   {
     "roll": 279,
@@ -40737,7 +41869,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 56.5,
-    "coa": 53.0,
+    "coa": 66.0,
     "fsd-ii": 0,
     "fsd2": 50.5,
     "python2": 42.5,
@@ -40747,7 +41879,7 @@ const data = [
     "sem3marks": 5.05,
     "sem3spi2": 10.1,
     "totalSum": 18.18,
-    "total": 247.0,
+    "total": 260.0,
     "coa2": 15.0,
     "toc2": 14.5,
     "fsd22": 12.0,
@@ -40758,7 +41890,8 @@ const data = [
     "fsd23": 20.5,
     "python23": 14.5,
     "sem3spi": 7.13,
-    "dm4": 30.0
+    "dm4": 30.0,
+    "coa4": 26.0
   },
   {
     "roll": 246,
@@ -40774,7 +41907,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 69.5,
-    "coa": 58.0,
+    "coa": 75.5,
     "fsd-ii": 0,
     "fsd2": 42.5,
     "python2": 41.5,
@@ -40784,7 +41917,7 @@ const data = [
     "sem3marks": 5.825,
     "sem3spi2": 11.65,
     "totalSum": 20.97,
-    "total": 263.0,
+    "total": 280.5,
     "coa2": 20.5,
     "toc2": 16.5,
     "fsd22": 9.0,
@@ -40795,7 +41928,8 @@ const data = [
     "fsd23": 21.0,
     "python23": 12.0,
     "sem3spi": 7.67,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 35.0
   },
   {
     "roll": 275,
@@ -40811,7 +41945,7 @@ const data = [
     "dept": "SY1",
     "etc": 94,
     "dm": 50.5,
-    "coa": 45.5,
+    "coa": 57.25,
     "fsd-ii": 0,
     "fsd2": 28.5,
     "python2": 38.0,
@@ -40821,7 +41955,7 @@ const data = [
     "sem3marks": 5.175,
     "sem3spi2": 10.35,
     "totalSum": 18.63,
-    "total": 194.5,
+    "total": 206.25,
     "coa2": 13.5,
     "toc2": 7.5,
     "fsd22": 9.0,
@@ -40832,7 +41966,8 @@ const data = [
     "fsd23": 12.0,
     "python23": 12.0,
     "sem3spi": 7.04,
-    "dm4": 32.0
+    "dm4": 32.0,
+    "coa4": 23.5
   },
   {
     "roll": 298,
@@ -40848,7 +41983,7 @@ const data = [
     "dept": "SY1",
     "etc": 86,
     "dm": 58.5,
-    "coa": 49.0,
+    "coa": 62.0,
     "fsd-ii": 0,
     "fsd2": 35.0,
     "python2": 34.5,
@@ -40858,7 +41993,7 @@ const data = [
     "sem3marks": 4.175,
     "sem3spi2": 8.35,
     "totalSum": 15.03,
-    "total": 218.5,
+    "total": 231.5,
     "coa2": 15.5,
     "toc2": 15.0,
     "fsd22": 10.0,
@@ -40869,7 +42004,8 @@ const data = [
     "fsd23": 16.0,
     "python23": 7.0,
     "sem3spi": 6.08,
-    "dm4": 37.0
+    "dm4": 37.0,
+    "coa4": 26.0
   },
   {
     "roll": 302,
@@ -40885,7 +42021,7 @@ const data = [
     "dept": "SY1",
     "etc": 90,
     "dm": 30.0,
-    "coa": 34.5,
+    "coa": 41.0,
     "fsd-ii": 0,
     "fsd2": 20.5,
     "python2": 29.0,
@@ -40895,7 +42031,7 @@ const data = [
     "sem3marks": 2.525,
     "sem3spi2": 5.05,
     "totalSum": 9.09,
-    "total": 131.0,
+    "total": 137.5,
     "coa2": 11.0,
     "toc2": 6.5,
     "fsd22": 8.0,
@@ -40905,7 +42041,8 @@ const data = [
     "toc3": 4.0,
     "fsd23": 7.0,
     "python23": 7.0,
-    "dm4": 14.0
+    "dm4": 14.0,
+    "coa4": 13.0
   },
   {
     "roll": 251,
@@ -40921,7 +42058,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 68.5,
-    "coa": 54.5,
+    "coa": 69.75,
     "fsd-ii": 0,
     "fsd2": 57.0,
     "python2": 45.0,
@@ -40931,7 +42068,7 @@ const data = [
     "sem3marks": 5.75,
     "sem3spi2": 11.5,
     "totalSum": 20.7,
-    "total": 276.0,
+    "total": 291.25,
     "coa2": 22.5,
     "toc2": 17.0,
     "fsd22": 19.0,
@@ -40942,7 +42079,8 @@ const data = [
     "fsd23": 20.0,
     "python23": 15.0,
     "sem3spi": 7.71,
-    "dm4": 32.0
+    "dm4": 32.0,
+    "coa4": 30.5
   },
   {
     "roll": 258,
@@ -40958,7 +42096,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 63.25,
-    "coa": 30.5,
+    "coa": 40.25,
     "fsd-ii": 0,
     "fsd2": 40.5,
     "python2": 42.0,
@@ -40968,7 +42106,7 @@ const data = [
     "sem3marks": 5.55,
     "sem3spi2": 11.1,
     "totalSum": 19.98,
-    "total": 234.25,
+    "total": 244.0,
     "coa2": 11.0,
     "toc2": 19.0,
     "fsd22": 11.5,
@@ -40979,7 +42117,8 @@ const data = [
     "fsd23": 14.5,
     "python23": 10.0,
     "sem3spi": 7.46,
-    "dm4": 31.5
+    "dm4": 31.5,
+    "coa4": 19.5
   },
   {
     "roll": 125,
@@ -40995,7 +42134,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 82.5,
-    "coa": 66.0,
+    "coa": 87.25,
     "fsd-ii": 0,
     "fsd2": 64.5,
     "python2": 58.0,
@@ -41005,7 +42144,7 @@ const data = [
     "sem3marks": 7.825,
     "sem3spi2": 15.65,
     "totalSum": 28.17,
-    "total": 335.0,
+    "total": 356.25,
     "coa2": 21.0,
     "toc2": 22.5,
     "fsd22": 22.5,
@@ -41016,7 +42155,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 13.5,
     "sem3spi": 9.25,
-    "dm4": 43.0
+    "dm4": 43.0,
+    "coa4": 42.5
   },
   {
     "roll": 289,
@@ -41032,7 +42172,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 73.5,
-    "coa": 45.5,
+    "coa": 58.5,
     "fsd-ii": 0,
     "fsd2": 39.5,
     "python2": 53.0,
@@ -41042,7 +42182,7 @@ const data = [
     "sem3marks": 4.725,
     "sem3spi2": 9.45,
     "totalSum": 17.01,
-    "total": 268.0,
+    "total": 281.0,
     "coa2": 18.5,
     "toc2": 21.5,
     "fsd22": 10.5,
@@ -41053,7 +42193,8 @@ const data = [
     "fsd23": 17.0,
     "python23": 16.5,
     "sem3spi": 6.79,
-    "dm4": 41.0
+    "dm4": 41.0,
+    "coa4": 26.0
   },
   {
     "roll": 203,
@@ -41069,7 +42210,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 79.0,
-    "coa": 57.5,
+    "coa": 76.0,
     "fsd-ii": 0,
     "fsd2": 55.0,
     "python2": 55.0,
@@ -41079,7 +42220,7 @@ const data = [
     "sem3marks": 6.775,
     "sem3spi2": 13.55,
     "totalSum": 24.39,
-    "total": 304.5,
+    "total": 323.0,
     "coa2": 23.0,
     "toc2": 19.5,
     "fsd22": 17.0,
@@ -41090,7 +42231,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 17.5,
     "sem3spi": 8.33,
-    "dm4": 35.0
+    "dm4": 35.0,
+    "coa4": 37.0
   },
   {
     "roll": 206,
@@ -41106,7 +42248,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 80.5,
-    "coa": 57.5,
+    "coa": 74.25,
     "fsd-ii": 0,
     "fsd2": 62.0,
     "python2": 53.5,
@@ -41116,7 +42258,7 @@ const data = [
     "sem3marks": 6.7,
     "sem3spi2": 13.4,
     "totalSum": 24.12,
-    "total": 304.0,
+    "total": 320.75,
     "coa2": 17.0,
     "toc2": 19.5,
     "fsd22": 19.5,
@@ -41127,7 +42269,8 @@ const data = [
     "fsd23": 22.5,
     "python23": 17.5,
     "sem3spi": 8.46,
-    "dm4": 39.0
+    "dm4": 39.0,
+    "coa4": 33.5
   },
   {
     "roll": 189,
@@ -41143,7 +42286,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 84.75,
-    "coa": 55.5,
+    "coa": 76.0,
     "fsd-ii": 0,
     "fsd2": 41.5,
     "python2": 52.5,
@@ -41153,7 +42296,7 @@ const data = [
     "sem3marks": 6.975,
     "sem3spi2": 13.95,
     "totalSum": 25.11,
-    "total": 284.75,
+    "total": 305.25,
     "coa2": 17.0,
     "toc2": 18.0,
     "fsd22": 13.0,
@@ -41164,7 +42307,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 14.0,
     "sem3spi": 8.46,
-    "dm4": 41.5
+    "dm4": 41.5,
+    "coa4": 41.0
   },
   {
     "roll": 237,
@@ -41180,7 +42324,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 66.5,
-    "coa": 60.5,
+    "coa": 74.75,
     "fsd-ii": 0,
     "fsd2": 44.5,
     "python2": 47.0,
@@ -41190,7 +42334,7 @@ const data = [
     "sem3marks": 6,
     "sem3spi2": 12,
     "totalSum": 21.6,
-    "total": 261.5,
+    "total": 275.75,
     "coa2": 21.0,
     "toc2": 17.0,
     "fsd22": 14.5,
@@ -41201,7 +42345,8 @@ const data = [
     "fsd23": 15.0,
     "python23": 13.0,
     "sem3spi": 7.67,
-    "dm4": 36.0
+    "dm4": 36.0,
+    "coa4": 28.5
   },
   {
     "roll": 293,
@@ -41217,7 +42362,7 @@ const data = [
     "dept": "SY1",
     "etc": 90,
     "dm": 56.0,
-    "coa": 55.5,
+    "coa": 74.0,
     "fsd-ii": 0,
     "fsd2": 36.0,
     "python2": 39.0,
@@ -41227,7 +42372,7 @@ const data = [
     "sem3marks": 4.425,
     "sem3spi2": 8.85,
     "totalSum": 15.93,
-    "total": 225.0,
+    "total": 243.5,
     "coa2": 18.5,
     "toc2": 11.5,
     "fsd22": 10.5,
@@ -41238,7 +42383,8 @@ const data = [
     "fsd23": 16.0,
     "python23": 14.0,
     "sem3spi": 6.67,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 37.0
   },
   {
     "roll": 234,
@@ -41254,7 +42400,7 @@ const data = [
     "dept": "SY1",
     "etc": 88,
     "dm": 53.5,
-    "coa": 67.5,
+    "coa": 82.0,
     "fsd-ii": 0,
     "fsd2": 26.0,
     "python2": 33.5,
@@ -41264,7 +42410,7 @@ const data = [
     "sem3marks": 6.1,
     "sem3spi2": 12.2,
     "totalSum": 21.96,
-    "total": 232.0,
+    "total": 246.5,
     "coa2": 24.0,
     "toc2": 15.0,
     "fsd22": 6.0,
@@ -41275,7 +42421,8 @@ const data = [
     "fsd23": 13.0,
     "python23": 8.0,
     "sem3spi": 7.5,
-    "dm4": 34.0
+    "dm4": 34.0,
+    "coa4": 29.0
   },
   {
     "roll": 270,
@@ -41291,7 +42438,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 53.75,
-    "coa": 50.5,
+    "coa": 67.75,
     "fsd-ii": 0,
     "fsd2": 50.0,
     "python2": 43.0,
@@ -41301,7 +42448,7 @@ const data = [
     "sem3marks": 5.375,
     "sem3spi2": 10.75,
     "totalSum": 19.35,
-    "total": 237.25,
+    "total": 254.5,
     "coa2": 15.0,
     "toc2": 13.0,
     "fsd22": 14.0,
@@ -41312,7 +42459,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 11.0,
     "sem3spi": 7.38,
-    "dm4": 34.5
+    "dm4": 34.5,
+    "coa4": 34.5
   },
   {
     "roll": 301,
@@ -41328,7 +42476,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 26.75,
-    "coa": 33.0,
+    "coa": 41.0,
     "fsd-ii": 0,
     "fsd2": 24.0,
     "python2": 34.5,
@@ -41338,7 +42486,7 @@ const data = [
     "sem3marks": 3.225,
     "sem3spi2": 6.45,
     "totalSum": 11.61,
-    "total": 143.25,
+    "total": 151.25,
     "coa2": 14.0,
     "toc2": 11.5,
     "fsd22": 9.0,
@@ -41348,7 +42496,8 @@ const data = [
     "toc3": 3.5,
     "fsd23": 10.0,
     "python23": 10.0,
-    "dm4": 22.5
+    "dm4": 22.5,
+    "coa4": 16.0
   },
   {
     "roll": 286,
@@ -41364,7 +42513,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 63.25,
-    "coa": 50.0,
+    "coa": 66.75,
     "fsd-ii": 0,
     "fsd2": 38.0,
     "python2": 46.0,
@@ -41374,7 +42523,7 @@ const data = [
     "sem3marks": 4.825,
     "sem3spi2": 9.65,
     "totalSum": 17.37,
-    "total": 245.25,
+    "total": 262.0,
     "coa2": 20.0,
     "toc2": 19.0,
     "fsd22": 6.5,
@@ -41385,7 +42534,8 @@ const data = [
     "fsd23": 16.5,
     "python23": 13.0,
     "sem3spi": 6.75,
-    "dm4": 28.5
+    "dm4": 28.5,
+    "coa4": 33.5
   },
   {
     "roll": 175,
@@ -41401,7 +42551,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 81.75,
-    "coa": 58.5,
+    "coa": 78.0,
     "fsd-ii": 0,
     "fsd2": 63.0,
     "python2": 57.5,
@@ -41411,7 +42561,7 @@ const data = [
     "sem3marks": 7.25,
     "sem3spi2": 14.5,
     "totalSum": 26.1,
-    "total": 325.25,
+    "total": 344.75,
     "coa2": 18.0,
     "toc2": 23.0,
     "fsd22": 18.5,
@@ -41422,7 +42572,8 @@ const data = [
     "fsd23": 23.5,
     "python23": 19.5,
     "sem3spi": 8.75,
-    "dm4": 39.5
+    "dm4": 39.5,
+    "coa4": 39.0
   },
   {
     "roll": 205,
@@ -41438,7 +42589,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 71.0,
-    "coa": 46.5,
+    "coa": 62.0,
     "fsd-ii": 0,
     "fsd2": 41.0,
     "python2": 65.5,
@@ -41448,7 +42599,7 @@ const data = [
     "sem3marks": 6.7,
     "sem3spi2": 13.4,
     "totalSum": 24.12,
-    "total": 286.0,
+    "total": 301.5,
     "coa2": 17.0,
     "toc2": 20.0,
     "fsd22": 10.0,
@@ -41459,7 +42610,8 @@ const data = [
     "fsd23": 19.0,
     "python23": 21.0,
     "sem3spi": 8.54,
-    "dm4": 38.0
+    "dm4": 38.0,
+    "coa4": 31.0
   },
   {
     "roll": 296,
@@ -41475,7 +42627,7 @@ const data = [
     "dept": "SY1",
     "etc": 98,
     "dm": 58.75,
-    "coa": 53.0,
+    "coa": 66.75,
     "fsd-ii": 0,
     "fsd2": 36.0,
     "python2": 38.0,
@@ -41485,7 +42637,7 @@ const data = [
     "sem3marks": 4.3,
     "sem3spi2": 8.6,
     "totalSum": 15.48,
-    "total": 227.75,
+    "total": 241.5,
     "coa2": 16.0,
     "toc2": 16.5,
     "fsd22": 9.0,
@@ -41496,7 +42648,8 @@ const data = [
     "fsd23": 13.5,
     "python23": 9.0,
     "sem3spi": 6.54,
-    "dm4": 38.5
+    "dm4": 38.5,
+    "coa4": 27.5
   },
   {
     "roll": 295,
@@ -41512,7 +42665,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 56.0,
-    "coa": 44.5,
+    "coa": 58.0,
     "fsd-ii": 0,
     "fsd2": 42.5,
     "python2": 44.5,
@@ -41522,7 +42675,7 @@ const data = [
     "sem3marks": 4.375,
     "sem3spi2": 8.75,
     "totalSum": 15.75,
-    "total": 221.5,
+    "total": 235.0,
     "coa2": 17.5,
     "toc2": 13.0,
     "fsd22": 12.5,
@@ -41532,7 +42685,8 @@ const data = [
     "toc3": 10.5,
     "fsd23": 15.5,
     "python23": 16.5,
-    "dm4": 28.0
+    "dm4": 28.0,
+    "coa4": 27.0
   },
   {
     "roll": 282,
@@ -41548,7 +42702,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 48.0,
-    "coa": 51.0,
+    "coa": 62.0,
     "fsd-ii": 0,
     "fsd2": 40.5,
     "python2": 31.0,
@@ -41558,7 +42712,7 @@ const data = [
     "sem3marks": 5,
     "sem3spi2": 10,
     "totalSum": 18,
-    "total": 199.5,
+    "total": 210.5,
     "coa2": 19.0,
     "toc2": 10.5,
     "fsd22": 14.0,
@@ -41569,7 +42723,8 @@ const data = [
     "fsd23": 15.0,
     "python23": 9.0,
     "sem3spi": 7.08,
-    "dm4": 29.0
+    "dm4": 29.0,
+    "coa4": 22.0
   },
   {
     "roll": 278,
@@ -41585,7 +42740,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 63.5,
-    "coa": 49.5,
+    "coa": 62.25,
     "fsd-ii": 0,
     "fsd2": 42.5,
     "python2": 48.5,
@@ -41595,7 +42750,7 @@ const data = [
     "sem3marks": 5.1,
     "sem3spi2": 10.2,
     "totalSum": 18.36,
-    "total": 256.5,
+    "total": 269.25,
     "coa2": 17.0,
     "toc2": 16.5,
     "fsd22": 12.0,
@@ -41606,7 +42761,8 @@ const data = [
     "fsd23": 16.5,
     "python23": 14.5,
     "sem3spi": 6.83,
-    "dm4": 36.0
+    "dm4": 36.0,
+    "coa4": 25.5
   },
   {
     "roll": 294,
@@ -41622,7 +42778,7 @@ const data = [
     "dept": "SY1",
     "etc": 96,
     "dm": 53.25,
-    "coa": 43.0,
+    "coa": 56.75,
     "fsd-ii": 0,
     "fsd2": 37.5,
     "python2": 29.5,
@@ -41632,7 +42788,7 @@ const data = [
     "sem3marks": 4.4,
     "sem3spi2": 8.8,
     "totalSum": 15.84,
-    "total": 200.75,
+    "total": 214.5,
     "coa2": 13.5,
     "toc2": 11.5,
     "fsd22": 9.0,
@@ -41643,7 +42799,8 @@ const data = [
     "fsd23": 13.5,
     "python23": 8.0,
     "sem3spi": 6.75,
-    "dm4": 36.5
+    "dm4": 36.5,
+    "coa4": 27.5
   },
   {
     "roll": 121,
@@ -41659,7 +42816,7 @@ const data = [
     "dept": "SY1",
     "etc": 100,
     "dm": 78.25,
-    "coa": 64.5,
+    "coa": 81.75,
     "fsd-ii": 0,
     "fsd2": 58.0,
     "python2": 60.0,
@@ -41669,7 +42826,7 @@ const data = [
     "sem3marks": 7.9,
     "sem3spi2": 15.8,
     "totalSum": 28.44,
-    "total": 316.75,
+    "total": 334.0,
     "coa2": 23.5,
     "toc2": 20.0,
     "fsd22": 14.0,
@@ -41680,6 +42837,7 @@ const data = [
     "fsd23": 22.5,
     "python23": 17.0,
     "sem3spi": 8.92,
-    "dm4": 34.5
+    "dm4": 34.5,
+    "coa4": 34.5
   }
 ];
