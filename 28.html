@@ -1372,7 +1372,7 @@
         </div>
     </div>
 
-    <script src="new_datamarksheet.js?v=18"></script>
+    <script src="new_datamarksheet.js?v=19"></script>
     <script>
         (function () {
             'use strict';
@@ -1533,7 +1533,7 @@
                 else if (val >= 35) colorClass = 'badge-yellow';
                 else colorClass = 'badge-red';
                 
-                const suffix = isTopper ? ' 👑' : '';
+                const suffix = isTopper ? '' : '';
                 return `<span class="mark-badge ${colorClass}">${val}${suffix}</span>`;
             }
 
