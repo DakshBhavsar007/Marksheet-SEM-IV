@@ -1380,12 +1380,12 @@
                 /* ═══ ROW BUILDER ═══ */
                 function buildRowHTML(s) {
                     const rank = currentDept === 'Overall' ? s.globalRank : s.deptRank;
-                    const roll = currentMode === 'new' ? rank : s.roll;
+                    const roll = s.roll;
                     const div = s.div;
 
                     let cls = '';
                     if (rank <= 3 && currentMode === 'new') cls = 'row-top';
-                    const isHL = s.dept === 'SY4' && [102, 199, 91, 35, 31, 63, 86, 72].includes(s.roll);
+                    const isHL = s.dept === 'SY4' && [35, 31, 63, 86, 72].includes(s.roll);
                     if (isHL) cls += ' row-hl';
 
                     const dot = isHL ? '<span class="hl-dot"></span>' : '';
