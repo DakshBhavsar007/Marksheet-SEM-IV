@@ -1692,12 +1692,19 @@
                             divMap[key] = { count: 0, t1Sum: 0, t2Sum: 0, t3Sum: 0, t4Sum: 0, totalSum: 0 };
                         }
                         let t1 = 0, t2 = 0, t3 = 0, t4 = 0, total = s[subKey] || 0;
-                        if (subKey === 'dm') { t2 = s.dm2 || 0; t3 = s.dm3 || 0; t4 = s.dm4 || 0; }
-                        else if (subKey === 'coa') { t2 = s.coa2 || 0; t3 = s.coa3 || 0; t4 = s.coa4 || 0; }
-                        else if (subKey === 'fsd2') { t2 = s.fsd22 || 0; t3 = s.fsd23 || 0; t4 = s.fsd24 || 0; }
-                        else if (subKey === 'python2') { t2 = s.python22 || 0; t3 = s.python23 || 0; t4 = s.python24 || 0; }
-                        else if (subKey === 'toc') { t2 = s.toc2 || 0; t3 = s.toc3 || 0; t4 = s.toc4 || 0; }
-                        t1 = Math.max(0, total - (t2 + t3 + t4));
+                        if (subKey === 'dm') { t1 = s.dm1; t2 = s.dm2; t3 = s.dm3; t4 = s.dm4; }
+                        else if (subKey === 'coa') { t1 = s.coa1; t2 = s.coa2; t3 = s.coa3; t4 = s.coa4; }
+                        else if (subKey === 'fsd2') { t1 = s.fsd21; t2 = s.fsd22; t3 = s.fsd23; t4 = s.fsd24; }
+                        else if (subKey === 'python2') { t1 = s.python21 ?? s.fcsp; t2 = s.python22; t3 = s.python23; t4 = s.python24; }
+                        else if (subKey === 'toc') { t1 = s.toc1; t2 = s.toc2; t3 = s.toc3; t4 = s.toc4; }
+
+                        t1 = parseFloat(t1) || 0;
+                        t2 = parseFloat(t2) || 0;
+                        t3 = parseFloat(t3) || 0;
+                        t4 = parseFloat(t4) || 0;
+                        if (!t1 && total && (t2 || t3 || t4)) {
+                            t1 = Math.max(0, total - (t2 + t3 + t4));
+                        }
 
                         divMap[key].count++;
                         divMap[key].t1Sum += t1;

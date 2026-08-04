@@ -47,31 +47,31 @@ with pdfplumber.open(PDF_PATH) as pdf:
                     "dm_t1": parse_mark(mark_tokens[0]),
                     "dm_t2": parse_mark(mark_tokens[1]),
                     "dm_t3": parse_mark(mark_tokens[2]),
-                    "dm_t4": parse_mark(mark_tokens[3]),
+                    "dm_t4": parse_mark(mark_tokens[4]), # out of 25
                     "dm_total": parse_mark(mark_tokens[5]),
                     
                     "coa_t1": parse_mark(mark_tokens[6]),
                     "coa_t2": parse_mark(mark_tokens[7]),
                     "coa_t3": parse_mark(mark_tokens[8]),
-                    "coa_t4": parse_mark(mark_tokens[9]),
+                    "coa_t4": parse_mark(mark_tokens[10]), # out of 25
                     "coa_total": parse_mark(mark_tokens[11]),
                     
                     "toc_t1": parse_mark(mark_tokens[12]),
                     "toc_t2": parse_mark(mark_tokens[13]),
                     "toc_t3": parse_mark(mark_tokens[14]),
-                    "toc_t4": parse_mark(mark_tokens[15]),
+                    "toc_t4": parse_mark(mark_tokens[16]), # out of 25
                     "toc_total": parse_mark(mark_tokens[17]),
                     
                     "fcsp_t1": parse_mark(mark_tokens[18]),
                     "fcsp_t2": parse_mark(mark_tokens[19]),
                     "fcsp_t3": parse_mark(mark_tokens[20]),
-                    "fcsp_t4": parse_mark(mark_tokens[21]),
+                    "fcsp_t4": parse_mark(mark_tokens[22]), # out of 25
                     "fcsp_total": parse_mark(mark_tokens[23]),
                     
                     "fsd_t1": parse_mark(mark_tokens[24]),
                     "fsd_t2": parse_mark(mark_tokens[25]),
                     "fsd_t3": parse_mark(mark_tokens[26]),
-                    "fsd_t4": parse_mark(mark_tokens[27]),
+                    "fsd_t4": parse_mark(mark_tokens[28]), # out of 25
                     "fsd_total": parse_mark(mark_tokens[29]),
                 }
 
@@ -95,27 +95,32 @@ for student in data:
         pdf_m = pdf_records[enroll]
         
         student["dm"] = pdf_m["dm_total"]
+        student["dm1"] = pdf_m["dm_t1"]
         student["dm2"] = pdf_m["dm_t2"]
         student["dm3"] = pdf_m["dm_t3"]
         student["dm4"] = pdf_m["dm_t4"]
         
         student["coa"] = pdf_m["coa_total"]
+        student["coa1"] = pdf_m["coa_t1"]
         student["coa2"] = pdf_m["coa_t2"]
         student["coa3"] = pdf_m["coa_t3"]
         student["coa4"] = pdf_m["coa_t4"]
         
         student["toc"] = pdf_m["toc_total"]
+        student["toc1"] = pdf_m["toc_t1"]
         student["toc2"] = pdf_m["toc_t2"]
         student["toc3"] = pdf_m["toc_t3"]
         student["toc4"] = pdf_m["toc_t4"]
         
         student["python2"] = pdf_m["fcsp_total"]
+        student["python21"] = pdf_m["fcsp_t1"]
         student["python22"] = pdf_m["fcsp_t2"]
         student["python23"] = pdf_m["fcsp_t3"]
         student["python24"] = pdf_m["fcsp_t4"]
         student["fcsp"] = pdf_m["fcsp_t1"]
         
         student["fsd2"] = pdf_m["fsd_total"]
+        student["fsd21"] = pdf_m["fsd_t1"]
         student["fsd22"] = pdf_m["fsd_t2"]
         student["fsd23"] = pdf_m["fsd_t3"]
         student["fsd24"] = pdf_m["fsd_t4"]
