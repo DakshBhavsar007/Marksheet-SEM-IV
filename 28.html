@@ -755,7 +755,7 @@
                     <p id="headerSubtitle"
                         class="text-[0.65rem] sm:text-sm text-[var(--text-secondary)] font-light tracking-wide mt-0.5 flex items-center gap-1.5">
                         <span class="inline-block w-1.5 h-1.5 rounded-full bg-emerald-400 animate-pulse"></span>
-                        Advanced Academic Performance Dashboard &bull; SY4 Sem-IV
+                        Advanced Academic Performance Dashboard &bull; Overall Sem-IV
                     </p>
                 </div>
             </div>
@@ -1924,8 +1924,8 @@
                 window.onload = () => {
                     const vt = document.querySelector('.view-tab.active');
                     if (vt) { setIndicator(vt, 'tabIndicator'); vt.style.color = '#fff'; }
-                    const dt = document.querySelector('.dept-tab[onclick*="SY4"]');
-                    if (dt) window.setDept('SY4', dt);
+                    const dt = document.querySelector('.dept-tab[onclick*="Overall"]');
+                    if (dt) window.setDept('Overall', dt);
                     const footerCount = document.getElementById('footerStudentCount');
                     if (footerCount) footerCount.textContent = allData.length;
                 };
