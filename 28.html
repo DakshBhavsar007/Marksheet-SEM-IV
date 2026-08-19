@@ -1783,6 +1783,9 @@
 
                 /* ═══ SPI CALCULATOR ═══ */
                 function calculateSem4SPI(s) {
+                    if (s.sem4spi !== undefined && s.sem4spi !== null) {
+                        return s.sem4spi;
+                    }
                     function getGP(marks) {
                         const m = Math.round(marks);
                         if (m >= 95) return 10;
